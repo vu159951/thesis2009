@@ -82,3 +82,9 @@ C:\Documents and Settings\Administrator\Desktop\GameDemo1 v11\GameDemo1 v3\Image
 C:\Documents and Settings\Administrator\Desktop\GameDemo1 v11\GameDemo1 v3\ImageTransform\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Documents and Settings\Administrator\Desktop\GameDemo1 v11\GameDemo1 v3\ImageTransform\obj\x86\Debug\imgtrans.dll
 C:\Documents and Settings\Administrator\Desktop\GameDemo1 v11\GameDemo1 v3\ImageTransform\obj\x86\Debug\imgtrans.pdb
+C:\Documents and Settings\Administrator\Desktop\New Folder\src\ImageTransform\bin\x86\Debug\imgtrans.dll
+C:\Documents and Settings\Administrator\Desktop\New Folder\src\ImageTransform\bin\x86\Debug\imgtrans.pdb
+C:\Documents and Settings\Administrator\Desktop\New Folder\src\ImageTransform\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\New Folder\src\ImageTransform\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Documents and Settings\Administrator\Desktop\New Folder\src\ImageTransform\obj\x86\Debug\imgtrans.dll
+C:\Documents and Settings\Administrator\Desktop\New Folder\src\ImageTransform\obj\x86\Debug\imgtrans.pdb

@@ -12,3 +12,4 @@ C:\Users\ThaiBao\Desktop\GameDemo1 v9\GameDemo1 v3\ImageTransform\Content\obj\x8
 C:\Users\ThaiBao\Desktop\GameDemo1 v10\GameDemo1 v3\ImageTransform\Content\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Administrator\Desktop\GameDemo1 v10\GameDemo1 v3\ImageTransform\Content\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Administrator\Desktop\GameDemo1 v11\GameDemo1 v3\ImageTransform\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\New Folder\src\ImageTransform\Content\obj\x86\Debug\ResolveAssemblyReference.cache

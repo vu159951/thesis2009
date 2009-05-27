@@ -134,6 +134,7 @@ namespace GameDemo1.Components
         protected KeyboardState keyState;
         protected MouseState mouseState;
         protected SpriteBatch spriteBatch;
+        protected Texture2D healthImage;
 
 
 
@@ -155,10 +156,11 @@ namespace GameDemo1.Components
             this._currentStatus = Status.IDLE;
             this._color = Color.White;
             this._textureSprites = new List<Texture2D>();
-            this._currentIndex = 0 ;
+            this._currentIndex = 0;
             this._currentRootCoordinate = Config.CURRENT_COORDINATE; // get current coordinate
             this._selectedFlag = false;
             this._selectedImage = game.Content.Load<Texture2D>(Config.PATH_TO_SELECTEDIMAGE);
+            healthImage = this.Game.Content.Load<Texture2D>(Config.PATH_TO_HEALTHIMAGE);
         }
 
         /// <summary>
@@ -168,7 +170,7 @@ namespace GameDemo1.Components
         {
             XmlDocument doc = new XmlDocument();
             doc.Load(pathspecificationfile);
-            this._name = doc.DocumentElement.Name.Replace("_"," ");// get name 
+            this._name = doc.DocumentElement.Name.Replace("_", " ");// get name 
             try
             {
                 this._textureSprites.Clear();
@@ -249,10 +251,24 @@ namespace GameDemo1.Components
             {
                 if ((this.Position.X <= this.CurrentRootCoordinate.X + Game.Window.ClientBounds.Width) && (this.Position.Y <= this.CurrentRootCoordinate.Y + Game.Window.ClientBounds.Height))
                 {
-                    this._boundRectangle = new Rectangle((int)(this.Position.X - this._currentRootCoordinate.X), (int)(this.Position.Y - this._currentRootCoordinate.Y),(int)( this._textureSprites[this._currentIndex].Width * this._percentSize), (int)(this._textureSprites[this._currentIndex].Height * this._percentSize));
+                    this._boundRectangle = new Rectangle((int)(this.Position.X - this._currentRootCoordinate.X), (int)(this.Position.Y - this._currentRootCoordinate.Y), (int)(this._textureSprites[this._currentIndex].Width * this._percentSize), (int)(this._textureSprites[this._currentIndex].Height * this._percentSize));
                     if (this._selectedFlag)
                     {
-                        this.spriteBatch.Draw(this._selectedImage, new Rectangle((int)(this._position.X - 10 - this._currentRootCoordinate.X), (int)(this._position.Y + this._boundRectangle.Width / 2 - this._currentRootCoordinate.Y), this._boundRectangle.Width + 20, this._boundRectangle.Height / 2), this._color);
+                        if (this is Unit)
+                        {
+                            for (int i = 0; i < ((Unit)this).CurrentHealth / 4; i++)
+                            {
+                                this.spriteBatch.Draw(healthImage, new Rectangle((int)(this._position.X - this._currentRootCoordinate.X), (int)(this._position.Y - this._currentRootCoordinate.Y), healthImage.Width * i, healthImage.Height), this._color);
+                            }
+                        }
+                        else if (this is Structure)
+                        {
+                            for (int i = 0; i < ((Structure)this).CurrentHealth / 4; i++)
+                            {
+                                this.spriteBatch.Draw(healthImage, new Rectangle((int)(this._position.X - this._currentRootCoordinate.X), (int)(this._position.Y - this._currentRootCoordinate.Y), healthImage.Width * i, healthImage.Height), this._color);
+                            }
+                        }
+                        this.spriteBatch.Draw(this._selectedImage, new Rectangle((int)(this._position.X - 10 - this._currentRootCoordinate.X), (int)(this._position.Y + this._boundRectangle.Width / 2 - this._currentRootCoordinate.Y), this._boundRectangle.Width + 20, this._boundRectangle.Height / 2), Color.White);
                     }
                     this.spriteBatch.Draw(this._textureSprites[this._currentIndex], this._boundRectangle, this._color);
                 }
@@ -261,8 +277,8 @@ namespace GameDemo1.Components
         }
 
 
-        
-        
+
+
         //-----------------------------------------------------------------------------------------------------------------------------
         //                                              Function
         //-----------------------------------------------------------------------------------------------------------------------------
@@ -283,14 +299,16 @@ namespace GameDemo1.Components
             if (keyState.IsKeyDown(Keys.Down))
             {
                 this._currentRootCoordinate.Y += Config.SPEED_SCROLL.Y;// scrool down
-                if (this._currentRootCoordinate.Y > (Config.MAP_SIZE_IN_CELL.Width * Config.CURRENT_CELL_SIZE.Height - Game.Window.ClientBounds.Height)){
+                if (this._currentRootCoordinate.Y > (Config.MAP_SIZE_IN_CELL.Width * Config.CURRENT_CELL_SIZE.Height - Game.Window.ClientBounds.Height))
+                {
                     this._currentRootCoordinate.Y = Config.MAP_SIZE_IN_CELL.Height * Config.CURRENT_CELL_SIZE.Height - Game.Window.ClientBounds.Height;
                 }
             }
             if (keyState.IsKeyDown(Keys.Left))
             {
                 this._currentRootCoordinate.X -= Config.SPEED_SCROLL.X; // scroll left
-                if (this._currentRootCoordinate.X < 0){
+                if (this._currentRootCoordinate.X < 0)
+                {
                     this._currentRootCoordinate.X = 0;
                 }
             }

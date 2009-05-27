@@ -32,7 +32,8 @@ namespace GameDemo1
         public static string PATH_TO_FONT = "Font\\Mangal";
         public static string PATH_TO_MAP = "Map\\";
         public static string PATH_TO_BATTLEFIELD = "BattleField\\";
-        public static string PATH_TO_SELECTEDIMAGE = "Select\\Red_Magic_Circle";
+        public static string PATH_TO_SELECTEDIMAGE = "SelectImage\\Red";
+        public static string PATH_TO_HEALTHIMAGE = "HealthImage\\Red";
 
         public static string CURSOR = "cursor2";
         public static string MENU_PANEL = "menuPanel2";

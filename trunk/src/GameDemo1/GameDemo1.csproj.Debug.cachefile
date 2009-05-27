@@ -1890,12 +1890,13 @@ Content\Terrain\Shrub_1.xnb
 Content\Terrain\Shrub_2.xnb
 Content\Terrain\Shrub_3.xnb
 Content\Terrain\Shrub_4.xnb
-Content\Select\Red_Magic_Circle.xnb
 Content\Structure\Animal\Animal3.xnb
 Content\Structure\Military\Military3.xnb
 Content\ResourceCenter\RockResourceCenter\RockResourceCenter.xnb
 Content\ResourceCenter\GoldResourceCenter\GoldResourceCenter.xnb
 Content\Cursor\cursor2.xnb
-Content\Font\Mangal.xnb
 Content\Structure\Military\Military.xnb
 Content\Structure\Animal\Animal.xnb
+Content\HealthImage\Red.xnb
+Content\Font\Mangal.xnb
+Content\SelectImage\Red.xnb

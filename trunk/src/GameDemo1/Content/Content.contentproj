@@ -9534,8 +9534,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Select\Red_Magic_Circle.png">
-      <Name>Red_Magic_Circle</Name>
+    <Compile Include="SelectImage\Red.png">
+      <Name>Red</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
@@ -9585,6 +9585,13 @@
   <ItemGroup>
     <Compile Include="Structure\Animal\Animal.png">
       <Name>Animal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HealthImage\Red.png">
+      <Name>Red</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
