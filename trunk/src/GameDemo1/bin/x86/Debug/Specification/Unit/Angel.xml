@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Angel>
+  <RepresentativeImage name="Unit\\Angel\\Angel"/>
+  <Information>
+    <MaxHealth value="100"/>
+    <Power value="5" />
+    <RadiusAttack value="50" />
+    <RadiusDetect value="70" />
+    <Speed value="6" />
+  </Information>
+  <Requirements>
+    <Gold value="30" />
+  </Requirements>
+  
+  <IDLE>
+    <S>
+      <Image name="Unit\\Angel\\000_Angel_IDLE.1.01"/>
+      <Image name="Unit\\Angel\\001_Angel_IDLE.1.02"/>
+      <Image name="Unit\\Angel\\002_Angel_IDLE.1.03"/>
+      <Image name="Unit\\Angel\\003_Angel_IDLE.1.04"/>
+      <Image name="Unit\\Angel\\004_Angel_IDLE.1.05"/>
+      <Image name="Unit\\Angel\\005_Angel_IDLE.1.06"/>
+      <Image name="Unit\\Angel\\006_Angel_IDLE.1.07"/>
+      <Image name="Unit\\Angel\\007_Angel_IDLE.1.08"/>
+      <Image name="Unit\\Angel\\008_Angel_IDLE.1.09"/>
+      <Image name="Unit\\Angel\\009_Angel_IDLE.1.10"/>
+      <Image name="Unit\\Angel\\010_Angel_IDLE.1.11"/>
+      <Image name="Unit\\Angel\\011_Angel_IDLE.1.12"/>
+      <Image name="Unit\\Angel\\012_Angel_IDLE.1.13"/>
+      <Image name="Unit\\Angel\\013_Angel_IDLE.1.14"/>
+      <Image name="Unit\\Angel\\014_Angel_IDLE.1.15"/>
+    </S>
+    <ES>
+      <Image name="Unit\\Angel\\100_Angel_IDLE.2.01"/>
+      <Image name="Unit\\Angel\\101_Angel_IDLE.2.02"/>
+      <Image name="Unit\\Angel\\102_Angel_IDLE.2.03"/>
+      <Image name="Unit\\Angel\\103_Angel_IDLE.2.04"/>
+      <Image name="Unit\\Angel\\104_Angel_IDLE.2.05"/>
+      <Image name="Unit\\Angel\\105_Angel_IDLE.2.06"/>
+      <Image name="Unit\\Angel\\106_Angel_IDLE.2.07"/>
+      <Image name="Unit\\Angel\\107_Angel_IDLE.2.08"/>
+      <Image name="Unit\\Angel\\108_Angel_IDLE.2.09"/>
+      <Image name="Unit\\Angel\\109_Angel_IDLE.2.10"/>
+      <Image name="Unit\\Angel\\110_Angel_IDLE.2.11"/>
+      <Image name="Unit\\Angel\\111_Angel_IDLE.2.12"/>
+      <Image name="Unit\\Angel\\112_Angel_IDLE.2.13"/>
+      <Image name="Unit\\Angel\\113_Angel_IDLE.2.14"/>
+      <Image name="Unit\\Angel\\114_Angel_IDLE.2.15"/>
+    </ES>
+    <E>
+    </E>
+    <EN>
+      <Image name="Unit\\Angel\\200_Angel_IDLE.3.01"/>
+      <Image name="Unit\\Angel\\201_Angel_IDLE.3.02"/>
+      <Image name="Unit\\Angel\\202_Angel_IDLE.3.03"/>
+      <Image name="Unit\\Angel\\203_Angel_IDLE.3.04"/>
+      <Image name="Unit\\Angel\\204_Angel_IDLE.3.05"/>
+      <Image name="Unit\\Angel\\205_Angel_IDLE.3.06"/>
+      <Image name="Unit\\Angel\\206_Angel_IDLE.3.07"/>
+      <Image name="Unit\\Angel\\207_Angel_IDLE.3.08"/>
+      <Image name="Unit\\Angel\\208_Angel_IDLE.3.09"/>
+      <Image name="Unit\\Angel\\209_Angel_IDLE.3.10"/>
+      <Image name="Unit\\Angel\\210_Angel_IDLE.3.11"/>
+      <Image name="Unit\\Angel\\211_Angel_IDLE.3.12"/>
+      <Image name="Unit\\Angel\\212_Angel_IDLE.3.13"/>
+      <Image name="Unit\\Angel\\213_Angel_IDLE.3.14"/>
+      <Image name="Unit\\Angel\\214_Angel_IDLE.3.15"/>
+    </EN>
+    <N>
+      <Image name="Unit\\Angel\\300_Angel_IDLE.4.01"/>
+      <Image name="Unit\\Angel\\301_Angel_IDLE.4.02"/>
+      <Image name="Unit\\Angel\\302_Angel_IDLE.4.03"/>
+      <Image name="Unit\\Angel\\303_Angel_IDLE.4.04"/>
+      <Image name="Unit\\Angel\\304_Angel_IDLE.4.05"/>
+      <Image name="Unit\\Angel\\305_Angel_IDLE.4.06"/>
+      <Image name="Unit\\Angel\\306_Angel_IDLE.4.07"/>
+      <Image name="Unit\\Angel\\307_Angel_IDLE.4.08"/>
+      <Image name="Unit\\Angel\\308_Angel_IDLE.4.09"/>
+      <Image name="Unit\\Angel\\309_Angel_IDLE.4.10"/>
+      <Image name="Unit\\Angel\\310_Angel_IDLE.4.11"/>
+      <Image name="Unit\\Angel\\311_Angel_IDLE.4.12"/>
+      <Image name="Unit\\Angel\\312_Angel_IDLE.4.13"/>
+      <Image name="Unit\\Angel\\313_Angel_IDLE.4.14"/>
+      <Image name="Unit\\Angel\\314_Angel_IDLE.4.15"/>
+    </N>
+    <WN>
+      <Image name="Unit\\Angel\\400_Angel_IDLE.5.01"/>
+      <Image name="Unit\\Angel\\401_Angel_IDLE.5.02"/>
+      <Image name="Unit\\Angel\\402_Angel_IDLE.5.03"/>
+      <Image name="Unit\\Angel\\403_Angel_IDLE.5.04"/>
+      <Image name="Unit\\Angel\\404_Angel_IDLE.5.05"/>
+      <Image name="Unit\\Angel\\405_Angel_IDLE.5.06"/>
+      <Image name="Unit\\Angel\\406_Angel_IDLE.5.07"/>
+      <Image name="Unit\\Angel\\407_Angel_IDLE.5.08"/>
+      <Image name="Unit\\Angel\\408_Angel_IDLE.5.09"/>
+      <Image name="Unit\\Angel\\409_Angel_IDLE.5.10"/>
+      <Image name="Unit\\Angel\\409_Angel_IDLE.5.10"/>
+      <Image name="Unit\\Angel\\410_Angel_IDLE.5.11"/>
+      <Image name="Unit\\Angel\\411_Angel_IDLE.5.12"/>
+      <Image name="Unit\\Angel\\412_Angel_IDLE.5.13"/>
+      <Image name="Unit\\Angel\\413_Angel_IDLE.5.14"/>
+      <Image name="Unit\\Angel\\414_Angel_IDLE.5.15"/>
+    </WN>
+    <W></W>
+    <WS>
+      <Image name="Unit\\Angel\\500_Angel_IDLE.6.01"/>
+      <Image name="Unit\\Angel\\501_Angel_IDLE.6.02"/>
+      <Image name="Unit\\Angel\\502_Angel_IDLE.6.03"/>
+      <Image name="Unit\\Angel\\503_Angel_IDLE.6.04"/>
+      <Image name="Unit\\Angel\\504_Angel_IDLE.6.05"/>
+      <Image name="Unit\\Angel\\505_Angel_IDLE.6.06"/>
+      <Image name="Unit\\Angel\\506_Angel_IDLE.6.07"/>
+      <Image name="Unit\\Angel\\507_Angel_IDLE.6.08"/>
+      <Image name="Unit\\Angel\\508_Angel_IDLE.6.09"/>
+      <Image name="Unit\\Angel\\509_Angel_IDLE.6.10"/>
+      <Image name="Unit\\Angel\\510_Angel_IDLE.6.11"/>
+      <Image name="Unit\\Angel\\511_Angel_IDLE.6.12"/>
+      <Image name="Unit\\Angel\\512_Angel_IDLE.6.13"/>
+      <Image name="Unit\\Angel\\513_Angel_IDLE.6.14"/>
+      <Image name="Unit\\Angel\\514_Angel_IDLE.6.15"/>
+    </WS>
+  </IDLE>
+  <FLY>
+    <S>
+      <Image name="Unit\\Angel\\030_Angel_FLY.1.01"/>
+      <Image name="Unit\\Angel\\031_Angel_FLY.1.02"/>
+      <Image name="Unit\\Angel\\032_Angel_FLY.1.03"/>
+      <Image name="Unit\\Angel\\033_Angel_FLY.1.04"/>
+      <Image name="Unit\\Angel\\034_Angel_FLY.1.05"/>
+      <Image name="Unit\\Angel\\035_Angel_FLY.1.06"/>
+      <Image name="Unit\\Angel\\036_Angel_FLY.1.07"/>
+      <Image name="Unit\\Angel\\037_Angel_FLY.1.08"/>
+      <Image name="Unit\\Angel\\038_Angel_FLY.1.09"/>
+      <Image name="Unit\\Angel\\039_Angel_FLY.1.10"/>
+      <Image name="Unit\\Angel\\040_Angel_FLY.1.11"/>
+      <Image name="Unit\\Angel\\041_Angel_FLY.1.12"/>
+      <Image name="Unit\\Angel\\042_Angel_FLY.1.13"/>
+      <Image name="Unit\\Angel\\043_Angel_FLY.1.14"/>
+      <Image name="Unit\\Angel\\044_Angel_FLY.1.15"/>
+    </S>
+    <ES>
+      <Image name="Unit\\Angel\\130_Angel_FLY.2.01"/>
+      <Image name="Unit\\Angel\\131_Angel_FLY.2.02"/>
+      <Image name="Unit\\Angel\\132_Angel_FLY.2.03"/>
+      <Image name="Unit\\Angel\\133_Angel_FLY.2.04"/>
+      <Image name="Unit\\Angel\\134_Angel_FLY.2.05"/>
+      <Image name="Unit\\Angel\\135_Angel_FLY.2.06"/>
+      <Image name="Unit\\Angel\\136_Angel_FLY.2.07"/>
+      <Image name="Unit\\Angel\\137_Angel_FLY.2.08"/>
+      <Image name="Unit\\Angel\\138_Angel_FLY.2.09"/>
+      <Image name="Unit\\Angel\\139_Angel_FLY.2.10"/>
+      <Image name="Unit\\Angel\\140_Angel_FLY.2.11"/>
+      <Image name="Unit\\Angel\\141_Angel_FLY.2.12"/>
+      <Image name="Unit\\Angel\\142_Angel_FLY.2.13"/>
+      <Image name="Unit\\Angel\\143_Angel_FLY.2.14"/>
+      <Image name="Unit\\Angel\\144_Angel_FLY.2.15"/>
+    </ES>
+    <E>
+      
+    </E>
+    <EN>
+      <Image name="Unit\\Angel\\230_Angel_FLY.3.01"/>
+      <Image name="Unit\\Angel\\231_Angel_FLY.3.02"/>
+      <Image name="Unit\\Angel\\232_Angel_FLY.3.03"/>
+      <Image name="Unit\\Angel\\233_Angel_FLY.3.04"/>
+      <Image name="Unit\\Angel\\234_Angel_FLY.3.05"/>
+      <Image name="Unit\\Angel\\235_Angel_FLY.3.06"/>
+      <Image name="Unit\\Angel\\236_Angel_FLY.3.07"/>
+      <Image name="Unit\\Angel\\237_Angel_FLY.3.08"/>
+      <Image name="Unit\\Angel\\238_Angel_FLY.3.09"/>
+      <Image name="Unit\\Angel\\239_Angel_FLY.3.10"/>
+      <Image name="Unit\\Angel\\240_Angel_FLY.3.11"/>
+      <Image name="Unit\\Angel\\241_Angel_FLY.3.12"/>
+      <Image name="Unit\\Angel\\242_Angel_FLY.3.13"/>
+      <Image name="Unit\\Angel\\243_Angel_FLY.3.14"/>
+      <Image name="Unit\\Angel\\244_Angel_FLY.3.15"/>
+    </EN>
+    <N>
+      <Image name="Unit\\Angel\\330_Angel_FLY.4.01"/>
+      <Image name="Unit\\Angel\\331_Angel_FLY.4.02"/>
+      <Image name="Unit\\Angel\\332_Angel_FLY.4.03"/>
+      <Image name="Unit\\Angel\\333_Angel_FLY.4.04"/>
+      <Image name="Unit\\Angel\\334_Angel_FLY.4.05"/>
+      <Image name="Unit\\Angel\\335_Angel_FLY.4.06"/>
+      <Image name="Unit\\Angel\\336_Angel_FLY.4.07"/>
+      <Image name="Unit\\Angel\\337_Angel_FLY.4.08"/>
+      <Image name="Unit\\Angel\\338_Angel_FLY.4.09"/>
+      <Image name="Unit\\Angel\\339_Angel_FLY.4.10"/>
+      <Image name="Unit\\Angel\\340_Angel_FLY.4.11"/>
+      <Image name="Unit\\Angel\\341_Angel_FLY.4.12"/>
+      <Image name="Unit\\Angel\\342_Angel_FLY.4.13"/>
+      <Image name="Unit\\Angel\\343_Angel_FLY.4.14"/>
+      <Image name="Unit\\Angel\\344_Angel_FLY.4.15"/>
+    </N>
+    <WN>
+      <Image name="Unit\\Angel\\430_Angel_FLY.5.01"/>
+      <Image name="Unit\\Angel\\431_Angel_FLY.5.02"/>
+      <Image name="Unit\\Angel\\432_Angel_FLY.5.03"/>
+      <Image name="Unit\\Angel\\433_Angel_FLY.5.04"/>
+      <Image name="Unit\\Angel\\434_Angel_FLY.5.05"/>
+      <Image name="Unit\\Angel\\435_Angel_FLY.5.06"/>
+      <Image name="Unit\\Angel\\436_Angel_FLY.5.07"/>
+      <Image name="Unit\\Angel\\437_Angel_FLY.5.08"/>
+      <Image name="Unit\\Angel\\438_Angel_FLY.5.09"/>
+      <Image name="Unit\\Angel\\439_Angel_FLY.5.10"/>
+      <Image name="Unit\\Angel\\440_Angel_FLY.5.11"/>
+      <Image name="Unit\\Angel\\441_Angel_FLY.5.12"/>
+      <Image name="Unit\\Angel\\442_Angel_FLY.5.13"/>
+      <Image name="Unit\\Angel\\443_Angel_FLY.5.14"/>
+      <Image name="Unit\\Angel\\444_Angel_FLY.5.15"/>
+    </WN>
+    <W>
+    </W>
+    <WS>
+      <Image name="Unit\\Angel\\530_Angel_FLY.6.01"/>
+      <Image name="Unit\\Angel\\531_Angel_FLY.6.02"/>
+      <Image name="Unit\\Angel\\532_Angel_FLY.6.03"/>
+      <Image name="Unit\\Angel\\533_Angel_FLY.6.04"/>
+      <Image name="Unit\\Angel\\534_Angel_FLY.6.05"/>
+      <Image name="Unit\\Angel\\535_Angel_FLY.6.06"/>
+      <Image name="Unit\\Angel\\536_Angel_FLY.6.07"/>
+      <Image name="Unit\\Angel\\537_Angel_FLY.6.08"/>
+      <Image name="Unit\\Angel\\538_Angel_FLY.6.09"/>
+      <Image name="Unit\\Angel\\539_Angel_FLY.6.10"/>
+      <Image name="Unit\\Angel\\540_Angel_FLY.6.11"/>
+      <Image name="Unit\\Angel\\541_Angel_FLY.6.12"/>
+      <Image name="Unit\\Angel\\542_Angel_FLY.6.13"/>
+      <Image name="Unit\\Angel\\543_Angel_FLY.6.14"/>
+      <Image name="Unit\\Angel\\544_Angel_FLY.6.15"/>
+    </WS>
+  </FLY>
+  <ATTACK>
+    <S>
+      <Image name="Unit\\Angel\\060_Angel_ATTACK.1.01"/>
+      <Image name="Unit\\Angel\\061_Angel_ATTACK.1.02"/>
+      <Image name="Unit\\Angel\\062_Angel_ATTACK.1.03"/>
+      <Image name="Unit\\Angel\\063_Angel_ATTACK.1.04"/>
+      <Image name="Unit\\Angel\\064_Angel_ATTACK.1.05"/>
+      <Image name="Unit\\Angel\\065_Angel_ATTACK.1.06"/>
+      <Image name="Unit\\Angel\\066_Angel_ATTACK.1.07"/>
+      <Image name="Unit\\Angel\\067_Angel_ATTACK.1.08"/>
+    </S>
+    <ES>
+      <Image name="Unit\\Angel\\160_Angel_ATTACK.2.01"/>
+      <Image name="Unit\\Angel\\161_Angel_ATTACK.2.02"/>
+      <Image name="Unit\\Angel\\162_Angel_ATTACK.2.03"/>
+      <Image name="Unit\\Angel\\163_Angel_ATTACK.2.04"/>
+      <Image name="Unit\\Angel\\164_Angel_ATTACK.2.05"/>
+      <Image name="Unit\\Angel\\165_Angel_ATTACK.2.06"/>
+      <Image name="Unit\\Angel\\166_Angel_ATTACK.2.07"/>
+      <Image name="Unit\\Angel\\167_Angel_ATTACK.2.08"/>
+    </ES>
+    <E></E>
+    <EN>
+      <Image name="Unit\\Angel\\260_Angel_ATTACK.3.01"/>
+      <Image name="Unit\\Angel\\261_Angel_ATTACK.3.02"/>
+      <Image name="Unit\\Angel\\262_Angel_ATTACK.3.03"/>
+      <Image name="Unit\\Angel\\263_Angel_ATTACK.3.04"/>
+      <Image name="Unit\\Angel\\264_Angel_ATTACK.3.05"/>
+      <Image name="Unit\\Angel\\265_Angel_ATTACK.3.06"/>
+      <Image name="Unit\\Angel\\266_Angel_ATTACK.3.07"/>
+      <Image name="Unit\\Angel\\267_Angel_ATTACK.3.08"/>
+    </EN>
+    <N>
+      <Image name="Unit\\Angel\\360_Angel_ATTACK.4.01"/>
+      <Image name="Unit\\Angel\\361_Angel_ATTACK.4.02"/>
+      <Image name="Unit\\Angel\\362_Angel_ATTACK.4.03"/>
+      <Image name="Unit\\Angel\\363_Angel_ATTACK.4.04"/>
+      <Image name="Unit\\Angel\\364_Angel_ATTACK.4.05"/>
+      <Image name="Unit\\Angel\\365_Angel_ATTACK.4.06"/>
+      <Image name="Unit\\Angel\\366_Angel_ATTACK.4.07"/>
+      <Image name="Unit\\Angel\\367_Angel_ATTACK.4.08"/>
+    </N>
+    <WN>
+      <Image name="Unit\\Angel\\460_Angel_ATTACK.5.01"/>
+      <Image name="Unit\\Angel\\461_Angel_ATTACK.5.02"/>
+      <Image name="Unit\\Angel\\462_Angel_ATTACK.5.03"/>
+      <Image name="Unit\\Angel\\463_Angel_ATTACK.5.04"/>
+      <Image name="Unit\\Angel\\464_Angel_ATTACK.5.05"/>
+      <Image name="Unit\\Angel\\465_Angel_ATTACK.5.06"/>
+      <Image name="Unit\\Angel\\466_Angel_ATTACK.5.07"/>
+      <Image name="Unit\\Angel\\467_Angel_ATTACK.5.08"/>
+    </WN>
+    <W></W>
+    <WS>
+      <Image name="Unit\\Angel\\560_Angel_ATTACK.6.01"/>
+      <Image name="Unit\\Angel\\561_Angel_ATTACK.6.02"/>
+      <Image name="Unit\\Angel\\562_Angel_ATTACK.6.03"/>
+      <Image name="Unit\\Angel\\563_Angel_ATTACK.6.04"/>
+      <Image name="Unit\\Angel\\564_Angel_ATTACK.6.05"/>
+      <Image name="Unit\\Angel\\565_Angel_ATTACK.6.06"/>
+      <Image name="Unit\\Angel\\566_Angel_ATTACK.6.07"/>
+      <Image name="Unit\\Angel\\567_Angel_ATTACK.6.08"/>
+    </WS>
+  </ATTACK>
+  <HIT count="8">
+    <S>
+      <Image name="Unit\\Angel\\070_Angel_HIT.1.01"/>
+      <Image name="Unit\\Angel\\071_Angel_HIT.1.02"/>
+      <Image name="Unit\\Angel\\072_Angel_HIT.1.03"/>
+      <Image name="Unit\\Angel\\073_Angel_HIT.1.04"/>
+      <Image name="Unit\\Angel\\074_Angel_HIT.1.05"/>
+      <Image name="Unit\\Angel\\075_Angel_HIT.1.06"/>
+      <Image name="Unit\\Angel\\076_Angel_HIT.1.07"/>
+      <Image name="Unit\\Angel\\077_Angel_HIT.1.08"/>
+    </S>
+    <ES>
+      <Image name="Unit\\Angel\\170_Angel_HIT.2.01"/>
+      <Image name="Unit\\Angel\\171_Angel_HIT.2.02"/>
+      <Image name="Unit\\Angel\\172_Angel_HIT.2.03"/>
+      <Image name="Unit\\Angel\\173_Angel_HIT.2.04"/>
+      <Image name="Unit\\Angel\\174_Angel_HIT.2.05"/>
+      <Image name="Unit\\Angel\\175_Angel_HIT.2.06"/>
+      <Image name="Unit\\Angel\\176_Angel_HIT.2.07"/>
+      <Image name="Unit\\Angel\\177_Angel_HIT.2.08"/>
+    </ES>
+    <E>
+      
+    </E>
+    <EN>
+      <Image name="Unit\\Angel\\270_Angel_HIT.3.01"/>
+      <Image name="Unit\\Angel\\271_Angel_HIT.3.02"/>
+      <Image name="Unit\\Angel\\272_Angel_HIT.3.03"/>
+      <Image name="Unit\\Angel\\273_Angel_HIT.3.04"/>
+      <Image name="Unit\\Angel\\274_Angel_HIT.3.05"/>
+      <Image name="Unit\\Angel\\275_Angel_HIT.3.06"/>
+      <Image name="Unit\\Angel\\276_Angel_HIT.3.07"/>
+      <Image name="Unit\\Angel\\277_Angel_HIT.3.08"/>
+    </EN>
+    <N>
+      <Image name="Unit\\Angel\\370_Angel_HIT.4.01"/>
+      <Image name="Unit\\Angel\\371_Angel_HIT.4.02"/>
+      <Image name="Unit\\Angel\\372_Angel_HIT.4.03"/>
+      <Image name="Unit\\Angel\\373_Angel_HIT.4.04"/>
+      <Image name="Unit\\Angel\\374_Angel_HIT.4.05"/>
+      <Image name="Unit\\Angel\\375_Angel_HIT.4.06"/>
+      <Image name="Unit\\Angel\\376_Angel_HIT.4.07"/>
+      <Image name="Unit\\Angel\\377_Angel_HIT.4.08"/>
+    </N>
+    <WN>
+      <Image name="Unit\\Angel\\470_Angel_HIT.5.01"/>
+      <Image name="Unit\\Angel\\471_Angel_HIT.5.02"/>
+      <Image name="Unit\\Angel\\472_Angel_HIT.5.03"/>
+      <Image name="Unit\\Angel\\473_Angel_HIT.5.04"/>
+      <Image name="Unit\\Angel\\474_Angel_HIT.5.05"/>
+      <Image name="Unit\\Angel\\475_Angel_HIT.5.06"/>
+      <Image name="Unit\\Angel\\476_Angel_HIT.5.07"/>
+      <Image name="Unit\\Angel\\477_Angel_HIT.5.08"/>
+    </WN>
+    <W></W>
+    <WS>
+      <Image name="Unit\\Angel\\570_Angel_HIT.6.01"/>
+      <Image name="Unit\\Angel\\571_Angel_HIT.6.02"/>
+      <Image name="Unit\\Angel\\572_Angel_HIT.6.03"/>
+      <Image name="Unit\\Angel\\573_Angel_HIT.6.04"/>
+      <Image name="Unit\\Angel\\574_Angel_HIT.6.05"/>
+      <Image name="Unit\\Angel\\575_Angel_HIT.6.06"/>
+      <Image name="Unit\\Angel\\576_Angel_HIT.6.07"/>
+      <Image name="Unit\\Angel\\577_Angel_HIT.6.08"/>
+    </WS>
+  </HIT>
+  <DEAD count="10">
+    <S>
+      <Image name="Unit\\Angel\\080_Angel_DEAD.1.01"/>
+      <Image name="Unit\\Angel\\081_Angel_DEAD.1.02"/>
+      <Image name="Unit\\Angel\\082_Angel_DEAD.1.03"/>
+      <Image name="Unit\\Angel\\083_Angel_DEAD.1.04"/>
+      <Image name="Unit\\Angel\\084_Angel_DEAD.1.05"/>
+      <Image name="Unit\\Angel\\085_Angel_DEAD.1.06"/>
+      <Image name="Unit\\Angel\\086_Angel_DEAD.1.07"/>
+      <Image name="Unit\\Angel\\087_Angel_DEAD.1.08"/>
+      <Image name="Unit\\Angel\\088_Angel_DEAD.1.09"/>
+      <Image name="Unit\\Angel\\089_Angel_DEAD.1.10"/>
+    </S>
+    <ES>
+      <Image name="Unit\\Angel\\180_Angel_DEAD.2.01"/>
+      <Image name="Unit\\Angel\\181_Angel_DEAD.2.02"/>
+      <Image name="Unit\\Angel\\182_Angel_DEAD.2.03"/>
+      <Image name="Unit\\Angel\\183_Angel_DEAD.2.04"/>
+      <Image name="Unit\\Angel\\184_Angel_DEAD.2.05"/>
+      <Image name="Unit\\Angel\\185_Angel_DEAD.2.06"/>
+      <Image name="Unit\\Angel\\186_Angel_DEAD.2.07"/>
+      <Image name="Unit\\Angel\\187_Angel_DEAD.2.08"/>
+      <Image name="Unit\\Angel\\188_Angel_DEAD.2.09"/>
+      <Image name="Unit\\Angel\\189_Angel_DEAD.2.10"/>
+    </ES>
+    <E>
+      
+    </E>
+    <EN>
+      <Image name="Unit\\Angel\\280_Angel_DEAD.3.01"/>
+      <Image name="Unit\\Angel\\281_Angel_DEAD.3.02"/>
+      <Image name="Unit\\Angel\\282_Angel_DEAD.3.03"/>
+      <Image name="Unit\\Angel\\283_Angel_DEAD.3.04"/>
+      <Image name="Unit\\Angel\\284_Angel_DEAD.3.05"/>
+      <Image name="Unit\\Angel\\285_Angel_DEAD.3.06"/>
+      <Image name="Unit\\Angel\\286_Angel_DEAD.3.07"/>
+      <Image name="Unit\\Angel\\287_Angel_DEAD.3.08"/>
+      <Image name="Unit\\Angel\\288_Angel_DEAD.3.09"/>
+      <Image name="Unit\\Angel\\289_Angel_DEAD.3.10"/>
+    </EN>
+    <N>
+      <Image name="Unit\\Angel\\380_Angel_DEAD.4.01"/>
+      <Image name="Unit\\Angel\\381_Angel_DEAD.4.02"/>
+      <Image name="Unit\\Angel\\382_Angel_DEAD.4.03"/>
+      <Image name="Unit\\Angel\\383_Angel_DEAD.4.04"/>
+      <Image name="Unit\\Angel\\384_Angel_DEAD.4.05"/>
+      <Image name="Unit\\Angel\\385_Angel_DEAD.4.06"/>
+      <Image name="Unit\\Angel\\386_Angel_DEAD.4.07"/>
+      <Image name="Unit\\Angel\\387_Angel_DEAD.4.08"/>
+      <Image name="Unit\\Angel\\388_Angel_DEAD.4.09"/>
+      <Image name="Unit\\Angel\\389_Angel_DEAD.4.10"/>
+    </N>
+    <WN>
+      <Image name="Unit\\Angel\\480_Angel_DEAD.5.01"/>
+      <Image name="Unit\\Angel\\481_Angel_DEAD.5.02"/>
+      <Image name="Unit\\Angel\\482_Angel_DEAD.5.03"/>
+      <Image name="Unit\\Angel\\483_Angel_DEAD.5.04"/>
+      <Image name="Unit\\Angel\\484_Angel_DEAD.5.05"/>
+      <Image name="Unit\\Angel\\485_Angel_DEAD.5.06"/>
+      <Image name="Unit\\Angel\\486_Angel_DEAD.5.07"/>
+      <Image name="Unit\\Angel\\487_Angel_DEAD.5.08"/>
+      <Image name="Unit\\Angel\\488_Angel_DEAD.5.09"/>
+      <Image name="Unit\\Angel\\489_Angel_DEAD.5.10"/>
+    </WN>
+    <W>
+      
+    </W>
+    <WS>
+      <Image name="Unit\\Angel\\580_Angel_DEAD.6.01"/>
+      <Image name="Unit\\Angel\\581_Angel_DEAD.6.02"/>
+      <Image name="Unit\\Angel\\582_Angel_DEAD.6.03"/>
+      <Image name="Unit\\Angel\\583_Angel_DEAD.6.04"/>
+      <Image name="Unit\\Angel\\584_Angel_DEAD.6.05"/>
+      <Image name="Unit\\Angel\\585_Angel_DEAD.6.06"/>
+      <Image name="Unit\\Angel\\586_Angel_DEAD.6.07"/>
+      <Image name="Unit\\Angel\\587_Angel_DEAD.6.08"/>
+      <Image name="Unit\\Angel\\588_Angel_DEAD.6.09"/>
+      <Image name="Unit\\Angel\\589_Angel_DEAD.6.10"/>
+    </WS>
+  </DEAD>
+  <Time value="5"></Time>
+</Angel>

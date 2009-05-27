@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Human_Knight>
+  <RepresentativeImage name="Unit\\Human_Knight\\Humans_Knight"/>
+  <Information>
+    <MaxHealth value="100"/>
+    <Power value="7" />
+    <RadiusAttack value="50" />
+    <RadiusDetect value="60" />
+    <Speed value="3" />
+  </Information>
+  <Requirements>
+    <Gold value="50" />
+  </Requirements>
+
+  <IDLE>
+    <S>
+      <Image name="Unit\\Human_Knight\\000_Humans_Knight_IDLE.1.01"/>
+      <Image name="Unit\\Human_Knight\\\001_Humans_Knight_IDLE.1.02"/>
+      <Image name="Unit\\Human_Knight\\\002_Humans_Knight_IDLE.1.03"/>
+      <Image name="Unit\\Human_Knight\\\003_Humans_Knight_IDLE.1.04"/>
+      <Image name="Unit\\Human_Knight\\\004_Humans_Knight_IDLE.1.05"/>
+      <Image name="Unit\\Human_Knight\\\005_Humans_Knight_IDLE.1.06"/>
+      <Image name="Unit\\Human_Knight\\\006_Humans_Knight_IDLE.1.07"/>
+      <Image name="Unit\\Human_Knight\\\007_Humans_Knight_IDLE.1.08"/>
+      <Image name="Unit\\Human_Knight\\\008_Humans_Knight_IDLE.1.09"/>
+      <Image name="Unit\\Human_Knight\\\009_Humans_Knight_IDLE.1.10"/>
+    </S>
+    <ES>
+      <Image name="Unit\\Human_Knight\\\100_Humans_Knight_IDLE.2.01"/>
+      <Image name="Unit\\Human_Knight\\\101_Humans_Knight_IDLE.2.02"/>
+      <Image name="Unit\\Human_Knight\\\102_Humans_Knight_IDLE.2.03"/>
+      <Image name="Unit\\Human_Knight\\\103_Humans_Knight_IDLE.2.04"/>
+      <Image name="Unit\\Human_Knight\\\104_Humans_Knight_IDLE.2.05"/>
+      <Image name="Unit\\Human_Knight\\\105_Humans_Knight_IDLE.2.06"/>
+      <Image name="Unit\\Human_Knight\\\106_Humans_Knight_IDLE.2.07"/>
+      <Image name="Unit\\Human_Knight\\\107_Humans_Knight_IDLE.2.08"/>
+      <Image name="Unit\\Human_Knight\\\108_Humans_Knight_IDLE.2.09"/>
+      <Image name="Unit\\Human_Knight\\\109_Humans_Knight_IDLE.2.10"/>
+    </ES>
+    <E>
+    </E>
+    <EN>
+      <Image name="Unit\\Human_Knight\\\200_Humans_Knight_IDLE.3.01"/>
+      <Image name="Unit\\Human_Knight\\\201_Humans_Knight_IDLE.3.02"/>
+      <Image name="Unit\\Human_Knight\\\202_Humans_Knight_IDLE.3.03"/>
+      <Image name="Unit\\Human_Knight\\\203_Humans_Knight_IDLE.3.04"/>
+      <Image name="Unit\\Human_Knight\\\204_Humans_Knight_IDLE.3.05"/>
+      <Image name="Unit\\Human_Knight\\\205_Humans_Knight_IDLE.3.06"/>
+      <Image name="Unit\\Human_Knight\\\206_Humans_Knight_IDLE.3.07"/>
+      <Image name="Unit\\Human_Knight\\\207_Humans_Knight_IDLE.3.08"/>
+      <Image name="Unit\\Human_Knight\\\208_Humans_Knight_IDLE.3.09"/>
+      <Image name="Unit\\Human_Knight\\\209_Humans_Knight_IDLE.3.10"/>
+    </EN>
+    <N>
+      <Image name="Unit\\Human_Knight\\\300_Humans_Knight_IDLE.4.01"/>
+      <Image name="Unit\\Human_Knight\\\301_Humans_Knight_IDLE.4.02"/>
+      <Image name="Unit\\Human_Knight\\\302_Humans_Knight_IDLE.4.03"/>
+      <Image name="Unit\\Human_Knight\\\303_Humans_Knight_IDLE.4.04"/>
+      <Image name="Unit\\Human_Knight\\\304_Humans_Knight_IDLE.4.05"/>
+      <Image name="Unit\\Human_Knight\\\305_Humans_Knight_IDLE.4.06"/>
+      <Image name="Unit\\Human_Knight\\\306_Humans_Knight_IDLE.4.07"/>
+      <Image name="Unit\\Human_Knight\\\307_Humans_Knight_IDLE.4.08"/>
+      <Image name="Unit\\Human_Knight\\\308_Humans_Knight_IDLE.4.09"/>
+      <Image name="Unit\\Human_Knight\\\309_Humans_Knight_IDLE.4.10"/>
+    </N>
+    <WN>
+      <Image name="Unit\\Human_Knight\\\400_Humans_Knight_IDLE.5.01"/>
+      <Image name="Unit\\Human_Knight\\\401_Humans_Knight_IDLE.5.02"/>
+      <Image name="Unit\\Human_Knight\\\402_Humans_Knight_IDLE.5.03"/>
+      <Image name="Unit\\Human_Knight\\\403_Humans_Knight_IDLE.5.04"/>
+      <Image name="Unit\\Human_Knight\\\404_Humans_Knight_IDLE.5.05"/>
+      <Image name="Unit\\Human_Knight\\\405_Humans_Knight_IDLE.5.06"/>
+      <Image name="Unit\\Human_Knight\\\406_Humans_Knight_IDLE.5.07"/>
+      <Image name="Unit\\Human_Knight\\\407_Humans_Knight_IDLE.5.08"/>
+      <Image name="Unit\\Human_Knight\\\408_Humans_Knight_IDLE.5.09"/>
+      <Image name="Unit\\Human_Knight\\\409_Humans_Knight_IDLE.5.10"/>
+    </WN>
+    <W></W>
+    <WS>
+      <Image name="Unit\\Human_Knight\\\500_Humans_Knight_IDLE.6.01"/>
+      <Image name="Unit\\Human_Knight\\\501_Humans_Knight_IDLE.6.02"/>
+      <Image name="Unit\\Human_Knight\\\502_Humans_Knight_IDLE.6.03"/>
+      <Image name="Unit\\Human_Knight\\\503_Humans_Knight_IDLE.6.04"/>
+      <Image name="Unit\\Human_Knight\\\504_Humans_Knight_IDLE.6.05"/>
+      <Image name="Unit\\Human_Knight\\\505_Humans_Knight_IDLE.6.06"/>
+      <Image name="Unit\\Human_Knight\\\506_Humans_Knight_IDLE.6.07"/>
+      <Image name="Unit\\Human_Knight\\\507_Humans_Knight_IDLE.6.08"/>
+      <Image name="Unit\\Human_Knight\\\508_Humans_Knight_IDLE.6.09"/>
+      <Image name="Unit\\Human_Knight\\\509_Humans_Knight_IDLE.6.10"/>
+    </WS>
+  </IDLE>
+  <WALK>
+    <S>
+      <Image name="Unit\\Human_Knight\\\030_Humans_Knight_WALK.1.01"/>
+      <Image name="Unit\\Human_Knight\\\031_Humans_Knight_WALK.1.02"/>
+      <Image name="Unit\\Human_Knight\\\032_Humans_Knight_WALK.1.03"/>
+      <Image name="Unit\\Human_Knight\\\033_Humans_Knight_WALK.1.04"/>
+      <Image name="Unit\\Human_Knight\\\034_Humans_Knight_WALK.1.05"/>
+      <Image name="Unit\\Human_Knight\\\035_Humans_Knight_WALK.1.06"/>
+      <Image name="Unit\\Human_Knight\\\036_Humans_Knight_WALK.1.07"/>
+      <Image name="Unit\\Human_Knight\\\037_Humans_Knight_WALK.1.08"/>
+      <Image name="Unit\\Human_Knight\\\038_Humans_Knight_WALK.1.09"/>
+      <Image name="Unit\\Human_Knight\\\039_Humans_Knight_WALK.1.10"/>
+      <Image name="Unit\\Human_Knight\\\040_Humans_Knight_WALK.1.11"/>
+      <Image name="Unit\\Human_Knight\\\041_Humans_Knight_WALK.1.12"/>
+      <Image name="Unit\\Human_Knight\\\042_Humans_Knight_WALK.1.13"/>
+      <Image name="Unit\\Human_Knight\\\043_Humans_Knight_WALK.1.14"/>
+      <Image name="Unit\\Human_Knight\\\044_Humans_Knight_WALK.1.15"/>
+    </S>
+    <ES>
+      <Image name="Unit\\Human_Knight\\\130_Humans_Knight_WALK.2.01"/>
+      <Image name="Unit\\Human_Knight\\\131_Humans_Knight_WALK.2.02"/>
+      <Image name="Unit\\Human_Knight\\\132_Humans_Knight_WALK.2.03"/>
+      <Image name="Unit\\Human_Knight\\\133_Humans_Knight_WALK.2.04"/>
+      <Image name="Unit\\Human_Knight\\\134_Humans_Knight_WALK.2.05"/>
+      <Image name="Unit\\Human_Knight\\\135_Humans_Knight_WALK.2.06"/>
+      <Image name="Unit\\Human_Knight\\\136_Humans_Knight_WALK.2.07"/>
+      <Image name="Unit\\Human_Knight\\\137_Humans_Knight_WALK.2.08"/>
+      <Image name="Unit\\Human_Knight\\\138_Humans_Knight_WALK.2.09"/>
+      <Image name="Unit\\Human_Knight\\\139_Humans_Knight_WALK.2.10"/>
+      <Image name="Unit\\Human_Knight\\\140_Humans_Knight_WALK.2.11"/>
+      <Image name="Unit\\Human_Knight\\\141_Humans_Knight_WALK.2.12"/>
+      <Image name="Unit\\Human_Knight\\\142_Humans_Knight_WALK.2.13"/>
+      <Image name="Unit\\Human_Knight\\\143_Humans_Knight_WALK.2.14"/>
+      <Image name="Unit\\Human_Knight\\\144_Humans_Knight_WALK.2.15"/>
+    </ES>
+    <E>
+      
+    </E>
+    <EN>
+      <Image name="Unit\\Human_Knight\\\230_Humans_Knight_WALK.3.01"/>
+      <Image name="Unit\\Human_Knight\\\231_Humans_Knight_WALK.3.02"/>
+      <Image name="Unit\\Human_Knight\\\232_Humans_Knight_WALK.3.03"/>
+      <Image name="Unit\\Human_Knight\\\233_Humans_Knight_WALK.3.04"/>
+      <Image name="Unit\\Human_Knight\\\234_Humans_Knight_WALK.3.05"/>
+      <Image name="Unit\\Human_Knight\\\235_Humans_Knight_WALK.3.06"/>
+      <Image name="Unit\\Human_Knight\\\236_Humans_Knight_WALK.3.07"/>
+      <Image name="Unit\\Human_Knight\\\237_Humans_Knight_WALK.3.08"/>
+      <Image name="Unit\\Human_Knight\\\238_Humans_Knight_WALK.3.09"/>
+      <Image name="Unit\\Human_Knight\\\239_Humans_Knight_WALK.3.10"/>
+      <Image name="Unit\\Human_Knight\\\240_Humans_Knight_WALK.3.11"/>
+      <Image name="Unit\\Human_Knight\\\241_Humans_Knight_WALK.3.12"/>
+      <Image name="Unit\\Human_Knight\\\242_Humans_Knight_WALK.3.13"/>
+      <Image name="Unit\\Human_Knight\\\243_Humans_Knight_WALK.3.14"/>
+      <Image name="Unit\\Human_Knight\\\244_Humans_Knight_WALK.3.15"/>
+    </EN>
+    <N>
+      <Image name="Unit\\Human_Knight\\\330_Humans_Knight_WALK.4.01"/>
+      <Image name="Unit\\Human_Knight\\\331_Humans_Knight_WALK.4.02"/>
+      <Image name="Unit\\Human_Knight\\\332_Humans_Knight_WALK.4.03"/>
+      <Image name="Unit\\Human_Knight\\\333_Humans_Knight_WALK.4.04"/>
+      <Image name="Unit\\Human_Knight\\\334_Humans_Knight_WALK.4.05"/>
+      <Image name="Unit\\Human_Knight\\\335_Humans_Knight_WALK.4.06"/>
+      <Image name="Unit\\Human_Knight\\\336_Humans_Knight_WALK.4.07"/>
+      <Image name="Unit\\Human_Knight\\\337_Humans_Knight_WALK.4.08"/>
+      <Image name="Unit\\Human_Knight\\\338_Humans_Knight_WALK.4.09"/>
+      <Image name="Unit\\Human_Knight\\\339_Humans_Knight_WALK.4.10"/>
+      <Image name="Unit\\Human_Knight\\\340_Humans_Knight_WALK.4.11"/>
+      <Image name="Unit\\Human_Knight\\\341_Humans_Knight_WALK.4.12"/>
+      <Image name="Unit\\Human_Knight\\\342_Humans_Knight_WALK.4.13"/>
+      <Image name="Unit\\Human_Knight\\\343_Humans_Knight_WALK.4.14"/>
+      <Image name="Unit\\Human_Knight\\\344_Humans_Knight_WALK.4.15"/>
+    </N>
+    <WN>
+      <Image name="Unit\\Human_Knight\\\430_Humans_Knight_WALK.5.01"/>
+      <Image name="Unit\\Human_Knight\\\431_Humans_Knight_WALK.5.02"/>
+      <Image name="Unit\\Human_Knight\\\432_Humans_Knight_WALK.5.03"/>
+      <Image name="Unit\\Human_Knight\\\433_Humans_Knight_WALK.5.04"/>
+      <Image name="Unit\\Human_Knight\\\434_Humans_Knight_WALK.5.05"/>
+      <Image name="Unit\\Human_Knight\\\435_Humans_Knight_WALK.5.06"/>
+      <Image name="Unit\\Human_Knight\\\436_Humans_Knight_WALK.5.07"/>
+      <Image name="Unit\\Human_Knight\\\437_Humans_Knight_WALK.5.08"/>
+      <Image name="Unit\\Human_Knight\\\438_Humans_Knight_WALK.5.09"/>
+      <Image name="Unit\\Human_Knight\\\439_Humans_Knight_WALK.5.10"/>
+      <Image name="Unit\\Human_Knight\\\440_Humans_Knight_WALK.5.11"/>
+      <Image name="Unit\\Human_Knight\\\441_Humans_Knight_WALK.5.12"/>
+      <Image name="Unit\\Human_Knight\\\442_Humans_Knight_WALK.5.13"/>
+      <Image name="Unit\\Human_Knight\\\443_Humans_Knight_WALK.5.14"/>
+      <Image name="Unit\\Human_Knight\\\444_Humans_Knight_WALK.5.15"/>
+    </WN>
+    <W>
+    </W>
+    <WS>
+      <Image name="Unit\\Human_Knight\\\530_Humans_Knight_WALK.6.01"/>
+      <Image name="Unit\\Human_Knight\\\531_Humans_Knight_WALK.6.02"/>
+      <Image name="Unit\\Human_Knight\\\532_Humans_Knight_WALK.6.03"/>
+      <Image name="Unit\\Human_Knight\\\533_Humans_Knight_WALK.6.04"/>
+      <Image name="Unit\\Human_Knight\\\534_Humans_Knight_WALK.6.05"/>
+      <Image name="Unit\\Human_Knight\\\535_Humans_Knight_WALK.6.06"/>
+      <Image name="Unit\\Human_Knight\\\536_Humans_Knight_WALK.6.07"/>
+      <Image name="Unit\\Human_Knight\\\537_Humans_Knight_WALK.6.08"/>
+      <Image name="Unit\\Human_Knight\\\538_Humans_Knight_WALK.6.09"/>
+      <Image name="Unit\\Human_Knight\\\539_Humans_Knight_WALK.6.10"/>
+      <Image name="Unit\\Human_Knight\\\540_Humans_Knight_WALK.6.11"/>
+      <Image name="Unit\\Human_Knight\\\541_Humans_Knight_WALK.6.12"/>
+      <Image name="Unit\\Human_Knight\\\542_Humans_Knight_WALK.6.13"/>
+      <Image name="Unit\\Human_Knight\\\543_Humans_Knight_WALK.6.14"/>
+      <Image name="Unit\\Human_Knight\\\544_Humans_Knight_WALK.6.15"/>
+    </WS>
+  </WALK>
+  <ATTACK>
+    <S>
+      <Image name="Unit\\Human_Knight\\\060_Humans_Knight_ATTACK.1.01"/>
+      <Image name="Unit\\Human_Knight\\\061_Humans_Knight_ATTACK.1.02"/>
+      <Image name="Unit\\Human_Knight\\\062_Humans_Knight_ATTACK.1.03"/>
+      <Image name="Unit\\Human_Knight\\\063_Humans_Knight_ATTACK.1.04"/>
+      <Image name="Unit\\Human_Knight\\\064_Humans_Knight_ATTACK.1.05"/>
+      <Image name="Unit\\Human_Knight\\\065_Humans_Knight_ATTACK.1.06"/>
+      <Image name="Unit\\Human_Knight\\\066_Humans_Knight_ATTACK.1.07"/>
+      <Image name="Unit\\Human_Knight\\\067_Humans_Knight_ATTACK.1.08"/>
+    </S>
+    <ES>
+      <Image name="Unit\\Human_Knight\\\160_Humans_Knight_ATTACK.2.01"/>
+      <Image name="Unit\\Human_Knight\\\161_Humans_Knight_ATTACK.2.02"/>
+      <Image name="Unit\\Human_Knight\\\162_Humans_Knight_ATTACK.2.03"/>
+      <Image name="Unit\\Human_Knight\\\163_Humans_Knight_ATTACK.2.04"/>
+      <Image name="Unit\\Human_Knight\\\164_Humans_Knight_ATTACK.2.05"/>
+      <Image name="Unit\\Human_Knight\\\165_Humans_Knight_ATTACK.2.06"/>
+      <Image name="Unit\\Human_Knight\\\166_Humans_Knight_ATTACK.2.07"/>
+      <Image name="Unit\\Human_Knight\\\167_Humans_Knight_ATTACK.2.08"/>
+    </ES>
+    <E></E>
+    <EN>
+      <Image name="Unit\\Human_Knight\\\260_Humans_Knight_ATTACK.3.01"/>
+      <Image name="Unit\\Human_Knight\\\261_Humans_Knight_ATTACK.3.02"/>
+      <Image name="Unit\\Human_Knight\\\262_Humans_Knight_ATTACK.3.03"/>
+      <Image name="Unit\\Human_Knight\\\263_Humans_Knight_ATTACK.3.04"/>
+      <Image name="Unit\\Human_Knight\\\264_Humans_Knight_ATTACK.3.05"/>
+      <Image name="Unit\\Human_Knight\\\265_Humans_Knight_ATTACK.3.06"/>
+      <Image name="Unit\\Human_Knight\\\266_Humans_Knight_ATTACK.3.07"/>
+      <Image name="Unit\\Human_Knight\\\267_Humans_Knight_ATTACK.3.08"/>
+    </EN>
+    <N>
+      <Image name="Unit\\Human_Knight\\\360_Humans_Knight_ATTACK.4.01"/>
+      <Image name="Unit\\Human_Knight\\\361_Humans_Knight_ATTACK.4.02"/>
+      <Image name="Unit\\Human_Knight\\\362_Humans_Knight_ATTACK.4.03"/>
+      <Image name="Unit\\Human_Knight\\\363_Humans_Knight_ATTACK.4.04"/>
+      <Image name="Unit\\Human_Knight\\\364_Humans_Knight_ATTACK.4.05"/>
+      <Image name="Unit\\Human_Knight\\\365_Humans_Knight_ATTACK.4.06"/>
+      <Image name="Unit\\Human_Knight\\\366_Humans_Knight_ATTACK.4.07"/>
+      <Image name="Unit\\Human_Knight\\\367_Humans_Knight_ATTACK.4.08"/>
+    </N>
+    <WN>
+      <Image name="Unit\\Human_Knight\\\460_Humans_Knight_ATTACK.5.01"/>
+      <Image name="Unit\\Human_Knight\\\461_Humans_Knight_ATTACK.5.02"/>
+      <Image name="Unit\\Human_Knight\\\462_Humans_Knight_ATTACK.5.03"/>
+      <Image name="Unit\\Human_Knight\\\463_Humans_Knight_ATTACK.5.04"/>
+      <Image name="Unit\\Human_Knight\\\464_Humans_Knight_ATTACK.5.05"/>
+      <Image name="Unit\\Human_Knight\\\465_Humans_Knight_ATTACK.5.06"/>
+      <Image name="Unit\\Human_Knight\\\466_Humans_Knight_ATTACK.5.07"/>
+      <Image name="Unit\\Human_Knight\\\467_Humans_Knight_ATTACK.5.08"/>
+    </WN>
+    <W></W>
+    <WS>
+      <Image name="Unit\\Human_Knight\\\560_Humans_Knight_ATTACK.6.01"/>
+      <Image name="Unit\\Human_Knight\\\561_Humans_Knight_ATTACK.6.02"/>
+      <Image name="Unit\\Human_Knight\\\562_Humans_Knight_ATTACK.6.03"/>
+      <Image name="Unit\\Human_Knight\\\563_Humans_Knight_ATTACK.6.04"/>
+      <Image name="Unit\\Human_Knight\\\564_Humans_Knight_ATTACK.6.05"/>
+      <Image name="Unit\\Human_Knight\\\565_Humans_Knight_ATTACK.6.06"/>
+      <Image name="Unit\\Human_Knight\\\566_Humans_Knight_ATTACK.6.07"/>
+      <Image name="Unit\\Human_Knight\\\567_Humans_Knight_ATTACK.6.08"/>
+    </WS>
+  </ATTACK>
+  <HIT count="8">
+    <S>
+      <Image name="Unit\\Human_Knight\\\070_Humans_Knight_HIT.1.01"/>
+      <Image name="Unit\\Human_Knight\\\071_Humans_Knight_HIT.1.02"/>
+      <Image name="Unit\\Human_Knight\\\072_Humans_Knight_HIT.1.03"/>
+      <Image name="Unit\\Human_Knight\\\073_Humans_Knight_HIT.1.04"/>
+      <Image name="Unit\\Human_Knight\\\074_Humans_Knight_HIT.1.05"/>
+      <Image name="Unit\\Human_Knight\\\075_Humans_Knight_HIT.1.06"/>
+      <Image name="Unit\\Human_Knight\\\076_Humans_Knight_HIT.1.07"/>
+      <Image name="Unit\\Human_Knight\\\077_Humans_Knight_HIT.1.08"/>
+    </S>
+    <ES>
+      <Image name="Unit\\Human_Knight\\\170_Humans_Knight_HIT.2.01"/>
+      <Image name="Unit\\Human_Knight\\\171_Humans_Knight_HIT.2.02"/>
+      <Image name="Unit\\Human_Knight\\\172_Humans_Knight_HIT.2.03"/>
+      <Image name="Unit\\Human_Knight\\\173_Humans_Knight_HIT.2.04"/>
+      <Image name="Unit\\Human_Knight\\\174_Humans_Knight_HIT.2.05"/>
+      <Image name="Unit\\Human_Knight\\\175_Humans_Knight_HIT.2.06"/>
+      <Image name="Unit\\Human_Knight\\\176_Humans_Knight_HIT.2.07"/>
+      <Image name="Unit\\Human_Knight\\\177_Humans_Knight_HIT.2.08"/>
+    </ES>
+    <E>
+      
+    </E>
+    <EN>
+      <Image name="Unit\\Human_Knight\\\270_Humans_Knight_HIT.3.01"/>
+      <Image name="Unit\\Human_Knight\\\271_Humans_Knight_HIT.3.02"/>
+      <Image name="Unit\\Human_Knight\\\272_Humans_Knight_HIT.3.03"/>
+      <Image name="Unit\\Human_Knight\\\273_Humans_Knight_HIT.3.04"/>
+      <Image name="Unit\\Human_Knight\\\274_Humans_Knight_HIT.3.05"/>
+      <Image name="Unit\\Human_Knight\\\275_Humans_Knight_HIT.3.06"/>
+      <Image name="Unit\\Human_Knight\\\276_Humans_Knight_HIT.3.07"/>
+      <Image name="Unit\\Human_Knight\\\277_Humans_Knight_HIT.3.08"/>
+    </EN>
+    <N>
+      <Image name="Unit\\Human_Knight\\\370_Humans_Knight_HIT.4.01"/>
+      <Image name="Unit\\Human_Knight\\\371_Humans_Knight_HIT.4.02"/>
+      <Image name="Unit\\Human_Knight\\\372_Humans_Knight_HIT.4.03"/>
+      <Image name="Unit\\Human_Knight\\\373_Humans_Knight_HIT.4.04"/>
+      <Image name="Unit\\Human_Knight\\\374_Humans_Knight_HIT.4.05"/>
+      <Image name="Unit\\Human_Knight\\\375_Humans_Knight_HIT.4.06"/>
+      <Image name="Unit\\Human_Knight\\\376_Humans_Knight_HIT.4.07"/>
+      <Image name="Unit\\Human_Knight\\\377_Humans_Knight_HIT.4.08"/>
+    </N>
+    <WN>
+      <Image name="Unit\\Human_Knight\\\470_Humans_Knight_HIT.5.01"/>
+      <Image name="Unit\\Human_Knight\\\471_Humans_Knight_HIT.5.02"/>
+      <Image name="Unit\\Human_Knight\\\472_Humans_Knight_HIT.5.03"/>
+      <Image name="Unit\\Human_Knight\\\473_Humans_Knight_HIT.5.04"/>
+      <Image name="Unit\\Human_Knight\\\474_Humans_Knight_HIT.5.05"/>
+      <Image name="Unit\\Human_Knight\\\475_Humans_Knight_HIT.5.06"/>
+      <Image name="Unit\\Human_Knight\\\476_Humans_Knight_HIT.5.07"/>
+      <Image name="Unit\\Human_Knight\\\477_Humans_Knight_HIT.5.08"/>
+    </WN>
+    <W></W>
+    <WS>
+      <Image name="Unit\\Human_Knight\\\570_Humans_Knight_HIT.6.01"/>
+      <Image name="Unit\\Human_Knight\\\571_Humans_Knight_HIT.6.02"/>
+      <Image name="Unit\\Human_Knight\\\572_Humans_Knight_HIT.6.03"/>
+      <Image name="Unit\\Human_Knight\\\573_Humans_Knight_HIT.6.04"/>
+      <Image name="Unit\\Human_Knight\\\574_Humans_Knight_HIT.6.05"/>
+      <Image name="Unit\\Human_Knight\\\575_Humans_Knight_HIT.6.06"/>
+      <Image name="Unit\\Human_Knight\\\576_Humans_Knight_HIT.6.07"/>
+      <Image name="Unit\\Human_Knight\\\577_Humans_Knight_HIT.6.08"/>
+    </WS>
+  </HIT>
+  <DEAD count="10">
+    <S>
+      <Image name="Unit\\Human_Knight\\\080_Humans_Knight_DEAD.1.01"/>
+      <Image name="Unit\\Human_Knight\\\081_Humans_Knight_DEAD.1.02"/>
+      <Image name="Unit\\Human_Knight\\\082_Humans_Knight_DEAD.1.03"/>
+      <Image name="Unit\\Human_Knight\\\083_Humans_Knight_DEAD.1.04"/>
+      <Image name="Unit\\Human_Knight\\\084_Humans_Knight_DEAD.1.05"/>
+      <Image name="Unit\\Human_Knight\\\085_Humans_Knight_DEAD.1.06"/>
+      <Image name="Unit\\Human_Knight\\\086_Humans_Knight_DEAD.1.07"/>
+      <Image name="Unit\\Human_Knight\\\087_Humans_Knight_DEAD.1.08"/>
+      <Image name="Unit\\Human_Knight\\\088_Humans_Knight_DEAD.1.09"/>
+      <Image name="Unit\\Human_Knight\\\089_Humans_Knight_DEAD.1.10"/>
+    </S>
+    <ES>
+      <Image name="Unit\\Human_Knight\\\180_Humans_Knight_DEAD.2.01"/>
+      <Image name="Unit\\Human_Knight\\\181_Humans_Knight_DEAD.2.02"/>
+      <Image name="Unit\\Human_Knight\\\182_Humans_Knight_DEAD.2.03"/>
+      <Image name="Unit\\Human_Knight\\\183_Humans_Knight_DEAD.2.04"/>
+      <Image name="Unit\\Human_Knight\\\184_Humans_Knight_DEAD.2.05"/>
+      <Image name="Unit\\Human_Knight\\\185_Humans_Knight_DEAD.2.06"/>
+      <Image name="Unit\\Human_Knight\\\186_Humans_Knight_DEAD.2.07"/>
+      <Image name="Unit\\Human_Knight\\\187_Humans_Knight_DEAD.2.08"/>
+      <Image name="Unit\\Human_Knight\\\188_Humans_Knight_DEAD.2.09"/>
+      <Image name="Unit\\Human_Knight\\\189_Humans_Knight_DEAD.2.10"/>
+    </ES>
+    <E>
+      
+    </E>
+    <EN>
+      <Image name="Unit\\Human_Knight\\\280_Humans_Knight_DEAD.3.01"/>
+      <Image name="Unit\\Human_Knight\\\281_Humans_Knight_DEAD.3.02"/>
+      <Image name="Unit\\Human_Knight\\\282_Humans_Knight_DEAD.3.03"/>
+      <Image name="Unit\\Human_Knight\\\283_Humans_Knight_DEAD.3.04"/>
+      <Image name="Unit\\Human_Knight\\\284_Humans_Knight_DEAD.3.05"/>
+      <Image name="Unit\\Human_Knight\\\285_Humans_Knight_DEAD.3.06"/>
+      <Image name="Unit\\Human_Knight\\\286_Humans_Knight_DEAD.3.07"/>
+      <Image name="Unit\\Human_Knight\\\287_Humans_Knight_DEAD.3.08"/>
+      <Image name="Unit\\Human_Knight\\\288_Humans_Knight_DEAD.3.09"/>
+      <Image name="Unit\\Human_Knight\\\289_Humans_Knight_DEAD.3.10"/>
+    </EN>
+    <N>
+      <Image name="Unit\\Human_Knight\\\380_Humans_Knight_DEAD.4.01"/>
+      <Image name="Unit\\Human_Knight\\\381_Humans_Knight_DEAD.4.02"/>
+      <Image name="Unit\\Human_Knight\\\382_Humans_Knight_DEAD.4.03"/>
+      <Image name="Unit\\Human_Knight\\\383_Humans_Knight_DEAD.4.04"/>
+      <Image name="Unit\\Human_Knight\\\384_Humans_Knight_DEAD.4.05"/>
+      <Image name="Unit\\Human_Knight\\\385_Humans_Knight_DEAD.4.06"/>
+      <Image name="Unit\\Human_Knight\\\386_Humans_Knight_DEAD.4.07"/>
+      <Image name="Unit\\Human_Knight\\\387_Humans_Knight_DEAD.4.08"/>
+      <Image name="Unit\\Human_Knight\\\388_Humans_Knight_DEAD.4.09"/>
+      <Image name="Unit\\Human_Knight\\\389_Humans_Knight_DEAD.4.10"/>
+    </N>
+    <WN>
+      <Image name="Unit\\Human_Knight\\\480_Humans_Knight_DEAD.5.01"/>
+      <Image name="Unit\\Human_Knight\\\481_Humans_Knight_DEAD.5.02"/>
+      <Image name="Unit\\Human_Knight\\\482_Humans_Knight_DEAD.5.03"/>
+      <Image name="Unit\\Human_Knight\\\483_Humans_Knight_DEAD.5.04"/>
+      <Image name="Unit\\Human_Knight\\\484_Humans_Knight_DEAD.5.05"/>
+      <Image name="Unit\\Human_Knight\\\485_Humans_Knight_DEAD.5.06"/>
+      <Image name="Unit\\Human_Knight\\\486_Humans_Knight_DEAD.5.07"/>
+      <Image name="Unit\\Human_Knight\\\487_Humans_Knight_DEAD.5.08"/>
+      <Image name="Unit\\Human_Knight\\\488_Humans_Knight_DEAD.5.09"/>
+      <Image name="Unit\\Human_Knight\\\489_Humans_Knight_DEAD.5.10"/>
+    </WN>
+    <W>
+      
+    </W>
+    <WS>
+      <Image name="Unit\\Human_Knight\\\580_Humans_Knight_DEAD.6.01"/>
+      <Image name="Unit\\Human_Knight\\\581_Humans_Knight_DEAD.6.02"/>
+      <Image name="Unit\\Human_Knight\\\582_Humans_Knight_DEAD.6.03"/>
+      <Image name="Unit\\Human_Knight\\\583_Humans_Knight_DEAD.6.04"/>
+      <Image name="Unit\\Human_Knight\\\584_Humans_Knight_DEAD.6.05"/>
+      <Image name="Unit\\Human_Knight\\\585_Humans_Knight_DEAD.6.06"/>
+      <Image name="Unit\\Human_Knight\\\586_Humans_Knight_DEAD.6.07"/>
+      <Image name="Unit\\Human_Knight\\\587_Humans_Knight_DEAD.6.08"/>
+      <Image name="Unit\\Human_Knight\\\588_Humans_Knight_DEAD.6.09"/>
+      <Image name="Unit\\Human_Knight\\\589_Humans_Knight_DEAD.6.10"/>
+    </WS>
+  </DEAD>
+  <Time value="5"></Time>
+</Human_Knight>

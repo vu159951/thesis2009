@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Military>
+  <RepresentativeImage name="Structure\\Military\\Military"/>
+  <Time value="15"/>
+  <ListUnits>
+    <Unit name="Human_Knight" />
+    <Unit name="Angel" />
+  </ListUnits>
+  <Informations>
+    <MaxHealth value="100"/>
+    <Power value="0" />
+    <RadiusAttack value="0" />
+    <RadiusDetect value="0" />
+    <Speed value="0" />
+  </Informations>
+  <Requirements>
+    <Rock value="1500" />
+    <Gold value="200" />
+  </Requirements>
+  
+  <IDLE>
+    <S>
+      <Image name="Structure\\Military\\Military1" />
+      <Image name="Structure\\Military\\Military2" />
+    </S>
+    <ES>
+    </ES>
+    <E>
+    </E>
+    <EN>
+    </EN>
+    <N>     
+    </N>
+    <WN>      
+    </WN>
+    <W></W>
+    <WS>      
+    </WS>
+  </IDLE>
+  <WALK>
+    <S>     
+    </S>
+    <ES>     
+    </ES>
+    <E>      
+    </E>
+    <EN>
+    </EN>
+    <N>      
+    </N>
+    <WN>      
+    </WN>
+    <W>
+    </W>
+    <WS>     
+    </WS>
+  </WALK>
+  <ATTACK>
+    <S>      
+    </S>
+    <ES>      
+    </ES>
+    <E></E>
+    <EN>      
+    </EN>
+    <N>      
+    </N>
+    <WN>      
+    </WN>
+    <W></W>
+    <WS>      
+    </WS>
+  </ATTACK>
+  <HIT>
+    <S>      
+    </S>
+    <ES>      
+    </ES>
+    <E>      
+    </E>
+    <EN>      
+    </EN>
+    <N>      
+    </N>
+    <WN>      
+    </WN>
+    <W></W>
+    <WS>      
+    </WS>
+  </HIT>
+  <DEAD>
+    <S>
+      <Image name="Structure\\Military\\Military3" />
+    </S>
+    <ES>      
+    </ES>
+    <E>      
+    </E>
+    <EN>      
+    </EN>
+    <N>      
+    </N>
+    <WN>      
+    </WN>
+    <W>      
+    </W>
+    <WS> 
+    </WS>
+  </DEAD>
+</Military>
