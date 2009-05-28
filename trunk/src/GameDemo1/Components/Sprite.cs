@@ -56,7 +56,7 @@ namespace GameDemo1.Components
         private string _name;// name sprite: name from xml
         private Color _color;// color to draw
         private Texture2D _selectedImage;// image which present that it selected
-        private Boolean _selectedFlag;// flag to present that it selected
+        private Boolean _selectedFlag = false;// flag to present that it selected
         private float _percentSize;//
 
         public float PercentSize
@@ -268,7 +268,7 @@ namespace GameDemo1.Components
                                 this.spriteBatch.Draw(healthImage, new Rectangle((int)(this._position.X - this._currentRootCoordinate.X), (int)(this._position.Y - this._currentRootCoordinate.Y), healthImage.Width * i, healthImage.Height), this._color);
                             }
                         }
-                        this.spriteBatch.Draw(this._selectedImage, new Rectangle((int)(this._position.X - 10 - this._currentRootCoordinate.X), (int)(this._position.Y + this._boundRectangle.Width / 2 - this._currentRootCoordinate.Y), this._boundRectangle.Width + 20, this._boundRectangle.Height / 2), Color.White);
+                        //this.spriteBatch.Draw(this._selectedImage, new Rectangle((int)(this._position.X - 10 - this._currentRootCoordinate.X), (int)(this._position.Y + this._boundRectangle.Width / 2 - this._currentRootCoordinate.Y), this._boundRectangle.Width + 20, this._boundRectangle.Height / 2), Color.White);
                     }
                     this.spriteBatch.Draw(this._textureSprites[this._currentIndex], this._boundRectangle, this._color);
                 }
