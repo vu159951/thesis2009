@@ -256,14 +256,14 @@ namespace GameDemo1.Components
                     {
                         if (this is Unit)
                         {
-                            for (int i = 0; i < ((Unit)this).CurrentHealth / 4; i++)
+                            for (int i = 0; i < ((Unit)this).CurrentHealth/2; i++)
                             {
                                 this.spriteBatch.Draw(healthImage, new Rectangle((int)(this._position.X - this._currentRootCoordinate.X), (int)(this._position.Y - this._currentRootCoordinate.Y), healthImage.Width * i, healthImage.Height), this._color);
                             }
                         }
                         else if (this is Structure)
                         {
-                            for (int i = 0; i < ((Structure)this).CurrentHealth / 4; i++)
+                            for (int i = 0; i < ((Structure)this).CurrentHealth/2; i++)
                             {
                                 this.spriteBatch.Draw(healthImage, new Rectangle((int)(this._position.X - this._currentRootCoordinate.X), (int)(this._position.Y - this._currentRootCoordinate.Y), healthImage.Width * i, healthImage.Height), this._color);
                             }

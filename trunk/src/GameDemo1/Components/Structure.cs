@@ -93,8 +93,7 @@ namespace GameDemo1.Components
         {
             this.PercentSize = 1.0f;
             this._flagAttacked = false;
-            this.CodeFaction = codeFaction;
-            this._maxHealth = 100;// helth of stucture
+            this.CodeFaction = codeFaction;            
             this._technologies = new List<Technology>(); // set of techs
             this.Position = position;// for position
             this.PathSpecificationFile = pathspecificationfile;// get path to specification file

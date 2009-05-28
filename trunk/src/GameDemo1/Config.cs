@@ -14,7 +14,7 @@ namespace GameDemo1
         /// Size of a map cell in pixel.
         /// </summary>
         /// 
-        public static Size SCREEN_SIZE = new Size(1000, 600);
+        public static Size SCREEN_SIZE = new Size(1000, 700);
         public static Size MENU_PANEL_SIZE = new Size(1000, 170);
         public static Size CURRENT_CELL_SIZE;   // get in map initialization
         public static Vector2 SPEED_SCROLL = new Vector2(20, 20);
