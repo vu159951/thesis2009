@@ -22,6 +22,7 @@ namespace GameDemo1
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         ManagerPlayer _managerPlayer;
+        ManagerGame _managerGame;
 
         public MainGame()
         {
@@ -57,36 +58,40 @@ namespace GameDemo1
             // TODO: use this.Content to load your game content here
 
 
+            /// 
+            /// Manager element
+            /// 
             this._managerPlayer = new ManagerPlayer(this);
-                /// for map 
-            this._managerPlayer.LoadBattleField(Config.PATH_TO_BATTLEFIELD + "Map_1.xml");
+            this._managerGame = new ManagerGame(this);
+                /// load map 
+            this._managerGame.LoadBattleField(Config.PATH_TO_BATTLEFIELD + "Map_1.xml");
                 /// load resource center
             ResourceCenter rock = new ResourceCenter(this, "Rock", 10000, Config.PATH_TO_RESOURCECENTER_XML + "RockResourceCenter.xml", new Vector2(2500, 1600));
             ResourceCenter gold = new ResourceCenter(this, "Gold", 10000, Config.PATH_TO_RESOURCECENTER_XML + "GoldResourceCenter.xml", new Vector2(4800, 1800));
             this.Components.Add(rock);
             this.Components.Add(gold);
-
-                /// for player
+            
+                /// for players
                 /// player 1
             Player player1 = new Player(this);
             player1.Code = 1;
             player1.Color = Color.White;
             player1.Structures.Add(new Structure(this, Config.PATH_TO_STRUCTURE_XML + "Military.xml", new Vector2(2000, 2300),1));// add structure
-            this._managerPlayer.ListStructureOnMap.Add(player1.Structures[0]);
+            this._managerGame.ListStructureOnMap.Add(player1.Structures[0]);
             player1.Structures.Add(new Structure(this, Config.PATH_TO_STRUCTURE_XML + "Animal.xml", new Vector2(2000, 2500),1));
-            this._managerPlayer.ListStructureOnMap.Add(player1.Structures[1]);
+            this._managerGame.ListStructureOnMap.Add(player1.Structures[1]);
             player1.Units.Add(new Unit(this, Config.PATH_TO_UNIT_XML + "Phoenix.xml", new Vector2(2700, 2100), 1));// add Unit
-            this._managerPlayer.ListUnitOnMap.Add(player1.Units[0]);
+            this._managerGame.ListUnitOnMap.Add(player1.Units[0]);
             player1.Units.Add(new Unit(this, Config.PATH_TO_UNIT_XML + "Phoenix.xml", new Vector2(2400, 2000), 1));
-            this._managerPlayer.ListUnitOnMap.Add(player1.Units[1]);
+            this._managerGame.ListUnitOnMap.Add(player1.Units[1]);
             player1.Units.Add(new Unit(this, Config.PATH_TO_UNIT_XML + "Phoenix.xml", new Vector2(2500, 2300), 1));
-            this._managerPlayer.ListUnitOnMap.Add(player1.Units[2]);
+            this._managerGame.ListUnitOnMap.Add(player1.Units[2]);
             player1.Units.Add(new Unit(this, Config.PATH_TO_UNIT_XML + "Angel.xml", new Vector2(2300, 2300), 1));
-            this._managerPlayer.ListUnitOnMap.Add(player1.Units[3]);
+            this._managerGame.ListUnitOnMap.Add(player1.Units[3]);
             player1.Units.Add(new Unit(this, Config.PATH_TO_UNIT_XML + "Angel.xml", new Vector2(2400, 2300), 1));
-            this._managerPlayer.ListUnitOnMap.Add(player1.Units[4]);
+            this._managerGame.ListUnitOnMap.Add(player1.Units[4]);
             player1.Units.Add(new Unit(this, Config.PATH_TO_UNIT_XML + "Angel.xml", new Vector2(2200, 2100), 1));
-            this._managerPlayer.ListUnitOnMap.Add(player1.Units[5]);
+            this._managerGame.ListUnitOnMap.Add(player1.Units[5]);
             for (int i = 0; i < player1.Units.Count; i++)
             {
                 ((Structure)player1.Structures[0]).Units.Add(player1.Units[i]);
@@ -105,21 +110,21 @@ namespace GameDemo1
             player2.Code = 2;
             player2.Color = Color.Red;
             player2.Structures.Add(new Structure(this, Config.PATH_TO_STRUCTURE_XML + "Military.xml", new Vector2(4000, 1300),2));// add structure
-            this._managerPlayer.ListStructureOnMap.Add(player2.Structures[0]);
+            this._managerGame.ListStructureOnMap.Add(player2.Structures[0]);
             player2.Structures.Add(new Structure(this, Config.PATH_TO_STRUCTURE_XML + "Animal.xml", new Vector2(4000, 1500),2));
-            this._managerPlayer.ListStructureOnMap.Add(player2.Structures[1]);
+            this._managerGame.ListStructureOnMap.Add(player2.Structures[1]);
             player2.Units.Add(new Unit(this, Config.PATH_TO_UNIT_XML + "Phoenix.xml", new Vector2(4700, 1100), 2));// add Unit
-            this._managerPlayer.ListUnitOnMap.Add(player2.Units[0]);
+            this._managerGame.ListUnitOnMap.Add(player2.Units[0]);
             player2.Units.Add(new Unit(this, Config.PATH_TO_UNIT_XML + "Phoenix.xml", new Vector2(4400, 1000), 2));
-            this._managerPlayer.ListUnitOnMap.Add(player2.Units[1]);
+            this._managerGame.ListUnitOnMap.Add(player2.Units[1]);
             player2.Units.Add(new Unit(this, Config.PATH_TO_UNIT_XML + "Phoenix.xml", new Vector2(4500, 1300), 2));
-            this._managerPlayer.ListUnitOnMap.Add(player2.Units[2]);
+            this._managerGame.ListUnitOnMap.Add(player2.Units[2]);
             player2.Units.Add(new Unit(this, Config.PATH_TO_UNIT_XML + "Angel.xml", new Vector2(4300, 1300), 2));
-            this._managerPlayer.ListUnitOnMap.Add(player2.Units[3]);
+            this._managerGame.ListUnitOnMap.Add(player2.Units[3]);
             player2.Units.Add(new Unit(this, Config.PATH_TO_UNIT_XML + "Angel.xml", new Vector2(4400, 1300), 2));
-            this._managerPlayer.ListUnitOnMap.Add(player2.Units[4]);
+            this._managerGame.ListUnitOnMap.Add(player2.Units[4]);
             player2.Units.Add(new Unit(this, Config.PATH_TO_UNIT_XML + "Angel.xml", new Vector2(4200, 1100), 2));
-            this._managerPlayer.ListUnitOnMap.Add(player2.Units[5]);
+            this._managerGame.ListUnitOnMap.Add(player2.Units[5]);
             for (int i = 0; i < player2.Units.Count; i++)
             {
                 ((Structure)player2.Structures[0]).Units.Add(player2.Units[i]);
@@ -133,13 +138,17 @@ namespace GameDemo1
             {
                 this.Components.Add(player2.Structures[i]);
             }
-            this._managerPlayer.Players.Add(player1);
-            this._managerPlayer.CreateMenuItemIsStructure();
-            this._managerPlayer.Players.Add(player2);
 
-                // add cursor finally
+            /// add manager element
+            this._managerGame.Players.Add(player1);
+            this._managerGame.Players.Add(player2);
+            this._managerPlayer.PlayerIsUser = player1;// choose player is user
+            this._managerPlayer.CreateMenuItemIsStructure();
+
+            /// add cursor finally
             this.Components.Add(this._managerPlayer);
-            this.Components.Add(this._managerPlayer.Cursor);            
+            this.Components.Add(this._managerGame);
+            this.Components.Add(this._managerGame.Cursor);            
         }
 
         /// <summary>
@@ -166,8 +175,8 @@ namespace GameDemo1
 
 
             // click mouse
-            this._managerPlayer.MousePressedOnMap(this);
-            this._managerPlayer.MouseUpOnMap(this);
+            this._managerPlayer.MousePressedOnMap();
+            this._managerPlayer.MouseUpOnMap();
             this._managerPlayer.MouseClickOnMenu();
 
 

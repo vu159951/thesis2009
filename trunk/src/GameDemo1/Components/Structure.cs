@@ -65,10 +65,7 @@ namespace GameDemo1.Components
             set { _flagAttacked = value; }
         }
 
-
-
-
-        private int lastTickCountForChangeImage = System.Environment.TickCount;// counter delay time for change texture
+        protected int lastTickCountForChangeImage = System.Environment.TickCount;// counter delay time for change texture
 
         #endregion
 
@@ -164,7 +161,7 @@ namespace GameDemo1.Components
 
             base.Draw(gameTime);
         }
-#endregion
+        #endregion
 
 
 
