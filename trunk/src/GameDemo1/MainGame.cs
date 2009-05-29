@@ -57,28 +57,31 @@ namespace GameDemo1
             this.Services.AddService(typeof(SpriteBatch), spriteBatch);
             // TODO: use this.Content to load your game content here
 
+            ProducerUnit iii = new ProducerUnit(this, Config.PATH_TO_UNIT_XML + "Phoenix.xml", new Vector2(2700, 2100), 1);
 
             /// 
             /// Manager element
             /// 
             this._managerPlayer = new ManagerPlayer(this);
             this._managerGame = new ManagerGame(this);
-                /// load map 
+            /// load map 
             this._managerGame.LoadBattleField(Config.PATH_TO_BATTLEFIELD + "Map_1.xml");
-                /// load resource center
+            /// load resource center
             ResourceCenter rock = new ResourceCenter(this, "Rock", 10000, Config.PATH_TO_RESOURCECENTER_XML + "RockResourceCenter.xml", new Vector2(2500, 1600));
             ResourceCenter gold = new ResourceCenter(this, "Gold", 10000, Config.PATH_TO_RESOURCECENTER_XML + "GoldResourceCenter.xml", new Vector2(4800, 1800));
+            this._managerGame.ListResourceCenterOnmap.Add(rock);
+            this._managerGame.ListResourceCenterOnmap.Add(gold);
             this.Components.Add(rock);
             this.Components.Add(gold);
-            
-                /// for players
-                /// player 1
+
+            /// for players
+            /// player 1
             Player player1 = new Player(this);
             player1.Code = 1;
             player1.Color = Color.White;
-            player1.Structures.Add(new Structure(this, Config.PATH_TO_STRUCTURE_XML + "Military.xml", new Vector2(2000, 2300),1));// add structure
+            player1.Structures.Add(new Structure(this, Config.PATH_TO_STRUCTURE_XML + "Military.xml", new Vector2(2000, 2300), 1));// add structure
             this._managerGame.ListStructureOnMap.Add(player1.Structures[0]);
-            player1.Structures.Add(new Structure(this, Config.PATH_TO_STRUCTURE_XML + "Animal.xml", new Vector2(2000, 2500),1));
+            player1.Structures.Add(new Structure(this, Config.PATH_TO_STRUCTURE_XML + "Animal.xml", new Vector2(2000, 2500), 1));
             this._managerGame.ListStructureOnMap.Add(player1.Structures[1]);
             player1.Units.Add(new Unit(this, Config.PATH_TO_UNIT_XML + "Phoenix.xml", new Vector2(2700, 2100), 1));// add Unit
             this._managerGame.ListUnitOnMap.Add(player1.Units[0]);
@@ -105,13 +108,13 @@ namespace GameDemo1
             {
                 this.Components.Add(player1.Structures[i]);
             }
-                /// player 2
+            /// player 2
             Player player2 = new Player(this);
             player2.Code = 2;
             player2.Color = Color.Red;
-            player2.Structures.Add(new Structure(this, Config.PATH_TO_STRUCTURE_XML + "Military.xml", new Vector2(4000, 1300),2));// add structure
+            player2.Structures.Add(new Structure(this, Config.PATH_TO_STRUCTURE_XML + "Military.xml", new Vector2(4000, 1300), 2));// add structure
             this._managerGame.ListStructureOnMap.Add(player2.Structures[0]);
-            player2.Structures.Add(new Structure(this, Config.PATH_TO_STRUCTURE_XML + "Animal.xml", new Vector2(4000, 1500),2));
+            player2.Structures.Add(new Structure(this, Config.PATH_TO_STRUCTURE_XML + "Animal.xml", new Vector2(4000, 1500), 2));
             this._managerGame.ListStructureOnMap.Add(player2.Structures[1]);
             player2.Units.Add(new Unit(this, Config.PATH_TO_UNIT_XML + "Phoenix.xml", new Vector2(4700, 1100), 2));// add Unit
             this._managerGame.ListUnitOnMap.Add(player2.Units[0]);
@@ -148,7 +151,7 @@ namespace GameDemo1
             /// add cursor finally
             this.Components.Add(this._managerPlayer);
             this.Components.Add(this._managerGame);
-            this.Components.Add(this._managerGame.Cursor);            
+            this.Components.Add(this._managerGame.Cursor);
         }
 
         /// <summary>

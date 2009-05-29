@@ -90,6 +90,7 @@
     <Compile Include="Calculus\SquareTransform.cs" />
     <Compile Include="Calculus\Transform.cs" />
     <Compile Include="Components\CursorGame.cs" />
+    <Compile Include="Components\ProducerUnit.cs" />
     <Compile Include="Components\RhombusMap.cs" />
     <Compile Include="Components\Map.cs" />
     <Compile Include="Components\Unit.cs" />

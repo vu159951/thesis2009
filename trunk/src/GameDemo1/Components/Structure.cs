@@ -99,6 +99,7 @@ namespace GameDemo1.Components
             // get name of all units which it can create, 
             // time to build finish, and set delay time to build
             // max health
+            // required resource
             this.GetInformationStructure();
         }
 
