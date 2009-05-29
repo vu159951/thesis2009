@@ -96,7 +96,11 @@ namespace GameDemo1.Components
             {
                 this.PerformGetReource();
             }
-
+            else
+            {
+                this.GoToResourceCenter();
+            }
+            this.FleeIfBeAttacked();
             base.Update(gameTime);
         }
 
@@ -132,6 +136,27 @@ namespace GameDemo1.Components
                         this._currentResourceExploit = null;
                     }
                 }
+            }
+        }
+
+        public void GoToResourceCenter()
+        {
+ 
+        }
+
+        public void CombackToDischargeResource()
+        {
+ 
+        }
+
+        public void FleeIfBeAttacked()
+        {
+            if (this.FlagBeAttacked == true)// if it is arttacked
+            {
+                // it flee
+                Random ran = new Random(DateTime.Now.Millisecond);
+                this.EndPoint = new Point((int)this.Position.X + ran.Next(-100, 100), (int)this.Position.Y + ran.Next(-100,100));
+                this.CreateMovingVector();                
             }
         }
         #endregion
