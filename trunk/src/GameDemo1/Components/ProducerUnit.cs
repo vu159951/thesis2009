@@ -124,7 +124,7 @@ namespace GameDemo1.Components
                         this._currentResourceExploit = null;
                     }
                 }
-                else if (this._currentResourceExploit.NameSource == "Rock")
+                else if (this._currentResourceExploit.NameSource == "Gold")
                 {
                     this._listResourceToGet[1].Quantity += 1;
                     if (this._listResourceToGet[1].Quantity >= this._maxExploit)

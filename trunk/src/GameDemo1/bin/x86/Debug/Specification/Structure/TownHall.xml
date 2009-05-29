@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TownHall>
+  <RepresentativeImage name="Structure\\TownHall\\TownHall"/>
+  <Time value="20"></Time>
+  <ListUnits>
+  </ListUnits>
+  <Informations>
+    <MaxHealth value="400"/>
+    <Power value="0" />
+    <RadiusAttack value="0" />
+    <RadiusDetect value="0" />
+    <Speed value="0" />
+  </Informations>
+  <Requirements>    
+  </Requirements>
+  
+  <IDLE>
+    <S>
+      <Image name="Structure\\TownHall\\TownHall1"/>
+    </S>
+    <ES>
+    </ES>
+    <E>
+    </E>
+    <EN>
+    </EN>
+    <N>     
+    </N>
+    <WN>      
+    </WN>
+    <W></W>
+    <WS>      
+    </WS>
+  </IDLE>
+  <WALK>
+    <S>     
+    </S>
+    <ES>     
+    </ES>
+    <E>      
+    </E>
+    <EN>
+    </EN>
+    <N>      
+    </N>
+    <WN>      
+    </WN>
+    <W>
+    </W>
+    <WS>     
+    </WS>
+  </WALK>
+  <ATTACK>
+    <S>      
+    </S>
+    <ES>      
+    </ES>
+    <E></E>
+    <EN>      
+    </EN>
+    <N>      
+    </N>
+    <WN>      
+    </WN>
+    <W></W>
+    <WS>      
+    </WS>
+  </ATTACK>
+  <HIT>
+    <S>      
+    </S>
+    <ES>      
+    </ES>
+    <E>      
+    </E>
+    <EN>      
+    </EN>
+    <N>      
+    </N>
+    <WN>      
+    </WN>
+    <W></W>
+    <WS>      
+    </WS>
+  </HIT>
+  <DEAD>
+    <S>
+      <Image name="Structure\\TownHall\\TownHall2"/>
+    </S>
+    <ES>      
+    </ES>
+    <E>      
+    </E>
+    <EN>      
+    </EN>
+    <N>      
+    </N>
+    <WN>      
+    </WN>
+    <W>      
+    </W>
+    <WS>      
+    </WS>
+  </DEAD>
+</TownHall>

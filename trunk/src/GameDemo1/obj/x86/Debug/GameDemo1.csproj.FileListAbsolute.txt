@@ -26657,3 +26657,6 @@ C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\obj\x86\
 C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\obj\x86\Debug\GameDemo1.exe
 C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\obj\x86\Debug\GameDemo1.pdb
+C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\bin\x86\Debug\Content\Structure\TownHall\TownHall.xnb
+C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\bin\x86\Debug\Content\Structure\TownHall\TownHall1.xnb
+C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\bin\x86\Debug\Content\Structure\TownHall\TownHall2.xnb

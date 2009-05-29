@@ -81,7 +81,7 @@ namespace GameDemo1
             player1.Color = Color.White;
             player1.Structures.Add(new Structure(this, Config.PATH_TO_STRUCTURE_XML + "Military.xml", new Vector2(2000, 2300), 1));// add structure
             this._managerGame.ListStructureOnMap.Add(player1.Structures[0]);
-            player1.Structures.Add(new Structure(this, Config.PATH_TO_STRUCTURE_XML + "Animal.xml", new Vector2(2000, 2500), 1));
+            player1.Structures.Add(new Structure(this, Config.PATH_TO_STRUCTURE_XML + "TownHall.xml", new Vector2(2000, 2500), 1));
             this._managerGame.ListStructureOnMap.Add(player1.Structures[1]);
             player1.Units.Add(new Unit(this, Config.PATH_TO_UNIT_XML + "Phoenix.xml", new Vector2(2700, 2100), 1));// add Unit
             this._managerGame.ListUnitOnMap.Add(player1.Units[0]);

@@ -17119,6 +17119,33 @@
       <Output>C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\bin\x86\Debug\Content\Font\Mangal.xnb</Output>
       <Time>2009-05-28T09:49:53.3541476+07:00</Time>
     </Item>
+    <Item>
+      <Source>Structure\TownHall\TownHall.png</Source>
+      <Name>Structure\TownHall\TownHall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\bin\x86\Debug\Content\Structure\TownHall\TownHall.xnb</Output>
+      <Time>2009-05-29T14:02:28.40625+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Structure\TownHall\TownHall1.png</Source>
+      <Name>Structure\TownHall\TownHall1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\bin\x86\Debug\Content\Structure\TownHall\TownHall1.xnb</Output>
+      <Time>2009-05-29T14:02:46.8125+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Structure\TownHall\TownHall2.png</Source>
+      <Name>Structure\TownHall\TownHall2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\bin\x86\Debug\Content\Structure\TownHall\TownHall2.xnb</Output>
+      <Time>2009-05-29T14:02:53.734375+07:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
