@@ -19,18 +19,12 @@ namespace GameDemo1.Components
     public class ResourceCenter : Sprite
     {
         #region Properties
-        private string _nameResource;// name of resource
-        private int _quantity; // quantity of this resource
+        Resource _resourceInfo;
 
-        public int Quantity
+        public Resource ResourceInfo
         {
-            get { return _quantity; }
-            set { _quantity = value; }
-        }
-        public string NameResource
-        {
-            get { return _nameResource; }
-            set { _nameResource = value; }
+            get { return _resourceInfo; }
+            set { _resourceInfo = value; }
         }
 
         #endregion
@@ -53,8 +47,7 @@ namespace GameDemo1.Components
             this.PathSpecificationFile = pathspecificationfile;// get path to specification file
             this.GetSetOfTexturesForSprite(pathspecificationfile);// get texture
             this.CodeFaction = 0; // is neutral object
-            this._nameResource = name;
-            this._quantity = qualtity;
+            this._resourceInfo = new Resource(name,qualtity);
         }
 
         /// <summary>

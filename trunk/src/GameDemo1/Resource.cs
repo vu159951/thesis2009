@@ -19,7 +19,7 @@ namespace GameDemo1
     /// </summary>
     public class Resource
     {
-        private string _nameSource;
+        private string _nameResource;
         private int _quantity;
 
         public int Quantity
@@ -27,10 +27,10 @@ namespace GameDemo1
             get { return _quantity; }
             set { _quantity = value; }
         }
-        public string NameSource
+        public string NameRerource
         {
-            get { return _nameSource; }
-            set { _nameSource = value; }
+            get { return _nameResource; }
+            set { _nameResource = value; }
         }
 
         // ----------------------------------------------------------------------------------
@@ -43,7 +43,7 @@ namespace GameDemo1
 
         public Resource(string name, int quantity)
         {
-            this._nameSource = name;
+            this._nameResource = name;
             this._quantity = quantity;
         }
     }

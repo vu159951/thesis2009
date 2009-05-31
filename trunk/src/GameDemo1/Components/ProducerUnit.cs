@@ -21,7 +21,7 @@ namespace GameDemo1.Components
     {
         #region Properties
         private List<Resource> _listResourceToGet;// list resources which this producer is bringing on itself
-        private Resource _currentResourceExploit;// current resource which it is exploiting
+        private ResourceCenter _currentResourceExploit;// current resource center which it is exploiting
         private int _maxExploit;// max number that this producer can exploit
         private int _speedExploit;// quatity this producer can exploit in 1/60 s(one time to perform update method)
 
@@ -71,7 +71,7 @@ namespace GameDemo1.Components
             // max exploiting
             this._maxExploit = 100;
             this._speedExploit = 1;
-            this._currentResourceExploit = new Resource();
+            this._currentResourceExploit = null;
         }
 
         /// <summary>
@@ -94,11 +94,12 @@ namespace GameDemo1.Components
             // TODO: Add your update code here
             if (this._currentResourceExploit != null)
             {
+                this.CheckCurrentResourceCenter();
                 this.PerformGetReource();
             }
-            else
+            else if (this._currentResourceExploit == null)
             {
-                this.GoToResourceCenter();
+                this.FindToResourceCenter();
             }
             this.FleeIfBeAttacked();
             base.Update(gameTime);
@@ -115,47 +116,75 @@ namespace GameDemo1.Components
         #endregion
 
         #region Functions
+        /// <summary>
+        /// Explote resource
+        /// </summary>
         public void PerformGetReource()
         {
             if ((System.Environment.TickCount - this._lastTickCountForGetResource) > this._delayTimeGetResource)
             {
                 this._lastTickCountForGetResource = System.Environment.TickCount;
-                if (this._currentResourceExploit.NameSource == "Rock")
+                if (this._currentResourceExploit.ResourceInfo.NameRerource == "Rock")
                 {
-                    this._listResourceToGet[0].Quantity += 1;
+                    this._currentResourceExploit.ResourceInfo.Quantity -= this._speedExploit;
                     if (this._listResourceToGet[0].Quantity >= this._maxExploit)
                     {
                         this._currentResourceExploit = null;
+                        // return townhall
                     }
+                    this._listResourceToGet[0].Quantity += this._speedExploit;
                 }
-                else if (this._currentResourceExploit.NameSource == "Gold")
+                else if (this._currentResourceExploit.ResourceInfo.NameRerource == "Gold")
                 {
-                    this._listResourceToGet[1].Quantity += 1;
+                    this._currentResourceExploit.ResourceInfo.Quantity -= this._speedExploit;
                     if (this._listResourceToGet[1].Quantity >= this._maxExploit)
                     {
                         this._currentResourceExploit = null;
+                        // return townhall
                     }
+                    this._listResourceToGet[1].Quantity += this._speedExploit;
                 }
             }
         }
 
-        public void GoToResourceCenter()
+        /// <summary>
+        /// Check ResourceCenter still in border exploiting
+        /// </summary>
+        public void CheckCurrentResourceCenter()
         {
- 
+            if (!((ResourceCenter)(this._currentResourceExploit)).BoundRectangle.Intersects(this.BoundRectangle))
+            {
+                this._currentResourceExploit = null;
+            }
         }
 
-        public void CombackToDischargeResource()
+        /// <summary>
+        /// find rsource center
+        /// </summary>
+        public void FindToResourceCenter()
         {
- 
+            for (int i = 0; i < ManagerGame._listResourceCenterOnmap.Count; i++)
+            {
+                if (ManagerGame._listResourceCenterOnmap[i].BoundRectangle.Intersects(this.BoundRectangle))
+                {
+                    this._currentResourceExploit = (ResourceCenter)ManagerGame._listResourceCenterOnmap[i];
+                    this.CurrentStatus = Status.ATTACK;
+                    this.GetSetOfTexturesForSprite(this.PathSpecificationFile);
+                    return;
+                }
+            }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         public void FleeIfBeAttacked()
         {
             if (this.FlagBeAttacked == true)// if it is arttacked
             {
                 // it flee
                 Random ran = new Random(DateTime.Now.Millisecond);
-                this.EndPoint = new Point((int)this.Position.X + ran.Next(-100, 100), (int)this.Position.Y + ran.Next(-100,100));
+                this.EndPoint = new Point((int)this.Position.X + ran.Next(-100, 0), (int)this.Position.Y + ran.Next(-100,0));
                 this.CreateMovingVector();                
             }
         }

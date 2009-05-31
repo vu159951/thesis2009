@@ -132,7 +132,7 @@ namespace GameDemo1
             {
                 for (int j = 0; j < this._resources.Count; j++)
                 {
-                    if (structure.RequirementResource[i].NameSource == this._resources[j].NameSource)
+                    if (structure.RequirementResource[i].NameRerource == this._resources[j].NameRerource)
                     {
                         if (structure.RequirementResource[i].Quantity > this._resources[j].Quantity)
                         {
@@ -150,7 +150,7 @@ namespace GameDemo1
             {
                 for (int j = 0; j < this._resources.Count; j++)
                 {
-                    if (structure.RequirementResource[i].NameSource == this._resources[j].NameSource)
+                    if (structure.RequirementResource[i].NameRerource == this._resources[j].NameRerource)
                     {
                         this._resources[j].Quantity -= structure.RequirementResource[i].Quantity;
                     }

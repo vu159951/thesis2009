@@ -25,7 +25,7 @@ namespace GameDemo1
         private Map _map;// map for game
         public static List<Sprite> _listUnitOnMap = new List<Sprite>();// list which manager unit on map
         public static List<Sprite> _listStructureOnMap = new List<Sprite>();// list which manager structure on map        
-        public static List<Sprite> _listResourceCenterOnmap = new List<Sprite>();// list which resource center on map
+        public static List<Sprite> _listResourceCenterOnmap = new List<Sprite>();// list which resource center on map       
         private CursorGame _cursor; // cursor game
         private List<Player> _players; // players of game
 
