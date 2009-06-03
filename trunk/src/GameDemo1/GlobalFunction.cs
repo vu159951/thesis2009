@@ -16,6 +16,13 @@ namespace GameDemo1
 {
     class GlobalFunction
     {
+        /// <summary>
+        /// Tạo ra vecto di chuyển dựa vào tọa độ điểm đầu và cuối
+        /// </summary>
+        /// <param name="endPoint"></param>
+        /// <param name="currentPosition"></param>
+        /// <param name="speed"></param>
+        /// <returns></returns>
         public static Vector2 CreateMovingVector(Point endPoint, Vector2 currentPosition, int speed)
         {
             Vector2 result = Vector2.Zero;
