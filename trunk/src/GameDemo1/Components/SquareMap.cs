@@ -12,8 +12,8 @@ namespace GameDemo1.Components
 {
     public class SquareMap : Map
     {
-        public readonly System.Drawing.Size CELL_SIZE = new System.Drawing.Size(64, 64);
-        public readonly Point ROOT_Vector2 = new Point(0,0);
+        public readonly System.Drawing.Size CELL_SIZE = new System.Drawing.Size(64, 64); // kích thước cell hình uông để lát nền map
+        public readonly Point ROOT_Vector2 = new Point(0,0); // vị trí gốc của map
 
         public SquareMap(Game game, string pathSpecificationFile, Vector2 currentrootcoordiante): base(game)
         {
@@ -22,12 +22,16 @@ namespace GameDemo1.Components
             Config.CURRENT_CELL_SIZE = CELL_SIZE;
             Transform = new SquareTransform(ROOT_Vector2, CELL_SIZE.Width, CELL_SIZE.Height);
 
+            // load ma trận số mô tả cách lát nền và thực hiện lát nền cho map
             MatrixMgr matrixmgr = new MatrixMgr();
             matrixmgr.Read(this._pathSpecificationFile);
             this._bgMatrix = matrixmgr.Matrix;
-            this.LoadMapCells(this._bgMatrix);
+            this.LoadMapCells(this._bgMatrix);// load cell hình để lát nền
         }
 
+        /// <summary>
+        ///  Scroll map bằng phím
+        /// </summary>
         protected override void ScrollingMapByKeyBoard()
         {
             this.keyState = Keyboard.GetState(); // get key
@@ -66,6 +70,10 @@ namespace GameDemo1.Components
             Config.CURRENT_COORDINATE = this._currentRootCoordinate;
             return;
         }
+
+        /// <summary>
+        /// Scrool map bằng chuột
+        /// </summary>
         protected override void ScrollingMapByMouse()
         {
             this.mouseState = Mouse.GetState();
@@ -104,6 +112,10 @@ namespace GameDemo1.Components
             Config.CURRENT_COORDINATE = this._currentRootCoordinate;
             return;
         }
+
+        /// <summary>
+        /// Tính ra các cell sẽ vẽ trong viewport -> chỉ có cell trong view port mới được vẽ
+        /// </summary>
         protected override void DrawBackGround()
         {
             int i1 = (int)this._currentRootCoordinate.X / CELL_SIZE.Width;// get x index of cell at start view area
@@ -112,10 +124,11 @@ namespace GameDemo1.Components
             int j2 = (int)(this._currentRootCoordinate.Y + Game.Window.ClientBounds.Height) / CELL_SIZE.Height;// get y index of cell at end view area
             {
                 for (int i = i1; i <= i2; i++){
-                    for (int j = j1; j <= j2; j++){
+                    for (int j = j1; j <= j2; j++){ // với mỗi cell trong view port
                         try
                         {
                             // draw cell in above index
+                            // tính ra vị trí và vẽ chúng
                             Rectangle recToDraw = new Rectangle((int)(this.cells[i, j].X - this._currentRootCoordinate.X), (int)(this.cells[i, j].Y - this._currentRootCoordinate.Y), CELL_SIZE.Width, CELL_SIZE.Height);// calculating new postion of cell with current root coodinate
                             spriteBatch.Draw(this.cells[i, j].Background, recToDraw, Color.White);
                         } catch
@@ -124,6 +137,11 @@ namespace GameDemo1.Components
                 }
             }
         }
+
+        /// <summary>
+        /// Load hình của cell lên để lát vào map
+        /// </summary>
+        /// <param name="matrixmap"></param>
         protected override void LoadMapCells(int[,] matrixmap)
         {
             this.cells = new MapCell[Config.MAP_SIZE_IN_CELL.Width, Config.MAP_SIZE_IN_CELL.Height];

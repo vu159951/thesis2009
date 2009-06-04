@@ -12,8 +12,8 @@ namespace GameDemo1.Components
 {
     public class RhombusMap : Map
     {
-        public readonly System.Drawing.Size CELL_SIZE = new System.Drawing.Size(97, 49);
-        public readonly Point ROOT_Vector2;
+        public readonly System.Drawing.Size CELL_SIZE = new System.Drawing.Size(97, 49);// kích thước 1 cell hình thoi sẽ vẽ
+        public readonly Point ROOT_Vector2;// điểm làm gốc
 
         public RhombusMap(Game game, string pathSpecificationFile, Vector2 currentrootcoordiante)
             : base(game)
@@ -25,12 +25,16 @@ namespace GameDemo1.Components
             Transform = new RomhbusTransform(ROOT_Vector2, CELL_SIZE.Width, CELL_SIZE.Height);
 
             // get matrix from file and load map
+            // lấy ma trận số từ file đặc tả
             MatrixMgr matrixmgr = new MatrixMgr();
             matrixmgr.Read(this._pathSpecificationFile);
             this._bgMatrix = matrixmgr.Matrix;
-            this.LoadMapCells(this._bgMatrix);
+            this.LoadMapCells(this._bgMatrix); // load các cell dựa vào ma trận số
         }
 
+        /// <summary>
+        /// Scroll map bằng phím -> tính lại tọa độ cho góc trái trên viewport theo hệ tọa độ toàn map
+        /// </summary>
         protected override void ScrollingMapByKeyBoard()
         {
             this.keyState = Keyboard.GetState(); // get key
@@ -70,6 +74,9 @@ namespace GameDemo1.Components
             return;
         }
 
+        /// <summary>
+        /// Scroll map bằng chuột -> tính lại tọa độ cho góc trái trên viewport theo hệ tọa độ toàn map
+        /// </summary>
         protected override void ScrollingMapByMouse()
         {
             this.mouseState = Mouse.GetState(); // get mouse
@@ -109,9 +116,13 @@ namespace GameDemo1.Components
             return;
         }
 
+        /// <summary>
+        /// Tính toán và vẽ các cell vào viewport
+        /// </summary>
         protected override void DrawBackGround()
         {
             // calculate which cells to draw
+            // tính toán ra các cell cần phải vẽ hiện tại -> chỉ các cell nằm trong view port hiện tại mới được vẽ ra màn hình, các cell ngoài vùng view port sẽ ko được vẽ
             Point cell1 = transform.PointToCell(new Point((int)(this._currentRootCoordinate.X + Game.Window.ClientBounds.Width),(int) (this._currentRootCoordinate.Y)));
             Point cell2 = transform.PointToCell(new Point((int)(this._currentRootCoordinate.X), (int)(this._currentRootCoordinate.Y + Game.Window.ClientBounds.Height)));
             Point cell3 = transform.PointToCell(new Point((int)(this._currentRootCoordinate.X), (int)(this._currentRootCoordinate.Y)));
@@ -159,16 +170,17 @@ namespace GameDemo1.Components
 
             for (int i = i1; i <= i2; i++)
             {
-                for (int j = j1; j <= j2; j++)
+                for (int j = j1; j <= j2; j++) // với các cell được phéo vẽ
                 {
                     try
                     {
-                        // draw cell in above index
+                        // tính ra vị trí sẽ vẽ cell trong view port dựa và position của cell trong hệ tọa độ map
+                        // và tọa độ của góc trái trên của view port
                         Rectangle recToDraw = new Rectangle(
                             (int)(this.cells[i, j].X - this._currentRootCoordinate.X),
                             (int)(this.cells[i, j].Y - this._currentRootCoordinate.Y),
-                            CELL_SIZE.Width, CELL_SIZE.Height);// calculating new postion of cell with current root coodinate
-                        spriteBatch.Draw(this.cells[i, j].Background, recToDraw, Color.White);
+                            CELL_SIZE.Width, CELL_SIZE.Height);
+                        spriteBatch.Draw(this.cells[i, j].Background, recToDraw, Color.WhiteSmoke);
                     }
                     catch
                     { }
@@ -176,19 +188,25 @@ namespace GameDemo1.Components
             }
         }
 
+        /// <summary>
+        /// Load các cell dựa vào ma trận số
+        /// </summary>
+        /// <param name="matrixmap"></param>
         protected override void LoadMapCells(int[,] matrixmap)
         {
+            // khởi tạo mảng cell 2 chiều
             this.cells = new MapCell[Config.MAP_SIZE_IN_CELL.Width, Config.MAP_SIZE_IN_CELL.Height];
 
-            // Vector2 I = new Vector2(((Config.MAP_SIZE_IN_CELL.Width * CELL_SIZE.Width) >> 1) - CELL_SIZE.Width >> 1, 0);
             int HalfOfCellSizeX = CELL_SIZE.Width >> 1;
             int HalfOfCellSizeY = CELL_SIZE.Height>> 1;
 
             for (int i = 0; i < Config.MAP_SIZE_IN_CELL.Height; i++){
                 for (int j = 0; j < Config.MAP_SIZE_IN_CELL.Width; j++)
                 {
+                    // tính vị trí của cell trên map
                     int x = (int)ROOT_Vector2.X - HalfOfCellSizeX * j + HalfOfCellSizeX * i;
                     int y = (int)ROOT_Vector2.Y + HalfOfCellSizeY * j + HalfOfCellSizeY * i;
+                    // từ mãng số -> cell sẽ được load từ hình nào
                     int dir = (matrixmap[i, j] >> 7) + 1;
                     int file = matrixmap[i, j] - (dir-1) * 128;
                     string temp = file.ToString();
