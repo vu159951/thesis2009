@@ -17146,6 +17146,24 @@
       <Output>C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\bin\x86\Debug\Content\Font\Mangal.xnb</Output>
       <Time>2009-05-28T09:49:53.3541476+07:00</Time>
     </Item>
+    <Item>
+      <Source>Icon\Gold.png</Source>
+      <Name>Icon\Gold</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\bin\x86\Debug\Content\Icon\Gold.xnb</Output>
+      <Time>2009-06-04T12:11:12.46875+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Icon\Stone.png</Source>
+      <Name>Icon\Stone</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\bin\x86\Debug\Content\Icon\Stone.xnb</Output>
+      <Time>2009-06-04T12:16:12.609375+07:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

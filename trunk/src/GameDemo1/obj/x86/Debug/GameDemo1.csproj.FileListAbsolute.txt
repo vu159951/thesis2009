@@ -28571,3 +28571,5 @@ C:\Users\ThaiBao\Desktop\New Folder\src\GameDemo1\obj\x86\Debug\ResolveAssemblyR
 C:\Users\ThaiBao\Desktop\New Folder\src\GameDemo1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\ThaiBao\Desktop\New Folder\src\GameDemo1\obj\x86\Debug\GameDemo1.exe
 C:\Users\ThaiBao\Desktop\New Folder\src\GameDemo1\obj\x86\Debug\GameDemo1.pdb
+C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\bin\x86\Debug\Content\Icon\Gold.xnb
+C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\bin\x86\Debug\Content\Icon\Stone.xnb
