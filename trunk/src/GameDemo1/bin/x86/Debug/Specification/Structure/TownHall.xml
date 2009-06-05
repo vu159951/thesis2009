@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <TownHall>
   <RepresentativeImage name="Structure\\TownHall\\TownHall"/>
-  <Time value="20"></Time>
   <ListUnits>
+    <Unit name="Producer" />
   </ListUnits>
   <Informations>
     <MaxHealth value="400"/>
@@ -11,8 +11,11 @@
     <RadiusDetect value="0" />
     <Speed value="0" />
   </Informations>
-  <Requirements>    
+  <Requirements>
+    <Stone value="2000" />
+    <Gold value="1000" />
   </Requirements>
+  <Time value="20"></Time>
   
   <IDLE>
     <S>

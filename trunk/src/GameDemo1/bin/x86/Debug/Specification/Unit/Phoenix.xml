@@ -11,6 +11,7 @@
   <Requirements>
     <Gold value="60" />
   </Requirements>
+  <Time value="5"></Time>
   
   <IDLE>
     <S>
@@ -438,6 +439,5 @@
       <Image name="Unit\\Phoenix\\\588_Phoenix_DEAD.6.09"/>
       <Image name="Unit\\Phoenix\\\589_Phoenix_DEAD.6.10"/>
     </WS>
-    <Time value="5"></Time>
   </DEAD>
 </Phoenix>

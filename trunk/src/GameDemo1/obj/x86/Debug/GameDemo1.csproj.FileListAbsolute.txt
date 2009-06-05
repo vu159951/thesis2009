@@ -26644,7 +26644,6 @@ C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\bin\x86\
 C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\bin\x86\Debug\Content\SelectImage\Red.xnb
 C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\bin\x86\Debug\Content\Structure\Animal\Animal3.xnb
 C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\bin\x86\Debug\Content\Structure\Military\Military3.xnb
-C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\bin\x86\Debug\Content\ResourceCenter\RockResourceCenter\RockResourceCenter.xnb
 C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\bin\x86\Debug\Content\ResourceCenter\GoldResourceCenter\GoldResourceCenter.xnb
 C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\bin\x86\Debug\Content\Cursor\cursor2.xnb
 C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\bin\x86\Debug\Content\Structure\Military\Military.xnb
@@ -28573,3 +28572,4 @@ C:\Users\ThaiBao\Desktop\New Folder\src\GameDemo1\obj\x86\Debug\GameDemo1.exe
 C:\Users\ThaiBao\Desktop\New Folder\src\GameDemo1\obj\x86\Debug\GameDemo1.pdb
 C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\bin\x86\Debug\Content\Icon\Gold.xnb
 C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\bin\x86\Debug\Content\Icon\Stone.xnb
+C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\bin\x86\Debug\Content\ResourceCenter\StoneResourceCenter\StoneResourceCenter.xnb

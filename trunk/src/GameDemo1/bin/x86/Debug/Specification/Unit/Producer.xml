@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Unicorn>
+<Producer>
   <RepresentativeImage name="Unit\\Unicorn\\Unicorn"/>
   <Information>
     <MaxHealth value="50"/>
@@ -439,5 +439,5 @@
       <Image name="Unit\\Unicorn\\588_Unicorn_DEAD.6.09"/>
       <Image name="Unit\\Unicorn\\589_Unicorn_DEAD.6.10"/>
     </WS>
-  </DEAD>  
-</Unicorn>
+  </DEAD>
+</Producer>

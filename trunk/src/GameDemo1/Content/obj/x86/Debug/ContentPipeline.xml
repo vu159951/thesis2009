@@ -17057,15 +17057,6 @@
       <Time>2009-05-28T09:43:25.6896562+07:00</Time>
     </Item>
     <Item>
-      <Source>ResourceCenter\RockResourceCenter\RockResourceCenter.png</Source>
-      <Name>ResourceCenter\RockResourceCenter\RockResourceCenter</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\bin\x86\Debug\Content\ResourceCenter\RockResourceCenter\RockResourceCenter.xnb</Output>
-      <Time>2009-05-28T08:53:34.6286047+07:00</Time>
-    </Item>
-    <Item>
       <Source>ResourceCenter\GoldResourceCenter\GoldResourceCenter.png</Source>
       <Name>ResourceCenter\GoldResourceCenter\GoldResourceCenter</Name>
       <Importer>TextureImporter</Importer>
@@ -17163,6 +17154,15 @@
       <Options>None</Options>
       <Output>C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\bin\x86\Debug\Content\Icon\Stone.xnb</Output>
       <Time>2009-06-04T12:16:12.609375+07:00</Time>
+    </Item>
+    <Item>
+      <Source>ResourceCenter\StoneResourceCenter\StoneResourceCenter.png</Source>
+      <Name>ResourceCenter\StoneResourceCenter\StoneResourceCenter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\bin\x86\Debug\Content\ResourceCenter\StoneResourceCenter\StoneResourceCenter.xnb</Output>
+      <Time>2009-05-28T08:53:34.6286047+07:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

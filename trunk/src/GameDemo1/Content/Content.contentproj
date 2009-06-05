@@ -9555,8 +9555,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ResourceCenter\RockResourceCenter\RockResourceCenter.png">
-      <Name>RockResourceCenter</Name>
+    <Compile Include="ResourceCenter\StoneResourceCenter\StoneResourceCenter.png">
+      <Name>StoneResourceCenter</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>

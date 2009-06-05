@@ -11,7 +11,7 @@
   <Requirements>
     <Gold value="30" />
   </Requirements>
-  
+  <Time value="5"></Time>
   <IDLE>
     <S>
       <Image name="Unit\\Angel\\000_Angel_IDLE.1.01"/>
@@ -439,5 +439,4 @@
       <Image name="Unit\\Angel\\589_Angel_DEAD.6.10"/>
     </WS>
   </DEAD>
-  <Time value="5"></Time>
 </Angel>

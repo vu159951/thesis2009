@@ -1,27 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Military>
-  <RepresentativeImage name="Structure\\Military\\Military"/>
-  <ListUnits>
-    <Unit name="Human_Knight" />
-    <Unit name="Angel" />
-  </ListUnits>
-  <Informations>
-    <MaxHealth value="100"/>
-    <Power value="0" />
-    <RadiusAttack value="0" />
-    <RadiusDetect value="0" />
-    <Speed value="0" />
-  </Informations>
-  <Requirements>
-    <Stone value="1500" />
-    <Gold value="200" />
-  </Requirements>
-  <Time value="15"/>
-  
+<StoneResourceCenter>
   <IDLE>
     <S>
-      <Image name="Structure\\Military\\Military1" />
-      <Image name="Structure\\Military\\Military2" />
+      <Image name="ResourceCenter\\StoneResourceCenter\\StoneResourceCenter"/>
     </S>
     <ES>
     </ES>
@@ -89,8 +69,7 @@
     </WS>
   </HIT>
   <DEAD>
-    <S>
-      <Image name="Structure\\Military\\Military3" />
+    <S>      
     </S>
     <ES>      
     </ES>
@@ -104,7 +83,7 @@
     </WN>
     <W>      
     </W>
-    <WS> 
+    <WS>      
     </WS>
   </DEAD>
-</Military>
+</StoneResourceCenter>

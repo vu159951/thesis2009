@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Animal>
   <RepresentativeImage name="Structure\\Animal\\Animal"/>
-  <Time value="20"></Time>
   <ListUnits>
     <Unit vame="Unicorn" />
     <Unit vame="Phoenix" />
@@ -17,6 +16,7 @@
     <Stone value="1000" />
     <Gold value="150" />
   </Requirements>
+  <Time value="20"></Time>
   
   <IDLE>
     <S>
