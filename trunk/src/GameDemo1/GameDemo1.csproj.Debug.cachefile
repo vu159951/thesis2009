@@ -1893,6 +1893,7 @@ Content\Terrain\Shrub_4.xnb
 Content\SelectImage\Red.xnb
 Content\Structure\Animal\Animal3.xnb
 Content\Structure\Military\Military3.xnb
+Content\ResourceCenter\StoneResourceCenter\StoneResourceCenter.xnb
 Content\ResourceCenter\GoldResourceCenter\GoldResourceCenter.xnb
 Content\Cursor\cursor2.xnb
 Content\Structure\Military\Military.xnb
@@ -1901,7 +1902,6 @@ Content\HealthImage\Red.xnb
 Content\Structure\TownHall\TownHall.xnb
 Content\Structure\TownHall\TownHall1.xnb
 Content\Structure\TownHall\TownHall2.xnb
-Content\Font\Mangal.xnb
 Content\Icon\Gold.xnb
 Content\Icon\Stone.xnb
-Content\ResourceCenter\StoneResourceCenter\StoneResourceCenter.xnb
+Content\Font\Mangal.xnb
