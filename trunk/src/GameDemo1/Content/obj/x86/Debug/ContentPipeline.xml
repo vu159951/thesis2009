@@ -17173,6 +17173,24 @@
       <Output>C:\Users\ThaiBao\Desktop\codding\src\GameDemo1\bin\x86\Debug\Content\Sound\sword.xnb</Output>
       <Time>2009-06-07T03:37:03.105-07:00</Time>
     </Item>
+    <Item>
+      <Source>Sound\startbuild.wav</Source>
+      <Name>Sound\startbuild</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ThaiBao\Desktop\codding\src\GameDemo1\bin\x86\Debug\Content\Sound\startbuild.xnb</Output>
+      <Time>2009-06-07T05:15:51.91-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sound\clickitemmenu.wav</Source>
+      <Name>Sound\clickitemmenu</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\ThaiBao\Desktop\codding\src\GameDemo1\bin\x86\Debug\Content\Sound\clickitemmenu.xnb</Output>
+      <Time>2009-06-07T05:20:20.598-07:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

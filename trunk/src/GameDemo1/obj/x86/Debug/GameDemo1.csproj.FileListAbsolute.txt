@@ -30494,3 +30494,5 @@ C:\Users\ThaiBao\Desktop\codding\src\GameDemo1\obj\x86\Debug\ResolveAssemblyRefe
 C:\Users\ThaiBao\Desktop\codding\src\GameDemo1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\ThaiBao\Desktop\codding\src\GameDemo1\obj\x86\Debug\GameDemo1.exe
 C:\Users\ThaiBao\Desktop\codding\src\GameDemo1\obj\x86\Debug\GameDemo1.pdb
+C:\Users\ThaiBao\Desktop\codding\src\GameDemo1\bin\x86\Debug\Content\Sound\startbuild.xnb
+C:\Users\ThaiBao\Desktop\codding\src\GameDemo1\bin\x86\Debug\Content\Sound\clickitemmenu.xnb
