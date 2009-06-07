@@ -17,3 +17,4 @@ C:\Documents and Settings\Administrator\Desktop\GameDemo1 v11\GameDemo1 v3\GameD
 C:\Documents and Settings\Administrator\Desktop\New Folder\src\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\ThaiBao\Desktop\New Folder\src\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ThaiBao\Desktop\codding\src\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache

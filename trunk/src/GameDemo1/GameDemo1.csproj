@@ -89,6 +89,7 @@
     <Compile Include="Calculus\RomhbusTransform.cs" />
     <Compile Include="Calculus\SquareTransform.cs" />
     <Compile Include="Calculus\Transform.cs" />
+    <Compile Include="AudioGame.cs" />
     <Compile Include="Components\CursorGame.cs" />
     <Compile Include="Components\ProducerUnit.cs" />
     <Compile Include="Components\RhombusMap.cs" />

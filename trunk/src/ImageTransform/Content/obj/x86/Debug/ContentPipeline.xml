@@ -6,10 +6,10 @@
       <TargetPlatform>Windows</TargetPlatform>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\ThaiBao\Desktop\New Folder\src\ImageTransform\Content\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\ThaiBao\Desktop\New Folder\src\ImageTransform\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\ThaiBao\Desktop\New Folder\src\ImageTransform\Content\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\ThaiBao\Desktop\New Folder\src\ImageTransform\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\ThaiBao\Desktop\codding\src\ImageTransform\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\ThaiBao\Desktop\codding\src\ImageTransform\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\ThaiBao\Desktop\codding\src\ImageTransform\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\ThaiBao\Desktop\codding\src\ImageTransform\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

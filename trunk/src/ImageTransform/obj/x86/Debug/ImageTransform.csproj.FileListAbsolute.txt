@@ -100,3 +100,9 @@ C:\Users\ThaiBao\Desktop\New Folder\src\ImageTransform\obj\x86\Debug\ResolveAsse
 C:\Users\ThaiBao\Desktop\New Folder\src\ImageTransform\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\ThaiBao\Desktop\New Folder\src\ImageTransform\obj\x86\Debug\imgtrans.dll
 C:\Users\ThaiBao\Desktop\New Folder\src\ImageTransform\obj\x86\Debug\imgtrans.pdb
+C:\Users\ThaiBao\Desktop\codding\src\ImageTransform\bin\x86\Debug\imgtrans.dll
+C:\Users\ThaiBao\Desktop\codding\src\ImageTransform\bin\x86\Debug\imgtrans.pdb
+C:\Users\ThaiBao\Desktop\codding\src\ImageTransform\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ThaiBao\Desktop\codding\src\ImageTransform\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\ThaiBao\Desktop\codding\src\ImageTransform\obj\x86\Debug\imgtrans.dll
+C:\Users\ThaiBao\Desktop\codding\src\ImageTransform\obj\x86\Debug\imgtrans.pdb
