@@ -9652,6 +9652,1635 @@
       <Processor>SoundEffectProcessor</Processor>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Unit\Black_Angel\000_Black_Angel_IDLE.1.01.png">
+      <Name>000_Black_Angel_IDLE.1.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\001_Black_Angel_IDLE.1.02.png">
+      <Name>001_Black_Angel_IDLE.1.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\002_Black_Angel_IDLE.1.03.png">
+      <Name>002_Black_Angel_IDLE.1.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\003_Black_Angel_IDLE.1.04.png">
+      <Name>003_Black_Angel_IDLE.1.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\004_Black_Angel_IDLE.1.05.png">
+      <Name>004_Black_Angel_IDLE.1.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\005_Black_Angel_IDLE.1.06.png">
+      <Name>005_Black_Angel_IDLE.1.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\006_Black_Angel_IDLE.1.07.png">
+      <Name>006_Black_Angel_IDLE.1.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\007_Black_Angel_IDLE.1.08.png">
+      <Name>007_Black_Angel_IDLE.1.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\008_Black_Angel_IDLE.1.09.png">
+      <Name>008_Black_Angel_IDLE.1.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\009_Black_Angel_IDLE.1.10.png">
+      <Name>009_Black_Angel_IDLE.1.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\010_Black_Angel_IDLE.1.11.png">
+      <Name>010_Black_Angel_IDLE.1.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\011_Black_Angel_IDLE.1.12.png">
+      <Name>011_Black_Angel_IDLE.1.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\012_Black_Angel_IDLE.1.13.png">
+      <Name>012_Black_Angel_IDLE.1.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\013_Black_Angel_IDLE.1.14.png">
+      <Name>013_Black_Angel_IDLE.1.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\014_Black_Angel_IDLE.1.15.png">
+      <Name>014_Black_Angel_IDLE.1.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\030_Black_Angel_FLY.1.01.png">
+      <Name>030_Black_Angel_FLY.1.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\031_Black_Angel_FLY.1.02.png">
+      <Name>031_Black_Angel_FLY.1.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\032_Black_Angel_FLY.1.03.png">
+      <Name>032_Black_Angel_FLY.1.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\033_Black_Angel_FLY.1.04.png">
+      <Name>033_Black_Angel_FLY.1.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\034_Black_Angel_FLY.1.05.png">
+      <Name>034_Black_Angel_FLY.1.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\035_Black_Angel_FLY.1.06.png">
+      <Name>035_Black_Angel_FLY.1.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\036_Black_Angel_FLY.1.07.png">
+      <Name>036_Black_Angel_FLY.1.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\037_Black_Angel_FLY.1.08.png">
+      <Name>037_Black_Angel_FLY.1.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\038_Black_Angel_FLY.1.09.png">
+      <Name>038_Black_Angel_FLY.1.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\039_Black_Angel_FLY.1.10.png">
+      <Name>039_Black_Angel_FLY.1.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\040_Black_Angel_FLY.1.11.png">
+      <Name>040_Black_Angel_FLY.1.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\041_Black_Angel_FLY.1.12.png">
+      <Name>041_Black_Angel_FLY.1.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\042_Black_Angel_FLY.1.13.png">
+      <Name>042_Black_Angel_FLY.1.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\043_Black_Angel_FLY.1.14.png">
+      <Name>043_Black_Angel_FLY.1.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\044_Black_Angel_FLY.1.15.png">
+      <Name>044_Black_Angel_FLY.1.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\060_Black_Angel_ATTACK.1.01.png">
+      <Name>060_Black_Angel_ATTACK.1.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\061_Black_Angel_ATTACK.1.02.png">
+      <Name>061_Black_Angel_ATTACK.1.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\062_Black_Angel_ATTACK.1.03.png">
+      <Name>062_Black_Angel_ATTACK.1.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\063_Black_Angel_ATTACK.1.04.png">
+      <Name>063_Black_Angel_ATTACK.1.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\064_Black_Angel_ATTACK.1.05.png">
+      <Name>064_Black_Angel_ATTACK.1.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\065_Black_Angel_ATTACK.1.06.png">
+      <Name>065_Black_Angel_ATTACK.1.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\066_Black_Angel_ATTACK.1.07.png">
+      <Name>066_Black_Angel_ATTACK.1.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\067_Black_Angel_ATTACK.1.08.png">
+      <Name>067_Black_Angel_ATTACK.1.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\070_Black_Angel_HIT.1.01.png">
+      <Name>070_Black_Angel_HIT.1.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\071_Black_Angel_HIT.1.02.png">
+      <Name>071_Black_Angel_HIT.1.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\072_Black_Angel_HIT.1.03.png">
+      <Name>072_Black_Angel_HIT.1.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\073_Black_Angel_HIT.1.04.png">
+      <Name>073_Black_Angel_HIT.1.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\074_Black_Angel_HIT.1.05.png">
+      <Name>074_Black_Angel_HIT.1.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\075_Black_Angel_HIT.1.06.png">
+      <Name>075_Black_Angel_HIT.1.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\076_Black_Angel_HIT.1.07.png">
+      <Name>076_Black_Angel_HIT.1.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\077_Black_Angel_HIT.1.08.png">
+      <Name>077_Black_Angel_HIT.1.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\080_Black_Angel_DEAD.1.01.png">
+      <Name>080_Black_Angel_DEAD.1.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\081_Black_Angel_DEAD.1.02.png">
+      <Name>081_Black_Angel_DEAD.1.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\082_Black_Angel_DEAD.1.03.png">
+      <Name>082_Black_Angel_DEAD.1.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\083_Black_Angel_DEAD.1.04.png">
+      <Name>083_Black_Angel_DEAD.1.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\084_Black_Angel_DEAD.1.05.png">
+      <Name>084_Black_Angel_DEAD.1.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\085_Black_Angel_DEAD.1.06.png">
+      <Name>085_Black_Angel_DEAD.1.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\086_Black_Angel_DEAD.1.07.png">
+      <Name>086_Black_Angel_DEAD.1.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\087_Black_Angel_DEAD.1.08.png">
+      <Name>087_Black_Angel_DEAD.1.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\100_Black_Angel_IDLE.2.01.png">
+      <Name>100_Black_Angel_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\101_Black_Angel_IDLE.2.02.png">
+      <Name>101_Black_Angel_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\102_Black_Angel_IDLE.2.03.png">
+      <Name>102_Black_Angel_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\103_Black_Angel_IDLE.2.04.png">
+      <Name>103_Black_Angel_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\104_Black_Angel_IDLE.2.05.png">
+      <Name>104_Black_Angel_IDLE.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\105_Black_Angel_IDLE.2.06.png">
+      <Name>105_Black_Angel_IDLE.2.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\106_Black_Angel_IDLE.2.07.png">
+      <Name>106_Black_Angel_IDLE.2.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\107_Black_Angel_IDLE.2.08.png">
+      <Name>107_Black_Angel_IDLE.2.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\108_Black_Angel_IDLE.2.09.png">
+      <Name>108_Black_Angel_IDLE.2.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\109_Black_Angel_IDLE.2.10.png">
+      <Name>109_Black_Angel_IDLE.2.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\110_Black_Angel_IDLE.2.11.png">
+      <Name>110_Black_Angel_IDLE.2.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\111_Black_Angel_IDLE.2.12.png">
+      <Name>111_Black_Angel_IDLE.2.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\112_Black_Angel_IDLE.2.13.png">
+      <Name>112_Black_Angel_IDLE.2.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\113_Black_Angel_IDLE.2.14.png">
+      <Name>113_Black_Angel_IDLE.2.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\114_Black_Angel_IDLE.2.15.png">
+      <Name>114_Black_Angel_IDLE.2.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\130_Black_Angel_FLY.2.01.png">
+      <Name>130_Black_Angel_FLY.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\131_Black_Angel_FLY.2.02.png">
+      <Name>131_Black_Angel_FLY.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\132_Black_Angel_FLY.2.03.png">
+      <Name>132_Black_Angel_FLY.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\133_Black_Angel_FLY.2.04.png">
+      <Name>133_Black_Angel_FLY.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\134_Black_Angel_FLY.2.05.png">
+      <Name>134_Black_Angel_FLY.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\135_Black_Angel_FLY.2.06.png">
+      <Name>135_Black_Angel_FLY.2.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\136_Black_Angel_FLY.2.07.png">
+      <Name>136_Black_Angel_FLY.2.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\137_Black_Angel_FLY.2.08.png">
+      <Name>137_Black_Angel_FLY.2.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\138_Black_Angel_FLY.2.09.png">
+      <Name>138_Black_Angel_FLY.2.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\139_Black_Angel_FLY.2.10.png">
+      <Name>139_Black_Angel_FLY.2.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\140_Black_Angel_FLY.2.11.png">
+      <Name>140_Black_Angel_FLY.2.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\141_Black_Angel_FLY.2.12.png">
+      <Name>141_Black_Angel_FLY.2.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\142_Black_Angel_FLY.2.13.png">
+      <Name>142_Black_Angel_FLY.2.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\143_Black_Angel_FLY.2.14.png">
+      <Name>143_Black_Angel_FLY.2.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\144_Black_Angel_FLY.2.15.png">
+      <Name>144_Black_Angel_FLY.2.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\160_Black_Angel_ATTACK.2.01.png">
+      <Name>160_Black_Angel_ATTACK.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\161_Black_Angel_ATTACK.2.02.png">
+      <Name>161_Black_Angel_ATTACK.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\162_Black_Angel_ATTACK.2.03.png">
+      <Name>162_Black_Angel_ATTACK.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\163_Black_Angel_ATTACK.2.04.png">
+      <Name>163_Black_Angel_ATTACK.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\164_Black_Angel_ATTACK.2.05.png">
+      <Name>164_Black_Angel_ATTACK.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\165_Black_Angel_ATTACK.2.06.png">
+      <Name>165_Black_Angel_ATTACK.2.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\166_Black_Angel_ATTACK.2.07.png">
+      <Name>166_Black_Angel_ATTACK.2.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\167_Black_Angel_ATTACK.2.08.png">
+      <Name>167_Black_Angel_ATTACK.2.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\170_Black_Angel_HIT.2.01.png">
+      <Name>170_Black_Angel_HIT.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\171_Black_Angel_HIT.2.02.png">
+      <Name>171_Black_Angel_HIT.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\172_Black_Angel_HIT.2.03.png">
+      <Name>172_Black_Angel_HIT.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\173_Black_Angel_HIT.2.04.png">
+      <Name>173_Black_Angel_HIT.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\174_Black_Angel_HIT.2.05.png">
+      <Name>174_Black_Angel_HIT.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\175_Black_Angel_HIT.2.06.png">
+      <Name>175_Black_Angel_HIT.2.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\176_Black_Angel_HIT.2.07.png">
+      <Name>176_Black_Angel_HIT.2.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\177_Black_Angel_HIT.2.08.png">
+      <Name>177_Black_Angel_HIT.2.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\180_Black_Angel_DEAD.2.01.png">
+      <Name>180_Black_Angel_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\181_Black_Angel_DEAD.2.02.png">
+      <Name>181_Black_Angel_DEAD.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\182_Black_Angel_DEAD.2.03.png">
+      <Name>182_Black_Angel_DEAD.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\183_Black_Angel_DEAD.2.04.png">
+      <Name>183_Black_Angel_DEAD.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\184_Black_Angel_DEAD.2.05.png">
+      <Name>184_Black_Angel_DEAD.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\185_Black_Angel_DEAD.2.06.png">
+      <Name>185_Black_Angel_DEAD.2.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\186_Black_Angel_DEAD.2.07.png">
+      <Name>186_Black_Angel_DEAD.2.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\187_Black_Angel_DEAD.2.08.png">
+      <Name>187_Black_Angel_DEAD.2.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\200_Black_Angel_IDLE.3.01.png">
+      <Name>200_Black_Angel_IDLE.3.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\201_Black_Angel_IDLE.3.02.png">
+      <Name>201_Black_Angel_IDLE.3.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\202_Black_Angel_IDLE.3.03.png">
+      <Name>202_Black_Angel_IDLE.3.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\203_Black_Angel_IDLE.3.04.png">
+      <Name>203_Black_Angel_IDLE.3.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\204_Black_Angel_IDLE.3.05.png">
+      <Name>204_Black_Angel_IDLE.3.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\205_Black_Angel_IDLE.3.06.png">
+      <Name>205_Black_Angel_IDLE.3.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\206_Black_Angel_IDLE.3.07.png">
+      <Name>206_Black_Angel_IDLE.3.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\207_Black_Angel_IDLE.3.08.png">
+      <Name>207_Black_Angel_IDLE.3.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\208_Black_Angel_IDLE.3.09.png">
+      <Name>208_Black_Angel_IDLE.3.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\209_Black_Angel_IDLE.3.10.png">
+      <Name>209_Black_Angel_IDLE.3.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\210_Black_Angel_IDLE.3.11.png">
+      <Name>210_Black_Angel_IDLE.3.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\211_Black_Angel_IDLE.3.12.png">
+      <Name>211_Black_Angel_IDLE.3.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\212_Black_Angel_IDLE.3.13.png">
+      <Name>212_Black_Angel_IDLE.3.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\213_Black_Angel_IDLE.3.14.png">
+      <Name>213_Black_Angel_IDLE.3.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\214_Black_Angel_IDLE.3.15.png">
+      <Name>214_Black_Angel_IDLE.3.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\230_Black_Angel_FLY.3.01.png">
+      <Name>230_Black_Angel_FLY.3.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\231_Black_Angel_FLY.3.02.png">
+      <Name>231_Black_Angel_FLY.3.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\232_Black_Angel_FLY.3.03.png">
+      <Name>232_Black_Angel_FLY.3.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\233_Black_Angel_FLY.3.04.png">
+      <Name>233_Black_Angel_FLY.3.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\234_Black_Angel_FLY.3.05.png">
+      <Name>234_Black_Angel_FLY.3.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\235_Black_Angel_FLY.3.06.png">
+      <Name>235_Black_Angel_FLY.3.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\236_Black_Angel_FLY.3.07.png">
+      <Name>236_Black_Angel_FLY.3.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\237_Black_Angel_FLY.3.08.png">
+      <Name>237_Black_Angel_FLY.3.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\238_Black_Angel_FLY.3.09.png">
+      <Name>238_Black_Angel_FLY.3.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\239_Black_Angel_FLY.3.10.png">
+      <Name>239_Black_Angel_FLY.3.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\240_Black_Angel_FLY.3.11.png">
+      <Name>240_Black_Angel_FLY.3.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\241_Black_Angel_FLY.3.12.png">
+      <Name>241_Black_Angel_FLY.3.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\242_Black_Angel_FLY.3.13.png">
+      <Name>242_Black_Angel_FLY.3.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\243_Black_Angel_FLY.3.14.png">
+      <Name>243_Black_Angel_FLY.3.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\244_Black_Angel_FLY.3.15.png">
+      <Name>244_Black_Angel_FLY.3.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\260_Black_Angel_ATTACK.3.01.png">
+      <Name>260_Black_Angel_ATTACK.3.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\261_Black_Angel_ATTACK.3.02.png">
+      <Name>261_Black_Angel_ATTACK.3.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\262_Black_Angel_ATTACK.3.03.png">
+      <Name>262_Black_Angel_ATTACK.3.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\263_Black_Angel_ATTACK.3.04.png">
+      <Name>263_Black_Angel_ATTACK.3.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\264_Black_Angel_ATTACK.3.05.png">
+      <Name>264_Black_Angel_ATTACK.3.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\265_Black_Angel_ATTACK.3.06.png">
+      <Name>265_Black_Angel_ATTACK.3.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\266_Black_Angel_ATTACK.3.07.png">
+      <Name>266_Black_Angel_ATTACK.3.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\267_Black_Angel_ATTACK.3.08.png">
+      <Name>267_Black_Angel_ATTACK.3.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\270_Black_Angel_HIT.3.01.png">
+      <Name>270_Black_Angel_HIT.3.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\271_Black_Angel_HIT.3.02.png">
+      <Name>271_Black_Angel_HIT.3.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\272_Black_Angel_HIT.3.03.png">
+      <Name>272_Black_Angel_HIT.3.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\273_Black_Angel_HIT.3.04.png">
+      <Name>273_Black_Angel_HIT.3.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\274_Black_Angel_HIT.3.05.png">
+      <Name>274_Black_Angel_HIT.3.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\275_Black_Angel_HIT.3.06.png">
+      <Name>275_Black_Angel_HIT.3.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\276_Black_Angel_HIT.3.07.png">
+      <Name>276_Black_Angel_HIT.3.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\277_Black_Angel_HIT.3.08.png">
+      <Name>277_Black_Angel_HIT.3.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\280_Black_Angel_DEAD.3.01.png">
+      <Name>280_Black_Angel_DEAD.3.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\281_Black_Angel_DEAD.3.02.png">
+      <Name>281_Black_Angel_DEAD.3.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\282_Black_Angel_DEAD.3.03.png">
+      <Name>282_Black_Angel_DEAD.3.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\283_Black_Angel_DEAD.3.04.png">
+      <Name>283_Black_Angel_DEAD.3.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\284_Black_Angel_DEAD.3.05.png">
+      <Name>284_Black_Angel_DEAD.3.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\285_Black_Angel_DEAD.3.06.png">
+      <Name>285_Black_Angel_DEAD.3.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\286_Black_Angel_DEAD.3.07.png">
+      <Name>286_Black_Angel_DEAD.3.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\287_Black_Angel_DEAD.3.08.png">
+      <Name>287_Black_Angel_DEAD.3.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\300_Black_Angel_IDLE.4.01.png">
+      <Name>300_Black_Angel_IDLE.4.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\301_Black_Angel_IDLE.4.02.png">
+      <Name>301_Black_Angel_IDLE.4.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\302_Black_Angel_IDLE.4.03.png">
+      <Name>302_Black_Angel_IDLE.4.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\303_Black_Angel_IDLE.4.04.png">
+      <Name>303_Black_Angel_IDLE.4.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\304_Black_Angel_IDLE.4.05.png">
+      <Name>304_Black_Angel_IDLE.4.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\305_Black_Angel_IDLE.4.06.png">
+      <Name>305_Black_Angel_IDLE.4.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\306_Black_Angel_IDLE.4.07.png">
+      <Name>306_Black_Angel_IDLE.4.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\307_Black_Angel_IDLE.4.08.png">
+      <Name>307_Black_Angel_IDLE.4.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\308_Black_Angel_IDLE.4.09.png">
+      <Name>308_Black_Angel_IDLE.4.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\309_Black_Angel_IDLE.4.10.png">
+      <Name>309_Black_Angel_IDLE.4.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\310_Black_Angel_IDLE.4.11.png">
+      <Name>310_Black_Angel_IDLE.4.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\311_Black_Angel_IDLE.4.12.png">
+      <Name>311_Black_Angel_IDLE.4.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\312_Black_Angel_IDLE.4.13.png">
+      <Name>312_Black_Angel_IDLE.4.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\313_Black_Angel_IDLE.4.14.png">
+      <Name>313_Black_Angel_IDLE.4.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\314_Black_Angel_IDLE.4.15.png">
+      <Name>314_Black_Angel_IDLE.4.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\330_Black_Angel_FLY.4.01.png">
+      <Name>330_Black_Angel_FLY.4.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\331_Black_Angel_FLY.4.02.png">
+      <Name>331_Black_Angel_FLY.4.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\332_Black_Angel_FLY.4.03.png">
+      <Name>332_Black_Angel_FLY.4.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\333_Black_Angel_FLY.4.04.png">
+      <Name>333_Black_Angel_FLY.4.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\334_Black_Angel_FLY.4.05.png">
+      <Name>334_Black_Angel_FLY.4.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\335_Black_Angel_FLY.4.06.png">
+      <Name>335_Black_Angel_FLY.4.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\336_Black_Angel_FLY.4.07.png">
+      <Name>336_Black_Angel_FLY.4.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\337_Black_Angel_FLY.4.08.png">
+      <Name>337_Black_Angel_FLY.4.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\338_Black_Angel_FLY.4.09.png">
+      <Name>338_Black_Angel_FLY.4.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\339_Black_Angel_FLY.4.10.png">
+      <Name>339_Black_Angel_FLY.4.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\340_Black_Angel_FLY.4.11.png">
+      <Name>340_Black_Angel_FLY.4.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\341_Black_Angel_FLY.4.12.png">
+      <Name>341_Black_Angel_FLY.4.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\342_Black_Angel_FLY.4.13.png">
+      <Name>342_Black_Angel_FLY.4.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\343_Black_Angel_FLY.4.14.png">
+      <Name>343_Black_Angel_FLY.4.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\344_Black_Angel_FLY.4.15.png">
+      <Name>344_Black_Angel_FLY.4.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\360_Black_Angel_ATTACK.4.01.png">
+      <Name>360_Black_Angel_ATTACK.4.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\361_Black_Angel_ATTACK.4.02.png">
+      <Name>361_Black_Angel_ATTACK.4.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\362_Black_Angel_ATTACK.4.03.png">
+      <Name>362_Black_Angel_ATTACK.4.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\363_Black_Angel_ATTACK.4.04.png">
+      <Name>363_Black_Angel_ATTACK.4.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\364_Black_Angel_ATTACK.4.05.png">
+      <Name>364_Black_Angel_ATTACK.4.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\365_Black_Angel_ATTACK.4.06.png">
+      <Name>365_Black_Angel_ATTACK.4.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\366_Black_Angel_ATTACK.4.07.png">
+      <Name>366_Black_Angel_ATTACK.4.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\367_Black_Angel_ATTACK.4.08.png">
+      <Name>367_Black_Angel_ATTACK.4.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\370_Black_Angel_HIT.4.01.png">
+      <Name>370_Black_Angel_HIT.4.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\371_Black_Angel_HIT.4.02.png">
+      <Name>371_Black_Angel_HIT.4.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\372_Black_Angel_HIT.4.03.png">
+      <Name>372_Black_Angel_HIT.4.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\373_Black_Angel_HIT.4.04.png">
+      <Name>373_Black_Angel_HIT.4.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\374_Black_Angel_HIT.4.05.png">
+      <Name>374_Black_Angel_HIT.4.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\375_Black_Angel_HIT.4.06.png">
+      <Name>375_Black_Angel_HIT.4.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\376_Black_Angel_HIT.4.07.png">
+      <Name>376_Black_Angel_HIT.4.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\377_Black_Angel_HIT.4.08.png">
+      <Name>377_Black_Angel_HIT.4.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\380_Black_Angel_DEAD.4.01.png">
+      <Name>380_Black_Angel_DEAD.4.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\381_Black_Angel_DEAD.4.02.png">
+      <Name>381_Black_Angel_DEAD.4.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\382_Black_Angel_DEAD.4.03.png">
+      <Name>382_Black_Angel_DEAD.4.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\383_Black_Angel_DEAD.4.04.png">
+      <Name>383_Black_Angel_DEAD.4.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\384_Black_Angel_DEAD.4.05.png">
+      <Name>384_Black_Angel_DEAD.4.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\385_Black_Angel_DEAD.4.06.png">
+      <Name>385_Black_Angel_DEAD.4.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\386_Black_Angel_DEAD.4.07.png">
+      <Name>386_Black_Angel_DEAD.4.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\387_Black_Angel_DEAD.4.08.png">
+      <Name>387_Black_Angel_DEAD.4.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\400_Black_Angel_IDLE.5.01.png">
+      <Name>400_Black_Angel_IDLE.5.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\401_Black_Angel_IDLE.5.02.png">
+      <Name>401_Black_Angel_IDLE.5.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\402_Black_Angel_IDLE.5.03.png">
+      <Name>402_Black_Angel_IDLE.5.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\403_Black_Angel_IDLE.5.04.png">
+      <Name>403_Black_Angel_IDLE.5.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\404_Black_Angel_IDLE.5.05.png">
+      <Name>404_Black_Angel_IDLE.5.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\405_Black_Angel_IDLE.5.06.png">
+      <Name>405_Black_Angel_IDLE.5.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\406_Black_Angel_IDLE.5.07.png">
+      <Name>406_Black_Angel_IDLE.5.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\407_Black_Angel_IDLE.5.08.png">
+      <Name>407_Black_Angel_IDLE.5.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\408_Black_Angel_IDLE.5.09.png">
+      <Name>408_Black_Angel_IDLE.5.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\409_Black_Angel_IDLE.5.10.png">
+      <Name>409_Black_Angel_IDLE.5.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\410_Black_Angel_IDLE.5.11.png">
+      <Name>410_Black_Angel_IDLE.5.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\411_Black_Angel_IDLE.5.12.png">
+      <Name>411_Black_Angel_IDLE.5.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\412_Black_Angel_IDLE.5.13.png">
+      <Name>412_Black_Angel_IDLE.5.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\413_Black_Angel_IDLE.5.14.png">
+      <Name>413_Black_Angel_IDLE.5.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\414_Black_Angel_IDLE.5.15.png">
+      <Name>414_Black_Angel_IDLE.5.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\430_Black_Angel_FLY.5.01.png">
+      <Name>430_Black_Angel_FLY.5.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\431_Black_Angel_FLY.5.02.png">
+      <Name>431_Black_Angel_FLY.5.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\432_Black_Angel_FLY.5.03.png">
+      <Name>432_Black_Angel_FLY.5.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\433_Black_Angel_FLY.5.04.png">
+      <Name>433_Black_Angel_FLY.5.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\434_Black_Angel_FLY.5.05.png">
+      <Name>434_Black_Angel_FLY.5.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\435_Black_Angel_FLY.5.06.png">
+      <Name>435_Black_Angel_FLY.5.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\436_Black_Angel_FLY.5.07.png">
+      <Name>436_Black_Angel_FLY.5.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\437_Black_Angel_FLY.5.08.png">
+      <Name>437_Black_Angel_FLY.5.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\438_Black_Angel_FLY.5.09.png">
+      <Name>438_Black_Angel_FLY.5.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\439_Black_Angel_FLY.5.10.png">
+      <Name>439_Black_Angel_FLY.5.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\440_Black_Angel_FLY.5.11.png">
+      <Name>440_Black_Angel_FLY.5.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\441_Black_Angel_FLY.5.12.png">
+      <Name>441_Black_Angel_FLY.5.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\442_Black_Angel_FLY.5.13.png">
+      <Name>442_Black_Angel_FLY.5.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\443_Black_Angel_FLY.5.14.png">
+      <Name>443_Black_Angel_FLY.5.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\444_Black_Angel_FLY.5.15.png">
+      <Name>444_Black_Angel_FLY.5.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\460_Black_Angel_ATTACK.5.01.png">
+      <Name>460_Black_Angel_ATTACK.5.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\461_Black_Angel_ATTACK.5.02.png">
+      <Name>461_Black_Angel_ATTACK.5.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\462_Black_Angel_ATTACK.5.03.png">
+      <Name>462_Black_Angel_ATTACK.5.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\463_Black_Angel_ATTACK.5.04.png">
+      <Name>463_Black_Angel_ATTACK.5.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\464_Black_Angel_ATTACK.5.05.png">
+      <Name>464_Black_Angel_ATTACK.5.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\465_Black_Angel_ATTACK.5.06.png">
+      <Name>465_Black_Angel_ATTACK.5.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\466_Black_Angel_ATTACK.5.07.png">
+      <Name>466_Black_Angel_ATTACK.5.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\467_Black_Angel_ATTACK.5.08.png">
+      <Name>467_Black_Angel_ATTACK.5.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\470_Black_Angel_HIT.5.01.png">
+      <Name>470_Black_Angel_HIT.5.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\471_Black_Angel_HIT.5.02.png">
+      <Name>471_Black_Angel_HIT.5.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\472_Black_Angel_HIT.5.03.png">
+      <Name>472_Black_Angel_HIT.5.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\473_Black_Angel_HIT.5.04.png">
+      <Name>473_Black_Angel_HIT.5.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\474_Black_Angel_HIT.5.05.png">
+      <Name>474_Black_Angel_HIT.5.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\475_Black_Angel_HIT.5.06.png">
+      <Name>475_Black_Angel_HIT.5.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\476_Black_Angel_HIT.5.07.png">
+      <Name>476_Black_Angel_HIT.5.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\477_Black_Angel_HIT.5.08.png">
+      <Name>477_Black_Angel_HIT.5.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\480_Black_Angel_DEAD.5.01.png">
+      <Name>480_Black_Angel_DEAD.5.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\481_Black_Angel_DEAD.5.02.png">
+      <Name>481_Black_Angel_DEAD.5.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\482_Black_Angel_DEAD.5.03.png">
+      <Name>482_Black_Angel_DEAD.5.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\483_Black_Angel_DEAD.5.04.png">
+      <Name>483_Black_Angel_DEAD.5.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\484_Black_Angel_DEAD.5.05.png">
+      <Name>484_Black_Angel_DEAD.5.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\485_Black_Angel_DEAD.5.06.png">
+      <Name>485_Black_Angel_DEAD.5.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\486_Black_Angel_DEAD.5.07.png">
+      <Name>486_Black_Angel_DEAD.5.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\487_Black_Angel_DEAD.5.08.png">
+      <Name>487_Black_Angel_DEAD.5.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\500_Black_Angel_IDLE.6.01.png">
+      <Name>500_Black_Angel_IDLE.6.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\501_Black_Angel_IDLE.6.02.png">
+      <Name>501_Black_Angel_IDLE.6.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\502_Black_Angel_IDLE.6.03.png">
+      <Name>502_Black_Angel_IDLE.6.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\503_Black_Angel_IDLE.6.04.png">
+      <Name>503_Black_Angel_IDLE.6.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\504_Black_Angel_IDLE.6.05.png">
+      <Name>504_Black_Angel_IDLE.6.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\505_Black_Angel_IDLE.6.06.png">
+      <Name>505_Black_Angel_IDLE.6.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\506_Black_Angel_IDLE.6.07.png">
+      <Name>506_Black_Angel_IDLE.6.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\507_Black_Angel_IDLE.6.08.png">
+      <Name>507_Black_Angel_IDLE.6.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\508_Black_Angel_IDLE.6.09.png">
+      <Name>508_Black_Angel_IDLE.6.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\509_Black_Angel_IDLE.6.10.png">
+      <Name>509_Black_Angel_IDLE.6.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\510_Black_Angel_IDLE.6.11.png">
+      <Name>510_Black_Angel_IDLE.6.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\511_Black_Angel_IDLE.6.12.png">
+      <Name>511_Black_Angel_IDLE.6.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\512_Black_Angel_IDLE.6.13.png">
+      <Name>512_Black_Angel_IDLE.6.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\513_Black_Angel_IDLE.6.14.png">
+      <Name>513_Black_Angel_IDLE.6.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\514_Black_Angel_IDLE.6.15.png">
+      <Name>514_Black_Angel_IDLE.6.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\530_Black_Angel_FLY.6.01.png">
+      <Name>530_Black_Angel_FLY.6.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\531_Black_Angel_FLY.6.02.png">
+      <Name>531_Black_Angel_FLY.6.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\532_Black_Angel_FLY.6.03.png">
+      <Name>532_Black_Angel_FLY.6.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\533_Black_Angel_FLY.6.04.png">
+      <Name>533_Black_Angel_FLY.6.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\534_Black_Angel_FLY.6.05.png">
+      <Name>534_Black_Angel_FLY.6.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\535_Black_Angel_FLY.6.06.png">
+      <Name>535_Black_Angel_FLY.6.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\536_Black_Angel_FLY.6.07.png">
+      <Name>536_Black_Angel_FLY.6.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\537_Black_Angel_FLY.6.08.png">
+      <Name>537_Black_Angel_FLY.6.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\538_Black_Angel_FLY.6.09.png">
+      <Name>538_Black_Angel_FLY.6.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\539_Black_Angel_FLY.6.10.png">
+      <Name>539_Black_Angel_FLY.6.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\540_Black_Angel_FLY.6.11.png">
+      <Name>540_Black_Angel_FLY.6.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\541_Black_Angel_FLY.6.12.png">
+      <Name>541_Black_Angel_FLY.6.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\542_Black_Angel_FLY.6.13.png">
+      <Name>542_Black_Angel_FLY.6.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\543_Black_Angel_FLY.6.14.png">
+      <Name>543_Black_Angel_FLY.6.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\544_Black_Angel_FLY.6.15.png">
+      <Name>544_Black_Angel_FLY.6.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\560_Black_Angel_ATTACK.6.01.png">
+      <Name>560_Black_Angel_ATTACK.6.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\561_Black_Angel_ATTACK.6.02.png">
+      <Name>561_Black_Angel_ATTACK.6.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\562_Black_Angel_ATTACK.6.03.png">
+      <Name>562_Black_Angel_ATTACK.6.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\563_Black_Angel_ATTACK.6.04.png">
+      <Name>563_Black_Angel_ATTACK.6.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\564_Black_Angel_ATTACK.6.05.png">
+      <Name>564_Black_Angel_ATTACK.6.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\565_Black_Angel_ATTACK.6.06.png">
+      <Name>565_Black_Angel_ATTACK.6.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\566_Black_Angel_ATTACK.6.07.png">
+      <Name>566_Black_Angel_ATTACK.6.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\567_Black_Angel_ATTACK.6.08.png">
+      <Name>567_Black_Angel_ATTACK.6.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\570_Black_Angel_HIT.6.01.png">
+      <Name>570_Black_Angel_HIT.6.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\571_Black_Angel_HIT.6.02.png">
+      <Name>571_Black_Angel_HIT.6.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\572_Black_Angel_HIT.6.03.png">
+      <Name>572_Black_Angel_HIT.6.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\573_Black_Angel_HIT.6.04.png">
+      <Name>573_Black_Angel_HIT.6.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\574_Black_Angel_HIT.6.05.png">
+      <Name>574_Black_Angel_HIT.6.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\575_Black_Angel_HIT.6.06.png">
+      <Name>575_Black_Angel_HIT.6.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\576_Black_Angel_HIT.6.07.png">
+      <Name>576_Black_Angel_HIT.6.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\577_Black_Angel_HIT.6.08.png">
+      <Name>577_Black_Angel_HIT.6.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\580_Black_Angel_DEAD.6.01.png">
+      <Name>580_Black_Angel_DEAD.6.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\581_Black_Angel_DEAD.6.02.png">
+      <Name>581_Black_Angel_DEAD.6.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\582_Black_Angel_DEAD.6.03.png">
+      <Name>582_Black_Angel_DEAD.6.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\583_Black_Angel_DEAD.6.04.png">
+      <Name>583_Black_Angel_DEAD.6.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\584_Black_Angel_DEAD.6.05.png">
+      <Name>584_Black_Angel_DEAD.6.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\585_Black_Angel_DEAD.6.06.png">
+      <Name>585_Black_Angel_DEAD.6.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\586_Black_Angel_DEAD.6.07.png">
+      <Name>586_Black_Angel_DEAD.6.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Black_Angel\587_Black_Angel_DEAD.6.08.png">
+      <Name>587_Black_Angel_DEAD.6.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Unit\Black_Angel\Black_Angel.png">
+      <Name>Black_Angel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\v3.0\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

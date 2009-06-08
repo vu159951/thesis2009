@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Black_Angel>
+  <RepresentativeImage name="Unit\\Black_Angel\\Black_Angel"/>
+  <Information>
+    <MaxHealth value="100"/>
+    <Power value="5" />
+    <RadiusAttack value="50" />
+    <RadiusDetect value="70" />
+    <Speed value="6" />
+  </Information>
+  <Requirements>
+    <Gold value="30" />
+  </Requirements>
+  <Time value="5"></Time>
+  <IDLE>
+    <S>
+      <Image name="Unit\\Black_Angel\\000_Black_Angel_IDLE.1.01"/>
+      <Image name="Unit\\Black_Angel\\001_Black_Angel_IDLE.1.02"/>
+      <Image name="Unit\\Black_Angel\\002_Black_Angel_IDLE.1.03"/>
+      <Image name="Unit\\Black_Angel\\003_Black_Angel_IDLE.1.04"/>
+      <Image name="Unit\\Black_Angel\\004_Black_Angel_IDLE.1.05"/>
+      <Image name="Unit\\Black_Angel\\005_Black_Angel_IDLE.1.06"/>
+      <Image name="Unit\\Black_Angel\\006_Black_Angel_IDLE.1.07"/>
+      <Image name="Unit\\Black_Angel\\007_Black_Angel_IDLE.1.08"/>
+      <Image name="Unit\\Black_Angel\\008_Black_Angel_IDLE.1.09"/>
+      <Image name="Unit\\Black_Angel\\009_Black_Angel_IDLE.1.10"/>
+      <Image name="Unit\\Black_Angel\\010_Black_Angel_IDLE.1.11"/>
+      <Image name="Unit\\Black_Angel\\011_Black_Angel_IDLE.1.12"/>
+      <Image name="Unit\\Black_Angel\\012_Black_Angel_IDLE.1.13"/>
+      <Image name="Unit\\Black_Angel\\013_Black_Angel_IDLE.1.14"/>
+      <Image name="Unit\\Black_Angel\\014_Black_Angel_IDLE.1.15"/>
+    </S>
+    <ES>
+      <Image name="Unit\\Black_Angel\\100_Black_Angel_IDLE.2.01"/>
+      <Image name="Unit\\Black_Angel\\101_Black_Angel_IDLE.2.02"/>
+      <Image name="Unit\\Black_Angel\\102_Black_Angel_IDLE.2.03"/>
+      <Image name="Unit\\Black_Angel\\103_Black_Angel_IDLE.2.04"/>
+      <Image name="Unit\\Black_Angel\\104_Black_Angel_IDLE.2.05"/>
+      <Image name="Unit\\Black_Angel\\105_Black_Angel_IDLE.2.06"/>
+      <Image name="Unit\\Black_Angel\\106_Black_Angel_IDLE.2.07"/>
+      <Image name="Unit\\Black_Angel\\107_Black_Angel_IDLE.2.08"/>
+      <Image name="Unit\\Black_Angel\\108_Black_Angel_IDLE.2.09"/>
+      <Image name="Unit\\Black_Angel\\109_Black_Angel_IDLE.2.10"/>
+      <Image name="Unit\\Black_Angel\\110_Black_Angel_IDLE.2.11"/>
+      <Image name="Unit\\Black_Angel\\111_Black_Angel_IDLE.2.12"/>
+      <Image name="Unit\\Black_Angel\\112_Black_Angel_IDLE.2.13"/>
+      <Image name="Unit\\Black_Angel\\113_Black_Angel_IDLE.2.14"/>
+      <Image name="Unit\\Black_Angel\\114_Black_Angel_IDLE.2.15"/>
+    </ES>
+    <E>
+    </E>
+    <EN>
+      <Image name="Unit\\Black_Angel\\200_Black_Angel_IDLE.3.01"/>
+      <Image name="Unit\\Black_Angel\\201_Black_Angel_IDLE.3.02"/>
+      <Image name="Unit\\Black_Angel\\202_Black_Angel_IDLE.3.03"/>
+      <Image name="Unit\\Black_Angel\\203_Black_Angel_IDLE.3.04"/>
+      <Image name="Unit\\Black_Angel\\204_Black_Angel_IDLE.3.05"/>
+      <Image name="Unit\\Black_Angel\\205_Black_Angel_IDLE.3.06"/>
+      <Image name="Unit\\Black_Angel\\206_Black_Angel_IDLE.3.07"/>
+      <Image name="Unit\\Black_Angel\\207_Black_Angel_IDLE.3.08"/>
+      <Image name="Unit\\Black_Angel\\208_Black_Angel_IDLE.3.09"/>
+      <Image name="Unit\\Black_Angel\\209_Black_Angel_IDLE.3.10"/>
+      <Image name="Unit\\Black_Angel\\210_Black_Angel_IDLE.3.11"/>
+      <Image name="Unit\\Black_Angel\\211_Black_Angel_IDLE.3.12"/>
+      <Image name="Unit\\Black_Angel\\212_Black_Angel_IDLE.3.13"/>
+      <Image name="Unit\\Black_Angel\\213_Black_Angel_IDLE.3.14"/>
+      <Image name="Unit\\Black_Angel\\214_Black_Angel_IDLE.3.15"/>
+    </EN>
+    <N>
+      <Image name="Unit\\Black_Angel\\300_Black_Angel_IDLE.4.01"/>
+      <Image name="Unit\\Black_Angel\\301_Black_Angel_IDLE.4.02"/>
+      <Image name="Unit\\Black_Angel\\302_Black_Angel_IDLE.4.03"/>
+      <Image name="Unit\\Black_Angel\\303_Black_Angel_IDLE.4.04"/>
+      <Image name="Unit\\Black_Angel\\304_Black_Angel_IDLE.4.05"/>
+      <Image name="Unit\\Black_Angel\\305_Black_Angel_IDLE.4.06"/>
+      <Image name="Unit\\Black_Angel\\306_Black_Angel_IDLE.4.07"/>
+      <Image name="Unit\\Black_Angel\\307_Black_Angel_IDLE.4.08"/>
+      <Image name="Unit\\Black_Angel\\308_Black_Angel_IDLE.4.09"/>
+      <Image name="Unit\\Black_Angel\\309_Black_Angel_IDLE.4.10"/>
+      <Image name="Unit\\Black_Angel\\310_Black_Angel_IDLE.4.11"/>
+      <Image name="Unit\\Black_Angel\\311_Black_Angel_IDLE.4.12"/>
+      <Image name="Unit\\Black_Angel\\312_Black_Angel_IDLE.4.13"/>
+      <Image name="Unit\\Black_Angel\\313_Black_Angel_IDLE.4.14"/>
+      <Image name="Unit\\Black_Angel\\314_Black_Angel_IDLE.4.15"/>
+    </N>
+    <WN>
+      <Image name="Unit\\Black_Angel\\400_Black_Angel_IDLE.5.01"/>
+      <Image name="Unit\\Black_Angel\\401_Black_Angel_IDLE.5.02"/>
+      <Image name="Unit\\Black_Angel\\402_Black_Angel_IDLE.5.03"/>
+      <Image name="Unit\\Black_Angel\\403_Black_Angel_IDLE.5.04"/>
+      <Image name="Unit\\Black_Angel\\404_Black_Angel_IDLE.5.05"/>
+      <Image name="Unit\\Black_Angel\\405_Black_Angel_IDLE.5.06"/>
+      <Image name="Unit\\Black_Angel\\406_Black_Angel_IDLE.5.07"/>
+      <Image name="Unit\\Black_Angel\\407_Black_Angel_IDLE.5.08"/>
+      <Image name="Unit\\Black_Angel\\408_Black_Angel_IDLE.5.09"/>
+      <Image name="Unit\\Black_Angel\\409_Black_Angel_IDLE.5.10"/>
+      <Image name="Unit\\Black_Angel\\409_Black_Angel_IDLE.5.10"/>
+      <Image name="Unit\\Black_Angel\\410_Black_Angel_IDLE.5.11"/>
+      <Image name="Unit\\Black_Angel\\411_Black_Angel_IDLE.5.12"/>
+      <Image name="Unit\\Black_Angel\\412_Black_Angel_IDLE.5.13"/>
+      <Image name="Unit\\Black_Angel\\413_Black_Angel_IDLE.5.14"/>
+      <Image name="Unit\\Black_Angel\\414_Black_Angel_IDLE.5.15"/>
+    </WN>
+    <W></W>
+    <WS>
+      <Image name="Unit\\Black_Angel\\500_Black_Angel_IDLE.6.01"/>
+      <Image name="Unit\\Black_Angel\\501_Black_Angel_IDLE.6.02"/>
+      <Image name="Unit\\Black_Angel\\502_Black_Angel_IDLE.6.03"/>
+      <Image name="Unit\\Black_Angel\\503_Black_Angel_IDLE.6.04"/>
+      <Image name="Unit\\Black_Angel\\504_Black_Angel_IDLE.6.05"/>
+      <Image name="Unit\\Black_Angel\\505_Black_Angel_IDLE.6.06"/>
+      <Image name="Unit\\Black_Angel\\506_Black_Angel_IDLE.6.07"/>
+      <Image name="Unit\\Black_Angel\\507_Black_Angel_IDLE.6.08"/>
+      <Image name="Unit\\Black_Angel\\508_Black_Angel_IDLE.6.09"/>
+      <Image name="Unit\\Black_Angel\\509_Black_Angel_IDLE.6.10"/>
+      <Image name="Unit\\Black_Angel\\510_Black_Angel_IDLE.6.11"/>
+      <Image name="Unit\\Black_Angel\\511_Black_Angel_IDLE.6.12"/>
+      <Image name="Unit\\Black_Angel\\512_Black_Angel_IDLE.6.13"/>
+      <Image name="Unit\\Black_Angel\\513_Black_Angel_IDLE.6.14"/>
+      <Image name="Unit\\Black_Angel\\514_Black_Angel_IDLE.6.15"/>
+    </WS>
+  </IDLE>
+  <FLY>
+    <S>
+      <Image name="Unit\\Black_Angel\\030_Black_Angel_FLY.1.01"/>
+      <Image name="Unit\\Black_Angel\\031_Black_Angel_FLY.1.02"/>
+      <Image name="Unit\\Black_Angel\\032_Black_Angel_FLY.1.03"/>
+      <Image name="Unit\\Black_Angel\\033_Black_Angel_FLY.1.04"/>
+      <Image name="Unit\\Black_Angel\\034_Black_Angel_FLY.1.05"/>
+      <Image name="Unit\\Black_Angel\\035_Black_Angel_FLY.1.06"/>
+      <Image name="Unit\\Black_Angel\\036_Black_Angel_FLY.1.07"/>
+      <Image name="Unit\\Black_Angel\\037_Black_Angel_FLY.1.08"/>
+      <Image name="Unit\\Black_Angel\\038_Black_Angel_FLY.1.09"/>
+      <Image name="Unit\\Black_Angel\\039_Black_Angel_FLY.1.10"/>
+      <Image name="Unit\\Black_Angel\\040_Black_Angel_FLY.1.11"/>
+      <Image name="Unit\\Black_Angel\\041_Black_Angel_FLY.1.12"/>
+      <Image name="Unit\\Black_Angel\\042_Black_Angel_FLY.1.13"/>
+      <Image name="Unit\\Black_Angel\\043_Black_Angel_FLY.1.14"/>
+      <Image name="Unit\\Black_Angel\\044_Black_Angel_FLY.1.15"/>
+    </S>
+    <ES>
+      <Image name="Unit\\Black_Angel\\130_Black_Angel_FLY.2.01"/>
+      <Image name="Unit\\Black_Angel\\131_Black_Angel_FLY.2.02"/>
+      <Image name="Unit\\Black_Angel\\132_Black_Angel_FLY.2.03"/>
+      <Image name="Unit\\Black_Angel\\133_Black_Angel_FLY.2.04"/>
+      <Image name="Unit\\Black_Angel\\134_Black_Angel_FLY.2.05"/>
+      <Image name="Unit\\Black_Angel\\135_Black_Angel_FLY.2.06"/>
+      <Image name="Unit\\Black_Angel\\136_Black_Angel_FLY.2.07"/>
+      <Image name="Unit\\Black_Angel\\137_Black_Angel_FLY.2.08"/>
+      <Image name="Unit\\Black_Angel\\138_Black_Angel_FLY.2.09"/>
+      <Image name="Unit\\Black_Angel\\139_Black_Angel_FLY.2.10"/>
+      <Image name="Unit\\Black_Angel\\140_Black_Angel_FLY.2.11"/>
+      <Image name="Unit\\Black_Angel\\141_Black_Angel_FLY.2.12"/>
+      <Image name="Unit\\Black_Angel\\142_Black_Angel_FLY.2.13"/>
+      <Image name="Unit\\Black_Angel\\143_Black_Angel_FLY.2.14"/>
+      <Image name="Unit\\Black_Angel\\144_Black_Angel_FLY.2.15"/>
+    </ES>
+    <E>
+      
+    </E>
+    <EN>
+      <Image name="Unit\\Black_Angel\\230_Black_Angel_FLY.3.01"/>
+      <Image name="Unit\\Black_Angel\\231_Black_Angel_FLY.3.02"/>
+      <Image name="Unit\\Black_Angel\\232_Black_Angel_FLY.3.03"/>
+      <Image name="Unit\\Black_Angel\\233_Black_Angel_FLY.3.04"/>
+      <Image name="Unit\\Black_Angel\\234_Black_Angel_FLY.3.05"/>
+      <Image name="Unit\\Black_Angel\\235_Black_Angel_FLY.3.06"/>
+      <Image name="Unit\\Black_Angel\\236_Black_Angel_FLY.3.07"/>
+      <Image name="Unit\\Black_Angel\\237_Black_Angel_FLY.3.08"/>
+      <Image name="Unit\\Black_Angel\\238_Black_Angel_FLY.3.09"/>
+      <Image name="Unit\\Black_Angel\\239_Black_Angel_FLY.3.10"/>
+      <Image name="Unit\\Black_Angel\\240_Black_Angel_FLY.3.11"/>
+      <Image name="Unit\\Black_Angel\\241_Black_Angel_FLY.3.12"/>
+      <Image name="Unit\\Black_Angel\\242_Black_Angel_FLY.3.13"/>
+      <Image name="Unit\\Black_Angel\\243_Black_Angel_FLY.3.14"/>
+      <Image name="Unit\\Black_Angel\\244_Black_Angel_FLY.3.15"/>
+    </EN>
+    <N>
+      <Image name="Unit\\Black_Angel\\330_Black_Angel_FLY.4.01"/>
+      <Image name="Unit\\Black_Angel\\331_Black_Angel_FLY.4.02"/>
+      <Image name="Unit\\Black_Angel\\332_Black_Angel_FLY.4.03"/>
+      <Image name="Unit\\Black_Angel\\333_Black_Angel_FLY.4.04"/>
+      <Image name="Unit\\Black_Angel\\334_Black_Angel_FLY.4.05"/>
+      <Image name="Unit\\Black_Angel\\335_Black_Angel_FLY.4.06"/>
+      <Image name="Unit\\Black_Angel\\336_Black_Angel_FLY.4.07"/>
+      <Image name="Unit\\Black_Angel\\337_Black_Angel_FLY.4.08"/>
+      <Image name="Unit\\Black_Angel\\338_Black_Angel_FLY.4.09"/>
+      <Image name="Unit\\Black_Angel\\339_Black_Angel_FLY.4.10"/>
+      <Image name="Unit\\Black_Angel\\340_Black_Angel_FLY.4.11"/>
+      <Image name="Unit\\Black_Angel\\341_Black_Angel_FLY.4.12"/>
+      <Image name="Unit\\Black_Angel\\342_Black_Angel_FLY.4.13"/>
+      <Image name="Unit\\Black_Angel\\343_Black_Angel_FLY.4.14"/>
+      <Image name="Unit\\Black_Angel\\344_Black_Angel_FLY.4.15"/>
+    </N>
+    <WN>
+      <Image name="Unit\\Black_Angel\\430_Black_Angel_FLY.5.01"/>
+      <Image name="Unit\\Black_Angel\\431_Black_Angel_FLY.5.02"/>
+      <Image name="Unit\\Black_Angel\\432_Black_Angel_FLY.5.03"/>
+      <Image name="Unit\\Black_Angel\\433_Black_Angel_FLY.5.04"/>
+      <Image name="Unit\\Black_Angel\\434_Black_Angel_FLY.5.05"/>
+      <Image name="Unit\\Black_Angel\\435_Black_Angel_FLY.5.06"/>
+      <Image name="Unit\\Black_Angel\\436_Black_Angel_FLY.5.07"/>
+      <Image name="Unit\\Black_Angel\\437_Black_Angel_FLY.5.08"/>
+      <Image name="Unit\\Black_Angel\\438_Black_Angel_FLY.5.09"/>
+      <Image name="Unit\\Black_Angel\\439_Black_Angel_FLY.5.10"/>
+      <Image name="Unit\\Black_Angel\\440_Black_Angel_FLY.5.11"/>
+      <Image name="Unit\\Black_Angel\\441_Black_Angel_FLY.5.12"/>
+      <Image name="Unit\\Black_Angel\\442_Black_Angel_FLY.5.13"/>
+      <Image name="Unit\\Black_Angel\\443_Black_Angel_FLY.5.14"/>
+      <Image name="Unit\\Black_Angel\\444_Black_Angel_FLY.5.15"/>
+    </WN>
+    <W>
+    </W>
+    <WS>
+      <Image name="Unit\\Black_Angel\\530_Black_Angel_FLY.6.01"/>
+      <Image name="Unit\\Black_Angel\\531_Black_Angel_FLY.6.02"/>
+      <Image name="Unit\\Black_Angel\\532_Black_Angel_FLY.6.03"/>
+      <Image name="Unit\\Black_Angel\\533_Black_Angel_FLY.6.04"/>
+      <Image name="Unit\\Black_Angel\\534_Black_Angel_FLY.6.05"/>
+      <Image name="Unit\\Black_Angel\\535_Black_Angel_FLY.6.06"/>
+      <Image name="Unit\\Black_Angel\\536_Black_Angel_FLY.6.07"/>
+      <Image name="Unit\\Black_Angel\\537_Black_Angel_FLY.6.08"/>
+      <Image name="Unit\\Black_Angel\\538_Black_Angel_FLY.6.09"/>
+      <Image name="Unit\\Black_Angel\\539_Black_Angel_FLY.6.10"/>
+      <Image name="Unit\\Black_Angel\\540_Black_Angel_FLY.6.11"/>
+      <Image name="Unit\\Black_Angel\\541_Black_Angel_FLY.6.12"/>
+      <Image name="Unit\\Black_Angel\\542_Black_Angel_FLY.6.13"/>
+      <Image name="Unit\\Black_Angel\\543_Black_Angel_FLY.6.14"/>
+      <Image name="Unit\\Black_Angel\\544_Black_Angel_FLY.6.15"/>
+    </WS>
+  </FLY>
+  <ATTACK>
+    <S>
+      <Image name="Unit\\Black_Angel\\060_Black_Angel_ATTACK.1.01"/>
+      <Image name="Unit\\Black_Angel\\061_Black_Angel_ATTACK.1.02"/>
+      <Image name="Unit\\Black_Angel\\062_Black_Angel_ATTACK.1.03"/>
+      <Image name="Unit\\Black_Angel\\063_Black_Angel_ATTACK.1.04"/>
+      <Image name="Unit\\Black_Angel\\064_Black_Angel_ATTACK.1.05"/>
+      <Image name="Unit\\Black_Angel\\065_Black_Angel_ATTACK.1.06"/>
+      <Image name="Unit\\Black_Angel\\066_Black_Angel_ATTACK.1.07"/>
+      <Image name="Unit\\Black_Angel\\067_Black_Angel_ATTACK.1.08"/>
+    </S>
+    <ES>
+      <Image name="Unit\\Black_Angel\\160_Black_Angel_ATTACK.2.01"/>
+      <Image name="Unit\\Black_Angel\\161_Black_Angel_ATTACK.2.02"/>
+      <Image name="Unit\\Black_Angel\\162_Black_Angel_ATTACK.2.03"/>
+      <Image name="Unit\\Black_Angel\\163_Black_Angel_ATTACK.2.04"/>
+      <Image name="Unit\\Black_Angel\\164_Black_Angel_ATTACK.2.05"/>
+      <Image name="Unit\\Black_Angel\\165_Black_Angel_ATTACK.2.06"/>
+      <Image name="Unit\\Black_Angel\\166_Black_Angel_ATTACK.2.07"/>
+      <Image name="Unit\\Black_Angel\\167_Black_Angel_ATTACK.2.08"/>
+    </ES>
+    <E></E>
+    <EN>
+      <Image name="Unit\\Black_Angel\\260_Black_Angel_ATTACK.3.01"/>
+      <Image name="Unit\\Black_Angel\\261_Black_Angel_ATTACK.3.02"/>
+      <Image name="Unit\\Black_Angel\\262_Black_Angel_ATTACK.3.03"/>
+      <Image name="Unit\\Black_Angel\\263_Black_Angel_ATTACK.3.04"/>
+      <Image name="Unit\\Black_Angel\\264_Black_Angel_ATTACK.3.05"/>
+      <Image name="Unit\\Black_Angel\\265_Black_Angel_ATTACK.3.06"/>
+      <Image name="Unit\\Black_Angel\\266_Black_Angel_ATTACK.3.07"/>
+      <Image name="Unit\\Black_Angel\\267_Black_Angel_ATTACK.3.08"/>
+    </EN>
+    <N>
+      <Image name="Unit\\Black_Angel\\360_Black_Angel_ATTACK.4.01"/>
+      <Image name="Unit\\Black_Angel\\361_Black_Angel_ATTACK.4.02"/>
+      <Image name="Unit\\Black_Angel\\362_Black_Angel_ATTACK.4.03"/>
+      <Image name="Unit\\Black_Angel\\363_Black_Angel_ATTACK.4.04"/>
+      <Image name="Unit\\Black_Angel\\364_Black_Angel_ATTACK.4.05"/>
+      <Image name="Unit\\Black_Angel\\365_Black_Angel_ATTACK.4.06"/>
+      <Image name="Unit\\Black_Angel\\366_Black_Angel_ATTACK.4.07"/>
+      <Image name="Unit\\Black_Angel\\367_Black_Angel_ATTACK.4.08"/>
+    </N>
+    <WN>
+      <Image name="Unit\\Black_Angel\\460_Black_Angel_ATTACK.5.01"/>
+      <Image name="Unit\\Black_Angel\\461_Black_Angel_ATTACK.5.02"/>
+      <Image name="Unit\\Black_Angel\\462_Black_Angel_ATTACK.5.03"/>
+      <Image name="Unit\\Black_Angel\\463_Black_Angel_ATTACK.5.04"/>
+      <Image name="Unit\\Black_Angel\\464_Black_Angel_ATTACK.5.05"/>
+      <Image name="Unit\\Black_Angel\\465_Black_Angel_ATTACK.5.06"/>
+      <Image name="Unit\\Black_Angel\\466_Black_Angel_ATTACK.5.07"/>
+      <Image name="Unit\\Black_Angel\\467_Black_Angel_ATTACK.5.08"/>
+    </WN>
+    <W></W>
+    <WS>
+      <Image name="Unit\\Black_Angel\\560_Black_Angel_ATTACK.6.01"/>
+      <Image name="Unit\\Black_Angel\\561_Black_Angel_ATTACK.6.02"/>
+      <Image name="Unit\\Black_Angel\\562_Black_Angel_ATTACK.6.03"/>
+      <Image name="Unit\\Black_Angel\\563_Black_Angel_ATTACK.6.04"/>
+      <Image name="Unit\\Black_Angel\\564_Black_Angel_ATTACK.6.05"/>
+      <Image name="Unit\\Black_Angel\\565_Black_Angel_ATTACK.6.06"/>
+      <Image name="Unit\\Black_Angel\\566_Black_Angel_ATTACK.6.07"/>
+      <Image name="Unit\\Black_Angel\\567_Black_Angel_ATTACK.6.08"/>
+    </WS>
+  </ATTACK>
+  <HIT count="8">
+    <S>
+      <Image name="Unit\\Black_Angel\\070_Black_Angel_HIT.1.01"/>
+      <Image name="Unit\\Black_Angel\\071_Black_Angel_HIT.1.02"/>
+      <Image name="Unit\\Black_Angel\\072_Black_Angel_HIT.1.03"/>
+      <Image name="Unit\\Black_Angel\\073_Black_Angel_HIT.1.04"/>
+      <Image name="Unit\\Black_Angel\\074_Black_Angel_HIT.1.05"/>
+      <Image name="Unit\\Black_Angel\\075_Black_Angel_HIT.1.06"/>
+      <Image name="Unit\\Black_Angel\\076_Black_Angel_HIT.1.07"/>
+      <Image name="Unit\\Black_Angel\\077_Black_Angel_HIT.1.08"/>
+    </S>
+    <ES>
+      <Image name="Unit\\Black_Angel\\170_Black_Angel_HIT.2.01"/>
+      <Image name="Unit\\Black_Angel\\171_Black_Angel_HIT.2.02"/>
+      <Image name="Unit\\Black_Angel\\172_Black_Angel_HIT.2.03"/>
+      <Image name="Unit\\Black_Angel\\173_Black_Angel_HIT.2.04"/>
+      <Image name="Unit\\Black_Angel\\174_Black_Angel_HIT.2.05"/>
+      <Image name="Unit\\Black_Angel\\175_Black_Angel_HIT.2.06"/>
+      <Image name="Unit\\Black_Angel\\176_Black_Angel_HIT.2.07"/>
+      <Image name="Unit\\Black_Angel\\177_Black_Angel_HIT.2.08"/>
+    </ES>
+    <E>
+      
+    </E>
+    <EN>
+      <Image name="Unit\\Black_Angel\\270_Black_Angel_HIT.3.01"/>
+      <Image name="Unit\\Black_Angel\\271_Black_Angel_HIT.3.02"/>
+      <Image name="Unit\\Black_Angel\\272_Black_Angel_HIT.3.03"/>
+      <Image name="Unit\\Black_Angel\\273_Black_Angel_HIT.3.04"/>
+      <Image name="Unit\\Black_Angel\\274_Black_Angel_HIT.3.05"/>
+      <Image name="Unit\\Black_Angel\\275_Black_Angel_HIT.3.06"/>
+      <Image name="Unit\\Black_Angel\\276_Black_Angel_HIT.3.07"/>
+      <Image name="Unit\\Black_Angel\\277_Black_Angel_HIT.3.08"/>
+    </EN>
+    <N>
+      <Image name="Unit\\Black_Angel\\370_Black_Angel_HIT.4.01"/>
+      <Image name="Unit\\Black_Angel\\371_Black_Angel_HIT.4.02"/>
+      <Image name="Unit\\Black_Angel\\372_Black_Angel_HIT.4.03"/>
+      <Image name="Unit\\Black_Angel\\373_Black_Angel_HIT.4.04"/>
+      <Image name="Unit\\Black_Angel\\374_Black_Angel_HIT.4.05"/>
+      <Image name="Unit\\Black_Angel\\375_Black_Angel_HIT.4.06"/>
+      <Image name="Unit\\Black_Angel\\376_Black_Angel_HIT.4.07"/>
+      <Image name="Unit\\Black_Angel\\377_Black_Angel_HIT.4.08"/>
+    </N>
+    <WN>
+      <Image name="Unit\\Black_Angel\\470_Black_Angel_HIT.5.01"/>
+      <Image name="Unit\\Black_Angel\\471_Black_Angel_HIT.5.02"/>
+      <Image name="Unit\\Black_Angel\\472_Black_Angel_HIT.5.03"/>
+      <Image name="Unit\\Black_Angel\\473_Black_Angel_HIT.5.04"/>
+      <Image name="Unit\\Black_Angel\\474_Black_Angel_HIT.5.05"/>
+      <Image name="Unit\\Black_Angel\\475_Black_Angel_HIT.5.06"/>
+      <Image name="Unit\\Black_Angel\\476_Black_Angel_HIT.5.07"/>
+      <Image name="Unit\\Black_Angel\\477_Black_Angel_HIT.5.08"/>
+    </WN>
+    <W></W>
+    <WS>
+      <Image name="Unit\\Black_Angel\\570_Black_Angel_HIT.6.01"/>
+      <Image name="Unit\\Black_Angel\\571_Black_Angel_HIT.6.02"/>
+      <Image name="Unit\\Black_Angel\\572_Black_Angel_HIT.6.03"/>
+      <Image name="Unit\\Black_Angel\\573_Black_Angel_HIT.6.04"/>
+      <Image name="Unit\\Black_Angel\\574_Black_Angel_HIT.6.05"/>
+      <Image name="Unit\\Black_Angel\\575_Black_Angel_HIT.6.06"/>
+      <Image name="Unit\\Black_Angel\\576_Black_Angel_HIT.6.07"/>
+      <Image name="Unit\\Black_Angel\\577_Black_Angel_HIT.6.08"/>
+    </WS>
+  </HIT>
+  <DEAD count="10">
+    <S>
+      <Image name="Unit\\Black_Angel\\080_Black_Angel_DEAD.1.01"/>
+      <Image name="Unit\\Black_Angel\\081_Black_Angel_DEAD.1.02"/>
+      <Image name="Unit\\Black_Angel\\082_Black_Angel_DEAD.1.03"/>
+      <Image name="Unit\\Black_Angel\\083_Black_Angel_DEAD.1.04"/>
+      <Image name="Unit\\Black_Angel\\084_Black_Angel_DEAD.1.05"/>
+      <Image name="Unit\\Black_Angel\\085_Black_Angel_DEAD.1.06"/>
+      <Image name="Unit\\Black_Angel\\086_Black_Angel_DEAD.1.07"/>
+      <Image name="Unit\\Black_Angel\\087_Black_Angel_DEAD.1.08"/>
+      <Image name="Unit\\Black_Angel\\088_Black_Angel_DEAD.1.09"/>
+      <Image name="Unit\\Black_Angel\\089_Black_Angel_DEAD.1.10"/>
+    </S>
+    <ES>
+      <Image name="Unit\\Black_Angel\\180_Black_Angel_DEAD.2.01"/>
+      <Image name="Unit\\Black_Angel\\181_Black_Angel_DEAD.2.02"/>
+      <Image name="Unit\\Black_Angel\\182_Black_Angel_DEAD.2.03"/>
+      <Image name="Unit\\Black_Angel\\183_Black_Angel_DEAD.2.04"/>
+      <Image name="Unit\\Black_Angel\\184_Black_Angel_DEAD.2.05"/>
+      <Image name="Unit\\Black_Angel\\185_Black_Angel_DEAD.2.06"/>
+      <Image name="Unit\\Black_Angel\\186_Black_Angel_DEAD.2.07"/>
+      <Image name="Unit\\Black_Angel\\187_Black_Angel_DEAD.2.08"/>
+      <Image name="Unit\\Black_Angel\\188_Black_Angel_DEAD.2.09"/>
+      <Image name="Unit\\Black_Angel\\189_Black_Angel_DEAD.2.10"/>
+    </ES>
+    <E>
+      
+    </E>
+    <EN>
+      <Image name="Unit\\Black_Angel\\280_Black_Angel_DEAD.3.01"/>
+      <Image name="Unit\\Black_Angel\\281_Black_Angel_DEAD.3.02"/>
+      <Image name="Unit\\Black_Angel\\282_Black_Angel_DEAD.3.03"/>
+      <Image name="Unit\\Black_Angel\\283_Black_Angel_DEAD.3.04"/>
+      <Image name="Unit\\Black_Angel\\284_Black_Angel_DEAD.3.05"/>
+      <Image name="Unit\\Black_Angel\\285_Black_Angel_DEAD.3.06"/>
+      <Image name="Unit\\Black_Angel\\286_Black_Angel_DEAD.3.07"/>
+      <Image name="Unit\\Black_Angel\\287_Black_Angel_DEAD.3.08"/>
+      <Image name="Unit\\Black_Angel\\288_Black_Angel_DEAD.3.09"/>
+      <Image name="Unit\\Black_Angel\\289_Black_Angel_DEAD.3.10"/>
+    </EN>
+    <N>
+      <Image name="Unit\\Black_Angel\\380_Black_Angel_DEAD.4.01"/>
+      <Image name="Unit\\Black_Angel\\381_Black_Angel_DEAD.4.02"/>
+      <Image name="Unit\\Black_Angel\\382_Black_Angel_DEAD.4.03"/>
+      <Image name="Unit\\Black_Angel\\383_Black_Angel_DEAD.4.04"/>
+      <Image name="Unit\\Black_Angel\\384_Black_Angel_DEAD.4.05"/>
+      <Image name="Unit\\Black_Angel\\385_Black_Angel_DEAD.4.06"/>
+      <Image name="Unit\\Black_Angel\\386_Black_Angel_DEAD.4.07"/>
+      <Image name="Unit\\Black_Angel\\387_Black_Angel_DEAD.4.08"/>
+      <Image name="Unit\\Black_Angel\\388_Black_Angel_DEAD.4.09"/>
+      <Image name="Unit\\Black_Angel\\389_Black_Angel_DEAD.4.10"/>
+    </N>
+    <WN>
+      <Image name="Unit\\Black_Angel\\480_Black_Angel_DEAD.5.01"/>
+      <Image name="Unit\\Black_Angel\\481_Black_Angel_DEAD.5.02"/>
+      <Image name="Unit\\Black_Angel\\482_Black_Angel_DEAD.5.03"/>
+      <Image name="Unit\\Black_Angel\\483_Black_Angel_DEAD.5.04"/>
+      <Image name="Unit\\Black_Angel\\484_Black_Angel_DEAD.5.05"/>
+      <Image name="Unit\\Black_Angel\\485_Black_Angel_DEAD.5.06"/>
+      <Image name="Unit\\Black_Angel\\486_Black_Angel_DEAD.5.07"/>
+      <Image name="Unit\\Black_Angel\\487_Black_Angel_DEAD.5.08"/>
+      <Image name="Unit\\Black_Angel\\488_Black_Angel_DEAD.5.09"/>
+      <Image name="Unit\\Black_Angel\\489_Black_Angel_DEAD.5.10"/>
+    </WN>
+    <W>
+      
+    </W>
+    <WS>
+      <Image name="Unit\\Black_Angel\\580_Black_Angel_DEAD.6.01"/>
+      <Image name="Unit\\Black_Angel\\581_Black_Angel_DEAD.6.02"/>
+      <Image name="Unit\\Black_Angel\\582_Black_Angel_DEAD.6.03"/>
+      <Image name="Unit\\Black_Angel\\583_Black_Angel_DEAD.6.04"/>
+      <Image name="Unit\\Black_Angel\\584_Black_Angel_DEAD.6.05"/>
+      <Image name="Unit\\Black_Angel\\585_Black_Angel_DEAD.6.06"/>
+      <Image name="Unit\\Black_Angel\\586_Black_Angel_DEAD.6.07"/>
+      <Image name="Unit\\Black_Angel\\587_Black_Angel_DEAD.6.08"/>
+      <Image name="Unit\\Black_Angel\\588_Black_Angel_DEAD.6.09"/>
+      <Image name="Unit\\Black_Angel\\589_Black_Angel_DEAD.6.10"/>
+    </WS>
+  </DEAD>
+</Black_Angel>
