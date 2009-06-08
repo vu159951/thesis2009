@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elf_swordman>
+  <RepresentativeImage name="Unit\\elf_swordman\\elf_swordman"/>
+  <Information>
+    <MaxHealth value="100"/>
+    <Power value="7" />
+    <RadiusAttack value="50" />
+    <RadiusDetect value="60" />
+    <Speed value="2" />
+  </Information>
+  <Requirements>
+    <Gold value="50" />
+  </Requirements>
+  <Time value="5"></Time>
+
+  <IDLE>
+    <S>
+      <Image name="Unit\\elf_swordman\\000_elf_swordman_IDLE.1.01"/>
+      <Image name="Unit\\elf_swordman\\\001_elf_swordman_IDLE.1.02"/>
+      <Image name="Unit\\elf_swordman\\\002_elf_swordman_IDLE.1.03"/>
+      <Image name="Unit\\elf_swordman\\\003_elf_swordman_IDLE.1.04"/>
+      <Image name="Unit\\elf_swordman\\\004_elf_swordman_IDLE.1.05"/>
+      <Image name="Unit\\elf_swordman\\\005_elf_swordman_IDLE.1.06"/>
+      <Image name="Unit\\elf_swordman\\\006_elf_swordman_IDLE.1.07"/>
+      <Image name="Unit\\elf_swordman\\\007_elf_swordman_IDLE.1.08"/>
+      <Image name="Unit\\elf_swordman\\\008_elf_swordman_IDLE.1.09"/>
+      <Image name="Unit\\elf_swordman\\\009_elf_swordman_IDLE.1.10"/>
+      <Image name="Unit\\elf_swordman\\\010_elf_swordman_IDLE.1.11"/>
+      <Image name="Unit\\elf_swordman\\\011_elf_swordman_IDLE.1.12"/>
+      <Image name="Unit\\elf_swordman\\\012_elf_swordman_IDLE.1.13"/>
+      <Image name="Unit\\elf_swordman\\\013_elf_swordman_IDLE.1.14"/>
+      <Image name="Unit\\elf_swordman\\\014_elf_swordman_IDLE.1.15"/>
+    </S>
+    <ES>
+      <Image name="Unit\\elf_swordman\\\100_elf_swordman_IDLE.2.01"/>
+      <Image name="Unit\\elf_swordman\\\101_elf_swordman_IDLE.2.02"/>
+      <Image name="Unit\\elf_swordman\\\102_elf_swordman_IDLE.2.03"/>
+      <Image name="Unit\\elf_swordman\\\103_elf_swordman_IDLE.2.04"/>
+      <Image name="Unit\\elf_swordman\\\104_elf_swordman_IDLE.2.05"/>
+      <Image name="Unit\\elf_swordman\\\105_elf_swordman_IDLE.2.06"/>
+      <Image name="Unit\\elf_swordman\\\106_elf_swordman_IDLE.2.07"/>
+      <Image name="Unit\\elf_swordman\\\107_elf_swordman_IDLE.2.08"/>
+      <Image name="Unit\\elf_swordman\\\108_elf_swordman_IDLE.2.09"/>
+      <Image name="Unit\\elf_swordman\\\109_elf_swordman_IDLE.2.10"/>
+      <Image name="Unit\\elf_swordman\\\110_elf_swordman_IDLE.2.11"/>
+      <Image name="Unit\\elf_swordman\\\111_elf_swordman_IDLE.2.12"/>
+      <Image name="Unit\\elf_swordman\\\112_elf_swordman_IDLE.2.13"/>
+      <Image name="Unit\\elf_swordman\\\113_elf_swordman_IDLE.2.14"/>
+      <Image name="Unit\\elf_swordman\\\114_elf_swordman_IDLE.2.15"/>
+    </ES>
+    <E>
+    </E>
+    <EN>
+      <Image name="Unit\\elf_swordman\\\200_elf_swordman_IDLE.3.01"/>
+      <Image name="Unit\\elf_swordman\\\201_elf_swordman_IDLE.3.02"/>
+      <Image name="Unit\\elf_swordman\\\202_elf_swordman_IDLE.3.03"/>
+      <Image name="Unit\\elf_swordman\\\203_elf_swordman_IDLE.3.04"/>
+      <Image name="Unit\\elf_swordman\\\204_elf_swordman_IDLE.3.05"/>
+      <Image name="Unit\\elf_swordman\\\205_elf_swordman_IDLE.3.06"/>
+      <Image name="Unit\\elf_swordman\\\206_elf_swordman_IDLE.3.07"/>
+      <Image name="Unit\\elf_swordman\\\207_elf_swordman_IDLE.3.08"/>
+      <Image name="Unit\\elf_swordman\\\208_elf_swordman_IDLE.3.09"/>
+      <Image name="Unit\\elf_swordman\\\209_elf_swordman_IDLE.3.10"/>
+      <Image name="Unit\\elf_swordman\\\210_elf_swordman_IDLE.3.11"/>
+      <Image name="Unit\\elf_swordman\\\211_elf_swordman_IDLE.3.12"/>
+      <Image name="Unit\\elf_swordman\\\212_elf_swordman_IDLE.3.13"/>
+      <Image name="Unit\\elf_swordman\\\213_elf_swordman_IDLE.3.14"/>
+      <Image name="Unit\\elf_swordman\\\214_elf_swordman_IDLE.3.15"/>
+    </EN>
+    <N>
+      <Image name="Unit\\elf_swordman\\\300_elf_swordman_IDLE.4.01"/>
+      <Image name="Unit\\elf_swordman\\\301_elf_swordman_IDLE.4.02"/>
+      <Image name="Unit\\elf_swordman\\\302_elf_swordman_IDLE.4.03"/>
+      <Image name="Unit\\elf_swordman\\\303_elf_swordman_IDLE.4.04"/>
+      <Image name="Unit\\elf_swordman\\\304_elf_swordman_IDLE.4.05"/>
+      <Image name="Unit\\elf_swordman\\\305_elf_swordman_IDLE.4.06"/>
+      <Image name="Unit\\elf_swordman\\\306_elf_swordman_IDLE.4.07"/>
+      <Image name="Unit\\elf_swordman\\\307_elf_swordman_IDLE.4.08"/>
+      <Image name="Unit\\elf_swordman\\\308_elf_swordman_IDLE.4.09"/>
+      <Image name="Unit\\elf_swordman\\\309_elf_swordman_IDLE.4.10"/>
+      <Image name="Unit\\elf_swordman\\\310_elf_swordman_IDLE.4.11"/>
+      <Image name="Unit\\elf_swordman\\\311_elf_swordman_IDLE.4.12"/>
+      <Image name="Unit\\elf_swordman\\\312_elf_swordman_IDLE.4.13"/>
+      <Image name="Unit\\elf_swordman\\\313_elf_swordman_IDLE.4.14"/>
+      <Image name="Unit\\elf_swordman\\\314_elf_swordman_IDLE.4.15"/>
+    </N>
+    <WN>
+      <Image name="Unit\\elf_swordman\\\400_elf_swordman_IDLE.5.01"/>
+      <Image name="Unit\\elf_swordman\\\401_elf_swordman_IDLE.5.02"/>
+      <Image name="Unit\\elf_swordman\\\402_elf_swordman_IDLE.5.03"/>
+      <Image name="Unit\\elf_swordman\\\403_elf_swordman_IDLE.5.04"/>
+      <Image name="Unit\\elf_swordman\\\404_elf_swordman_IDLE.5.05"/>
+      <Image name="Unit\\elf_swordman\\\405_elf_swordman_IDLE.5.06"/>
+      <Image name="Unit\\elf_swordman\\\406_elf_swordman_IDLE.5.07"/>
+      <Image name="Unit\\elf_swordman\\\407_elf_swordman_IDLE.5.08"/>
+      <Image name="Unit\\elf_swordman\\\408_elf_swordman_IDLE.5.09"/>
+      <Image name="Unit\\elf_swordman\\\409_elf_swordman_IDLE.5.10"/>
+      <Image name="Unit\\elf_swordman\\\409_elf_swordman_IDLE.5.10"/>
+      <Image name="Unit\\elf_swordman\\\410_elf_swordman_IDLE.5.11"/>
+      <Image name="Unit\\elf_swordman\\\411_elf_swordman_IDLE.5.12"/>
+      <Image name="Unit\\elf_swordman\\\412_elf_swordman_IDLE.5.13"/>
+      <Image name="Unit\\elf_swordman\\\413_elf_swordman_IDLE.5.14"/>
+      <Image name="Unit\\elf_swordman\\\414_elf_swordman_IDLE.5.15"/>
+    </WN>
+    <W></W>
+    <WS>
+      <Image name="Unit\\elf_swordman\\\500_elf_swordman_IDLE.6.01"/>
+      <Image name="Unit\\elf_swordman\\\501_elf_swordman_IDLE.6.02"/>
+      <Image name="Unit\\elf_swordman\\\502_elf_swordman_IDLE.6.03"/>
+      <Image name="Unit\\elf_swordman\\\503_elf_swordman_IDLE.6.04"/>
+      <Image name="Unit\\elf_swordman\\\504_elf_swordman_IDLE.6.05"/>
+      <Image name="Unit\\elf_swordman\\\505_elf_swordman_IDLE.6.06"/>
+      <Image name="Unit\\elf_swordman\\\506_elf_swordman_IDLE.6.07"/>
+      <Image name="Unit\\elf_swordman\\\507_elf_swordman_IDLE.6.08"/>
+      <Image name="Unit\\elf_swordman\\\508_elf_swordman_IDLE.6.09"/>
+      <Image name="Unit\\elf_swordman\\\509_elf_swordman_IDLE.6.10"/>
+      <Image name="Unit\\elf_swordman\\\510_elf_swordman_IDLE.6.11"/>
+      <Image name="Unit\\elf_swordman\\\511_elf_swordman_IDLE.6.12"/>
+      <Image name="Unit\\elf_swordman\\\512_elf_swordman_IDLE.6.13"/>
+      <Image name="Unit\\elf_swordman\\\513_elf_swordman_IDLE.6.14"/>
+      <Image name="Unit\\elf_swordman\\\514_elf_swordman_IDLE.6.15"/>
+    </WS>
+  </IDLE>
+  <WALK>
+    <S>
+      <Image name="Unit\\elf_swordman\\\030_elf_swordman_WALK.1.01"/>
+      <Image name="Unit\\elf_swordman\\\031_elf_swordman_WALK.1.02"/>
+      <Image name="Unit\\elf_swordman\\\032_elf_swordman_WALK.1.03"/>
+      <Image name="Unit\\elf_swordman\\\033_elf_swordman_WALK.1.04"/>
+      <Image name="Unit\\elf_swordman\\\034_elf_swordman_WALK.1.05"/>
+      <Image name="Unit\\elf_swordman\\\035_elf_swordman_WALK.1.06"/>
+      <Image name="Unit\\elf_swordman\\\036_elf_swordman_WALK.1.07"/>
+      <Image name="Unit\\elf_swordman\\\037_elf_swordman_WALK.1.08"/>
+      <Image name="Unit\\elf_swordman\\\038_elf_swordman_WALK.1.09"/>
+      <Image name="Unit\\elf_swordman\\\039_elf_swordman_WALK.1.10"/>
+      <Image name="Unit\\elf_swordman\\\040_elf_swordman_WALK.1.11"/>
+      <Image name="Unit\\elf_swordman\\\041_elf_swordman_WALK.1.12"/>
+      <Image name="Unit\\elf_swordman\\\042_elf_swordman_WALK.1.13"/>
+      <Image name="Unit\\elf_swordman\\\043_elf_swordman_WALK.1.14"/>
+      <Image name="Unit\\elf_swordman\\\044_elf_swordman_WALK.1.15"/>
+    </S>
+    <ES>
+      <Image name="Unit\\elf_swordman\\\130_elf_swordman_WALK.2.01"/>
+      <Image name="Unit\\elf_swordman\\\131_elf_swordman_WALK.2.02"/>
+      <Image name="Unit\\elf_swordman\\\132_elf_swordman_WALK.2.03"/>
+      <Image name="Unit\\elf_swordman\\\133_elf_swordman_WALK.2.04"/>
+      <Image name="Unit\\elf_swordman\\\134_elf_swordman_WALK.2.05"/>
+      <Image name="Unit\\elf_swordman\\\135_elf_swordman_WALK.2.06"/>
+      <Image name="Unit\\elf_swordman\\\136_elf_swordman_WALK.2.07"/>
+      <Image name="Unit\\elf_swordman\\\137_elf_swordman_WALK.2.08"/>
+      <Image name="Unit\\elf_swordman\\\138_elf_swordman_WALK.2.09"/>
+      <Image name="Unit\\elf_swordman\\\139_elf_swordman_WALK.2.10"/>
+      <Image name="Unit\\elf_swordman\\\140_elf_swordman_WALK.2.11"/>
+      <Image name="Unit\\elf_swordman\\\141_elf_swordman_WALK.2.12"/>
+      <Image name="Unit\\elf_swordman\\\142_elf_swordman_WALK.2.13"/>
+      <Image name="Unit\\elf_swordman\\\143_elf_swordman_WALK.2.14"/>
+      <Image name="Unit\\elf_swordman\\\144_elf_swordman_WALK.2.15"/>
+    </ES>
+    <E>
+
+    </E>
+    <EN>
+      <Image name="Unit\\elf_swordman\\\230_elf_swordman_WALK.3.01"/>
+      <Image name="Unit\\elf_swordman\\\231_elf_swordman_WALK.3.02"/>
+      <Image name="Unit\\elf_swordman\\\232_elf_swordman_WALK.3.03"/>
+      <Image name="Unit\\elf_swordman\\\233_elf_swordman_WALK.3.04"/>
+      <Image name="Unit\\elf_swordman\\\234_elf_swordman_WALK.3.05"/>
+      <Image name="Unit\\elf_swordman\\\235_elf_swordman_WALK.3.06"/>
+      <Image name="Unit\\elf_swordman\\\236_elf_swordman_WALK.3.07"/>
+      <Image name="Unit\\elf_swordman\\\237_elf_swordman_WALK.3.08"/>
+      <Image name="Unit\\elf_swordman\\\238_elf_swordman_WALK.3.09"/>
+      <Image name="Unit\\elf_swordman\\\239_elf_swordman_WALK.3.10"/>
+      <Image name="Unit\\elf_swordman\\\240_elf_swordman_WALK.3.11"/>
+      <Image name="Unit\\elf_swordman\\\241_elf_swordman_WALK.3.12"/>
+      <Image name="Unit\\elf_swordman\\\242_elf_swordman_WALK.3.13"/>
+      <Image name="Unit\\elf_swordman\\\243_elf_swordman_WALK.3.14"/>
+      <Image name="Unit\\elf_swordman\\\244_elf_swordman_WALK.3.15"/>
+    </EN>
+    <N>
+      <Image name="Unit\\elf_swordman\\\330_elf_swordman_WALK.4.01"/>
+      <Image name="Unit\\elf_swordman\\\331_elf_swordman_WALK.4.02"/>
+      <Image name="Unit\\elf_swordman\\\332_elf_swordman_WALK.4.03"/>
+      <Image name="Unit\\elf_swordman\\\333_elf_swordman_WALK.4.04"/>
+      <Image name="Unit\\elf_swordman\\\334_elf_swordman_WALK.4.05"/>
+      <Image name="Unit\\elf_swordman\\\335_elf_swordman_WALK.4.06"/>
+      <Image name="Unit\\elf_swordman\\\336_elf_swordman_WALK.4.07"/>
+      <Image name="Unit\\elf_swordman\\\337_elf_swordman_WALK.4.08"/>
+      <Image name="Unit\\elf_swordman\\\338_elf_swordman_WALK.4.09"/>
+      <Image name="Unit\\elf_swordman\\\339_elf_swordman_WALK.4.10"/>
+      <Image name="Unit\\elf_swordman\\\340_elf_swordman_WALK.4.11"/>
+      <Image name="Unit\\elf_swordman\\\341_elf_swordman_WALK.4.12"/>
+      <Image name="Unit\\elf_swordman\\\342_elf_swordman_WALK.4.13"/>
+      <Image name="Unit\\elf_swordman\\\343_elf_swordman_WALK.4.14"/>
+      <Image name="Unit\\elf_swordman\\\344_elf_swordman_WALK.4.15"/>
+    </N>
+    <WN>
+      <Image name="Unit\\elf_swordman\\\430_elf_swordman_WALK.5.01"/>
+      <Image name="Unit\\elf_swordman\\\431_elf_swordman_WALK.5.02"/>
+      <Image name="Unit\\elf_swordman\\\432_elf_swordman_WALK.5.03"/>
+      <Image name="Unit\\elf_swordman\\\433_elf_swordman_WALK.5.04"/>
+      <Image name="Unit\\elf_swordman\\\434_elf_swordman_WALK.5.05"/>
+      <Image name="Unit\\elf_swordman\\\435_elf_swordman_WALK.5.06"/>
+      <Image name="Unit\\elf_swordman\\\436_elf_swordman_WALK.5.07"/>
+      <Image name="Unit\\elf_swordman\\\437_elf_swordman_WALK.5.08"/>
+      <Image name="Unit\\elf_swordman\\\438_elf_swordman_WALK.5.09"/>
+      <Image name="Unit\\elf_swordman\\\439_elf_swordman_WALK.5.10"/>
+      <Image name="Unit\\elf_swordman\\\440_elf_swordman_WALK.5.11"/>
+      <Image name="Unit\\elf_swordman\\\441_elf_swordman_WALK.5.12"/>
+      <Image name="Unit\\elf_swordman\\\442_elf_swordman_WALK.5.13"/>
+      <Image name="Unit\\elf_swordman\\\443_elf_swordman_WALK.5.14"/>
+      <Image name="Unit\\elf_swordman\\\444_elf_swordman_WALK.5.15"/>
+    </WN>
+    <W>
+    </W>
+    <WS>
+      <Image name="Unit\\elf_swordman\\\530_elf_swordman_WALK.6.01"/>
+      <Image name="Unit\\elf_swordman\\\531_elf_swordman_WALK.6.02"/>
+      <Image name="Unit\\elf_swordman\\\532_elf_swordman_WALK.6.03"/>
+      <Image name="Unit\\elf_swordman\\\533_elf_swordman_WALK.6.04"/>
+      <Image name="Unit\\elf_swordman\\\534_elf_swordman_WALK.6.05"/>
+      <Image name="Unit\\elf_swordman\\\535_elf_swordman_WALK.6.06"/>
+      <Image name="Unit\\elf_swordman\\\536_elf_swordman_WALK.6.07"/>
+      <Image name="Unit\\elf_swordman\\\537_elf_swordman_WALK.6.08"/>
+      <Image name="Unit\\elf_swordman\\\538_elf_swordman_WALK.6.09"/>
+      <Image name="Unit\\elf_swordman\\\539_elf_swordman_WALK.6.10"/>
+      <Image name="Unit\\elf_swordman\\\540_elf_swordman_WALK.6.11"/>
+      <Image name="Unit\\elf_swordman\\\541_elf_swordman_WALK.6.12"/>
+      <Image name="Unit\\elf_swordman\\\542_elf_swordman_WALK.6.13"/>
+      <Image name="Unit\\elf_swordman\\\543_elf_swordman_WALK.6.14"/>
+      <Image name="Unit\\elf_swordman\\\544_elf_swordman_WALK.6.15"/>
+    </WS>
+  </WALK>
+  <ATTACK>
+    <S>
+      <Image name="Unit\\elf_swordman\\\060_elf_swordman_ATTACK.1.01"/>
+      <Image name="Unit\\elf_swordman\\\061_elf_swordman_ATTACK.1.02"/>
+      <Image name="Unit\\elf_swordman\\\062_elf_swordman_ATTACK.1.03"/>
+      <Image name="Unit\\elf_swordman\\\063_elf_swordman_ATTACK.1.04"/>
+      <Image name="Unit\\elf_swordman\\\064_elf_swordman_ATTACK.1.05"/>
+      <Image name="Unit\\elf_swordman\\\065_elf_swordman_ATTACK.1.06"/>
+      <Image name="Unit\\elf_swordman\\\066_elf_swordman_ATTACK.1.07"/>
+      <Image name="Unit\\elf_swordman\\\067_elf_swordman_ATTACK.1.08"/>
+    </S>
+    <ES>
+      <Image name="Unit\\elf_swordman\\\160_elf_swordman_ATTACK.2.01"/>
+      <Image name="Unit\\elf_swordman\\\161_elf_swordman_ATTACK.2.02"/>
+      <Image name="Unit\\elf_swordman\\\162_elf_swordman_ATTACK.2.03"/>
+      <Image name="Unit\\elf_swordman\\\163_elf_swordman_ATTACK.2.04"/>
+      <Image name="Unit\\elf_swordman\\\164_elf_swordman_ATTACK.2.05"/>
+      <Image name="Unit\\elf_swordman\\\165_elf_swordman_ATTACK.2.06"/>
+      <Image name="Unit\\elf_swordman\\\166_elf_swordman_ATTACK.2.07"/>
+      <Image name="Unit\\elf_swordman\\\167_elf_swordman_ATTACK.2.08"/>
+    </ES>
+    <E></E>
+    <EN>
+      <Image name="Unit\\elf_swordman\\\260_elf_swordman_ATTACK.3.01"/>
+      <Image name="Unit\\elf_swordman\\\261_elf_swordman_ATTACK.3.02"/>
+      <Image name="Unit\\elf_swordman\\\262_elf_swordman_ATTACK.3.03"/>
+      <Image name="Unit\\elf_swordman\\\263_elf_swordman_ATTACK.3.04"/>
+      <Image name="Unit\\elf_swordman\\\264_elf_swordman_ATTACK.3.05"/>
+      <Image name="Unit\\elf_swordman\\\265_elf_swordman_ATTACK.3.06"/>
+      <Image name="Unit\\elf_swordman\\\266_elf_swordman_ATTACK.3.07"/>
+      <Image name="Unit\\elf_swordman\\\267_elf_swordman_ATTACK.3.08"/>
+    </EN>
+    <N>
+      <Image name="Unit\\elf_swordman\\\360_elf_swordman_ATTACK.4.01"/>
+      <Image name="Unit\\elf_swordman\\\361_elf_swordman_ATTACK.4.02"/>
+      <Image name="Unit\\elf_swordman\\\362_elf_swordman_ATTACK.4.03"/>
+      <Image name="Unit\\elf_swordman\\\363_elf_swordman_ATTACK.4.04"/>
+      <Image name="Unit\\elf_swordman\\\364_elf_swordman_ATTACK.4.05"/>
+      <Image name="Unit\\elf_swordman\\\365_elf_swordman_ATTACK.4.06"/>
+      <Image name="Unit\\elf_swordman\\\366_elf_swordman_ATTACK.4.07"/>
+      <Image name="Unit\\elf_swordman\\\367_elf_swordman_ATTACK.4.08"/>
+    </N>
+    <WN>
+      <Image name="Unit\\elf_swordman\\\460_elf_swordman_ATTACK.5.01"/>
+      <Image name="Unit\\elf_swordman\\\461_elf_swordman_ATTACK.5.02"/>
+      <Image name="Unit\\elf_swordman\\\462_elf_swordman_ATTACK.5.03"/>
+      <Image name="Unit\\elf_swordman\\\463_elf_swordman_ATTACK.5.04"/>
+      <Image name="Unit\\elf_swordman\\\464_elf_swordman_ATTACK.5.05"/>
+      <Image name="Unit\\elf_swordman\\\465_elf_swordman_ATTACK.5.06"/>
+      <Image name="Unit\\elf_swordman\\\466_elf_swordman_ATTACK.5.07"/>
+      <Image name="Unit\\elf_swordman\\\467_elf_swordman_ATTACK.5.08"/>
+    </WN>
+    <W></W>
+    <WS>
+      <Image name="Unit\\elf_swordman\\\560_elf_swordman_ATTACK.6.01"/>
+      <Image name="Unit\\elf_swordman\\\561_elf_swordman_ATTACK.6.02"/>
+      <Image name="Unit\\elf_swordman\\\562_elf_swordman_ATTACK.6.03"/>
+      <Image name="Unit\\elf_swordman\\\563_elf_swordman_ATTACK.6.04"/>
+      <Image name="Unit\\elf_swordman\\\564_elf_swordman_ATTACK.6.05"/>
+      <Image name="Unit\\elf_swordman\\\565_elf_swordman_ATTACK.6.06"/>
+      <Image name="Unit\\elf_swordman\\\566_elf_swordman_ATTACK.6.07"/>
+      <Image name="Unit\\elf_swordman\\\567_elf_swordman_ATTACK.6.08"/>
+    </WS>
+  </ATTACK>
+  <HIT count="8">
+    <S>
+      <Image name="Unit\\elf_swordman\\\070_elf_swordman_HIT.1.01"/>
+      <Image name="Unit\\elf_swordman\\\071_elf_swordman_HIT.1.02"/>
+      <Image name="Unit\\elf_swordman\\\072_elf_swordman_HIT.1.03"/>
+      <Image name="Unit\\elf_swordman\\\073_elf_swordman_HIT.1.04"/>
+      <Image name="Unit\\elf_swordman\\\074_elf_swordman_HIT.1.05"/>
+      <Image name="Unit\\elf_swordman\\\075_elf_swordman_HIT.1.06"/>
+      <Image name="Unit\\elf_swordman\\\076_elf_swordman_HIT.1.07"/>
+      <Image name="Unit\\elf_swordman\\\077_elf_swordman_HIT.1.08"/>
+    </S>
+    <ES>
+      <Image name="Unit\\elf_swordman\\\170_elf_swordman_HIT.2.01"/>
+      <Image name="Unit\\elf_swordman\\\171_elf_swordman_HIT.2.02"/>
+      <Image name="Unit\\elf_swordman\\\172_elf_swordman_HIT.2.03"/>
+      <Image name="Unit\\elf_swordman\\\173_elf_swordman_HIT.2.04"/>
+      <Image name="Unit\\elf_swordman\\\174_elf_swordman_HIT.2.05"/>
+      <Image name="Unit\\elf_swordman\\\175_elf_swordman_HIT.2.06"/>
+      <Image name="Unit\\elf_swordman\\\176_elf_swordman_HIT.2.07"/>
+      <Image name="Unit\\elf_swordman\\\177_elf_swordman_HIT.2.08"/>
+    </ES>
+    <E>
+      
+    </E>
+    <EN>
+      <Image name="Unit\\elf_swordman\\\270_elf_swordman_HIT.3.01"/>
+      <Image name="Unit\\elf_swordman\\\271_elf_swordman_HIT.3.02"/>
+      <Image name="Unit\\elf_swordman\\\272_elf_swordman_HIT.3.03"/>
+      <Image name="Unit\\elf_swordman\\\273_elf_swordman_HIT.3.04"/>
+      <Image name="Unit\\elf_swordman\\\274_elf_swordman_HIT.3.05"/>
+      <Image name="Unit\\elf_swordman\\\275_elf_swordman_HIT.3.06"/>
+      <Image name="Unit\\elf_swordman\\\276_elf_swordman_HIT.3.07"/>
+      <Image name="Unit\\elf_swordman\\\277_elf_swordman_HIT.3.08"/>
+    </EN>
+    <N>
+      <Image name="Unit\\elf_swordman\\\370_elf_swordman_HIT.4.01"/>
+      <Image name="Unit\\elf_swordman\\\371_elf_swordman_HIT.4.02"/>
+      <Image name="Unit\\elf_swordman\\\372_elf_swordman_HIT.4.03"/>
+      <Image name="Unit\\elf_swordman\\\373_elf_swordman_HIT.4.04"/>
+      <Image name="Unit\\elf_swordman\\\374_elf_swordman_HIT.4.05"/>
+      <Image name="Unit\\elf_swordman\\\375_elf_swordman_HIT.4.06"/>
+      <Image name="Unit\\elf_swordman\\\376_elf_swordman_HIT.4.07"/>
+      <Image name="Unit\\elf_swordman\\\377_elf_swordman_HIT.4.08"/>
+    </N>
+    <WN>
+      <Image name="Unit\\elf_swordman\\\470_elf_swordman_HIT.5.01"/>
+      <Image name="Unit\\elf_swordman\\\471_elf_swordman_HIT.5.02"/>
+      <Image name="Unit\\elf_swordman\\\472_elf_swordman_HIT.5.03"/>
+      <Image name="Unit\\elf_swordman\\\473_elf_swordman_HIT.5.04"/>
+      <Image name="Unit\\elf_swordman\\\474_elf_swordman_HIT.5.05"/>
+      <Image name="Unit\\elf_swordman\\\475_elf_swordman_HIT.5.06"/>
+      <Image name="Unit\\elf_swordman\\\476_elf_swordman_HIT.5.07"/>
+      <Image name="Unit\\elf_swordman\\\477_elf_swordman_HIT.5.08"/>
+    </WN>
+    <W></W>
+    <WS>
+      <Image name="Unit\\elf_swordman\\\570_elf_swordman_HIT.6.01"/>
+      <Image name="Unit\\elf_swordman\\\571_elf_swordman_HIT.6.02"/>
+      <Image name="Unit\\elf_swordman\\\572_elf_swordman_HIT.6.03"/>
+      <Image name="Unit\\elf_swordman\\\573_elf_swordman_HIT.6.04"/>
+      <Image name="Unit\\elf_swordman\\\574_elf_swordman_HIT.6.05"/>
+      <Image name="Unit\\elf_swordman\\\575_elf_swordman_HIT.6.06"/>
+      <Image name="Unit\\elf_swordman\\\576_elf_swordman_HIT.6.07"/>
+      <Image name="Unit\\elf_swordman\\\577_elf_swordman_HIT.6.08"/>
+    </WS>
+  </HIT>
+  <DEAD count="10">
+    <S>
+      <Image name="Unit\\elf_swordman\\\080_elf_swordman_DEAD.1.01"/>
+      <Image name="Unit\\elf_swordman\\\081_elf_swordman_DEAD.1.02"/>
+      <Image name="Unit\\elf_swordman\\\082_elf_swordman_DEAD.1.03"/>
+      <Image name="Unit\\elf_swordman\\\083_elf_swordman_DEAD.1.04"/>
+      <Image name="Unit\\elf_swordman\\\084_elf_swordman_DEAD.1.05"/>
+      <Image name="Unit\\elf_swordman\\\085_elf_swordman_DEAD.1.06"/>
+      <Image name="Unit\\elf_swordman\\\086_elf_swordman_DEAD.1.07"/>
+      <Image name="Unit\\elf_swordman\\\087_elf_swordman_DEAD.1.08"/>
+      <Image name="Unit\\elf_swordman\\\088_elf_swordman_DEAD.1.09"/>
+      <Image name="Unit\\elf_swordman\\\089_elf_swordman_DEAD.1.10"/>
+    </S>
+    <ES>
+      <Image name="Unit\\elf_swordman\\\180_elf_swordman_DEAD.2.01"/>
+      <Image name="Unit\\elf_swordman\\\181_elf_swordman_DEAD.2.02"/>
+      <Image name="Unit\\elf_swordman\\\182_elf_swordman_DEAD.2.03"/>
+      <Image name="Unit\\elf_swordman\\\183_elf_swordman_DEAD.2.04"/>
+      <Image name="Unit\\elf_swordman\\\184_elf_swordman_DEAD.2.05"/>
+      <Image name="Unit\\elf_swordman\\\185_elf_swordman_DEAD.2.06"/>
+      <Image name="Unit\\elf_swordman\\\186_elf_swordman_DEAD.2.07"/>
+      <Image name="Unit\\elf_swordman\\\187_elf_swordman_DEAD.2.08"/>
+      <Image name="Unit\\elf_swordman\\\188_elf_swordman_DEAD.2.09"/>
+      <Image name="Unit\\elf_swordman\\\189_elf_swordman_DEAD.2.10"/>
+    </ES>
+    <E>
+      
+    </E>
+    <EN>
+      <Image name="Unit\\elf_swordman\\\280_elf_swordman_DEAD.3.01"/>
+      <Image name="Unit\\elf_swordman\\\281_elf_swordman_DEAD.3.02"/>
+      <Image name="Unit\\elf_swordman\\\282_elf_swordman_DEAD.3.03"/>
+      <Image name="Unit\\elf_swordman\\\283_elf_swordman_DEAD.3.04"/>
+      <Image name="Unit\\elf_swordman\\\284_elf_swordman_DEAD.3.05"/>
+      <Image name="Unit\\elf_swordman\\\285_elf_swordman_DEAD.3.06"/>
+      <Image name="Unit\\elf_swordman\\\286_elf_swordman_DEAD.3.07"/>
+      <Image name="Unit\\elf_swordman\\\287_elf_swordman_DEAD.3.08"/>
+      <Image name="Unit\\elf_swordman\\\288_elf_swordman_DEAD.3.09"/>
+      <Image name="Unit\\elf_swordman\\\289_elf_swordman_DEAD.3.10"/>
+    </EN>
+    <N>
+      <Image name="Unit\\elf_swordman\\\380_elf_swordman_DEAD.4.01"/>
+      <Image name="Unit\\elf_swordman\\\381_elf_swordman_DEAD.4.02"/>
+      <Image name="Unit\\elf_swordman\\\382_elf_swordman_DEAD.4.03"/>
+      <Image name="Unit\\elf_swordman\\\383_elf_swordman_DEAD.4.04"/>
+      <Image name="Unit\\elf_swordman\\\384_elf_swordman_DEAD.4.05"/>
+      <Image name="Unit\\elf_swordman\\\385_elf_swordman_DEAD.4.06"/>
+      <Image name="Unit\\elf_swordman\\\386_elf_swordman_DEAD.4.07"/>
+      <Image name="Unit\\elf_swordman\\\387_elf_swordman_DEAD.4.08"/>
+      <Image name="Unit\\elf_swordman\\\388_elf_swordman_DEAD.4.09"/>
+      <Image name="Unit\\elf_swordman\\\389_elf_swordman_DEAD.4.10"/>
+    </N>
+    <WN>
+      <Image name="Unit\\elf_swordman\\\480_elf_swordman_DEAD.5.01"/>
+      <Image name="Unit\\elf_swordman\\\481_elf_swordman_DEAD.5.02"/>
+      <Image name="Unit\\elf_swordman\\\482_elf_swordman_DEAD.5.03"/>
+      <Image name="Unit\\elf_swordman\\\483_elf_swordman_DEAD.5.04"/>
+      <Image name="Unit\\elf_swordman\\\484_elf_swordman_DEAD.5.05"/>
+      <Image name="Unit\\elf_swordman\\\485_elf_swordman_DEAD.5.06"/>
+      <Image name="Unit\\elf_swordman\\\486_elf_swordman_DEAD.5.07"/>
+      <Image name="Unit\\elf_swordman\\\487_elf_swordman_DEAD.5.08"/>
+      <Image name="Unit\\elf_swordman\\\488_elf_swordman_DEAD.5.09"/>
+      <Image name="Unit\\elf_swordman\\\489_elf_swordman_DEAD.5.10"/>
+    </WN>
+    <W>
+      
+    </W>
+    <WS>
+      <Image name="Unit\\elf_swordman\\\580_elf_swordman_DEAD.6.01"/>
+      <Image name="Unit\\elf_swordman\\\581_elf_swordman_DEAD.6.02"/>
+      <Image name="Unit\\elf_swordman\\\582_elf_swordman_DEAD.6.03"/>
+      <Image name="Unit\\elf_swordman\\\583_elf_swordman_DEAD.6.04"/>
+      <Image name="Unit\\elf_swordman\\\584_elf_swordman_DEAD.6.05"/>
+      <Image name="Unit\\elf_swordman\\\585_elf_swordman_DEAD.6.06"/>
+      <Image name="Unit\\elf_swordman\\\586_elf_swordman_DEAD.6.07"/>
+      <Image name="Unit\\elf_swordman\\\587_elf_swordman_DEAD.6.08"/>
+      <Image name="Unit\\elf_swordman\\\588_elf_swordman_DEAD.6.09"/>
+      <Image name="Unit\\elf_swordman\\\589_elf_swordman_DEAD.6.10"/>
+    </WS>
+  </DEAD>
+</elf_swordman>
