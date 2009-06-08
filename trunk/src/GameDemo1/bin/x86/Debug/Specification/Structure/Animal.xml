@@ -4,6 +4,7 @@
   <ListUnits>
     <Unit vame="Unicorn" />
     <Unit vame="Phoenix" />
+    <Unit vame="Wolf" />
   </ListUnits>
   <Informations>
     <MaxHealth value="100"/>
