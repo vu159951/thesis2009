@@ -2,6 +2,7 @@
 <Military>
   <RepresentativeImage name="Structure\\Military\\Military"/>
   <ListUnits>
+    <Unit name="Human_Knight" />
     <Unit name="Black_Angel" />
     <Unit name="Angel" />
   </ListUnits>
