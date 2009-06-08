@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Military>
   <RepresentativeImage name="Structure\\Military\\Military"/>
-  <ListUnits>
-    <Unit name="Human_Knight" />
+  <ListUnits>    
     <Unit name="Black_Angel" />
     <Unit name="Angel" />
   </ListUnits>
