@@ -16,3 +16,4 @@ C:\Documents and Settings\Administrator\Desktop\New Folder\src\ImageTransform\Co
 C:\Documents and Settings\Administrator\Desktop\Game demo\src\ImageTransform\Content\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\ThaiBao\Desktop\New Folder\src\ImageTransform\Content\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\ThaiBao\Desktop\codding\src\ImageTransform\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\coding\src\ImageTransform\Content\obj\x86\Debug\ResolveAssemblyReference.cache

@@ -18,3 +18,4 @@ C:\Documents and Settings\Administrator\Desktop\New Folder\src\GameDemo1\Content
 C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\ThaiBao\Desktop\New Folder\src\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\ThaiBao\Desktop\codding\src\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\coding\src\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
