@@ -13240,6 +13240,1755 @@
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Unit\Producer\000_Spider_IDLE.1.01.png">
+      <Name>000_Spider_IDLE.1.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\001_Spider_IDLE.1.02.png">
+      <Name>001_Spider_IDLE.1.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\002_Spider_IDLE.1.03.png">
+      <Name>002_Spider_IDLE.1.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\003_Spider_IDLE.1.04.png">
+      <Name>003_Spider_IDLE.1.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\004_Spider_IDLE.1.05.png">
+      <Name>004_Spider_IDLE.1.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\005_Spider_IDLE.1.06.png">
+      <Name>005_Spider_IDLE.1.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\006_Spider_IDLE.1.07.png">
+      <Name>006_Spider_IDLE.1.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\007_Spider_IDLE.1.08.png">
+      <Name>007_Spider_IDLE.1.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\008_Spider_IDLE.1.09.png">
+      <Name>008_Spider_IDLE.1.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\009_Spider_IDLE.1.10.png">
+      <Name>009_Spider_IDLE.1.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\010_Spider_IDLE.1.11.png">
+      <Name>010_Spider_IDLE.1.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\011_Spider_IDLE.1.12.png">
+      <Name>011_Spider_IDLE.1.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\012_Spider_IDLE.1.13.png">
+      <Name>012_Spider_IDLE.1.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\013_Spider_IDLE.1.14.png">
+      <Name>013_Spider_IDLE.1.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\014_Spider_IDLE.1.15.png">
+      <Name>014_Spider_IDLE.1.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\030_Spider_WALK.1.01.png">
+      <Name>030_Spider_WALK.1.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\031_Spider_WALK.1.02.png">
+      <Name>031_Spider_WALK.1.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\032_Spider_WALK.1.03.png">
+      <Name>032_Spider_WALK.1.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\033_Spider_WALK.1.04.png">
+      <Name>033_Spider_WALK.1.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\034_Spider_WALK.1.05.png">
+      <Name>034_Spider_WALK.1.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\035_Spider_WALK.1.06.png">
+      <Name>035_Spider_WALK.1.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\036_Spider_WALK.1.07.png">
+      <Name>036_Spider_WALK.1.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\037_Spider_WALK.1.08.png">
+      <Name>037_Spider_WALK.1.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\038_Spider_WALK.1.09.png">
+      <Name>038_Spider_WALK.1.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\039_Spider_WALK.1.10.png">
+      <Name>039_Spider_WALK.1.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\040_Spider_WALK.1.11.png">
+      <Name>040_Spider_WALK.1.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\041_Spider_WALK.1.12.png">
+      <Name>041_Spider_WALK.1.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\042_Spider_WALK.1.13.png">
+      <Name>042_Spider_WALK.1.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\043_Spider_WALK.1.14.png">
+      <Name>043_Spider_WALK.1.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\044_Spider_WALK.1.15.png">
+      <Name>044_Spider_WALK.1.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\060_Spider_ATTACK.1.01.png">
+      <Name>060_Spider_ATTACK.1.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\061_Spider_ATTACK.1.02.png">
+      <Name>061_Spider_ATTACK.1.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\062_Spider_ATTACK.1.03.png">
+      <Name>062_Spider_ATTACK.1.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\063_Spider_ATTACK.1.04.png">
+      <Name>063_Spider_ATTACK.1.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\064_Spider_ATTACK.1.05.png">
+      <Name>064_Spider_ATTACK.1.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\065_Spider_ATTACK.1.06.png">
+      <Name>065_Spider_ATTACK.1.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\066_Spider_ATTACK.1.07.png">
+      <Name>066_Spider_ATTACK.1.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\067_Spider_ATTACK.1.08.png">
+      <Name>067_Spider_ATTACK.1.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\068_Spider_ATTACK.1.09.png">
+      <Name>068_Spider_ATTACK.1.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\069_Spider_ATTACK.1.10.png">
+      <Name>069_Spider_ATTACK.1.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\070_Spider_HIT.1.01.png">
+      <Name>070_Spider_HIT.1.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\071_Spider_HIT.1.02.png">
+      <Name>071_Spider_HIT.1.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\072_Spider_HIT.1.03.png">
+      <Name>072_Spider_HIT.1.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\073_Spider_HIT.1.04.png">
+      <Name>073_Spider_HIT.1.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\074_Spider_HIT.1.05.png">
+      <Name>074_Spider_HIT.1.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\075_Spider_HIT.1.06.png">
+      <Name>075_Spider_HIT.1.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\076_Spider_HIT.1.07.png">
+      <Name>076_Spider_HIT.1.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\077_Spider_HIT.1.08.png">
+      <Name>077_Spider_HIT.1.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\080_Spider_DEAD.1.01.png">
+      <Name>080_Spider_DEAD.1.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\081_Spider_DEAD.1.02.png">
+      <Name>081_Spider_DEAD.1.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\082_Spider_DEAD.1.03.png">
+      <Name>082_Spider_DEAD.1.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\083_Spider_DEAD.1.04.png">
+      <Name>083_Spider_DEAD.1.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\084_Spider_DEAD.1.05.png">
+      <Name>084_Spider_DEAD.1.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\085_Spider_DEAD.1.06.png">
+      <Name>085_Spider_DEAD.1.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\086_Spider_DEAD.1.07.png">
+      <Name>086_Spider_DEAD.1.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\087_Spider_DEAD.1.08.png">
+      <Name>087_Spider_DEAD.1.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\088_Spider_DEAD.1.09.png">
+      <Name>088_Spider_DEAD.1.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\089_Spider_DEAD.1.10.png">
+      <Name>089_Spider_DEAD.1.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\100_Spider_IDLE.2.01.png">
+      <Name>100_Spider_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\101_Spider_IDLE.2.02.png">
+      <Name>101_Spider_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\102_Spider_IDLE.2.03.png">
+      <Name>102_Spider_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\103_Spider_IDLE.2.04.png">
+      <Name>103_Spider_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\104_Spider_IDLE.2.05.png">
+      <Name>104_Spider_IDLE.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\105_Spider_IDLE.2.06.png">
+      <Name>105_Spider_IDLE.2.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\106_Spider_IDLE.2.07.png">
+      <Name>106_Spider_IDLE.2.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\107_Spider_IDLE.2.08.png">
+      <Name>107_Spider_IDLE.2.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\108_Spider_IDLE.2.09.png">
+      <Name>108_Spider_IDLE.2.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\109_Spider_IDLE.2.10.png">
+      <Name>109_Spider_IDLE.2.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\110_Spider_IDLE.2.11.png">
+      <Name>110_Spider_IDLE.2.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\111_Spider_IDLE.2.12.png">
+      <Name>111_Spider_IDLE.2.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\112_Spider_IDLE.2.13.png">
+      <Name>112_Spider_IDLE.2.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\113_Spider_IDLE.2.14.png">
+      <Name>113_Spider_IDLE.2.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\114_Spider_IDLE.2.15.png">
+      <Name>114_Spider_IDLE.2.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\130_Spider_WALK.2.01.png">
+      <Name>130_Spider_WALK.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\131_Spider_WALK.2.02.png">
+      <Name>131_Spider_WALK.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\132_Spider_WALK.2.03.png">
+      <Name>132_Spider_WALK.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\133_Spider_WALK.2.04.png">
+      <Name>133_Spider_WALK.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\134_Spider_WALK.2.05.png">
+      <Name>134_Spider_WALK.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\135_Spider_WALK.2.06.png">
+      <Name>135_Spider_WALK.2.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\136_Spider_WALK.2.07.png">
+      <Name>136_Spider_WALK.2.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\137_Spider_WALK.2.08.png">
+      <Name>137_Spider_WALK.2.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\138_Spider_WALK.2.09.png">
+      <Name>138_Spider_WALK.2.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\139_Spider_WALK.2.10.png">
+      <Name>139_Spider_WALK.2.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\140_Spider_WALK.2.11.png">
+      <Name>140_Spider_WALK.2.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\141_Spider_WALK.2.12.png">
+      <Name>141_Spider_WALK.2.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\142_Spider_WALK.2.13.png">
+      <Name>142_Spider_WALK.2.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\143_Spider_WALK.2.14.png">
+      <Name>143_Spider_WALK.2.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\144_Spider_WALK.2.15.png">
+      <Name>144_Spider_WALK.2.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\160_Spider_ATTACK.2.01.png">
+      <Name>160_Spider_ATTACK.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\161_Spider_ATTACK.2.02.png">
+      <Name>161_Spider_ATTACK.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\162_Spider_ATTACK.2.03.png">
+      <Name>162_Spider_ATTACK.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\163_Spider_ATTACK.2.04.png">
+      <Name>163_Spider_ATTACK.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\164_Spider_ATTACK.2.05.png">
+      <Name>164_Spider_ATTACK.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\165_Spider_ATTACK.2.06.png">
+      <Name>165_Spider_ATTACK.2.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\166_Spider_ATTACK.2.07.png">
+      <Name>166_Spider_ATTACK.2.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\167_Spider_ATTACK.2.08.png">
+      <Name>167_Spider_ATTACK.2.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\168_Spider_ATTACK.2.09.png">
+      <Name>168_Spider_ATTACK.2.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\169_Spider_ATTACK.2.10.png">
+      <Name>169_Spider_ATTACK.2.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\170_Spider_HIT.2.01.png">
+      <Name>170_Spider_HIT.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\171_Spider_HIT.2.02.png">
+      <Name>171_Spider_HIT.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\172_Spider_HIT.2.03.png">
+      <Name>172_Spider_HIT.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\173_Spider_HIT.2.04.png">
+      <Name>173_Spider_HIT.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\174_Spider_HIT.2.05.png">
+      <Name>174_Spider_HIT.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\175_Spider_HIT.2.06.png">
+      <Name>175_Spider_HIT.2.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\176_Spider_HIT.2.07.png">
+      <Name>176_Spider_HIT.2.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\177_Spider_HIT.2.08.png">
+      <Name>177_Spider_HIT.2.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\180_Spider_DEAD.2.01.png">
+      <Name>180_Spider_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\181_Spider_DEAD.2.02.png">
+      <Name>181_Spider_DEAD.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\182_Spider_DEAD.2.03.png">
+      <Name>182_Spider_DEAD.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\183_Spider_DEAD.2.04.png">
+      <Name>183_Spider_DEAD.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\184_Spider_DEAD.2.05.png">
+      <Name>184_Spider_DEAD.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\185_Spider_DEAD.2.06.png">
+      <Name>185_Spider_DEAD.2.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\186_Spider_DEAD.2.07.png">
+      <Name>186_Spider_DEAD.2.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\187_Spider_DEAD.2.08.png">
+      <Name>187_Spider_DEAD.2.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\188_Spider_DEAD.2.09.png">
+      <Name>188_Spider_DEAD.2.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\189_Spider_DEAD.2.10.png">
+      <Name>189_Spider_DEAD.2.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\200_Spider_IDLE.3.01.png">
+      <Name>200_Spider_IDLE.3.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\201_Spider_IDLE.3.02.png">
+      <Name>201_Spider_IDLE.3.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\202_Spider_IDLE.3.03.png">
+      <Name>202_Spider_IDLE.3.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\203_Spider_IDLE.3.04.png">
+      <Name>203_Spider_IDLE.3.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\204_Spider_IDLE.3.05.png">
+      <Name>204_Spider_IDLE.3.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\205_Spider_IDLE.3.06.png">
+      <Name>205_Spider_IDLE.3.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\206_Spider_IDLE.3.07.png">
+      <Name>206_Spider_IDLE.3.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\207_Spider_IDLE.3.08.png">
+      <Name>207_Spider_IDLE.3.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\208_Spider_IDLE.3.09.png">
+      <Name>208_Spider_IDLE.3.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\209_Spider_IDLE.3.10.png">
+      <Name>209_Spider_IDLE.3.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\210_Spider_IDLE.3.11.png">
+      <Name>210_Spider_IDLE.3.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\211_Spider_IDLE.3.12.png">
+      <Name>211_Spider_IDLE.3.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\212_Spider_IDLE.3.13.png">
+      <Name>212_Spider_IDLE.3.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\213_Spider_IDLE.3.14.png">
+      <Name>213_Spider_IDLE.3.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\214_Spider_IDLE.3.15.png">
+      <Name>214_Spider_IDLE.3.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\230_Spider_WALK.3.01.png">
+      <Name>230_Spider_WALK.3.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\231_Spider_WALK.3.02.png">
+      <Name>231_Spider_WALK.3.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\232_Spider_WALK.3.03.png">
+      <Name>232_Spider_WALK.3.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\233_Spider_WALK.3.04.png">
+      <Name>233_Spider_WALK.3.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\234_Spider_WALK.3.05.png">
+      <Name>234_Spider_WALK.3.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\235_Spider_WALK.3.06.png">
+      <Name>235_Spider_WALK.3.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\236_Spider_WALK.3.07.png">
+      <Name>236_Spider_WALK.3.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\237_Spider_WALK.3.08.png">
+      <Name>237_Spider_WALK.3.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\238_Spider_WALK.3.09.png">
+      <Name>238_Spider_WALK.3.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\239_Spider_WALK.3.10.png">
+      <Name>239_Spider_WALK.3.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\240_Spider_WALK.3.11.png">
+      <Name>240_Spider_WALK.3.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\241_Spider_WALK.3.12.png">
+      <Name>241_Spider_WALK.3.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\242_Spider_WALK.3.13.png">
+      <Name>242_Spider_WALK.3.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\243_Spider_WALK.3.14.png">
+      <Name>243_Spider_WALK.3.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\244_Spider_WALK.3.15.png">
+      <Name>244_Spider_WALK.3.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\260_Spider_ATTACK.3.01.png">
+      <Name>260_Spider_ATTACK.3.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\261_Spider_ATTACK.3.02.png">
+      <Name>261_Spider_ATTACK.3.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\262_Spider_ATTACK.3.03.png">
+      <Name>262_Spider_ATTACK.3.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\263_Spider_ATTACK.3.04.png">
+      <Name>263_Spider_ATTACK.3.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\264_Spider_ATTACK.3.05.png">
+      <Name>264_Spider_ATTACK.3.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\265_Spider_ATTACK.3.06.png">
+      <Name>265_Spider_ATTACK.3.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\266_Spider_ATTACK.3.07.png">
+      <Name>266_Spider_ATTACK.3.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\267_Spider_ATTACK.3.08.png">
+      <Name>267_Spider_ATTACK.3.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\268_Spider_ATTACK.3.09.png">
+      <Name>268_Spider_ATTACK.3.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\269_Spider_ATTACK.3.10.png">
+      <Name>269_Spider_ATTACK.3.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\270_Spider_HIT.3.01.png">
+      <Name>270_Spider_HIT.3.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\271_Spider_HIT.3.02.png">
+      <Name>271_Spider_HIT.3.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\272_Spider_HIT.3.03.png">
+      <Name>272_Spider_HIT.3.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\273_Spider_HIT.3.04.png">
+      <Name>273_Spider_HIT.3.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\274_Spider_HIT.3.05.png">
+      <Name>274_Spider_HIT.3.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\275_Spider_HIT.3.06.png">
+      <Name>275_Spider_HIT.3.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\276_Spider_HIT.3.07.png">
+      <Name>276_Spider_HIT.3.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\277_Spider_HIT.3.08.png">
+      <Name>277_Spider_HIT.3.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\280_Spider_DEAD.3.01.png">
+      <Name>280_Spider_DEAD.3.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\281_Spider_DEAD.3.02.png">
+      <Name>281_Spider_DEAD.3.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\282_Spider_DEAD.3.03.png">
+      <Name>282_Spider_DEAD.3.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\283_Spider_DEAD.3.04.png">
+      <Name>283_Spider_DEAD.3.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\284_Spider_DEAD.3.05.png">
+      <Name>284_Spider_DEAD.3.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\285_Spider_DEAD.3.06.png">
+      <Name>285_Spider_DEAD.3.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\286_Spider_DEAD.3.07.png">
+      <Name>286_Spider_DEAD.3.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\287_Spider_DEAD.3.08.png">
+      <Name>287_Spider_DEAD.3.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\288_Spider_DEAD.3.09.png">
+      <Name>288_Spider_DEAD.3.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\289_Spider_DEAD.3.10.png">
+      <Name>289_Spider_DEAD.3.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\300_Spider_IDLE.4.01.png">
+      <Name>300_Spider_IDLE.4.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\301_Spider_IDLE.4.02.png">
+      <Name>301_Spider_IDLE.4.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\302_Spider_IDLE.4.03.png">
+      <Name>302_Spider_IDLE.4.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\303_Spider_IDLE.4.04.png">
+      <Name>303_Spider_IDLE.4.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\304_Spider_IDLE.4.05.png">
+      <Name>304_Spider_IDLE.4.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\305_Spider_IDLE.4.06.png">
+      <Name>305_Spider_IDLE.4.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\306_Spider_IDLE.4.07.png">
+      <Name>306_Spider_IDLE.4.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\307_Spider_IDLE.4.08.png">
+      <Name>307_Spider_IDLE.4.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\308_Spider_IDLE.4.09.png">
+      <Name>308_Spider_IDLE.4.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\309_Spider_IDLE.4.10.png">
+      <Name>309_Spider_IDLE.4.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\310_Spider_IDLE.4.11.png">
+      <Name>310_Spider_IDLE.4.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\311_Spider_IDLE.4.12.png">
+      <Name>311_Spider_IDLE.4.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\312_Spider_IDLE.4.13.png">
+      <Name>312_Spider_IDLE.4.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\313_Spider_IDLE.4.14.png">
+      <Name>313_Spider_IDLE.4.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\314_Spider_IDLE.4.15.png">
+      <Name>314_Spider_IDLE.4.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\330_Spider_WALK.4.01.png">
+      <Name>330_Spider_WALK.4.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\331_Spider_WALK.4.02.png">
+      <Name>331_Spider_WALK.4.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\332_Spider_WALK.4.03.png">
+      <Name>332_Spider_WALK.4.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\333_Spider_WALK.4.04.png">
+      <Name>333_Spider_WALK.4.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\334_Spider_WALK.4.05.png">
+      <Name>334_Spider_WALK.4.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\335_Spider_WALK.4.06.png">
+      <Name>335_Spider_WALK.4.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\336_Spider_WALK.4.07.png">
+      <Name>336_Spider_WALK.4.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\337_Spider_WALK.4.08.png">
+      <Name>337_Spider_WALK.4.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\338_Spider_WALK.4.09.png">
+      <Name>338_Spider_WALK.4.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\339_Spider_WALK.4.10.png">
+      <Name>339_Spider_WALK.4.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\340_Spider_WALK.4.11.png">
+      <Name>340_Spider_WALK.4.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\341_Spider_WALK.4.12.png">
+      <Name>341_Spider_WALK.4.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\342_Spider_WALK.4.13.png">
+      <Name>342_Spider_WALK.4.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\343_Spider_WALK.4.14.png">
+      <Name>343_Spider_WALK.4.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\344_Spider_WALK.4.15.png">
+      <Name>344_Spider_WALK.4.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\360_Spider_ATTACK.4.01.png">
+      <Name>360_Spider_ATTACK.4.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\361_Spider_ATTACK.4.02.png">
+      <Name>361_Spider_ATTACK.4.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\362_Spider_ATTACK.4.03.png">
+      <Name>362_Spider_ATTACK.4.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\363_Spider_ATTACK.4.04.png">
+      <Name>363_Spider_ATTACK.4.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\364_Spider_ATTACK.4.05.png">
+      <Name>364_Spider_ATTACK.4.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\365_Spider_ATTACK.4.06.png">
+      <Name>365_Spider_ATTACK.4.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\366_Spider_ATTACK.4.07.png">
+      <Name>366_Spider_ATTACK.4.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\367_Spider_ATTACK.4.08.png">
+      <Name>367_Spider_ATTACK.4.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\368_Spider_ATTACK.4.09.png">
+      <Name>368_Spider_ATTACK.4.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\369_Spider_ATTACK.4.10.png">
+      <Name>369_Spider_ATTACK.4.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\370_Spider_HIT.4.01.png">
+      <Name>370_Spider_HIT.4.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\371_Spider_HIT.4.02.png">
+      <Name>371_Spider_HIT.4.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\372_Spider_HIT.4.03.png">
+      <Name>372_Spider_HIT.4.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\373_Spider_HIT.4.04.png">
+      <Name>373_Spider_HIT.4.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\374_Spider_HIT.4.05.png">
+      <Name>374_Spider_HIT.4.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\375_Spider_HIT.4.06.png">
+      <Name>375_Spider_HIT.4.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\376_Spider_HIT.4.07.png">
+      <Name>376_Spider_HIT.4.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\377_Spider_HIT.4.08.png">
+      <Name>377_Spider_HIT.4.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\380_Spider_DEAD.4.01.png">
+      <Name>380_Spider_DEAD.4.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\381_Spider_DEAD.4.02.png">
+      <Name>381_Spider_DEAD.4.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\382_Spider_DEAD.4.03.png">
+      <Name>382_Spider_DEAD.4.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\383_Spider_DEAD.4.04.png">
+      <Name>383_Spider_DEAD.4.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\384_Spider_DEAD.4.05.png">
+      <Name>384_Spider_DEAD.4.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\385_Spider_DEAD.4.06.png">
+      <Name>385_Spider_DEAD.4.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\386_Spider_DEAD.4.07.png">
+      <Name>386_Spider_DEAD.4.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\387_Spider_DEAD.4.08.png">
+      <Name>387_Spider_DEAD.4.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\388_Spider_DEAD.4.09.png">
+      <Name>388_Spider_DEAD.4.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\389_Spider_DEAD.4.10.png">
+      <Name>389_Spider_DEAD.4.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\400_Spider_IDLE.5.01.png">
+      <Name>400_Spider_IDLE.5.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\401_Spider_IDLE.5.02.png">
+      <Name>401_Spider_IDLE.5.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\402_Spider_IDLE.5.03.png">
+      <Name>402_Spider_IDLE.5.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\403_Spider_IDLE.5.04.png">
+      <Name>403_Spider_IDLE.5.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\404_Spider_IDLE.5.05.png">
+      <Name>404_Spider_IDLE.5.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\405_Spider_IDLE.5.06.png">
+      <Name>405_Spider_IDLE.5.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\406_Spider_IDLE.5.07.png">
+      <Name>406_Spider_IDLE.5.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\407_Spider_IDLE.5.08.png">
+      <Name>407_Spider_IDLE.5.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\408_Spider_IDLE.5.09.png">
+      <Name>408_Spider_IDLE.5.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\409_Spider_IDLE.5.10.png">
+      <Name>409_Spider_IDLE.5.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\410_Spider_IDLE.5.11.png">
+      <Name>410_Spider_IDLE.5.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\411_Spider_IDLE.5.12.png">
+      <Name>411_Spider_IDLE.5.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\412_Spider_IDLE.5.13.png">
+      <Name>412_Spider_IDLE.5.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\413_Spider_IDLE.5.14.png">
+      <Name>413_Spider_IDLE.5.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\414_Spider_IDLE.5.15.png">
+      <Name>414_Spider_IDLE.5.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\430_Spider_WALK.5.01.png">
+      <Name>430_Spider_WALK.5.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\431_Spider_WALK.5.02.png">
+      <Name>431_Spider_WALK.5.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\432_Spider_WALK.5.03.png">
+      <Name>432_Spider_WALK.5.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\433_Spider_WALK.5.04.png">
+      <Name>433_Spider_WALK.5.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\434_Spider_WALK.5.05.png">
+      <Name>434_Spider_WALK.5.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\435_Spider_WALK.5.06.png">
+      <Name>435_Spider_WALK.5.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\436_Spider_WALK.5.07.png">
+      <Name>436_Spider_WALK.5.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\437_Spider_WALK.5.08.png">
+      <Name>437_Spider_WALK.5.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\438_Spider_WALK.5.09.png">
+      <Name>438_Spider_WALK.5.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\439_Spider_WALK.5.10.png">
+      <Name>439_Spider_WALK.5.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\440_Spider_WALK.5.11.png">
+      <Name>440_Spider_WALK.5.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\441_Spider_WALK.5.12.png">
+      <Name>441_Spider_WALK.5.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\442_Spider_WALK.5.13.png">
+      <Name>442_Spider_WALK.5.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\443_Spider_WALK.5.14.png">
+      <Name>443_Spider_WALK.5.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\444_Spider_WALK.5.15.png">
+      <Name>444_Spider_WALK.5.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\460_Spider_ATTACK.5.01.png">
+      <Name>460_Spider_ATTACK.5.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\461_Spider_ATTACK.5.02.png">
+      <Name>461_Spider_ATTACK.5.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\462_Spider_ATTACK.5.03.png">
+      <Name>462_Spider_ATTACK.5.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\463_Spider_ATTACK.5.04.png">
+      <Name>463_Spider_ATTACK.5.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\464_Spider_ATTACK.5.05.png">
+      <Name>464_Spider_ATTACK.5.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\465_Spider_ATTACK.5.06.png">
+      <Name>465_Spider_ATTACK.5.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\466_Spider_ATTACK.5.07.png">
+      <Name>466_Spider_ATTACK.5.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\467_Spider_ATTACK.5.08.png">
+      <Name>467_Spider_ATTACK.5.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\468_Spider_ATTACK.5.09.png">
+      <Name>468_Spider_ATTACK.5.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\469_Spider_ATTACK.5.10.png">
+      <Name>469_Spider_ATTACK.5.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\470_Spider_HIT.5.01.png">
+      <Name>470_Spider_HIT.5.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\471_Spider_HIT.5.02.png">
+      <Name>471_Spider_HIT.5.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\472_Spider_HIT.5.03.png">
+      <Name>472_Spider_HIT.5.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\473_Spider_HIT.5.04.png">
+      <Name>473_Spider_HIT.5.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\474_Spider_HIT.5.05.png">
+      <Name>474_Spider_HIT.5.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\475_Spider_HIT.5.06.png">
+      <Name>475_Spider_HIT.5.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\476_Spider_HIT.5.07.png">
+      <Name>476_Spider_HIT.5.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\477_Spider_HIT.5.08.png">
+      <Name>477_Spider_HIT.5.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\480_Spider_DEAD.5.01.png">
+      <Name>480_Spider_DEAD.5.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\481_Spider_DEAD.5.02.png">
+      <Name>481_Spider_DEAD.5.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\482_Spider_DEAD.5.03.png">
+      <Name>482_Spider_DEAD.5.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\483_Spider_DEAD.5.04.png">
+      <Name>483_Spider_DEAD.5.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\484_Spider_DEAD.5.05.png">
+      <Name>484_Spider_DEAD.5.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\485_Spider_DEAD.5.06.png">
+      <Name>485_Spider_DEAD.5.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\486_Spider_DEAD.5.07.png">
+      <Name>486_Spider_DEAD.5.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\487_Spider_DEAD.5.08.png">
+      <Name>487_Spider_DEAD.5.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\488_Spider_DEAD.5.09.png">
+      <Name>488_Spider_DEAD.5.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\489_Spider_DEAD.5.10.png">
+      <Name>489_Spider_DEAD.5.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\500_Spider_IDLE.6.01.png">
+      <Name>500_Spider_IDLE.6.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\501_Spider_IDLE.6.02.png">
+      <Name>501_Spider_IDLE.6.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\502_Spider_IDLE.6.03.png">
+      <Name>502_Spider_IDLE.6.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\503_Spider_IDLE.6.04.png">
+      <Name>503_Spider_IDLE.6.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\504_Spider_IDLE.6.05.png">
+      <Name>504_Spider_IDLE.6.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\505_Spider_IDLE.6.06.png">
+      <Name>505_Spider_IDLE.6.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\506_Spider_IDLE.6.07.png">
+      <Name>506_Spider_IDLE.6.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\507_Spider_IDLE.6.08.png">
+      <Name>507_Spider_IDLE.6.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\508_Spider_IDLE.6.09.png">
+      <Name>508_Spider_IDLE.6.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\509_Spider_IDLE.6.10.png">
+      <Name>509_Spider_IDLE.6.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\510_Spider_IDLE.6.11.png">
+      <Name>510_Spider_IDLE.6.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\511_Spider_IDLE.6.12.png">
+      <Name>511_Spider_IDLE.6.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\512_Spider_IDLE.6.13.png">
+      <Name>512_Spider_IDLE.6.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\513_Spider_IDLE.6.14.png">
+      <Name>513_Spider_IDLE.6.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\514_Spider_IDLE.6.15.png">
+      <Name>514_Spider_IDLE.6.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\530_Spider_WALK.6.01.png">
+      <Name>530_Spider_WALK.6.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\531_Spider_WALK.6.02.png">
+      <Name>531_Spider_WALK.6.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\532_Spider_WALK.6.03.png">
+      <Name>532_Spider_WALK.6.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\533_Spider_WALK.6.04.png">
+      <Name>533_Spider_WALK.6.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\534_Spider_WALK.6.05.png">
+      <Name>534_Spider_WALK.6.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\535_Spider_WALK.6.06.png">
+      <Name>535_Spider_WALK.6.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\536_Spider_WALK.6.07.png">
+      <Name>536_Spider_WALK.6.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\537_Spider_WALK.6.08.png">
+      <Name>537_Spider_WALK.6.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\538_Spider_WALK.6.09.png">
+      <Name>538_Spider_WALK.6.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\539_Spider_WALK.6.10.png">
+      <Name>539_Spider_WALK.6.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\540_Spider_WALK.6.11.png">
+      <Name>540_Spider_WALK.6.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\541_Spider_WALK.6.12.png">
+      <Name>541_Spider_WALK.6.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\542_Spider_WALK.6.13.png">
+      <Name>542_Spider_WALK.6.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\543_Spider_WALK.6.14.png">
+      <Name>543_Spider_WALK.6.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\544_Spider_WALK.6.15.png">
+      <Name>544_Spider_WALK.6.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\560_Spider_ATTACK.6.01.png">
+      <Name>560_Spider_ATTACK.6.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\561_Spider_ATTACK.6.02.png">
+      <Name>561_Spider_ATTACK.6.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\562_Spider_ATTACK.6.03.png">
+      <Name>562_Spider_ATTACK.6.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\563_Spider_ATTACK.6.04.png">
+      <Name>563_Spider_ATTACK.6.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\564_Spider_ATTACK.6.05.png">
+      <Name>564_Spider_ATTACK.6.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\565_Spider_ATTACK.6.06.png">
+      <Name>565_Spider_ATTACK.6.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\566_Spider_ATTACK.6.07.png">
+      <Name>566_Spider_ATTACK.6.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\567_Spider_ATTACK.6.08.png">
+      <Name>567_Spider_ATTACK.6.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\568_Spider_ATTACK.6.09.png">
+      <Name>568_Spider_ATTACK.6.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\569_Spider_ATTACK.6.10.png">
+      <Name>569_Spider_ATTACK.6.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\570_Spider_HIT.6.01.png">
+      <Name>570_Spider_HIT.6.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\571_Spider_HIT.6.02.png">
+      <Name>571_Spider_HIT.6.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\572_Spider_HIT.6.03.png">
+      <Name>572_Spider_HIT.6.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\573_Spider_HIT.6.04.png">
+      <Name>573_Spider_HIT.6.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\574_Spider_HIT.6.05.png">
+      <Name>574_Spider_HIT.6.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\575_Spider_HIT.6.06.png">
+      <Name>575_Spider_HIT.6.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\576_Spider_HIT.6.07.png">
+      <Name>576_Spider_HIT.6.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\577_Spider_HIT.6.08.png">
+      <Name>577_Spider_HIT.6.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\580_Spider_DEAD.6.01.png">
+      <Name>580_Spider_DEAD.6.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\581_Spider_DEAD.6.02.png">
+      <Name>581_Spider_DEAD.6.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\582_Spider_DEAD.6.03.png">
+      <Name>582_Spider_DEAD.6.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\583_Spider_DEAD.6.04.png">
+      <Name>583_Spider_DEAD.6.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\584_Spider_DEAD.6.05.png">
+      <Name>584_Spider_DEAD.6.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\585_Spider_DEAD.6.06.png">
+      <Name>585_Spider_DEAD.6.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\586_Spider_DEAD.6.07.png">
+      <Name>586_Spider_DEAD.6.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\587_Spider_DEAD.6.08.png">
+      <Name>587_Spider_DEAD.6.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\588_Spider_DEAD.6.09.png">
+      <Name>588_Spider_DEAD.6.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\Producer\589_Spider_DEAD.6.10.png">
+      <Name>589_Spider_DEAD.6.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Unit\Producer\Producer.png">
+      <Name>Producer</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\v3.0\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
