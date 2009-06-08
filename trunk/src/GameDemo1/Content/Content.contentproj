@@ -11281,6 +11281,1965 @@
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Unit\elf_swordman\000_elf_swordman_IDLE.1.01.png">
+      <Name>000_elf_swordman_IDLE.1.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\001_elf_swordman_IDLE.1.02.png">
+      <Name>001_elf_swordman_IDLE.1.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\002_elf_swordman_IDLE.1.03.png">
+      <Name>002_elf_swordman_IDLE.1.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\003_elf_swordman_IDLE.1.04.png">
+      <Name>003_elf_swordman_IDLE.1.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\004_elf_swordman_IDLE.1.05.png">
+      <Name>004_elf_swordman_IDLE.1.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\005_elf_swordman_IDLE.1.06.png">
+      <Name>005_elf_swordman_IDLE.1.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\006_elf_swordman_IDLE.1.07.png">
+      <Name>006_elf_swordman_IDLE.1.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\007_elf_swordman_IDLE.1.08.png">
+      <Name>007_elf_swordman_IDLE.1.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\008_elf_swordman_IDLE.1.09.png">
+      <Name>008_elf_swordman_IDLE.1.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\009_elf_swordman_IDLE.1.10.png">
+      <Name>009_elf_swordman_IDLE.1.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\010_elf_swordman_IDLE.1.11.png">
+      <Name>010_elf_swordman_IDLE.1.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\011_elf_swordman_IDLE.1.12.png">
+      <Name>011_elf_swordman_IDLE.1.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\012_elf_swordman_IDLE.1.13.png">
+      <Name>012_elf_swordman_IDLE.1.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\013_elf_swordman_IDLE.1.14.png">
+      <Name>013_elf_swordman_IDLE.1.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\014_elf_swordman_IDLE.1.15.png">
+      <Name>014_elf_swordman_IDLE.1.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\030_elf_swordman_WALK.1.01.png">
+      <Name>030_elf_swordman_WALK.1.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\031_elf_swordman_WALK.1.02.png">
+      <Name>031_elf_swordman_WALK.1.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\032_elf_swordman_WALK.1.03.png">
+      <Name>032_elf_swordman_WALK.1.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\033_elf_swordman_WALK.1.04.png">
+      <Name>033_elf_swordman_WALK.1.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\034_elf_swordman_WALK.1.05.png">
+      <Name>034_elf_swordman_WALK.1.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\035_elf_swordman_WALK.1.06.png">
+      <Name>035_elf_swordman_WALK.1.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\036_elf_swordman_WALK.1.07.png">
+      <Name>036_elf_swordman_WALK.1.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\037_elf_swordman_WALK.1.08.png">
+      <Name>037_elf_swordman_WALK.1.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\038_elf_swordman_WALK.1.09.png">
+      <Name>038_elf_swordman_WALK.1.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\039_elf_swordman_WALK.1.10.png">
+      <Name>039_elf_swordman_WALK.1.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\040_elf_swordman_WALK.1.11.png">
+      <Name>040_elf_swordman_WALK.1.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\041_elf_swordman_WALK.1.12.png">
+      <Name>041_elf_swordman_WALK.1.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\042_elf_swordman_WALK.1.13.png">
+      <Name>042_elf_swordman_WALK.1.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\043_elf_swordman_WALK.1.14.png">
+      <Name>043_elf_swordman_WALK.1.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\044_elf_swordman_WALK.1.15.png">
+      <Name>044_elf_swordman_WALK.1.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\060_elf_swordman_ATTACK.1.01.png">
+      <Name>060_elf_swordman_ATTACK.1.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\061_elf_swordman_ATTACK.1.02.png">
+      <Name>061_elf_swordman_ATTACK.1.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\062_elf_swordman_ATTACK.1.03.png">
+      <Name>062_elf_swordman_ATTACK.1.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\063_elf_swordman_ATTACK.1.04.png">
+      <Name>063_elf_swordman_ATTACK.1.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\064_elf_swordman_ATTACK.1.05.png">
+      <Name>064_elf_swordman_ATTACK.1.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\065_elf_swordman_ATTACK.1.06.png">
+      <Name>065_elf_swordman_ATTACK.1.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\066_elf_swordman_ATTACK.1.07.png">
+      <Name>066_elf_swordman_ATTACK.1.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\067_elf_swordman_ATTACK.1.08.png">
+      <Name>067_elf_swordman_ATTACK.1.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\068_elf_swordman_ATTACK.1.09.png">
+      <Name>068_elf_swordman_ATTACK.1.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\069_elf_swordman_ATTACK.1.10.png">
+      <Name>069_elf_swordman_ATTACK.1.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\070_elf_swordman_HIT.1.01.png">
+      <Name>070_elf_swordman_HIT.1.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\071_elf_swordman_HIT.1.02.png">
+      <Name>071_elf_swordman_HIT.1.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\072_elf_swordman_HIT.1.03.png">
+      <Name>072_elf_swordman_HIT.1.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\073_elf_swordman_HIT.1.04.png">
+      <Name>073_elf_swordman_HIT.1.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\074_elf_swordman_HIT.1.05.png">
+      <Name>074_elf_swordman_HIT.1.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\075_elf_swordman_HIT.1.06.png">
+      <Name>075_elf_swordman_HIT.1.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\076_elf_swordman_HIT.1.07.png">
+      <Name>076_elf_swordman_HIT.1.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\077_elf_swordman_HIT.1.08.png">
+      <Name>077_elf_swordman_HIT.1.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\080_elf_swordman_DEAD.1.01.png">
+      <Name>080_elf_swordman_DEAD.1.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\081_elf_swordman_DEAD.1.02.png">
+      <Name>081_elf_swordman_DEAD.1.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\082_elf_swordman_DEAD.1.03.png">
+      <Name>082_elf_swordman_DEAD.1.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\083_elf_swordman_DEAD.1.04.png">
+      <Name>083_elf_swordman_DEAD.1.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\084_elf_swordman_DEAD.1.05.png">
+      <Name>084_elf_swordman_DEAD.1.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\085_elf_swordman_DEAD.1.06.png">
+      <Name>085_elf_swordman_DEAD.1.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\086_elf_swordman_DEAD.1.07.png">
+      <Name>086_elf_swordman_DEAD.1.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\087_elf_swordman_DEAD.1.08.png">
+      <Name>087_elf_swordman_DEAD.1.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\088_elf_swordman_DEAD.1.09.png">
+      <Name>088_elf_swordman_DEAD.1.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\089_elf_swordman_DEAD.1.10.png">
+      <Name>089_elf_swordman_DEAD.1.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\090_elf_swordman_SHIELD.1.01.png">
+      <Name>090_elf_swordman_SHIELD.1.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\091_elf_swordman_SHIELD.1.02.png">
+      <Name>091_elf_swordman_SHIELD.1.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\092_elf_swordman_SHIELD.1.03.png">
+      <Name>092_elf_swordman_SHIELD.1.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\093_elf_swordman_SHIELD.1.04.png">
+      <Name>093_elf_swordman_SHIELD.1.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\094_elf_swordman_SHIELD.1.05.png">
+      <Name>094_elf_swordman_SHIELD.1.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\095_elf_swordman_SHIELD.1.06.png">
+      <Name>095_elf_swordman_SHIELD.1.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\096_elf_swordman_SHIELD.1.07.png">
+      <Name>096_elf_swordman_SHIELD.1.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\100_elf_swordman_IDLE.2.01.png">
+      <Name>100_elf_swordman_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\101_elf_swordman_IDLE.2.02.png">
+      <Name>101_elf_swordman_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\102_elf_swordman_IDLE.2.03.png">
+      <Name>102_elf_swordman_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\103_elf_swordman_IDLE.2.04.png">
+      <Name>103_elf_swordman_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\104_elf_swordman_IDLE.2.05.png">
+      <Name>104_elf_swordman_IDLE.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\105_elf_swordman_IDLE.2.06.png">
+      <Name>105_elf_swordman_IDLE.2.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\106_elf_swordman_IDLE.2.07.png">
+      <Name>106_elf_swordman_IDLE.2.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\107_elf_swordman_IDLE.2.08.png">
+      <Name>107_elf_swordman_IDLE.2.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\108_elf_swordman_IDLE.2.09.png">
+      <Name>108_elf_swordman_IDLE.2.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\109_elf_swordman_IDLE.2.10.png">
+      <Name>109_elf_swordman_IDLE.2.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\110_elf_swordman_IDLE.2.11.png">
+      <Name>110_elf_swordman_IDLE.2.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\111_elf_swordman_IDLE.2.12.png">
+      <Name>111_elf_swordman_IDLE.2.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\112_elf_swordman_IDLE.2.13.png">
+      <Name>112_elf_swordman_IDLE.2.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\113_elf_swordman_IDLE.2.14.png">
+      <Name>113_elf_swordman_IDLE.2.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\114_elf_swordman_IDLE.2.15.png">
+      <Name>114_elf_swordman_IDLE.2.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\130_elf_swordman_WALK.2.01.png">
+      <Name>130_elf_swordman_WALK.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\131_elf_swordman_WALK.2.02.png">
+      <Name>131_elf_swordman_WALK.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\132_elf_swordman_WALK.2.03.png">
+      <Name>132_elf_swordman_WALK.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\133_elf_swordman_WALK.2.04.png">
+      <Name>133_elf_swordman_WALK.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\134_elf_swordman_WALK.2.05.png">
+      <Name>134_elf_swordman_WALK.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\135_elf_swordman_WALK.2.06.png">
+      <Name>135_elf_swordman_WALK.2.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\136_elf_swordman_WALK.2.07.png">
+      <Name>136_elf_swordman_WALK.2.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\137_elf_swordman_WALK.2.08.png">
+      <Name>137_elf_swordman_WALK.2.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\138_elf_swordman_WALK.2.09.png">
+      <Name>138_elf_swordman_WALK.2.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\139_elf_swordman_WALK.2.10.png">
+      <Name>139_elf_swordman_WALK.2.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\140_elf_swordman_WALK.2.11.png">
+      <Name>140_elf_swordman_WALK.2.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\141_elf_swordman_WALK.2.12.png">
+      <Name>141_elf_swordman_WALK.2.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\142_elf_swordman_WALK.2.13.png">
+      <Name>142_elf_swordman_WALK.2.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\143_elf_swordman_WALK.2.14.png">
+      <Name>143_elf_swordman_WALK.2.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\144_elf_swordman_WALK.2.15.png">
+      <Name>144_elf_swordman_WALK.2.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\160_elf_swordman_ATTACK.2.01.png">
+      <Name>160_elf_swordman_ATTACK.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\161_elf_swordman_ATTACK.2.02.png">
+      <Name>161_elf_swordman_ATTACK.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\162_elf_swordman_ATTACK.2.03.png">
+      <Name>162_elf_swordman_ATTACK.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\163_elf_swordman_ATTACK.2.04.png">
+      <Name>163_elf_swordman_ATTACK.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\164_elf_swordman_ATTACK.2.05.png">
+      <Name>164_elf_swordman_ATTACK.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\165_elf_swordman_ATTACK.2.06.png">
+      <Name>165_elf_swordman_ATTACK.2.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\166_elf_swordman_ATTACK.2.07.png">
+      <Name>166_elf_swordman_ATTACK.2.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\167_elf_swordman_ATTACK.2.08.png">
+      <Name>167_elf_swordman_ATTACK.2.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\168_elf_swordman_ATTACK.2.09.png">
+      <Name>168_elf_swordman_ATTACK.2.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\169_elf_swordman_ATTACK.2.10.png">
+      <Name>169_elf_swordman_ATTACK.2.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\170_elf_swordman_HIT.2.01.png">
+      <Name>170_elf_swordman_HIT.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\171_elf_swordman_HIT.2.02.png">
+      <Name>171_elf_swordman_HIT.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\172_elf_swordman_HIT.2.03.png">
+      <Name>172_elf_swordman_HIT.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\173_elf_swordman_HIT.2.04.png">
+      <Name>173_elf_swordman_HIT.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\174_elf_swordman_HIT.2.05.png">
+      <Name>174_elf_swordman_HIT.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\175_elf_swordman_HIT.2.06.png">
+      <Name>175_elf_swordman_HIT.2.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\176_elf_swordman_HIT.2.07.png">
+      <Name>176_elf_swordman_HIT.2.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\177_elf_swordman_HIT.2.08.png">
+      <Name>177_elf_swordman_HIT.2.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\180_elf_swordman_DEAD.2.01.png">
+      <Name>180_elf_swordman_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\181_elf_swordman_DEAD.2.02.png">
+      <Name>181_elf_swordman_DEAD.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\182_elf_swordman_DEAD.2.03.png">
+      <Name>182_elf_swordman_DEAD.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\183_elf_swordman_DEAD.2.04.png">
+      <Name>183_elf_swordman_DEAD.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\184_elf_swordman_DEAD.2.05.png">
+      <Name>184_elf_swordman_DEAD.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\185_elf_swordman_DEAD.2.06.png">
+      <Name>185_elf_swordman_DEAD.2.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\186_elf_swordman_DEAD.2.07.png">
+      <Name>186_elf_swordman_DEAD.2.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\187_elf_swordman_DEAD.2.08.png">
+      <Name>187_elf_swordman_DEAD.2.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\188_elf_swordman_DEAD.2.09.png">
+      <Name>188_elf_swordman_DEAD.2.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\189_elf_swordman_DEAD.2.10.png">
+      <Name>189_elf_swordman_DEAD.2.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\190_elf_swordman_SHIELD.2.01.png">
+      <Name>190_elf_swordman_SHIELD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\191_elf_swordman_SHIELD.2.02.png">
+      <Name>191_elf_swordman_SHIELD.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\192_elf_swordman_SHIELD.2.03.png">
+      <Name>192_elf_swordman_SHIELD.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\193_elf_swordman_SHIELD.2.04.png">
+      <Name>193_elf_swordman_SHIELD.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\194_elf_swordman_SHIELD.2.05.png">
+      <Name>194_elf_swordman_SHIELD.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\195_elf_swordman_SHIELD.2.06.png">
+      <Name>195_elf_swordman_SHIELD.2.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\196_elf_swordman_SHIELD.2.07.png">
+      <Name>196_elf_swordman_SHIELD.2.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\200_elf_swordman_IDLE.3.01.png">
+      <Name>200_elf_swordman_IDLE.3.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\201_elf_swordman_IDLE.3.02.png">
+      <Name>201_elf_swordman_IDLE.3.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\202_elf_swordman_IDLE.3.03.png">
+      <Name>202_elf_swordman_IDLE.3.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\203_elf_swordman_IDLE.3.04.png">
+      <Name>203_elf_swordman_IDLE.3.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\204_elf_swordman_IDLE.3.05.png">
+      <Name>204_elf_swordman_IDLE.3.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\205_elf_swordman_IDLE.3.06.png">
+      <Name>205_elf_swordman_IDLE.3.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\206_elf_swordman_IDLE.3.07.png">
+      <Name>206_elf_swordman_IDLE.3.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\207_elf_swordman_IDLE.3.08.png">
+      <Name>207_elf_swordman_IDLE.3.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\208_elf_swordman_IDLE.3.09.png">
+      <Name>208_elf_swordman_IDLE.3.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\209_elf_swordman_IDLE.3.10.png">
+      <Name>209_elf_swordman_IDLE.3.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\210_elf_swordman_IDLE.3.11.png">
+      <Name>210_elf_swordman_IDLE.3.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\211_elf_swordman_IDLE.3.12.png">
+      <Name>211_elf_swordman_IDLE.3.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\212_elf_swordman_IDLE.3.13.png">
+      <Name>212_elf_swordman_IDLE.3.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\213_elf_swordman_IDLE.3.14.png">
+      <Name>213_elf_swordman_IDLE.3.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\214_elf_swordman_IDLE.3.15.png">
+      <Name>214_elf_swordman_IDLE.3.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\230_elf_swordman_WALK.3.01.png">
+      <Name>230_elf_swordman_WALK.3.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\231_elf_swordman_WALK.3.02.png">
+      <Name>231_elf_swordman_WALK.3.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\232_elf_swordman_WALK.3.03.png">
+      <Name>232_elf_swordman_WALK.3.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\233_elf_swordman_WALK.3.04.png">
+      <Name>233_elf_swordman_WALK.3.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\234_elf_swordman_WALK.3.05.png">
+      <Name>234_elf_swordman_WALK.3.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\235_elf_swordman_WALK.3.06.png">
+      <Name>235_elf_swordman_WALK.3.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\236_elf_swordman_WALK.3.07.png">
+      <Name>236_elf_swordman_WALK.3.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\237_elf_swordman_WALK.3.08.png">
+      <Name>237_elf_swordman_WALK.3.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\238_elf_swordman_WALK.3.09.png">
+      <Name>238_elf_swordman_WALK.3.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\239_elf_swordman_WALK.3.10.png">
+      <Name>239_elf_swordman_WALK.3.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\240_elf_swordman_WALK.3.11.png">
+      <Name>240_elf_swordman_WALK.3.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\241_elf_swordman_WALK.3.12.png">
+      <Name>241_elf_swordman_WALK.3.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\242_elf_swordman_WALK.3.13.png">
+      <Name>242_elf_swordman_WALK.3.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\243_elf_swordman_WALK.3.14.png">
+      <Name>243_elf_swordman_WALK.3.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\244_elf_swordman_WALK.3.15.png">
+      <Name>244_elf_swordman_WALK.3.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\260_elf_swordman_ATTACK.3.01.png">
+      <Name>260_elf_swordman_ATTACK.3.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\261_elf_swordman_ATTACK.3.02.png">
+      <Name>261_elf_swordman_ATTACK.3.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\262_elf_swordman_ATTACK.3.03.png">
+      <Name>262_elf_swordman_ATTACK.3.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\263_elf_swordman_ATTACK.3.04.png">
+      <Name>263_elf_swordman_ATTACK.3.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\264_elf_swordman_ATTACK.3.05.png">
+      <Name>264_elf_swordman_ATTACK.3.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\265_elf_swordman_ATTACK.3.06.png">
+      <Name>265_elf_swordman_ATTACK.3.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\266_elf_swordman_ATTACK.3.07.png">
+      <Name>266_elf_swordman_ATTACK.3.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\267_elf_swordman_ATTACK.3.08.png">
+      <Name>267_elf_swordman_ATTACK.3.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\268_elf_swordman_ATTACK.3.09.png">
+      <Name>268_elf_swordman_ATTACK.3.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\269_elf_swordman_ATTACK.3.10.png">
+      <Name>269_elf_swordman_ATTACK.3.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\270_elf_swordman_HIT.3.01.png">
+      <Name>270_elf_swordman_HIT.3.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\271_elf_swordman_HIT.3.02.png">
+      <Name>271_elf_swordman_HIT.3.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\272_elf_swordman_HIT.3.03.png">
+      <Name>272_elf_swordman_HIT.3.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\273_elf_swordman_HIT.3.04.png">
+      <Name>273_elf_swordman_HIT.3.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\274_elf_swordman_HIT.3.05.png">
+      <Name>274_elf_swordman_HIT.3.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\275_elf_swordman_HIT.3.06.png">
+      <Name>275_elf_swordman_HIT.3.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\276_elf_swordman_HIT.3.07.png">
+      <Name>276_elf_swordman_HIT.3.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\277_elf_swordman_HIT.3.08.png">
+      <Name>277_elf_swordman_HIT.3.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\280_elf_swordman_DEAD.3.01.png">
+      <Name>280_elf_swordman_DEAD.3.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\281_elf_swordman_DEAD.3.02.png">
+      <Name>281_elf_swordman_DEAD.3.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\282_elf_swordman_DEAD.3.03.png">
+      <Name>282_elf_swordman_DEAD.3.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\283_elf_swordman_DEAD.3.04.png">
+      <Name>283_elf_swordman_DEAD.3.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\284_elf_swordman_DEAD.3.05.png">
+      <Name>284_elf_swordman_DEAD.3.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\285_elf_swordman_DEAD.3.06.png">
+      <Name>285_elf_swordman_DEAD.3.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\286_elf_swordman_DEAD.3.07.png">
+      <Name>286_elf_swordman_DEAD.3.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\287_elf_swordman_DEAD.3.08.png">
+      <Name>287_elf_swordman_DEAD.3.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\288_elf_swordman_DEAD.3.09.png">
+      <Name>288_elf_swordman_DEAD.3.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\289_elf_swordman_DEAD.3.10.png">
+      <Name>289_elf_swordman_DEAD.3.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\290_elf_swordman_SHIELD.3.01.png">
+      <Name>290_elf_swordman_SHIELD.3.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\291_elf_swordman_SHIELD.3.02.png">
+      <Name>291_elf_swordman_SHIELD.3.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\292_elf_swordman_SHIELD.3.03.png">
+      <Name>292_elf_swordman_SHIELD.3.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\293_elf_swordman_SHIELD.3.04.png">
+      <Name>293_elf_swordman_SHIELD.3.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\294_elf_swordman_SHIELD.3.05.png">
+      <Name>294_elf_swordman_SHIELD.3.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\295_elf_swordman_SHIELD.3.06.png">
+      <Name>295_elf_swordman_SHIELD.3.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\296_elf_swordman_SHIELD.3.07.png">
+      <Name>296_elf_swordman_SHIELD.3.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\300_elf_swordman_IDLE.4.01.png">
+      <Name>300_elf_swordman_IDLE.4.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\301_elf_swordman_IDLE.4.02.png">
+      <Name>301_elf_swordman_IDLE.4.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\302_elf_swordman_IDLE.4.03.png">
+      <Name>302_elf_swordman_IDLE.4.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\303_elf_swordman_IDLE.4.04.png">
+      <Name>303_elf_swordman_IDLE.4.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\304_elf_swordman_IDLE.4.05.png">
+      <Name>304_elf_swordman_IDLE.4.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\305_elf_swordman_IDLE.4.06.png">
+      <Name>305_elf_swordman_IDLE.4.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\306_elf_swordman_IDLE.4.07.png">
+      <Name>306_elf_swordman_IDLE.4.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\307_elf_swordman_IDLE.4.08.png">
+      <Name>307_elf_swordman_IDLE.4.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\308_elf_swordman_IDLE.4.09.png">
+      <Name>308_elf_swordman_IDLE.4.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\309_elf_swordman_IDLE.4.10.png">
+      <Name>309_elf_swordman_IDLE.4.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\310_elf_swordman_IDLE.4.11.png">
+      <Name>310_elf_swordman_IDLE.4.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\311_elf_swordman_IDLE.4.12.png">
+      <Name>311_elf_swordman_IDLE.4.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\312_elf_swordman_IDLE.4.13.png">
+      <Name>312_elf_swordman_IDLE.4.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\313_elf_swordman_IDLE.4.14.png">
+      <Name>313_elf_swordman_IDLE.4.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\314_elf_swordman_IDLE.4.15.png">
+      <Name>314_elf_swordman_IDLE.4.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\330_elf_swordman_WALK.4.01.png">
+      <Name>330_elf_swordman_WALK.4.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\331_elf_swordman_WALK.4.02.png">
+      <Name>331_elf_swordman_WALK.4.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\332_elf_swordman_WALK.4.03.png">
+      <Name>332_elf_swordman_WALK.4.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\333_elf_swordman_WALK.4.04.png">
+      <Name>333_elf_swordman_WALK.4.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\334_elf_swordman_WALK.4.05.png">
+      <Name>334_elf_swordman_WALK.4.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\335_elf_swordman_WALK.4.06.png">
+      <Name>335_elf_swordman_WALK.4.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\336_elf_swordman_WALK.4.07.png">
+      <Name>336_elf_swordman_WALK.4.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\337_elf_swordman_WALK.4.08.png">
+      <Name>337_elf_swordman_WALK.4.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\338_elf_swordman_WALK.4.09.png">
+      <Name>338_elf_swordman_WALK.4.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\339_elf_swordman_WALK.4.10.png">
+      <Name>339_elf_swordman_WALK.4.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\340_elf_swordman_WALK.4.11.png">
+      <Name>340_elf_swordman_WALK.4.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\341_elf_swordman_WALK.4.12.png">
+      <Name>341_elf_swordman_WALK.4.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\342_elf_swordman_WALK.4.13.png">
+      <Name>342_elf_swordman_WALK.4.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\343_elf_swordman_WALK.4.14.png">
+      <Name>343_elf_swordman_WALK.4.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\344_elf_swordman_WALK.4.15.png">
+      <Name>344_elf_swordman_WALK.4.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\360_elf_swordman_ATTACK.4.01.png">
+      <Name>360_elf_swordman_ATTACK.4.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\361_elf_swordman_ATTACK.4.02.png">
+      <Name>361_elf_swordman_ATTACK.4.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\362_elf_swordman_ATTACK.4.03.png">
+      <Name>362_elf_swordman_ATTACK.4.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\363_elf_swordman_ATTACK.4.04.png">
+      <Name>363_elf_swordman_ATTACK.4.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\364_elf_swordman_ATTACK.4.05.png">
+      <Name>364_elf_swordman_ATTACK.4.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\365_elf_swordman_ATTACK.4.06.png">
+      <Name>365_elf_swordman_ATTACK.4.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\366_elf_swordman_ATTACK.4.07.png">
+      <Name>366_elf_swordman_ATTACK.4.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\367_elf_swordman_ATTACK.4.08.png">
+      <Name>367_elf_swordman_ATTACK.4.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\368_elf_swordman_ATTACK.4.09.png">
+      <Name>368_elf_swordman_ATTACK.4.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\369_elf_swordman_ATTACK.4.10.png">
+      <Name>369_elf_swordman_ATTACK.4.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\370_elf_swordman_HIT.4.01.png">
+      <Name>370_elf_swordman_HIT.4.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\371_elf_swordman_HIT.4.02.png">
+      <Name>371_elf_swordman_HIT.4.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\372_elf_swordman_HIT.4.03.png">
+      <Name>372_elf_swordman_HIT.4.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\373_elf_swordman_HIT.4.04.png">
+      <Name>373_elf_swordman_HIT.4.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\374_elf_swordman_HIT.4.05.png">
+      <Name>374_elf_swordman_HIT.4.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\375_elf_swordman_HIT.4.06.png">
+      <Name>375_elf_swordman_HIT.4.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\376_elf_swordman_HIT.4.07.png">
+      <Name>376_elf_swordman_HIT.4.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\377_elf_swordman_HIT.4.08.png">
+      <Name>377_elf_swordman_HIT.4.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\380_elf_swordman_DEAD.4.01.png">
+      <Name>380_elf_swordman_DEAD.4.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\381_elf_swordman_DEAD.4.02.png">
+      <Name>381_elf_swordman_DEAD.4.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\382_elf_swordman_DEAD.4.03.png">
+      <Name>382_elf_swordman_DEAD.4.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\383_elf_swordman_DEAD.4.04.png">
+      <Name>383_elf_swordman_DEAD.4.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\384_elf_swordman_DEAD.4.05.png">
+      <Name>384_elf_swordman_DEAD.4.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\385_elf_swordman_DEAD.4.06.png">
+      <Name>385_elf_swordman_DEAD.4.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\386_elf_swordman_DEAD.4.07.png">
+      <Name>386_elf_swordman_DEAD.4.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\387_elf_swordman_DEAD.4.08.png">
+      <Name>387_elf_swordman_DEAD.4.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\388_elf_swordman_DEAD.4.09.png">
+      <Name>388_elf_swordman_DEAD.4.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\389_elf_swordman_DEAD.4.10.png">
+      <Name>389_elf_swordman_DEAD.4.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\390_elf_swordman_SHIELD.4.01.png">
+      <Name>390_elf_swordman_SHIELD.4.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\391_elf_swordman_SHIELD.4.02.png">
+      <Name>391_elf_swordman_SHIELD.4.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\392_elf_swordman_SHIELD.4.03.png">
+      <Name>392_elf_swordman_SHIELD.4.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\393_elf_swordman_SHIELD.4.04.png">
+      <Name>393_elf_swordman_SHIELD.4.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\394_elf_swordman_SHIELD.4.05.png">
+      <Name>394_elf_swordman_SHIELD.4.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\395_elf_swordman_SHIELD.4.06.png">
+      <Name>395_elf_swordman_SHIELD.4.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\396_elf_swordman_SHIELD.4.07.png">
+      <Name>396_elf_swordman_SHIELD.4.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\400_elf_swordman_IDLE.5.01.png">
+      <Name>400_elf_swordman_IDLE.5.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\401_elf_swordman_IDLE.5.02.png">
+      <Name>401_elf_swordman_IDLE.5.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\402_elf_swordman_IDLE.5.03.png">
+      <Name>402_elf_swordman_IDLE.5.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\403_elf_swordman_IDLE.5.04.png">
+      <Name>403_elf_swordman_IDLE.5.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\404_elf_swordman_IDLE.5.05.png">
+      <Name>404_elf_swordman_IDLE.5.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\405_elf_swordman_IDLE.5.06.png">
+      <Name>405_elf_swordman_IDLE.5.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\406_elf_swordman_IDLE.5.07.png">
+      <Name>406_elf_swordman_IDLE.5.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\407_elf_swordman_IDLE.5.08.png">
+      <Name>407_elf_swordman_IDLE.5.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\408_elf_swordman_IDLE.5.09.png">
+      <Name>408_elf_swordman_IDLE.5.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\409_elf_swordman_IDLE.5.10.png">
+      <Name>409_elf_swordman_IDLE.5.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\410_elf_swordman_IDLE.5.11.png">
+      <Name>410_elf_swordman_IDLE.5.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\411_elf_swordman_IDLE.5.12.png">
+      <Name>411_elf_swordman_IDLE.5.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\412_elf_swordman_IDLE.5.13.png">
+      <Name>412_elf_swordman_IDLE.5.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\413_elf_swordman_IDLE.5.14.png">
+      <Name>413_elf_swordman_IDLE.5.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\414_elf_swordman_IDLE.5.15.png">
+      <Name>414_elf_swordman_IDLE.5.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\430_elf_swordman_WALK.5.01.png">
+      <Name>430_elf_swordman_WALK.5.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\431_elf_swordman_WALK.5.02.png">
+      <Name>431_elf_swordman_WALK.5.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\432_elf_swordman_WALK.5.03.png">
+      <Name>432_elf_swordman_WALK.5.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\433_elf_swordman_WALK.5.04.png">
+      <Name>433_elf_swordman_WALK.5.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\434_elf_swordman_WALK.5.05.png">
+      <Name>434_elf_swordman_WALK.5.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\435_elf_swordman_WALK.5.06.png">
+      <Name>435_elf_swordman_WALK.5.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\436_elf_swordman_WALK.5.07.png">
+      <Name>436_elf_swordman_WALK.5.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\437_elf_swordman_WALK.5.08.png">
+      <Name>437_elf_swordman_WALK.5.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\438_elf_swordman_WALK.5.09.png">
+      <Name>438_elf_swordman_WALK.5.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\439_elf_swordman_WALK.5.10.png">
+      <Name>439_elf_swordman_WALK.5.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\440_elf_swordman_WALK.5.11.png">
+      <Name>440_elf_swordman_WALK.5.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\441_elf_swordman_WALK.5.12.png">
+      <Name>441_elf_swordman_WALK.5.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\442_elf_swordman_WALK.5.13.png">
+      <Name>442_elf_swordman_WALK.5.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\443_elf_swordman_WALK.5.14.png">
+      <Name>443_elf_swordman_WALK.5.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\444_elf_swordman_WALK.5.15.png">
+      <Name>444_elf_swordman_WALK.5.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\460_elf_swordman_ATTACK.5.01.png">
+      <Name>460_elf_swordman_ATTACK.5.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\461_elf_swordman_ATTACK.5.02.png">
+      <Name>461_elf_swordman_ATTACK.5.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\462_elf_swordman_ATTACK.5.03.png">
+      <Name>462_elf_swordman_ATTACK.5.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\463_elf_swordman_ATTACK.5.04.png">
+      <Name>463_elf_swordman_ATTACK.5.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\464_elf_swordman_ATTACK.5.05.png">
+      <Name>464_elf_swordman_ATTACK.5.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\465_elf_swordman_ATTACK.5.06.png">
+      <Name>465_elf_swordman_ATTACK.5.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\466_elf_swordman_ATTACK.5.07.png">
+      <Name>466_elf_swordman_ATTACK.5.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\467_elf_swordman_ATTACK.5.08.png">
+      <Name>467_elf_swordman_ATTACK.5.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\468_elf_swordman_ATTACK.5.09.png">
+      <Name>468_elf_swordman_ATTACK.5.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\469_elf_swordman_ATTACK.5.10.png">
+      <Name>469_elf_swordman_ATTACK.5.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\470_elf_swordman_HIT.5.01.png">
+      <Name>470_elf_swordman_HIT.5.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\471_elf_swordman_HIT.5.02.png">
+      <Name>471_elf_swordman_HIT.5.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\472_elf_swordman_HIT.5.03.png">
+      <Name>472_elf_swordman_HIT.5.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\473_elf_swordman_HIT.5.04.png">
+      <Name>473_elf_swordman_HIT.5.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\474_elf_swordman_HIT.5.05.png">
+      <Name>474_elf_swordman_HIT.5.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\475_elf_swordman_HIT.5.06.png">
+      <Name>475_elf_swordman_HIT.5.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\476_elf_swordman_HIT.5.07.png">
+      <Name>476_elf_swordman_HIT.5.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\477_elf_swordman_HIT.5.08.png">
+      <Name>477_elf_swordman_HIT.5.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\480_elf_swordman_DEAD.5.01.png">
+      <Name>480_elf_swordman_DEAD.5.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\481_elf_swordman_DEAD.5.02.png">
+      <Name>481_elf_swordman_DEAD.5.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\482_elf_swordman_DEAD.5.03.png">
+      <Name>482_elf_swordman_DEAD.5.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\483_elf_swordman_DEAD.5.04.png">
+      <Name>483_elf_swordman_DEAD.5.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\484_elf_swordman_DEAD.5.05.png">
+      <Name>484_elf_swordman_DEAD.5.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\485_elf_swordman_DEAD.5.06.png">
+      <Name>485_elf_swordman_DEAD.5.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\486_elf_swordman_DEAD.5.07.png">
+      <Name>486_elf_swordman_DEAD.5.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\487_elf_swordman_DEAD.5.08.png">
+      <Name>487_elf_swordman_DEAD.5.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\488_elf_swordman_DEAD.5.09.png">
+      <Name>488_elf_swordman_DEAD.5.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\489_elf_swordman_DEAD.5.10.png">
+      <Name>489_elf_swordman_DEAD.5.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\490_elf_swordman_SHIELD.5.01.png">
+      <Name>490_elf_swordman_SHIELD.5.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\491_elf_swordman_SHIELD.5.02.png">
+      <Name>491_elf_swordman_SHIELD.5.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\492_elf_swordman_SHIELD.5.03.png">
+      <Name>492_elf_swordman_SHIELD.5.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\493_elf_swordman_SHIELD.5.04.png">
+      <Name>493_elf_swordman_SHIELD.5.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\494_elf_swordman_SHIELD.5.05.png">
+      <Name>494_elf_swordman_SHIELD.5.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\495_elf_swordman_SHIELD.5.06.png">
+      <Name>495_elf_swordman_SHIELD.5.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\496_elf_swordman_SHIELD.5.07.png">
+      <Name>496_elf_swordman_SHIELD.5.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\500_elf_swordman_IDLE.6.01.png">
+      <Name>500_elf_swordman_IDLE.6.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\501_elf_swordman_IDLE.6.02.png">
+      <Name>501_elf_swordman_IDLE.6.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\502_elf_swordman_IDLE.6.03.png">
+      <Name>502_elf_swordman_IDLE.6.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\503_elf_swordman_IDLE.6.04.png">
+      <Name>503_elf_swordman_IDLE.6.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\504_elf_swordman_IDLE.6.05.png">
+      <Name>504_elf_swordman_IDLE.6.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\505_elf_swordman_IDLE.6.06.png">
+      <Name>505_elf_swordman_IDLE.6.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\506_elf_swordman_IDLE.6.07.png">
+      <Name>506_elf_swordman_IDLE.6.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\507_elf_swordman_IDLE.6.08.png">
+      <Name>507_elf_swordman_IDLE.6.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\508_elf_swordman_IDLE.6.09.png">
+      <Name>508_elf_swordman_IDLE.6.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\509_elf_swordman_IDLE.6.10.png">
+      <Name>509_elf_swordman_IDLE.6.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\510_elf_swordman_IDLE.6.11.png">
+      <Name>510_elf_swordman_IDLE.6.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\511_elf_swordman_IDLE.6.12.png">
+      <Name>511_elf_swordman_IDLE.6.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\512_elf_swordman_IDLE.6.13.png">
+      <Name>512_elf_swordman_IDLE.6.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\513_elf_swordman_IDLE.6.14.png">
+      <Name>513_elf_swordman_IDLE.6.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\514_elf_swordman_IDLE.6.15.png">
+      <Name>514_elf_swordman_IDLE.6.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\530_elf_swordman_WALK.6.01.png">
+      <Name>530_elf_swordman_WALK.6.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\531_elf_swordman_WALK.6.02.png">
+      <Name>531_elf_swordman_WALK.6.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\532_elf_swordman_WALK.6.03.png">
+      <Name>532_elf_swordman_WALK.6.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\533_elf_swordman_WALK.6.04.png">
+      <Name>533_elf_swordman_WALK.6.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\534_elf_swordman_WALK.6.05.png">
+      <Name>534_elf_swordman_WALK.6.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\535_elf_swordman_WALK.6.06.png">
+      <Name>535_elf_swordman_WALK.6.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\536_elf_swordman_WALK.6.07.png">
+      <Name>536_elf_swordman_WALK.6.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\537_elf_swordman_WALK.6.08.png">
+      <Name>537_elf_swordman_WALK.6.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\538_elf_swordman_WALK.6.09.png">
+      <Name>538_elf_swordman_WALK.6.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\539_elf_swordman_WALK.6.10.png">
+      <Name>539_elf_swordman_WALK.6.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\540_elf_swordman_WALK.6.11.png">
+      <Name>540_elf_swordman_WALK.6.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\541_elf_swordman_WALK.6.12.png">
+      <Name>541_elf_swordman_WALK.6.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\542_elf_swordman_WALK.6.13.png">
+      <Name>542_elf_swordman_WALK.6.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\543_elf_swordman_WALK.6.14.png">
+      <Name>543_elf_swordman_WALK.6.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\544_elf_swordman_WALK.6.15.png">
+      <Name>544_elf_swordman_WALK.6.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\560_elf_swordman_ATTACK.6.01.png">
+      <Name>560_elf_swordman_ATTACK.6.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\561_elf_swordman_ATTACK.6.02.png">
+      <Name>561_elf_swordman_ATTACK.6.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\562_elf_swordman_ATTACK.6.03.png">
+      <Name>562_elf_swordman_ATTACK.6.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\563_elf_swordman_ATTACK.6.04.png">
+      <Name>563_elf_swordman_ATTACK.6.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\564_elf_swordman_ATTACK.6.05.png">
+      <Name>564_elf_swordman_ATTACK.6.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\565_elf_swordman_ATTACK.6.06.png">
+      <Name>565_elf_swordman_ATTACK.6.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\566_elf_swordman_ATTACK.6.07.png">
+      <Name>566_elf_swordman_ATTACK.6.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\567_elf_swordman_ATTACK.6.08.png">
+      <Name>567_elf_swordman_ATTACK.6.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\568_elf_swordman_ATTACK.6.09.png">
+      <Name>568_elf_swordman_ATTACK.6.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\569_elf_swordman_ATTACK.6.10.png">
+      <Name>569_elf_swordman_ATTACK.6.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\570_elf_swordman_HIT.6.01.png">
+      <Name>570_elf_swordman_HIT.6.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\571_elf_swordman_HIT.6.02.png">
+      <Name>571_elf_swordman_HIT.6.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\572_elf_swordman_HIT.6.03.png">
+      <Name>572_elf_swordman_HIT.6.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\573_elf_swordman_HIT.6.04.png">
+      <Name>573_elf_swordman_HIT.6.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\574_elf_swordman_HIT.6.05.png">
+      <Name>574_elf_swordman_HIT.6.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\575_elf_swordman_HIT.6.06.png">
+      <Name>575_elf_swordman_HIT.6.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\576_elf_swordman_HIT.6.07.png">
+      <Name>576_elf_swordman_HIT.6.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\577_elf_swordman_HIT.6.08.png">
+      <Name>577_elf_swordman_HIT.6.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\580_elf_swordman_DEAD.6.01.png">
+      <Name>580_elf_swordman_DEAD.6.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\581_elf_swordman_DEAD.6.02.png">
+      <Name>581_elf_swordman_DEAD.6.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\582_elf_swordman_DEAD.6.03.png">
+      <Name>582_elf_swordman_DEAD.6.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\583_elf_swordman_DEAD.6.04.png">
+      <Name>583_elf_swordman_DEAD.6.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\584_elf_swordman_DEAD.6.05.png">
+      <Name>584_elf_swordman_DEAD.6.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\585_elf_swordman_DEAD.6.06.png">
+      <Name>585_elf_swordman_DEAD.6.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\586_elf_swordman_DEAD.6.07.png">
+      <Name>586_elf_swordman_DEAD.6.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\587_elf_swordman_DEAD.6.08.png">
+      <Name>587_elf_swordman_DEAD.6.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\588_elf_swordman_DEAD.6.09.png">
+      <Name>588_elf_swordman_DEAD.6.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\589_elf_swordman_DEAD.6.10.png">
+      <Name>589_elf_swordman_DEAD.6.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\590_elf_swordman_SHIELD.6.01.png">
+      <Name>590_elf_swordman_SHIELD.6.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\591_elf_swordman_SHIELD.6.02.png">
+      <Name>591_elf_swordman_SHIELD.6.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\592_elf_swordman_SHIELD.6.03.png">
+      <Name>592_elf_swordman_SHIELD.6.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\593_elf_swordman_SHIELD.6.04.png">
+      <Name>593_elf_swordman_SHIELD.6.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\594_elf_swordman_SHIELD.6.05.png">
+      <Name>594_elf_swordman_SHIELD.6.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\595_elf_swordman_SHIELD.6.06.png">
+      <Name>595_elf_swordman_SHIELD.6.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Unit\elf_swordman\596_elf_swordman_SHIELD.6.07.png">
+      <Name>596_elf_swordman_SHIELD.6.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Unit\elf_swordman\elf_swordman.png">
+      <Name>elf_swordman</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\v3.0\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
