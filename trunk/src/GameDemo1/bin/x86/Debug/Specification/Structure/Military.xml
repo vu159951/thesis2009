@@ -2,6 +2,7 @@
 <Military>
   <RepresentativeImage name="Structure\\Military\\Military"/>
   <ListUnits>
+	<Unit name="Archon_Archer" />
     <Unit name="Elf_swordman" />
     <Unit name="Black_Angel" />
     <Unit name="Angel" />
