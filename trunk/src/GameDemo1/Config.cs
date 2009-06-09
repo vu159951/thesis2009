@@ -35,7 +35,9 @@ namespace GameDemo1
         public static string PATH_TO_SELECTEDIMAGE = "SelectImage\\Red";
         public static string PATH_TO_HEALTHIMAGE = "HealthImage\\Red";
         public static string PATH_TO_MENU_IMAGE = "MenuPanel\\";
+        public static string PATH_TO_MINI_MAP = "MiniMap\\";
 
+        public static string MINIMAP = "MiniMap1";
         public static string CURSOR = "cursor2";
         public static string MENU_PANEL_BOTTOM = "menuPanel2";
         public static string MENU_PANEL_TOP = "menuPanel2";
