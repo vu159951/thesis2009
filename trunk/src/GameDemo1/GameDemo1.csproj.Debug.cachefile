@@ -3306,11 +3306,11 @@ Content\Unit\Wolf\587_Wolf_DEAD.6.08.xnb
 Content\Unit\Wolf\588_Wolf_DEAD.6.09.xnb
 Content\Unit\Wolf\589_Wolf_DEAD.6.10.xnb
 Content\Unit\Wolf\Wolf.xnb
-Content\Font\Mangal.xnb
-Content\Sound\sword.xnb
-Content\Sound\startbuild.xnb
-Content\Sound\clickitemmenu.xnb
 Content\MiniMap\MiniMap1.xnb
 Content\MiniMap\Minimap2.xnb
 Content\MiniMap\Point.xnb
 Content\MiniMap\Rectangle.xnb
+Content\Font\Mangal.xnb
+Content\Sound\sword.xnb
+Content\Sound\startbuild.xnb
+Content\Sound\clickitemmenu.xnb

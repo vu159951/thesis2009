@@ -2229,10 +2229,6 @@ Content\Unit\Black_Angel\585_Black_Angel_DEAD.6.06.xnb
 Content\Unit\Black_Angel\586_Black_Angel_DEAD.6.07.xnb
 Content\Unit\Black_Angel\587_Black_Angel_DEAD.6.08.xnb
 Content\Unit\Black_Angel\Black_Angel.xnb
-Content\Font\Mangal.xnb
-Content\Sound\sword.xnb
-Content\Sound\startbuild.xnb
-Content\Sound\clickitemmenu.xnb
 Content\Unit\elf_swordman\000_elf_swordman_IDLE.1.01.xnb
 Content\Unit\elf_swordman\001_elf_swordman_IDLE.1.02.xnb
 Content\Unit\elf_swordman\002_elf_swordman_IDLE.1.03.xnb
@@ -3310,3 +3306,11 @@ Content\Unit\Wolf\587_Wolf_DEAD.6.08.xnb
 Content\Unit\Wolf\588_Wolf_DEAD.6.09.xnb
 Content\Unit\Wolf\589_Wolf_DEAD.6.10.xnb
 Content\Unit\Wolf\Wolf.xnb
+Content\MiniMap\MiniMap1.xnb
+Content\MiniMap\Minimap2.xnb
+Content\MiniMap\Point.xnb
+Content\MiniMap\Rectangle.xnb
+Content\Font\Mangal.xnb
+Content\Sound\sword.xnb
+Content\Sound\startbuild.xnb
+Content\Sound\clickitemmenu.xnb
