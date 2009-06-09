@@ -7,15 +7,15 @@
     <Unit vame="Wolf" />
   </ListUnits>
   <Informations>
-    <MaxHealth value="100"/>
+    <MaxHealth value="500"/>
     <Power value="0" />
     <RadiusAttack value="0" />
     <RadiusDetect value="0" />
     <Speed value="0" />
   </Informations>
   <Requirements>
-    <Stone value="1000" />
-    <Gold value="150" />
+    <Stone value="3500" />
+    <Gold value="1500" />
   </Requirements>
   <Time value="20"></Time>
   

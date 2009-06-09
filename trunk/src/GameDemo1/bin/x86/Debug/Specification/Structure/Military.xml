@@ -7,17 +7,17 @@
     <Unit name="Angel" />
   </ListUnits>
   <Informations>
-    <MaxHealth value="100"/>
+    <MaxHealth value="400"/>
     <Power value="0" />
     <RadiusAttack value="0" />
     <RadiusDetect value="0" />
     <Speed value="0" />
   </Informations>
   <Requirements>
-    <Stone value="1500" />
-    <Gold value="200" />
+    <Stone value="5000" />
+    <Gold value="4000" />
   </Requirements>
-  <Time value="15"/>
+  <Time value="30"/>
   
   <IDLE>
     <S>

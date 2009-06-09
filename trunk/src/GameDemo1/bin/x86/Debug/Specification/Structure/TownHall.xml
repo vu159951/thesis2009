@@ -5,17 +5,17 @@
     <Unit name="Producer" />
   </ListUnits>
   <Informations>
-    <MaxHealth value="400"/>
+    <MaxHealth value="1000"/>
     <Power value="0" />
     <RadiusAttack value="0" />
     <RadiusDetect value="0" />
     <Speed value="0" />
   </Informations>
   <Requirements>
-    <Stone value="2000" />
-    <Gold value="1000" />
+    <Stone value="15000" />
+    <Gold value="10000" />
   </Requirements>
-  <Time value="20"></Time>
+  <Time value="60"></Time>
   
   <IDLE>
     <S>
