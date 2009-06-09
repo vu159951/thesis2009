@@ -3,7 +3,7 @@
   <RepresentativeImage name="Unit\\Unicorn\\Unicorn"/>
   <Information>
     <MaxHealth value="50"/>
-    <Power value="5" />
+    <Power value="2" />
     <RadiusAttack value="50" />
     <RadiusDetect value="70" />
     <Speed value="4" />
@@ -11,7 +11,7 @@
   <Requirements>
     <Gold value="20" />
   </Requirements>
-  <Time value="5"></Time>
+  <Time value="6"></Time>
   
   <IDLE>
     <S>

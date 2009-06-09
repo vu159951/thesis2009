@@ -2,16 +2,16 @@
 <Black_Angel>
   <RepresentativeImage name="Unit\\Black_Angel\\Black_Angel"/>
   <Information>
-    <MaxHealth value="100"/>
-    <Power value="5" />
-    <RadiusAttack value="50" />
-    <RadiusDetect value="70" />
-    <Speed value="6" />
+    <MaxHealth value="80"/>
+    <Power value="4" />
+    <RadiusAttack value="30" />
+    <RadiusDetect value="50" />
+    <Speed value="5" />
   </Information>
   <Requirements>
-    <Gold value="30" />
+    <Gold value="40" />
   </Requirements>
-  <Time value="5"></Time>
+  <Time value="6"></Time>
   <IDLE>
     <S>
       <Image name="Unit\\Black_Angel\\000_Black_Angel_IDLE.1.01"/>

@@ -2,10 +2,10 @@
 <Phoenix>
   <RepresentativeImage name="Unit\\Phoenix\\Phoenix"/>
   <Information>
-    <MaxHealth value="150"/>
-    <Power value="6" />
+    <MaxHealth value="120"/>
+    <Power value="3" />
     <RadiusAttack value="50" />
-    <RadiusDetect value="80" />
+    <RadiusDetect value="60" />
     <Speed value="8" />
   </Information>
   <Requirements>

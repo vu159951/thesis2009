@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Spider>
+<Producer>
   <RepresentativeImage name="Unit\\Producer\\Producer"/>
   <Information>
-    <MaxHealth value="100"/>
-    <Power value="7" />
-    <RadiusAttack value="50" />
-    <RadiusDetect value="60" />
-    <Speed value="2" />
+    <MaxHealth value="150"/>
+    <Power value="0" />
+    <RadiusAttack value="0" />
+    <RadiusDetect value="0" />
+    <Speed value="3" />
   </Information>
   <Requirements>
-    <Gold value="50" />
+    <Gold value="45" />
   </Requirements>
-  <Time value="5"></Time>
+  <Time value="8"></Time>
 
   <IDLE>
     <S>
@@ -438,4 +438,4 @@
       <Image name="Unit\\Producer\\589_Spider_DEAD.6.10"/>
     </WS>
   </DEAD>
-</Spider>
+</Producer>

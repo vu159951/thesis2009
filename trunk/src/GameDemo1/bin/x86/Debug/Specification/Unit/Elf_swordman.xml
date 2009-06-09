@@ -3,13 +3,13 @@
   <RepresentativeImage name="Unit\\elf_swordman\\elf_swordman"/>
   <Information>
     <MaxHealth value="100"/>
-    <Power value="7" />
-    <RadiusAttack value="50" />
-    <RadiusDetect value="60" />
+    <Power value="6" />
+    <RadiusAttack value="30" />
+    <RadiusDetect value="40" />
     <Speed value="2" />
   </Information>
   <Requirements>
-    <Gold value="50" />
+    <Gold value="55" />
   </Requirements>
   <Time value="5"></Time>
 

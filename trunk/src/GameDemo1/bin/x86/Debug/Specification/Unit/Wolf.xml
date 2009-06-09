@@ -2,16 +2,16 @@
 <Wolf>
   <RepresentativeImage name="Unit\\Wolf\\Wolf"/>
   <Information>
-    <MaxHealth value="50"/>
-    <Power value="5" />
+    <MaxHealth value="60"/>
+    <Power value="3" />
     <RadiusAttack value="50" />
     <RadiusDetect value="70" />
     <Speed value="4" />
   </Information>
   <Requirements>
-    <Gold value="20" />
+    <Gold value="30" />
   </Requirements>
-  <Time value="5"></Time>
+  <Time value="4"></Time>
   
   <IDLE>
     <S>
