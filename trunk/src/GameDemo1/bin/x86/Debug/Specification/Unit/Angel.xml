@@ -2,10 +2,10 @@
 <Angel>
   <RepresentativeImage name="Unit\\Angel\\Angel"/>
   <Information>
-    <MaxHealth value="100"/>
-    <Power value="5" />
-    <RadiusAttack value="50" />
-    <RadiusDetect value="70" />
+    <MaxHealth value="70"/>
+    <Power value="3" />
+    <RadiusAttack value="30" />
+    <RadiusDetect value="50" />
     <Speed value="6" />
   </Information>
   <Requirements>
