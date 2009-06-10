@@ -2,11 +2,11 @@
 <Producer>
   <RepresentativeImage name="Unit\\Producer\\Producer"/>
   <Information>
-    <MaxHealth value="150"/>
+    <MaxHealth value="300"/>
     <Power value="0" />
     <RadiusAttack value="0" />
     <RadiusDetect value="0" />
-    <Speed value="3" />
+    <Speed value="2" />
   </Information>
   <Requirements>
     <Gold value="45" />
