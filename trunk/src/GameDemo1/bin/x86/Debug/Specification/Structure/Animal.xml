@@ -21,8 +21,9 @@
   
   <IDLE>
     <S>
-      <Image name="Structure\\Animal\\Animal1"/>
-      <Image name="Structure\\Animal\\Animal2"/>
+		<Image name="Structure\\Animal\\construction"/>
+		<Image name="Structure\\Animal\\Animal1"/>
+		<Image name="Structure\\Animal\\Animal2"/>
     </S>
     <ES>
     </ES>

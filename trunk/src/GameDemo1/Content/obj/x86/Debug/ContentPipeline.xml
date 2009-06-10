@@ -32878,6 +32878,33 @@
       <Output>C:\Documents and Settings\Administrator\Desktop\coding\src\GameDemo1\bin\x86\Debug\Content\Unit\Archon_Archer\Archon_Archer.xnb</Output>
       <Time>2009-06-09T17:20:46.34375+07:00</Time>
     </Item>
+    <Item>
+      <Source>Structure\Animal\construction.png</Source>
+      <Name>Structure\Animal\construction</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Administrator\Desktop\coding\src\GameDemo1\bin\x86\Debug\Content\Structure\Animal\construction.xnb</Output>
+      <Time>2009-06-10T09:51:28.484375+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Structure\Military\construction.png</Source>
+      <Name>Structure\Military\construction</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Administrator\Desktop\coding\src\GameDemo1\bin\x86\Debug\Content\Structure\Military\construction.xnb</Output>
+      <Time>2009-06-10T09:51:35.171875+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Structure\TownHall\construction.png</Source>
+      <Name>Structure\TownHall\construction</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Documents and Settings\Administrator\Desktop\coding\src\GameDemo1\bin\x86\Debug\Content\Structure\TownHall\construction.xnb</Output>
+      <Time>2009-06-10T09:51:39.875+07:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

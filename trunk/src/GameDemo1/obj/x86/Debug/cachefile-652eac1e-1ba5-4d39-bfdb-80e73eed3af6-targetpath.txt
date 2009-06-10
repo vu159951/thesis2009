@@ -3651,3 +3651,6 @@ Content\Unit\Archon_Archer\565_Archon_Archer_ATTACK.6.06.xnb
 Content\Unit\Archon_Archer\566_Archon_Archer_ATTACK.6.07.xnb
 Content\Unit\Archon_Archer\567_Archon_Archer_ATTACK.6.08.xnb
 Content\Unit\Archon_Archer\Archon_Archer.xnb
+Content\Structure\Animal\construction.xnb
+Content\Structure\Military\construction.xnb
+Content\Structure\TownHall\construction.xnb

@@ -19,7 +19,8 @@
   
   <IDLE>
     <S>
-      <Image name="Structure\\TownHall\\TownHall1"/>
+		<Image name="Structure\\TownHall\\construction"/>
+		<Image name="Structure\\TownHall\\TownHall1"/>
     </S>
     <ES>
     </ES>

@@ -22,8 +22,9 @@
   
   <IDLE>
     <S>
-      <Image name="Structure\\Military\\Military1" />
-      <Image name="Structure\\Military\\Military2" />
+		<Image name="Structure\\Military\\construction"/>
+		<Image name="Structure\\Military\\Military1" />
+		<Image name="Structure\\Military\\Military2" />
     </S>
     <ES>
     </ES>
