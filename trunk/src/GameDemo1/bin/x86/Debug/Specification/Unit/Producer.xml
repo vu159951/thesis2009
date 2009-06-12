@@ -228,7 +228,7 @@
       <Image name="Unit\\Producer\\544_Spider_WALK.6.15"/>
     </WS>
   </WALK>
-  <ATTACK>
+  <EXPLOIT>
     <S>
       <Image name="Unit\\Producer\\060_Spider_ATTACK.1.01"/>
       <Image name="Unit\\Producer\\061_Spider_ATTACK.1.02"/>
@@ -291,7 +291,7 @@
       <Image name="Unit\\Producer\\566_Spider_ATTACK.6.07"/>
       <Image name="Unit\\Producer\\567_Spider_ATTACK.6.08"/>
     </WS>
-  </ATTACK>
+  </EXPLOIT>
   <HIT count="8">
     <S>
       <Image name="Unit\\Producer\\070_Spider_HIT.1.01"/>
