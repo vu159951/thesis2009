@@ -133,9 +133,9 @@ namespace GameDemo1.Components
             {
                 i1 = 0;
             }
-            if (i1 > Config.MAP_SIZE_IN_CELL.Height)
+            if (i1 >= Config.MAP_SIZE_IN_CELL.Height)
             {
-                i1 = Config.MAP_SIZE_IN_CELL.Height;
+                i1 = Config.MAP_SIZE_IN_CELL.Height - 1;
             }
 
             int i2 = (int)cell4.Y + 2;// D
@@ -143,9 +143,9 @@ namespace GameDemo1.Components
             {
                 i2 = 0;
             }
-            if (i2 > Config.MAP_SIZE_IN_CELL.Height)
+            if (i2 >= Config.MAP_SIZE_IN_CELL.Height)
             {
-                i2 = Config.MAP_SIZE_IN_CELL.Height;
+                i2 = Config.MAP_SIZE_IN_CELL.Height - 1;
             }
 
             int j1 = (int)cell1.X;// A
@@ -153,9 +153,9 @@ namespace GameDemo1.Components
             {
                 j1 = 0;
             }
-            if (j1 > Config.MAP_SIZE_IN_CELL.Width)
+            if (j1 >= Config.MAP_SIZE_IN_CELL.Width)
             {
-                j1 = Config.MAP_SIZE_IN_CELL.Width;
+                j1 = Config.MAP_SIZE_IN_CELL.Width - 1;
             }
 
             int j2 = (int)cell2.X + 2;// B
@@ -163,9 +163,9 @@ namespace GameDemo1.Components
             {
                 j2 = 0;
             }
-            if (j2 > Config.MAP_SIZE_IN_CELL.Width)
+            if (j2 >= Config.MAP_SIZE_IN_CELL.Width)
             {
-                j2 = Config.MAP_SIZE_IN_CELL.Width;
+                j2 = Config.MAP_SIZE_IN_CELL.Width - 1;
             }
 
             for (int i = i1; i <= i2; i++)
@@ -183,7 +183,9 @@ namespace GameDemo1.Components
                         spriteBatch.Draw(this.cells[i, j].Background, recToDraw, Color.WhiteSmoke);
                     }
                     catch
-                    { }
+                    {
+                        int a = 0;
+                    }
                 }
             }
         }
