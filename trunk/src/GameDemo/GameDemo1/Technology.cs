@@ -28,11 +28,6 @@ namespace GameDemo1
             get { return _upgradeStructure; }
             set { _upgradeStructure = value; }
         }
-        public Level Level
-        {
-            get { return _level; }
-            set { _level = value; }
-        }
         public string NameTech
         {
             get { return _nameTech; }

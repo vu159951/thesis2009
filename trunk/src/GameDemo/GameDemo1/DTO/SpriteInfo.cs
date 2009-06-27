@@ -5,7 +5,7 @@ using System.Text;
 
 namespace GameDemo1.DTO
 {
-    class SpriteInfo
+    public class ItemInfo
     {
         private string _name;
         private string _value;
@@ -21,12 +21,12 @@ namespace GameDemo1.DTO
             set { this._value = value; }
         }
 
-        public SpriteInfo()
+        public ItemInfo()
         {
  
         }
 
-        public SpriteInfo(string name, string value)
+        public ItemInfo(string name, string value)
         {
             this._name = name;
             this._value = value;
