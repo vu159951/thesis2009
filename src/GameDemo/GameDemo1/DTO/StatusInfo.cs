@@ -5,7 +5,7 @@ using System.Text;
 
 namespace GameDemo1.DTO
 {
-    class StatusInfo
+    public class StatusInfo
     {
         List<DirectionInfo> _directionInfo;
 

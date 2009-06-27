@@ -10,6 +10,7 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using Microsoft.Xna.Framework.Net;
 using Microsoft.Xna.Framework.Storage;
+using GameDemo1.DTO;
 
 namespace GameDemo1.Components
 {
@@ -120,7 +121,7 @@ namespace GameDemo1.Components
         public override void Draw(GameTime gameTime)
         {
             // TODO: Add your draw code here
-            Rectangle rec = new Rectangle((int)this.position.X, (int)this.position.Y, Config.CURSOR_SIZE.Width, Config.CURSOR_SIZE.Height);
+            Rectangle rec = new Rectangle((int)this.position.X, (int)this.position.Y, GlobalDTO.CURSOR_SIZE.Width, GlobalDTO.CURSOR_SIZE.Height);
             spriteBatch.Draw(this.texture, rec, Color.White);
 
             base.Draw(gameTime);

@@ -6,38 +6,26 @@ using System.Xml;
 
 namespace GameDemo1.DTO
 {
-    class UnitDTO
-    {
-        string name;
-        public string Name
-        {
-            get { return name; }
-            set { name = value; }
-        }
-        internal List<SpriteInfo> Information
+    public class UnitDTO: SpriteDTO
+    {        
+        internal List<ItemInfo> Information
         {
             get { return _information; }
             set { _information = value; }
         }
-        internal List<SpriteInfo> Requirement
+        internal List<UpgradeInfo> Upgrades
         {
-            get { return _requirement; }
-            set { _requirement = value; }
-        }
-        internal List<StatusInfo> Action
-        {
-            get { return _action; }
-            set { _action = value; }
+            get { return _upgrades; }
+            set { _upgrades = value; }
         }
 
-        List<SpriteInfo> _information;
-        List<SpriteInfo> _requirement;
-        List<StatusInfo> _action;
+        private List<ItemInfo> _information;
+        private List<UpgradeInfo> _upgrades;        
 
         public UnitDTO()
         {
-            this._information = new List<SpriteInfo>();
-            this._requirement = new List<SpriteInfo>();
+            this._information = new List<ItemInfo>();
+            this._upgrades = new List<UpgradeInfo>();
             this._action = new List<StatusInfo>();
         }
     }

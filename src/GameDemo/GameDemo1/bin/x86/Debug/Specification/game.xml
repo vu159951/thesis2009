@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Game>
+  <SPEC_RESOURCECENTER_PATH >Specification\\Sprites\\ResourceCenter\\</SPEC_RESOURCECENTER_PATH>
+  <SPEC_STRUCTURE_PATH>Specification\\Sprites\\Structure\\</SPEC_STRUCTURE_PATH>
+  <SPEC_TERRAIN_PATH>Specification\\Sprites\\Terrain\\</SPEC_TERRAIN_PATH>
+  <SPEC_UNIT_PATH>Specification\\Sprites\\Unit\\</SPEC_UNIT_PATH>
+  <SPEC_MAP_PATH>Specification\\Map\\</SPEC_MAP_PATH>
+  <RES_CURSOR_PATH>Cursor\\</RES_CURSOR_PATH>
+  <RES_FONT_PATH>Font\\Mangal</RES_FONT_PATH>
+  <RES_MINI_MAP_PATH>Map\\MiniMap\\</RES_MINI_MAP_PATH>
+  <RES_RHOMBUS_MAP_PATH>Map\\RhombusMap\\</RES_RHOMBUS_MAP_PATH>
+  <RES_SQUARE_MAP_PATH>Map\\SquareMap\\</RES_SQUARE_MAP_PATH>
+  <RES_SELECTION_PATH>Images\\Selection\\Red</RES_SELECTION_PATH>
+  <PATH_TO_HEALTHIMAGE>Images\\Health\\Red</PATH_TO_HEALTHIMAGE>
+  <PATH_TO_MENU_IMAGE>Images\\MenuPanel\\</PATH_TO_MENU_IMAGE>
+
+  <MINIMAP>MiniMap1</MINIMAP>
+  <CURSOR>cursor2</CURSOR>
+  <MENU_PANEL_BOTTOM>menuPanel2</MENU_PANEL_BOTTOM>
+  <MENU_PANEL_TOP>menuPanel2</MENU_PANEL_TOP>
+
+  <SPEED_SCROLL>
+    <X>20</X>
+    <Y>20</Y>
+  </SPEED_SCROLL>
+  <SCREEN_SIZE>
+    <Width>1000</Width>
+    <Heigh>700</Heigh>
+  </SCREEN_SIZE>
+  <MENU_PANEL_BOTTOM_SIZE>
+    <Width>1000</Width>
+    <Heigh>35</Heigh>
+  </MENU_PANEL_BOTTOM_SIZE>
+  <CELL_SIZE>
+    <Width>97</Width>
+    <Heigh>49</Heigh>
+  </CELL_SIZE>
+  <MAP_SIZE_IN_CELL>
+    <X>80</X>
+    <Y>80</Y>
+  </MAP_SIZE_IN_CELL>
+  <CURSOR_SIZE>
+    <Width>13</Width>
+    <Heigh>16</Heigh>
+  </CURSOR_SIZE>
+  <START_COORDINATE>
+    <X>2000</X>
+    <Y>2000</Y>
+  </START_COORDINATE>
+  <CURRENT_COORDINATE>
+    <X>2000</X>
+    <Y>2000</Y>
+  </CURRENT_COORDINATE>
+  
+  <Direction>
+    <Info tagName="S"  name="South" id="1" />
+    <Info tagName="ES"  name="East South" id="2" />
+    <Info tagName="E"  name="East" id="3" />
+    <Info tagName="EN"  name="East North" id="4" />
+    <Info tagName="N"  name="North" id="5" />
+    <Info tagName="WN"  name="West North" id="6" />
+    <Info tagName="W"  name="West" id="7" />
+    <Info tagName="WS"  name="West South" id="8" />
+  </Direction>
+  <SpriteType>
+    <Type name="ResourceCenter" />
+    <Type name="Structure" />
+    <Type name="Terrain" />
+    <Type name="Unit" />
+  </SpriteType>   
+</Game>

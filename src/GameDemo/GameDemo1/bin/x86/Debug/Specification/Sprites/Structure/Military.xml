@@ -12,7 +12,7 @@
     <Upgrade name="1" id="1" >
       <Info name="Stone" value="5000" />
       <Info name="Gold" value="4000" />
-      <Info name="Time" value="30"/>      
+      <Info name="Time" value="30"/>
     </Upgrade>
     <Upgrade name="2" id="2" >
       <Info name="Stone" value="10000" />
@@ -26,94 +26,96 @@
     <Unit name="Elf_swordman" upgradeId="2" />
     <Unit name="Angel" upgradeId="2" />
   </ListUnits>
-  <IDLE>
-    <S>
-		<Image name="construction"/>
-		<Image name="Military1" />
-		<Image name="Military2" />
-    </S>
-    <ES>
-    </ES>
-    <E>
-    </E>
-    <EN>
-    </EN>
-    <N>     
-    </N>
-    <WN>      
-    </WN>
-    <W></W>
-    <WS>      
-    </WS>
-  </IDLE>
-  <WALK>
-    <S>     
-    </S>
-    <ES>     
-    </ES>
-    <E>      
-    </E>
-    <EN>
-    </EN>
-    <N>      
-    </N>
-    <WN>      
-    </WN>
-    <W>
-    </W>
-    <WS>     
-    </WS>
-  </WALK>
-  <ATTACK>
-    <S>      
-    </S>
-    <ES>      
-    </ES>
-    <E></E>
-    <EN>      
-    </EN>
-    <N>      
-    </N>
-    <WN>      
-    </WN>
-    <W></W>
-    <WS>      
-    </WS>
-  </ATTACK>
-  <HIT>
-    <S>      
-    </S>
-    <ES>      
-    </ES>
-    <E>      
-    </E>
-    <EN>      
-    </EN>
-    <N>      
-    </N>
-    <WN>      
-    </WN>
-    <W></W>
-    <WS>      
-    </WS>
-  </HIT>
-  <DEAD>
-    <S>
-      <Image name="Military3" />
-    </S>
-    <ES>      
-    </ES>
-    <E>      
-    </E>
-    <EN>      
-    </EN>
-    <N>      
-    </N>
-    <WN>      
-    </WN>
-    <W>      
-    </W>
-    <WS> 
-    </WS>
-  </DEAD>
+  <Action>
+    <IDLE>
+      <S>
+        <Image name="construction"/>
+        <Image name="Military1" />
+        <Image name="Military2" />
+      </S>
+      <ES>
+      </ES>
+      <E>
+      </E>
+      <EN>
+      </EN>
+      <N>
+      </N>
+      <WN>
+      </WN>
+      <W></W>
+      <WS>
+      </WS>
+    </IDLE>
+    <WALK>
+      <S>
+      </S>
+      <ES>
+      </ES>
+      <E>
+      </E>
+      <EN>
+      </EN>
+      <N>
+      </N>
+      <WN>
+      </WN>
+      <W>
+      </W>
+      <WS>
+      </WS>
+    </WALK>
+    <ATTACK>
+      <S>
+      </S>
+      <ES>
+      </ES>
+      <E></E>
+      <EN>
+      </EN>
+      <N>
+      </N>
+      <WN>
+      </WN>
+      <W></W>
+      <WS>
+      </WS>
+    </ATTACK>
+    <HIT>
+      <S>
+      </S>
+      <ES>
+      </ES>
+      <E>
+      </E>
+      <EN>
+      </EN>
+      <N>
+      </N>
+      <WN>
+      </WN>
+      <W></W>
+      <WS>
+      </WS>
+    </HIT>
+    <DEAD>
+      <S>
+        <Image name="Military3" />
+      </S>
+      <ES>
+      </ES>
+      <E>
+      </E>
+      <EN>
+      </EN>
+      <N>
+      </N>
+      <WN>
+      </WN>
+      <W>
+      </W>
+      <WS>
+      </WS>
+    </DEAD>
+  </Action>
 </Sprite>

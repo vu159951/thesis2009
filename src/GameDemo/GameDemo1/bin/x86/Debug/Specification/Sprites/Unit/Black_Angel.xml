@@ -9,8 +9,10 @@
     <Info name="Speed" value="5" />
   </Information>
   <Requirements>
-    <Info name="Gold" value="40" />
-    <Info name="Time" value="6" />
+    <Upgrade name="1" id="1">
+      <Info name="Gold" value="40" />
+      <Info name="Time" value="6" />
+    </Upgrade>
   </Requirements>
   <Action>
     <IDLE>
