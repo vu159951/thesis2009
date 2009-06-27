@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Animal>
+  <RepresentativeImage name="Sprites\\Structure\\Animal\\Animal"/>
+  <ListUnits>
+    <Unit vame="Unicorn" />
+    <Unit vame="Phoenix" />
+    <Unit vame="Wolf" />
+  </ListUnits>
+  <Informations>
+    <MaxHealth value="500"/>
+    <Power value="0" />
+    <RadiusAttack value="0" />
+    <RadiusDetect value="0" />
+    <Speed value="0" />
+  </Informations>
+  <Requirements>
+    <Stone value="3500" />
+    <Gold value="1500" />
+  </Requirements>
+  <Time value="20"></Time>
+  
+  <IDLE>
+    <S>
+		<Image name="Sprites\\Structure\\Animal\\construction"/>
+		<Image name="Sprites\\Structure\\Animal\\Animal1"/>
+		<Image name="Sprites\\Structure\\Animal\\Animal2"/>
+    </S>
+    <ES>
+    </ES>
+    <E>
+    </E>
+    <EN>
+    </EN>
+    <N>     
+    </N>
+    <WN>      
+    </WN>
+    <W></W>
+    <WS>      
+    </WS>
+  </IDLE>
+  <WALK>
+    <S>     
+    </S>
+    <ES>     
+    </ES>
+    <E>      
+    </E>
+    <EN>
+    </EN>
+    <N>      
+    </N>
+    <WN>      
+    </WN>
+    <W>
+    </W>
+    <WS>     
+    </WS>
+  </WALK>
+  <ATTACK>
+    <S>      
+    </S>
+    <ES>      
+    </ES>
+    <E></E>
+    <EN>      
+    </EN>
+    <N>      
+    </N>
+    <WN>      
+    </WN>
+    <W></W>
+    <WS>      
+    </WS>
+  </ATTACK>
+  <HIT>
+    <S>      
+    </S>
+    <ES>      
+    </ES>
+    <E>      
+    </E>
+    <EN>      
+    </EN>
+    <N>      
+    </N>
+    <WN>      
+    </WN>
+    <W></W>
+    <WS>      
+    </WS>
+  </HIT>
+  <DEAD>
+    <S>
+      <Image name="Sprites\\Structure\\Animal\\Animal3"/>
+    </S>
+    <ES>      
+    </ES>
+    <E>      
+    </E>
+    <EN>      
+    </EN>
+    <N>      
+    </N>
+    <WN>      
+    </WN>
+    <W>      
+    </W>
+    <WS>      
+    </WS>
+  </DEAD>
+</Animal>

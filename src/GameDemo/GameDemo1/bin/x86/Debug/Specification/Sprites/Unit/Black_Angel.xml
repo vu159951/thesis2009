@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sprite name="Black_Angel" type="Unit" path="Sprites\\Unit\\Black_Angel\\">
+  <!-- Default icon image: Icon.png  -->
+  <Information>
+    <Info name="MaxHealth" value="80"/>
+    <Info name="Power" value="4" />
+    <Info name="RadiusAttack" value="30" />
+    <Info name="RadiusDetect" value="50" />
+    <Info name="Speed" value="5" />
+  </Information>
+  <Requirements>
+    <Info name="Gold" value="40" />
+    <Info name="Time" value="6" />
+  </Requirements>
+  <Action>
+    <IDLE>
+      <S>
+        <Image name="000_Black_Angel_IDLE.1.01"/>
+        <Image name="001_Black_Angel_IDLE.1.02"/>
+        <Image name="002_Black_Angel_IDLE.1.03"/>
+        <Image name="003_Black_Angel_IDLE.1.04"/>
+        <Image name="004_Black_Angel_IDLE.1.05"/>
+        <Image name="005_Black_Angel_IDLE.1.06"/>
+        <Image name="006_Black_Angel_IDLE.1.07"/>
+        <Image name="007_Black_Angel_IDLE.1.08"/>
+        <Image name="008_Black_Angel_IDLE.1.09"/>
+        <Image name="009_Black_Angel_IDLE.1.10"/>
+        <Image name="010_Black_Angel_IDLE.1.11"/>
+        <Image name="011_Black_Angel_IDLE.1.12"/>
+        <Image name="012_Black_Angel_IDLE.1.13"/>
+        <Image name="013_Black_Angel_IDLE.1.14"/>
+        <Image name="014_Black_Angel_IDLE.1.15"/>
+      </S>
+      <ES>
+        <Image name="100_Black_Angel_IDLE.2.01"/>
+        <Image name="101_Black_Angel_IDLE.2.02"/>
+        <Image name="102_Black_Angel_IDLE.2.03"/>
+        <Image name="103_Black_Angel_IDLE.2.04"/>
+        <Image name="104_Black_Angel_IDLE.2.05"/>
+        <Image name="105_Black_Angel_IDLE.2.06"/>
+        <Image name="106_Black_Angel_IDLE.2.07"/>
+        <Image name="107_Black_Angel_IDLE.2.08"/>
+        <Image name="108_Black_Angel_IDLE.2.09"/>
+        <Image name="109_Black_Angel_IDLE.2.10"/>
+        <Image name="110_Black_Angel_IDLE.2.11"/>
+        <Image name="111_Black_Angel_IDLE.2.12"/>
+        <Image name="112_Black_Angel_IDLE.2.13"/>
+        <Image name="113_Black_Angel_IDLE.2.14"/>
+        <Image name="114_Black_Angel_IDLE.2.15"/>
+      </ES>
+      <E>
+      </E>
+      <EN>
+        <Image name="200_Black_Angel_IDLE.3.01"/>
+        <Image name="201_Black_Angel_IDLE.3.02"/>
+        <Image name="202_Black_Angel_IDLE.3.03"/>
+        <Image name="203_Black_Angel_IDLE.3.04"/>
+        <Image name="204_Black_Angel_IDLE.3.05"/>
+        <Image name="205_Black_Angel_IDLE.3.06"/>
+        <Image name="206_Black_Angel_IDLE.3.07"/>
+        <Image name="207_Black_Angel_IDLE.3.08"/>
+        <Image name="208_Black_Angel_IDLE.3.09"/>
+        <Image name="209_Black_Angel_IDLE.3.10"/>
+        <Image name="210_Black_Angel_IDLE.3.11"/>
+        <Image name="211_Black_Angel_IDLE.3.12"/>
+        <Image name="212_Black_Angel_IDLE.3.13"/>
+        <Image name="213_Black_Angel_IDLE.3.14"/>
+        <Image name="214_Black_Angel_IDLE.3.15"/>
+      </EN>
+      <N>
+        <Image name="300_Black_Angel_IDLE.4.01"/>
+        <Image name="301_Black_Angel_IDLE.4.02"/>
+        <Image name="302_Black_Angel_IDLE.4.03"/>
+        <Image name="303_Black_Angel_IDLE.4.04"/>
+        <Image name="304_Black_Angel_IDLE.4.05"/>
+        <Image name="305_Black_Angel_IDLE.4.06"/>
+        <Image name="306_Black_Angel_IDLE.4.07"/>
+        <Image name="307_Black_Angel_IDLE.4.08"/>
+        <Image name="308_Black_Angel_IDLE.4.09"/>
+        <Image name="309_Black_Angel_IDLE.4.10"/>
+        <Image name="310_Black_Angel_IDLE.4.11"/>
+        <Image name="311_Black_Angel_IDLE.4.12"/>
+        <Image name="312_Black_Angel_IDLE.4.13"/>
+        <Image name="313_Black_Angel_IDLE.4.14"/>
+        <Image name="314_Black_Angel_IDLE.4.15"/>
+      </N>
+      <WN>
+        <Image name="400_Black_Angel_IDLE.5.01"/>
+        <Image name="401_Black_Angel_IDLE.5.02"/>
+        <Image name="402_Black_Angel_IDLE.5.03"/>
+        <Image name="403_Black_Angel_IDLE.5.04"/>
+        <Image name="404_Black_Angel_IDLE.5.05"/>
+        <Image name="405_Black_Angel_IDLE.5.06"/>
+        <Image name="406_Black_Angel_IDLE.5.07"/>
+        <Image name="407_Black_Angel_IDLE.5.08"/>
+        <Image name="408_Black_Angel_IDLE.5.09"/>
+        <Image name="409_Black_Angel_IDLE.5.10"/>
+        <Image name="409_Black_Angel_IDLE.5.10"/>
+        <Image name="410_Black_Angel_IDLE.5.11"/>
+        <Image name="411_Black_Angel_IDLE.5.12"/>
+        <Image name="412_Black_Angel_IDLE.5.13"/>
+        <Image name="413_Black_Angel_IDLE.5.14"/>
+        <Image name="414_Black_Angel_IDLE.5.15"/>
+      </WN>
+      <W></W>
+      <WS>
+        <Image name="500_Black_Angel_IDLE.6.01"/>
+        <Image name="501_Black_Angel_IDLE.6.02"/>
+        <Image name="502_Black_Angel_IDLE.6.03"/>
+        <Image name="503_Black_Angel_IDLE.6.04"/>
+        <Image name="504_Black_Angel_IDLE.6.05"/>
+        <Image name="505_Black_Angel_IDLE.6.06"/>
+        <Image name="506_Black_Angel_IDLE.6.07"/>
+        <Image name="507_Black_Angel_IDLE.6.08"/>
+        <Image name="508_Black_Angel_IDLE.6.09"/>
+        <Image name="509_Black_Angel_IDLE.6.10"/>
+        <Image name="510_Black_Angel_IDLE.6.11"/>
+        <Image name="511_Black_Angel_IDLE.6.12"/>
+        <Image name="512_Black_Angel_IDLE.6.13"/>
+        <Image name="513_Black_Angel_IDLE.6.14"/>
+        <Image name="514_Black_Angel_IDLE.6.15"/>
+      </WS>
+    </IDLE>
+    <MOVE>
+      <S>
+        <Image name="030_Black_Angel_FLY.1.01"/>
+        <Image name="031_Black_Angel_FLY.1.02"/>
+        <Image name="032_Black_Angel_FLY.1.03"/>
+        <Image name="033_Black_Angel_FLY.1.04"/>
+        <Image name="034_Black_Angel_FLY.1.05"/>
+        <Image name="035_Black_Angel_FLY.1.06"/>
+        <Image name="036_Black_Angel_FLY.1.07"/>
+        <Image name="037_Black_Angel_FLY.1.08"/>
+        <Image name="038_Black_Angel_FLY.1.09"/>
+        <Image name="039_Black_Angel_FLY.1.10"/>
+        <Image name="040_Black_Angel_FLY.1.11"/>
+        <Image name="041_Black_Angel_FLY.1.12"/>
+        <Image name="042_Black_Angel_FLY.1.13"/>
+        <Image name="043_Black_Angel_FLY.1.14"/>
+        <Image name="044_Black_Angel_FLY.1.15"/>
+      </S>
+      <ES>
+        <Image name="130_Black_Angel_FLY.2.01"/>
+        <Image name="131_Black_Angel_FLY.2.02"/>
+        <Image name="132_Black_Angel_FLY.2.03"/>
+        <Image name="133_Black_Angel_FLY.2.04"/>
+        <Image name="134_Black_Angel_FLY.2.05"/>
+        <Image name="135_Black_Angel_FLY.2.06"/>
+        <Image name="136_Black_Angel_FLY.2.07"/>
+        <Image name="137_Black_Angel_FLY.2.08"/>
+        <Image name="138_Black_Angel_FLY.2.09"/>
+        <Image name="139_Black_Angel_FLY.2.10"/>
+        <Image name="140_Black_Angel_FLY.2.11"/>
+        <Image name="141_Black_Angel_FLY.2.12"/>
+        <Image name="142_Black_Angel_FLY.2.13"/>
+        <Image name="143_Black_Angel_FLY.2.14"/>
+        <Image name="144_Black_Angel_FLY.2.15"/>
+      </ES>
+      <E>
+
+      </E>
+      <EN>
+        <Image name="230_Black_Angel_FLY.3.01"/>
+        <Image name="231_Black_Angel_FLY.3.02"/>
+        <Image name="232_Black_Angel_FLY.3.03"/>
+        <Image name="233_Black_Angel_FLY.3.04"/>
+        <Image name="234_Black_Angel_FLY.3.05"/>
+        <Image name="235_Black_Angel_FLY.3.06"/>
+        <Image name="236_Black_Angel_FLY.3.07"/>
+        <Image name="237_Black_Angel_FLY.3.08"/>
+        <Image name="238_Black_Angel_FLY.3.09"/>
+        <Image name="239_Black_Angel_FLY.3.10"/>
+        <Image name="240_Black_Angel_FLY.3.11"/>
+        <Image name="241_Black_Angel_FLY.3.12"/>
+        <Image name="242_Black_Angel_FLY.3.13"/>
+        <Image name="243_Black_Angel_FLY.3.14"/>
+        <Image name="244_Black_Angel_FLY.3.15"/>
+      </EN>
+      <N>
+        <Image name="330_Black_Angel_FLY.4.01"/>
+        <Image name="331_Black_Angel_FLY.4.02"/>
+        <Image name="332_Black_Angel_FLY.4.03"/>
+        <Image name="333_Black_Angel_FLY.4.04"/>
+        <Image name="334_Black_Angel_FLY.4.05"/>
+        <Image name="335_Black_Angel_FLY.4.06"/>
+        <Image name="336_Black_Angel_FLY.4.07"/>
+        <Image name="337_Black_Angel_FLY.4.08"/>
+        <Image name="338_Black_Angel_FLY.4.09"/>
+        <Image name="339_Black_Angel_FLY.4.10"/>
+        <Image name="340_Black_Angel_FLY.4.11"/>
+        <Image name="341_Black_Angel_FLY.4.12"/>
+        <Image name="342_Black_Angel_FLY.4.13"/>
+        <Image name="343_Black_Angel_FLY.4.14"/>
+        <Image name="344_Black_Angel_FLY.4.15"/>
+      </N>
+      <WN>
+        <Image name="430_Black_Angel_FLY.5.01"/>
+        <Image name="431_Black_Angel_FLY.5.02"/>
+        <Image name="432_Black_Angel_FLY.5.03"/>
+        <Image name="433_Black_Angel_FLY.5.04"/>
+        <Image name="434_Black_Angel_FLY.5.05"/>
+        <Image name="435_Black_Angel_FLY.5.06"/>
+        <Image name="436_Black_Angel_FLY.5.07"/>
+        <Image name="437_Black_Angel_FLY.5.08"/>
+        <Image name="438_Black_Angel_FLY.5.09"/>
+        <Image name="439_Black_Angel_FLY.5.10"/>
+        <Image name="440_Black_Angel_FLY.5.11"/>
+        <Image name="441_Black_Angel_FLY.5.12"/>
+        <Image name="442_Black_Angel_FLY.5.13"/>
+        <Image name="443_Black_Angel_FLY.5.14"/>
+        <Image name="444_Black_Angel_FLY.5.15"/>
+      </WN>
+      <W>
+      </W>
+      <WS>
+        <Image name="530_Black_Angel_FLY.6.01"/>
+        <Image name="531_Black_Angel_FLY.6.02"/>
+        <Image name="532_Black_Angel_FLY.6.03"/>
+        <Image name="533_Black_Angel_FLY.6.04"/>
+        <Image name="534_Black_Angel_FLY.6.05"/>
+        <Image name="535_Black_Angel_FLY.6.06"/>
+        <Image name="536_Black_Angel_FLY.6.07"/>
+        <Image name="537_Black_Angel_FLY.6.08"/>
+        <Image name="538_Black_Angel_FLY.6.09"/>
+        <Image name="539_Black_Angel_FLY.6.10"/>
+        <Image name="540_Black_Angel_FLY.6.11"/>
+        <Image name="541_Black_Angel_FLY.6.12"/>
+        <Image name="542_Black_Angel_FLY.6.13"/>
+        <Image name="543_Black_Angel_FLY.6.14"/>
+        <Image name="544_Black_Angel_FLY.6.15"/>
+      </WS>
+    </MOVE>
+    <ATTACK>
+      <S>
+        <Image name="060_Black_Angel_ATTACK.1.01"/>
+        <Image name="061_Black_Angel_ATTACK.1.02"/>
+        <Image name="062_Black_Angel_ATTACK.1.03"/>
+        <Image name="063_Black_Angel_ATTACK.1.04"/>
+        <Image name="064_Black_Angel_ATTACK.1.05"/>
+        <Image name="065_Black_Angel_ATTACK.1.06"/>
+        <Image name="066_Black_Angel_ATTACK.1.07"/>
+        <Image name="067_Black_Angel_ATTACK.1.08"/>
+      </S>
+      <ES>
+        <Image name="160_Black_Angel_ATTACK.2.01"/>
+        <Image name="161_Black_Angel_ATTACK.2.02"/>
+        <Image name="162_Black_Angel_ATTACK.2.03"/>
+        <Image name="163_Black_Angel_ATTACK.2.04"/>
+        <Image name="164_Black_Angel_ATTACK.2.05"/>
+        <Image name="165_Black_Angel_ATTACK.2.06"/>
+        <Image name="166_Black_Angel_ATTACK.2.07"/>
+        <Image name="167_Black_Angel_ATTACK.2.08"/>
+      </ES>
+      <E></E>
+      <EN>
+        <Image name="260_Black_Angel_ATTACK.3.01"/>
+        <Image name="261_Black_Angel_ATTACK.3.02"/>
+        <Image name="262_Black_Angel_ATTACK.3.03"/>
+        <Image name="263_Black_Angel_ATTACK.3.04"/>
+        <Image name="264_Black_Angel_ATTACK.3.05"/>
+        <Image name="265_Black_Angel_ATTACK.3.06"/>
+        <Image name="266_Black_Angel_ATTACK.3.07"/>
+        <Image name="267_Black_Angel_ATTACK.3.08"/>
+      </EN>
+      <N>
+        <Image name="360_Black_Angel_ATTACK.4.01"/>
+        <Image name="361_Black_Angel_ATTACK.4.02"/>
+        <Image name="362_Black_Angel_ATTACK.4.03"/>
+        <Image name="363_Black_Angel_ATTACK.4.04"/>
+        <Image name="364_Black_Angel_ATTACK.4.05"/>
+        <Image name="365_Black_Angel_ATTACK.4.06"/>
+        <Image name="366_Black_Angel_ATTACK.4.07"/>
+        <Image name="367_Black_Angel_ATTACK.4.08"/>
+      </N>
+      <WN>
+        <Image name="460_Black_Angel_ATTACK.5.01"/>
+        <Image name="461_Black_Angel_ATTACK.5.02"/>
+        <Image name="462_Black_Angel_ATTACK.5.03"/>
+        <Image name="463_Black_Angel_ATTACK.5.04"/>
+        <Image name="464_Black_Angel_ATTACK.5.05"/>
+        <Image name="465_Black_Angel_ATTACK.5.06"/>
+        <Image name="466_Black_Angel_ATTACK.5.07"/>
+        <Image name="467_Black_Angel_ATTACK.5.08"/>
+      </WN>
+      <W></W>
+      <WS>
+        <Image name="560_Black_Angel_ATTACK.6.01"/>
+        <Image name="561_Black_Angel_ATTACK.6.02"/>
+        <Image name="562_Black_Angel_ATTACK.6.03"/>
+        <Image name="563_Black_Angel_ATTACK.6.04"/>
+        <Image name="564_Black_Angel_ATTACK.6.05"/>
+        <Image name="565_Black_Angel_ATTACK.6.06"/>
+        <Image name="566_Black_Angel_ATTACK.6.07"/>
+        <Image name="567_Black_Angel_ATTACK.6.08"/>
+      </WS>
+    </ATTACK>
+    <HIT>
+      <S>
+        <Image name="070_Black_Angel_HIT.1.01"/>
+        <Image name="071_Black_Angel_HIT.1.02"/>
+        <Image name="072_Black_Angel_HIT.1.03"/>
+        <Image name="073_Black_Angel_HIT.1.04"/>
+        <Image name="074_Black_Angel_HIT.1.05"/>
+        <Image name="075_Black_Angel_HIT.1.06"/>
+        <Image name="076_Black_Angel_HIT.1.07"/>
+        <Image name="077_Black_Angel_HIT.1.08"/>
+      </S>
+      <ES>
+        <Image name="170_Black_Angel_HIT.2.01"/>
+        <Image name="171_Black_Angel_HIT.2.02"/>
+        <Image name="172_Black_Angel_HIT.2.03"/>
+        <Image name="173_Black_Angel_HIT.2.04"/>
+        <Image name="174_Black_Angel_HIT.2.05"/>
+        <Image name="175_Black_Angel_HIT.2.06"/>
+        <Image name="176_Black_Angel_HIT.2.07"/>
+        <Image name="177_Black_Angel_HIT.2.08"/>
+      </ES>
+      <E>
+
+      </E>
+      <EN>
+        <Image name="270_Black_Angel_HIT.3.01"/>
+        <Image name="271_Black_Angel_HIT.3.02"/>
+        <Image name="272_Black_Angel_HIT.3.03"/>
+        <Image name="273_Black_Angel_HIT.3.04"/>
+        <Image name="274_Black_Angel_HIT.3.05"/>
+        <Image name="275_Black_Angel_HIT.3.06"/>
+        <Image name="276_Black_Angel_HIT.3.07"/>
+        <Image name="277_Black_Angel_HIT.3.08"/>
+      </EN>
+      <N>
+        <Image name="370_Black_Angel_HIT.4.01"/>
+        <Image name="371_Black_Angel_HIT.4.02"/>
+        <Image name="372_Black_Angel_HIT.4.03"/>
+        <Image name="373_Black_Angel_HIT.4.04"/>
+        <Image name="374_Black_Angel_HIT.4.05"/>
+        <Image name="375_Black_Angel_HIT.4.06"/>
+        <Image name="376_Black_Angel_HIT.4.07"/>
+        <Image name="377_Black_Angel_HIT.4.08"/>
+      </N>
+      <WN>
+        <Image name="470_Black_Angel_HIT.5.01"/>
+        <Image name="471_Black_Angel_HIT.5.02"/>
+        <Image name="472_Black_Angel_HIT.5.03"/>
+        <Image name="473_Black_Angel_HIT.5.04"/>
+        <Image name="474_Black_Angel_HIT.5.05"/>
+        <Image name="475_Black_Angel_HIT.5.06"/>
+        <Image name="476_Black_Angel_HIT.5.07"/>
+        <Image name="477_Black_Angel_HIT.5.08"/>
+      </WN>
+      <W></W>
+      <WS>
+        <Image name="570_Black_Angel_HIT.6.01"/>
+        <Image name="571_Black_Angel_HIT.6.02"/>
+        <Image name="572_Black_Angel_HIT.6.03"/>
+        <Image name="573_Black_Angel_HIT.6.04"/>
+        <Image name="574_Black_Angel_HIT.6.05"/>
+        <Image name="575_Black_Angel_HIT.6.06"/>
+        <Image name="576_Black_Angel_HIT.6.07"/>
+        <Image name="577_Black_Angel_HIT.6.08"/>
+      </WS>
+    </HIT>
+    <DEAD>
+      <S>
+        <Image name="080_Black_Angel_DEAD.1.01"/>
+        <Image name="081_Black_Angel_DEAD.1.02"/>
+        <Image name="082_Black_Angel_DEAD.1.03"/>
+        <Image name="083_Black_Angel_DEAD.1.04"/>
+        <Image name="084_Black_Angel_DEAD.1.05"/>
+        <Image name="085_Black_Angel_DEAD.1.06"/>
+        <Image name="086_Black_Angel_DEAD.1.07"/>
+        <Image name="087_Black_Angel_DEAD.1.08"/>
+        <Image name="088_Black_Angel_DEAD.1.09"/>
+        <Image name="089_Black_Angel_DEAD.1.10"/>
+      </S>
+      <ES>
+        <Image name="180_Black_Angel_DEAD.2.01"/>
+        <Image name="181_Black_Angel_DEAD.2.02"/>
+        <Image name="182_Black_Angel_DEAD.2.03"/>
+        <Image name="183_Black_Angel_DEAD.2.04"/>
+        <Image name="184_Black_Angel_DEAD.2.05"/>
+        <Image name="185_Black_Angel_DEAD.2.06"/>
+        <Image name="186_Black_Angel_DEAD.2.07"/>
+        <Image name="187_Black_Angel_DEAD.2.08"/>
+        <Image name="188_Black_Angel_DEAD.2.09"/>
+        <Image name="189_Black_Angel_DEAD.2.10"/>
+      </ES>
+      <E>
+
+      </E>
+      <EN>
+        <Image name="280_Black_Angel_DEAD.3.01"/>
+        <Image name="281_Black_Angel_DEAD.3.02"/>
+        <Image name="282_Black_Angel_DEAD.3.03"/>
+        <Image name="283_Black_Angel_DEAD.3.04"/>
+        <Image name="284_Black_Angel_DEAD.3.05"/>
+        <Image name="285_Black_Angel_DEAD.3.06"/>
+        <Image name="286_Black_Angel_DEAD.3.07"/>
+        <Image name="287_Black_Angel_DEAD.3.08"/>
+        <Image name="288_Black_Angel_DEAD.3.09"/>
+        <Image name="289_Black_Angel_DEAD.3.10"/>
+      </EN>
+      <N>
+        <Image name="380_Black_Angel_DEAD.4.01"/>
+        <Image name="381_Black_Angel_DEAD.4.02"/>
+        <Image name="382_Black_Angel_DEAD.4.03"/>
+        <Image name="383_Black_Angel_DEAD.4.04"/>
+        <Image name="384_Black_Angel_DEAD.4.05"/>
+        <Image name="385_Black_Angel_DEAD.4.06"/>
+        <Image name="386_Black_Angel_DEAD.4.07"/>
+        <Image name="387_Black_Angel_DEAD.4.08"/>
+        <Image name="388_Black_Angel_DEAD.4.09"/>
+        <Image name="389_Black_Angel_DEAD.4.10"/>
+      </N>
+      <WN>
+        <Image name="480_Black_Angel_DEAD.5.01"/>
+        <Image name="481_Black_Angel_DEAD.5.02"/>
+        <Image name="482_Black_Angel_DEAD.5.03"/>
+        <Image name="483_Black_Angel_DEAD.5.04"/>
+        <Image name="484_Black_Angel_DEAD.5.05"/>
+        <Image name="485_Black_Angel_DEAD.5.06"/>
+        <Image name="486_Black_Angel_DEAD.5.07"/>
+        <Image name="487_Black_Angel_DEAD.5.08"/>
+        <Image name="488_Black_Angel_DEAD.5.09"/>
+        <Image name="489_Black_Angel_DEAD.5.10"/>
+      </WN>
+      <W>
+
+      </W>
+      <WS>
+        <Image name="580_Black_Angel_DEAD.6.01"/>
+        <Image name="581_Black_Angel_DEAD.6.02"/>
+        <Image name="582_Black_Angel_DEAD.6.03"/>
+        <Image name="583_Black_Angel_DEAD.6.04"/>
+        <Image name="584_Black_Angel_DEAD.6.05"/>
+        <Image name="585_Black_Angel_DEAD.6.06"/>
+        <Image name="586_Black_Angel_DEAD.6.07"/>
+        <Image name="587_Black_Angel_DEAD.6.08"/>
+        <Image name="588_Black_Angel_DEAD.6.09"/>
+        <Image name="589_Black_Angel_DEAD.6.10"/>
+      </WS>
+    </DEAD>
+  </Action>
+</Sprite>
