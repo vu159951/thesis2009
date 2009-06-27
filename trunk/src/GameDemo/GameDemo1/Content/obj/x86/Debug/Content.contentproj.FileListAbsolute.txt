@@ -1,0 +1,25 @@
+C:\Documents and Settings\kesfaw\My Documents\Visual Studio 2008\Projects\GameDemo1\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\kesfaw\Desktop\GameDemo1\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\It Learning\On School\Hoc ki 2 nam 4\Luan Van\Khac Huy\GameDemo1\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ThaiBao\Desktop\GameDemo1\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ThaiBao\Desktop\GameDemo1 v2\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ThaiBao\Desktop\GameDemo1 v3\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\kesfaw\Desktop\GameDemo1 v3\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ThaiBao\Desktop\GameDemo1 v3\GameDemo1 v3\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ThaiBao\Desktop\GameDemo1 v5\GameDemo1 v3\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ThaiBao\Desktop\GameDemo1 v6\GameDemo1 v3\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\My Documents\Downloads\GameDemo1 v7\GameDemo1 v3\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\My Documents\Downloads\GameDemo1 v8\GameDemo1 v3\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ThaiBao\Desktop\GameDemo1 v9\GameDemo1 v3\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ThaiBao\Desktop\GameDemo1 v10\GameDemo1 v3\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\GameDemo1 v10\GameDemo1 v3\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\GameDemo1 v11\GameDemo1 v3\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\New Folder\src\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Game demo\src\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ThaiBao\Desktop\New Folder\src\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ThaiBao\Desktop\codding\src\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\coding\src\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\New Folder (2)\src\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\My Thesis\SourceCode\src\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\My Thesis\SourceCode\src\GameDemo\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+\\192.168.1.3\GameDemo\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
