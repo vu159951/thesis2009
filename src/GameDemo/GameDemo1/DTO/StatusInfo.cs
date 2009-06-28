@@ -7,9 +7,21 @@ namespace GameDemo1.DTO
 {
     public class StatusInfo
     {
-        List<DirectionInfo> _directionInfo;
+        private Dictionary<String,DirectionInfo> _directionInfo;
+        private int _id;
+        private string _name;
 
-        internal List<DirectionInfo> DirectionInfo
+        public int Id
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
+        public string Name
+        {
+            get { return _name; }
+            set { _name = value; }
+        }
+        internal Dictionary<String,DirectionInfo> DirectionInfo
         {
             get { return _directionInfo; }
             set { _directionInfo = value; }
@@ -17,7 +29,13 @@ namespace GameDemo1.DTO
 
         public StatusInfo()
         {
-            this._directionInfo = new List<DirectionInfo>();
+            this._directionInfo = new Dictionary<string, DirectionInfo>();
+        }
+        public StatusInfo(int id, string name)
+        {
+            this._directionInfo = new Dictionary<string, DirectionInfo>();
+            this._id = id;
+            this._name = name;
         }
     }
 }

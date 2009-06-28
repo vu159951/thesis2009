@@ -26,7 +26,7 @@ namespace GameDemo1.DTO
         {
             this._information = new List<ItemInfo>();
             this._upgrades = new List<UpgradeInfo>();
-            this._action = new List<StatusInfo>();
+            this._action = new Dictionary<string,StatusInfo>();
         }
     }
 }

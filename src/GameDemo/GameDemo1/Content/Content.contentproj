@@ -9597,8 +9597,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Sprites\Structure\TownHall\TownHall.png">
-      <Name>TownHall</Name>
+    <Compile Include="Sprites\Structure\TownHall\Icon.png">
+      <Name>Icon</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
@@ -11275,8 +11275,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Sprites\Unit\Black_Angel\Black_Angel.png">
-      <Name>Black_Angel</Name>
+    <Compile Include="Sprites\Unit\Black_Angel\Icon.png">
+      <Name>Icon</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>

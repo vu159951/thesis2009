@@ -5,11 +5,18 @@ using System.Text;
 
 namespace GameDemo1.DTO
 {
-    class UpgradeInfo
+    public class UpgradeInfo
     {
-        private List<ItemInfo> _requirements;
+        private Dictionary<String,ItemInfo> _requirements;
+        private string _name;
 
-        internal List<ItemInfo> Requirements
+        public string Name
+        {
+            get { return _name; }
+            set { _name = value; }
+        }
+
+        public Dictionary<String,ItemInfo> Requirements
         {
             get { return _requirements; }
             set { _requirements = value; }
@@ -17,7 +24,7 @@ namespace GameDemo1.DTO
 
         public UpgradeInfo()
         {
-            this._requirements = new List<ItemInfo>();
+            this._requirements = new Dictionary<string, ItemInfo>();
         }
     }
 }

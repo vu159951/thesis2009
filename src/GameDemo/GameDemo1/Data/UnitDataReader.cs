@@ -46,14 +46,13 @@ namespace GameDemo1.Data
                 UpgradeInfo upgrade = new UpgradeInfo();
                 for (int j = 0; j < temp1.ChildNodes.Count; j++)
                 {
-                    upgrade.Requirements.Add(new ItemInfo(temp1.ChildNodes[j].Attributes["name"].Value, temp1.ChildNodes[j].Attributes["value"].Value));
+                    upgrade.Requirements.Add(temp1.ChildNodes[j].Attributes["name"].Value, new ItemInfo(temp1.ChildNodes[j].Attributes["name"].Value, temp1.ChildNodes[j].Attributes["value"].Value));
                 }
                 unitDTO.Upgrades.Add(upgrade);
             }
 
             // action
             XmlNode nodeAction = xmlDoc.SelectSingleNode("//Action");
-            Game game = new Game();
             for (int i = 0; i < nodeAction.ChildNodes.Count; i++)
             {
                 XmlNode temp1 = nodeAction.ChildNodes[i];
@@ -64,12 +63,21 @@ namespace GameDemo1.Data
                     DirectionInfo directioninfo = new DirectionInfo();
                     for (int m = 0; m < temp2.ChildNodes.Count; m++)
                     {
-                        directioninfo.Image.Add(game.Content.Load<Texture2D>(temp2.ChildNodes[m].Attributes["name"].Value));
+                        directioninfo.Image.Add(GlobalDTO.GAME.Content.Load<Texture2D>(xmlDoc.SelectSingleNode("//Sprite").Attributes["path"].Value + temp2.ChildNodes[m].Attributes["name"].Value));
                     }
-                    statusinfo.DirectionInfo.Add(directioninfo);
+                    directioninfo.Name = temp2.Name;
+                    this.GetIdForDirection(directioninfo, directioninfo.Name);
+                    statusinfo.DirectionInfo.Add(directioninfo.Name, directioninfo);
                 }
-                unitDTO.Action.Add(statusinfo);
+                statusinfo.Name = temp1.Name;
+                this.GetIdForAction(statusinfo, statusinfo.Name);
+                unitDTO.Action.Add(statusinfo.Name, statusinfo);
             }
+
+            // icon 
+            XmlNode icon = xmlDoc.SelectSingleNode("//Sprite");
+            String path = System.IO.Path.GetFullPath(icon.Attributes["path"].Value).TrimEnd('\\') + "\\";
+            unitDTO.Icon = GlobalDTO.GAME.Content.Load<Texture2D>(path + "Icon");
 
             return unitDTO;
         }

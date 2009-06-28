@@ -31,11 +31,11 @@ namespace GameDemo1.Data
             structureInfo.Name = xmlDoc.SelectSingleNode("//Sprite").Attributes["name"].Value;
 
             // information
-            XmlNode nodeinfo = xmlDoc.SelectSingleNode("//Information");
+            XmlNode nodeinfo = xmlDoc.SelectSingleNode("//Informations");
             for (int i = 0; i < nodeinfo.ChildNodes.Count; i++)
             {
                 ItemInfo info = new ItemInfo(nodeinfo.ChildNodes[i].Attributes["name"].Value, nodeinfo.ChildNodes[i].Attributes["value"].Value);
-                structureInfo.InformationList.Add(info);
+                structureInfo.InformationList.Add(info.Name, info);
             }
 
             // upgrades 
@@ -46,9 +46,9 @@ namespace GameDemo1.Data
                 UpgradeInfo upgrade = new UpgradeInfo();
                 for (int j = 0; j < temp1.ChildNodes.Count; j++)
                 {
-                    upgrade.Requirements.Add(new ItemInfo(temp1.ChildNodes[j].Attributes["name"].Value, temp1.ChildNodes[j].Attributes["value"].Value));
+                    upgrade.Requirements.Add(temp1.ChildNodes[j].Attributes["name"].Value, new ItemInfo(temp1.ChildNodes[j].Attributes["name"].Value, temp1.ChildNodes[j].Attributes["value"].Value));
                 }
-                structureInfo.UpgradeList.Add(upgrade);
+                structureInfo.UpgradeList.Add(int.Parse(temp1.Attributes["id"].Value), upgrade);
             }
 
             // list unit
@@ -61,8 +61,7 @@ namespace GameDemo1.Data
 
 
             // action
-            XmlNode nodeAction = xmlDoc.SelectSingleNode("//Action");
-            Game game = new Game();
+            XmlNode nodeAction = xmlDoc.SelectSingleNode("//Action");            
             for (int i = 0; i < nodeAction.ChildNodes.Count; i++)
             {
                 XmlNode temp1 = nodeAction.ChildNodes[i];
@@ -73,13 +72,21 @@ namespace GameDemo1.Data
                     DirectionInfo directioninfo = new DirectionInfo();
                     for (int m = 0; m < temp2.ChildNodes.Count; m++)
                     {
-                        directioninfo.Image.Add(game.Content.Load<Texture2D>(temp2.ChildNodes[m].Attributes["name"].Value));
+                        directioninfo.Image.Add(GlobalDTO.GAME.Content.Load<Texture2D>(xmlDoc.SelectSingleNode("//Sprite").Attributes["path"].Value + temp2.ChildNodes[m].Attributes["name"].Value));
                     }
-                    statusinfo.DirectionInfo.Add(directioninfo);
+                    directioninfo.Name = temp2.Name;
+                    this.GetIdForDirection(directioninfo, directioninfo.Name);
+                    statusinfo.DirectionInfo.Add(directioninfo.Name, directioninfo);
                 }
-                structureInfo.Action.Add(statusinfo);
+                statusinfo.Name = temp1.Name;
+                this.GetIdForAction(statusinfo,statusinfo.Name);
+                structureInfo.Action.Add(statusinfo.Name, statusinfo);
             }
 
+            // icon 
+            XmlNode icon = xmlDoc.SelectSingleNode("//Sprite");
+            String path = icon.Attributes["path"].Value;
+            structureInfo.Icon = GlobalDTO.GAME.Content.Load<Texture2D>(path + "Icon");
             return structureInfo;
         }
 

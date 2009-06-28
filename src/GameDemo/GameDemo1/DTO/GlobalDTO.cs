@@ -5,11 +5,15 @@ using System.Text;
 using GameDemo1.DTO;
 using System.Drawing;
 using Microsoft.Xna.Framework;
+using GameDemo1.Data;
 
 namespace GameDemo1.DTO
 {
     public class GlobalDTO
     {
+        public static MainGame GAME;
+        public static StructureDataReader STRUCTURE_DATA_READER = new StructureDataReader();
+        
         /// <summary>
         /// Size of a map cell in pixel.
         /// </summary>
