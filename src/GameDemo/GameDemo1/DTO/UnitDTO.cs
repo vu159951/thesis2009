@@ -7,25 +7,27 @@ using System.Xml;
 namespace GameDemo1.DTO
 {
     public class UnitDTO: SpriteDTO
-    {        
-        internal List<ItemInfo> Information
+    {
+        private Dictionary<String,ItemInfo> _informationList;
+        private Dictionary<int,UpgradeInfo> _upgrades;
+
+        internal Dictionary<String, ItemInfo> InformationList
         {
-            get { return _information; }
-            set { _information = value; }
+            get { return _informationList; }
+            set { _informationList = value; }
         }
-        internal List<UpgradeInfo> Upgrades
+        internal Dictionary<int, UpgradeInfo> Upgrades
         {
             get { return _upgrades; }
             set { _upgrades = value; }
         }
 
-        private List<ItemInfo> _information;
-        private List<UpgradeInfo> _upgrades;        
+                
 
         public UnitDTO()
         {
-            this._information = new List<ItemInfo>();
-            this._upgrades = new List<UpgradeInfo>();
+            this._informationList = new Dictionary<string,ItemInfo>();
+            this._upgrades = new Dictionary<int, UpgradeInfo>();
             this._action = new Dictionary<string,StatusInfo>();
         }
     }

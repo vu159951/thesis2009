@@ -35,7 +35,7 @@ namespace GameDemo1.Data
             for (int i = 0; i < nodeinfo.ChildNodes.Count; i++)
             {
                 ItemInfo info = new ItemInfo(nodeinfo.ChildNodes[i].Attributes["name"].Value, nodeinfo.ChildNodes[i].Attributes["value"].Value);
-                unitDTO.Information.Add(info);
+                unitDTO.InformationList.Add(info.Name, info);
             }
 
             // upgrades 
@@ -48,7 +48,9 @@ namespace GameDemo1.Data
                 {
                     upgrade.Requirements.Add(temp1.ChildNodes[j].Attributes["name"].Value, new ItemInfo(temp1.ChildNodes[j].Attributes["name"].Value, temp1.ChildNodes[j].Attributes["value"].Value));
                 }
-                unitDTO.Upgrades.Add(upgrade);
+                upgrade.Id = int.Parse(temp1.Attributes["id"].Value);
+                upgrade.Name = temp1.Attributes["name"].Value;
+                unitDTO.Upgrades.Add(upgrade.Id, upgrade);
             }
 
             // action
@@ -76,7 +78,7 @@ namespace GameDemo1.Data
 
             // icon 
             XmlNode icon = xmlDoc.SelectSingleNode("//Sprite");
-            String path = System.IO.Path.GetFullPath(icon.Attributes["path"].Value).TrimEnd('\\') + "\\";
+            String path = icon.Attributes["path"].Value;
             unitDTO.Icon = GlobalDTO.GAME.Content.Load<Texture2D>(path + "Icon");
 
             return unitDTO;

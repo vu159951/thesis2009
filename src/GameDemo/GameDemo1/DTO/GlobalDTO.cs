@@ -13,6 +13,7 @@ namespace GameDemo1.DTO
     {
         public static MainGame GAME;
         public static StructureDataReader STRUCTURE_DATA_READER = new StructureDataReader();
+        public static UnitDataReader UNIT_DATA_READER = new UnitDataReader();
         
         /// <summary>
         /// Size of a map cell in pixel.
