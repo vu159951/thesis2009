@@ -92,10 +92,11 @@
     <Compile Include="AudioGame.cs" />
     <Compile Include="Components\Black_Angel.cs" />
     <Compile Include="Components\CursorGame.cs" />
+    <Compile Include="Components\Particle.cs" />
     <Compile Include="Components\ProducerUnit.cs" />
     <Compile Include="Components\RhombusMap.cs" />
     <Compile Include="Components\Map.cs" />
-    <Compile Include="Components\StructureManager.cs" />
+    <Compile Include="Factory\StructureManager.cs" />
     <Compile Include="Components\TownHall.cs" />
     <Compile Include="Components\Unit.cs" />
     <Compile Include="Components\ResourceCenter.cs" />
