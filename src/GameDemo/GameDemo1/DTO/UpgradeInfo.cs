@@ -9,7 +9,13 @@ namespace GameDemo1.DTO
     {
         private Dictionary<String,ItemInfo> _requirements;
         private string _name;
+        private int _id;
 
+        public int Id
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
         public string Name
         {
             get { return _name; }
