@@ -48,7 +48,9 @@ namespace GameDemo1.Data
                 {
                     upgrade.Requirements.Add(temp1.ChildNodes[j].Attributes["name"].Value, new ItemInfo(temp1.ChildNodes[j].Attributes["name"].Value, temp1.ChildNodes[j].Attributes["value"].Value));
                 }
-                structureInfo.UpgradeList.Add(int.Parse(temp1.Attributes["id"].Value), upgrade);
+                upgrade.Name = temp1.Attributes["name"].Value;
+                upgrade.Id = int.Parse(temp1.Attributes["id"].Value);
+                structureInfo.UpgradeList.Add(upgrade.Id, upgrade);
             }
 
             // list unit

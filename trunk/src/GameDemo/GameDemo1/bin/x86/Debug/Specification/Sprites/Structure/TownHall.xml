@@ -12,12 +12,12 @@
     <Upgrade name="1" id="1" >
       <Info name="Stone" value="5000" />
       <Info name="Gold" value="4000" />
-      <Info name="Time" value="30"/>
+      <Info name="Time" value="6"/>
     </Upgrade>
     <Upgrade name="2" id="2" >
       <Info name="Stone" value="10000" />
       <Info name="Gold" value="8000" />
-      <Info name="Time" value="45"/>
+      <Info name="Time" value="10"/>
     </Upgrade>
   </Requirements>
   <ListUnits>
