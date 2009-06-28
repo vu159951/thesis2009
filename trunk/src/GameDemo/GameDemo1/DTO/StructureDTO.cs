@@ -6,9 +6,9 @@ using System.Text;
 namespace GameDemo1.DTO
 {
     public class StructureDTO: SpriteDTO
-    {        
-        private List<ItemInfo> _informationList;
-        private List<UpgradeInfo> _upgradeList;
+    {
+        private Dictionary<String, ItemInfo> _informationList;
+        private Dictionary<int, UpgradeInfo> _upgradeList;
         private List<ItemInfo> _unitList;
 
         public List<ItemInfo> UnitList
@@ -16,12 +16,12 @@ namespace GameDemo1.DTO
             get { return _unitList; }
             set { _unitList = value; }
         }
-        internal List<UpgradeInfo> UpgradeList
+        public Dictionary<int,UpgradeInfo> UpgradeList
         {
             get { return _upgradeList; }
             set { _upgradeList = value; }
         }
-        internal List<ItemInfo> InformationList
+        public Dictionary<String,ItemInfo> InformationList
         {
             get { return _informationList; }
             set { _informationList = value; }
@@ -29,9 +29,10 @@ namespace GameDemo1.DTO
 
         public StructureDTO()
         {
-            this._informationList = new List<ItemInfo>();
-            this._upgradeList = new List<UpgradeInfo>();
-            
+            this._informationList = new Dictionary<string, ItemInfo>();
+            this._upgradeList = new Dictionary<int, UpgradeInfo>();
+            this._unitList = new List<ItemInfo>();
+            this._action = new Dictionary<string, StatusInfo>();
         }
     }
 }

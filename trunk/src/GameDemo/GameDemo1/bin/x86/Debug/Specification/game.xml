@@ -51,7 +51,15 @@
     <X>2000</X>
     <Y>2000</Y>
   </CURRENT_COORDINATE>
-  
+
+  <Action>
+    <Info tagName="IDLE"  name="IDLE" id="1" />
+    <Info tagName="DEAD"  name="DEAD" id="2" />
+    <Info tagName="MOVE"  name="MOVE" id="3" />
+    <Info tagName="ATTACK"  name="ATTACK" id="4" />
+    <Info tagName="HIT"  name="HIT" id="5" />
+    <Info tagName="EXPLOIT"  name="EXPLOIT" id="6" />
+  </Action>
   <Direction>
     <Info tagName="S"  name="South" id="1" />
     <Info tagName="ES"  name="East South" id="2" />

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
+using GameDemo1.DTO;
 
 namespace GameDemo1.Components
 {
@@ -14,8 +15,7 @@ namespace GameDemo1.Components
         // =====================================================================================================
         public Black_Angel(MainGame game)
             :base(game)
-        {
-        
+        {        
         }
         
         /// <summary>
