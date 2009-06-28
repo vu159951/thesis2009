@@ -372,8 +372,6 @@
         <Image name="085_Black_Angel_DEAD.1.06"/>
         <Image name="086_Black_Angel_DEAD.1.07"/>
         <Image name="087_Black_Angel_DEAD.1.08"/>
-        <Image name="088_Black_Angel_DEAD.1.09"/>
-        <Image name="089_Black_Angel_DEAD.1.10"/>
       </S>
       <ES>
         <Image name="180_Black_Angel_DEAD.2.01"/>
@@ -384,8 +382,6 @@
         <Image name="185_Black_Angel_DEAD.2.06"/>
         <Image name="186_Black_Angel_DEAD.2.07"/>
         <Image name="187_Black_Angel_DEAD.2.08"/>
-        <Image name="188_Black_Angel_DEAD.2.09"/>
-        <Image name="189_Black_Angel_DEAD.2.10"/>
       </ES>
       <E>
 
@@ -399,8 +395,6 @@
         <Image name="285_Black_Angel_DEAD.3.06"/>
         <Image name="286_Black_Angel_DEAD.3.07"/>
         <Image name="287_Black_Angel_DEAD.3.08"/>
-        <Image name="288_Black_Angel_DEAD.3.09"/>
-        <Image name="289_Black_Angel_DEAD.3.10"/>
       </EN>
       <N>
         <Image name="380_Black_Angel_DEAD.4.01"/>
@@ -411,8 +405,6 @@
         <Image name="385_Black_Angel_DEAD.4.06"/>
         <Image name="386_Black_Angel_DEAD.4.07"/>
         <Image name="387_Black_Angel_DEAD.4.08"/>
-        <Image name="388_Black_Angel_DEAD.4.09"/>
-        <Image name="389_Black_Angel_DEAD.4.10"/>
       </N>
       <WN>
         <Image name="480_Black_Angel_DEAD.5.01"/>
@@ -423,8 +415,6 @@
         <Image name="485_Black_Angel_DEAD.5.06"/>
         <Image name="486_Black_Angel_DEAD.5.07"/>
         <Image name="487_Black_Angel_DEAD.5.08"/>
-        <Image name="488_Black_Angel_DEAD.5.09"/>
-        <Image name="489_Black_Angel_DEAD.5.10"/>
       </WN>
       <W>
 
@@ -438,8 +428,6 @@
         <Image name="585_Black_Angel_DEAD.6.06"/>
         <Image name="586_Black_Angel_DEAD.6.07"/>
         <Image name="587_Black_Angel_DEAD.6.08"/>
-        <Image name="588_Black_Angel_DEAD.6.09"/>
-        <Image name="589_Black_Angel_DEAD.6.10"/>
       </WS>
     </DEAD>
   </Action>

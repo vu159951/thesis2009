@@ -16,6 +16,20 @@ namespace GameDemo1.Components
         public Black_Angel(MainGame game)
             :base(game)
         {        
+
+        }
+
+        public Black_Angel(Game game, string pathspecificationfile, Vector2 position, int codeFaction)
+            : base(game)
+        {
+            this.PercentSize = 0.5f;
+            this.Position = position;
+            this.CodeFaction = codeFaction;
+            this.Info = new StructureDTO();
+            this.Info = GlobalDTO.UNIT_DATA_READER.Load(pathspecificationfile);
+            this.CurrentStatus = this.Info.Action[StatusList.IDLE.Name];
+            this.CurrentDirection = this.Info.Action[this.CurrentStatus.Name].DirectionInfo[DirectionList.S.Name];            
+            this.GetInformationUnit(); // lấy thông tin trong file đặc tả
         }
         
         /// <summary>
