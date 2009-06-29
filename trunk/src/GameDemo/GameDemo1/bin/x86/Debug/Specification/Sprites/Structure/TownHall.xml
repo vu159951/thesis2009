@@ -21,10 +21,7 @@
     </Upgrade>
   </Requirements>
   <ListUnits>
-    <Unit name="Black_Angel" upgradeId="1" />
-    <Unit name="Archon_Archer" upgradeId="1" />
-    <Unit name="Elf_swordman" upgradeId="2" />
-    <Unit name="Angel" upgradeId="2" />
+    <Unit name="Producer" upgradeId="1" />    
   </ListUnits>
   <Action>
     <IDLE>

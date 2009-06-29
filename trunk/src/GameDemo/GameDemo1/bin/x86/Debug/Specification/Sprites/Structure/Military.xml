@@ -12,7 +12,7 @@
     <Upgrade name="1" id="1" >
       <Info name="Stone" value="5000" />
       <Info name="Gold" value="4000" />
-      <Info name="Time" value="30"/>
+      <Info name="Time" value="3"/>
     </Upgrade>
     <Upgrade name="2" id="2" >
       <Info name="Stone" value="10000" />
@@ -23,8 +23,8 @@
   <ListUnits>
     <Unit name="Black_Angel" upgradeId="1" />
     <Unit name="Archon_Archer" upgradeId="1" />
-    <Unit name="Elf_swordman" upgradeId="2" />
-    <Unit name="Angel" upgradeId="2" />
+    <Unit name="Angel" upgradeId="1" />
+    <Unit name="Elf_swordman" upgradeId="2" />    
   </ListUnits>
   <Action>
     <IDLE>
