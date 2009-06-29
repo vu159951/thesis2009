@@ -24,13 +24,14 @@ namespace GameDemo1.Data
         }
 
         public void GetIdForDirection(DirectionInfo directioninfo)
-        {
+        {            
             xmlDoc.Load(GameDemo1.Properties.Settings.Default.GlobalFile);
             foreach(XmlNode direction in xmlDoc.SelectSingleNode("//Direction").ChildNodes)
             {
                 if (direction.Attributes["tagName"].Value == directioninfo.Name)
                 {
                     directioninfo.Id = int.Parse(direction.Attributes["id"].Value);
+                    break;
                 }
             }
         }   
