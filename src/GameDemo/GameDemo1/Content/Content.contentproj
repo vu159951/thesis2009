@@ -9405,29 +9405,29 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Sprites\Unit\Human_Knight\Humans_Knight.png">
-      <Name>Humans_Knight</Name>
+    <Compile Include="Sprites\Unit\Human_Knight\Icon.png">
+      <Name>Icon</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Sprites\Unit\Angel\Angel.png">
-      <Name>Angel</Name>
+    <Compile Include="Sprites\Unit\Angel\Icon.png">
+      <Name>Icon</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Sprites\Unit\Phoenix\Phoenix.png">
-      <Name>Phoenix</Name>
+    <Compile Include="Sprites\Unit\Phoenix\Icon.png">
+      <Name>Icon</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Sprites\Unit\Unicorn\Unicorn.png">
-      <Name>Unicorn</Name>
+    <Compile Include="Sprites\Unit\Unicorn\Icon.png">
+      <Name>Icon</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
@@ -9576,15 +9576,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Sprites\Structure\Military\Military.png">
-      <Name>Military</Name>
+    <Compile Include="Sprites\Structure\Military\Icon.png">
+      <Name>Icon</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Sprites\Structure\Animal\Animal.png">
-      <Name>Animal</Name>
+    <Compile Include="Sprites\Structure\Animal\Icon.png">
+      <Name>Icon</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
@@ -13234,8 +13234,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Sprites\Unit\elf_swordman\elf_swordman.png">
-      <Name>elf_swordman</Name>
+    <Compile Include="Sprites\Unit\elf_swordman\Icon.png">
+      <Name>Icon</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
@@ -14983,8 +14983,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Sprites\Unit\Producer\Producer.png">
-      <Name>Producer</Name>
+    <Compile Include="Sprites\Unit\Producer\Icon.png">
+      <Name>Icon</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
@@ -16672,8 +16672,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Sprites\Unit\Wolf\Wolf.png">
-      <Name>Wolf</Name>
+    <Compile Include="Sprites\Unit\Wolf\Icon.png">
+      <Name>Icon</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
@@ -18387,8 +18387,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Sprites\Unit\Archon_Archer\Archon_Archer.png">
-      <Name>Archon_Archer</Name>
+    <Compile Include="Sprites\Unit\Archon_Archer\Icon.png">
+      <Name>Icon</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
