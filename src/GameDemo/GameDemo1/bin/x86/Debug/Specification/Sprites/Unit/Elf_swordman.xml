@@ -1,443 +1,447 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<elf_swordman>
-  <RepresentativeImage name="Sprites\\Unit\\elf_swordman\\elf_swordman"/>
+<Sprite name="elf_swordman" type="Unit" path="Sprites\\Unit\\elf_swordman\\">
+  <!-- Default icon image: Icon.png  -->
   <Information>
-    <MaxHealth value="100"/>
-    <Power value="6" />
-    <RadiusAttack value="30" />
-    <RadiusDetect value="40" />
-    <Speed value="2" />
+    <Info name="MaxHealth" value="80"/>
+    <Info name="Power" value="4" />
+    <Info name="RadiusAttack" value="30" />
+    <Info name="RadiusDetect" value="50" />
+    <Info name="Speed" value="5" />
   </Information>
   <Requirements>
-    <Gold value="55" />
+    <Upgrade name="1" id="1">
+      <Info name="Gold" value="40" />
+      <Info name="Time" value="6" />
+    </Upgrade>
   </Requirements>
-  <Time value="5"></Time>
 
-  <IDLE>
-    <S>
-      <Image name="Sprites\\Unit\\elf_swordman\\000_elf_swordman_IDLE.1.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\001_elf_swordman_IDLE.1.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\002_elf_swordman_IDLE.1.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\003_elf_swordman_IDLE.1.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\004_elf_swordman_IDLE.1.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\005_elf_swordman_IDLE.1.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\006_elf_swordman_IDLE.1.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\007_elf_swordman_IDLE.1.08"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\008_elf_swordman_IDLE.1.09"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\009_elf_swordman_IDLE.1.10"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\010_elf_swordman_IDLE.1.11"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\011_elf_swordman_IDLE.1.12"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\012_elf_swordman_IDLE.1.13"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\013_elf_swordman_IDLE.1.14"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\014_elf_swordman_IDLE.1.15"/>
-    </S>
-    <ES>
-      <Image name="Sprites\\Unit\\elf_swordman\\\100_elf_swordman_IDLE.2.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\101_elf_swordman_IDLE.2.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\102_elf_swordman_IDLE.2.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\103_elf_swordman_IDLE.2.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\104_elf_swordman_IDLE.2.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\105_elf_swordman_IDLE.2.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\106_elf_swordman_IDLE.2.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\107_elf_swordman_IDLE.2.08"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\108_elf_swordman_IDLE.2.09"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\109_elf_swordman_IDLE.2.10"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\110_elf_swordman_IDLE.2.11"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\111_elf_swordman_IDLE.2.12"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\112_elf_swordman_IDLE.2.13"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\113_elf_swordman_IDLE.2.14"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\114_elf_swordman_IDLE.2.15"/>
-    </ES>
-    <E>
-    </E>
-    <EN>
-      <Image name="Sprites\\Unit\\elf_swordman\\\200_elf_swordman_IDLE.3.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\201_elf_swordman_IDLE.3.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\202_elf_swordman_IDLE.3.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\203_elf_swordman_IDLE.3.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\204_elf_swordman_IDLE.3.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\205_elf_swordman_IDLE.3.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\206_elf_swordman_IDLE.3.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\207_elf_swordman_IDLE.3.08"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\208_elf_swordman_IDLE.3.09"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\209_elf_swordman_IDLE.3.10"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\210_elf_swordman_IDLE.3.11"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\211_elf_swordman_IDLE.3.12"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\212_elf_swordman_IDLE.3.13"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\213_elf_swordman_IDLE.3.14"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\214_elf_swordman_IDLE.3.15"/>
-    </EN>
-    <N>
-      <Image name="Sprites\\Unit\\elf_swordman\\\300_elf_swordman_IDLE.4.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\301_elf_swordman_IDLE.4.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\302_elf_swordman_IDLE.4.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\303_elf_swordman_IDLE.4.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\304_elf_swordman_IDLE.4.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\305_elf_swordman_IDLE.4.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\306_elf_swordman_IDLE.4.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\307_elf_swordman_IDLE.4.08"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\308_elf_swordman_IDLE.4.09"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\309_elf_swordman_IDLE.4.10"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\310_elf_swordman_IDLE.4.11"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\311_elf_swordman_IDLE.4.12"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\312_elf_swordman_IDLE.4.13"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\313_elf_swordman_IDLE.4.14"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\314_elf_swordman_IDLE.4.15"/>
-    </N>
-    <WN>
-      <Image name="Sprites\\Unit\\elf_swordman\\\400_elf_swordman_IDLE.5.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\401_elf_swordman_IDLE.5.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\402_elf_swordman_IDLE.5.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\403_elf_swordman_IDLE.5.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\404_elf_swordman_IDLE.5.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\405_elf_swordman_IDLE.5.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\406_elf_swordman_IDLE.5.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\407_elf_swordman_IDLE.5.08"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\408_elf_swordman_IDLE.5.09"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\409_elf_swordman_IDLE.5.10"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\409_elf_swordman_IDLE.5.10"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\410_elf_swordman_IDLE.5.11"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\411_elf_swordman_IDLE.5.12"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\412_elf_swordman_IDLE.5.13"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\413_elf_swordman_IDLE.5.14"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\414_elf_swordman_IDLE.5.15"/>
-    </WN>
-    <W></W>
-    <WS>
-      <Image name="Sprites\\Unit\\elf_swordman\\\500_elf_swordman_IDLE.6.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\501_elf_swordman_IDLE.6.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\502_elf_swordman_IDLE.6.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\503_elf_swordman_IDLE.6.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\504_elf_swordman_IDLE.6.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\505_elf_swordman_IDLE.6.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\506_elf_swordman_IDLE.6.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\507_elf_swordman_IDLE.6.08"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\508_elf_swordman_IDLE.6.09"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\509_elf_swordman_IDLE.6.10"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\510_elf_swordman_IDLE.6.11"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\511_elf_swordman_IDLE.6.12"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\512_elf_swordman_IDLE.6.13"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\513_elf_swordman_IDLE.6.14"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\514_elf_swordman_IDLE.6.15"/>
-    </WS>
-  </IDLE>
-  <WALK>
-    <S>
-      <Image name="Sprites\\Unit\\elf_swordman\\\030_elf_swordman_WALK.1.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\031_elf_swordman_WALK.1.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\032_elf_swordman_WALK.1.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\033_elf_swordman_WALK.1.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\034_elf_swordman_WALK.1.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\035_elf_swordman_WALK.1.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\036_elf_swordman_WALK.1.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\037_elf_swordman_WALK.1.08"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\038_elf_swordman_WALK.1.09"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\039_elf_swordman_WALK.1.10"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\040_elf_swordman_WALK.1.11"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\041_elf_swordman_WALK.1.12"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\042_elf_swordman_WALK.1.13"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\043_elf_swordman_WALK.1.14"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\044_elf_swordman_WALK.1.15"/>
-    </S>
-    <ES>
-      <Image name="Sprites\\Unit\\elf_swordman\\\130_elf_swordman_WALK.2.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\131_elf_swordman_WALK.2.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\132_elf_swordman_WALK.2.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\133_elf_swordman_WALK.2.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\134_elf_swordman_WALK.2.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\135_elf_swordman_WALK.2.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\136_elf_swordman_WALK.2.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\137_elf_swordman_WALK.2.08"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\138_elf_swordman_WALK.2.09"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\139_elf_swordman_WALK.2.10"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\140_elf_swordman_WALK.2.11"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\141_elf_swordman_WALK.2.12"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\142_elf_swordman_WALK.2.13"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\143_elf_swordman_WALK.2.14"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\144_elf_swordman_WALK.2.15"/>
-    </ES>
-    <E>
+  <Action>
+    <IDLE>
+      <S>
+        <Image name="000_elf_swordman_IDLE.1.01"/>
+        <Image name="001_elf_swordman_IDLE.1.02"/>
+        <Image name="002_elf_swordman_IDLE.1.03"/>
+        <Image name="003_elf_swordman_IDLE.1.04"/>
+        <Image name="004_elf_swordman_IDLE.1.05"/>
+        <Image name="005_elf_swordman_IDLE.1.06"/>
+        <Image name="006_elf_swordman_IDLE.1.07"/>
+        <Image name="007_elf_swordman_IDLE.1.08"/>
+        <Image name="008_elf_swordman_IDLE.1.09"/>
+        <Image name="009_elf_swordman_IDLE.1.10"/>
+        <Image name="010_elf_swordman_IDLE.1.11"/>
+        <Image name="011_elf_swordman_IDLE.1.12"/>
+        <Image name="012_elf_swordman_IDLE.1.13"/>
+        <Image name="013_elf_swordman_IDLE.1.14"/>
+        <Image name="014_elf_swordman_IDLE.1.15"/>
+      </S>
+      <ES>
+        <Image name="100_elf_swordman_IDLE.2.01"/>
+        <Image name="101_elf_swordman_IDLE.2.02"/>
+        <Image name="102_elf_swordman_IDLE.2.03"/>
+        <Image name="103_elf_swordman_IDLE.2.04"/>
+        <Image name="104_elf_swordman_IDLE.2.05"/>
+        <Image name="105_elf_swordman_IDLE.2.06"/>
+        <Image name="106_elf_swordman_IDLE.2.07"/>
+        <Image name="107_elf_swordman_IDLE.2.08"/>
+        <Image name="108_elf_swordman_IDLE.2.09"/>
+        <Image name="109_elf_swordman_IDLE.2.10"/>
+        <Image name="110_elf_swordman_IDLE.2.11"/>
+        <Image name="111_elf_swordman_IDLE.2.12"/>
+        <Image name="112_elf_swordman_IDLE.2.13"/>
+        <Image name="113_elf_swordman_IDLE.2.14"/>
+        <Image name="114_elf_swordman_IDLE.2.15"/>
+      </ES>
+      <E>
+      </E>
+      <EN>
+        <Image name="200_elf_swordman_IDLE.3.01"/>
+        <Image name="201_elf_swordman_IDLE.3.02"/>
+        <Image name="202_elf_swordman_IDLE.3.03"/>
+        <Image name="203_elf_swordman_IDLE.3.04"/>
+        <Image name="204_elf_swordman_IDLE.3.05"/>
+        <Image name="205_elf_swordman_IDLE.3.06"/>
+        <Image name="206_elf_swordman_IDLE.3.07"/>
+        <Image name="207_elf_swordman_IDLE.3.08"/>
+        <Image name="208_elf_swordman_IDLE.3.09"/>
+        <Image name="209_elf_swordman_IDLE.3.10"/>
+        <Image name="210_elf_swordman_IDLE.3.11"/>
+        <Image name="211_elf_swordman_IDLE.3.12"/>
+        <Image name="212_elf_swordman_IDLE.3.13"/>
+        <Image name="213_elf_swordman_IDLE.3.14"/>
+        <Image name="214_elf_swordman_IDLE.3.15"/>
+      </EN>
+      <N>
+        <Image name="300_elf_swordman_IDLE.4.01"/>
+        <Image name="301_elf_swordman_IDLE.4.02"/>
+        <Image name="302_elf_swordman_IDLE.4.03"/>
+        <Image name="303_elf_swordman_IDLE.4.04"/>
+        <Image name="304_elf_swordman_IDLE.4.05"/>
+        <Image name="305_elf_swordman_IDLE.4.06"/>
+        <Image name="306_elf_swordman_IDLE.4.07"/>
+        <Image name="307_elf_swordman_IDLE.4.08"/>
+        <Image name="308_elf_swordman_IDLE.4.09"/>
+        <Image name="309_elf_swordman_IDLE.4.10"/>
+        <Image name="310_elf_swordman_IDLE.4.11"/>
+        <Image name="311_elf_swordman_IDLE.4.12"/>
+        <Image name="312_elf_swordman_IDLE.4.13"/>
+        <Image name="313_elf_swordman_IDLE.4.14"/>
+        <Image name="314_elf_swordman_IDLE.4.15"/>
+      </N>
+      <WN>
+        <Image name="400_elf_swordman_IDLE.5.01"/>
+        <Image name="401_elf_swordman_IDLE.5.02"/>
+        <Image name="402_elf_swordman_IDLE.5.03"/>
+        <Image name="403_elf_swordman_IDLE.5.04"/>
+        <Image name="404_elf_swordman_IDLE.5.05"/>
+        <Image name="405_elf_swordman_IDLE.5.06"/>
+        <Image name="406_elf_swordman_IDLE.5.07"/>
+        <Image name="407_elf_swordman_IDLE.5.08"/>
+        <Image name="408_elf_swordman_IDLE.5.09"/>
+        <Image name="409_elf_swordman_IDLE.5.10"/>
+        <Image name="409_elf_swordman_IDLE.5.10"/>
+        <Image name="410_elf_swordman_IDLE.5.11"/>
+        <Image name="411_elf_swordman_IDLE.5.12"/>
+        <Image name="412_elf_swordman_IDLE.5.13"/>
+        <Image name="413_elf_swordman_IDLE.5.14"/>
+        <Image name="414_elf_swordman_IDLE.5.15"/>
+      </WN>
+      <W></W>
+      <WS>
+        <Image name="500_elf_swordman_IDLE.6.01"/>
+        <Image name="501_elf_swordman_IDLE.6.02"/>
+        <Image name="502_elf_swordman_IDLE.6.03"/>
+        <Image name="503_elf_swordman_IDLE.6.04"/>
+        <Image name="504_elf_swordman_IDLE.6.05"/>
+        <Image name="505_elf_swordman_IDLE.6.06"/>
+        <Image name="506_elf_swordman_IDLE.6.07"/>
+        <Image name="507_elf_swordman_IDLE.6.08"/>
+        <Image name="508_elf_swordman_IDLE.6.09"/>
+        <Image name="509_elf_swordman_IDLE.6.10"/>
+        <Image name="510_elf_swordman_IDLE.6.11"/>
+        <Image name="511_elf_swordman_IDLE.6.12"/>
+        <Image name="512_elf_swordman_IDLE.6.13"/>
+        <Image name="513_elf_swordman_IDLE.6.14"/>
+        <Image name="514_elf_swordman_IDLE.6.15"/>
+      </WS>
+    </IDLE>
+    <WALK>
+      <S>
+        <Image name="030_elf_swordman_WALK.1.01"/>
+        <Image name="031_elf_swordman_WALK.1.02"/>
+        <Image name="032_elf_swordman_WALK.1.03"/>
+        <Image name="033_elf_swordman_WALK.1.04"/>
+        <Image name="034_elf_swordman_WALK.1.05"/>
+        <Image name="035_elf_swordman_WALK.1.06"/>
+        <Image name="036_elf_swordman_WALK.1.07"/>
+        <Image name="037_elf_swordman_WALK.1.08"/>
+        <Image name="038_elf_swordman_WALK.1.09"/>
+        <Image name="039_elf_swordman_WALK.1.10"/>
+        <Image name="040_elf_swordman_WALK.1.11"/>
+        <Image name="041_elf_swordman_WALK.1.12"/>
+        <Image name="042_elf_swordman_WALK.1.13"/>
+        <Image name="043_elf_swordman_WALK.1.14"/>
+        <Image name="044_elf_swordman_WALK.1.15"/>
+      </S>
+      <ES>
+        <Image name="130_elf_swordman_WALK.2.01"/>
+        <Image name="131_elf_swordman_WALK.2.02"/>
+        <Image name="132_elf_swordman_WALK.2.03"/>
+        <Image name="133_elf_swordman_WALK.2.04"/>
+        <Image name="134_elf_swordman_WALK.2.05"/>
+        <Image name="135_elf_swordman_WALK.2.06"/>
+        <Image name="136_elf_swordman_WALK.2.07"/>
+        <Image name="137_elf_swordman_WALK.2.08"/>
+        <Image name="138_elf_swordman_WALK.2.09"/>
+        <Image name="139_elf_swordman_WALK.2.10"/>
+        <Image name="140_elf_swordman_WALK.2.11"/>
+        <Image name="141_elf_swordman_WALK.2.12"/>
+        <Image name="142_elf_swordman_WALK.2.13"/>
+        <Image name="143_elf_swordman_WALK.2.14"/>
+        <Image name="144_elf_swordman_WALK.2.15"/>
+      </ES>
+      <E>
 
-    </E>
-    <EN>
-      <Image name="Sprites\\Unit\\elf_swordman\\\230_elf_swordman_WALK.3.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\231_elf_swordman_WALK.3.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\232_elf_swordman_WALK.3.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\233_elf_swordman_WALK.3.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\234_elf_swordman_WALK.3.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\235_elf_swordman_WALK.3.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\236_elf_swordman_WALK.3.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\237_elf_swordman_WALK.3.08"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\238_elf_swordman_WALK.3.09"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\239_elf_swordman_WALK.3.10"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\240_elf_swordman_WALK.3.11"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\241_elf_swordman_WALK.3.12"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\242_elf_swordman_WALK.3.13"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\243_elf_swordman_WALK.3.14"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\244_elf_swordman_WALK.3.15"/>
-    </EN>
-    <N>
-      <Image name="Sprites\\Unit\\elf_swordman\\\330_elf_swordman_WALK.4.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\331_elf_swordman_WALK.4.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\332_elf_swordman_WALK.4.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\333_elf_swordman_WALK.4.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\334_elf_swordman_WALK.4.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\335_elf_swordman_WALK.4.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\336_elf_swordman_WALK.4.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\337_elf_swordman_WALK.4.08"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\338_elf_swordman_WALK.4.09"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\339_elf_swordman_WALK.4.10"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\340_elf_swordman_WALK.4.11"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\341_elf_swordman_WALK.4.12"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\342_elf_swordman_WALK.4.13"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\343_elf_swordman_WALK.4.14"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\344_elf_swordman_WALK.4.15"/>
-    </N>
-    <WN>
-      <Image name="Sprites\\Unit\\elf_swordman\\\430_elf_swordman_WALK.5.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\431_elf_swordman_WALK.5.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\432_elf_swordman_WALK.5.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\433_elf_swordman_WALK.5.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\434_elf_swordman_WALK.5.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\435_elf_swordman_WALK.5.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\436_elf_swordman_WALK.5.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\437_elf_swordman_WALK.5.08"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\438_elf_swordman_WALK.5.09"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\439_elf_swordman_WALK.5.10"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\440_elf_swordman_WALK.5.11"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\441_elf_swordman_WALK.5.12"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\442_elf_swordman_WALK.5.13"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\443_elf_swordman_WALK.5.14"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\444_elf_swordman_WALK.5.15"/>
-    </WN>
-    <W>
-    </W>
-    <WS>
-      <Image name="Sprites\\Unit\\elf_swordman\\\530_elf_swordman_WALK.6.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\531_elf_swordman_WALK.6.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\532_elf_swordman_WALK.6.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\533_elf_swordman_WALK.6.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\534_elf_swordman_WALK.6.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\535_elf_swordman_WALK.6.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\536_elf_swordman_WALK.6.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\537_elf_swordman_WALK.6.08"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\538_elf_swordman_WALK.6.09"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\539_elf_swordman_WALK.6.10"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\540_elf_swordman_WALK.6.11"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\541_elf_swordman_WALK.6.12"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\542_elf_swordman_WALK.6.13"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\543_elf_swordman_WALK.6.14"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\544_elf_swordman_WALK.6.15"/>
-    </WS>
-  </WALK>
-  <ATTACK>
-    <S>
-      <Image name="Sprites\\Unit\\elf_swordman\\\060_elf_swordman_ATTACK.1.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\061_elf_swordman_ATTACK.1.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\062_elf_swordman_ATTACK.1.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\063_elf_swordman_ATTACK.1.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\064_elf_swordman_ATTACK.1.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\065_elf_swordman_ATTACK.1.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\066_elf_swordman_ATTACK.1.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\067_elf_swordman_ATTACK.1.08"/>
-    </S>
-    <ES>
-      <Image name="Sprites\\Unit\\elf_swordman\\\160_elf_swordman_ATTACK.2.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\161_elf_swordman_ATTACK.2.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\162_elf_swordman_ATTACK.2.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\163_elf_swordman_ATTACK.2.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\164_elf_swordman_ATTACK.2.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\165_elf_swordman_ATTACK.2.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\166_elf_swordman_ATTACK.2.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\167_elf_swordman_ATTACK.2.08"/>
-    </ES>
-    <E></E>
-    <EN>
-      <Image name="Sprites\\Unit\\elf_swordman\\\260_elf_swordman_ATTACK.3.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\261_elf_swordman_ATTACK.3.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\262_elf_swordman_ATTACK.3.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\263_elf_swordman_ATTACK.3.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\264_elf_swordman_ATTACK.3.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\265_elf_swordman_ATTACK.3.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\266_elf_swordman_ATTACK.3.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\267_elf_swordman_ATTACK.3.08"/>
-    </EN>
-    <N>
-      <Image name="Sprites\\Unit\\elf_swordman\\\360_elf_swordman_ATTACK.4.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\361_elf_swordman_ATTACK.4.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\362_elf_swordman_ATTACK.4.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\363_elf_swordman_ATTACK.4.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\364_elf_swordman_ATTACK.4.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\365_elf_swordman_ATTACK.4.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\366_elf_swordman_ATTACK.4.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\367_elf_swordman_ATTACK.4.08"/>
-    </N>
-    <WN>
-      <Image name="Sprites\\Unit\\elf_swordman\\\460_elf_swordman_ATTACK.5.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\461_elf_swordman_ATTACK.5.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\462_elf_swordman_ATTACK.5.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\463_elf_swordman_ATTACK.5.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\464_elf_swordman_ATTACK.5.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\465_elf_swordman_ATTACK.5.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\466_elf_swordman_ATTACK.5.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\467_elf_swordman_ATTACK.5.08"/>
-    </WN>
-    <W></W>
-    <WS>
-      <Image name="Sprites\\Unit\\elf_swordman\\\560_elf_swordman_ATTACK.6.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\561_elf_swordman_ATTACK.6.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\562_elf_swordman_ATTACK.6.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\563_elf_swordman_ATTACK.6.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\564_elf_swordman_ATTACK.6.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\565_elf_swordman_ATTACK.6.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\566_elf_swordman_ATTACK.6.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\567_elf_swordman_ATTACK.6.08"/>
-    </WS>
-  </ATTACK>
-  <HIT count="8">
-    <S>
-      <Image name="Sprites\\Unit\\elf_swordman\\\070_elf_swordman_HIT.1.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\071_elf_swordman_HIT.1.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\072_elf_swordman_HIT.1.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\073_elf_swordman_HIT.1.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\074_elf_swordman_HIT.1.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\075_elf_swordman_HIT.1.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\076_elf_swordman_HIT.1.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\077_elf_swordman_HIT.1.08"/>
-    </S>
-    <ES>
-      <Image name="Sprites\\Unit\\elf_swordman\\\170_elf_swordman_HIT.2.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\171_elf_swordman_HIT.2.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\172_elf_swordman_HIT.2.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\173_elf_swordman_HIT.2.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\174_elf_swordman_HIT.2.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\175_elf_swordman_HIT.2.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\176_elf_swordman_HIT.2.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\177_elf_swordman_HIT.2.08"/>
-    </ES>
-    <E>
-      
-    </E>
-    <EN>
-      <Image name="Sprites\\Unit\\elf_swordman\\\270_elf_swordman_HIT.3.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\271_elf_swordman_HIT.3.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\272_elf_swordman_HIT.3.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\273_elf_swordman_HIT.3.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\274_elf_swordman_HIT.3.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\275_elf_swordman_HIT.3.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\276_elf_swordman_HIT.3.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\277_elf_swordman_HIT.3.08"/>
-    </EN>
-    <N>
-      <Image name="Sprites\\Unit\\elf_swordman\\\370_elf_swordman_HIT.4.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\371_elf_swordman_HIT.4.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\372_elf_swordman_HIT.4.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\373_elf_swordman_HIT.4.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\374_elf_swordman_HIT.4.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\375_elf_swordman_HIT.4.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\376_elf_swordman_HIT.4.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\377_elf_swordman_HIT.4.08"/>
-    </N>
-    <WN>
-      <Image name="Sprites\\Unit\\elf_swordman\\\470_elf_swordman_HIT.5.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\471_elf_swordman_HIT.5.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\472_elf_swordman_HIT.5.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\473_elf_swordman_HIT.5.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\474_elf_swordman_HIT.5.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\475_elf_swordman_HIT.5.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\476_elf_swordman_HIT.5.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\477_elf_swordman_HIT.5.08"/>
-    </WN>
-    <W></W>
-    <WS>
-      <Image name="Sprites\\Unit\\elf_swordman\\\570_elf_swordman_HIT.6.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\571_elf_swordman_HIT.6.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\572_elf_swordman_HIT.6.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\573_elf_swordman_HIT.6.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\574_elf_swordman_HIT.6.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\575_elf_swordman_HIT.6.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\576_elf_swordman_HIT.6.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\577_elf_swordman_HIT.6.08"/>
-    </WS>
-  </HIT>
-  <DEAD count="10">
-    <S>
-      <Image name="Sprites\\Unit\\elf_swordman\\\080_elf_swordman_DEAD.1.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\081_elf_swordman_DEAD.1.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\082_elf_swordman_DEAD.1.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\083_elf_swordman_DEAD.1.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\084_elf_swordman_DEAD.1.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\085_elf_swordman_DEAD.1.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\086_elf_swordman_DEAD.1.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\087_elf_swordman_DEAD.1.08"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\088_elf_swordman_DEAD.1.09"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\089_elf_swordman_DEAD.1.10"/>
-    </S>
-    <ES>
-      <Image name="Sprites\\Unit\\elf_swordman\\\180_elf_swordman_DEAD.2.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\181_elf_swordman_DEAD.2.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\182_elf_swordman_DEAD.2.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\183_elf_swordman_DEAD.2.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\184_elf_swordman_DEAD.2.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\185_elf_swordman_DEAD.2.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\186_elf_swordman_DEAD.2.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\187_elf_swordman_DEAD.2.08"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\188_elf_swordman_DEAD.2.09"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\189_elf_swordman_DEAD.2.10"/>
-    </ES>
-    <E>
-      
-    </E>
-    <EN>
-      <Image name="Sprites\\Unit\\elf_swordman\\\280_elf_swordman_DEAD.3.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\281_elf_swordman_DEAD.3.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\282_elf_swordman_DEAD.3.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\283_elf_swordman_DEAD.3.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\284_elf_swordman_DEAD.3.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\285_elf_swordman_DEAD.3.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\286_elf_swordman_DEAD.3.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\287_elf_swordman_DEAD.3.08"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\288_elf_swordman_DEAD.3.09"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\289_elf_swordman_DEAD.3.10"/>
-    </EN>
-    <N>
-      <Image name="Sprites\\Unit\\elf_swordman\\\380_elf_swordman_DEAD.4.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\381_elf_swordman_DEAD.4.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\382_elf_swordman_DEAD.4.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\383_elf_swordman_DEAD.4.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\384_elf_swordman_DEAD.4.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\385_elf_swordman_DEAD.4.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\386_elf_swordman_DEAD.4.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\387_elf_swordman_DEAD.4.08"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\388_elf_swordman_DEAD.4.09"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\389_elf_swordman_DEAD.4.10"/>
-    </N>
-    <WN>
-      <Image name="Sprites\\Unit\\elf_swordman\\\480_elf_swordman_DEAD.5.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\481_elf_swordman_DEAD.5.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\482_elf_swordman_DEAD.5.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\483_elf_swordman_DEAD.5.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\484_elf_swordman_DEAD.5.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\485_elf_swordman_DEAD.5.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\486_elf_swordman_DEAD.5.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\487_elf_swordman_DEAD.5.08"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\488_elf_swordman_DEAD.5.09"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\489_elf_swordman_DEAD.5.10"/>
-    </WN>
-    <W>
-      
-    </W>
-    <WS>
-      <Image name="Sprites\\Unit\\elf_swordman\\\580_elf_swordman_DEAD.6.01"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\581_elf_swordman_DEAD.6.02"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\582_elf_swordman_DEAD.6.03"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\583_elf_swordman_DEAD.6.04"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\584_elf_swordman_DEAD.6.05"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\585_elf_swordman_DEAD.6.06"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\586_elf_swordman_DEAD.6.07"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\587_elf_swordman_DEAD.6.08"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\588_elf_swordman_DEAD.6.09"/>
-      <Image name="Sprites\\Unit\\elf_swordman\\\589_elf_swordman_DEAD.6.10"/>
-    </WS>
-  </DEAD>
-</elf_swordman>
+      </E>
+      <EN>
+        <Image name="230_elf_swordman_WALK.3.01"/>
+        <Image name="231_elf_swordman_WALK.3.02"/>
+        <Image name="232_elf_swordman_WALK.3.03"/>
+        <Image name="233_elf_swordman_WALK.3.04"/>
+        <Image name="234_elf_swordman_WALK.3.05"/>
+        <Image name="235_elf_swordman_WALK.3.06"/>
+        <Image name="236_elf_swordman_WALK.3.07"/>
+        <Image name="237_elf_swordman_WALK.3.08"/>
+        <Image name="238_elf_swordman_WALK.3.09"/>
+        <Image name="239_elf_swordman_WALK.3.10"/>
+        <Image name="240_elf_swordman_WALK.3.11"/>
+        <Image name="241_elf_swordman_WALK.3.12"/>
+        <Image name="242_elf_swordman_WALK.3.13"/>
+        <Image name="243_elf_swordman_WALK.3.14"/>
+        <Image name="244_elf_swordman_WALK.3.15"/>
+      </EN>
+      <N>
+        <Image name="330_elf_swordman_WALK.4.01"/>
+        <Image name="331_elf_swordman_WALK.4.02"/>
+        <Image name="332_elf_swordman_WALK.4.03"/>
+        <Image name="333_elf_swordman_WALK.4.04"/>
+        <Image name="334_elf_swordman_WALK.4.05"/>
+        <Image name="335_elf_swordman_WALK.4.06"/>
+        <Image name="336_elf_swordman_WALK.4.07"/>
+        <Image name="337_elf_swordman_WALK.4.08"/>
+        <Image name="338_elf_swordman_WALK.4.09"/>
+        <Image name="339_elf_swordman_WALK.4.10"/>
+        <Image name="340_elf_swordman_WALK.4.11"/>
+        <Image name="341_elf_swordman_WALK.4.12"/>
+        <Image name="342_elf_swordman_WALK.4.13"/>
+        <Image name="343_elf_swordman_WALK.4.14"/>
+        <Image name="344_elf_swordman_WALK.4.15"/>
+      </N>
+      <WN>
+        <Image name="430_elf_swordman_WALK.5.01"/>
+        <Image name="431_elf_swordman_WALK.5.02"/>
+        <Image name="432_elf_swordman_WALK.5.03"/>
+        <Image name="433_elf_swordman_WALK.5.04"/>
+        <Image name="434_elf_swordman_WALK.5.05"/>
+        <Image name="435_elf_swordman_WALK.5.06"/>
+        <Image name="436_elf_swordman_WALK.5.07"/>
+        <Image name="437_elf_swordman_WALK.5.08"/>
+        <Image name="438_elf_swordman_WALK.5.09"/>
+        <Image name="439_elf_swordman_WALK.5.10"/>
+        <Image name="440_elf_swordman_WALK.5.11"/>
+        <Image name="441_elf_swordman_WALK.5.12"/>
+        <Image name="442_elf_swordman_WALK.5.13"/>
+        <Image name="443_elf_swordman_WALK.5.14"/>
+        <Image name="444_elf_swordman_WALK.5.15"/>
+      </WN>
+      <W>
+      </W>
+      <WS>
+        <Image name="530_elf_swordman_WALK.6.01"/>
+        <Image name="531_elf_swordman_WALK.6.02"/>
+        <Image name="532_elf_swordman_WALK.6.03"/>
+        <Image name="533_elf_swordman_WALK.6.04"/>
+        <Image name="534_elf_swordman_WALK.6.05"/>
+        <Image name="535_elf_swordman_WALK.6.06"/>
+        <Image name="536_elf_swordman_WALK.6.07"/>
+        <Image name="537_elf_swordman_WALK.6.08"/>
+        <Image name="538_elf_swordman_WALK.6.09"/>
+        <Image name="539_elf_swordman_WALK.6.10"/>
+        <Image name="540_elf_swordman_WALK.6.11"/>
+        <Image name="541_elf_swordman_WALK.6.12"/>
+        <Image name="542_elf_swordman_WALK.6.13"/>
+        <Image name="543_elf_swordman_WALK.6.14"/>
+        <Image name="544_elf_swordman_WALK.6.15"/>
+      </WS>
+    </WALK>
+    <ATTACK>
+      <S>
+        <Image name="060_elf_swordman_ATTACK.1.01"/>
+        <Image name="061_elf_swordman_ATTACK.1.02"/>
+        <Image name="062_elf_swordman_ATTACK.1.03"/>
+        <Image name="063_elf_swordman_ATTACK.1.04"/>
+        <Image name="064_elf_swordman_ATTACK.1.05"/>
+        <Image name="065_elf_swordman_ATTACK.1.06"/>
+        <Image name="066_elf_swordman_ATTACK.1.07"/>
+        <Image name="067_elf_swordman_ATTACK.1.08"/>
+      </S>
+      <ES>
+        <Image name="160_elf_swordman_ATTACK.2.01"/>
+        <Image name="161_elf_swordman_ATTACK.2.02"/>
+        <Image name="162_elf_swordman_ATTACK.2.03"/>
+        <Image name="163_elf_swordman_ATTACK.2.04"/>
+        <Image name="164_elf_swordman_ATTACK.2.05"/>
+        <Image name="165_elf_swordman_ATTACK.2.06"/>
+        <Image name="166_elf_swordman_ATTACK.2.07"/>
+        <Image name="167_elf_swordman_ATTACK.2.08"/>
+      </ES>
+      <E></E>
+      <EN>
+        <Image name="260_elf_swordman_ATTACK.3.01"/>
+        <Image name="261_elf_swordman_ATTACK.3.02"/>
+        <Image name="262_elf_swordman_ATTACK.3.03"/>
+        <Image name="263_elf_swordman_ATTACK.3.04"/>
+        <Image name="264_elf_swordman_ATTACK.3.05"/>
+        <Image name="265_elf_swordman_ATTACK.3.06"/>
+        <Image name="266_elf_swordman_ATTACK.3.07"/>
+        <Image name="267_elf_swordman_ATTACK.3.08"/>
+      </EN>
+      <N>
+        <Image name="360_elf_swordman_ATTACK.4.01"/>
+        <Image name="361_elf_swordman_ATTACK.4.02"/>
+        <Image name="362_elf_swordman_ATTACK.4.03"/>
+        <Image name="363_elf_swordman_ATTACK.4.04"/>
+        <Image name="364_elf_swordman_ATTACK.4.05"/>
+        <Image name="365_elf_swordman_ATTACK.4.06"/>
+        <Image name="366_elf_swordman_ATTACK.4.07"/>
+        <Image name="367_elf_swordman_ATTACK.4.08"/>
+      </N>
+      <WN>
+        <Image name="460_elf_swordman_ATTACK.5.01"/>
+        <Image name="461_elf_swordman_ATTACK.5.02"/>
+        <Image name="462_elf_swordman_ATTACK.5.03"/>
+        <Image name="463_elf_swordman_ATTACK.5.04"/>
+        <Image name="464_elf_swordman_ATTACK.5.05"/>
+        <Image name="465_elf_swordman_ATTACK.5.06"/>
+        <Image name="466_elf_swordman_ATTACK.5.07"/>
+        <Image name="467_elf_swordman_ATTACK.5.08"/>
+      </WN>
+      <W></W>
+      <WS>
+        <Image name="560_elf_swordman_ATTACK.6.01"/>
+        <Image name="561_elf_swordman_ATTACK.6.02"/>
+        <Image name="562_elf_swordman_ATTACK.6.03"/>
+        <Image name="563_elf_swordman_ATTACK.6.04"/>
+        <Image name="564_elf_swordman_ATTACK.6.05"/>
+        <Image name="565_elf_swordman_ATTACK.6.06"/>
+        <Image name="566_elf_swordman_ATTACK.6.07"/>
+        <Image name="567_elf_swordman_ATTACK.6.08"/>
+      </WS>
+    </ATTACK>
+    <HIT count="8">
+      <S>
+        <Image name="070_elf_swordman_HIT.1.01"/>
+        <Image name="071_elf_swordman_HIT.1.02"/>
+        <Image name="072_elf_swordman_HIT.1.03"/>
+        <Image name="073_elf_swordman_HIT.1.04"/>
+        <Image name="074_elf_swordman_HIT.1.05"/>
+        <Image name="075_elf_swordman_HIT.1.06"/>
+        <Image name="076_elf_swordman_HIT.1.07"/>
+        <Image name="077_elf_swordman_HIT.1.08"/>
+      </S>
+      <ES>
+        <Image name="170_elf_swordman_HIT.2.01"/>
+        <Image name="171_elf_swordman_HIT.2.02"/>
+        <Image name="172_elf_swordman_HIT.2.03"/>
+        <Image name="173_elf_swordman_HIT.2.04"/>
+        <Image name="174_elf_swordman_HIT.2.05"/>
+        <Image name="175_elf_swordman_HIT.2.06"/>
+        <Image name="176_elf_swordman_HIT.2.07"/>
+        <Image name="177_elf_swordman_HIT.2.08"/>
+      </ES>
+      <E>
+
+      </E>
+      <EN>
+        <Image name="270_elf_swordman_HIT.3.01"/>
+        <Image name="271_elf_swordman_HIT.3.02"/>
+        <Image name="272_elf_swordman_HIT.3.03"/>
+        <Image name="273_elf_swordman_HIT.3.04"/>
+        <Image name="274_elf_swordman_HIT.3.05"/>
+        <Image name="275_elf_swordman_HIT.3.06"/>
+        <Image name="276_elf_swordman_HIT.3.07"/>
+        <Image name="277_elf_swordman_HIT.3.08"/>
+      </EN>
+      <N>
+        <Image name="370_elf_swordman_HIT.4.01"/>
+        <Image name="371_elf_swordman_HIT.4.02"/>
+        <Image name="372_elf_swordman_HIT.4.03"/>
+        <Image name="373_elf_swordman_HIT.4.04"/>
+        <Image name="374_elf_swordman_HIT.4.05"/>
+        <Image name="375_elf_swordman_HIT.4.06"/>
+        <Image name="376_elf_swordman_HIT.4.07"/>
+        <Image name="377_elf_swordman_HIT.4.08"/>
+      </N>
+      <WN>
+        <Image name="470_elf_swordman_HIT.5.01"/>
+        <Image name="471_elf_swordman_HIT.5.02"/>
+        <Image name="472_elf_swordman_HIT.5.03"/>
+        <Image name="473_elf_swordman_HIT.5.04"/>
+        <Image name="474_elf_swordman_HIT.5.05"/>
+        <Image name="475_elf_swordman_HIT.5.06"/>
+        <Image name="476_elf_swordman_HIT.5.07"/>
+        <Image name="477_elf_swordman_HIT.5.08"/>
+      </WN>
+      <W></W>
+      <WS>
+        <Image name="570_elf_swordman_HIT.6.01"/>
+        <Image name="571_elf_swordman_HIT.6.02"/>
+        <Image name="572_elf_swordman_HIT.6.03"/>
+        <Image name="573_elf_swordman_HIT.6.04"/>
+        <Image name="574_elf_swordman_HIT.6.05"/>
+        <Image name="575_elf_swordman_HIT.6.06"/>
+        <Image name="576_elf_swordman_HIT.6.07"/>
+        <Image name="577_elf_swordman_HIT.6.08"/>
+      </WS>
+    </HIT>
+    <DEAD count="10">
+      <S>
+        <Image name="080_elf_swordman_DEAD.1.01"/>
+        <Image name="081_elf_swordman_DEAD.1.02"/>
+        <Image name="082_elf_swordman_DEAD.1.03"/>
+        <Image name="083_elf_swordman_DEAD.1.04"/>
+        <Image name="084_elf_swordman_DEAD.1.05"/>
+        <Image name="085_elf_swordman_DEAD.1.06"/>
+        <Image name="086_elf_swordman_DEAD.1.07"/>
+        <Image name="087_elf_swordman_DEAD.1.08"/>
+        <Image name="088_elf_swordman_DEAD.1.09"/>
+        <Image name="089_elf_swordman_DEAD.1.10"/>
+      </S>
+      <ES>
+        <Image name="180_elf_swordman_DEAD.2.01"/>
+        <Image name="181_elf_swordman_DEAD.2.02"/>
+        <Image name="182_elf_swordman_DEAD.2.03"/>
+        <Image name="183_elf_swordman_DEAD.2.04"/>
+        <Image name="184_elf_swordman_DEAD.2.05"/>
+        <Image name="185_elf_swordman_DEAD.2.06"/>
+        <Image name="186_elf_swordman_DEAD.2.07"/>
+        <Image name="187_elf_swordman_DEAD.2.08"/>
+        <Image name="188_elf_swordman_DEAD.2.09"/>
+        <Image name="189_elf_swordman_DEAD.2.10"/>
+      </ES>
+      <E>
+
+      </E>
+      <EN>
+        <Image name="280_elf_swordman_DEAD.3.01"/>
+        <Image name="281_elf_swordman_DEAD.3.02"/>
+        <Image name="282_elf_swordman_DEAD.3.03"/>
+        <Image name="283_elf_swordman_DEAD.3.04"/>
+        <Image name="284_elf_swordman_DEAD.3.05"/>
+        <Image name="285_elf_swordman_DEAD.3.06"/>
+        <Image name="286_elf_swordman_DEAD.3.07"/>
+        <Image name="287_elf_swordman_DEAD.3.08"/>
+        <Image name="288_elf_swordman_DEAD.3.09"/>
+        <Image name="289_elf_swordman_DEAD.3.10"/>
+      </EN>
+      <N>
+        <Image name="380_elf_swordman_DEAD.4.01"/>
+        <Image name="381_elf_swordman_DEAD.4.02"/>
+        <Image name="382_elf_swordman_DEAD.4.03"/>
+        <Image name="383_elf_swordman_DEAD.4.04"/>
+        <Image name="384_elf_swordman_DEAD.4.05"/>
+        <Image name="385_elf_swordman_DEAD.4.06"/>
+        <Image name="386_elf_swordman_DEAD.4.07"/>
+        <Image name="387_elf_swordman_DEAD.4.08"/>
+        <Image name="388_elf_swordman_DEAD.4.09"/>
+        <Image name="389_elf_swordman_DEAD.4.10"/>
+      </N>
+      <WN>
+        <Image name="480_elf_swordman_DEAD.5.01"/>
+        <Image name="481_elf_swordman_DEAD.5.02"/>
+        <Image name="482_elf_swordman_DEAD.5.03"/>
+        <Image name="483_elf_swordman_DEAD.5.04"/>
+        <Image name="484_elf_swordman_DEAD.5.05"/>
+        <Image name="485_elf_swordman_DEAD.5.06"/>
+        <Image name="486_elf_swordman_DEAD.5.07"/>
+        <Image name="487_elf_swordman_DEAD.5.08"/>
+        <Image name="488_elf_swordman_DEAD.5.09"/>
+        <Image name="489_elf_swordman_DEAD.5.10"/>
+      </WN>
+      <W>
+
+      </W>
+      <WS>
+        <Image name="580_elf_swordman_DEAD.6.01"/>
+        <Image name="581_elf_swordman_DEAD.6.02"/>
+        <Image name="582_elf_swordman_DEAD.6.03"/>
+        <Image name="583_elf_swordman_DEAD.6.04"/>
+        <Image name="584_elf_swordman_DEAD.6.05"/>
+        <Image name="585_elf_swordman_DEAD.6.06"/>
+        <Image name="586_elf_swordman_DEAD.6.07"/>
+        <Image name="587_elf_swordman_DEAD.6.08"/>
+        <Image name="588_elf_swordman_DEAD.6.09"/>
+        <Image name="589_elf_swordman_DEAD.6.10"/>
+      </WS>
+    </DEAD>
+  </Action>
+</Sprite>

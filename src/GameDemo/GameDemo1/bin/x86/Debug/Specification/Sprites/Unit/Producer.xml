@@ -1,441 +1,445 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Producer>
-  <RepresentativeImage name="Sprites\\Unit\\Producer\\Producer"/>
+<Sprite name="Producer" type="Unit" path="Sprites\\Unit\\Producer\\">
+  <RepresentativeImage name="Producer"/>
   <Information>
-    <MaxHealth value="300"/>
-    <Power value="0" />
-    <RadiusAttack value="0" />
-    <RadiusDetect value="0" />
-    <Speed value="2" />
+    <Info name="MaxHealth" value="80"/>
+    <Info name="Power" value="0" />
+    <Info name="RadiusAttack" value="0" />
+    <Info name="RadiusDetect" value="0" />
+    <Info name="Speed" value="3" />
   </Information>
   <Requirements>
-    <Gold value="45" />
+    <Upgrade name="1" id="1">
+      <Info name="Gold" value="100" />
+      <Info name="Time" value="6" />
+    </Upgrade>
   </Requirements>
-  <Time value="8"></Time>
 
-  <IDLE>
-    <S>
-      <Image name="Sprites\\Unit\\Producer\\000_Spider_IDLE.1.01"/>
-      <Image name="Sprites\\Unit\\Producer\\001_Spider_IDLE.1.02"/>
-      <Image name="Sprites\\Unit\\Producer\\002_Spider_IDLE.1.03"/>
-      <Image name="Sprites\\Unit\\Producer\\003_Spider_IDLE.1.04"/>
-      <Image name="Sprites\\Unit\\Producer\\004_Spider_IDLE.1.05"/>
-      <Image name="Sprites\\Unit\\Producer\\005_Spider_IDLE.1.06"/>
-      <Image name="Sprites\\Unit\\Producer\\006_Spider_IDLE.1.07"/>
-      <Image name="Sprites\\Unit\\Producer\\007_Spider_IDLE.1.08"/>
-      <Image name="Sprites\\Unit\\Producer\\008_Spider_IDLE.1.09"/>
-      <Image name="Sprites\\Unit\\Producer\\009_Spider_IDLE.1.10"/>
-      <Image name="Sprites\\Unit\\Producer\\010_Spider_IDLE.1.11"/>
-      <Image name="Sprites\\Unit\\Producer\\011_Spider_IDLE.1.12"/>
-      <Image name="Sprites\\Unit\\Producer\\012_Spider_IDLE.1.13"/>
-      <Image name="Sprites\\Unit\\Producer\\013_Spider_IDLE.1.14"/>
-      <Image name="Sprites\\Unit\\Producer\\014_Spider_IDLE.1.15"/>
-    </S>
-    <ES>
-      <Image name="Sprites\\Unit\\Producer\\100_Spider_IDLE.2.01"/>
-      <Image name="Sprites\\Unit\\Producer\\101_Spider_IDLE.2.02"/>
-      <Image name="Sprites\\Unit\\Producer\\102_Spider_IDLE.2.03"/>
-      <Image name="Sprites\\Unit\\Producer\\103_Spider_IDLE.2.04"/>
-      <Image name="Sprites\\Unit\\Producer\\104_Spider_IDLE.2.05"/>
-      <Image name="Sprites\\Unit\\Producer\\105_Spider_IDLE.2.06"/>
-      <Image name="Sprites\\Unit\\Producer\\106_Spider_IDLE.2.07"/>
-      <Image name="Sprites\\Unit\\Producer\\107_Spider_IDLE.2.08"/>
-      <Image name="Sprites\\Unit\\Producer\\108_Spider_IDLE.2.09"/>
-      <Image name="Sprites\\Unit\\Producer\\109_Spider_IDLE.2.10"/>
-      <Image name="Sprites\\Unit\\Producer\\110_Spider_IDLE.2.11"/>
-      <Image name="Sprites\\Unit\\Producer\\111_Spider_IDLE.2.12"/>
-      <Image name="Sprites\\Unit\\Producer\\112_Spider_IDLE.2.13"/>
-      <Image name="Sprites\\Unit\\Producer\\113_Spider_IDLE.2.14"/>
-      <Image name="Sprites\\Unit\\Producer\\114_Spider_IDLE.2.15"/>
-    </ES>
-    <E>
-    </E>
-    <EN>
-      <Image name="Sprites\\Unit\\Producer\\200_Spider_IDLE.3.01"/>
-      <Image name="Sprites\\Unit\\Producer\\201_Spider_IDLE.3.02"/>
-      <Image name="Sprites\\Unit\\Producer\\202_Spider_IDLE.3.03"/>
-      <Image name="Sprites\\Unit\\Producer\\203_Spider_IDLE.3.04"/>
-      <Image name="Sprites\\Unit\\Producer\\204_Spider_IDLE.3.05"/>
-      <Image name="Sprites\\Unit\\Producer\\205_Spider_IDLE.3.06"/>
-      <Image name="Sprites\\Unit\\Producer\\206_Spider_IDLE.3.07"/>
-      <Image name="Sprites\\Unit\\Producer\\207_Spider_IDLE.3.08"/>
-      <Image name="Sprites\\Unit\\Producer\\208_Spider_IDLE.3.09"/>
-      <Image name="Sprites\\Unit\\Producer\\209_Spider_IDLE.3.10"/>
-      <Image name="Sprites\\Unit\\Producer\\210_Spider_IDLE.3.11"/>
-      <Image name="Sprites\\Unit\\Producer\\211_Spider_IDLE.3.12"/>
-      <Image name="Sprites\\Unit\\Producer\\212_Spider_IDLE.3.13"/>
-      <Image name="Sprites\\Unit\\Producer\\213_Spider_IDLE.3.14"/>
-      <Image name="Sprites\\Unit\\Producer\\214_Spider_IDLE.3.15"/>
-    </EN>
-    <N>
-      <Image name="Sprites\\Unit\\Producer\\300_Spider_IDLE.4.01"/>
-      <Image name="Sprites\\Unit\\Producer\\301_Spider_IDLE.4.02"/>
-      <Image name="Sprites\\Unit\\Producer\\302_Spider_IDLE.4.03"/>
-      <Image name="Sprites\\Unit\\Producer\\303_Spider_IDLE.4.04"/>
-      <Image name="Sprites\\Unit\\Producer\\304_Spider_IDLE.4.05"/>
-      <Image name="Sprites\\Unit\\Producer\\305_Spider_IDLE.4.06"/>
-      <Image name="Sprites\\Unit\\Producer\\306_Spider_IDLE.4.07"/>
-      <Image name="Sprites\\Unit\\Producer\\307_Spider_IDLE.4.08"/>
-      <Image name="Sprites\\Unit\\Producer\\308_Spider_IDLE.4.09"/>
-      <Image name="Sprites\\Unit\\Producer\\309_Spider_IDLE.4.10"/>
-      <Image name="Sprites\\Unit\\Producer\\310_Spider_IDLE.4.11"/>
-      <Image name="Sprites\\Unit\\Producer\\311_Spider_IDLE.4.12"/>
-      <Image name="Sprites\\Unit\\Producer\\312_Spider_IDLE.4.13"/>
-      <Image name="Sprites\\Unit\\Producer\\313_Spider_IDLE.4.14"/>
-      <Image name="Sprites\\Unit\\Producer\\314_Spider_IDLE.4.15"/>
-    </N>
-    <WN>
-      <Image name="Sprites\\Unit\\Producer\\400_Spider_IDLE.5.01"/>
-      <Image name="Sprites\\Unit\\Producer\\401_Spider_IDLE.5.02"/>
-      <Image name="Sprites\\Unit\\Producer\\402_Spider_IDLE.5.03"/>
-      <Image name="Sprites\\Unit\\Producer\\403_Spider_IDLE.5.04"/>
-      <Image name="Sprites\\Unit\\Producer\\404_Spider_IDLE.5.05"/>
-      <Image name="Sprites\\Unit\\Producer\\405_Spider_IDLE.5.06"/>
-      <Image name="Sprites\\Unit\\Producer\\406_Spider_IDLE.5.07"/>
-      <Image name="Sprites\\Unit\\Producer\\407_Spider_IDLE.5.08"/>
-      <Image name="Sprites\\Unit\\Producer\\408_Spider_IDLE.5.09"/>
-      <Image name="Sprites\\Unit\\Producer\\409_Spider_IDLE.5.10"/>
-      <Image name="Sprites\\Unit\\Producer\\409_Spider_IDLE.5.10"/>
-      <Image name="Sprites\\Unit\\Producer\\410_Spider_IDLE.5.11"/>
-      <Image name="Sprites\\Unit\\Producer\\411_Spider_IDLE.5.12"/>
-      <Image name="Sprites\\Unit\\Producer\\412_Spider_IDLE.5.13"/>
-      <Image name="Sprites\\Unit\\Producer\\413_Spider_IDLE.5.14"/>
-      <Image name="Sprites\\Unit\\Producer\\414_Spider_IDLE.5.15"/>
-    </WN>
-    <W></W>
-    <WS>
-      <Image name="Sprites\\Unit\\Producer\\500_Spider_IDLE.6.01"/>
-      <Image name="Sprites\\Unit\\Producer\\501_Spider_IDLE.6.02"/>
-      <Image name="Sprites\\Unit\\Producer\\502_Spider_IDLE.6.03"/>
-      <Image name="Sprites\\Unit\\Producer\\503_Spider_IDLE.6.04"/>
-      <Image name="Sprites\\Unit\\Producer\\504_Spider_IDLE.6.05"/>
-      <Image name="Sprites\\Unit\\Producer\\505_Spider_IDLE.6.06"/>
-      <Image name="Sprites\\Unit\\Producer\\506_Spider_IDLE.6.07"/>
-      <Image name="Sprites\\Unit\\Producer\\507_Spider_IDLE.6.08"/>
-      <Image name="Sprites\\Unit\\Producer\\508_Spider_IDLE.6.09"/>
-      <Image name="Sprites\\Unit\\Producer\\509_Spider_IDLE.6.10"/>
-      <Image name="Sprites\\Unit\\Producer\\510_Spider_IDLE.6.11"/>
-      <Image name="Sprites\\Unit\\Producer\\511_Spider_IDLE.6.12"/>
-      <Image name="Sprites\\Unit\\Producer\\512_Spider_IDLE.6.13"/>
-      <Image name="Sprites\\Unit\\Producer\\513_Spider_IDLE.6.14"/>
-      <Image name="Sprites\\Unit\\Producer\\514_Spider_IDLE.6.15"/>
-    </WS>
-  </IDLE>
-  <WALK>
-    <S>
-      <Image name="Sprites\\Unit\\Producer\\030_Spider_WALK.1.01"/>
-      <Image name="Sprites\\Unit\\Producer\\031_Spider_WALK.1.02"/>
-      <Image name="Sprites\\Unit\\Producer\\032_Spider_WALK.1.03"/>
-      <Image name="Sprites\\Unit\\Producer\\033_Spider_WALK.1.04"/>
-      <Image name="Sprites\\Unit\\Producer\\034_Spider_WALK.1.05"/>
-      <Image name="Sprites\\Unit\\Producer\\035_Spider_WALK.1.06"/>
-      <Image name="Sprites\\Unit\\Producer\\036_Spider_WALK.1.07"/>
-      <Image name="Sprites\\Unit\\Producer\\037_Spider_WALK.1.08"/>
-      <Image name="Sprites\\Unit\\Producer\\038_Spider_WALK.1.09"/>
-      <Image name="Sprites\\Unit\\Producer\\039_Spider_WALK.1.10"/>
-      <Image name="Sprites\\Unit\\Producer\\040_Spider_WALK.1.11"/>
-      <Image name="Sprites\\Unit\\Producer\\041_Spider_WALK.1.12"/>
-      <Image name="Sprites\\Unit\\Producer\\042_Spider_WALK.1.13"/>
-      <Image name="Sprites\\Unit\\Producer\\043_Spider_WALK.1.14"/>
-      <Image name="Sprites\\Unit\\Producer\\044_Spider_WALK.1.15"/>
-    </S>
-    <ES>
-      <Image name="Sprites\\Unit\\Producer\\130_Spider_WALK.2.01"/>
-      <Image name="Sprites\\Unit\\Producer\\131_Spider_WALK.2.02"/>
-      <Image name="Sprites\\Unit\\Producer\\132_Spider_WALK.2.03"/>
-      <Image name="Sprites\\Unit\\Producer\\133_Spider_WALK.2.04"/>
-      <Image name="Sprites\\Unit\\Producer\\135_Spider_WALK.2.06"/>
-      <Image name="Sprites\\Unit\\Producer\\136_Spider_WALK.2.07"/>
-      <Image name="Sprites\\Unit\\Producer\\137_Spider_WALK.2.08"/>
-      <Image name="Sprites\\Unit\\Producer\\138_Spider_WALK.2.09"/>
-      <Image name="Sprites\\Unit\\Producer\\139_Spider_WALK.2.10"/>
-      <Image name="Sprites\\Unit\\Producer\\140_Spider_WALK.2.11"/>
-      <Image name="Sprites\\Unit\\Producer\\141_Spider_WALK.2.12"/>
-      <Image name="Sprites\\Unit\\Producer\\142_Spider_WALK.2.13"/>
-      <Image name="Sprites\\Unit\\Producer\\143_Spider_WALK.2.14"/>
-      <Image name="Sprites\\Unit\\Producer\\144_Spider_WALK.2.15"/>
-    </ES>
-    <E>
+  <Action>
+    <IDLE>
+      <S>
+        <Image name="000_Spider_IDLE.1.01"/>
+        <Image name="001_Spider_IDLE.1.02"/>
+        <Image name="002_Spider_IDLE.1.03"/>
+        <Image name="003_Spider_IDLE.1.04"/>
+        <Image name="004_Spider_IDLE.1.05"/>
+        <Image name="005_Spider_IDLE.1.06"/>
+        <Image name="006_Spider_IDLE.1.07"/>
+        <Image name="007_Spider_IDLE.1.08"/>
+        <Image name="008_Spider_IDLE.1.09"/>
+        <Image name="009_Spider_IDLE.1.10"/>
+        <Image name="010_Spider_IDLE.1.11"/>
+        <Image name="011_Spider_IDLE.1.12"/>
+        <Image name="012_Spider_IDLE.1.13"/>
+        <Image name="013_Spider_IDLE.1.14"/>
+        <Image name="014_Spider_IDLE.1.15"/>
+      </S>
+      <ES>
+        <Image name="100_Spider_IDLE.2.01"/>
+        <Image name="101_Spider_IDLE.2.02"/>
+        <Image name="102_Spider_IDLE.2.03"/>
+        <Image name="103_Spider_IDLE.2.04"/>
+        <Image name="104_Spider_IDLE.2.05"/>
+        <Image name="105_Spider_IDLE.2.06"/>
+        <Image name="106_Spider_IDLE.2.07"/>
+        <Image name="107_Spider_IDLE.2.08"/>
+        <Image name="108_Spider_IDLE.2.09"/>
+        <Image name="109_Spider_IDLE.2.10"/>
+        <Image name="110_Spider_IDLE.2.11"/>
+        <Image name="111_Spider_IDLE.2.12"/>
+        <Image name="112_Spider_IDLE.2.13"/>
+        <Image name="113_Spider_IDLE.2.14"/>
+        <Image name="114_Spider_IDLE.2.15"/>
+      </ES>
+      <E>
+      </E>
+      <EN>
+        <Image name="200_Spider_IDLE.3.01"/>
+        <Image name="201_Spider_IDLE.3.02"/>
+        <Image name="202_Spider_IDLE.3.03"/>
+        <Image name="203_Spider_IDLE.3.04"/>
+        <Image name="204_Spider_IDLE.3.05"/>
+        <Image name="205_Spider_IDLE.3.06"/>
+        <Image name="206_Spider_IDLE.3.07"/>
+        <Image name="207_Spider_IDLE.3.08"/>
+        <Image name="208_Spider_IDLE.3.09"/>
+        <Image name="209_Spider_IDLE.3.10"/>
+        <Image name="210_Spider_IDLE.3.11"/>
+        <Image name="211_Spider_IDLE.3.12"/>
+        <Image name="212_Spider_IDLE.3.13"/>
+        <Image name="213_Spider_IDLE.3.14"/>
+        <Image name="214_Spider_IDLE.3.15"/>
+      </EN>
+      <N>
+        <Image name="300_Spider_IDLE.4.01"/>
+        <Image name="301_Spider_IDLE.4.02"/>
+        <Image name="302_Spider_IDLE.4.03"/>
+        <Image name="303_Spider_IDLE.4.04"/>
+        <Image name="304_Spider_IDLE.4.05"/>
+        <Image name="305_Spider_IDLE.4.06"/>
+        <Image name="306_Spider_IDLE.4.07"/>
+        <Image name="307_Spider_IDLE.4.08"/>
+        <Image name="308_Spider_IDLE.4.09"/>
+        <Image name="309_Spider_IDLE.4.10"/>
+        <Image name="310_Spider_IDLE.4.11"/>
+        <Image name="311_Spider_IDLE.4.12"/>
+        <Image name="312_Spider_IDLE.4.13"/>
+        <Image name="313_Spider_IDLE.4.14"/>
+        <Image name="314_Spider_IDLE.4.15"/>
+      </N>
+      <WN>
+        <Image name="400_Spider_IDLE.5.01"/>
+        <Image name="401_Spider_IDLE.5.02"/>
+        <Image name="402_Spider_IDLE.5.03"/>
+        <Image name="403_Spider_IDLE.5.04"/>
+        <Image name="404_Spider_IDLE.5.05"/>
+        <Image name="405_Spider_IDLE.5.06"/>
+        <Image name="406_Spider_IDLE.5.07"/>
+        <Image name="407_Spider_IDLE.5.08"/>
+        <Image name="408_Spider_IDLE.5.09"/>
+        <Image name="409_Spider_IDLE.5.10"/>
+        <Image name="409_Spider_IDLE.5.10"/>
+        <Image name="410_Spider_IDLE.5.11"/>
+        <Image name="411_Spider_IDLE.5.12"/>
+        <Image name="412_Spider_IDLE.5.13"/>
+        <Image name="413_Spider_IDLE.5.14"/>
+        <Image name="414_Spider_IDLE.5.15"/>
+      </WN>
+      <W></W>
+      <WS>
+        <Image name="500_Spider_IDLE.6.01"/>
+        <Image name="501_Spider_IDLE.6.02"/>
+        <Image name="502_Spider_IDLE.6.03"/>
+        <Image name="503_Spider_IDLE.6.04"/>
+        <Image name="504_Spider_IDLE.6.05"/>
+        <Image name="505_Spider_IDLE.6.06"/>
+        <Image name="506_Spider_IDLE.6.07"/>
+        <Image name="507_Spider_IDLE.6.08"/>
+        <Image name="508_Spider_IDLE.6.09"/>
+        <Image name="509_Spider_IDLE.6.10"/>
+        <Image name="510_Spider_IDLE.6.11"/>
+        <Image name="511_Spider_IDLE.6.12"/>
+        <Image name="512_Spider_IDLE.6.13"/>
+        <Image name="513_Spider_IDLE.6.14"/>
+        <Image name="514_Spider_IDLE.6.15"/>
+      </WS>
+    </IDLE>
+    <WALK>
+      <S>
+        <Image name="030_Spider_WALK.1.01"/>
+        <Image name="031_Spider_WALK.1.02"/>
+        <Image name="032_Spider_WALK.1.03"/>
+        <Image name="033_Spider_WALK.1.04"/>
+        <Image name="034_Spider_WALK.1.05"/>
+        <Image name="035_Spider_WALK.1.06"/>
+        <Image name="036_Spider_WALK.1.07"/>
+        <Image name="037_Spider_WALK.1.08"/>
+        <Image name="038_Spider_WALK.1.09"/>
+        <Image name="039_Spider_WALK.1.10"/>
+        <Image name="040_Spider_WALK.1.11"/>
+        <Image name="041_Spider_WALK.1.12"/>
+        <Image name="042_Spider_WALK.1.13"/>
+        <Image name="043_Spider_WALK.1.14"/>
+        <Image name="044_Spider_WALK.1.15"/>
+      </S>
+      <ES>
+        <Image name="130_Spider_WALK.2.01"/>
+        <Image name="131_Spider_WALK.2.02"/>
+        <Image name="132_Spider_WALK.2.03"/>
+        <Image name="133_Spider_WALK.2.04"/>
+        <Image name="135_Spider_WALK.2.06"/>
+        <Image name="136_Spider_WALK.2.07"/>
+        <Image name="137_Spider_WALK.2.08"/>
+        <Image name="138_Spider_WALK.2.09"/>
+        <Image name="139_Spider_WALK.2.10"/>
+        <Image name="140_Spider_WALK.2.11"/>
+        <Image name="141_Spider_WALK.2.12"/>
+        <Image name="142_Spider_WALK.2.13"/>
+        <Image name="143_Spider_WALK.2.14"/>
+        <Image name="144_Spider_WALK.2.15"/>
+      </ES>
+      <E>
 
-    </E>
-    <EN>
-      <Image name="Sprites\\Unit\\Producer\\230_Spider_WALK.3.01"/>
-      <Image name="Sprites\\Unit\\Producer\\231_Spider_WALK.3.02"/>
-      <Image name="Sprites\\Unit\\Producer\\232_Spider_WALK.3.03"/>
-      <Image name="Sprites\\Unit\\Producer\\233_Spider_WALK.3.04"/>
-      <Image name="Sprites\\Unit\\Producer\\234_Spider_WALK.3.05"/>
-      <Image name="Sprites\\Unit\\Producer\\235_Spider_WALK.3.06"/>
-      <Image name="Sprites\\Unit\\Producer\\236_Spider_WALK.3.07"/>
-      <Image name="Sprites\\Unit\\Producer\\237_Spider_WALK.3.08"/>
-      <Image name="Sprites\\Unit\\Producer\\238_Spider_WALK.3.09"/>
-      <Image name="Sprites\\Unit\\Producer\\239_Spider_WALK.3.10"/>
-      <Image name="Sprites\\Unit\\Producer\\240_Spider_WALK.3.11"/>
-      <Image name="Sprites\\Unit\\Producer\\241_Spider_WALK.3.12"/>
-      <Image name="Sprites\\Unit\\Producer\\242_Spider_WALK.3.13"/>
-      <Image name="Sprites\\Unit\\Producer\\243_Spider_WALK.3.14"/>
-      <Image name="Sprites\\Unit\\Producer\\244_Spider_WALK.3.15"/>
-    </EN>
-    <N>
-      <Image name="Sprites\\Unit\\Producer\\330_Spider_WALK.4.01"/>
-      <Image name="Sprites\\Unit\\Producer\\331_Spider_WALK.4.02"/>
-      <Image name="Sprites\\Unit\\Producer\\332_Spider_WALK.4.03"/>
-      <Image name="Sprites\\Unit\\Producer\\333_Spider_WALK.4.04"/>
-      <Image name="Sprites\\Unit\\Producer\\334_Spider_WALK.4.05"/>
-      <Image name="Sprites\\Unit\\Producer\\335_Spider_WALK.4.06"/>
-      <Image name="Sprites\\Unit\\Producer\\336_Spider_WALK.4.07"/>
-      <Image name="Sprites\\Unit\\Producer\\337_Spider_WALK.4.08"/>
-      <Image name="Sprites\\Unit\\Producer\\338_Spider_WALK.4.09"/>
-      <Image name="Sprites\\Unit\\Producer\\339_Spider_WALK.4.10"/>
-      <Image name="Sprites\\Unit\\Producer\\340_Spider_WALK.4.11"/>
-      <Image name="Sprites\\Unit\\Producer\\341_Spider_WALK.4.12"/>
-      <Image name="Sprites\\Unit\\Producer\\342_Spider_WALK.4.13"/>
-      <Image name="Sprites\\Unit\\Producer\\343_Spider_WALK.4.14"/>
-      <Image name="Sprites\\Unit\\Producer\\344_Spider_WALK.4.15"/>
-    </N>
-    <WN>
-      <Image name="Sprites\\Unit\\Producer\\430_Spider_WALK.5.01"/>
-      <Image name="Sprites\\Unit\\Producer\\431_Spider_WALK.5.02"/>
-      <Image name="Sprites\\Unit\\Producer\\432_Spider_WALK.5.03"/>
-      <Image name="Sprites\\Unit\\Producer\\433_Spider_WALK.5.04"/>
-      <Image name="Sprites\\Unit\\Producer\\434_Spider_WALK.5.05"/>
-      <Image name="Sprites\\Unit\\Producer\\435_Spider_WALK.5.06"/>
-      <Image name="Sprites\\Unit\\Producer\\436_Spider_WALK.5.07"/>
-      <Image name="Sprites\\Unit\\Producer\\437_Spider_WALK.5.08"/>
-      <Image name="Sprites\\Unit\\Producer\\438_Spider_WALK.5.09"/>
-      <Image name="Sprites\\Unit\\Producer\\439_Spider_WALK.5.10"/>
-      <Image name="Sprites\\Unit\\Producer\\440_Spider_WALK.5.11"/>
-      <Image name="Sprites\\Unit\\Producer\\441_Spider_WALK.5.12"/>
-      <Image name="Sprites\\Unit\\Producer\\442_Spider_WALK.5.13"/>
-      <Image name="Sprites\\Unit\\Producer\\443_Spider_WALK.5.14"/>
-      <Image name="Sprites\\Unit\\Producer\\444_Spider_WALK.5.15"/>
-    </WN>
-    <W>
-    </W>
-    <WS>
-      <Image name="Sprites\\Unit\\Producer\\530_Spider_WALK.6.01"/>
-      <Image name="Sprites\\Unit\\Producer\\532_Spider_WALK.6.03"/>
-      <Image name="Sprites\\Unit\\Producer\\533_Spider_WALK.6.04"/>
-      <Image name="Sprites\\Unit\\Producer\\534_Spider_WALK.6.05"/>
-      <Image name="Sprites\\Unit\\Producer\\535_Spider_WALK.6.06"/>
-      <Image name="Sprites\\Unit\\Producer\\536_Spider_WALK.6.07"/>
-      <Image name="Sprites\\Unit\\Producer\\537_Spider_WALK.6.08"/>
-      <Image name="Sprites\\Unit\\Producer\\538_Spider_WALK.6.09"/>
-      <Image name="Sprites\\Unit\\Producer\\539_Spider_WALK.6.10"/>
-      <Image name="Sprites\\Unit\\Producer\\540_Spider_WALK.6.11"/>
-      <Image name="Sprites\\Unit\\Producer\\541_Spider_WALK.6.12"/>
-      <Image name="Sprites\\Unit\\Producer\\542_Spider_WALK.6.13"/>
-      <Image name="Sprites\\Unit\\Producer\\543_Spider_WALK.6.14"/>
-      <Image name="Sprites\\Unit\\Producer\\544_Spider_WALK.6.15"/>
-    </WS>
-  </WALK>
-  <EXPLOIT>
-    <S>
-      <Image name="Sprites\\Unit\\Producer\\060_Spider_ATTACK.1.01"/>
-      <Image name="Sprites\\Unit\\Producer\\061_Spider_ATTACK.1.02"/>
-      <Image name="Sprites\\Unit\\Producer\\062_Spider_ATTACK.1.03"/>
-      <Image name="Sprites\\Unit\\Producer\\063_Spider_ATTACK.1.04"/>
-      <Image name="Sprites\\Unit\\Producer\\064_Spider_ATTACK.1.05"/>
-      <Image name="Sprites\\Unit\\Producer\\065_Spider_ATTACK.1.06"/>
-      <Image name="Sprites\\Unit\\Producer\\066_Spider_ATTACK.1.07"/>
-      <Image name="Sprites\\Unit\\Producer\\067_Spider_ATTACK.1.08"/>
-    </S>
-    <ES>
-      <Image name="Sprites\\Unit\\Producer\\160_Spider_ATTACK.2.01"/>
-      <Image name="Sprites\\Unit\\Producer\\161_Spider_ATTACK.2.02"/>
-      <Image name="Sprites\\Unit\\Producer\\162_Spider_ATTACK.2.03"/>
-      <Image name="Sprites\\Unit\\Producer\\163_Spider_ATTACK.2.04"/>
-      <Image name="Sprites\\Unit\\Producer\\164_Spider_ATTACK.2.05"/>
-      <Image name="Sprites\\Unit\\Producer\\165_Spider_ATTACK.2.06"/>
-      <Image name="Sprites\\Unit\\Producer\\166_Spider_ATTACK.2.07"/>
-      <Image name="Sprites\\Unit\\Producer\\167_Spider_ATTACK.2.08"/>
-    </ES>
-    <E></E>
-    <EN>
-      <Image name="Sprites\\Unit\\Producer\\260_Spider_ATTACK.3.01"/>
-      <Image name="Sprites\\Unit\\Producer\\261_Spider_ATTACK.3.02"/>
-      <Image name="Sprites\\Unit\\Producer\\262_Spider_ATTACK.3.03"/>
-      <Image name="Sprites\\Unit\\Producer\\263_Spider_ATTACK.3.04"/>
-      <Image name="Sprites\\Unit\\Producer\\264_Spider_ATTACK.3.05"/>
-      <Image name="Sprites\\Unit\\Producer\\265_Spider_ATTACK.3.06"/>
-      <Image name="Sprites\\Unit\\Producer\\266_Spider_ATTACK.3.07"/>
-      <Image name="Sprites\\Unit\\Producer\\267_Spider_ATTACK.3.08"/>
-    </EN>
-    <N>
-      <Image name="Sprites\\Unit\\Producer\\360_Spider_ATTACK.4.01"/>
-      <Image name="Sprites\\Unit\\Producer\\361_Spider_ATTACK.4.02"/>
-      <Image name="Sprites\\Unit\\Producer\\362_Spider_ATTACK.4.03"/>
-      <Image name="Sprites\\Unit\\Producer\\363_Spider_ATTACK.4.04"/>
-      <Image name="Sprites\\Unit\\Producer\\364_Spider_ATTACK.4.05"/>
-      <Image name="Sprites\\Unit\\Producer\\365_Spider_ATTACK.4.06"/>
-      <Image name="Sprites\\Unit\\Producer\\366_Spider_ATTACK.4.07"/>
-      <Image name="Sprites\\Unit\\Producer\\367_Spider_ATTACK.4.08"/>
-    </N>
-    <WN>
-      <Image name="Sprites\\Unit\\Producer\\460_Spider_ATTACK.5.01"/>
-      <Image name="Sprites\\Unit\\Producer\\461_Spider_ATTACK.5.02"/>
-      <Image name="Sprites\\Unit\\Producer\\462_Spider_ATTACK.5.03"/>
-      <Image name="Sprites\\Unit\\Producer\\463_Spider_ATTACK.5.04"/>
-      <Image name="Sprites\\Unit\\Producer\\464_Spider_ATTACK.5.05"/>
-      <Image name="Sprites\\Unit\\Producer\\465_Spider_ATTACK.5.06"/>
-      <Image name="Sprites\\Unit\\Producer\\466_Spider_ATTACK.5.07"/>
-      <Image name="Sprites\\Unit\\Producer\\467_Spider_ATTACK.5.08"/>
-    </WN>
-    <W></W>
-    <WS>
-      <Image name="Sprites\\Unit\\Producer\\560_Spider_ATTACK.6.01"/>
-      <Image name="Sprites\\Unit\\Producer\\561_Spider_ATTACK.6.02"/>
-      <Image name="Sprites\\Unit\\Producer\\562_Spider_ATTACK.6.03"/>
-      <Image name="Sprites\\Unit\\Producer\\563_Spider_ATTACK.6.04"/>
-      <Image name="Sprites\\Unit\\Producer\\564_Spider_ATTACK.6.05"/>
-      <Image name="Sprites\\Unit\\Producer\\565_Spider_ATTACK.6.06"/>
-      <Image name="Sprites\\Unit\\Producer\\566_Spider_ATTACK.6.07"/>
-      <Image name="Sprites\\Unit\\Producer\\567_Spider_ATTACK.6.08"/>
-    </WS>
-  </EXPLOIT>
-  <HIT count="8">
-    <S>
-      <Image name="Sprites\\Unit\\Producer\\070_Spider_HIT.1.01"/>
-      <Image name="Sprites\\Unit\\Producer\\071_Spider_HIT.1.02"/>
-      <Image name="Sprites\\Unit\\Producer\\072_Spider_HIT.1.03"/>
-      <Image name="Sprites\\Unit\\Producer\\073_Spider_HIT.1.04"/>
-      <Image name="Sprites\\Unit\\Producer\\074_Spider_HIT.1.05"/>
-      <Image name="Sprites\\Unit\\Producer\\075_Spider_HIT.1.06"/>
-      <Image name="Sprites\\Unit\\Producer\\076_Spider_HIT.1.07"/>
-      <Image name="Sprites\\Unit\\Producer\\077_Spider_HIT.1.08"/>
-    </S>
-    <ES>
-      <Image name="Sprites\\Unit\\Producer\\170_Spider_HIT.2.01"/>
-      <Image name="Sprites\\Unit\\Producer\\171_Spider_HIT.2.02"/>
-      <Image name="Sprites\\Unit\\Producer\\172_Spider_HIT.2.03"/>
-      <Image name="Sprites\\Unit\\Producer\\173_Spider_HIT.2.04"/>
-      <Image name="Sprites\\Unit\\Producer\\174_Spider_HIT.2.05"/>
-      <Image name="Sprites\\Unit\\Producer\\175_Spider_HIT.2.06"/>
-      <Image name="Sprites\\Unit\\Producer\\176_Spider_HIT.2.07"/>
-      <Image name="Sprites\\Unit\\Producer\\177_Spider_HIT.2.08"/>
-    </ES>
-    <E>
+      </E>
+      <EN>
+        <Image name="230_Spider_WALK.3.01"/>
+        <Image name="231_Spider_WALK.3.02"/>
+        <Image name="232_Spider_WALK.3.03"/>
+        <Image name="233_Spider_WALK.3.04"/>
+        <Image name="234_Spider_WALK.3.05"/>
+        <Image name="235_Spider_WALK.3.06"/>
+        <Image name="236_Spider_WALK.3.07"/>
+        <Image name="237_Spider_WALK.3.08"/>
+        <Image name="238_Spider_WALK.3.09"/>
+        <Image name="239_Spider_WALK.3.10"/>
+        <Image name="240_Spider_WALK.3.11"/>
+        <Image name="241_Spider_WALK.3.12"/>
+        <Image name="242_Spider_WALK.3.13"/>
+        <Image name="243_Spider_WALK.3.14"/>
+        <Image name="244_Spider_WALK.3.15"/>
+      </EN>
+      <N>
+        <Image name="330_Spider_WALK.4.01"/>
+        <Image name="331_Spider_WALK.4.02"/>
+        <Image name="332_Spider_WALK.4.03"/>
+        <Image name="333_Spider_WALK.4.04"/>
+        <Image name="334_Spider_WALK.4.05"/>
+        <Image name="335_Spider_WALK.4.06"/>
+        <Image name="336_Spider_WALK.4.07"/>
+        <Image name="337_Spider_WALK.4.08"/>
+        <Image name="338_Spider_WALK.4.09"/>
+        <Image name="339_Spider_WALK.4.10"/>
+        <Image name="340_Spider_WALK.4.11"/>
+        <Image name="341_Spider_WALK.4.12"/>
+        <Image name="342_Spider_WALK.4.13"/>
+        <Image name="343_Spider_WALK.4.14"/>
+        <Image name="344_Spider_WALK.4.15"/>
+      </N>
+      <WN>
+        <Image name="430_Spider_WALK.5.01"/>
+        <Image name="431_Spider_WALK.5.02"/>
+        <Image name="432_Spider_WALK.5.03"/>
+        <Image name="433_Spider_WALK.5.04"/>
+        <Image name="434_Spider_WALK.5.05"/>
+        <Image name="435_Spider_WALK.5.06"/>
+        <Image name="436_Spider_WALK.5.07"/>
+        <Image name="437_Spider_WALK.5.08"/>
+        <Image name="438_Spider_WALK.5.09"/>
+        <Image name="439_Spider_WALK.5.10"/>
+        <Image name="440_Spider_WALK.5.11"/>
+        <Image name="441_Spider_WALK.5.12"/>
+        <Image name="442_Spider_WALK.5.13"/>
+        <Image name="443_Spider_WALK.5.14"/>
+        <Image name="444_Spider_WALK.5.15"/>
+      </WN>
+      <W>
+      </W>
+      <WS>
+        <Image name="530_Spider_WALK.6.01"/>
+        <Image name="532_Spider_WALK.6.03"/>
+        <Image name="533_Spider_WALK.6.04"/>
+        <Image name="534_Spider_WALK.6.05"/>
+        <Image name="535_Spider_WALK.6.06"/>
+        <Image name="536_Spider_WALK.6.07"/>
+        <Image name="537_Spider_WALK.6.08"/>
+        <Image name="538_Spider_WALK.6.09"/>
+        <Image name="539_Spider_WALK.6.10"/>
+        <Image name="540_Spider_WALK.6.11"/>
+        <Image name="541_Spider_WALK.6.12"/>
+        <Image name="542_Spider_WALK.6.13"/>
+        <Image name="543_Spider_WALK.6.14"/>
+        <Image name="544_Spider_WALK.6.15"/>
+      </WS>
+    </WALK>
+    <EXPLOIT>
+      <S>
+        <Image name="060_Spider_ATTACK.1.01"/>
+        <Image name="061_Spider_ATTACK.1.02"/>
+        <Image name="062_Spider_ATTACK.1.03"/>
+        <Image name="063_Spider_ATTACK.1.04"/>
+        <Image name="064_Spider_ATTACK.1.05"/>
+        <Image name="065_Spider_ATTACK.1.06"/>
+        <Image name="066_Spider_ATTACK.1.07"/>
+        <Image name="067_Spider_ATTACK.1.08"/>
+      </S>
+      <ES>
+        <Image name="160_Spider_ATTACK.2.01"/>
+        <Image name="161_Spider_ATTACK.2.02"/>
+        <Image name="162_Spider_ATTACK.2.03"/>
+        <Image name="163_Spider_ATTACK.2.04"/>
+        <Image name="164_Spider_ATTACK.2.05"/>
+        <Image name="165_Spider_ATTACK.2.06"/>
+        <Image name="166_Spider_ATTACK.2.07"/>
+        <Image name="167_Spider_ATTACK.2.08"/>
+      </ES>
+      <E></E>
+      <EN>
+        <Image name="260_Spider_ATTACK.3.01"/>
+        <Image name="261_Spider_ATTACK.3.02"/>
+        <Image name="262_Spider_ATTACK.3.03"/>
+        <Image name="263_Spider_ATTACK.3.04"/>
+        <Image name="264_Spider_ATTACK.3.05"/>
+        <Image name="265_Spider_ATTACK.3.06"/>
+        <Image name="266_Spider_ATTACK.3.07"/>
+        <Image name="267_Spider_ATTACK.3.08"/>
+      </EN>
+      <N>
+        <Image name="360_Spider_ATTACK.4.01"/>
+        <Image name="361_Spider_ATTACK.4.02"/>
+        <Image name="362_Spider_ATTACK.4.03"/>
+        <Image name="363_Spider_ATTACK.4.04"/>
+        <Image name="364_Spider_ATTACK.4.05"/>
+        <Image name="365_Spider_ATTACK.4.06"/>
+        <Image name="366_Spider_ATTACK.4.07"/>
+        <Image name="367_Spider_ATTACK.4.08"/>
+      </N>
+      <WN>
+        <Image name="460_Spider_ATTACK.5.01"/>
+        <Image name="461_Spider_ATTACK.5.02"/>
+        <Image name="462_Spider_ATTACK.5.03"/>
+        <Image name="463_Spider_ATTACK.5.04"/>
+        <Image name="464_Spider_ATTACK.5.05"/>
+        <Image name="465_Spider_ATTACK.5.06"/>
+        <Image name="466_Spider_ATTACK.5.07"/>
+        <Image name="467_Spider_ATTACK.5.08"/>
+      </WN>
+      <W></W>
+      <WS>
+        <Image name="560_Spider_ATTACK.6.01"/>
+        <Image name="561_Spider_ATTACK.6.02"/>
+        <Image name="562_Spider_ATTACK.6.03"/>
+        <Image name="563_Spider_ATTACK.6.04"/>
+        <Image name="564_Spider_ATTACK.6.05"/>
+        <Image name="565_Spider_ATTACK.6.06"/>
+        <Image name="566_Spider_ATTACK.6.07"/>
+        <Image name="567_Spider_ATTACK.6.08"/>
+      </WS>
+    </EXPLOIT>
+    <HIT count="8">
+      <S>
+        <Image name="070_Spider_HIT.1.01"/>
+        <Image name="071_Spider_HIT.1.02"/>
+        <Image name="072_Spider_HIT.1.03"/>
+        <Image name="073_Spider_HIT.1.04"/>
+        <Image name="074_Spider_HIT.1.05"/>
+        <Image name="075_Spider_HIT.1.06"/>
+        <Image name="076_Spider_HIT.1.07"/>
+        <Image name="077_Spider_HIT.1.08"/>
+      </S>
+      <ES>
+        <Image name="170_Spider_HIT.2.01"/>
+        <Image name="171_Spider_HIT.2.02"/>
+        <Image name="172_Spider_HIT.2.03"/>
+        <Image name="173_Spider_HIT.2.04"/>
+        <Image name="174_Spider_HIT.2.05"/>
+        <Image name="175_Spider_HIT.2.06"/>
+        <Image name="176_Spider_HIT.2.07"/>
+        <Image name="177_Spider_HIT.2.08"/>
+      </ES>
+      <E>
 
-    </E>
-    <EN>
-      <Image name="Sprites\\Unit\\Producer\\270_Spider_HIT.3.01"/>
-      <Image name="Sprites\\Unit\\Producer\\271_Spider_HIT.3.02"/>
-      <Image name="Sprites\\Unit\\Producer\\272_Spider_HIT.3.03"/>
-      <Image name="Sprites\\Unit\\Producer\\273_Spider_HIT.3.04"/>
-      <Image name="Sprites\\Unit\\Producer\\274_Spider_HIT.3.05"/>
-      <Image name="Sprites\\Unit\\Producer\\275_Spider_HIT.3.06"/>
-      <Image name="Sprites\\Unit\\Producer\\276_Spider_HIT.3.07"/>
-      <Image name="Sprites\\Unit\\Producer\\277_Spider_HIT.3.08"/>
-    </EN>
-    <N>
-      <Image name="Sprites\\Unit\\Producer\\370_Spider_HIT.4.01"/>
-      <Image name="Sprites\\Unit\\Producer\\371_Spider_HIT.4.02"/>
-      <Image name="Sprites\\Unit\\Producer\\372_Spider_HIT.4.03"/>
-      <Image name="Sprites\\Unit\\Producer\\373_Spider_HIT.4.04"/>
-      <Image name="Sprites\\Unit\\Producer\\374_Spider_HIT.4.05"/>
-      <Image name="Sprites\\Unit\\Producer\\375_Spider_HIT.4.06"/>
-      <Image name="Sprites\\Unit\\Producer\\376_Spider_HIT.4.07"/>
-      <Image name="Sprites\\Unit\\Producer\\377_Spider_HIT.4.08"/>
-    </N>
-    <WN>
-      <Image name="Sprites\\Unit\\Producer\\470_Spider_HIT.5.01"/>
-      <Image name="Sprites\\Unit\\Producer\\471_Spider_HIT.5.02"/>
-      <Image name="Sprites\\Unit\\Producer\\472_Spider_HIT.5.03"/>
-      <Image name="Sprites\\Unit\\Producer\\473_Spider_HIT.5.04"/>
-      <Image name="Sprites\\Unit\\Producer\\474_Spider_HIT.5.05"/>
-      <Image name="Sprites\\Unit\\Producer\\475_Spider_HIT.5.06"/>
-      <Image name="Sprites\\Unit\\Producer\\476_Spider_HIT.5.07"/>
-      <Image name="Sprites\\Unit\\Producer\\477_Spider_HIT.5.08"/>
-    </WN>
-    <W></W>
-    <WS>
-      <Image name="Sprites\\Unit\\Producer\\570_Spider_HIT.6.01"/>
-      <Image name="Sprites\\Unit\\Producer\\571_Spider_HIT.6.02"/>
-      <Image name="Sprites\\Unit\\Producer\\572_Spider_HIT.6.03"/>
-      <Image name="Sprites\\Unit\\Producer\\573_Spider_HIT.6.04"/>
-      <Image name="Sprites\\Unit\\Producer\\574_Spider_HIT.6.05"/>
-      <Image name="Sprites\\Unit\\Producer\\575_Spider_HIT.6.06"/>
-      <Image name="Sprites\\Unit\\Producer\\576_Spider_HIT.6.07"/>
-      <Image name="Sprites\\Unit\\Producer\\577_Spider_HIT.6.08"/>
-    </WS>
-  </HIT>
-  <DEAD count="10">
-    <S>
-      <Image name="Sprites\\Unit\\Producer\\080_Spider_DEAD.1.01"/>
-      <Image name="Sprites\\Unit\\Producer\\081_Spider_DEAD.1.02"/>
-      <Image name="Sprites\\Unit\\Producer\\082_Spider_DEAD.1.03"/>
-      <Image name="Sprites\\Unit\\Producer\\083_Spider_DEAD.1.04"/>
-      <Image name="Sprites\\Unit\\Producer\\084_Spider_DEAD.1.05"/>
-      <Image name="Sprites\\Unit\\Producer\\085_Spider_DEAD.1.06"/>
-      <Image name="Sprites\\Unit\\Producer\\086_Spider_DEAD.1.07"/>
-      <Image name="Sprites\\Unit\\Producer\\087_Spider_DEAD.1.08"/>
-      <Image name="Sprites\\Unit\\Producer\\088_Spider_DEAD.1.09"/>
-      <Image name="Sprites\\Unit\\Producer\\089_Spider_DEAD.1.10"/>
-    </S>
-    <ES>
-      <Image name="Sprites\\Unit\\Producer\\180_Spider_DEAD.2.01"/>
-      <Image name="Sprites\\Unit\\Producer\\181_Spider_DEAD.2.02"/>
-      <Image name="Sprites\\Unit\\Producer\\182_Spider_DEAD.2.03"/>
-      <Image name="Sprites\\Unit\\Producer\\183_Spider_DEAD.2.04"/>
-      <Image name="Sprites\\Unit\\Producer\\184_Spider_DEAD.2.05"/>
-      <Image name="Sprites\\Unit\\Producer\\185_Spider_DEAD.2.06"/>
-      <Image name="Sprites\\Unit\\Producer\\186_Spider_DEAD.2.07"/>
-      <Image name="Sprites\\Unit\\Producer\\187_Spider_DEAD.2.08"/>
-      <Image name="Sprites\\Unit\\Producer\\188_Spider_DEAD.2.09"/>
-      <Image name="Sprites\\Unit\\Producer\\189_Spider_DEAD.2.10"/>
-    </ES>
-    <E>
+      </E>
+      <EN>
+        <Image name="270_Spider_HIT.3.01"/>
+        <Image name="271_Spider_HIT.3.02"/>
+        <Image name="272_Spider_HIT.3.03"/>
+        <Image name="273_Spider_HIT.3.04"/>
+        <Image name="274_Spider_HIT.3.05"/>
+        <Image name="275_Spider_HIT.3.06"/>
+        <Image name="276_Spider_HIT.3.07"/>
+        <Image name="277_Spider_HIT.3.08"/>
+      </EN>
+      <N>
+        <Image name="370_Spider_HIT.4.01"/>
+        <Image name="371_Spider_HIT.4.02"/>
+        <Image name="372_Spider_HIT.4.03"/>
+        <Image name="373_Spider_HIT.4.04"/>
+        <Image name="374_Spider_HIT.4.05"/>
+        <Image name="375_Spider_HIT.4.06"/>
+        <Image name="376_Spider_HIT.4.07"/>
+        <Image name="377_Spider_HIT.4.08"/>
+      </N>
+      <WN>
+        <Image name="470_Spider_HIT.5.01"/>
+        <Image name="471_Spider_HIT.5.02"/>
+        <Image name="472_Spider_HIT.5.03"/>
+        <Image name="473_Spider_HIT.5.04"/>
+        <Image name="474_Spider_HIT.5.05"/>
+        <Image name="475_Spider_HIT.5.06"/>
+        <Image name="476_Spider_HIT.5.07"/>
+        <Image name="477_Spider_HIT.5.08"/>
+      </WN>
+      <W></W>
+      <WS>
+        <Image name="570_Spider_HIT.6.01"/>
+        <Image name="571_Spider_HIT.6.02"/>
+        <Image name="572_Spider_HIT.6.03"/>
+        <Image name="573_Spider_HIT.6.04"/>
+        <Image name="574_Spider_HIT.6.05"/>
+        <Image name="575_Spider_HIT.6.06"/>
+        <Image name="576_Spider_HIT.6.07"/>
+        <Image name="577_Spider_HIT.6.08"/>
+      </WS>
+    </HIT>
+    <DEAD count="10">
+      <S>
+        <Image name="080_Spider_DEAD.1.01"/>
+        <Image name="081_Spider_DEAD.1.02"/>
+        <Image name="082_Spider_DEAD.1.03"/>
+        <Image name="083_Spider_DEAD.1.04"/>
+        <Image name="084_Spider_DEAD.1.05"/>
+        <Image name="085_Spider_DEAD.1.06"/>
+        <Image name="086_Spider_DEAD.1.07"/>
+        <Image name="087_Spider_DEAD.1.08"/>
+        <Image name="088_Spider_DEAD.1.09"/>
+        <Image name="089_Spider_DEAD.1.10"/>
+      </S>
+      <ES>
+        <Image name="180_Spider_DEAD.2.01"/>
+        <Image name="181_Spider_DEAD.2.02"/>
+        <Image name="182_Spider_DEAD.2.03"/>
+        <Image name="183_Spider_DEAD.2.04"/>
+        <Image name="184_Spider_DEAD.2.05"/>
+        <Image name="185_Spider_DEAD.2.06"/>
+        <Image name="186_Spider_DEAD.2.07"/>
+        <Image name="187_Spider_DEAD.2.08"/>
+        <Image name="188_Spider_DEAD.2.09"/>
+        <Image name="189_Spider_DEAD.2.10"/>
+      </ES>
+      <E>
 
-    </E>
-    <EN>
-      <Image name="Sprites\\Unit\\Producer\\280_Spider_DEAD.3.01"/>
-      <Image name="Sprites\\Unit\\Producer\\281_Spider_DEAD.3.02"/>
-      <Image name="Sprites\\Unit\\Producer\\282_Spider_DEAD.3.03"/>
-      <Image name="Sprites\\Unit\\Producer\\283_Spider_DEAD.3.04"/>
-      <Image name="Sprites\\Unit\\Producer\\284_Spider_DEAD.3.05"/>
-      <Image name="Sprites\\Unit\\Producer\\285_Spider_DEAD.3.06"/>
-      <Image name="Sprites\\Unit\\Producer\\286_Spider_DEAD.3.07"/>
-      <Image name="Sprites\\Unit\\Producer\\287_Spider_DEAD.3.08"/>
-      <Image name="Sprites\\Unit\\Producer\\288_Spider_DEAD.3.09"/>
-      <Image name="Sprites\\Unit\\Producer\\289_Spider_DEAD.3.10"/>
-    </EN>
-    <N>
-      <Image name="Sprites\\Unit\\Producer\\380_Spider_DEAD.4.01"/>
-      <Image name="Sprites\\Unit\\Producer\\381_Spider_DEAD.4.02"/>
-      <Image name="Sprites\\Unit\\Producer\\382_Spider_DEAD.4.03"/>
-      <Image name="Sprites\\Unit\\Producer\\383_Spider_DEAD.4.04"/>
-      <Image name="Sprites\\Unit\\Producer\\384_Spider_DEAD.4.05"/>
-      <Image name="Sprites\\Unit\\Producer\\385_Spider_DEAD.4.06"/>
-      <Image name="Sprites\\Unit\\Producer\\386_Spider_DEAD.4.07"/>
-      <Image name="Sprites\\Unit\\Producer\\387_Spider_DEAD.4.08"/>
-      <Image name="Sprites\\Unit\\Producer\\388_Spider_DEAD.4.09"/>
-      <Image name="Sprites\\Unit\\Producer\\389_Spider_DEAD.4.10"/>
-    </N>
-    <WN>
-      <Image name="Sprites\\Unit\\Producer\\480_Spider_DEAD.5.01"/>
-      <Image name="Sprites\\Unit\\Producer\\481_Spider_DEAD.5.02"/>
-      <Image name="Sprites\\Unit\\Producer\\482_Spider_DEAD.5.03"/>
-      <Image name="Sprites\\Unit\\Producer\\483_Spider_DEAD.5.04"/>
-      <Image name="Sprites\\Unit\\Producer\\484_Spider_DEAD.5.05"/>
-      <Image name="Sprites\\Unit\\Producer\\485_Spider_DEAD.5.06"/>
-      <Image name="Sprites\\Unit\\Producer\\486_Spider_DEAD.5.07"/>
-      <Image name="Sprites\\Unit\\Producer\\487_Spider_DEAD.5.08"/>
-      <Image name="Sprites\\Unit\\Producer\\488_Spider_DEAD.5.09"/>
-      <Image name="Sprites\\Unit\\Producer\\489_Spider_DEAD.5.10"/>
-    </WN>
-    <W>
+      </E>
+      <EN>
+        <Image name="280_Spider_DEAD.3.01"/>
+        <Image name="281_Spider_DEAD.3.02"/>
+        <Image name="282_Spider_DEAD.3.03"/>
+        <Image name="283_Spider_DEAD.3.04"/>
+        <Image name="284_Spider_DEAD.3.05"/>
+        <Image name="285_Spider_DEAD.3.06"/>
+        <Image name="286_Spider_DEAD.3.07"/>
+        <Image name="287_Spider_DEAD.3.08"/>
+        <Image name="288_Spider_DEAD.3.09"/>
+        <Image name="289_Spider_DEAD.3.10"/>
+      </EN>
+      <N>
+        <Image name="380_Spider_DEAD.4.01"/>
+        <Image name="381_Spider_DEAD.4.02"/>
+        <Image name="382_Spider_DEAD.4.03"/>
+        <Image name="383_Spider_DEAD.4.04"/>
+        <Image name="384_Spider_DEAD.4.05"/>
+        <Image name="385_Spider_DEAD.4.06"/>
+        <Image name="386_Spider_DEAD.4.07"/>
+        <Image name="387_Spider_DEAD.4.08"/>
+        <Image name="388_Spider_DEAD.4.09"/>
+        <Image name="389_Spider_DEAD.4.10"/>
+      </N>
+      <WN>
+        <Image name="480_Spider_DEAD.5.01"/>
+        <Image name="481_Spider_DEAD.5.02"/>
+        <Image name="482_Spider_DEAD.5.03"/>
+        <Image name="483_Spider_DEAD.5.04"/>
+        <Image name="484_Spider_DEAD.5.05"/>
+        <Image name="485_Spider_DEAD.5.06"/>
+        <Image name="486_Spider_DEAD.5.07"/>
+        <Image name="487_Spider_DEAD.5.08"/>
+        <Image name="488_Spider_DEAD.5.09"/>
+        <Image name="489_Spider_DEAD.5.10"/>
+      </WN>
+      <W>
 
-    </W>
-    <WS>
-      <Image name="Sprites\\Unit\\Producer\\580_Spider_DEAD.6.01"/>
-      <Image name="Sprites\\Unit\\Producer\\581_Spider_DEAD.6.02"/>
-      <Image name="Sprites\\Unit\\Producer\\582_Spider_DEAD.6.03"/>
-      <Image name="Sprites\\Unit\\Producer\\583_Spider_DEAD.6.04"/>
-      <Image name="Sprites\\Unit\\Producer\\584_Spider_DEAD.6.05"/>
-      <Image name="Sprites\\Unit\\Producer\\585_Spider_DEAD.6.06"/>
-      <Image name="Sprites\\Unit\\Producer\\586_Spider_DEAD.6.07"/>
-      <Image name="Sprites\\Unit\\Producer\\587_Spider_DEAD.6.08"/>
-      <Image name="Sprites\\Unit\\Producer\\588_Spider_DEAD.6.09"/>
-      <Image name="Sprites\\Unit\\Producer\\589_Spider_DEAD.6.10"/>
-    </WS>
-  </DEAD>
-</Producer>
+      </W>
+      <WS>
+        <Image name="580_Spider_DEAD.6.01"/>
+        <Image name="581_Spider_DEAD.6.02"/>
+        <Image name="582_Spider_DEAD.6.03"/>
+        <Image name="583_Spider_DEAD.6.04"/>
+        <Image name="584_Spider_DEAD.6.05"/>
+        <Image name="585_Spider_DEAD.6.06"/>
+        <Image name="586_Spider_DEAD.6.07"/>
+        <Image name="587_Spider_DEAD.6.08"/>
+        <Image name="588_Spider_DEAD.6.09"/>
+        <Image name="589_Spider_DEAD.6.10"/>
+      </WS>
+    </DEAD>
+  </Action>
+</Sprite>
