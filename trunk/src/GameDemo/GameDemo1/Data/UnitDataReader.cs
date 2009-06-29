@@ -68,11 +68,13 @@ namespace GameDemo1.Data
                         directioninfo.Image.Add(GlobalDTO.GAME.Content.Load<Texture2D>(xmlDoc.SelectSingleNode("//Sprite").Attributes["path"].Value + temp2.ChildNodes[m].Attributes["name"].Value));
                     }
                     directioninfo.Name = temp2.Name;
-                    this.GetIdForDirection(directioninfo);                    
+                    this.GetIdForDirection(directioninfo);
+                    xmlDoc.Load(xmlFilePath);
                     statusinfo.DirectionInfo.Add(directioninfo.Name, directioninfo);
                 }
                 statusinfo.Name = temp1.Name;
                 this.GetIdForAction(statusinfo);
+                xmlDoc.Load(xmlFilePath);
                 unitDTO.Action.Add(statusinfo.Name, statusinfo);
             }
 
