@@ -91,6 +91,7 @@
     <Compile Include="Calculus\Transform.cs" />
     <Compile Include="AudioGame.cs" />
     <Compile Include="Components\Black_Angel.cs" />
+    <Compile Include="Components\Military.cs" />
     <Compile Include="Components\CursorGame.cs" />
     <Compile Include="Components\Particle.cs" />
     <Compile Include="Components\ProducerUnit.cs" />
