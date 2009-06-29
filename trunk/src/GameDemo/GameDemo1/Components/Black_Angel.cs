@@ -9,7 +9,7 @@ namespace GameDemo1.Components
 {
     public class Black_Angel: Unit
     {
-                #region Basic methods
+        #region Basic methods
         // =====================================================================================================
         // ============================================= basic Methods ================================================
         // =====================================================================================================
@@ -25,7 +25,7 @@ namespace GameDemo1.Components
             this.PercentSize = 0.5f;
             this.Position = position;
             this.CodeFaction = codeFaction;
-            this.Info = new StructureDTO();
+            this.Info = new UnitDTO();
             this.Info = GlobalDTO.UNIT_DATA_READER.Load(pathspecificationfile);
             this.CurrentStatus = this.Info.Action[StatusList.IDLE.Name];
             this.CurrentDirection = this.Info.Action[this.CurrentStatus.Name].DirectionInfo[DirectionList.S.Name];            
@@ -82,6 +82,5 @@ namespace GameDemo1.Components
         }
 
         #endregion
-
     }
 }
