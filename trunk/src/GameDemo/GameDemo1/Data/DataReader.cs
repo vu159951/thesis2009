@@ -9,69 +9,29 @@ namespace GameDemo1.Data
 {
     public abstract class DataReader
     {
-        protected XmlDocument xmlDoc;
+        protected XmlDocument xmlDoc = new XmlDocument();
 
-        public void GetIdForAction(StatusInfo statusinfo, string name)
+        public void GetIdForAction(StatusInfo statusinfo)
         {
-            if (name == "IDLE")
+            xmlDoc.Load(GameDemo1.Properties.Settings.Default.GlobalFile);
+            foreach (XmlNode direction in xmlDoc.SelectSingleNode("//Action").ChildNodes)
             {
-                statusinfo.Id = 1;
-            }
-            else if (name == "DEAD")
-            {
-                statusinfo.Id = 2;
-            }
-            else if (name == "MOVE")
-            {
-                statusinfo.Id = 3;
-            }
-            else if (name == "ATTACK")
-            {
-                statusinfo.Id = 4;
-            }
-            else if (name == "HIT")
-            {
-                statusinfo.Id = 5;
-            }
-            else if (name == "EXPLOIT")
-            {
-                statusinfo.Id = 6;
+                if (direction.Attributes["tagName"].Value == statusinfo.Name)
+                {
+                    statusinfo.Id = int.Parse(direction.Attributes["id"].Value);
+                }
             }            
         }
 
-        public void GetIdForDirection(DirectionInfo directioninfo, string name)
+        public void GetIdForDirection(DirectionInfo directioninfo)
         {
-            if (name == "S")
+            xmlDoc.Load(GameDemo1.Properties.Settings.Default.GlobalFile);
+            foreach(XmlNode direction in xmlDoc.SelectSingleNode("//Direction").ChildNodes)
             {
-                directioninfo.Id = 1;
-            }
-            else if (name == "ES")
-            {
-                directioninfo.Id = 2;
-            }
-            else if (name == "E")
-            {
-                directioninfo.Id = 3;
-            }
-            else if (name == "EN")
-            {
-                directioninfo.Id = 4;
-            }
-            else if (name == "N")
-            {
-                directioninfo.Id = 5;
-            }
-            else if (name == "WN")
-            {
-                directioninfo.Id = 6;
-            }
-            else if (name == "W")
-            {
-                directioninfo.Id = 7;
-            }
-            else if (name == "WS")
-            {
-                directioninfo.Id = 8;
+                if (direction.Attributes["tagName"].Value == directioninfo.Name)
+                {
+                    directioninfo.Id = int.Parse(direction.Attributes["id"].Value);
+                }
             }
         }   
     }
