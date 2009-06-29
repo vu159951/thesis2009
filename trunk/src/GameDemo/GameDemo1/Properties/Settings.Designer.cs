@@ -25,7 +25,7 @@ namespace GameDemo1.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("game.xml")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Specification//game.xml")]
         public string GlobalFile {
             get {
                 return ((string)(this["GlobalFile"]));
