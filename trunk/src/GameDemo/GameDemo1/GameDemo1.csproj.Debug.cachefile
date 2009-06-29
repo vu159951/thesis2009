@@ -1867,10 +1867,10 @@ Content\Sprites\Structure\Military\Military1.xnb
 Content\Sprites\Structure\Military\Military2.xnb
 Content\Sprites\Structure\Animal\Animal1.xnb
 Content\Sprites\Structure\Animal\Animal2.xnb
-Content\Sprites\Unit\Human_Knight\Humans_Knight.xnb
-Content\Sprites\Unit\Angel\Angel.xnb
-Content\Sprites\Unit\Phoenix\Phoenix.xnb
-Content\Sprites\Unit\Unicorn\Unicorn.xnb
+Content\Sprites\Unit\Human_Knight\Icon.xnb
+Content\Sprites\Unit\Angel\Icon.xnb
+Content\Sprites\Unit\Phoenix\Icon.xnb
+Content\Sprites\Unit\Unicorn\Icon.xnb
 Content\Cursor\cursor1.xnb
 Content\Images\MenuPanel\menuPanel2.xnb
 Content\Sprites\Terrain\Cactatus_1.xnb
@@ -1896,8 +1896,8 @@ Content\Sprites\Structure\Military\Military3.xnb
 Content\Sprites\ResourceCenter\StoneResourceCenter\StoneResourceCenter.xnb
 Content\Sprites\ResourceCenter\GoldResourceCenter\GoldResourceCenter.xnb
 Content\Cursor\cursor2.xnb
-Content\Sprites\Structure\Military\Military.xnb
-Content\Sprites\Structure\Animal\Animal.xnb
+Content\Sprites\Structure\Military\Icon.xnb
+Content\Sprites\Structure\Animal\Icon.xnb
 Content\Images\Health\Red.xnb
 Content\Sprites\Structure\TownHall\Icon.xnb
 Content\Sprites\Structure\TownHall\TownHall1.xnb
@@ -2619,7 +2619,7 @@ Content\Sprites\Unit\elf_swordman\593_elf_swordman_SHIELD.6.04.xnb
 Content\Sprites\Unit\elf_swordman\594_elf_swordman_SHIELD.6.05.xnb
 Content\Sprites\Unit\elf_swordman\595_elf_swordman_SHIELD.6.06.xnb
 Content\Sprites\Unit\elf_swordman\596_elf_swordman_SHIELD.6.07.xnb
-Content\Sprites\Unit\elf_swordman\elf_swordman.xnb
+Content\Sprites\Unit\elf_swordman\Icon.xnb
 Content\Sprites\Unit\Producer\000_Spider_IDLE.1.01.xnb
 Content\Sprites\Unit\Producer\001_Spider_IDLE.1.02.xnb
 Content\Sprites\Unit\Producer\002_Spider_IDLE.1.03.xnb
@@ -2968,7 +2968,7 @@ Content\Sprites\Unit\Producer\586_Spider_DEAD.6.07.xnb
 Content\Sprites\Unit\Producer\587_Spider_DEAD.6.08.xnb
 Content\Sprites\Unit\Producer\588_Spider_DEAD.6.09.xnb
 Content\Sprites\Unit\Producer\589_Spider_DEAD.6.10.xnb
-Content\Sprites\Unit\Producer\Producer.xnb
+Content\Sprites\Unit\Producer\Icon.xnb
 Content\Sprites\Unit\Wolf\000_Wolf_IDLE.1.01.xnb
 Content\Sprites\Unit\Wolf\001_Wolf_IDLE.1.02.xnb
 Content\Sprites\Unit\Wolf\002_Wolf_IDLE.1.03.xnb
@@ -3305,7 +3305,7 @@ Content\Sprites\Unit\Wolf\586_Wolf_DEAD.6.07.xnb
 Content\Sprites\Unit\Wolf\587_Wolf_DEAD.6.08.xnb
 Content\Sprites\Unit\Wolf\588_Wolf_DEAD.6.09.xnb
 Content\Sprites\Unit\Wolf\589_Wolf_DEAD.6.10.xnb
-Content\Sprites\Unit\Wolf\Wolf.xnb
+Content\Sprites\Unit\Wolf\Icon.xnb
 Content\Map\MiniMap\MiniMap1.xnb
 Content\Map\MiniMap\Minimap2.xnb
 Content\Map\MiniMap\Point.xnb
@@ -3646,7 +3646,7 @@ Content\Sprites\Unit\Archon_Archer\586_Archon_Archer_DEAD.6.07.xnb
 Content\Sprites\Unit\Archon_Archer\587_Archon_Archer_DEAD.6.08.xnb
 Content\Sprites\Unit\Archon_Archer\588_Archon_Archer_DEAD.6.09.xnb
 Content\Sprites\Unit\Archon_Archer\589_Archon_Archer_DEAD.6.10.xnb
-Content\Sprites\Unit\Archon_Archer\Archon_Archer.xnb
+Content\Sprites\Unit\Archon_Archer\Icon.xnb
 Content\Sprites\Structure\Animal\construction.xnb
 Content\Sprites\Structure\Military\construction.xnb
 Content\Sprites\Structure\TownHall\construction.xnb
