@@ -91,7 +91,7 @@
         <Image name="509_Humans_Knight_IDLE.6.10"/>
       </WS>
     </IDLE>
-    <WALK>
+    <MOVE>
       <S>
         <Image name="030_Humans_Knight_WALK.1.01"/>
         <Image name="031_Humans_Knight_WALK.1.02"/>
@@ -199,7 +199,7 @@
         <Image name="543_Humans_Knight_WALK.6.14"/>
         <Image name="544_Humans_Knight_WALK.6.15"/>
       </WS>
-    </WALK>
+    </MOVE>
     <ATTACK>
       <S>
         <Image name="060_Humans_Knight_ATTACK.1.01"/>

@@ -124,7 +124,7 @@
         <Image name="514_Spider_IDLE.6.15"/>
       </WS>
     </IDLE>
-    <WALK>
+    <MOVE>
       <S>
         <Image name="030_Spider_WALK.1.01"/>
         <Image name="031_Spider_WALK.1.02"/>
@@ -230,7 +230,7 @@
         <Image name="543_Spider_WALK.6.14"/>
         <Image name="544_Spider_WALK.6.15"/>
       </WS>
-    </WALK>
+    </MOVE>
     <EXPLOIT>
       <S>
         <Image name="060_Spider_ATTACK.1.01"/>

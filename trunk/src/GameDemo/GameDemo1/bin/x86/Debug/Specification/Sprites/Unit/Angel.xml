@@ -123,7 +123,7 @@
         <Image name="514_Angel_IDLE.6.15"/>
       </WS>
     </IDLE>
-    <FLY>
+    <MOVE>
       <S>
         <Image name="030_Angel_FLY.1.01"/>
         <Image name="031_Angel_FLY.1.02"/>
@@ -231,7 +231,7 @@
         <Image name="543_Angel_FLY.6.14"/>
         <Image name="544_Angel_FLY.6.15"/>
       </WS>
-    </FLY>
+    </MOVE>
     <ATTACK>
       <S>
         <Image name="060_Angel_ATTACK.1.01"/>

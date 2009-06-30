@@ -124,7 +124,7 @@
         <Image name="514_Unicorn_IDLE.6.15"/>
       </WS>
     </IDLE>
-    <WALK>
+    <MOVE>
       <S>
         <Image name="030_Unicorn_WALK.1.01"/>
         <Image name="031_Unicorn_WALK.1.02"/>
@@ -232,7 +232,7 @@
         <Image name="543_Unicorn_WALK.6.14"/>
         <Image name="544_Unicorn_WALK.6.15"/>
       </WS>
-    </WALK>
+    </MOVE>
     <ATTACK>
       <S>
         <Image name="060_Unicorn_ATTACK.1.01"/>
