@@ -18415,58 +18415,58 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LoadingImage\Loading1.png">
-      <Name>Loading1</Name>
+    <Compile Include="LoadingImage\Loading001.png">
+      <Name>Loading001</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="LoadingImage\Loading10.png">
-      <Name>Loading10</Name>
+    <Compile Include="LoadingImage\Loading010.png">
+      <Name>Loading010</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="LoadingImage\Loading11.png">
-      <Name>Loading11</Name>
+    <Compile Include="LoadingImage\Loading011.png">
+      <Name>Loading011</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="LoadingImage\Loading2.png">
-      <Name>Loading2</Name>
+    <Compile Include="LoadingImage\Loading002.png">
+      <Name>Loading002</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="LoadingImage\Loading3.png">
-      <Name>Loading3</Name>
+    <Compile Include="LoadingImage\Loading003.png">
+      <Name>Loading003</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="LoadingImage\Loading4.png">
-      <Name>Loading4</Name>
+    <Compile Include="LoadingImage\Loading004.png">
+      <Name>Loading004</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="LoadingImage\Loading5.png">
-      <Name>Loading5</Name>
+    <Compile Include="LoadingImage\Loading005.png">
+      <Name>Loading005</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="LoadingImage\Loading6.png">
-      <Name>Loading6</Name>
+    <Compile Include="LoadingImage\Loading006.png">
+      <Name>Loading006</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="LoadingImage\Loading7.png">
-      <Name>Loading7</Name>
+    <Compile Include="LoadingImage\Loading007.png">
+      <Name>Loading007</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="LoadingImage\Loading8.png">
-      <Name>Loading8</Name>
+    <Compile Include="LoadingImage\Loading008.png">
+      <Name>Loading008</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="LoadingImage\Loading9.png">
-      <Name>Loading9</Name>
+    <Compile Include="LoadingImage\Loading009.png">
+      <Name>Loading009</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
