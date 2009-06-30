@@ -50,7 +50,7 @@ namespace GameDemo1.Data
                 }
                 upgrade.Id = int.Parse(temp1.Attributes["id"].Value);
                 upgrade.Name = temp1.Attributes["name"].Value;
-                unitDTO.Upgrades.Add(upgrade.Id, upgrade);
+                unitDTO.Upgrade.Add(upgrade.Id, upgrade);
             }
 
             // action
