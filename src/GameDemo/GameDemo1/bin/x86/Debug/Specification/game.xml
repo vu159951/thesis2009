@@ -18,7 +18,8 @@
   <CURSOR>cursor2</CURSOR>
   <MENU_PANEL_BOTTOM>menuPanel2</MENU_PANEL_BOTTOM>
   <MENU_PANEL_TOP>menuPanel2</MENU_PANEL_TOP>
-
+  <MAP>Map_01</MAP>
+  
   <SPEED_SCROLL>
     <X>20</X>
     <Y>20</Y>
