@@ -3,7 +3,7 @@
   <Action>
     <IDLE>
       <S>
-        <Image name="Sprites\\Terrain\\OakTree_1"/>
+        <Image name="OakTree_1"/>
       </S>
       <ES>
       </ES>
