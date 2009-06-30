@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Sprite name="GoldResourceCenter" type="RockResourceCenter" path="Sprites\\ResourceCenter\\RockResourceCenter\\">
-  <Infotmaitons>
-    <Info name="Container" value="40000" />
-  </Infotmaitons>
+  <Informations>
+    <Info name="Rock" value="40000" />
+  </Informations>
   <Action>
     <IDLE>
       <S>
