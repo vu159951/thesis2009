@@ -52,5 +52,6 @@ namespace GameDemo1.DTO
         public static string CURSOR = "cursor2";
         public static string MENU_PANEL_BOTTOM = "menuPanel2";
         public static string MENU_PANEL_TOP = "menuPanel2";
+        public static string MAP = "Map_01";
     }
 }
