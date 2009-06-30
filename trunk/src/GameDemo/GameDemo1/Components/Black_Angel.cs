@@ -25,6 +25,13 @@ namespace GameDemo1.Components
             this.PercentSize = 0.5f;
             this.Position = position;
             this.CodeFaction = codeFaction;
+            this.PathSpecificationFile = pathspecificationfile;//get file for specification
+            this.MovingVector = Vector2.Zero;// now is IDLE
+            this.CurrentIndex = 0;
+            this.WhomIHit = null;// người bị đó tấn công
+            this.PlayerContainer = null; // player mà nó trực thuộc
+            this.StructureContainer = null;// player mà nó trực thuộc
+
             this.Info = new UnitDTO();
             this.Info = GlobalDTO.UNIT_DATA_READER.Load(pathspecificationfile);
             this.CurrentStatus = this.Info.Action[StatusList.IDLE.Name];
