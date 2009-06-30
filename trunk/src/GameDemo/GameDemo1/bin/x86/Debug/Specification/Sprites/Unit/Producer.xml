@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Sprite name="Producer" type="Unit" path="Sprites\\Unit\\Producer\\">
   <RepresentativeImage name="Producer"/>
-  <Information>
+  <Informations>
     <Info name="MaxHealth" value="80"/>
     <Info name="Power" value="0" />
     <Info name="RadiusAttack" value="0" />
     <Info name="RadiusDetect" value="0" />
     <Info name="Speed" value="3" />
-  </Information>
+  </Informations>
   <Requirements>
     <Upgrade name="1" id="1">
       <Info name="Gold" value="100" />
