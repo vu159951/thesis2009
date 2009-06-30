@@ -10,51 +10,36 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using Microsoft.Xna.Framework.Net;
 using Microsoft.Xna.Framework.Storage;
-using GameDemo1.DTO;
 using System.Xml;
+using GameDemo1.DTO;
 
 namespace GameDemo1.Data
 {
-    public class UnitDataReader : DataReader
+    public class ResourceCenterDataReader : DataReader
     {
-        public UnitDataReader()
+        public ResourceCenterDataReader()
         {
             xmlDoc = new XmlDocument();
         }
 
-        public UnitDTO Load(String xmlFilePath)
+        public ResourceCenterDTO Load(String xmlFilePath)
         {
-            UnitDTO unitDTO = new UnitDTO();
+            ResourceCenterDTO resourcecenter = new ResourceCenterDTO();
             xmlDoc.Load(xmlFilePath);
 
             // name
-            unitDTO.Name = xmlDoc.SelectSingleNode("//Sprite").Attributes["name"].Value;
+            resourcecenter.Name = xmlDoc.SelectSingleNode("//Sprite").Attributes["name"].Value;                                   
 
-            // information
+            // info            
             XmlNode nodeinfo = xmlDoc.SelectSingleNode("//Informations");
             for (int i = 0; i < nodeinfo.ChildNodes.Count; i++)
             {
                 ItemInfo info = new ItemInfo(nodeinfo.ChildNodes[i].Attributes["name"].Value, nodeinfo.ChildNodes[i].Attributes["value"].Value);
-                unitDTO.InformationList.Add(info.Name, info);
-            }
-
-            // upgrades 
-            XmlNode noderequirement = xmlDoc.SelectSingleNode("//Requirements");
-            for (int i = 0; i < noderequirement.ChildNodes.Count; i++)
-            {
-                XmlNode temp1 = noderequirement.ChildNodes[i];
-                UpgradeInfo upgrade = new UpgradeInfo();
-                for (int j = 0; j < temp1.ChildNodes.Count; j++)
-                {
-                    upgrade.Requirements.Add(temp1.ChildNodes[j].Attributes["name"].Value, new ItemInfo(temp1.ChildNodes[j].Attributes["name"].Value, temp1.ChildNodes[j].Attributes["value"].Value));
-                }
-                upgrade.Id = int.Parse(temp1.Attributes["id"].Value);
-                upgrade.Name = temp1.Attributes["name"].Value;
-                unitDTO.Upgrade.Add(upgrade.Id, upgrade);
+                resourcecenter.ResourceInfo.Add(info.Name, info);
             }
 
             // action
-            XmlNode nodeAction = xmlDoc.SelectSingleNode("//Action");
+            XmlNode nodeAction = xmlDoc.SelectSingleNode("//Action");            
             for (int i = 0; i < nodeAction.ChildNodes.Count; i++)
             {
                 XmlNode temp1 = nodeAction.ChildNodes[i];
@@ -75,15 +60,10 @@ namespace GameDemo1.Data
                 statusinfo.Name = temp1.Name;
                 this.GetIdForAction(statusinfo);
                 xmlDoc.Load(xmlFilePath);
-                unitDTO.Action.Add(statusinfo.Name, statusinfo);
+                resourcecenter.Action.Add(statusinfo.Name, statusinfo);
             }
-
-            // icon 
-            XmlNode icon = xmlDoc.SelectSingleNode("//Sprite");
-            String path = icon.Attributes["path"].Value;
-            unitDTO.Icon = GlobalDTO.GAME.Content.Load<Texture2D>(path + "Icon");
-
-            return unitDTO;
+            return resourcecenter;
         }
+
     }
 }
