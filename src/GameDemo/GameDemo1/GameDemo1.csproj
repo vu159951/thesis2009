@@ -130,6 +130,7 @@
     <Compile Include="DTO\MapCell.cs" />
     <Compile Include="Data\MapDataReader.cs" />
     <Compile Include="GameInit.cs" />
+    <Compile Include="LoadingScene.cs" />
     <Compile Include="ManagerGame.cs" />
     <Compile Include="ManagerPlayer.cs" />
     <Compile Include="MiniMap.cs" />
