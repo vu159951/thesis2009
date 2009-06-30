@@ -47,6 +47,7 @@ namespace GameDemo1.Data
             GlobalDTO.CURSOR = xmlDoc.SelectSingleNode("CURSOR").InnerText;
             GlobalDTO.MENU_PANEL_BOTTOM = xmlDoc.SelectSingleNode("MENU_PANEL_BOTTOM").InnerText;
             GlobalDTO.MENU_PANEL_TOP = xmlDoc.SelectSingleNode("MENU_PANEL_TOP").InnerText;
+            GlobalDTO.MAP = xmlDoc.SelectSingleNode("MAP").InnerText;
         }
     }
 }
