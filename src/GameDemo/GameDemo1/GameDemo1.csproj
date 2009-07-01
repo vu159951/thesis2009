@@ -99,8 +99,10 @@
     <Compile Include="Components\ProducerUnit.cs" />
     <Compile Include="Components\RhombusMap.cs" />
     <Compile Include="Components\Map.cs" />
+    <Compile Include="Data\ParticleDataReader.cs" />
     <Compile Include="Data\ResourceCenterDataReader.cs" />
     <Compile Include="Data\TerrainDataReader.cs" />
+    <Compile Include="DTO\ParticleDTO.cs" />
     <Compile Include="DTO\ResourceCenterDTO.cs" />
     <Compile Include="DTO\TerrainDTO.cs" />
     <Compile Include="Factory\StructureManager.cs" />

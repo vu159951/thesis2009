@@ -19,7 +19,7 @@ namespace GameDemo1.Components
 
         }
 
-        public Producer(Game game, string pathspecificationfile, Vector2 position, int codeFaction)
+        public Producer(Game game, string pathspecificationfile, string particleSpecificationFile, Vector2 position, int codeFaction)
             : base(game)
         {
             this.PercentSize = 0.5f;
@@ -31,6 +31,13 @@ namespace GameDemo1.Components
             this.WhomIHit = null;// người bị đó tấn công
             this.PlayerContainer = null; // player mà nó trực thuộc
             this.StructureContainer = null;// player mà nó trực thuộc
+
+            // lấy tập hình particle
+            this.ParticleAttack = new Particle(GlobalDTO.GAME);
+            if (particleSpecificationFile != "")
+            {
+                this.ParticleAttack.ParticleInfo = GlobalDTO.PARTICLE_DATA_READER.Load(particleSpecificationFile);
+            }
 
             // loại tài nguyên hiện tài mà producer đang khai thác
             this.CurrentResourceExploiting = null;
