@@ -18,10 +18,40 @@ namespace GameDemo1.Components
     /// </summary>
     public class Particle : Microsoft.Xna.Framework.DrawableGameComponent
     {
+        private string _particleName;
+        private List<Texture2D> _imageList;
+        private Vector2 _position;
+        private int _indexImage;
+
+        public int IndexImage
+        {
+            get { return _indexImage; }
+            set { _indexImage = value; }
+        }
+        public Vector2 Position
+        {
+            get { return _position; }
+            set { _position = value; }
+        }
+        public string ParticleName
+        {
+            get { return _particleName; }
+            set { _particleName = value; }
+        }
+        public List<Texture2D> ImageList
+        {
+            get { return _imageList; }
+            set { _imageList = value; }
+        }
+
         public Particle(Game game)
             : base(game)
         {
             // TODO: Construct any child components here
+            this._particleName = "";
+            this._position = Vector2.Zero;
+            this._imageList = new List<Texture2D>();
+            this._indexImage = 0;
         }
 
         /// <summary>
@@ -72,9 +102,8 @@ namespace GameDemo1.Components
         /// <param name="gameTime">Time passed since the last call to Microsoft.Xna.Framework.DrawableGameComponent.Draw(Microsoft.Xna.Framework.GameTime).</param>
         public override void Draw(GameTime gameTime)
         {
-            // TODO: Add your draw code here
-
+            // TODO: Add your draw code here            
             base.Draw(gameTime);
-        }
+        }                
     }
 }
