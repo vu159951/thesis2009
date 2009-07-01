@@ -16,11 +16,10 @@ namespace GameDemo1.DTO
         public static UnitDataReader UNIT_DATA_READER = new UnitDataReader();
         public static TerrainDataReader TERRAIN_DATA_READER = new TerrainDataReader();
         public static ResourceCenterDataReader RESOURCECENTER_DATA_READER = new ResourceCenterDataReader();
+
+        public static string[] modesGame = { "Loading", "Playing" };
+        public static string currentModeGame = "Loading";
         
-        /// <summary>
-        /// Size of a map cell in pixel.
-        /// </summary>
-        /// 
         public static Size SCREEN_SIZE = new Size(1000, 700);
         public static Size MENU_PANEL_BOTTOM_SIZE = new Size(1000, 170);
         public static Size MENU_PANEL_TOP_SIZE = new Size(1000, 35);
