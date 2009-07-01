@@ -5,6 +5,7 @@
   <SPEC_TERRAIN_PATH>Specification\\Sprites\\Terrain\\</SPEC_TERRAIN_PATH>
   <SPEC_UNIT_PATH>Specification\\Sprites\\Unit\\</SPEC_UNIT_PATH>
   <SPEC_MAP_PATH>Specification\\Map\\</SPEC_MAP_PATH>
+  <SPEC_PARTICLE_PATH>Specification\\Particle\\</SPEC_PARTICLE_PATH>
   <RES_CURSOR_PATH>Cursor\\</RES_CURSOR_PATH>
   <RES_FONT_PATH>Font\\Mangal</RES_FONT_PATH>
   <RES_MINI_MAP_PATH>Map\\MiniMap\\</RES_MINI_MAP_PATH>
