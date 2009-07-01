@@ -16,6 +16,7 @@ namespace GameDemo1.DTO
         public static UnitDataReader UNIT_DATA_READER = new UnitDataReader();
         public static TerrainDataReader TERRAIN_DATA_READER = new TerrainDataReader();
         public static ResourceCenterDataReader RESOURCECENTER_DATA_READER = new ResourceCenterDataReader();
+        public static ParticleDataReader PARTICLE_DATA_READER = new ParticleDataReader();
 
         public static string[] modesGame = { "Loading", "Playing" };
         public static string currentModeGame = "Loading";
@@ -35,6 +36,7 @@ namespace GameDemo1.DTO
         public static string SPEC_TERRAIN_PATH = "Specification\\Sprites\\Terrain\\";
         public static string SPEC_UNIT_PATH = "Specification\\Sprites\\Unit\\";
         public static string SPEC_MAP_PATH = "Specification\\Map\\";
+        public static string SPEC_PARTICLE_PATH = "Specification\\Particle\\";
 
         public static string RES_CURSOR_PATH = "Cursor\\";
         public static string RES_FONT_PATH = "Font\\Mangal";

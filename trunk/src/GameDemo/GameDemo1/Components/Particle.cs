@@ -10,6 +10,7 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using Microsoft.Xna.Framework.Net;
 using Microsoft.Xna.Framework.Storage;
+using GameDemo1.DTO;
 
 namespace GameDemo1.Components
 {
@@ -18,11 +19,15 @@ namespace GameDemo1.Components
     /// </summary>
     public class Particle : Microsoft.Xna.Framework.DrawableGameComponent
     {
-        private string _particleName;
-        private List<Texture2D> _imageList;
+        private ParticleDTO _particleInfo;        
         private Vector2 _position;
         private int _indexImage;
 
+        public ParticleDTO ParticleInfo
+        {
+            get { return _particleInfo; }
+            set { _particleInfo = value; }
+        }
         public int IndexImage
         {
             get { return _indexImage; }
@@ -32,26 +37,14 @@ namespace GameDemo1.Components
         {
             get { return _position; }
             set { _position = value; }
-        }
-        public string ParticleName
-        {
-            get { return _particleName; }
-            set { _particleName = value; }
-        }
-        public List<Texture2D> ImageList
-        {
-            get { return _imageList; }
-            set { _imageList = value; }
-        }
-
+        }       
         public Particle(Game game)
             : base(game)
         {
             // TODO: Construct any child components here
-            this._particleName = "";
             this._position = Vector2.Zero;
-            this._imageList = new List<Texture2D>();
             this._indexImage = 0;
+            this._particleInfo = new ParticleDTO();
         }
 
         /// <summary>

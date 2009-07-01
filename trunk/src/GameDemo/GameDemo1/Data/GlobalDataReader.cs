@@ -31,6 +31,7 @@ namespace GameDemo1.Data
             GlobalDTO.SPEC_TERRAIN_PATH = xmlDoc.SelectSingleNode("SPEC_TERRAIN_PATH").InnerText;
             GlobalDTO.SPEC_UNIT_PATH = xmlDoc.SelectSingleNode("SPEC_UNIT_PATH").InnerText;
             GlobalDTO.SPEC_MAP_PATH = xmlDoc.SelectSingleNode("SPEC_MAP_PATH").InnerText;
+            GlobalDTO.SPEC_MAP_PATH = xmlDoc.SelectSingleNode("SPEC_PARTICLE_PATH").InnerText;
 
             GlobalDTO.RES_CURSOR_PATH = xmlDoc.SelectSingleNode("RES_CURSOR_PATH").InnerText;
             GlobalDTO.RES_FONT_PATH = xmlDoc.SelectSingleNode("RES_FONT_PATH").InnerText;
