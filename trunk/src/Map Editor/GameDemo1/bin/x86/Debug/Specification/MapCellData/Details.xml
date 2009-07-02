@@ -1,0 +1,29 @@
+<MapCells quantity='2299' >
+	<MapCellGroup name='Dark desert' id='0' start='0' end='99' />
+	<MapCellGroup name='Grassland 0' id='1' start='100' end='199' />
+	<MapCellGroup name='Sea' id='2' start='200' end='299' />
+	<MapCellGroup name='Big tree in line' id='3' start='300' end='335' />
+	<MapCellGroup name='Scattered stone' id='4' start='336' end='371' />
+	<MapCellGroup name='Steppe 0' id='5' start='372' end='471' />
+	<MapCellGroup name='Steppe 1' id='6' start='472' end='571' />
+	<MapCellGroup name='Grassland 1' id='7' start='572' end='671' />
+	<MapCellGroup name='Grassland 2' id='8' start='672' end='771' />
+	<MapCellGroup name='Desert' id='9' start='772' end='871' />
+	<MapCellGroup name='Leaves on land' id='10' start='872' end='971' />
+	<MapCellGroup name='Foresrt' id='11' start='972' end='1071' />
+	<MapCellGroup name='Dark green sea' id='12' start='1072' end='1171' />
+	<MapCellGroup name='Green sea' id='13' start='1172' end='1271' />
+	<MapCellGroup name='Gray desert' id='14' start='1272' end='1371' />
+	<MapCellGroup name='Light brick' id='15' start='1372' end='1471' />
+	<MapCellGroup name='Brick 0' id='16' start='1472' end='1571' />
+	<MapCellGroup name='Mound and drain' id='17' start='1572' end='1580' />
+	<MapCellGroup name='Small tree in line 0' id='18' start='1581' end='1589' />
+	<MapCellGroup name='Small tree in line 1' id='19' start='1590' end='1598' />
+	<MapCellGroup name='Deep blue sky' id='20' start='1599' end='1698' />
+	<MapCellGroup name='Blue sky' id='21' start='1699' end='1798' />
+	<MapCellGroup name='Dark desert under cloud' id='22' start='1799' end='1898' />
+	<MapCellGroup name='Grassland under cloud 0' id='23' start='1899' end='1998' />
+	<MapCellGroup name='Grassland under cloud 1' id='24' start='1999' end='2098' />
+	<MapCellGroup name='Brick under cloud' id='25' start='2099' end='2198' />
+	<MapCellGroup name='Brick 1' id='26' start='2199' end='2298' />
+</MapCells>
