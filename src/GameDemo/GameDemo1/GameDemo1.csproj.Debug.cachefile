@@ -3650,10 +3650,6 @@ Content\Sprites\Unit\Archon_Archer\Icon.xnb
 Content\Sprites\Structure\Animal\construction.xnb
 Content\Sprites\Structure\Military\construction.xnb
 Content\Sprites\Structure\TownHall\construction.xnb
-Content\Font\Mangal.xnb
-Content\Sound\sword.xnb
-Content\Sound\startbuild.xnb
-Content\Sound\clickitemmenu.xnb
 Content\LoadingImage\Loading001.xnb
 Content\LoadingImage\Loading010.xnb
 Content\LoadingImage\Loading011.xnb
@@ -3675,3 +3671,7 @@ Content\Particle\Boiling Fury Fire\00007.xnb
 Content\Particle\Boiling Fury Fire\00008.xnb
 Content\Particle\Boiling Fury Fire\00009.xnb
 Content\Particle\Boiling Fury Fire\00010.xnb
+Content\Font\Mangal.xnb
+Content\Sound\sword.xnb
+Content\Sound\startbuild.xnb
+Content\Sound\clickitemmenu.xnb
