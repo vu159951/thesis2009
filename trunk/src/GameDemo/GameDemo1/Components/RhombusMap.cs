@@ -37,6 +37,10 @@ namespace GameDemo1.Components
         /// </summary>
         protected override void ScrollingMapByKeyBoard()
         {
+            if (GlobalDTO.currentModeGame == "Loading")
+            {
+                return;
+            }
             this.keyState = Keyboard.GetState(); // get key
             if (keyState.IsKeyDown(Keys.Up))
             {
@@ -79,6 +83,10 @@ namespace GameDemo1.Components
         /// </summary>
         protected override void ScrollingMapByMouse()
         {
+            if (GlobalDTO.currentModeGame == "Loading")
+            {
+                return;
+            }
             this.mouseState = Mouse.GetState(); // get mouse
             if (mouseState.X <= 0)
             {
