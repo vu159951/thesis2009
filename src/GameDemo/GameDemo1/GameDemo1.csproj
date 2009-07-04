@@ -87,36 +87,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Factory\ResouceCenterManager.cs" />
+    <Compile Include="Factory\SpriteManager.cs" />
     <Compile Include="Factory\StructureManager.cs" />
-<<<<<<< .mine
     <Compile Include="Factory\UnitManager.cs" />
-=======
-    <Compile Include="Components\TownHall.cs" />
-    <Compile Include="Components\Unit.cs" />
-    <Compile Include="Components\ResourceCenter.cs" />
-    <Compile Include="Components\SquareMap.cs" />
-    <Compile Include="Components\Structure.cs" />
-    <Compile Include="Components\Terrain.cs" />
-    <Compile Include="Components\Sprite.cs" />
-    <Compile Include="DTO\GlobalDTO.cs" />
-    <Compile Include="Data\DataReader.cs" />
-    <Compile Include="Data\GlobalDataReader.cs" />
-    <Compile Include="Data\StatusDataReader.cs" />
-    <Compile Include="Data\StructureDataReader.cs" />
-    <Compile Include="Data\UnitDataReader.cs" />
-    <Compile Include="DTO\DirectionInfo.cs" />
-    <Compile Include="DTO\DirectionList.cs" />
-    <Compile Include="DTO\SpriteDTO.cs" />
-    <Compile Include="DTO\StatusInfo.cs" />
-    <Compile Include="DTO\StatusList.cs" />
-    <Compile Include="DTO\StructureDTO.cs" />
-    <Compile Include="DTO\UnitDTO.cs" />
-    <Compile Include="DTO\ItemInfo.cs" />
-    <Compile Include="DTO\UpgradeInfo.cs" />
-    <Compile Include="GlobalFunction.cs" />
-    <Compile Include="DTO\MapCell.cs" />
-    <Compile Include="Data\MapDataReader.cs" />
->>>>>>> .r201
     <Compile Include="GameInit.cs" />
     <Compile Include="LoadingScene.cs" />
     <Compile Include="MainGame.cs" />
