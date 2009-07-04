@@ -8,8 +8,8 @@ namespace GameDemo1.DTO
 {
     public class UnitDTO: SpriteDTO
     {
-        private Dictionary<String,ItemInfo> _informationList;
-        private Dictionary<int,UpgradeInfo> _upgrade;
+        private Dictionary<String,ItemInfo> _informationList;// tập các thông tin liên quan đến 
+        private Dictionary<int,UpgradeInfo> _upgrade;// tập các thông tin upgrade
 
         internal Dictionary<String, ItemInfo> InformationList
         {

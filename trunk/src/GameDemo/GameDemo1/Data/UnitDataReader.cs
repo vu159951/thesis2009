@@ -27,10 +27,10 @@ namespace GameDemo1.Data
             UnitDTO unitDTO = new UnitDTO();
             xmlDoc.Load(xmlFilePath);
 
-            // name
+            // đọc name của unit
             unitDTO.Name = xmlDoc.SelectSingleNode("//Sprite").Attributes["name"].Value;
 
-            // information
+            // đọc tập các information của unit
             XmlNode nodeinfo = xmlDoc.SelectSingleNode("//Informations");
             for (int i = 0; i < nodeinfo.ChildNodes.Count; i++)
             {
@@ -38,7 +38,7 @@ namespace GameDemo1.Data
                 unitDTO.InformationList.Add(info.Name, info);
             }
 
-            // upgrades 
+            // đọc upgrades của Unit, hiện tại chỉ ở cấp 1
             XmlNode noderequirement = xmlDoc.SelectSingleNode("//Requirements");
             for (int i = 0; i < noderequirement.ChildNodes.Count; i++)
             {
@@ -53,7 +53,7 @@ namespace GameDemo1.Data
                 unitDTO.Upgrade.Add(upgrade.Id, upgrade);
             }
 
-            // action
+            // đọc tập hình ảnh các action unit
             XmlNode nodeAction = xmlDoc.SelectSingleNode("//Action");
             for (int i = 0; i < nodeAction.ChildNodes.Count; i++)
             {
@@ -78,7 +78,7 @@ namespace GameDemo1.Data
                 unitDTO.Action.Add(statusinfo.Name, statusinfo);
             }
 
-            // icon 
+            // lấy icon  hình đại diện cho Unit
             XmlNode icon = xmlDoc.SelectSingleNode("//Sprite");
             String path = icon.Attributes["path"].Value;
             unitDTO.Icon = GlobalDTO.GAME.Content.Load<Texture2D>(path + "Icon");

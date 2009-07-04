@@ -126,7 +126,7 @@
     <Compile Include="DTO\StatusList.cs" />
     <Compile Include="DTO\StructureDTO.cs" />
     <Compile Include="DTO\UnitDTO.cs" />
-    <Compile Include="DTO\SpriteInfo.cs" />
+    <Compile Include="DTO\ItemInfo.cs" />
     <Compile Include="DTO\UpgradeInfo.cs" />
     <Compile Include="GlobalFunction.cs" />
     <Compile Include="DTO\MapCell.cs" />

@@ -7,9 +7,9 @@ namespace GameDemo1.DTO
 {
     public class UpgradeInfo
     {
-        private Dictionary<String,ItemInfo> _requirements;
-        private string _name;
-        private int _id;
+        private Dictionary<String,ItemInfo> _requirements; // thông tin yêu cầu cho upgrade
+        private string _name;// tên upgrade
+        private int _id; // mã số
 
         public int Id
         {

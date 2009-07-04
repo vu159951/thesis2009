@@ -27,10 +27,10 @@ namespace GameDemo1.Data
             ResourceCenterDTO resourcecenter = new ResourceCenterDTO();
             xmlDoc.Load(xmlFilePath);
 
-            // name
+            // lấy name của Resource center
             resourcecenter.Name = xmlDoc.SelectSingleNode("//Sprite").Attributes["name"].Value;                                   
 
-            // info            
+            // lấy tập info của resource center, 
             XmlNode nodeinfo = xmlDoc.SelectSingleNode("//Informations");
             for (int i = 0; i < nodeinfo.ChildNodes.Count; i++)
             {
@@ -38,7 +38,7 @@ namespace GameDemo1.Data
                 resourcecenter.ResourceInfo.Add(info.Name, info);
             }
 
-            // action
+            // lây   tập các  action của Resource center, hiển nhiên chỉ có IDLE
             XmlNode nodeAction = xmlDoc.SelectSingleNode("//Action");            
             for (int i = 0; i < nodeAction.ChildNodes.Count; i++)
             {

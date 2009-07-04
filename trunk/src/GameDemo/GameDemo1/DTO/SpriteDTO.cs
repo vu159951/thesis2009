@@ -8,9 +8,9 @@ namespace GameDemo1.DTO
 {
     public abstract class SpriteDTO
     {
-        protected string _name;
-        protected Texture2D _icon;
-        protected Dictionary<String, StatusInfo> _action;
+        protected string _name;// tên sprite
+        protected Texture2D _icon; // hình icon đại diện
+        protected Dictionary<String, StatusInfo> _action; // tập các hành động
 
         public Texture2D Icon
         {

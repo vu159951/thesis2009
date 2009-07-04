@@ -27,10 +27,10 @@ namespace GameDemo1.Data
             TerrainDTO terrainInfo = new TerrainDTO();
             xmlDoc.Load(xmlFilePath);
 
-            // name
+            // lấy name của terrain
             terrainInfo.Name = xmlDoc.SelectSingleNode("//Sprite").Attributes["name"].Value;                                   
 
-            // action
+            // lấy tập action của terrain nhưng hiển nhiên chỉ có IDLE
             XmlNode nodeAction = xmlDoc.SelectSingleNode("//Action");            
             for (int i = 0; i < nodeAction.ChildNodes.Count; i++)
             {
