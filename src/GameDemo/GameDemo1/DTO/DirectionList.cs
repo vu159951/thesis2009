@@ -6,7 +6,7 @@ using System.Xml;
 
 namespace GameDemo1.DTO
 {
-    public class DirectionList
+    public class DirectionList // list các hướng
     {
         public static DirectionInfo S = new DirectionInfo(1, "S");
         public static DirectionInfo ES = new DirectionInfo(2, "ES");

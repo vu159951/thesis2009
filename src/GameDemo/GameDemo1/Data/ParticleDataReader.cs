@@ -27,10 +27,10 @@ namespace GameDemo1.Data
             ParticleDTO particle = new ParticleDTO();
             xmlDoc.Load(xmlFilePath);
 
-            // name
+            // đọc name của particle
             particle.Name = xmlDoc.SelectSingleNode("//Sprite").Attributes["name"].Value;                                   
 
-            // images
+            // lấy tập images cho particle
             XmlNode nodeAction = xmlDoc.SelectSingleNode("//Action");            
             for (int i = 0; i < nodeAction.ChildNodes.Count; i++)
             {

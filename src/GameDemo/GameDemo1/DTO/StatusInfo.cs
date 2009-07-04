@@ -7,9 +7,9 @@ namespace GameDemo1.DTO
 {
     public class StatusInfo
     {
-        private Dictionary<String,DirectionInfo> _directionInfo;
-        private int _id;
-        private string _name;
+        private Dictionary<String,DirectionInfo> _directionInfo;// tập các hướng trong hành động
+        private int _id;// mã của hành động
+        private string _name; // tên hành động
 
         public int Id
         {

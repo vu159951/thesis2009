@@ -27,10 +27,10 @@ namespace GameDemo1.Data
             StructureDTO structureInfo = new StructureDTO();
             xmlDoc.Load(xmlFilePath);
 
-            // name
+            // đọc name của structure
             structureInfo.Name = xmlDoc.SelectSingleNode("//Sprite").Attributes["name"].Value;
 
-            // information
+            // đọc tập information của structure
             XmlNode nodeinfo = xmlDoc.SelectSingleNode("//Informations");
             for (int i = 0; i < nodeinfo.ChildNodes.Count; i++)
             {
@@ -38,7 +38,7 @@ namespace GameDemo1.Data
                 structureInfo.InformationList.Add(info.Name, info);
             }
 
-            // upgrades 
+            //  đọc tập upgrades của Structure
             XmlNode noderequirement = xmlDoc.SelectSingleNode("//Requirements");
             for (int i = 0; i < noderequirement.ChildNodes.Count; i++)
             {
@@ -53,7 +53,7 @@ namespace GameDemo1.Data
                 structureInfo.UpgradeList.Add(upgrade.Id, upgrade);
             }
 
-            // list unit
+            // lấy list unit mà structure có thể mua cho từng cấp upgrades
             XmlNode nodeunits = xmlDoc.SelectSingleNode("//ListUnits");
             for (int i = 0; i < nodeunits.ChildNodes.Count; i++)
             {
@@ -62,7 +62,7 @@ namespace GameDemo1.Data
             }
 
 
-            // action
+            // aly61 tập các ảnh action của Structure, hiển nhiên chỉ có IDLE
             XmlNode nodeAction = xmlDoc.SelectSingleNode("//Action");            
             for (int i = 0; i < nodeAction.ChildNodes.Count; i++)
             {
@@ -87,7 +87,7 @@ namespace GameDemo1.Data
                 structureInfo.Action.Add(statusinfo.Name, statusinfo);
             }
 
-            // icon 
+            // lấy icon  hình đại diện
             XmlNode icon = xmlDoc.SelectSingleNode("//Sprite");
             String path = icon.Attributes["path"].Value;
             structureInfo.Icon = GlobalDTO.GAME.Content.Load<Texture2D>(path + "Icon");

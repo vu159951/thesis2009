@@ -7,9 +7,9 @@ namespace GameDemo1.DTO
 {
     public class StructureDTO: SpriteDTO
     {
-        private Dictionary<String, ItemInfo> _informationList;
-        private Dictionary<int, UpgradeInfo> _upgradeList;
-        private List<ItemInfo> _unitList;
+        private Dictionary<String, ItemInfo> _informationList;// tập các thông tin liên quan đến Structure, health, power ...
+        private Dictionary<int, UpgradeInfo> _upgradeList; // tập thông tin Upgrade
+        private List<ItemInfo> _unitList; // tập các Unit có thể mua
 
         public List<ItemInfo> UnitList
         {

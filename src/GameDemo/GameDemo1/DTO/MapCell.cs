@@ -14,7 +14,7 @@ namespace GameDemo1.DTO
         private int _status;
 
         /// <summary>
-        /// Background of the cell
+        /// hình nền của cell
         /// </summary>
         public Texture2D Background
         {
@@ -22,7 +22,7 @@ namespace GameDemo1.DTO
             set { _background = value; }
         }
         /// <summary>
-        /// X-coordinate of the cell.
+        /// tọa độ X của cell trong toàn bản đồ
         /// </summary>
         public int X
         {
@@ -30,7 +30,7 @@ namespace GameDemo1.DTO
             set { _x = value; }
         }
         /// <summary>
-        /// Y-coordinate of a map cell in pixel.
+        /// tọa độ y của cell trong toàn bản đồ
         /// </summary>       
         public int Y
         {

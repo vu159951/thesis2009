@@ -10,9 +10,9 @@ namespace GameDemo1.DTO
 {
     public class DirectionInfo
     {
-        private List<Texture2D> _image;
-        private int _id;
-        private string _name;
+        private List<Texture2D> _image;// tập các hình trong 1 hướng
+        private int _id;// mã của hướng
+        private string _name;// tên của hướng
 
         public string Name
         {
