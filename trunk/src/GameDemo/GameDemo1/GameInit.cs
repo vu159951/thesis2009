@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using GameDemo1.DTO;
+using GameSharedObject.DTO;
 
 namespace GameDemo1
 {

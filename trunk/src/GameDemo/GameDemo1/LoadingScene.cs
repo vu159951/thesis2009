@@ -11,7 +11,7 @@ using Microsoft.Xna.Framework.Media;
 using Microsoft.Xna.Framework.Net;
 using Microsoft.Xna.Framework.Storage;
 using System.IO;
-using GameDemo1.DTO;
+using GameSharedObject.DTO;
 
 
 namespace GameDemo1
@@ -46,7 +46,7 @@ namespace GameDemo1
             for (int i = 0; i < files.Length; i++)
             {
                 string nameImage = files[i].Name;
-                this._imageList.Add(GlobalDTO.GAME.Content.Load<Texture2D>(dir.FullName + "//" + nameImage.Substring(0, nameImage.LastIndexOf("."))));
+                this._imageList.Add(game.Content.Load<Texture2D>(dir.FullName + "//" + nameImage.Substring(0, nameImage.LastIndexOf("."))));
             }
         }
 

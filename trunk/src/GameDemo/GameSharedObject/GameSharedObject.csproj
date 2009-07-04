@@ -1,21 +1,18 @@
 ﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
   <PropertyGroup>
-    <ProjectGuid>{2594BC89-58A8-4C39-B1AF-A65C17385AE4}</ProjectGuid>
+    <ProjectGuid>{7E75E764-BE2E-40B1-8BFF-F815FF87E77D}</ProjectGuid>
     <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>GameSharedObject</RootNamespace>
-    <AssemblyName>GameDemo1</AssemblyName>
+    <AssemblyName>GameSharedObject</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <XnaFrameworkVersion>v3.0</XnaFrameworkVersion>
     <XnaPlatform>Windows</XnaPlatform>
-    <XnaCrossPlatformGroupID>50fd1492-2a5f-4dd3-9eb3-4e559694293e</XnaCrossPlatformGroupID>
-    <ApplicationIcon>Game.ico</ApplicationIcon>
-    <Thumbnail>
-    </Thumbnail>
-    <PublishUrl>http://localhost/GameDemo1/</PublishUrl>
+    <XnaCrossPlatformGroupID>35ac756d-5273-4483-95ad-35e15fee59e2</XnaCrossPlatformGroupID>
+    <PublishUrl>http://localhost/GameSharedObject/</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -71,7 +68,6 @@
     <Reference Include="System">
       <Private>False</Private>
     </Reference>
-    <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Xml">
       <Private>False</Private>
@@ -86,47 +82,66 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Factory\ResouceCenterManager.cs" />
-    <Compile Include="Factory\StructureManager.cs" />
-<<<<<<< .mine
-    <Compile Include="Factory\UnitManager.cs" />
-=======
-    <Compile Include="Components\TownHall.cs" />
-    <Compile Include="Components\Unit.cs" />
+    <Compile Include="AudioGame.cs" />
+    <Compile Include="Calculus\RomhbusTransform.cs" />
+    <Compile Include="Calculus\SquareTransform.cs" />
+    <Compile Include="Calculus\Transform.cs" />
+    <Compile Include="Components\Black_Angel.cs" />
+    <Compile Include="Components\CursorGame.cs" />
+    <Compile Include="Components\Map.cs" />
+    <Compile Include="Components\Military.cs" />
+    <Compile Include="Components\Particle.cs" />
+    <Compile Include="Components\Producer.cs" />
+    <Compile Include="Components\ProducerUnit.cs" />
     <Compile Include="Components\ResourceCenter.cs" />
+    <Compile Include="Components\RhombusMap.cs" />
+    <Compile Include="Components\Sprite.cs" />
     <Compile Include="Components\SquareMap.cs" />
+    <Compile Include="Components\StoneResourceCenter.cs" />
     <Compile Include="Components\Structure.cs" />
     <Compile Include="Components\Terrain.cs" />
-    <Compile Include="Components\Sprite.cs" />
-    <Compile Include="DTO\GlobalDTO.cs" />
+    <Compile Include="Components\TownHall.cs" />
+    <Compile Include="Components\Unit.cs" />
     <Compile Include="Data\DataReader.cs" />
     <Compile Include="Data\GlobalDataReader.cs" />
-    <Compile Include="Data\StatusDataReader.cs" />
+    <Compile Include="Data\Logger.cs" />
+    <Compile Include="Data\MapDataReader.cs" />
+    <Compile Include="Data\ParticleDataReader.cs" />
+    <Compile Include="Data\ResourceCenterDataReader.cs" />
     <Compile Include="Data\StructureDataReader.cs" />
+    <Compile Include="Data\TerrainDataReader.cs" />
     <Compile Include="Data\UnitDataReader.cs" />
     <Compile Include="DTO\DirectionInfo.cs" />
     <Compile Include="DTO\DirectionList.cs" />
+    <Compile Include="DTO\GlobalDTO.cs" />
+    <Compile Include="DTO\MapCell.cs" />
+    <Compile Include="DTO\ParticleDTO.cs" />
+    <Compile Include="DTO\Resource.cs" />
+    <Compile Include="DTO\ResourceCenterDTO.cs" />
     <Compile Include="DTO\SpriteDTO.cs" />
+    <Compile Include="DTO\SpriteInfo.cs" />
     <Compile Include="DTO\StatusInfo.cs" />
     <Compile Include="DTO\StatusList.cs" />
     <Compile Include="DTO\StructureDTO.cs" />
+    <Compile Include="DTO\TerrainDTO.cs" />
     <Compile Include="DTO\UnitDTO.cs" />
-    <Compile Include="DTO\ItemInfo.cs" />
     <Compile Include="DTO\UpgradeInfo.cs" />
     <Compile Include="GlobalFunction.cs" />
-    <Compile Include="DTO\MapCell.cs" />
-    <Compile Include="Data\MapDataReader.cs" />
->>>>>>> .r201
-    <Compile Include="GameInit.cs" />
-    <Compile Include="LoadingScene.cs" />
-    <Compile Include="MainGame.cs" />
-    <Compile Include="ManagerPlayer.cs" />
+    <Compile Include="ManagerGame.cs" />
+    <Compile Include="MiniMap.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Technology.cs" />
+    <Compile Include="UpgradeStructure.cs" />
   </ItemGroup>
   <ItemGroup>
     <NestedContentProject Include="Content\Content.contentproj">
-      <Project>652eac1e-1ba5-4d39-bfdb-80e73eed3af6</Project>
+      <Project>3e732c16-cbca-43af-a1bd-5253be0edb97</Project>
       <Visible>False</Visible>
     </NestedContentProject>
   </ItemGroup>
@@ -158,10 +173,11 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GameSharedObject\GameSharedObject.csproj">
-      <Project>{7E75E764-BE2E-40B1-8BFF-F815FF87E77D}</Project>
-      <Name>GameSharedObject</Name>
-    </ProjectReference>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
