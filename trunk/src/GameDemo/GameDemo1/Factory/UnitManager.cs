@@ -10,13 +10,13 @@ using GameSharedObject.Data;
 
 namespace GameDemo1.Factory
 {
-    public class UnitManager: Dictionary<string, Unit>
+    public class UnitManager: SpriteManager
     {
         public UnitManager()
         {
         }
 
-        public void Load()
+        public override void Load()
         {
             string path = GlobalDTO.OBJ_UNIT_PATH;
             string[] pluginFiles = Directory.GetFiles(path, "*.DLL");
@@ -48,7 +48,7 @@ namespace GameDemo1.Factory
                 }
             }
         }
-        public Unit Add(String unitXmlPath)
+        public override Sprite Add(String unitXmlPath)
         {
             return null;
         }
