@@ -24,8 +24,6 @@ namespace %asmNamespace%.Objects
             : base(game)
         {
 			%extAttribute%
-            this.Position = position;
-            this.CodeFaction = codeFaction;
             this.PathSpecificationFile = pathspecificationfile;//get file for specification
             this.MovingVector = Vector2.Zero;
             this.CurrentIndex = 0;
