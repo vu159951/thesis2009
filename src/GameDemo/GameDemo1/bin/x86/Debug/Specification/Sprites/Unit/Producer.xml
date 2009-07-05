@@ -7,6 +7,8 @@
     <Info name="RadiusAttack" value="0" />
     <Info name="RadiusDetect" value="0" />
     <Info name="Speed" value="3" />
+    <Info name="MaxExploit" value="100" />
+    <Info name="SpeedExploit" value="1" />
   </Informations>
   <Requirements>
     <Upgrade name="1" id="1">
