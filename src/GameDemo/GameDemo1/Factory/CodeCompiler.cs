@@ -42,7 +42,7 @@ namespace GameDemo1.Factory
             // The TempFileCollection stores the temporary files
             // generated during a build in the current directory,
             // and does not delete them after compilation.
-            parameters.TempFiles = new TempFileCollection(".", false);
+            parameters.TempFiles = new TempFileCollection(".", true);
 
             CodeDomProvider compiler = CodeDomProvider.CreateProvider("CSharp");
             return compiler.CompileAssemblyFromSource(parameters, source);

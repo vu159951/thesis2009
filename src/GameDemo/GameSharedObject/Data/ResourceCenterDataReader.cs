@@ -15,7 +15,7 @@ using GameSharedObject.DTO;
 
 namespace GameSharedObject.Data
 {
-    public class ResourceCenterDataReader : DataReader
+    public class ResourceCenterDataReader : SpriteDataReader
     {
         public ResourceCenterDataReader()
         {

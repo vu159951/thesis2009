@@ -97,7 +97,7 @@
     <Compile Include="Components\Structure.cs" />
     <Compile Include="Components\Terrain.cs" />
     <Compile Include="Components\Unit.cs" />
-    <Compile Include="Data\DataReader.cs" />
+    <Compile Include="Data\SpriteDataReader.cs" />
     <Compile Include="Data\GlobalDataReader.cs" />
     <Compile Include="Data\Logger.cs" />
     <Compile Include="Data\MapDataReader.cs" />
@@ -132,7 +132,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
     <Compile Include="Technology.cs" />
-    <Compile Include="UpgradeStructure.cs" />
   </ItemGroup>
   <ItemGroup>
     <NestedContentProject Include="Content\Content.contentproj">

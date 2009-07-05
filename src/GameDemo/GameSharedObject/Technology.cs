@@ -21,9 +21,9 @@ namespace GameSharedObject
     public class Technology : Microsoft.Xna.Framework.GameComponent
     {
         private string _nameTech;
-        private List<UpgradeStructure> _upgradeStructure;
+        private List<Structure> _upgradeStructure;
 
-        public List<UpgradeStructure> UpgradeStructure
+        public List<Structure> UpgradeStructure
         {
             get { return _upgradeStructure; }
             set { _upgradeStructure = value; }

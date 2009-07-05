@@ -29,17 +29,22 @@ namespace GameSharedObject.DTO
             get { return _image; }
             set { _image = value; }
         }
-       
+
         public DirectionInfo()
         {
-            this._image = new List<Texture2D>();            
+            this._image = new List<Texture2D>();
         }
-
         public DirectionInfo(int id, string name)
         {
             this._image = new List<Texture2D>();
             this._id = id;
             this._name = name;
         }
+        public DirectionInfo(DirectionInfo direction)
+        {
+            this._image = direction._image;
+            this._id = direction.Id;
+            this._name = direction.Name;
+        }        
     }
 }

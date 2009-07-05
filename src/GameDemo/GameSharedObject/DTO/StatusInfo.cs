@@ -31,11 +31,19 @@ namespace GameSharedObject.DTO
         {
             this._directionInfo = new Dictionary<string, DirectionInfo>();
         }
+
         public StatusInfo(int id, string name)
         {
             this._directionInfo = new Dictionary<string, DirectionInfo>();
             this._id = id;
             this._name = name;
+        }
+
+        public StatusInfo(StatusInfo status)
+        {
+            this._id = status.Id;
+            this._name = status.Name;
+            this._directionInfo = status.DirectionInfo;
         }
     }
 }
