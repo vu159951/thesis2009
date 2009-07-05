@@ -59,7 +59,7 @@ namespace GameDemo1.Factory
             // BUILD & COMPILE code - Run the compiler and build the assembly
             String dllFile = ObjSpritePath+ spriteName + this.ASM_EXTENSION;
 
-            if (File.Exists(dllFile)) { File.Delete(dllFile); }         // update to new obj
+            if (File.Exists(dllFile)) { try { File.Delete(dllFile); } catch { } }         // update to new obj
             CompilerResults result = compiler.Compile(code, dllFile);
             if (result.Errors.HasErrors){
                 Logger.Clear();
