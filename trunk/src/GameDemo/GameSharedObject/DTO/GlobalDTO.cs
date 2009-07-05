@@ -61,5 +61,6 @@ namespace GameSharedObject.DTO
         public static string OBJ_STRUCTURE_PATH = "Objects\\Structure\\";
         public static string OBJ_RESOURCE_CENTER_PATH = "Objects\\ResourceCenter\\";
         public static string OBJ_TEMPLATE_PATH = "Objects\\Templates\\";
+        public static string XNA_FRAMEWORK_PATH = @"C:\Program Files\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\";
     }
 }
