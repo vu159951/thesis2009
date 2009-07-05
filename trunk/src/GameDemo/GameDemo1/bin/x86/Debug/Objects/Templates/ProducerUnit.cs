@@ -1,31 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
 using GameSharedObject.DTO;
 using GameSharedObject.Data;
 using GameSharedObject.Components;
 
-namespace GameDemo1.Objects
+namespace %asmNamespace%.Objects
 {
-    public class Producer: ProducerUnit
+    public class %className%: %className%Unit
     {
         #region Basic methods
         // =====================================================================================================
         // ============================================= basic Methods ================================================
         // =====================================================================================================
-        public Producer(Game game)
+        public %className%(Game game)
             :base(game)
         {        
 
         }
 
-        public Producer(Game game, string pathspecificationfile, string particleSpecificationFile, Vector2 position, int codeFaction)
+        public %className%(Game game, string pathspecificationfile, string particleSpecificationFile, Vector2 position, int codeFaction)
             : base(game)
         {
 			%extAttribute%
-            this.PercentSize = 0.5f;
             this.Position = position;
             this.CodeFaction = codeFaction;
             this.PathSpecificationFile = pathspecificationfile;//get file for specification
@@ -43,9 +41,9 @@ namespace GameDemo1.Objects
                 this.ParticleAttack.ParticleInfo = particleReader.Load(particleSpecificationFile);
             }
 
-            // loại tài nguyên hiện tài mà producer đang khai thác
+            // loại tài nguyên hiện tài mà %className% đang khai thác
             this.CurrentResourceExploiting = null;
-            // mõ tài nguyên hiện tại mà producer đang khai thác
+            // mõ tài nguyên hiện tại mà %className% đang khai thác
             this.CurrentResourceCenterExploiting = null;
             // số lượng khai thác tối đa
             this.MaxExploit = 100;
