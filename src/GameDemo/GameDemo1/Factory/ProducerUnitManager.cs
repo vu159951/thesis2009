@@ -12,9 +12,13 @@ using System.CodeDom.Compiler;
 
 namespace GameDemo1.Factory
 {
-    public class UnitManager: SpriteManager
+    public class ProducerUnitManager : SpriteManager
     {
-        public UnitManager(Game game):base(game){}
+        public ProducerUnitManager(Game game)
+            : base(game)
+        {
+            NS = "GameDemo1.Objects";
+        }
 
         public override void Load()
         {
@@ -27,7 +31,7 @@ namespace GameDemo1.Factory
         }
         public override Sprite Add(String unitXmlPath, String particleSpecificationFile, Vector2 position)
         {
-            codeGen.Load(GlobalDTO.OBJ_TEMPLATE_PATH + "Unit.cs");
+            codeGen.Load(GlobalDTO.OBJ_TEMPLATE_PATH + "ProducerUnit.cs");
             return base.Add(unitXmlPath, particleSpecificationFile, position);
         }
     }
