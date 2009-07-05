@@ -18,6 +18,7 @@ namespace GameDemo1.Factory
 
         public override Sprite Add(String unitXmlPath, String ObjSpritePath, String SpecSpritePath)
         {
+            attrList.Clear();
             codeGen.Load(GlobalDTO.OBJ_TEMPLATE_PATH + "Unit.cs");
             reader = new UnitDataReader();
             attrList.Add("this.PercentSize", "0.5f");
