@@ -39,7 +39,7 @@ namespace GameDemo1.Factory
         }
         public void Load(String ObjSpritePath, String SpecSpritePath)
         {
-            string[] pluginFiles = Directory.GetFiles(ObjSpritePath, this.ASM_EXTENSION);
+            string[] pluginFiles = Directory.GetFiles(ObjSpritePath, "*" + this.ASM_EXTENSION);
 
             for (int i = 0; i < pluginFiles.Length; i++){
                 string spriteName = Path.GetFileNameWithoutExtension(pluginFiles[i]);
