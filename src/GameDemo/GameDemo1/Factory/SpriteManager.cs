@@ -88,8 +88,9 @@ namespace GameDemo1.Factory
             String dllFile = ObjSpritePath + spriteName + this.ASM_EXTENSION;
             String specFile = SpecSpritePath + spriteName + this.SPEC_EXTENSION;
 
-            // Chưa kiểm tra đối tượng đã tồn tại hay chưa
-            // TO DO: v.v....
+            // Check existing object
+            if (this.ContainsKey(spriteName))
+                return this[spriteName];
 
             // LOAD object - Load the generated assembly into the ApplicationDomain 
             Assembly asm = Assembly.LoadFrom(dllFile);

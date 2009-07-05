@@ -108,7 +108,7 @@ namespace %asmNamespace%.Objects
             pUnit.CurrentHealth = this.CurrentHealth;
             pUnit.CurrentIndex = this.CurrentIndex;
             pUnit.CurrentResourceCenterExploiting = this.CurrentResourceCenterExploiting;
-            pUnit.CurrentResourceExploiting = new Resource();
+            pUnit.CurrentResourceExploiting = this.CurrentResourceExploiting;
             pUnit.CurrentStatus = new StatusInfo(this.CurrentStatus);
             pUnit.FlagBeAttacked = false;
             pUnit.Info = this.Info;
