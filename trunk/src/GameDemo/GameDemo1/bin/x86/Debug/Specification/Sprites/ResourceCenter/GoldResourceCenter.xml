@@ -3,7 +3,7 @@
   <Informations>
     <Info name="NameResource" value="Gold" />    
 	<Info name="Container" value="40000" />
-  </Informaitions>
+  </Informations>
   <Action>
     <IDLE>
       <S>
