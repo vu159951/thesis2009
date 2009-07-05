@@ -20,25 +20,18 @@ namespace %asmNamespace%.Objects
 
         }
 
-        public %className%(Game game, string pathspecificationfile, string particleSpecificationFile, Vector2 position, int codeFaction)
+        public %className%(Game game, string pathspecificationfile)
             : base(game)
         {
 			%extAttribute%
-            this.Position = position;
-            this.CodeFaction = codeFaction;
+            // this.Position = position;
+            // this.CodeFaction = codeFaction;
             this.PathSpecificationFile = pathspecificationfile;//get file for specification
             this.MovingVector = Vector2.Zero;// now is IDLE
             this.CurrentIndex = 0;
             this.WhomIHit = null;// người bị đó tấn công
             this.PlayerContainer = null; // player mà nó trực thuộc
             this.StructureContainer = null;// player mà nó trực thuộc
-            // lấy tập hình particle
-            ParticleDataReader parReader = new ParticleDataReader();
-            this.ParticleAttack = new Particle(game);
-            if (particleSpecificationFile != "")
-            {
-                this.ParticleAttack.ParticleInfo = parReader.Load(particleSpecificationFile);
-            }
 
             UnitDataReader unitReader = new UnitDataReader();
             this.Info = new UnitDTO();

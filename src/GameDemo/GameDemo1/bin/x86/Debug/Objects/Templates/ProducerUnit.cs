@@ -20,7 +20,7 @@ namespace %asmNamespace%.Objects
 
         }
 
-        public %className%(Game game, string pathspecificationfile, string particleSpecificationFile, Vector2 position, int codeFaction)
+        public %className%(Game game, string pathspecificationfile)
             : base(game)
         {
 			%extAttribute%
@@ -32,14 +32,6 @@ namespace %asmNamespace%.Objects
             this.WhomIHit = null;// người bị đó tấn công
             this.PlayerContainer = null; // player mà nó trực thuộc
             this.StructureContainer = null;// player mà nó trực thuộc
-
-            // lấy tập hình particle
-            ParticleDataReader particleReader = new ParticleDataReader();
-            this.ParticleAttack = new Particle(game);
-            if (particleSpecificationFile != "")
-            {
-                this.ParticleAttack.ParticleInfo = particleReader.Load(particleSpecificationFile);
-            }
 
             // loại tài nguyên hiện tài mà %className% đang khai thác
             this.CurrentResourceExploiting = null;
