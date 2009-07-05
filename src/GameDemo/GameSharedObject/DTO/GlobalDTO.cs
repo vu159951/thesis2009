@@ -60,5 +60,6 @@ namespace GameSharedObject.DTO
         public static string OBJ_TERRAIN_PATH = "Objects\\Terrain\\";
         public static string OBJ_STRUCTURE_PATH = "Objects\\Structure\\";
         public static string OBJ_RESOURCE_CENTER_PATH = "Objects\\ResourceCenter\\";
+        public static string OBJ_TEMPLATE_PATH = "Objects\\Templates\\";
     }
 }
