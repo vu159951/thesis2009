@@ -113,6 +113,7 @@ namespace %asmNamespace%.Objects
             pUnit.FlagBeAttacked = false;
             pUnit.Info = this.Info;
             pUnit.MovingVector = Vector2.Zero;
+			pUnit.MaxExploit = this.MaxExploit;
             pUnit.ParticleAttack = this.ParticleAttack;
             pUnit.PathSpecificationFile = this.PathSpecificationFile;
             pUnit.PercentSize = this.PercentSize;
