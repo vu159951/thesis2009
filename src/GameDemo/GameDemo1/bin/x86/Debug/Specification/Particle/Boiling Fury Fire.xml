@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Sprite name="Boiling Fury Fire" type="Structure" path="Particle\\Boiling Fury Fire\\">
+<Sprite name="Boiling Fury Fire" type="Particle" path="Particle\\Boiling Fury Fire\\">
   <!-- Default icon image: Icon.png  -->
   <Informations>    
   </Informations>
