@@ -18,6 +18,7 @@ namespace GameDemo1.Factory
 
         public override Sprite Add(String unitXmlPath, String ObjSpritePath, String SpecSpritePath)
         {
+            attrList.Clear();
             codeGen.Load(GlobalDTO.OBJ_TEMPLATE_PATH + "ResourceCenter.cs");
             reader = new ResourceCenterDataReader();
             return base.Add(unitXmlPath, ObjSpritePath, SpecSpritePath);
