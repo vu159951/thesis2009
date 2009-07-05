@@ -9,21 +9,26 @@ using System.Reflection;
 using GameSharedObject.Data;
 using System.IO;
 using System.CodeDom.Compiler;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace GameDemo1.Factory
 {
     public abstract class SpriteManager : Dictionary<string, Sprite>
     {
         protected Game _game;
-        protected String EXTENSION = ".dll";
+        protected SpriteDataReader reader;
+        protected String ASM_EXTENSION = ".dll";
+        protected String SPEC_EXTENSION = ".xml";
         protected CodeCompiler compiler;
         protected CodeGenerator codeGen;
         protected String NS;
+        protected Dictionary<String, String> attrList;
 
         public SpriteManager(Game game){
             _game = game;
-            CodeGenerator codeGen = new CodeGenerator();
+            codeGen = new CodeGenerator();
             compiler = new CodeCompiler();
+            attrList = new Dictionary<string, string>();
 
             NS = codeGen.GetHostNamespace() + ".Objects";            
             compiler.AddReference("System.dll");
@@ -32,56 +37,29 @@ namespace GameDemo1.Factory
             compiler.AddReference(GlobalDTO.XNA_FRAMEWORK_PATH + "Microsoft.Xna.Framework.Game.dll");
             compiler.AddReference("GameSharedObject.dll");
         }
-        public virtual void Load()
+        public void Load(String ObjSpritePath, String SpecSpritePath)
         {
-            string path = GlobalDTO.OBJ_UNIT_PATH;
-            string[] pluginFiles = Directory.GetFiles(path, "*.DLL");
-            Unit[] ipi = new Unit[pluginFiles.Length];
+            string[] pluginFiles = Directory.GetFiles(ObjSpritePath, this.ASM_EXTENSION);
 
-            for (int i = 0; i < pluginFiles.Length; i++)
-            {
-                string dllFile = Path.GetFileNameWithoutExtension(pluginFiles[i]);
-
-                Type ObjType = null;
-                try{
-                    // load it
-                    Assembly asm = null;
-                    asm = Assembly.Load(dllFile);
-                    if (asm != null)
-                    {
-                        ObjType = asm.GetType(NS);
-                    }
-                }
-                catch (Exception ex){
-                    Logger.WriteLine(ex.Message);
-                }
-                try{
-                    // OK Lets create the object as we have the Report Type
-                    if (ObjType != null)
-                    {
-                        ipi[i] = (Unit)Activator.CreateInstance(ObjType);
-                        // ipi[i].Host = this;
-                        this.Add(ipi[i].Info.Name, ipi[i]);
-                    }
-                }
-                catch (Exception ex){
-                    Logger.WriteLine(ex.Message);
-                }
-                this.Add(ipi[i].Info.Name, ipi[i]);
+            for (int i = 0; i < pluginFiles.Length; i++){
+                string spriteName = Path.GetFileNameWithoutExtension(pluginFiles[i]);
+                this.Load(spriteName, ObjSpritePath, SpecSpritePath);
             }
         }
-        public virtual Sprite Add(String unitXmlPath, String particleSpecificationFile, Vector2 position){
+        
+        public virtual Sprite Add(String unitXmlPath, String ObjSpritePath, String SpecSpritePath){
             // GENERATE code
-            UnitDataReader rd = new UnitDataReader();
-            String spriteName = ((UnitDTO)rd.Load(unitXmlPath)).Name;
-            Dictionary<String, String> attrList = new Dictionary<String, String>();
+            String spriteName = reader.Load(unitXmlPath).Name;
 
-            attrList.Add("this.PercentSize", "0.5f");
-            codeGen.AddAttrDeclaration(attrList);
+            if (attrList.Count > 0)
+                codeGen.AddAttrDeclaration(attrList);       // Add extensible properties to constructor of the dynamic class
+
             String code = codeGen.Process(codeGen.GetHostNamespace(), spriteName);
 
-            // BUILD code - Run the compiler and build the assembly
-            String dllFile = GlobalDTO.OBJ_UNIT_PATH + spriteName + this.EXTENSION;
+            // BUILD & COMPILE code - Run the compiler and build the assembly
+            String dllFile = ObjSpritePath+ spriteName + this.ASM_EXTENSION;
+
+            if (File.Exists(dllFile)) { File.Delete(dllFile); }         // update to new obj
             CompilerResults result = compiler.Compile(code, dllFile);
             if (result.Errors.HasErrors){
                 Logger.Clear();
@@ -91,6 +69,28 @@ namespace GameDemo1.Factory
                 throw new Exception("Error! Cannot build the object.");
             }
 
+            // Copy specification file to the owner folder
+            String specFile = SpecSpritePath + Path.GetFileName(unitXmlPath);
+            try { File.Copy(unitXmlPath, specFile, true); }
+            catch { }
+
+            return this.Load(spriteName, ObjSpritePath, SpecSpritePath);
+        }
+        /// <summary>
+        /// Hàm chính thực hiện việc load
+        /// </summary>
+        /// <param name="spriteName">Tên của đối tượng cần load</param>
+        /// <param name="ObjSpritePath">Đường dẫn chứa tập tin có mã IL chứa tập tin cần load</param>
+        /// <param name="SpecSpritePath">Đường dẫn chưa tập tin đặc tả</param>
+        /// <returns>Đối tượng được load lên</returns>
+        public virtual Sprite Load(String spriteName, String ObjSpritePath, String SpecSpritePath)
+        {
+            String dllFile = ObjSpritePath + spriteName + this.ASM_EXTENSION;
+            String specFile = SpecSpritePath + spriteName + this.SPEC_EXTENSION;
+
+            // Chưa kiểm tra đối tượng đã tồn tại hay chưa
+            // TO DO: v.v....
+
             // LOAD object - Load the generated assembly into the ApplicationDomain 
             Assembly asm = Assembly.LoadFrom(dllFile);
             Type t = asm.GetType(NS + "." + spriteName);
@@ -100,69 +100,15 @@ namespace GameDemo1.Factory
             BindingFlags bflags = BindingFlags.DeclaredOnly | BindingFlags.Public
                 | BindingFlags.NonPublic | BindingFlags.Instance;
             // Construct an instance of the type and invoke the member method
-            int playerId = 0;   // The object depend on none-player
             Object obj = t.InvokeMember(spriteName, bflags |
                 BindingFlags.CreateInstance, null, null,
                 new object[]{
                     _game, 
-                    unitXmlPath, 
-                    particleSpecificationFile, 
-                    position, 
-                    playerId}
+                    specFile}
                 );
-
-            // Copy specification file to the owner folder
-            String path = GlobalDTO.SPEC_UNIT_PATH + Path.GetFileName(unitXmlPath);
-            try { File.Copy(unitXmlPath, path, true); }
-            catch { }
-
-            return (Sprite)obj;
-        }
-        public virtual Sprite AddExt(String unitXmlPath, object[] parameters)
-        {
-            // GENERATE code
-            UnitDataReader rd = new UnitDataReader();
-            String spriteName = ((UnitDTO)rd.Load(unitXmlPath)).Name;
-            Dictionary<String, String> attrList = new Dictionary<String, String>();
-
-            attrList.Add("this.PercentSize", "0.5f");
-            codeGen.AddAttrDeclaration(attrList);
-            String code = codeGen.Process(codeGen.GetHostNamespace(), spriteName);
-
-            // BUILD code - Run the compiler and build the assembly
-            String dllFile = GlobalDTO.OBJ_UNIT_PATH + spriteName + this.EXTENSION;
-            CompilerResults result = compiler.Compile(code, dllFile);
-            if (result.Errors.HasErrors)
-            {
-                Logger.Clear();
-                foreach (String s in result.Output)
-                {
-                    Logger.WriteLine(s + Environment.NewLine);
-                }
-                throw new Exception("Error! Cannot build the object.");
-            }
-
-            // LOAD object - Load the generated assembly into the ApplicationDomain 
-            Assembly asm = Assembly.LoadFrom(dllFile);
-            Type t = asm.GetType(NS + "." + spriteName);
-            // BindingFlags enumeration specifies flags that control binding and 
-            // the way in which the search for members and types is conducted by reflection. 
-            // The following specifies the Access Control of the bound type
-            BindingFlags bflags = BindingFlags.DeclaredOnly | BindingFlags.Public
-                | BindingFlags.NonPublic | BindingFlags.Instance;
-            // Construct an instance of the type and invoke the member method
-            int playerId = 0;   // The object depend on none-player
-            Object obj = t.InvokeMember(spriteName, bflags |
-                BindingFlags.CreateInstance, null, null,
-                parameters
-                );
-
-            // Copy specification file to the owner folder
-            String path = GlobalDTO.SPEC_UNIT_PATH + Path.GetFileName(unitXmlPath);
-            try { File.Copy(unitXmlPath, path, true); }
-            catch { }
-
-            return (Sprite)obj;
+            Sprite sprite = (Sprite)obj;
+            this.Add(spriteName, sprite);
+            return sprite;
         }
     }
 }

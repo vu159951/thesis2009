@@ -12,14 +12,14 @@ using System.CodeDom.Compiler;
 
 namespace GameDemo1.Factory
 {
-    public class ProducerUnitManager : SpriteManager
+    public class ResourceCenterManager : SpriteManager
     {
-        public ProducerUnitManager(Game game) : base(game) { }
+        public ResourceCenterManager(Game game) : base(game) { }
 
         public override Sprite Add(String unitXmlPath, String ObjSpritePath, String SpecSpritePath)
         {
-            codeGen.Load(GlobalDTO.OBJ_TEMPLATE_PATH + "ProducerUnit.cs");
-            reader = new UnitDataReader();
+            codeGen.Load(GlobalDTO.OBJ_TEMPLATE_PATH + "ResourceCenter.cs");
+            reader = new ResourceCenterDataReader();
             return base.Add(unitXmlPath, ObjSpritePath, SpecSpritePath);
         }
         /// <summary>

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Microsoft.Xna.Framework;
+using GameSharedObject;
 using GameSharedObject.DTO;
 using GameSharedObject.Data;
 using GameSharedObject.Components;
@@ -89,7 +90,34 @@ namespace %asmNamespace%.Objects
         {
             base.Draw(gameTime);
         }
-
+		
+		public override object Clone()
+        {
+            %className% unit = new %className%(GlobalDTO.GAME);
+            unit.BoundRectangle = this.BoundRectangle;
+            unit.CodeFaction = this.CodeFaction;
+            unit.Color = this.Color;
+            unit.CurrentDirection = new DirectionInfo(this.CurrentDirection);
+            unit.CurrentHealth = this.CurrentHealth;
+            unit.CurrentIndex = this.CurrentIndex;
+            unit.CurrentStatus = new StatusInfo(this.CurrentStatus);
+            unit.EndPoint = this.EndPoint;
+            unit.FlagBeAttacked = this.FlagBeAttacked;
+            unit.Info = this.Info;
+            unit.MovingVector = this.MovingVector;
+            unit.ParticleAttack = this.ParticleAttack;
+            unit.PathSpecificationFile = this.PathSpecificationFile;
+            unit.PercentSize = this.PercentSize;
+            unit.PlayerContainer = new Player(GlobalDTO.GAME);
+            unit.Position = this.Position;
+            unit.RequirementResources = this.RequirementResources;
+            unit.SelectedFlag = this.SelectedFlag;
+            unit.SelectedImage = this.SelectedImage;
+            unit.StructureContainer = this.StructureContainer;
+            unit.TimeToBuyFinish = this.TimeToBuyFinish;
+            unit.WhomIHit = this.WhomIHit;
+            return unit;
+        }		
         #endregion
     }
 }

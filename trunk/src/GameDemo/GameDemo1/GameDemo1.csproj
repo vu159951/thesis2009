@@ -88,8 +88,8 @@
   <ItemGroup>
     <Compile Include="Factory\CodeCompiler.cs" />
     <Compile Include="Factory\CodeGenerator.cs" />
-    <Compile Include="Factory\ProducerUnit.cs" />
-    <Compile Include="Factory\ResouceCenterManager.cs" />
+    <Compile Include="Factory\ProducerUnitManager.cs" />
+    <Compile Include="Factory\ResourceCenterManager.cs" />
     <Compile Include="Factory\SpriteManager.cs" />
     <Compile Include="Factory\StructureManager.cs" />
     <Compile Include="Factory\UnitManager.cs" />
@@ -97,11 +97,6 @@
     <Compile Include="LoadingScene.cs" />
     <Compile Include="MainGame.cs" />
     <Compile Include="ManagerPlayer.cs" />
-    <Compile Include="Objects\Black_Angel.cs" />
-    <Compile Include="Objects\Military.cs" />
-    <Compile Include="Objects\Producer.cs" />
-    <Compile Include="Objects\StoneResourceCenter.cs" />
-    <Compile Include="Objects\TownHall.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>

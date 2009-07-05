@@ -10,7 +10,6 @@ namespace GameSharedObject.DTO
     {
         private Dictionary<String,ItemInfo> _informationList;
         private Dictionary<int,UpgradeInfo> _upgrade;
-
         public Dictionary<String, ItemInfo> InformationList
         {
             get { return _informationList; }
@@ -20,9 +19,7 @@ namespace GameSharedObject.DTO
         {
             get { return _upgrade; }
             set { _upgrade = value; }
-        }
-
-                
+        }                
 
         public UnitDTO()
         {

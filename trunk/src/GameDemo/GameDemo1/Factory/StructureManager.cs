@@ -16,19 +16,31 @@ namespace GameDemo1.Factory
     {
         public StructureManager(Game game) : base(game) { }
 
-        public override void Load()
-        {
-            base.Load();
-        }
-        public Sprite Add(string xmlPath, Vector2 position)
-        {
-            String noneParticle = "";
-            return this.Add(xmlPath, noneParticle, position);
-        }
-        public override Sprite Add(String unitXmlPath, String particleSpecificationFile, Vector2 position)
+        public override Sprite Add(String unitXmlPath, String ObjSpritePath, String SpecSpritePath)
         {
             codeGen.Load(GlobalDTO.OBJ_TEMPLATE_PATH + "Structure.cs");
-            return base.Add(unitXmlPath, particleSpecificationFile, position);
+            reader = new StructureDataReader();
+            return base.Add(unitXmlPath, ObjSpritePath, SpecSpritePath);
+        }
+        /// <summary>
+        /// Hàm chính thực hiện việc load
+        /// </summary>
+        /// <param name="spriteName">Tên của đối tượng cần load</param>
+        /// <param name="ObjSpritePath">Đường dẫn chứa tập tin có mã IL chứa tập tin cần load</param>
+        /// <param name="SpecSpritePath">Đường dẫn chưa tập tin đặc tả</param>
+        /// <returns>Đối tượng được load lên</returns>
+        public override Sprite Load(String spriteName, String ObjSpritePath, String SpecSpritePath)
+        {
+            return base.Load(spriteName, ObjSpritePath, SpecSpritePath);
+        }
+        public List<Structure> ToArray()
+        {
+            List<Structure> ls = new List<Structure>();
+
+            foreach (KeyValuePair<string, Sprite> item in this){
+                ls.Add((Structure)item.Value);
+            }
+            return ls;
         }
     }
 }

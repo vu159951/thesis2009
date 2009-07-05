@@ -11,7 +11,11 @@ namespace GameSharedObject.DTO
 {
     public class GlobalDTO
     {
+        #region Global varables
         public static Game GAME;
+        public static ManagerGame MANAGER_GAME;
+
+        #endregion 
 
         //public static StructureDataReader STRUCTURE_DATA_READER = new StructureDataReader();
         //public static UnitDataReader UNIT_DATA_READER = new UnitDataReader();
@@ -31,6 +35,7 @@ namespace GameSharedObject.DTO
         public static Vector2 START_COORDINATE = new Vector2(2000, 2000);
         public static Vector2 CURRENT_COORDINATE = START_COORDINATE;
 
+        public static string SPEC_EXTENSION = ".xml";
         public static string SPEC_RESOURCECENTER_PATH = "Specification\\Sprites\\ResourceCenter\\";
         public static string SPEC_STRUCTURE_PATH = "Specification\\Sprites\\Structure\\";
         public static string SPEC_TERRAIN_PATH = "Specification\\Sprites\\Terrain\\";

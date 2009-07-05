@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Microsoft.Xna.Framework;
+using GameSharedObject;
 using GameSharedObject.DTO;
 using GameSharedObject.Data;
 using GameSharedObject.Components;
@@ -96,7 +97,36 @@ namespace %asmNamespace%.Objects
         {
             base.Draw(gameTime);
         }
-
+		
+		public override object Clone()
+        {
+            %className% pUnit = new %className%(GlobalDTO.GAME);
+            pUnit.BoundRectangle = this.BoundRectangle;
+            pUnit.CodeFaction = this.CodeFaction;
+            pUnit.Color = this.Color;
+            pUnit.CurrentDirection = new DirectionInfo(this.CurrentDirection);
+            pUnit.CurrentHealth = this.CurrentHealth;
+            pUnit.CurrentIndex = this.CurrentIndex;
+            pUnit.CurrentResourceCenterExploiting = this.CurrentResourceCenterExploiting;
+            pUnit.CurrentResourceExploiting = new Resource();
+            pUnit.CurrentStatus = new StatusInfo(this.CurrentStatus);
+            pUnit.FlagBeAttacked = false;
+            pUnit.Info = this.Info;
+            pUnit.MovingVector = Vector2.Zero;
+            pUnit.ParticleAttack = this.ParticleAttack;
+            pUnit.PathSpecificationFile = this.PathSpecificationFile;
+            pUnit.PercentSize = this.PercentSize;
+            pUnit.PlayerContainer = new Player(GlobalDTO.GAME);
+            pUnit.Position = this.Position;
+            pUnit.RequirementResources = this.RequirementResources;
+            pUnit.SelectedFlag = this.SelectedFlag;
+            pUnit.SelectedImage = this.SelectedImage;
+            pUnit.SpeedExploit = this.SpeedExploit;
+            pUnit.StructureContainer = this.StructureContainer;
+            pUnit.TimeToBuyFinish = this.TimeToBuyFinish;
+            pUnit.WhomIHit = this.WhomIHit;
+            return pUnit;
+        }
         #endregion
     }
 }

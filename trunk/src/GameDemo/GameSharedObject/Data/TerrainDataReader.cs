@@ -15,7 +15,7 @@ using GameSharedObject.DTO;
 
 namespace GameSharedObject.Data
 {
-    public class TerrainDataReader : DataReader
+    public class TerrainDataReader : SpriteDataReader
     {
         public TerrainDataReader()
         {

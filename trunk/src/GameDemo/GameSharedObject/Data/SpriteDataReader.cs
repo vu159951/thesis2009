@@ -8,7 +8,7 @@ using Microsoft.Xna.Framework;
 
 namespace GameSharedObject.Data
 {
-    public abstract class DataReader
+    public abstract class SpriteDataReader
     {
         protected XmlDocument xmlDoc = new XmlDocument();        
 

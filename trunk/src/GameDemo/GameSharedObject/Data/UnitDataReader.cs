@@ -15,7 +15,7 @@ using System.Xml;
 
 namespace GameSharedObject.Data
 {
-    public class UnitDataReader : DataReader
+    public class UnitDataReader : SpriteDataReader
     {
 
         public UnitDataReader()
