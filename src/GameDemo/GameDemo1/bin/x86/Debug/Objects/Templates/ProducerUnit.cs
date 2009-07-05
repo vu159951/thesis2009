@@ -36,10 +36,6 @@ namespace %asmNamespace%.Objects
             this.CurrentResourceExploiting = null;
             // mõ tài nguyên hiện tại mà %className% đang khai thác
             this.CurrentResourceCenterExploiting = null;
-            // số lượng khai thác tối đa
-            this.MaxExploit = 100;
-            // tốc độ khai thác
-            this.SpeedExploit = 1;
 
             UnitDataReader unitReader = new UnitDataReader();
             this.Info = new UnitDTO();
@@ -113,7 +109,6 @@ namespace %asmNamespace%.Objects
             pUnit.FlagBeAttacked = false;
             pUnit.Info = this.Info;
             pUnit.MovingVector = Vector2.Zero;
-			pUnit.MaxExploit = this.MaxExploit;
             pUnit.ParticleAttack = this.ParticleAttack;
             pUnit.PathSpecificationFile = this.PathSpecificationFile;
             pUnit.PercentSize = this.PercentSize;
@@ -122,7 +117,6 @@ namespace %asmNamespace%.Objects
             pUnit.RequirementResources = this.RequirementResources;
             pUnit.SelectedFlag = this.SelectedFlag;
             pUnit.SelectedImage = this.SelectedImage;
-            pUnit.SpeedExploit = this.SpeedExploit;
             pUnit.StructureContainer = this.StructureContainer;
             pUnit.TimeToBuyFinish = this.TimeToBuyFinish;
             pUnit.WhomIHit = this.WhomIHit;
