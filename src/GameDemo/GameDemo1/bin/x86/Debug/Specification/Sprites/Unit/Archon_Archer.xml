@@ -4,8 +4,8 @@
   <Informations>
     <Info name="MaxHealth" value="50"/>
     <Info name="Power" value="2" />
-    <Info name="RadiusAttack" value="60" />
-    <Info name="RadiusDetect" value="100" />
+    <Info name="RadiusAttack" value="150" />
+    <Info name="RadiusDetect" value="180" />
     <Info name="Speed" value="2" />
     <Info name="AttackParticle" value="Boiling Fury Fire" />
   </Informations>
