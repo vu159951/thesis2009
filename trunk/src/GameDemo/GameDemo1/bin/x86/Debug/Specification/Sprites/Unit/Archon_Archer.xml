@@ -2,15 +2,16 @@
 <Sprite name="Archon_Archer" type="Unit" path="Sprites\\Unit\\Archon_Archer\\">
   <!-- Default icon image: Icon.png  -->
   <Informations>
-    <Info name="MaxHealth" value="80"/>
-    <Info name="Power" value="4" />
-    <Info name="RadiusAttack" value="30" />
-    <Info name="RadiusDetect" value="50" />
-    <Info name="Speed" value="5" />
+    <Info name="MaxHealth" value="50"/>
+    <Info name="Power" value="2" />
+    <Info name="RadiusAttack" value="60" />
+    <Info name="RadiusDetect" value="100" />
+    <Info name="Speed" value="2" />
+    <Info name="AttackParticle" value="Boiling Fury Fire" />
   </Informations>
   <Requirements>
     <Upgrade name="1" id="1">
-      <Info name="Gold" value="40" />
+      <Info name="Gold" value="30" />
       <Info name="Time" value="6" />
     </Upgrade>
   </Requirements>

@@ -2,16 +2,16 @@
 <Sprite name="Wolf" type="Unit" path="Sprites\\Unit\\Wolf\\">
   <!-- Default icon image: Icon.png  -->
   <Informations>
-    <Info name="MaxHealth" value="80"/>
-    <Info name="Power" value="4" />
+    <Info name="MaxHealth" value="50"/>
+    <Info name="Power" value="3" />
     <Info name="RadiusAttack" value="30" />
     <Info name="RadiusDetect" value="50" />
-    <Info name="Speed" value="5" />
+    <Info name="Speed" value="5" />  
   </Informations>
   <Requirements>
     <Upgrade name="1" id="1">
-      <Info name="Gold" value="40" />
-      <Info name="Time" value="6" />
+      <Info name="Gold" value="20" />
+      <Info name="Time" value="3" />
     </Upgrade>
   </Requirements>
   <Action>
