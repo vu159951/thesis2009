@@ -21,6 +21,7 @@ namespace GameDemo1.Factory
             attrList.Clear();
             codeGen.Load(GlobalDTO.OBJ_TEMPLATE_PATH + "ProducerUnit.cs");
             reader = new UnitDataReader();
+            attrList.Add("this.PercentSize", "0.5f");
             return base.Add(unitXmlPath, ObjSpritePath, SpecSpritePath);
         }
         /// <summary>
@@ -32,7 +33,12 @@ namespace GameDemo1.Factory
         /// <returns>Đối tượng được load lên</returns>
         public override Sprite Load(String spriteName, String ObjSpritePath, String SpecSpritePath)
         {
-            return base.Load(spriteName, ObjSpritePath, SpecSpritePath);
+            Sprite sprite = base.Load(spriteName, ObjSpritePath, SpecSpritePath);
+            if (!(sprite is ProducerUnit)){
+                this.Remove(sprite.Info.Name);
+                return null;
+            }
+            return sprite;
         }
     }
 }

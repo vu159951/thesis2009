@@ -9,7 +9,7 @@ using GameSharedObject.Components;
 
 namespace %asmNamespace%.Objects
 {
-    public class %className%: %className%Unit
+    public class %className%: ProducerUnit
     {
         #region Basic methods
         // =====================================================================================================

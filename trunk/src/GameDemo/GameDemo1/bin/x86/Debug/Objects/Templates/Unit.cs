@@ -40,6 +40,11 @@ namespace %asmNamespace%.Objects
             this.CurrentStatus = this.Info.Action[StatusList.IDLE.Name];
             this.CurrentDirection = this.Info.Action[this.CurrentStatus.Name].DirectionInfo[DirectionList.S.Name];            
             this.GetInformationUnit(); // lấy thông tin trong file đặc tả
+			
+			// Khởu tạo attack particle
+			Dictionary<string, ItemInfo> infoList = ((UnitDTO)this.Info).InformationList;
+            if (infoList.ContainsKey("AttackParticle") && !String.IsNullOrEmpty(infoList["AttackParticle"].Value))
+                this.ParticleAttack = new Particle(game, infoList["AttackParticle"].Value);
         }
         
         /// <summary>

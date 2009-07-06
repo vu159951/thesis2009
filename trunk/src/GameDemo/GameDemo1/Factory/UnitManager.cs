@@ -33,7 +33,12 @@ namespace GameDemo1.Factory
         /// <returns>Đối tượng được load lên</returns>
         public override Sprite Load(String spriteName, String ObjSpritePath, String SpecSpritePath)
         {
-            return base.Load(spriteName, ObjSpritePath, SpecSpritePath);
+            Sprite sprite = base.Load(spriteName, ObjSpritePath, SpecSpritePath);
+            if (!(sprite is Unit)){
+                this.Remove(sprite.Info.Name);
+                return null;
+            }
+            return sprite;
         }
     }
 }
