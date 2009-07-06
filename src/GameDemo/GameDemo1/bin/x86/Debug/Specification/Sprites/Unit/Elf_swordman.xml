@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Sprite name="Elf_swordman" type="Unit" path="Sprites\\Unit\\elf_swordman\\">
+<Sprite name="Elf_swordman" type="Unit" path="Sprites\\Unit\\Elf_swordman\\">
   <!-- Default icon image: Icon.png  -->
   <Informations>
-    <Info name="MaxHealth" value="80"/>
-    <Info name="Power" value="4" />
-    <Info name="RadiusAttack" value="30" />
-    <Info name="RadiusDetect" value="50" />
-    <Info name="Speed" value="5" />
+    <Info name="MaxHealth" value="160"/>
+    <Info name="Power" value="6" />
+    <Info name="RadiusAttack" value="40" />
+    <Info name="RadiusDetect" value="60" />
+    <Info name="Speed" value="3" />
+    <Info name="AttackParticle" value="Boiling Fury Fire" />
   </Informations>
   <Requirements>
     <Upgrade name="1" id="1">
-      <Info name="Gold" value="40" />
+      <Info name="Gold" value="50" />
       <Info name="Time" value="6" />
     </Upgrade>
   </Requirements>
