@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Game specRootPath="Sprite\">
+  <RuleName tagName="Image"  name="%index%_%name%_%status%.%directionId%.%s-index%"/>
+  <Action>
+    <Info tagName="IDLE"  name="IDLE" id="1" />
+    <Info tagName="DEAD"  name="DEAD" id="2" />
+    <Info tagName="WALK"  name="WALK" id="3" />
+    <Info tagName="ATTACK"  name="ATTACK" id="4" />
+    <Info tagName="HIT"  name="HIT" id="5" />
+    <Info tagName="FLY"  name="FLY" id="6" />
+    <Info tagName="EXPLOIT"  name="EXPLOIT" id="7" />
+  </Action>
+  <Direction>
+    <Info tagName="S"  name="South" id="1" />
+    <Info tagName="ES"  name="East South" id="2" />
+    <Info tagName="E"  name="East" id="3" />
+    <Info tagName="EN"  name="East North" id="4" />
+    <Info tagName="N"  name="North" id="5" />
+    <Info tagName="WN"  name="West North" id="6" />
+    <Info tagName="W"  name="West" id="7" />
+    <Info tagName="WS"  name="West South" id="8" />
+  </Direction>
+  <SpriteType>
+    <Type name="ResourceCenter" />
+    <Type name="Structure" />
+    <Type name="Terrain" />
+    <Type name="Particle" />
+    <Type name="Unit" />
+  </SpriteType> 
+</Game>

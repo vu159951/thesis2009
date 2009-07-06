@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameSharedObject.AudioGame" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAAAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AudioGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.RomhbusTransform" Collapsed="true">
+    <Position X="9" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAABAAAACAAAAAAAEAACIAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Calculus\RomhbusTransform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.SquareTransform" Collapsed="true">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAABAAAACAAAAAAAEAACIAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Calculus\SquareTransform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.Transform" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAABACQACAAAAAAAEACKJAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Calculus\Transform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.GlobalFunction" Collapsed="true">
+    <Position X="13.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>GlobalFunction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.ManagerGame" Collapsed="true">
+    <Position X="11.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIEAECRgAAwYAAAACAAAEABAgAAiAAEUAAAAAACI=</HashCode>
+      <FileName>ManagerGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.MiniMap" Collapsed="true">
+    <Position X="9.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAEAwAAAAAAIAAAAAAAAgABIAAgAQQAAAA=</HashCode>
+      <FileName>MiniMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.Player" Collapsed="true">
+    <Position X="9.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAIgGIAyAAEAAgQAAAAUAAgAIAQAAAgAghAQg=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.Technology" Collapsed="true">
+    <Position X="13.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Technology.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.Components.CursorGame" Collapsed="true">
+    <Position X="13.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEEAAAAAAAwAgAAAAIAAAAAAAAgAAAAIAAAAAAAQ=</HashCode>
+      <FileName>Components\CursorGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.Components.Map" Collapsed="true">
+    <Position X="11.5" Y="9.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAQAEEAAAAAAAwEIAAIBAAQCAUAkEAAACAAkAIAAQAQ=</HashCode>
+      <FileName>Components\Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.Components.Particle" Collapsed="true">
+    <Position X="6.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAA4AgAAAgACAAAAAAAAAAAAAAgAAAAAQ=</HashCode>
+      <FileName>Components\Particle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.Components.ProducerUnit" Collapsed="true">
+    <Position X="4.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAABAAAAAASwAAEAAAAgAQAAAQAABAAABAAAAQCAI=</HashCode>
+      <FileName>Components\ProducerUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.Components.ResourceCenter" Collapsed="true">
+    <Position X="6.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAwAAAAAAAAAAAAAAAAAkAAAAAAAAABQ=</HashCode>
+      <FileName>Components\ResourceCenter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GameSharedObject.Components.RhombusMap" Collapsed="true">
+    <Position X="10.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAIAAAAAAAAAEAAAAAAAAAEAIAAACA=</HashCode>
+      <FileName>Components\RhombusMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.Components.Sprite" Collapsed="true">
+    <Position X="3.25" Y="8.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAQAEEIAACAIEwEiGAABgIQBIIAiAAAQICAggEACAAQ=</HashCode>
+      <FileName>Components\Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.Components.SquareMap" Collapsed="true">
+    <Position X="12.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAIAAAAAAAAAEAAAAAAAAAEAIAAACA=</HashCode>
+      <FileName>Components\SquareMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.Components.Structure" Collapsed="true">
+    <Position X="0.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAcAERQAgQAgAwACAEACABQAAAwAQABAACAAAEAIBBY=</HashCode>
+      <FileName>Components\Structure.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GameSharedObject.Components.Terrain" Collapsed="true">
+    <Position X="2.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Components\Terrain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.Components.Unit" Collapsed="true">
+    <Position X="4.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAeAEAAAEIIgYwAAQEIABFRACAQAIISAwAICAAQR4BQ=</HashCode>
+      <FileName>Components\Unit.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GameSharedObject.Data.GlobalDataReader" Collapsed="true">
+    <Position X="3.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\GlobalDataReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.Data.Logger" Collapsed="true">
+    <Position X="13.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAFAAAI=</HashCode>
+      <FileName>Data\Logger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.Data.MapDataReader" Collapsed="true">
+    <Position X="1.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAIAAAAEAAAAAAAAAAACgAAAgAAAAAABgAQAAAAA=</HashCode>
+      <FileName>Data\MapDataReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.Data.ParticleDataReader" Collapsed="true">
+    <Position X="5.5" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\ParticleDataReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.Data.ResourceCenterDataReader" Collapsed="true">
+    <Position X="2.25" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\ResourceCenterDataReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.Data.SpriteDataReader" Collapsed="true">
+    <Position X="3.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAkAAAABAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\SpriteDataReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.Data.StructureDataReader" Collapsed="true">
+    <Position X="4.75" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\StructureDataReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.Data.TerrainDataReader" Collapsed="true">
+    <Position X="6.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\TerrainDataReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.Data.UnitDataReader" Collapsed="true">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\UnitDataReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.DTO.DirectionInfo" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIAAAAAAAAAAAAABAAAQAAAAAQBAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\DirectionInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.DTO.DirectionList" Collapsed="true">
+    <Position X="6.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAhDIAAA=</HashCode>
+      <FileName>DTO\DirectionList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.DTO.GlobalDTO" Collapsed="true">
+    <Position X="13.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBEBAACyCgAIQgkIIFAAAAQhEiACFAAAAIIGgIASI=</HashCode>
+      <FileName>DTO\GlobalDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.DTO.ItemInfo" Collapsed="true">
+    <Position X="1" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAIAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>DTO\ItemInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.DTO.MapCell" Collapsed="true">
+    <Position X="13.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAMAAQAAAAAAAAAAAAAAAAAAAAAAAAgAQAAYAA=</HashCode>
+      <FileName>DTO\MapCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.DTO.ParticleDTO" Collapsed="true">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAQAAAAAQBAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\ParticleDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.DTO.Resource" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAABAAAAAAQAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>DTO\Resource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.DTO.ResourceCenterDTO" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\ResourceCenterDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.DTO.SpriteDTO" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAQAAAAAAACAAAAAgAEAAAQ=</HashCode>
+      <FileName>DTO\SpriteDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.DTO.StatusInfo" Collapsed="true">
+    <Position X="1" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiIAAAAAAAAAAAAABAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\StatusInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.DTO.StatusList" Collapsed="true">
+    <Position X="4.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAgAAAAAAgQAAAAAAAAAAAgIA=</HashCode>
+      <FileName>DTO\StatusList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.DTO.StructureDTO" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAgAQAAEAAAAAAAAAAAQAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>DTO\StructureDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.DTO.TerrainDTO" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\TerrainDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.DTO.UnitDTO" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAgAAAAAAAAAAAAABAAEAAAAAA=</HashCode>
+      <FileName>DTO\UnitDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.DTO.UpgradeInfo" Collapsed="true">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIAAAAAAAAAAAAABAAAQAABIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\UpgradeInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSharedObject.Properties.Settings" Collapsed="true">
+    <Position X="13.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="System.ICloneable" Collapsed="true">
+    <Position X="2.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
