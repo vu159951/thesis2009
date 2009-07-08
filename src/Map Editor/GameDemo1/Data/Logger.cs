@@ -9,6 +9,11 @@ namespace GameDemo1.Data
     public class Logger
     {
         private static String PATH = @"C:\huy.txt";
+        public static void Clear()
+        {
+            try { File.Delete(PATH); }
+            catch { }
+        }
         public static void Save(String s)
         {
             using (StreamWriter sw = new StreamWriter(PATH, true))

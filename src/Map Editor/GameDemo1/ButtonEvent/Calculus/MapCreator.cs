@@ -19,15 +19,15 @@ namespace GameDemo1
                                                             "S2.txt",
                                                             "Info.txt"};
         public static MatrixDTO MAX_VALUE_IN_COL;
-        public const float CONST_FLOOR_LIMIT = 0.95f;
-        public const float CONST_CEILING_LIMIT = 0.85f;
-        public const float CONST_EPSILON = 0.04f;
+        public static int CONST_FLOOR_LIMIT = 40;
+        public static int CONST_CEILING_LIMIT = 38;
+        public static int CONST_EPSILON = 1;
 
         private static Random rnd = new Random(DateTime.Now.Millisecond);
-        private static MatrixDTO _edge1;
-        private static MatrixDTO _edge2;
-        private static MatrixDTO _edge3;
-        private static MatrixDTO _edge4;
+        private static MatrixDTO S1;
+        private static MatrixDTO S2;
+        private static MatrixDTO S3;
+        private static MatrixDTO S4;
         private static MapCellGroupCollection _mapCellGroup;
 
 
@@ -37,19 +37,19 @@ namespace GameDemo1
             _mapCellGroup = MapCellGroupReader.Read(
                 matrixDataFolderPath + "\\" + EDGE_MATRIX_DATA_FILE[0]
                 );
-            _edge1 = MatrixMgr.ReadTextFile(
+            S1 = MatrixMgr.ReadTextFile(
                 matrixDataFolderPath + "\\" + EDGE_MATRIX_DATA_FILE[1], 
                 _mapCellGroup.Quantity,
                 _mapCellGroup.Quantity);
-            _edge2 = MatrixMgr.ReadTextFile(
+            S2 = MatrixMgr.ReadTextFile(
                             matrixDataFolderPath + "\\" + EDGE_MATRIX_DATA_FILE[2],
                             _mapCellGroup.Quantity,
                             _mapCellGroup.Quantity);
-            _edge3 = MatrixMgr.ReadTextFile(
+            S3 = MatrixMgr.ReadTextFile(
                 matrixDataFolderPath + "\\" + EDGE_MATRIX_DATA_FILE[3],
                 _mapCellGroup.Quantity,
                 _mapCellGroup.Quantity);
-            _edge4 = MatrixMgr.ReadTextFile(
+            S4 = MatrixMgr.ReadTextFile(
                 matrixDataFolderPath + "\\" + EDGE_MATRIX_DATA_FILE[4],
                 _mapCellGroup.Quantity,
                 _mapCellGroup.Quantity);
@@ -59,7 +59,7 @@ namespace GameDemo1
         {
             MatrixDTO matrix = new MatrixDTO(width, height);
             for (int j = 0; j < height; j++){
-                for (int i = 0; i < height; i++){
+                for (int i = 0; i < width; i++){
                     int[] neighbourCell = GetNeighbourCell(matrix, new Point(i, j));
                     neighbourCell[2] = -1;  // chỉ xét ô láng giềng ở hướng 1 và 2
                     neighbourCell[3] = -1;  // chỉ xét ô láng giềng ở hướng 1 và 2
@@ -69,6 +69,8 @@ namespace GameDemo1
                         matrix.Data[i, j] = 0;
                         // Logger.Save(i.ToString() + " " + j.ToString() + Environment.NewLine);
                     }else{
+                        if (i == 2)
+                            neighbourCell[1] = 46;
                         matrix.Data[i, j] = FindMapCell(neighbourCell);
                         a = i; b = j;
                     }
@@ -96,13 +98,13 @@ namespace GameDemo1
         {
             switch(index_based_zero){
                 case 0:
-                    return _edge1;
+                    return S3;
                 case 1:
-                    return _edge2;
+                    return S4;
                 case 2:
-                    return _edge3;
+                    return S1;
                 case 3:
-                    return _edge4;
+                    return S2;
                 default:
                     return null;
             }
@@ -250,6 +252,7 @@ namespace GameDemo1
             int index = 0;
             int edgeIndex = 0;
             int[,] m = GetEdgeMatrix(edgeIndex).Data;
+            int quantity = 0;
 
             // Duyệt tất
             while (true)
@@ -264,7 +267,7 @@ namespace GameDemo1
 
                     index = 0;      // thiết lập index = 0 để chuẩn bị duyệt ma trận kề tìm giá trị thích hợp cho ô láng giềng ké tiếp
                     edgeIndex++;    // chuyển sang xét ma trận kề tiếp theo
-
+                    quantity++;
                     // Nạp ma trận ô kề vào ma trận hiện hành
                     m = GetEdgeMatrix(edgeIndex).Data;
                 }
@@ -282,9 +285,10 @@ namespace GameDemo1
                 }
 
                 // Kiểm tra xem đã duyệt hết các ma trận kề chưa
-                if (edgeIndex >= 4)
+                if (edgeIndex >= 4){
+                    quantity--;
                     break;
-
+                }
                 // Lấy giá trị max của dòng đang xét
                 int litmit = MAX_VALUE_IN_COL.Data[neighbourCell[edgeIndex], edgeIndex];
                 // Tính ra định mức ở dòng tương ứng
@@ -293,7 +297,8 @@ namespace GameDemo1
 
                 int value = m[neighbourCell[edgeIndex], index]; // lấy giá trị của ma trận kề
                 // nếu độ phù hợp lớn hơn ngưỡng nhất định thì đưa vào danh sách các id thích hợp
-                if (value >= litmit){
+
+                if (value >= litmitConstant/*litmit*/){
                     if (!suitableList.ContainsKey(index)){
                         suitableList.Add(
                             index,
@@ -307,7 +312,6 @@ namespace GameDemo1
                 index++;        // tăng index để xét ô kế tiếp được mô tả trong ma rận
             }
 
-            int quantity = GetNeighbourCellQuantity(neighbourCell);
             foreach (KeyValuePair<int, ValueItem> item in suitableList){
                 if (item.Value.Quantity >= quantity)
                     return item.Key;    // Tìm thấy ô thích hợp

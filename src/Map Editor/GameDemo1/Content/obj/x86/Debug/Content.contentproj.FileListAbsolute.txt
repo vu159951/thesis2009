@@ -14,3 +14,4 @@ C:\Users\ThaiBao\Desktop\GameDemo1 v9\GameDemo1 v3\GameDemo1\Content\obj\x86\Deb
 C:\Users\ThaiBao\Desktop\Terrain Tool v1\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\It Learning\On School\Hoc ki 2 nam 4\Luan Van\Game\Tool\Terrain Tool\Terrain Tool v1\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\kesfaw\Desktop\Terrain Tool v1\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\My Thesis\SourceCode\src\Map Editor\GameDemo1\Content\obj\x86\Debug\ResolveAssemblyReference.cache

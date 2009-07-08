@@ -7,17 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.IO;
+using GameDemo1.Data;
 
 namespace GameDemo1
 {
     public partial class frmMain : Form
     {
-        public static bool EditMode { get; set; }
-
         public frmMain()
         {
             InitializeComponent();
-            EditMode = false;
+            Logger.Clear();
         }
 
         public string map = "";
@@ -34,7 +33,6 @@ namespace GameDemo1
             {
                 this.filename = this.textBox1.Text;
                 this.map = this.listBox1.SelectedItem.ToString();
-                EditMode = true;
                 this.Close();
             }
         }

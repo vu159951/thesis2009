@@ -6,10 +6,10 @@
       <TargetPlatform>Windows</TargetPlatform>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Documents and Settings\kesfaw\Desktop\Terrain Tool v1\ImageTransform\Content\</RootDirectory>
-      <LoggerRootDirectory>C:\Documents and Settings\kesfaw\Desktop\Terrain Tool v1\ImageTransform\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Documents and Settings\kesfaw\Desktop\Terrain Tool v1\ImageTransform\Content\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Documents and Settings\kesfaw\Desktop\Terrain Tool v1\ImageTransform\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>H:\My Thesis\SourceCode\src\Map Editor\ImageTransform\Content\</RootDirectory>
+      <LoggerRootDirectory>H:\My Thesis\SourceCode\src\Map Editor\ImageTransform\</LoggerRootDirectory>
+      <IntermediateDirectory>H:\My Thesis\SourceCode\src\Map Editor\ImageTransform\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>H:\My Thesis\SourceCode\src\Map Editor\ImageTransform\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
