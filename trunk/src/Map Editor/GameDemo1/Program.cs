@@ -12,9 +12,7 @@ namespace GameDemo1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmMain());
-            if (frmMain.EditMode == true)
-                using (CreateTerrains game = new CreateTerrains()) { game.Run(); }
+            using (CreateTerrains game = new CreateTerrains()) { game.Run(); }
         }
     }
 }

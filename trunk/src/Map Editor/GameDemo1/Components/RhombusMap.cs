@@ -14,6 +14,7 @@ namespace GameDemo1.Components
     {
         public readonly System.Drawing.Size CELL_SIZE = new System.Drawing.Size(97, 49);
         public readonly Point ROOT_Vector2;
+        public SpriteFont font;
 
         public RhombusMap(Game game, string pathSpecificationFile, Vector2 currentrootcoordiante)
             : base(game)
@@ -24,6 +25,7 @@ namespace GameDemo1.Components
             ROOT_Vector2 = new Point((CELL_SIZE.Width >> 1) * (Config.MAP_SIZE_IN_CELL.Width - 1), 0);
             Transform = new RomhbusTransform(ROOT_Vector2, CELL_SIZE.Width, CELL_SIZE.Height);
 
+            font = game.Content.Load<SpriteFont>(Config.PATH_TO_FONT);
             // get matrix from file and load map
             this._bgMatrix = MatrixMgr.Read(this._pathSpecificationFile).Data;
             this.LoadMapCells(this._bgMatrix);
@@ -167,6 +169,13 @@ namespace GameDemo1.Components
                             (int)(this.cells[i, j].Y - this._currentRootCoordinate.Y),
                             CELL_SIZE.Width, CELL_SIZE.Height);// calculating new postion of cell with current root coodinate
                         spriteBatch.Draw(this.cells[i, j].Background, recToDraw, Color.White);
+                        spriteBatch.DrawString(
+                            font,
+                            this._bgMatrix[i, j].ToString(),
+                            new Vector2(
+                            this.cells[i, j].X - this._currentRootCoordinate.X + this.CELL_SIZE.Width / 2 - 7,
+                            this.cells[i, j].Y - this._currentRootCoordinate.Y + this.CELL_SIZE.Height / 2 - 5),
+                            Color.Red);
                     }
                     catch
                     { }

@@ -1,3 +1,5 @@
+Content\MapCells\SquareMap\BG0001.xnb
+Content\MapCells\SquareMap\BG0002.xnb
 Content\Cursor\cursor1.xnb
 Content\Terrain\HasteBerryTree_1.xnb
 Content\Terrain\HasteBerryTree_2.xnb
@@ -21,9 +23,6 @@ Content\MenuPanel\menuPanel2.xnb
 Content\Button\Save.xnb
 Content\Button\Back.xnb
 Content\Button\Close.xnb
-Content\Font\Courier New.xnb
-Content\MapCells\SquareMap\BG0001.xnb
-Content\MapCells\SquareMap\BG0002.xnb
 Content\MapCells\RhombusMap\0000.xnb
 Content\MapCells\RhombusMap\0001.xnb
 Content\MapCells\RhombusMap\0002.xnb
@@ -2323,3 +2322,4 @@ Content\MapCells\RhombusMap\2295.xnb
 Content\MapCells\RhombusMap\2296.xnb
 Content\MapCells\RhombusMap\2297.xnb
 Content\MapCells\RhombusMap\2298.xnb
+Content\Font\Courier New.xnb
