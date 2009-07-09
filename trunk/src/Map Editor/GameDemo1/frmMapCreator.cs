@@ -30,9 +30,10 @@ namespace GameDemo1
         {
             int w = Convert.ToInt32(txtWidth.Value);
             int h = Convert.ToInt32(txtHeight.Value);
-            MapCreator.CONST_CEILING_LIMIT = Convert.ToInt32(txtCeiling.Value);/* * 0.01f*/ ;
-            MapCreator.CONST_FLOOR_LIMIT = Convert.ToInt32(txtFloor.Value); /* * 0.01f */ ;
-            MapCreator.CONST_EPSILON = Convert.ToInt32(txtEpsilon.Value); /* * 0.1f */ ;
+            MapCreator.CONST_CEILING_LIMIT = Convert.ToInt32(txtCeiling.Value) * 0.01f;
+            MapCreator.CONST_FLOOR_LIMIT = Convert.ToInt32(txtFloor.Value) * 0.01f;
+            MapCreator.CONST_EPSILON = Convert.ToInt32(txtEpsilon.Value) * 0.01f;
+            MapCreator.CONST_THRESHOLD_VALUE = Convert.ToInt32(txtMinValue.Value);
 
             MapCreator.Load(Application.StartupPath + "\\" + @"Specification\MapCellData");
             _mapMatrix = MapCreator.Generate(w, h);
