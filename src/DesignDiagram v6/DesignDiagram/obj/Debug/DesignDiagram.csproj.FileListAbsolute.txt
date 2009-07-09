@@ -29,3 +29,5 @@ D:\It Learning\On School\Hoc ki 2 nam 4\Luan Van\Design Dia\DesignDiagram v6\Des
 D:\It Learning\On School\Hoc ki 2 nam 4\Luan Van\Design Dia\DesignDiagram v6\DesignDiagram\obj\Debug\ResolveAssemblyReference.cache
 D:\It Learning\On School\Hoc ki 2 nam 4\Luan Van\Design Dia\DesignDiagram v6\DesignDiagram\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 D:\It Learning\On School\Hoc ki 2 nam 4\Luan Van\Design Dia\DesignDiagram v6\DesignDiagram\obj\Debug\DesignDiagram.csproj.GenerateResource.Cache
+C:\Users\ThaiBao\Desktop\New Folder (3)\src\DesignDiagram v6\DesignDiagram\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\ThaiBao\Desktop\New Folder (3)\src\DesignDiagram v6\DesignDiagram\obj\Debug\WindowsFormsApplication1.pdb
