@@ -42,11 +42,14 @@
             this.txtEpsilon = new System.Windows.Forms.NumericUpDown();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtMinValue = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.txtWidth)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtHeight)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtFloor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtCeiling)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtEpsilon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtMinValue)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -116,7 +119,7 @@
             // 
             // btnCreate
             // 
-            this.btnCreate.Location = new System.Drawing.Point(12, 216);
+            this.btnCreate.Location = new System.Drawing.Point(13, 247);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(147, 32);
             this.btnCreate.TabIndex = 3;
@@ -127,7 +130,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(13, 47);
+            this.label3.Location = new System.Drawing.Point(13, 80);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(81, 16);
@@ -136,7 +139,7 @@
             // 
             // txtFileName
             // 
-            this.txtFileName.Location = new System.Drawing.Point(84, 146);
+            this.txtFileName.Location = new System.Drawing.Point(85, 177);
             this.txtFileName.Name = "txtFileName";
             this.txtFileName.Size = new System.Drawing.Size(168, 22);
             this.txtFileName.TabIndex = 5;
@@ -145,7 +148,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(13, 149);
+            this.label4.Location = new System.Drawing.Point(14, 180);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(46, 16);
@@ -155,7 +158,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(13, 82);
+            this.label5.Location = new System.Drawing.Point(14, 48);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(85, 16);
@@ -164,33 +167,33 @@
             // 
             // txtFloor
             // 
-            this.txtFloor.Location = new System.Drawing.Point(104, 45);
+            this.txtFloor.Location = new System.Drawing.Point(106, 78);
             this.txtFloor.Name = "txtFloor";
             this.txtFloor.Size = new System.Drawing.Size(70, 22);
             this.txtFloor.TabIndex = 1;
             this.txtFloor.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtFloor.Value = new decimal(new int[] {
-            45,
+            41,
             0,
             0,
             0});
             // 
             // txtCeiling
             // 
-            this.txtCeiling.Location = new System.Drawing.Point(104, 80);
+            this.txtCeiling.Location = new System.Drawing.Point(106, 46);
             this.txtCeiling.Name = "txtCeiling";
             this.txtCeiling.Size = new System.Drawing.Size(70, 22);
             this.txtCeiling.TabIndex = 1;
             this.txtCeiling.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtCeiling.Value = new decimal(new int[] {
-            40,
+            31,
             0,
             0,
             0});
             // 
             // txtEpsilon
             // 
-            this.txtEpsilon.Location = new System.Drawing.Point(104, 112);
+            this.txtEpsilon.Location = new System.Drawing.Point(106, 111);
             this.txtEpsilon.Maximum = new decimal(new int[] {
             10,
             0,
@@ -206,7 +209,7 @@
             this.txtEpsilon.TabIndex = 1;
             this.txtEpsilon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtEpsilon.Value = new decimal(new int[] {
-            1,
+            4,
             0,
             0,
             0});
@@ -214,7 +217,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(13, 114);
+            this.label6.Location = new System.Drawing.Point(13, 111);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(53, 16);
@@ -225,17 +228,40 @@
             // 
             this.label7.AutoSize = true;
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label7.Location = new System.Drawing.Point(14, 185);
+            this.label7.Location = new System.Drawing.Point(15, 216);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(274, 16);
             this.label7.TabIndex = 7;
             this.label7.Text = "Lưu ý: Ngưỡng dưới phải nhỏ hơn ngưỡng trên";
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(13, 145);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(90, 16);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "Giá trị tối thiểu";
+            // 
+            // txtMinValue
+            // 
+            this.txtMinValue.Location = new System.Drawing.Point(106, 143);
+            this.txtMinValue.Name = "txtMinValue";
+            this.txtMinValue.Size = new System.Drawing.Size(70, 22);
+            this.txtMinValue.TabIndex = 1;
+            this.txtMinValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtMinValue.Value = new decimal(new int[] {
+            20,
+            0,
+            0,
+            0});
+            // 
             // frmMapCreator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(304, 265);
+            this.ClientSize = new System.Drawing.Size(304, 317);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -245,8 +271,10 @@
             this.Controls.Add(this.txtHeight);
             this.Controls.Add(this.txtEpsilon);
             this.Controls.Add(this.txtCeiling);
+            this.Controls.Add(this.txtMinValue);
             this.Controls.Add(this.txtFloor);
             this.Controls.Add(this.txtWidth);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
@@ -263,6 +291,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtFloor)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtCeiling)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtEpsilon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtMinValue)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -284,5 +313,7 @@
         private System.Windows.Forms.NumericUpDown txtEpsilon;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.NumericUpDown txtMinValue;
     }
 }
