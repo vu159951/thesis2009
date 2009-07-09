@@ -31,8 +31,7 @@ namespace GameDemo1.ButtonEvent
                         root.AppendChild(terrainNode);
                     }
                 }
-                if (MessageBox.Show("Save it ? ", "Save dialog", MessageBoxButtons.OKCancel) == DialogResult.OK)
-                {
+                if (MessageBox.Show("Save it ? ", "Save dialog", MessageBoxButtons.OKCancel) == DialogResult.OK){
                     doc.Save(Config.PATH_SAVE_FILE + filename + ".xml");
                     return true;
                 }
