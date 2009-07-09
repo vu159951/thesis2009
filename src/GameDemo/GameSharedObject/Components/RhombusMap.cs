@@ -26,9 +26,7 @@ namespace GameSharedObject.Components
 
             // get matrix from file and load map
             // lấy ma trận số từ file đặc tả
-            MapDataReader matrixmgr = new MapDataReader();
-            matrixmgr.Read(this._pathSpecificationFile);
-            this._bgMatrix = matrixmgr.Matrix;
+            this._bgMatrix = MatrixMgr.Read(this._pathSpecificationFile).Data;
             this.LoadMapCells(this._bgMatrix); // load các cell dựa vào ma trận số
         }
 
@@ -37,40 +35,32 @@ namespace GameSharedObject.Components
         /// </summary>
         protected override void ScrollingMapByKeyBoard()
         {
-            if (GlobalDTO.currentModeGame == "Loading")
-            {
+            if (GlobalDTO.currentModeGame == "Loading"){
                 return;
             }
             this.keyState = Keyboard.GetState(); // get key
-            if (keyState.IsKeyDown(Keys.Up))
-            {
+            if (keyState.IsKeyDown(Keys.Up)){
                 this._currentRootCoordinate.Y -= GlobalDTO.SPEED_SCROLL.Y;// scrool up
-                if (this._currentRootCoordinate.Y < 0)// if can't scroll continuous, stand here
-                {
+                if (this._currentRootCoordinate.Y < 0){
+                    // if can't scroll continuous, stand here
                     this._currentRootCoordinate.Y = 0;
                 }
             }
-            if (keyState.IsKeyDown(Keys.Down))
-            {
+            if (keyState.IsKeyDown(Keys.Down)){
                 this._currentRootCoordinate.Y += GlobalDTO.SPEED_SCROLL.Y;// scrool down
-                if (this._currentRootCoordinate.Y > (GlobalDTO.MAP_SIZE_IN_CELL.Height * CELL_SIZE.Height - Game.Window.ClientBounds.Height))
-                {
+                if (this._currentRootCoordinate.Y > (GlobalDTO.MAP_SIZE_IN_CELL.Height * CELL_SIZE.Height - Game.Window.ClientBounds.Height)){
                     this._currentRootCoordinate.Y = GlobalDTO.MAP_SIZE_IN_CELL.Height * CELL_SIZE.Height - Game.Window.ClientBounds.Height;
                 }
             }
-            if (keyState.IsKeyDown(Keys.Left))
-            {
+            if (keyState.IsKeyDown(Keys.Left)){
                 this._currentRootCoordinate.X -= GlobalDTO.SPEED_SCROLL.X; // scroll left
-                if (this._currentRootCoordinate.X < 0)
-                {
+                if (this._currentRootCoordinate.X < 0){
                     this._currentRootCoordinate.X = 0;
                 }
             }
-            if (keyState.IsKeyDown(Keys.Right))
-            {
+            if (keyState.IsKeyDown(Keys.Right)){
                 this._currentRootCoordinate.X += GlobalDTO.SPEED_SCROLL.X; // scroll right
-                if (this._currentRootCoordinate.X > (GlobalDTO.MAP_SIZE_IN_CELL.Width * CELL_SIZE.Width - Game.Window.ClientBounds.Width))
-                {
+                if (this._currentRootCoordinate.X > (GlobalDTO.MAP_SIZE_IN_CELL.Width * CELL_SIZE.Width - Game.Window.ClientBounds.Width)){
                     this._currentRootCoordinate.X = GlobalDTO.MAP_SIZE_IN_CELL.Width * CELL_SIZE.Width - Game.Window.ClientBounds.Width;
                 }
             }
@@ -83,40 +73,32 @@ namespace GameSharedObject.Components
         /// </summary>
         protected override void ScrollingMapByMouse()
         {
-            if (GlobalDTO.currentModeGame == "Loading")
-            {
+            if (GlobalDTO.currentModeGame == "Loading"){
                 return;
             }
             this.mouseState = Mouse.GetState(); // get mouse
-            if (mouseState.X <= 0)
-            {
+            if (mouseState.X <= 0){
                 this._currentRootCoordinate.X -= GlobalDTO.SPEED_SCROLL.X; // scroll left
-                if (this._currentRootCoordinate.X < 0)
-                {
+                if (this._currentRootCoordinate.X < 0){
                     this._currentRootCoordinate.X = 0;
                 }
             }
-            if (mouseState.Y <= 0)
-            {
+            if (mouseState.Y <= 0){
                 this._currentRootCoordinate.Y -= GlobalDTO.SPEED_SCROLL.Y;// scrool up
-                if (this._currentRootCoordinate.Y < 0)// if can't scroll continuous, stand here
-                {
+                if (this._currentRootCoordinate.Y < 0){
+                    // if can't scroll continuous, stand here
                     this._currentRootCoordinate.Y = 0;
                 }
             }
-            if (mouseState.X >= Game.Window.ClientBounds.Width - GlobalDTO.CURSOR_SIZE.Width)
-            {
+            if (mouseState.X >= Game.Window.ClientBounds.Width - GlobalDTO.CURSOR_SIZE.Width){
                 this._currentRootCoordinate.X += GlobalDTO.SPEED_SCROLL.X; // scroll right
-                if (this._currentRootCoordinate.X > (GlobalDTO.MAP_SIZE_IN_CELL.Width * CELL_SIZE.Width - Game.Window.ClientBounds.Width))
-                {
+                if (this._currentRootCoordinate.X > (GlobalDTO.MAP_SIZE_IN_CELL.Width * CELL_SIZE.Width - Game.Window.ClientBounds.Width)){
                     this._currentRootCoordinate.X = GlobalDTO.MAP_SIZE_IN_CELL.Width * CELL_SIZE.Width - Game.Window.ClientBounds.Width;
                 }
             }
-            if (mouseState.Y >= Game.Window.ClientBounds.Height - GlobalDTO.CURSOR_SIZE.Height)
-            {
+            if (mouseState.Y >= Game.Window.ClientBounds.Height - GlobalDTO.CURSOR_SIZE.Height){
                 this._currentRootCoordinate.Y += GlobalDTO.SPEED_SCROLL.Y;// scrool down
-                if (this._currentRootCoordinate.Y > (GlobalDTO.MAP_SIZE_IN_CELL.Height * CELL_SIZE.Height - Game.Window.ClientBounds.Height))
-                {
+                if (this._currentRootCoordinate.Y > (GlobalDTO.MAP_SIZE_IN_CELL.Height * CELL_SIZE.Height - Game.Window.ClientBounds.Height)){
                     this._currentRootCoordinate.Y = GlobalDTO.MAP_SIZE_IN_CELL.Height * CELL_SIZE.Height - Game.Window.ClientBounds.Height;
                 }
             }
@@ -137,51 +119,41 @@ namespace GameSharedObject.Components
             Point cell4 = transform.PointToCell(new Point((int)(this._currentRootCoordinate.X + Game.Window.ClientBounds.Width), (int)(this._currentRootCoordinate.Y + Game.Window.ClientBounds.Height)));
 
             int i1 = (int)cell3.Y;// C
-            if (i1 < 0)
-            {
+            if (i1 < 0){
                 i1 = 0;
             }
-            if (i1 >= GlobalDTO.MAP_SIZE_IN_CELL.Height)
-            {
+            if (i1 >= GlobalDTO.MAP_SIZE_IN_CELL.Height){
                 i1 = GlobalDTO.MAP_SIZE_IN_CELL.Height - 1;
             }
 
             int i2 = (int)cell4.Y + 2;// D
-            if (i2 < 0)
-            {
+            if (i2 < 0){
                 i2 = 0;
             }
-            if (i2 >= GlobalDTO.MAP_SIZE_IN_CELL.Height)
-            {
+            if (i2 >= GlobalDTO.MAP_SIZE_IN_CELL.Height){
                 i2 = GlobalDTO.MAP_SIZE_IN_CELL.Height - 1;
             }
 
             int j1 = (int)cell1.X;// A
-            if (j1 < 0)
-            {
+            if (j1 < 0){
                 j1 = 0;
             }
-            if (j1 >= GlobalDTO.MAP_SIZE_IN_CELL.Width)
-            {
+            if (j1 >= GlobalDTO.MAP_SIZE_IN_CELL.Width){
                 j1 = GlobalDTO.MAP_SIZE_IN_CELL.Width - 1;
             }
 
             int j2 = (int)cell2.X + 2;// B
-            if (j2 < 0)
-            {
+            if (j2 < 0){
                 j2 = 0;
             }
-            if (j2 >= GlobalDTO.MAP_SIZE_IN_CELL.Width)
-            {
+            if (j2 >= GlobalDTO.MAP_SIZE_IN_CELL.Width){
                 j2 = GlobalDTO.MAP_SIZE_IN_CELL.Width - 1;
             }
 
-            for (int i = i1; i <= i2; i++)
-            {
-                for (int j = j1; j <= j2; j++) // với các cell được phéo vẽ
-                {
-                    try
-                    {
+            for (int i = i1; i <= i2; i++){
+                for (int j = j1; j <= j2; j++){
+                    // với các cell được phéo vẽ
+                    try{
                         // tính ra vị trí sẽ vẽ cell trong view port dựa và position của cell trong hệ tọa độ map
                         // và tọa độ của góc trái trên của view port
                         Rectangle recToDraw = new Rectangle(
@@ -202,27 +174,20 @@ namespace GameSharedObject.Components
         protected override void LoadMapCells(int[,] matrixmap)
         {
             // khởi tạo mảng cell 2 chiều
+            int[,] a = new int[80, 80];
             this.cells = new MapCell[GlobalDTO.MAP_SIZE_IN_CELL.Width, GlobalDTO.MAP_SIZE_IN_CELL.Height];
 
             int HalfOfCellSizeX = CELL_SIZE.Width >> 1;
             int HalfOfCellSizeY = CELL_SIZE.Height>> 1;
 
             for (int i = 0; i < GlobalDTO.MAP_SIZE_IN_CELL.Height; i++){
-                for (int j = 0; j < GlobalDTO.MAP_SIZE_IN_CELL.Width; j++)
-                {
+                for (int j = 0; j < GlobalDTO.MAP_SIZE_IN_CELL.Width; j++){
                     // tính vị trí của cell trên map
                     int x = (int)ROOT_Vector2.X - HalfOfCellSizeX * j + HalfOfCellSizeX * i;
                     int y = (int)ROOT_Vector2.Y + HalfOfCellSizeY * j + HalfOfCellSizeY * i;
-                    // từ mãng số -> cell sẽ được load từ hình nào
-                    int dir = (matrixmap[i, j] >> 7) + 1;
-                    int file = matrixmap[i, j] - (dir-1) * 128;
-                    string temp = file.ToString();
-                    for (int m = 1; m <= 5 - file.ToString().Length; m++)
-                    {
-                        temp = "0" + temp;
-                    }
-                    this.cells[i, j] = new MapCell(Game.Content.Load<Texture2D>(GlobalDTO.RES_RHOMBUS_MAP_PATH + "BG00" + dir + "//ter" + temp), x, y);
-                }
+                    // Nạp dữ liệu các ô vào bộ nhớ
+                    this.cells[i, j] = new MapCell(Game.Content.Load<Texture2D>(GlobalDTO.RES_RHOMBUS_MAP_PATH + matrixmap[i, j].ToString("0000")), x, y);
+                 }
             }
         }
     }

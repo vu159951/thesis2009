@@ -23,9 +23,7 @@ namespace GameSharedObject.Components
             Transform = new SquareTransform(ROOT_Vector2, CELL_SIZE.Width, CELL_SIZE.Height);
 
             // load ma trận số mô tả cách lát nền và thực hiện lát nền cho map
-            MapDataReader matrixmgr = new MapDataReader();
-            matrixmgr.Read(this._pathSpecificationFile);
-            this._bgMatrix = matrixmgr.Matrix;
+            this._bgMatrix = MatrixMgr.Read(this._pathSpecificationFile).Data;
             this.LoadMapCells(this._bgMatrix);// load cell hình để lát nền
         }
 
