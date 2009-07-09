@@ -68,6 +68,7 @@
     <Reference Include="System">
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Xml">
       <Private>False</Private>
@@ -97,6 +98,7 @@
     <Compile Include="Components\Structure.cs" />
     <Compile Include="Components\Terrain.cs" />
     <Compile Include="Components\Unit.cs" />
+    <Compile Include="Data\AIDataReader.cs" />
     <Compile Include="Data\SpriteDataReader.cs" />
     <Compile Include="Data\GlobalDataReader.cs" />
     <Compile Include="Data\Logger.cs" />
@@ -106,6 +108,7 @@
     <Compile Include="Data\StructureDataReader.cs" />
     <Compile Include="Data\TerrainDataReader.cs" />
     <Compile Include="Data\UnitDataReader.cs" />
+    <Compile Include="DTO\AIDTO.cs" />
     <Compile Include="DTO\DirectionInfo.cs" />
     <Compile Include="DTO\DirectionList.cs" />
     <Compile Include="DTO\GlobalDTO.cs" />
