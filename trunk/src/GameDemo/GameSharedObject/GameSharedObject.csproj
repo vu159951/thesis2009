@@ -102,7 +102,7 @@
     <Compile Include="Data\SpriteDataReader.cs" />
     <Compile Include="Data\GlobalDataReader.cs" />
     <Compile Include="Data\Logger.cs" />
-    <Compile Include="Data\MapDataReader.cs" />
+    <Compile Include="Data\MatrixMgr.cs" />
     <Compile Include="Data\ParticleDataReader.cs" />
     <Compile Include="Data\ResourceCenterDataReader.cs" />
     <Compile Include="Data\StructureDataReader.cs" />
@@ -113,6 +113,7 @@
     <Compile Include="DTO\DirectionList.cs" />
     <Compile Include="DTO\GlobalDTO.cs" />
     <Compile Include="DTO\MapCell.cs" />
+    <Compile Include="DTO\MatrixDTO.cs" />
     <Compile Include="DTO\ParticleDTO.cs" />
     <Compile Include="DTO\Resource.cs" />
     <Compile Include="DTO\ResourceCenterDTO.cs" />
