@@ -44,12 +44,15 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.txtMinValue = new System.Windows.Forms.NumericUpDown();
+            this.txtDistance = new System.Windows.Forms.NumericUpDown();
+            this.label9 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.txtWidth)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtHeight)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtFloor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtCeiling)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtEpsilon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtMinValue)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtDistance)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -77,7 +80,7 @@
             0});
             this.txtWidth.Name = "txtWidth";
             this.txtWidth.Size = new System.Drawing.Size(70, 22);
-            this.txtWidth.TabIndex = 1;
+            this.txtWidth.TabIndex = 0;
             this.txtWidth.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtWidth.Value = new decimal(new int[] {
             80,
@@ -119,10 +122,10 @@
             // 
             // btnCreate
             // 
-            this.btnCreate.Location = new System.Drawing.Point(13, 247);
+            this.btnCreate.Location = new System.Drawing.Point(12, 283);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(147, 32);
-            this.btnCreate.TabIndex = 3;
+            this.btnCreate.TabIndex = 8;
             this.btnCreate.Text = "Create map";
             this.btnCreate.UseVisualStyleBackColor = true;
             this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
@@ -139,16 +142,16 @@
             // 
             // txtFileName
             // 
-            this.txtFileName.Location = new System.Drawing.Point(85, 177);
+            this.txtFileName.Location = new System.Drawing.Point(84, 213);
             this.txtFileName.Name = "txtFileName";
             this.txtFileName.Size = new System.Drawing.Size(168, 22);
-            this.txtFileName.TabIndex = 5;
+            this.txtFileName.TabIndex = 7;
             this.txtFileName.Text = "Map_2.txt";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(14, 180);
+            this.label4.Location = new System.Drawing.Point(13, 216);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(46, 16);
@@ -167,10 +170,10 @@
             // 
             // txtFloor
             // 
-            this.txtFloor.Location = new System.Drawing.Point(106, 78);
+            this.txtFloor.Location = new System.Drawing.Point(143, 80);
             this.txtFloor.Name = "txtFloor";
             this.txtFloor.Size = new System.Drawing.Size(70, 22);
-            this.txtFloor.TabIndex = 1;
+            this.txtFloor.TabIndex = 3;
             this.txtFloor.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtFloor.Value = new decimal(new int[] {
             41,
@@ -180,10 +183,10 @@
             // 
             // txtCeiling
             // 
-            this.txtCeiling.Location = new System.Drawing.Point(106, 46);
+            this.txtCeiling.Location = new System.Drawing.Point(143, 48);
             this.txtCeiling.Name = "txtCeiling";
             this.txtCeiling.Size = new System.Drawing.Size(70, 22);
-            this.txtCeiling.TabIndex = 1;
+            this.txtCeiling.TabIndex = 2;
             this.txtCeiling.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtCeiling.Value = new decimal(new int[] {
             31,
@@ -193,7 +196,7 @@
             // 
             // txtEpsilon
             // 
-            this.txtEpsilon.Location = new System.Drawing.Point(106, 111);
+            this.txtEpsilon.Location = new System.Drawing.Point(143, 113);
             this.txtEpsilon.Maximum = new decimal(new int[] {
             10,
             0,
@@ -206,7 +209,7 @@
             0});
             this.txtEpsilon.Name = "txtEpsilon";
             this.txtEpsilon.Size = new System.Drawing.Size(70, 22);
-            this.txtEpsilon.TabIndex = 1;
+            this.txtEpsilon.TabIndex = 4;
             this.txtEpsilon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtEpsilon.Value = new decimal(new int[] {
             4,
@@ -228,7 +231,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label7.Location = new System.Drawing.Point(15, 216);
+            this.label7.Location = new System.Drawing.Point(14, 252);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(274, 16);
             this.label7.TabIndex = 7;
@@ -246,10 +249,10 @@
             // 
             // txtMinValue
             // 
-            this.txtMinValue.Location = new System.Drawing.Point(106, 143);
+            this.txtMinValue.Location = new System.Drawing.Point(143, 143);
             this.txtMinValue.Name = "txtMinValue";
             this.txtMinValue.Size = new System.Drawing.Size(70, 22);
-            this.txtMinValue.TabIndex = 1;
+            this.txtMinValue.TabIndex = 5;
             this.txtMinValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtMinValue.Value = new decimal(new int[] {
             20,
@@ -257,11 +260,37 @@
             0,
             0});
             // 
+            // txtDistance
+            // 
+            this.txtDistance.Location = new System.Drawing.Point(143, 175);
+            this.txtDistance.Name = "txtDistance";
+            this.txtDistance.Size = new System.Drawing.Size(70, 22);
+            this.txtDistance.TabIndex = 6;
+            this.txtDistance.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtDistance.Value = new decimal(new int[] {
+            14,
+            0,
+            0,
+            0});
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(14, 177);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(122, 16);
+            this.label9.TabIndex = 8;
+            this.label9.Text = "Khoảng cách->max";
+            // 
             // frmMapCreator
             // 
+            this.AcceptButton = this.btnCreate;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(304, 317);
+            this.ClientSize = new System.Drawing.Size(304, 329);
+            this.Controls.Add(this.txtDistance);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -292,6 +321,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtCeiling)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtEpsilon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtMinValue)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtDistance)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -315,5 +345,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.NumericUpDown txtMinValue;
+        private System.Windows.Forms.NumericUpDown txtDistance;
+        private System.Windows.Forms.Label label9;
     }
 }

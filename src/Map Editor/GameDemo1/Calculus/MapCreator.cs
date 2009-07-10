@@ -23,6 +23,7 @@ namespace GameDemo1
         public static float CONST_CEILING_LIMIT = 0.85f;
         public static float CONST_EPSILON = 0.04f;
         public static int CONST_THRESHOLD_VALUE = 20;
+        public static int CONST_THRESHOLD_DISTANCE = 14;
 
         private static Random rnd = new Random(DateTime.Now.Millisecond);
         private static MatrixDTO[] S;
@@ -410,6 +411,8 @@ namespace GameDemo1
             if (value < litmit)
                 result &= false;
             if (value < CONST_THRESHOLD_VALUE)
+                result &= false;
+            if (value < (maxOfValue - CONST_THRESHOLD_DISTANCE))
                 result &= false;
             return result;
         }
