@@ -34,6 +34,7 @@ namespace GameDemo1
             MapCreator.CONST_FLOOR_LIMIT = Convert.ToInt32(txtFloor.Value) * 0.01f;
             MapCreator.CONST_EPSILON = Convert.ToInt32(txtEpsilon.Value) * 0.01f;
             MapCreator.CONST_THRESHOLD_VALUE = Convert.ToInt32(txtMinValue.Value);
+            MapCreator.CONST_THRESHOLD_DISTANCE = Convert.ToInt32(txtDistance.Value);
 
             MapCreator.Load(Application.StartupPath + "\\" + @"Specification\MapCellData");
             _mapMatrix = MapCreator.Generate(w, h);
