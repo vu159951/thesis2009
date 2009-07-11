@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <AI>
-  <Level name="Level 1" id="1">
+  <Level name="Level 1" id="1" time="15">
     <Action name="Move" value="10%" />
     <Action name="Attack" value="5%" />
     <Action name="Idle" value="30%" />
@@ -10,7 +10,7 @@
     <Action name="RollBackBuyUnit" value="5%" />
     <Action name="UpgradeStructure" value="5%" />
   </Level>
-  <Level name="Level 2" id="2">
+  <Level name="Level 2" id="2" time="10">
     <Action name="Move" value="10%"/>
     <Action name="Attack" value="10%"/>
     <Action name="Idle" value="20%"/>
@@ -20,7 +20,7 @@
     <Action name="RollBackBuyUnit" value="5%" />
     <Action name="UpgradeStructure" value="5%" />
   </Level>
-  <Level name="Level 3" id="3">
+  <Level name="Level 3" id="3" time="5">
     <Action name="Move" value="5%"/>
     <Action name="Attack" value="15%"/>
     <Action name="Idle" value="10%"/>
