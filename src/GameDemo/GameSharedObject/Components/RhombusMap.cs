@@ -160,7 +160,7 @@ namespace GameSharedObject.Components
                             (int)(this.cells[i, j].X - this._currentRootCoordinate.X),
                             (int)(this.cells[i, j].Y - this._currentRootCoordinate.Y),
                             CELL_SIZE.Width, CELL_SIZE.Height);
-                        spriteBatch.Draw(this.cells[i, j].Background, recToDraw, Color.WhiteSmoke);
+                        spriteBatch.Draw(this.cells[i, j].Background, recToDraw, Color.White);
                     }
                     catch{}
                 }
