@@ -57,8 +57,7 @@ namespace GameDemo1
         public void BuyBuildStructure(Player player, Structure structure, Vector2 point)
         {
             if (player.CheckConditionToBuyStructure(structure) == true)
-            {
-                // tính toán vị trí đặt structure dựa vào trỏ chuột
+            {                
                 Vector2 tempposition = new Vector2(point.X, point.Y);
 
                 // tạo Structure từ tên của Structure tương ứng được chọn từ menu bottom
@@ -68,57 +67,9 @@ namespace GameDemo1
                                         (Structure)newstructure,
                                         ((Structure)newstructure).CurrentUpgradeInfo.Id);
                 newstructure.Position = tempposition;
-                newstructure.CodeFaction = player.Code;
-                newstructure.Color = player.Color;
-                //Structure newstructure = new Structure(this.Game, GlobalDTO.SPEC_STRUCTURE_PATH + this._menuItemsBottom[this._selectedIndexMenuItemBottom].Info.Name + ".xml", tempposition, this._playerIsUser.Code);
-                //// change position to draw structure which have just been built
-                Texture2D img = newstructure.Info.Action[newstructure.CurrentStatus.Name].DirectionInfo[newstructure.CurrentDirection.Name].Image[0];
-                newstructure.Position -= new Vector2(img.Width / 2, img.Height / 2);
-                ((Structure)newstructure).PlayerContainer = player; // xác định player sở hữu
-                player.StructureListCreated.Add(newstructure);// thêm vào tập các structure của player mua nó
-                this.AddComponentIntoGame((IGameComponent)newstructure);// đưa vào game component để nó được vẽ
-                player.DecreaseResourceToBuyStructure(structure);
-                GlobalDTO.MANAGER_GAME.ListStructureOnMap.Add(newstructure);// đưa vào list structure của manager game
-                //// play sound "start built"
-                AudioGame au = new AudioGame(this._game);
-                au.PlaySoundEffectGame("startbuild", 0.15f, 0.0f);
-                au.Dispose();
+                player.BuyStructure(newstructure);                
             }
-        }
-
-        public void AddComponentIntoGame(IGameComponent component)
-        {
-            IGameComponent cursor = this.Game.Components[this.Game.Components.Count - 1];
-            IGameComponent minimap = this.Game.Components[this.Game.Components.Count - 2];
-            IGameComponent managergame = this.Game.Components[this.Game.Components.Count - 3];
-            IGameComponent managerplayer = this.Game.Components[this.Game.Components.Count - 4];
-
-            // remove cursor and managerplayer
-            // tạm thời lấy con trỏ chuột và menu ra tập các game component
-            this.Game.Components.Remove(cursor);
-            this.Game.Components.Remove(minimap);
-            this.Game.Components.Remove(managergame);
-            this.Game.Components.Remove(managerplayer);
-            // add component
-            // add component muốn add vào
-            this.Game.Components.Add(component);
-            // add cursor and managerplayer again
-            // add con trỏ chuột vào menu vào lại
-            this.Game.Components.Add(managerplayer);
-            this.Game.Components.Add(managergame);
-            this.Game.Components.Add(minimap);
-            this.Game.Components.Add(cursor);
-            // add to listunit and list structure on map
-            // add component vào list quản lý game
-            if (component is Structure)
-            {
-                GlobalDTO.MANAGER_GAME.ListStructureOnMap.Add((Structure)component);
-            }
-            else if (component is Unit)
-            {
-                GlobalDTO.MANAGER_GAME.ListUnitOnMap.Add((Unit)component);
-            }
-        }
+        }        
 
         public void LoadUnitListToStructure(Structure structure, int upgradeId)
         {
@@ -139,8 +90,10 @@ namespace GameDemo1
         #endregion
 
         public void BuyUnit(Player player, Unit unit)
-        { 
-
+        {
+            string name = unit.Info.Name;
+            Unit newUnit = ((Unit)this._game.UnitMgr[name]).Clone() as Unit;                        
+            player.AddToListUnitBuying(newUnit);
         }
 
         public void ExploitResource(ProducerUnit producerUnit, ResourceCenter resourceCenter)
@@ -154,6 +107,16 @@ namespace GameDemo1
                     return;
                 }
             }
+        }
+
+        public void IncreaseResource(Player player, int value, string resourceName)
+        {
+            player.Resources[resourceName].Quantity += value;
+        }
+
+        public void SetResource(Player player, int value, string resourceName)
+        {
+            player.Resources[resourceName].Quantity = value;
         }
     }
 }
