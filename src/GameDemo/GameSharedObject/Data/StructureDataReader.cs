@@ -34,7 +34,7 @@ namespace GameSharedObject.Data
             XmlNode nodeinfo = xmlDoc.SelectSingleNode("//Informations");
             for (int i = 0; i < nodeinfo.ChildNodes.Count; i++)
             {
-                ItemInfo info = new ItemInfo(nodeinfo.ChildNodes[i].Attributes["name"].Value, nodeinfo.ChildNodes[i].Attributes["value"].Value);
+                ItemInfo info = new ItemInfo(nodeinfo.ChildNodes[i].Attributes["name"].Value, nodeinfo.ChildNodes[i].Attributes["value"].Value, nodeinfo.ChildNodes[i].Attributes["type"].Value);
                 structureInfo.InformationList.Add(info.Name, info);
             }
 
@@ -46,7 +46,7 @@ namespace GameSharedObject.Data
                 UpgradeInfo upgrade = new UpgradeInfo();
                 for (int j = 0; j < temp1.ChildNodes.Count; j++)
                 {
-                    upgrade.Requirements.Add(temp1.ChildNodes[j].Attributes["name"].Value, new ItemInfo(temp1.ChildNodes[j].Attributes["name"].Value, temp1.ChildNodes[j].Attributes["value"].Value));
+                    upgrade.Requirements.Add(temp1.ChildNodes[j].Attributes["name"].Value, new ItemInfo(temp1.ChildNodes[j].Attributes["name"].Value, temp1.ChildNodes[j].Attributes["value"].Value, temp1.ChildNodes[j].Attributes["type"].Value));
                 }
                 upgrade.Name = temp1.Attributes["name"].Value;
                 upgrade.Id = int.Parse(temp1.Attributes["id"].Value);
@@ -57,7 +57,7 @@ namespace GameSharedObject.Data
             XmlNode nodeunits = xmlDoc.SelectSingleNode("//ListUnits");
             for (int i = 0; i < nodeunits.ChildNodes.Count; i++)
             {
-                ItemInfo info = new ItemInfo(nodeunits.ChildNodes[i].Attributes["name"].Value, nodeunits.ChildNodes[i].Attributes["upgradeId"].Value);
+                ItemInfo info = new ItemInfo(nodeunits.ChildNodes[i].Attributes["name"].Value, nodeunits.ChildNodes[i].Attributes["upgradeId"].Value, nodeinfo.ChildNodes[i].Attributes["type"].Value);
                 structureInfo.UnitList.Add(info);
             }
 

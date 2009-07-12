@@ -26,7 +26,7 @@ namespace GameSharedObject.Data
 
             for (int i = 0; i < nodeLevel.ChildNodes.Count; i++)
             {
-                ai.Actions.Add(nodeLevel.ChildNodes[i].Attributes["name"].Value, new ItemInfo(nodeLevel.ChildNodes[i].Attributes["name"].Value, nodeLevel.ChildNodes[i].Attributes["value"].Value));
+                ai.Actions.Add(nodeLevel.ChildNodes[i].Attributes["name"].Value, new ItemInfo(nodeLevel.ChildNodes[i].Attributes["name"].Value, nodeLevel.ChildNodes[i].Attributes["value"].Value, nodeLevel.ChildNodes[i].Attributes["type"].Value));
             }
             return ai;
         }

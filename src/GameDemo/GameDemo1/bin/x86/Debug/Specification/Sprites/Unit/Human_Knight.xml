@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Sprite name="Human_Knight" type="Unit" path="Sprites\\Unit\\Human_Knight\\">
   <Informations>
-    <Info name="MaxHealth" value="170"/>
-    <Info name="Power" value="6" />
-    <Info name="RadiusAttack" value="50" />
-    <Info name="RadiusDetect" value="70" />
-    <Info name="Speed" value="4" />
-    <Info name="AttackParticle" value="Boiling Fury Fire" />
+    <Info type="" name="MaxHealth" value="170"/>
+    <Info type="" name="Power" value="6" />
+    <Info type="" name="RadiusAttack" value="50" />
+    <Info type="" name="RadiusDetect" value="70" />
+    <Info type="" name="Speed" value="4" />
+    <Info type="" name="AttackParticle" value="Boiling Fury Fire" />
   </Informations>
   <Requirements>
     <Upgrade name="1" id="1">
-      <Info name="Gold" value="100" />
-      <Info name="Time" value="6" />
+      <Info type="" name="Gold" value="100" />
+      <Info type="" name="Time" value="16" />
     </Upgrade>
   </Requirements>
   <Action>
