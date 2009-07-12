@@ -2,22 +2,22 @@
 <Sprite name="TownHall" type="Structure" path="Sprites\\Structure\\TownHall\\">
   <!-- Default icon image: Icon.png  -->
   <Informations>
-    <Info name="MaxHealth" value="400"/>
-    <Info name="Power" value="0" />
-    <Info name="RadiusAttack" value="0" />
-    <Info name="RadiusDetect" value="0" />
-    <Info name="Speed" value="0" />
+    <Info type="" name="MaxHealth" value="400"/>
+    <Info type="" name="Power" value="0" />
+    <Info type="" name="RadiusAttack" value="0" />
+    <Info type="" name="RadiusDetect" value="0" />
+    <Info type="" name="Speed" value="0" />
   </Informations>
   <Requirements>
     <Upgrade name="1" id="1" >
-      <Info name="Stone" value="5000" />
-      <Info name="Gold" value="4000" />
-      <Info name="Time" value="30"/>
+      <Info type="" name="Stone" value="5000" />
+      <Info type="" name="Gold" value="4000" />
+      <Info type="" name="Time" value="30"/>      
     </Upgrade>
     <Upgrade name="2" id="2" >
-      <Info name="Stone" value="10000" />
-      <Info name="Gold" value="8000" />
-      <Info name="Time" value="60"/>
+      <Info type="" name="Stone" value="10000" />
+      <Info type="" name="Gold" value="8000" />
+      <Info type="" name="Time" value="60"/>
     </Upgrade>
   </Requirements>
   <ListUnits>

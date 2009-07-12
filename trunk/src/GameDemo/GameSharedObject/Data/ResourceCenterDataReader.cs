@@ -34,7 +34,7 @@ namespace GameSharedObject.Data
             XmlNode nodeinfo = xmlDoc.SelectSingleNode("//Informations");
             for (int i = 0; i < nodeinfo.ChildNodes.Count; i++)
             {
-                ItemInfo info = new ItemInfo(nodeinfo.ChildNodes[i].Attributes["name"].Value, nodeinfo.ChildNodes[i].Attributes["value"].Value);
+                ItemInfo info = new ItemInfo(nodeinfo.ChildNodes[i].Attributes["name"].Value, nodeinfo.ChildNodes[i].Attributes["value"].Value, nodeinfo.ChildNodes[i].Attributes["type"].Value);
                 resourcecenter.ResourceInfo.Add(info.Name, info);
             }
 

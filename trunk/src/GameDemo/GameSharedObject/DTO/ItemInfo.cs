@@ -9,6 +9,13 @@ namespace GameSharedObject.DTO
     {
         private string _name;
         private string _value;
+        private string _type;
+
+        public string Type
+        {
+            get { return _type; }
+            set { _type = value; }
+        }
 
         public string Name
         {
@@ -19,17 +26,18 @@ namespace GameSharedObject.DTO
         {
             get { return this._value; }
             set { this._value = value; }
-        }
+        }        
 
         public ItemInfo()
         {
  
         }
 
-        public ItemInfo(string name, string value)
+        public ItemInfo(string name, string value,string type)
         {
             this._name = name;
             this._value = value;
+            this._type = type;
         }
     }
 }

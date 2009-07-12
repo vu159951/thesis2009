@@ -2,29 +2,30 @@
 <Sprite name="Military" type="Structure" path="Sprites\\Structure\\Military\\">
   <!-- Default icon image: Icon.png  -->
   <Informations>
-    <Info name="MaxHealth" value="400"/>
-    <Info name="Power" value="0" />
-    <Info name="RadiusAttack" value="0" />
-    <Info name="RadiusDetect" value="0" />
-    <Info name="Speed" value="0" />
+    <Info type="" name="MaxHealth" value="400"/>
+    <Info type="" name="Power" value="0" />
+    <Info type="" name="RadiusAttack" value="0" />
+    <Info type="" name="RadiusDetect" value="0" />
+    <Info type="" name="Speed" value="0" />
   </Informations>
   <Requirements>
     <Upgrade name="1" id="1" >
-      <Info name="Stone" value="5000" />
-      <Info name="Gold" value="4000" />
-      <Info name="Time" value="30"/>
+      <Info type="" name="Stone" value="5000" />
+      <Info type="" name="Gold" value="4000" />
+      <Info type="" name="Time" value="30"/>
+      <Info type="Structure" name="Logic1" value="TownHall"/>
     </Upgrade>
     <Upgrade name="2" id="2" >
-      <Info name="Stone" value="10000" />
-      <Info name="Gold" value="8000" />
-      <Info name="Time" value="45"/>
+      <Info type="" name="Stone" value="10000" />
+      <Info type="" name="Gold" value="8000" />
+      <Info type="" name="Time" value="45"/>
     </Upgrade>
   </Requirements>
   <ListUnits>
-    <Unit name="Black_Angel" upgradeId="1" />
-    <Unit name="Archon_Archer" upgradeId="1" />
-    <Unit name="Angel" upgradeId="1" />
-    <Unit name="Elf_swordman" upgradeId="1" />    
+    <Unit type="" name="Black_Angel" upgradeId="1" />
+    <Unit type="" name="Archon_Archer" upgradeId="1" />
+    <Unit type="" name="Angel" upgradeId="1" />
+    <Unit type="" name="Elf_swordman" upgradeId="1" />    
   </ListUnits>
   <Action>
     <IDLE>

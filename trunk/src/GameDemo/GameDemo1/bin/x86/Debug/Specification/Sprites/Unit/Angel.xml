@@ -2,17 +2,17 @@
 <Sprite name="Angel" type="Unit" path="Sprites\\Unit\\Angel\\">
   <!-- Default icon image: Icon.png  -->
   <Informations>
-    <Info name="MaxHealth" value="150"/>
-    <Info name="Power" value="4" />
-    <Info name="RadiusAttack" value="40" />
-    <Info name="RadiusDetect" value="60" />
-    <Info name="Speed" value="5" />
-    <Info name="AttackParticle" value="Boiling Fury Fire" />
+    <Info type="" name="MaxHealth" value="150"/>
+    <Info type="" name="Power" value="4" />
+    <Info type="" name="RadiusAttack" value="40" />
+    <Info type="" name="RadiusDetect" value="60" />
+    <Info type="" name="Speed" value="5" />
+    <Info type="" name="AttackParticle" value="Boiling Fury Fire" />
   </Informations>
   <Requirements>
     <Upgrade name="1" id="1">
-      <Info name="Gold" value="50" />
-      <Info name="Time" value="6" />
+      <Info type="" name="Gold" value="50" />
+      <Info type="" name="Time" value="12" />
     </Upgrade>
   </Requirements>
   <Action>
