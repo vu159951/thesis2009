@@ -89,11 +89,11 @@ namespace GameDemo1
         }
         #endregion
 
-        public void BuyUnit(Player player, Unit unit)
+        public void BuyUnit(Structure structure, Unit unit)
         {
             string name = unit.Info.Name;
             Unit newUnit = ((Unit)this._game.UnitMgr[name]).Clone() as Unit;                        
-            player.AddToListUnitBuying(newUnit);
+            structure.AddToListUnitBuying(newUnit);
         }
 
         public void ExploitResource(ProducerUnit producerUnit, ResourceCenter resourceCenter)
