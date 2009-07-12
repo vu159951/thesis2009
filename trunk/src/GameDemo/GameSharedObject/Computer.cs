@@ -22,7 +22,7 @@ namespace GameSharedObject
     public class Computer : Player
     {
         private AIDTO _aiInfo;
-
+        
         internal AIDTO AiInfo
         {
             get { return _aiInfo; }
