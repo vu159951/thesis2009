@@ -87,6 +87,7 @@
     <Compile Include="Calculus\RomhbusTransform.cs" />
     <Compile Include="Calculus\SquareTransform.cs" />
     <Compile Include="Calculus\Transform.cs" />
+    <Compile Include="CommandControl.cs" />
     <Compile Include="Components\CursorGame.cs" />
     <Compile Include="Components\Map.cs" />
     <Compile Include="Components\Particle.cs" />
@@ -127,6 +128,7 @@
     <Compile Include="DTO\UpgradeInfo.cs" />
     <Compile Include="Computer.cs" />
     <Compile Include="GlobalFunction.cs" />
+    <Compile Include="IComputer.cs" />
     <Compile Include="ManagerGame.cs" />
     <Compile Include="MiniMap.cs" />
     <Compile Include="Player.cs" />

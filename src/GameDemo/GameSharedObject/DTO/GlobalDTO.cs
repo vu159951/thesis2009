@@ -17,13 +17,8 @@ namespace GameSharedObject.DTO
 
         #endregion 
 
-        //public static StructureDataReader STRUCTURE_DATA_READER = new StructureDataReader();
-        //public static UnitDataReader UNIT_DATA_READER = new UnitDataReader();
-        //public static TerrainDataReader TERRAIN_DATA_READER = new TerrainDataReader();
-        //public static ResourceCenterDataReader RESOURCECENTER_DATA_READER = new ResourceCenterDataReader();
-        //public static ParticleDataReader PARTICLE_DATA_READER = new ParticleDataReader();
-        public static string[] modesGame = { "Loading", "Playing" };
-        public static string currentModeGame = "Loading";
+        public static string[] MODEGAME = { "Loading", "Playing" };
+        public static string CURRENT_MODEGAME = "Loading";
         
         public static Size SCREEN_SIZE = new Size(1000, 700);
         public static Size MENU_PANEL_BOTTOM_SIZE = new Size(1000, 170);
@@ -42,6 +37,7 @@ namespace GameSharedObject.DTO
         public static string SPEC_UNIT_PATH = "Specification\\Sprites\\Unit\\";
         public static string SPEC_MAP_PATH = "Specification\\Map\\";
         public static string SPEC_PARTICLE_PATH = "Specification\\Particle\\";
+        public static string SPEC_AI_PATH = "Specification\\AI\\";
 
         public static string RES_CONTENT_PATH = "Content\\";
         public static string RES_CURSOR_PATH = "Cursor\\";
@@ -60,6 +56,7 @@ namespace GameSharedObject.DTO
         public static string MENU_PANEL_BOTTOM = "menuPanel2";
         public static string MENU_PANEL_TOP = "menuPanel2";
         public static string MAP = "Map_01";
+        public static string ACTION_AI = "Action";
 
         public static string OBJ_UNIT_PATH = "Objects\\Unit\\";
         public static string OBJ_TERRAIN_PATH = "Objects\\Terrain\\";

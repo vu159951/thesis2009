@@ -7,7 +7,7 @@ using GameSharedObject.DTO;
 
 namespace GameSharedObject.Data
 {
-    class AIDataReader
+    public class AIDataReader
     {
         private XmlDocument xmlDoc;
 
