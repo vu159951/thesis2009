@@ -35,7 +35,7 @@ namespace GameSharedObject.Components
         /// </summary>
         protected override void ScrollingMapByKeyBoard()
         {
-            if (GlobalDTO.currentModeGame == "Loading"){
+            if (GlobalDTO.CURRENT_MODEGAME == "Loading"){
                 return;
             }
             this.keyState = Keyboard.GetState(); // get key
@@ -73,7 +73,7 @@ namespace GameSharedObject.Components
         /// </summary>
         protected override void ScrollingMapByMouse()
         {
-            if (GlobalDTO.currentModeGame == "Loading"){
+            if (GlobalDTO.CURRENT_MODEGAME == "Loading"){
                 return;
             }
             this.mouseState = Mouse.GetState(); // get mouse

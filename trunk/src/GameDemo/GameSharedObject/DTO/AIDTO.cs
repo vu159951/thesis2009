@@ -5,7 +5,7 @@ using System.Text;
 
 namespace GameSharedObject.DTO
 {
-    class AIDTO
+    public class AIDTO
     {
         private String _nameLevel;
         private int _id;
