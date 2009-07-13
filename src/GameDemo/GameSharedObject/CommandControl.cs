@@ -36,7 +36,7 @@ namespace GameSharedObject
             unit.CreateMovingVector();
         }
 
-        public static void Attack(Unit unit1,Unit unit2)
+        public static void Attack(Unit unit1,Sprite unit2)
         {
             unit1.EndPoint = new Point((int)(unit2.Position.X + unit2.BoundRectangle.Width / 2), (int)(unit2.Position.Y + unit2.BoundRectangle.Height / 2));
             unit1.CreateMovingVector();
