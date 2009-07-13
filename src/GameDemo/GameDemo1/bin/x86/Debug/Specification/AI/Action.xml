@@ -1,33 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <AI>
-  <Level name="Level 1" id="1" time="15">
-    <Action name="Move" value="10%" />
-    <Action name="Attack" value="5%" />
-    <Action name="Idle" value="30%" />
-    <Action name="ExploitResource" value="25%" />
-    <Action name="BuyUnit" value="10%" />
-    <Action name="BuyStructure" value="10%" />
-    <Action name="RollBackBuyUnit" value="5%" />
-    <Action name="UpgradeStructure" value="5%" />
+  <Level name="Level 1" id="1" time="5">
+    <Action type="%" name="Move" value="10" />
+    <Action type="%" name="Attack" value="5" />
+    <Action type="%" name="Idle" value="30" />
+    <Action type="%" name="ExploitResource" value="25" />
+    <Action type="%" name="BuyUnit" value="10" />
+    <Action type="%" name="BuyStructure" value="10" />
+    <Action type="%" name="RollBackBuyUnit" value="5" />
+    <Action type="%" name="UpgradeStructure" value="5" />
   </Level>
-  <Level name="Level 2" id="2" time="10">
-    <Action name="Move" value="10%"/>
-    <Action name="Attack" value="10%"/>
-    <Action name="Idle" value="20%"/>
-    <Action name="ExploitResource" value="25%"/>
-    <Action name="BuyUnit" value="15%"/>
-    <Action name="BuyStructure" value="10%"/>
-    <Action name="RollBackBuyUnit" value="5%" />
-    <Action name="UpgradeStructure" value="5%" />
+  <Level name="Level 2" id="2" time="4">
+    <Action type="%" name="Move" value="10"/>
+    <Action type="%" name="Attack" value="10"/>
+    <Action type="%" name="Idle" value="20"/>
+    <Action type="%" name="ExploitResource" value="25"/>
+    <Action type="%" name="BuyUnit" value="15"/>
+    <Action type="%" name="BuyStructure" value="10"/>
+    <Action type="%" name="RollBackBuyUnit" value="5" />
+    <Action type="%" name="UpgradeStructure" value="5" />
   </Level>
-  <Level name="Level 3" id="3" time="5">
-    <Action name="Move" value="5%"/>
-    <Action name="Attack" value="15%"/>
-    <Action name="Idle" value="10%"/>
-    <Action name="ExploitResource" value="25%"/>
-    <Action name="BuyUnit" value="20%"/>
-    <Action name="BuyStructure" value="15%"/>
-    <Action name="RollBackBuyUnit" value="5%" />
-    <Action name="UpgradeStructure" value="5%" />
+  <Level name="Level 3" id="3" time="3">
+    <Action type="%" name="Move" value="5"/>
+    <Action type="%" name="Attack" value="15"/>
+    <Action type="%" name="Idle" value="10"/>
+    <Action type="%" name="ExploitResource" value="25"/>
+    <Action type="%" name="BuyUnit" value="20"/>
+    <Action type="%" name="BuyStructure" value="15"/>
+    <Action type="%" name="RollBackBuyUnit" value="5" />
+    <Action type="%" name="UpgradeStructure" value="5" />
   </Level>
 </AI>
