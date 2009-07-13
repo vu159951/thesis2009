@@ -1,4 +1,5 @@
-using System;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Xna.Framework;
@@ -10,56 +11,133 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using Microsoft.Xna.Framework.Net;
 using Microsoft.Xna.Framework.Storage;
+using GameSharedObject.Components;
+using System.Xml;
 using GameSharedObject.DTO;
 using GameSharedObject.Data;
 
-
 namespace GameSharedObject
 {
-    /// <summary>
-    /// This is a game component that implements IUpdateable.
-    /// </summary>
-    public class Computer : Player
+    public class Computer:Player,IComputer
     {
-        private AIDTO _aiInfo;
-        
-        internal AIDTO AiInfo
+        private AIDTO _ai;
+        private string[] _actionNames;
+        private int[] _actionIds;
+
+        private int _delayTime = 0;
+        private int _lastTickCount = System.Environment.TickCount;
+
+        public AIDTO Ai
         {
-            get { return _aiInfo; }
-            set { _aiInfo = value; }
+            get { return _ai; }
+            set { _ai = value; }
         }
 
-        #region basic method        
         public Computer(Game game)
             : base(game)
         {
-            // TODO: Construct any child components here
+            this._ai = new AIDTO();
         }
-
-        /// <summary>
-        /// Allows the game component to perform any initialization it needs to before starting
-        /// to run.  This is where it can query for any required services and load content.
-        /// </summary>
-        public override void Initialize()
+        
+        public void Init()
         {
-            // TODO: Add your initialization code here
+            AIDataReader reader = new AIDataReader();
+            this._ai.Id = 1;
+            this._ai = reader.Load(GlobalDTO.SPEC_AI_PATH + GlobalDTO.ACTION_AI + GlobalDTO.SPEC_EXTENSION,this._ai.Id);
+            this._delayTime = this._ai.Time;
+            this._actionNames = new string[this._ai.Actions.Count];
+            this._actionIds = new int[100];
 
-            base.Initialize();
+            int i = 0;
+            int k = 0;
+            foreach(KeyValuePair<String,ItemInfo> action in this._ai.Actions)
+            {
+                this._actionNames[i] = action.Key;                
+                for (int j = 0; j < int.Parse(action.Value.Value); j++)
+                {
+                    this._actionIds[k] = i;
+                    k++;
+                }
+                i++;
+            }            
         }
 
-        /// <summary>
-        /// Allows the game component to update itself.
-        /// </summary>
-        /// <param name="gameTime">Provides a snapshot of timing values.</param>
+        public void Play()
+        {
+            if ((System.Environment.TickCount - this._lastTickCount) > this._delayTime * 1000)
+            {
+                this._lastTickCount = System.Environment.TickCount;
+                Random ran = new Random(DateTime.Now.Millisecond);
+                int idAction = this._actionIds[ran.Next(0, 59)];
+                string nameAction = this._actionNames[idAction];
+                if (nameAction == "Move")
+                {
+                    Sprite selectUnit = CommandControl.SelectUnit(ran.Next(0, this.UnitListCreated.Count), this);
+                    if (selectUnit.CurrentStatus.Name == StatusList.MOVE.Name || selectUnit.CurrentStatus.Name == StatusList.ATTACK.Name)
+                    {
+                        return;
+                    }
+                    CommandControl.Move((Unit)selectUnit, new Point(ran.Next((int)selectUnit.Position.X - 100, (int)selectUnit.Position.X + 100), ran.Next((int)selectUnit.Position.Y - 100, (int)selectUnit.Position.Y + 100)));
+                }
+                else if (nameAction == "Attack")
+                {
+                    Sprite selectUnit = CommandControl.SelectUnit(ran.Next(0, this.UnitListCreated.Count), this);
+                    if (selectUnit is ProducerUnit || selectUnit.CurrentStatus.Name == StatusList.MOVE.Name || ((Unit)selectUnit).WhomIHit != null || selectUnit.CurrentStatus.Name == StatusList.ATTACK.Name)
+                    {
+                        return;
+                    }                    
+                    Sprite unit = CommandControl.SelectUnit(ran.Next(0, this.UnitListCreated.Count), GlobalDTO.MANAGER_GAME.Players[ran.Next(0, GlobalDTO.MANAGER_GAME.Players.Count - 1)]);
+                    CommandControl.Attack((Unit)selectUnit, (Unit)unit);
+                }
+                else if (nameAction == "Idle")
+                {
+                    Sprite selectUnit = CommandControl.SelectUnit(ran.Next(0, this.UnitListCreated.Count), this);
+                    CommandControl.Idle((Unit)selectUnit);
+                }
+                else if (nameAction == "ExploitResource")
+                {
+                    ProducerUnit producerUnit = null;
+                    List<ProducerUnit> temp = new List<ProducerUnit>();
+                    for (int i = 0; i < this.UnitListCreated.Count; i++)
+                    {
+                        if (this.UnitListCreated[i] is ProducerUnit && this.UnitListCreated[i].CurrentStatus.Name != StatusList.EXPLOIT.Name)
+                        {
+                            temp.Add((ProducerUnit)this.UnitListCreated[i]);
+                        }
+                    }
+                    if (temp.Count == 0)
+                    {
+                        return;
+                    }                    
+                    producerUnit = temp[ran.Next(0, temp.Count)];
+                    ResourceCenter resource = (ResourceCenter)GlobalDTO.MANAGER_GAME.ListResourceCenterOnmap[ran.Next(0, GlobalDTO.MANAGER_GAME.ListResourceCenterOnmap.Count - 1)];
+                    CommandControl.ExploitResource(producerUnit, resource);
+                }
+                else if (nameAction == "BuyUnit")
+                {
+                    //Sprite unit = this                
+                }
+                else if (nameAction == "BuyStructure")
+                {
+                    
+                }
+                else if (nameAction == "RollBackBuyUnit")
+                {
+                    Structure structure = (Structure)CommandControl.SelectStructure(ran.Next(0, this.StructureListCreated.Count), this);
+                    int a = ran.Next(0,structure.ListUnitsBuying.Count);
+                    int b = ran.Next(0,structure.ListUnitsBuying[a].Count);
+                    Unit unit = structure.ListUnitsBuying[a][b];
+                    CommandControl.RollBackBuyUnit(structure, unit);
+                }
+                else if (nameAction == "UpgradeStructure")
+                { }
+            }
+        }
+
         public override void Update(GameTime gameTime)
         {
-            // TODO: Add your update code here
-
+            this.Play();
             base.Update(gameTime);
         }
-        #endregion
-
-        #region Function
-        #endregion
     }
 }

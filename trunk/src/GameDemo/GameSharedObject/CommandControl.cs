@@ -10,7 +10,7 @@ using GameSharedObject.Components;
 
 namespace GameSharedObject
 {
-    class CommandControl: Microsoft.Xna.Framework.GameComponent
+    public class CommandControl: Microsoft.Xna.Framework.GameComponent
     {        
         public CommandControl(Game game)
             : base(game)
@@ -18,31 +18,31 @@ namespace GameSharedObject
             
         }
 
-        public Sprite SelectUnit(int id, Player player)
+        public static Sprite SelectUnit(int id, Player player)
         {
             Sprite unit = player.UnitListCreated[id];
             return unit;
         }
 
-        public Sprite SelectStructure(int id, Player player)
+        public static Sprite SelectStructure(int id, Player player)
         {
             Sprite structure = player.StructureListCreated[id];
             return structure;
         }
 
-        public void Move(Unit unit, Point endpoint)
+        public static void Move(Unit unit, Point endpoint)
         {
             unit.EndPoint = endpoint;
             unit.CreateMovingVector();
         }
 
-        public void Attack(Unit unit1,Unit unit2)
+        public static void Attack(Unit unit1,Unit unit2)
         {
             unit1.EndPoint = new Point((int)(unit2.Position.X + unit2.BoundRectangle.Width / 2), (int)(unit2.Position.Y + unit2.BoundRectangle.Height / 2));
             unit1.CreateMovingVector();
         }
 
-        public void Idle(Unit unit)
+        public static void Idle(Unit unit)
         {
             unit.MovingVector = Vector2.Zero;
             unit.EndPoint = Point.Zero;
@@ -50,7 +50,7 @@ namespace GameSharedObject
             unit.CurrentIndex = 0;
         }
         
-        public void BuyBuildStructure(Player player, Structure structure, Vector2 point)
+        public static void BuyBuildStructure(Player player, Structure structure, Vector2 point)
         {
             if (player.CheckConditionToBuyStructure(structure) == true)
             {
@@ -71,29 +71,37 @@ namespace GameSharedObject
                 GlobalDTO.MANAGER_GAME.ListStructureOnMap.Add(newStructure);// đưa vào list structure của manager game
                 GlobalDTO.MANAGER_GAME.AddComponentIntoGame((IGameComponent)newStructure);// đưa vào game component để nó được vẽ            
                 // play sound "start built"
-                AudioGame au = new AudioGame(this.Game);
+                AudioGame au = new AudioGame(GlobalDTO.GAME);
                 au.PlaySoundEffectGame("startbuild", 0.15f, 0.0f);
                 au.Dispose();
             }
         }                        
 
-        public void BuyUnit(Structure structure, Unit unit)
+        public static void BuyUnit(Player player, Unit unit)
         {
-            Sprite newUnit = unit;
-            Random ran = new Random(DateTime.Now.Millisecond);
-            newUnit.Position = new Vector2(ran.Next(structure.UnitCenterPoint.X - 100, structure.UnitCenterPoint.X), ran.Next(structure.UnitCenterPoint.Y - 100, structure.UnitCenterPoint.Y));
-            newUnit.CodeFaction = structure.PlayerContainer.Code;
-            newUnit.Color = structure.Color;
-            ((Unit)newUnit).PlayerContainer = structure.PlayerContainer;// xác định player mua no
-            ((Unit)newUnit).StructureContainer = structure;// xác định structure đã sinh ra nó
-            ((Unit)newUnit).StructureContainer.OwnerUnitList.Add(newUnit);// add nó vào tập unit của structure sinh ra nó
-            structure.PlayerContainer.UnitListCreated.Add(newUnit);// add vào tập unit của player mua nó
-            GlobalDTO.MANAGER_GAME.ListUnitOnMap.Add(newUnit);// add vào list của manager game mà quản lý            
-            GlobalDTO.MANAGER_GAME.AddComponentIntoGame(newUnit);
+            for (int i = 0; i < player.StructureListCreated.Count; i++)
+            {
+                for (int j = 0; j < ((StructureDTO)player.StructureListCreated[i].Info).UnitList.Count; j++)
+                {
+                    if (((StructureDTO)player.StructureListCreated[i].Info).UnitList[j].Name == unit.Info.Name)
+                    {
+                        ((Structure)player.StructureListCreated[i]).AddToListUnitBuying(unit);
+                        return;
+                    }
+                }
+            }
         }
 
-        public void ExploitResource(ProducerUnit producerUnit, ResourceCenter resourceCenter)
+        public static void RollBackBuyUnit(Structure structure, Unit unit)
         {
+            if (structure.ListUnitsBuying.Count > 0)
+            {
+                structure.CancelBuyUnit(unit);
+            }
+        }
+
+        public static void ExploitResource(ProducerUnit producerUnit, ResourceCenter resourceCenter)
+        {            
             for (int i = 0; i < GlobalDTO.MANAGER_GAME.ListResourceCenterOnmap.Count; i++)
             {
                 if (GlobalDTO.MANAGER_GAME.ListResourceCenterOnmap[i].Info.Name == resourceCenter.Info.Name)
@@ -105,12 +113,12 @@ namespace GameSharedObject
             }
         }
 
-        public void IncreaseResource(Player player, int value, string resourceName)
+        public static void IncreaseResource(Player player, int value, string resourceName)
         {
             player.Resources[resourceName].Quantity += value;
         }
 
-        public void SetResource(Player player, int value, string resourceName)
+        public static void SetResource(Player player, int value, string resourceName)
         {
             player.Resources[resourceName].Quantity = value;
         }

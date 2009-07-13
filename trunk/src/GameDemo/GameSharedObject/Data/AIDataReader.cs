@@ -20,9 +20,10 @@ namespace GameSharedObject.Data
         {
             AIDTO ai = new AIDTO();
             this.xmlDoc.Load(pathAIXml);
-            ai.Id = level;
+            ai.Id = level;            
             XmlNode nodeLevel = xmlDoc.SelectSingleNode("//Level[@id=" + level + "]");
             ai.NameLevel = nodeLevel.Attributes["name"].Value;
+            ai.Time = int.Parse(nodeLevel.Attributes["time"].Value);
 
             for (int i = 0; i < nodeLevel.ChildNodes.Count; i++)
             {
