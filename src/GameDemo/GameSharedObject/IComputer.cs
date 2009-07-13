@@ -7,10 +7,9 @@ using GameSharedObject.DTO;
 
 namespace GameSharedObject
 {
-    public interface IComputer:ICloneable
+    public interface IComputer
     {        
-        void Init(int idlevel);
-        void Play();
-        void Clone(Game game);
+        void Init();
+        void Play();        
     }
 }

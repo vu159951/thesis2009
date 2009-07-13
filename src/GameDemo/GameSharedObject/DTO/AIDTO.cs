@@ -9,8 +9,14 @@ namespace GameSharedObject.DTO
     {
         private String _nameLevel;
         private int _id;
+        private int _time;        
         private Dictionary<String, ItemInfo> _actions;
 
+        public int Time
+        {
+            get { return _time; }
+            set { _time = value; }
+        }
         public Dictionary<String, ItemInfo> Actions
         {
             get { return _actions; }
