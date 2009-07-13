@@ -94,8 +94,8 @@
     <Compile Include="Factory\SpriteManager.cs" />
     <Compile Include="Factory\StructureManager.cs" />
     <Compile Include="Factory\UnitManager.cs" />
-    <Compile Include="Factory\GameInit.cs" />
-    <Compile Include="Factory\LoadingScene.cs" />
+    <Compile Include="GameInit.cs" />
+    <Compile Include="LoadingScene.cs" />
     <Compile Include="MainGame.cs" />
     <Compile Include="ManagerPlayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
