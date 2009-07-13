@@ -69,7 +69,7 @@ namespace GameDemo1
             {
                 this._lastTickCount = System.Environment.TickCount;
                 Random ran = new Random(DateTime.Now.Millisecond);
-                int idAction = this._actionIds[ran.Next(0, 59)];
+                int idAction = 1;//this._actionIds[ran.Next(0, 59)];
                 string nameAction = this._actionNames[idAction];
                 if (nameAction == "Move")
                 {
@@ -86,9 +86,18 @@ namespace GameDemo1
                     if (selectUnit is ProducerUnit || selectUnit.CurrentStatus.Name == StatusList.MOVE.Name || ((Unit)selectUnit).WhomIHit != null || selectUnit.CurrentStatus.Name == StatusList.ATTACK.Name)
                     {
                         return;
-                    }                    
-                    Sprite unit = CommandControl.SelectUnit(ran.Next(0, this.UnitListCreated.Count), GlobalDTO.MANAGER_GAME.Players[ran.Next(0, GlobalDTO.MANAGER_GAME.Players.Count - 1)]);
-                    CommandControl.Attack((Unit)selectUnit, (Unit)unit);
+                    }
+                    Sprite sprite;
+                    int i = ran.Next(1, 3);
+                    if (i == 1)
+                    {
+                        sprite = CommandControl.SelectUnit(ran.Next(0, GlobalDTO.MANAGER_GAME.Players[ran.Next(0, GlobalDTO.MANAGER_GAME.Players.Count)].UnitListCreated.Count), GlobalDTO.MANAGER_GAME.Players[ran.Next(0, GlobalDTO.MANAGER_GAME.Players.Count)]);
+                    }
+                    else
+                    {
+                        sprite = CommandControl.SelectStructure(ran.Next(0, GlobalDTO.MANAGER_GAME.Players[ran.Next(0, GlobalDTO.MANAGER_GAME.Players.Count)].StructureListCreated.Count), GlobalDTO.MANAGER_GAME.Players[ran.Next(0, GlobalDTO.MANAGER_GAME.Players.Count)]);
+                    }
+                    CommandControl.Attack((Unit)selectUnit, sprite);
                 }
                 else if (nameAction == "Idle")
                 {
@@ -116,7 +125,7 @@ namespace GameDemo1
                 }
                 else if (nameAction == "BuyUnit")
                 {
-                    //Sprite unit = this                
+                               
                 }
                 else if (nameAction == "BuyStructure")
                 {

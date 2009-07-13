@@ -126,7 +126,6 @@
     <Compile Include="DTO\TerrainDTO.cs" />
     <Compile Include="DTO\UnitDTO.cs" />
     <Compile Include="DTO\UpgradeInfo.cs" />
-    <Compile Include="Computer.cs" />
     <Compile Include="GlobalFunction.cs" />
     <Compile Include="IComputer.cs" />
     <Compile Include="ManagerGame.cs" />
