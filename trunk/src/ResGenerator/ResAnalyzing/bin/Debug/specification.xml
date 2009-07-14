@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sprite name="%foldername%" type="%type%" path="%path%">
   <!-- Default icon image: Icon.png  -->
-  <Information>
-    <Info name="%name%" value="%value%"/>    
-  </Information>
+  <Informations>
+    <Info type="%type%" name="%name%" value="%value%"/>
+  </Informations>
   <Requirements>
     <Upgrade name="%name%" id="%id%">
-      <Info name="%name%" value="%value%"/>
+      <Info type="%type%" name="%name%" value="%value%"/>
     </Upgrade>  
   </Requirements>
   <ListUnits>
-    <Unit name="%name%" upgradeId="%id%" />   
+    <Unit type="%type%" name="%name%" upgradeId="%id%" />   
   </ListUnits>
    <Action>
     <Status>

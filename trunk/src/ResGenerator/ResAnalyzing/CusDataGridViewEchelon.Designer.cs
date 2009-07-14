@@ -1,6 +1,6 @@
 namespace ResAnalyzing
 {
-    partial class CustomDataGridView
+    partial class CusDataGridViewEchelon
     {
         /// <summary> 
         /// Required designer variable.
@@ -29,6 +29,7 @@ namespace ResAnalyzing
         private void InitializeComponent()
         {
             this.dgvInfo = new System.Windows.Forms.DataGridView();
+            this.colUpgrade = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colValue = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colType = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -40,6 +41,7 @@ namespace ResAnalyzing
             this.dgvInfo.AllowDrop = true;
             this.dgvInfo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvInfo.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.colUpgrade,
             this.colName,
             this.colValue,
             this.colType});
@@ -52,8 +54,14 @@ namespace ResAnalyzing
             this.dgvInfo.RowHeadersWidth = 35;
             this.dgvInfo.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.dgvInfo.Size = new System.Drawing.Size(282, 282);
-            this.dgvInfo.TabIndex = 0;
+            this.dgvInfo.TabIndex = 1;
             this.dgvInfo.MouseUp += new System.Windows.Forms.MouseEventHandler(this.dgvInfo_MouseUp);
+            // 
+            // colUpgrade
+            // 
+            this.colUpgrade.HeaderText = "Upgrade";
+            this.colUpgrade.Name = "colUpgrade";
+            this.colUpgrade.ReadOnly = true;
             // 
             // colName
             // 
@@ -73,13 +81,13 @@ namespace ResAnalyzing
             this.colType.Name = "colType";
             this.colType.ReadOnly = true;
             // 
-            // CustomDataGridView
+            // CusDataGridViewEchelon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.dgvInfo);
-            this.Name = "CustomDataGridView";
-            this.Size = new System.Drawing.Size(284, 284);
+            this.Name = "CusDataGridViewEchelon";
+            this.Size = new System.Drawing.Size(282, 282);
             ((System.ComponentModel.ISupportInitialize)(this.dgvInfo)).EndInit();
             this.ResumeLayout(false);
 
@@ -88,6 +96,7 @@ namespace ResAnalyzing
         #endregion
 
         private System.Windows.Forms.DataGridView dgvInfo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colUpgrade;
         private System.Windows.Forms.DataGridViewTextBoxColumn colName;
         private System.Windows.Forms.DataGridViewTextBoxColumn colValue;
         private System.Windows.Forms.DataGridViewTextBoxColumn colType;

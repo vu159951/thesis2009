@@ -45,9 +45,9 @@ namespace ResAnalyzing
                     cboType.Items.Add((String)childnode.GetAttribute("name"));
                 }
             }
-            cboType.SelectedIndex = 0;           
-
-            this.cusDataGridViewTri1.Visible = false;
+            cboType.SelectedIndex = 0;
+            cboInfoType.SelectedIndex = 0;
+            this.cusDataGridViewEchelon1.Visible = false;
             LoadItem();
         }
 
@@ -102,7 +102,7 @@ namespace ResAnalyzing
                     informationList = sprite.InformationList;
 
                     this.cboPropertyType.Items.Clear();
-                    this.cboPropertyType.Items.Add("Infomation");
+                    this.cboPropertyType.Items.Add("Infomations");
                     cboPropertyType.SelectedIndex = 0;
 
                     ShowInfoBox();
@@ -117,7 +117,7 @@ namespace ResAnalyzing
 
                     this.cboPropertyType.Items.Clear();
                     this.cboPropertyType.Items.AddRange(new object[] {
-                                                                        "Infomation",
+                                                                        "Infomations",
                                                                         "Requirement",
                                                                         "ListUnits"});
                     cboPropertyType.SelectedIndex = 0;
@@ -156,7 +156,7 @@ namespace ResAnalyzing
 
                     this.cboPropertyType.Items.Clear();
                     this.cboPropertyType.Items.AddRange(new object[] {
-                                                                        "Infomation",
+                                                                        "Infomations",
                                                                         "Requirement"});
                     cboPropertyType.SelectedIndex = 0;
 
@@ -199,7 +199,7 @@ namespace ResAnalyzing
             else if (cboPropertyType.SelectedIndex == 1)
             {             
                 requirementList.Clear();
-                this.cusDataGridViewTri1.Clear();
+                this.cusDataGridViewEchelon1.Clear();
                 sprite.RequirementList.Clear();
                 MessageBox.Show("Requirement list is cleared.", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -223,10 +223,18 @@ namespace ResAnalyzing
         private void btnAddInfo_Click(object sender, EventArgs e)
         {
             if (txtInfoName.Text != "" && txtInfoValue.Text != "")
-            {                
+            {
+                ItemInfo item;
                 if (cboPropertyType.SelectedIndex == 0)
                 {
-                    ItemInfo item = new ItemInfo(txtInfoName.Text, txtInfoValue.Text);
+                    if (this.cboInfoType.SelectedItem.ToString() == "None")
+                    {
+                        item = new ItemInfo("", txtInfoName.Text, txtInfoValue.Text);
+                    }
+                    else
+                    {
+                        item = new ItemInfo(this.cboInfoType.SelectedItem.ToString(), txtInfoName.Text, txtInfoValue.Text);
+                    }
                     if (!this.customDataGridView1.ChangeValue(item))
                         this.customDataGridView1.Add(item);                
                     this.customDataGridView1.Invalidate();
@@ -235,16 +243,32 @@ namespace ResAnalyzing
                 }
                 else if (cboPropertyType.SelectedIndex == 1)
                 {
-                    ItemInfo item = new ItemInfo(txtInfoName.Text, txtInfoValue.Text);
-                    if (!this.cusDataGridViewTri1.ChangeValue(item))
-                        this.cusDataGridViewTri1.Add(item);
-                    this.cusDataGridViewTri1.Invalidate();
-                    requirementList = cusDataGridViewTri1.ItemList;
+
+                    if (this.cboInfoType.SelectedItem.ToString() == "None")
+                    {
+                        item = new ItemInfo("", txtInfoName.Text, txtInfoValue.Text);
+                    }
+                    else
+                    {
+                        item = new ItemInfo(this.cboInfoType.SelectedItem.ToString(), txtInfoName.Text, txtInfoValue.Text);
+                    }
+                    if (!this.cusDataGridViewEchelon1.ChangeValue(item))
+                        this.cusDataGridViewEchelon1.Add(item);
+                    this.cusDataGridViewEchelon1.Invalidate();
+                    requirementList = cusDataGridViewEchelon1.ItemList;
                     sprite.RequirementList = requirementList;     
                 }
                 else if (cboPropertyType.SelectedIndex == 2)
                 {
-                    ItemInfo item = new ItemInfo(txtInfoName.Text, txtInfoValue.Text);
+
+                    if (this.cboInfoType.SelectedItem.ToString() == "None")
+                    {
+                        item = new ItemInfo("", txtInfoName.Text, txtInfoValue.Text);
+                    }
+                    else
+                    {
+                        item = new ItemInfo(this.cboInfoType.SelectedItem.ToString(), txtInfoName.Text, txtInfoValue.Text);
+                    }
                     if (!this.customDataGridView1.ChangeValue(item))
                         this.customDataGridView1.Add(item);
                     this.customDataGridView1.Invalidate();
@@ -284,11 +308,11 @@ namespace ResAnalyzing
                         sprite.ListUnits = unitList;
                     }
                 }
-                else if (cusDataGridViewTri1.SelectedItems.Count > 0 && cboPropertyType.SelectedIndex == 1)
+                else if (cusDataGridViewEchelon1.SelectedItems.Count > 0 && cboPropertyType.SelectedIndex == 1)
                 {
-                    cusDataGridViewTri1.RemoveSelectedItem();
-                    cusDataGridViewTri1.Invalidate();
-                    requirementList = cusDataGridViewTri1.ItemList;
+                    cusDataGridViewEchelon1.RemoveSelectedItem();
+                    cusDataGridViewEchelon1.Invalidate();
+                    requirementList = cusDataGridViewEchelon1.ItemList;
                     sprite.RequirementList = requirementList;
                 }
                 else
@@ -307,8 +331,8 @@ namespace ResAnalyzing
 
         private void cusDataGridViewTri1_OnSelectedItem()
         {
-            this.txtInfoName.Text = cusDataGridViewTri1.SelectedItems[0].Name;
-            this.txtInfoValue.Text = cusDataGridViewTri1.SelectedItems[0].Value;
+            this.txtInfoName.Text = cusDataGridViewEchelon1.SelectedItems[0].Name;
+            this.txtInfoValue.Text = cusDataGridViewEchelon1.SelectedItems[0].Value;
         }
 
         #endregion
@@ -321,7 +345,7 @@ namespace ResAnalyzing
             {              
                 try
                 {
-                    this.cusDataGridViewTri1.Visible = false;
+                    this.cusDataGridViewEchelon1.Visible = false;
                     this.customDataGridView1.Visible = true;
                     this.customDataGridView1.ItemList = informationList;          
                     this.customDataGridView1.LoadItem();
@@ -334,17 +358,17 @@ namespace ResAnalyzing
             }
             else if (cboPropertyType.SelectedIndex == 1)
             {
-                this.cusDataGridViewTri1.Visible = true;
+                this.cusDataGridViewEchelon1.Visible = true;
                 this.customDataGridView1.Visible = false;
-                this.cusDataGridViewTri1.ItemList = requirementList;
-                this.cusDataGridViewTri1.LoadItem();
-                this.cusDataGridViewTri1.Invalidate();
+                this.cusDataGridViewEchelon1.ItemList = requirementList;
+                this.cusDataGridViewEchelon1.LoadItem();
+                this.cusDataGridViewEchelon1.Invalidate();
             }
             else if (cboPropertyType.SelectedIndex == 2)
             {
                 try
                 {
-                    this.cusDataGridViewTri1.Visible = false;
+                    this.cusDataGridViewEchelon1.Visible = false;
                     this.customDataGridView1.Visible = true;
                     this.customDataGridView1.ItemList = Utilities.ConvetUnitToInfo(unitList);
                     this.customDataGridView1.LoadItem();

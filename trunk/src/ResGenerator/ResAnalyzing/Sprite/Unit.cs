@@ -36,15 +36,15 @@ namespace ResAnalyzing.Sprite
             _requirementList = new List<List<ItemInfo>>();
 
             List<ItemInfo> list = new List<ItemInfo>();
-            _informationList.Add(new ItemInfo("MaxHealth", "80"));
-            _informationList.Add(new ItemInfo("Power", "4"));
-            _informationList.Add(new ItemInfo("RadiusAttack", "30"));
-            _informationList.Add(new ItemInfo("RadiusDetect", "50"));
-            _informationList.Add(new ItemInfo("Speed", "5"));
-            _informationList.Add(new ItemInfo("AttackParticle", "Boiling Fury Fire"));
+            _informationList.Add(new ItemInfo("", "MaxHealth", "150"));
+            _informationList.Add(new ItemInfo("", "Power", "3"));
+            _informationList.Add(new ItemInfo("", "RadiusAttack", "40"));
+            _informationList.Add(new ItemInfo("", "RadiusDetect", "60"));
+            _informationList.Add(new ItemInfo("", "Speed", "5"));
+            _informationList.Add(new ItemInfo("", "AttackParticle", "Boiling Fury Fire"));
 
-            list.Add(new ItemInfo("Gold", "40"));
-            list.Add(new ItemInfo("Time", "6"));
+            list.Add(new ItemInfo("", "Gold", "40"));
+            list.Add(new ItemInfo("", "Time", "16"));
             _requirementList.Add(list);
         }
         #endregion
@@ -63,7 +63,7 @@ namespace ResAnalyzing.Sprite
                 SpriteStatus st = new SpriteStatus();
                 st.Path = ls[i];
                 st.FolderName = System.IO.Path.GetFileName(folderPath);
-                st._Status.Name = System.IO.Path.GetFileName(ls[i]);
+                st.Status.Name = System.IO.Path.GetFileName(ls[i]);
                 _statusList.Add(st);
             }                  
         }
@@ -87,8 +87,8 @@ namespace ResAnalyzing.Sprite
 
             String mainInfo = StatusList2XMLString();
 
-            doc1.GetElementsByTagName("Information")[0].RemoveChild(doc1.GetElementsByTagName("Information")[0].FirstChild);
-            doc1.GetElementsByTagName("Information")[0].InnerXml = information;
+            doc1.GetElementsByTagName("Informations")[0].RemoveChild(doc1.GetElementsByTagName("Informations")[0].FirstChild);
+            doc1.GetElementsByTagName("Informations")[0].InnerXml = information;
 
             doc1.GetElementsByTagName("Requirements")[0].RemoveChild(doc1.GetElementsByTagName("Requirements")[0].FirstChild);
             doc1.GetElementsByTagName("Requirements")[0].InnerXml = requirement;

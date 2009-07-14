@@ -43,7 +43,7 @@ namespace ResAnalyzing
         /// <param name="value"></param>
         /// <param name="len"></param>
         /// <returns></returns>
-        static public String createIndexString(int value, int len)
+        static public String CreateIndexString(int value, int len)
         {
             String result;
             result = value.ToString();
@@ -55,58 +55,58 @@ namespace ResAnalyzing
             return result;
         }
 
-        /// <summary>
-        ///  add ItemInfo into source
-        /// if ItemInfo.Name exist in source: replace value
-        /// if ItemInfo.Name !exist in source: add new node
-        /// </summary>
-        /// <param name="source"></param>
-        /// <param name="info"></param>
-        /// <returns></returns>
-        static public String AddItemInfo(String source, ItemInfo info)
-        {
-            String result = "";
-            if (source.IndexOf(info.Name) != -1)
-            {
-                result = source.Substring(0, source.IndexOf(info.Name) + info.Name.Length + 1);               
-                result += " value=\""+ info.Value + "\"" ;
-                String temp = source.Substring(source.IndexOf(info.Name) + info.Name.Length);
-                temp = temp.Substring(temp.IndexOf("/>"));
-                result += temp;
-            }
-            else
-            {
-                result = source + info.ToXMLString();
-            }
-            return result;
-        }
+        ///// <summary>
+        /////  add ItemInfo into source
+        ///// if ItemInfo.Name exist in source: replace value
+        ///// if ItemInfo.Name !exist in source: add new node
+        ///// </summary>
+        ///// <param name="source"></param>
+        ///// <param name="info"></param>
+        ///// <returns></returns>
+        //static public String AddItemInfo(String source, ItemInfo info)
+        //{
+        //    String result = "";
+        //    if (source.IndexOf(info.Name) != -1)
+        //    {
+        //        result = source.Substring(0, source.IndexOf(info.Name) + info.Name.Length + 1);               
+        //        result += " value=\""+ info.Value + "\"" ;
+        //        String temp = source.Substring(source.IndexOf(info.Name) + info.Name.Length);
+        //        temp = temp.Substring(temp.IndexOf("/>"));
+        //        result += temp;
+        //    }
+        //    else
+        //    {
+        //        result = source + info.ToXMLString();
+        //    }
+        //    return result;
+        //}
 
-        static public void AddItemInfo(ref List<ItemInfo> source, ItemInfo info)
-        {
-            foreach (ItemInfo item in source)
-            {
-                if (item.Name == info.Name)
-                    item.Value = info.Value;
-                return;
-            }
-            source.Add(info);
-        }
+        //static public void AddItemInfo(ref List<ItemInfo> source, ItemInfo info)
+        //{
+        //    foreach (ItemInfo item in source)
+        //    {
+        //        if (item.Name == info.Name)
+        //            item.Value = info.Value;
+        //        return;
+        //    }
+        //    source.Add(info);
+        //}
 
-        static public void AddItemInfo(ref List<List<ItemInfo>> source, ItemInfo info)
-        {
-            for (int i = 1; i <= source.Count; i++)
-            {
-                foreach (ItemInfo item in source[i-1])
-                {
-                    if (item.Name == info.Name)
-                        item.Value = info.Value;
-                    return;
-                }               
-            }
-            List<ItemInfo> list = new List<ItemInfo>();
-            list.Add(info);
-            source.Add(list);
-        }
+        //static public void AddItemInfo(ref List<List<ItemInfo>> source, ItemInfo info)
+        //{
+        //    for (int i = 1; i <= source.Count; i++)
+        //    {
+        //        foreach (ItemInfo item in source[i-1])
+        //        {
+        //            if (item.Name == info.Name)
+        //                item.Value = info.Value;
+        //            return;
+        //        }               
+        //    }
+        //    List<ItemInfo> list = new List<ItemInfo>();
+        //    list.Add(info);
+        //    source.Add(list);
+        //}
 
         static public void GenXmlFile(String sourcePath, String desPath, ResAnalyzing.Sprite.Sprite sprite, Boolean exportImage)
         {
@@ -187,7 +187,7 @@ namespace ResAnalyzing
             List<ItemInfo> itemL = new List<ItemInfo>();
             foreach (UnitInfo u in unit)
             {
-                itemL.Add(new ItemInfo(u.Name, u.UpgradeId));
+                itemL.Add(new ItemInfo(u.Type, u.Name, u.UpgradeId));
             }
             return itemL;
         }
@@ -197,7 +197,7 @@ namespace ResAnalyzing
             List<UnitInfo> itemL = new List<UnitInfo>();
             foreach (ItemInfo it in item)
             {
-                itemL.Add(new UnitInfo(it.Name, it.Value));
+                itemL.Add(new UnitInfo(it.Type, it.Name, it.Value));
             }
             return itemL;
         }

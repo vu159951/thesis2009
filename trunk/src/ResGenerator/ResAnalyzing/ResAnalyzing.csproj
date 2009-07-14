@@ -40,11 +40,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Config.cs" />
-    <Compile Include="CusDataGridViewTri.cs">
+    <Compile Include="CusDataGridViewEchelon.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="CusDataGridViewTri.Designer.cs">
-      <DependentUpon>CusDataGridViewTri.cs</DependentUpon>
+    <Compile Include="CusDataGridViewEchelon.Designer.cs">
+      <DependentUpon>CusDataGridViewEchelon.cs</DependentUpon>
     </Compile>
     <Compile Include="CustomDataGridView.cs">
       <SubType>UserControl</SubType>
@@ -53,7 +53,6 @@
       <DependentUpon>CustomDataGridView.cs</DependentUpon>
     </Compile>
     <Compile Include="DTO\Direction.cs" />
-    <Compile Include="DTO\Item.cs" />
     <Compile Include="DTO\ItemInfo.cs" />
     <Compile Include="DTO\UnitInfo.cs" />
     <Compile Include="Sprite\ResourceCenter.cs" />
@@ -70,9 +69,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CusDataGridViewTri.resx">
+    <EmbeddedResource Include="CusDataGridViewEchelon.resx">
       <SubType>Designer</SubType>
-      <DependentUpon>CusDataGridViewTri.cs</DependentUpon>
+      <DependentUpon>CusDataGridViewEchelon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CustomDataGridView.resx">
       <SubType>Designer</SubType>

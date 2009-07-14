@@ -5,17 +5,25 @@ using System.Xml;
 
 namespace ResAnalyzing.DTO
 {
-    public class UnitInfo : Item
+    public class UnitInfo
     {
         #region Private Members
 
+        private String _type;
         private String _upgradeId;
-             
+        private String _name;  
+    
         #endregion
      
         #region Properties
 
-        public override String Name
+        public String Type
+        {
+            get { return _type; }
+            set { _type = value; }
+        }
+
+        public String Name
         {
             get { return _name; }
             set { _name = value; }
@@ -33,11 +41,13 @@ namespace ResAnalyzing.DTO
 
         public UnitInfo()
         {
+            _type = "";
             _name = "";
             _upgradeId = "";
         }
-        public UnitInfo(String name, String upgradeId)
+        public UnitInfo(String type, String name, String upgradeId)
         {
+            _type = type;
             _name = name;
             _upgradeId = upgradeId;
         }
@@ -46,7 +56,7 @@ namespace ResAnalyzing.DTO
 
         #region Public Methods
 
-        public override String ToXMLString()
+        public String ToXMLString()
         {
             XmlDocument doc = new XmlDocument();
             doc.Load(Config.SPEC_PATH);
@@ -55,12 +65,19 @@ namespace ResAnalyzing.DTO
             node = (XmlElement)doc.GetElementsByTagName("Unit")[0];
             String XMLString = node.OuterXml;
 
+            XMLString = XMLString.Replace("%type%", _type); 
+
             XMLString = XMLString.Replace("%name%", _name);
 
             XMLString = XMLString.Replace("%id%", _upgradeId);
 
             return XMLString; 
-        }    
+        }
+
+        public override string ToString()
+        {
+            return base.ToString();
+        }
 
         #endregion
     }

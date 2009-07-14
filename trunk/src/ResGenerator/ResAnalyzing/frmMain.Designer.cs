@@ -41,6 +41,8 @@ namespace ResAnalyzing
             this.txtInputFolder = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.cusDataGridViewEchelon1 = new ResAnalyzing.CusDataGridViewEchelon();
+            this.customDataGridView1 = new ResAnalyzing.CustomDataGridView();
             this.btnRemove = new System.Windows.Forms.Button();
             this.txtInfoName = new System.Windows.Forms.TextBox();
             this.txtInfoValue = new System.Windows.Forms.TextBox();
@@ -54,8 +56,8 @@ namespace ResAnalyzing
             this.label5 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.cusDataGridViewTri1 = new ResAnalyzing.CusDataGridViewTri();
-            this.customDataGridView1 = new ResAnalyzing.CustomDataGridView();
+            this.cboInfoType = new System.Windows.Forms.ComboBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -163,7 +165,9 @@ namespace ResAnalyzing
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.cusDataGridViewTri1);
+            this.groupBox2.Controls.Add(this.label8);
+            this.groupBox2.Controls.Add(this.cboInfoType);
+            this.groupBox2.Controls.Add(this.cusDataGridViewEchelon1);
             this.groupBox2.Controls.Add(this.customDataGridView1);
             this.groupBox2.Controls.Add(this.btnRemove);
             this.groupBox2.Controls.Add(this.txtInfoName);
@@ -176,10 +180,28 @@ namespace ResAnalyzing
             this.groupBox2.Controls.Add(this.btnClearAll);
             this.groupBox2.Location = new System.Drawing.Point(28, 222);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(363, 309);
+            this.groupBox2.Size = new System.Drawing.Size(363, 329);
             this.groupBox2.TabIndex = 17;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Info";
+            // 
+            // cusDataGridViewTri1
+            // 
+            this.cusDataGridViewEchelon1.ItemList = null;
+            this.cusDataGridViewEchelon1.Location = new System.Drawing.Point(14, 53);
+            this.cusDataGridViewEchelon1.Name = "cusDataGridViewTri1";
+            this.cusDataGridViewEchelon1.Size = new System.Drawing.Size(308, 182);
+            this.cusDataGridViewEchelon1.TabIndex = 31;
+            this.cusDataGridViewEchelon1.OnSelectedItem += new ResAnalyzing.CusDataGridViewEchelon.Process(this.cusDataGridViewTri1_OnSelectedItem);
+            // 
+            // customDataGridView1
+            // 
+            this.customDataGridView1.ItemList = null;
+            this.customDataGridView1.Location = new System.Drawing.Point(14, 53);
+            this.customDataGridView1.Name = "customDataGridView1";
+            this.customDataGridView1.Size = new System.Drawing.Size(308, 182);
+            this.customDataGridView1.TabIndex = 30;
+            this.customDataGridView1.OnSelectedItem += new ResAnalyzing.CustomDataGridView.Process(this.customDataGridView1_OnSelectedItem);
             // 
             // btnRemove
             // 
@@ -193,14 +215,14 @@ namespace ResAnalyzing
             // 
             // txtInfoName
             // 
-            this.txtInfoName.Location = new System.Drawing.Point(60, 242);
+            this.txtInfoName.Location = new System.Drawing.Point(60, 269);
             this.txtInfoName.Name = "txtInfoName";
             this.txtInfoName.Size = new System.Drawing.Size(218, 20);
             this.txtInfoName.TabIndex = 24;
             // 
             // txtInfoValue
             // 
-            this.txtInfoValue.Location = new System.Drawing.Point(60, 268);
+            this.txtInfoValue.Location = new System.Drawing.Point(60, 295);
             this.txtInfoValue.Name = "txtInfoValue";
             this.txtInfoValue.Size = new System.Drawing.Size(218, 20);
             this.txtInfoValue.TabIndex = 25;
@@ -208,7 +230,7 @@ namespace ResAnalyzing
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 245);
+            this.label1.Location = new System.Drawing.Point(13, 272);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 13);
             this.label1.TabIndex = 26;
@@ -217,7 +239,7 @@ namespace ResAnalyzing
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 271);
+            this.label2.Location = new System.Drawing.Point(13, 298);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(37, 13);
             this.label2.TabIndex = 27;
@@ -235,7 +257,7 @@ namespace ResAnalyzing
             // cboPropertyType
             // 
             this.cboPropertyType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboPropertyType.FormattingEnabled = true;           
+            this.cboPropertyType.FormattingEnabled = true;
             this.cboPropertyType.Location = new System.Drawing.Point(123, 26);
             this.cboPropertyType.Name = "cboPropertyType";
             this.cboPropertyType.Size = new System.Drawing.Size(140, 21);
@@ -244,7 +266,7 @@ namespace ResAnalyzing
             // 
             // btnAddInfo
             // 
-            this.btnAddInfo.Location = new System.Drawing.Point(284, 241);
+            this.btnAddInfo.Location = new System.Drawing.Point(284, 268);
             this.btnAddInfo.Name = "btnAddInfo";
             this.btnAddInfo.Size = new System.Drawing.Size(67, 47);
             this.btnAddInfo.TabIndex = 13;
@@ -292,23 +314,29 @@ namespace ResAnalyzing
             this.pictureBox1.TabIndex = 22;
             this.pictureBox1.TabStop = false;
             // 
-            // cusDataGridViewTri1
+            // cboInfoType
             // 
-            this.cusDataGridViewTri1.ItemList = null;
-            this.cusDataGridViewTri1.Location = new System.Drawing.Point(14, 53);
-            this.cusDataGridViewTri1.Name = "cusDataGridViewTri1";
-            this.cusDataGridViewTri1.Size = new System.Drawing.Size(308, 182);
-            this.cusDataGridViewTri1.TabIndex = 31;
-            this.cusDataGridViewTri1.OnSelectedItem += new ResAnalyzing.CusDataGridViewTri.Process(this.cusDataGridViewTri1_OnSelectedItem);
+            this.cboInfoType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboInfoType.FormattingEnabled = true;
+            this.cboInfoType.Items.AddRange(new object[] {
+            "None",
+            "Unit",
+            "Structure",
+            "Technology",
+            "ResourceCenter "});
+            this.cboInfoType.Location = new System.Drawing.Point(123, 242);
+            this.cboInfoType.Name = "cboInfoType";
+            this.cboInfoType.Size = new System.Drawing.Size(140, 21);
+            this.cboInfoType.TabIndex = 32;
             // 
-            // customDataGridView1
+            // label8
             // 
-            this.customDataGridView1.ItemList = null;
-            this.customDataGridView1.Location = new System.Drawing.Point(14, 53);
-            this.customDataGridView1.Name = "customDataGridView1";
-            this.customDataGridView1.Size = new System.Drawing.Size(308, 182);
-            this.customDataGridView1.TabIndex = 30;
-            this.customDataGridView1.OnSelectedItem += new ResAnalyzing.CustomDataGridView.Process(this.customDataGridView1_OnSelectedItem);
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(74, 245);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(37, 13);
+            this.label8.TabIndex = 33;
+            this.label8.Text = "Type: ";
             // 
             // frmMain
             // 
@@ -365,7 +393,9 @@ namespace ResAnalyzing
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnRemove;
         private CustomDataGridView customDataGridView1;
-        private CusDataGridViewTri cusDataGridViewTri1;       
+        private CusDataGridViewEchelon cusDataGridViewEchelon1;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.ComboBox cboInfoType;       
     }
 }
 
