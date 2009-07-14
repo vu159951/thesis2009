@@ -42,29 +42,35 @@ namespace ResAnalyzing.Sprite
             _informationList = new List<ItemInfo>();
             _requirementList = new List<List<ItemInfo>>();
             _listUnits = new List<UnitInfo>();
-           
-            _informationList.Add(new ItemInfo("MaxHealth", "80"));
-            _informationList.Add(new ItemInfo("Power", "4"));
-            _informationList.Add(new ItemInfo("RadiusAttack", "30"));
-            _informationList.Add(new ItemInfo("RadiusDetect", "50"));
-            _informationList.Add(new ItemInfo("Speed", "5"));
+
+            _informationList.Add(new ItemInfo("", "MaxHealth", "400"));
+            _informationList.Add(new ItemInfo("", "Power", "0"));
+            _informationList.Add(new ItemInfo("", "RadiusAttack", "0"));
+            _informationList.Add(new ItemInfo("", "RadiusDetect", "0"));
+            _informationList.Add(new ItemInfo("", "Speed", "0"));
 
             List<ItemInfo> list1 = new List<ItemInfo>();
-            list1.Add(new ItemInfo("Stone", "5000"));
-            list1.Add(new ItemInfo("Gold", "4000"));
-            list1.Add(new ItemInfo("Time", "3"));
+            list1.Add(new ItemInfo("", "Stone", "5000"));
+            list1.Add(new ItemInfo("", "Gold", "4000"));
+            list1.Add(new ItemInfo("", "Time", "3"));             
+            list1.Add(new ItemInfo("Structure", "Logic1", "TownHall"));
+            list1.Add(new ItemInfo("Structure", "Logic2", "Military"));
             _requirementList.Add(list1);
 
             List<ItemInfo> list2 = new List<ItemInfo>();
-            list2.Add(new ItemInfo("Stone", "10000"));
-            list2.Add(new ItemInfo("Gold", "8000"));
-            list2.Add(new ItemInfo("Time", "45"));
+            list2.Add(new ItemInfo("", "Stone", "10000"));
+            list2.Add(new ItemInfo("", "Gold", "8000"));
+            list2.Add(new ItemInfo("", "Time", "45"));
             _requirementList.Add(list2);
 
-            _listUnits.Add(new UnitInfo("Black_Angel", "1"));
-            _listUnits.Add(new UnitInfo("Archon_Archer", "1"));
-            _listUnits.Add(new UnitInfo("Angel", "1"));
-            _listUnits.Add(new UnitInfo("Elf_swordman", "2"));
+            _listUnits.Add(new UnitInfo("", "Black_Angel", "1"));
+            _listUnits.Add(new UnitInfo("", "Archon_Archer", "1"));
+            _listUnits.Add(new UnitInfo("", "Angel", "1"));
+            _listUnits.Add(new UnitInfo("", "Elf_swordman", "2"));
+            _listUnits.Add(new UnitInfo("", "Unicorn", "1"));
+            _listUnits.Add(new UnitInfo("", "Wolf", "1"));
+            _listUnits.Add(new UnitInfo("", "Phoenix", "2"));
+          
         }
         #endregion
 
@@ -82,7 +88,7 @@ namespace ResAnalyzing.Sprite
                 SpriteStatus st = new SpriteStatus();
                 st.Path = ls[i];
                 st.FolderName = System.IO.Path.GetFileName(folderPath);
-                st._Status.Name = System.IO.Path.GetFileName(ls[i]);
+                st.Status.Name = System.IO.Path.GetFileName(ls[i]);
                 _statusList.Add(st);
             }       
         }
@@ -108,8 +114,8 @@ namespace ResAnalyzing.Sprite
 
             String mainInfo = StatusList2XMLString();
 
-            doc1.GetElementsByTagName("Information")[0].RemoveChild(doc1.GetElementsByTagName("Information")[0].FirstChild);
-            doc1.GetElementsByTagName("Information")[0].InnerXml = information;
+            doc1.GetElementsByTagName("Informations")[0].RemoveChild(doc1.GetElementsByTagName("Informations")[0].FirstChild);
+            doc1.GetElementsByTagName("Informations")[0].InnerXml = information;
 
             doc1.GetElementsByTagName("Requirements")[0].RemoveChild(doc1.GetElementsByTagName("Requirements")[0].FirstChild);
             doc1.GetElementsByTagName("Requirements")[0].InnerXml = requirement;

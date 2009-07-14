@@ -5,17 +5,19 @@ using System.Xml;
 
 namespace ResAnalyzing.DTO
 {
-    public class ItemInfo : Item
+    public class ItemInfo
     {
         #region Private Members
 
+        private String _type;
+        private String _name;      
         private String _value;
  
         #endregion
      
         #region Properties
 
-        public override String Name
+        public String Name
         {
             get { return _name; }
             set { _name = value; }
@@ -24,8 +26,13 @@ namespace ResAnalyzing.DTO
         {
             get { return _value; }
             set { _value = value; }
-        }     
-    
+        }
+
+        public String Type
+        {
+            get { return _type; }
+            set { _type = value; }
+        }
         #endregion
 
         #region Contructors
@@ -34,9 +41,11 @@ namespace ResAnalyzing.DTO
         {
             _name = "";
             _value = "";
+            _type = "";
         }
-        public ItemInfo(String name, String value)
+        public ItemInfo(String type, String name, String value)
         {
+            _type = type;
             _name = name;
             _value = value;
         }
@@ -45,7 +54,7 @@ namespace ResAnalyzing.DTO
 
         #region Public Methods
 
-        public override String ToXMLString()
+        public String ToXMLString()
         {
             XmlDocument doc = new XmlDocument();
             doc.Load(Config.SPEC_PATH
@@ -55,13 +64,20 @@ namespace ResAnalyzing.DTO
             node = (XmlElement)doc.GetElementsByTagName("Info")[0];
             String XMLString = node.OuterXml;
 
+            XMLString = XMLString.Replace("%type%", _type);
+
             XMLString = XMLString.Replace("%name%", _name);
 
             XMLString = XMLString.Replace("%value%", _value);
 
             return XMLString; 
         }
-      
+
+        public override string ToString()
+        {
+            return base.ToString();
+        }
+
         #endregion
     }
 }

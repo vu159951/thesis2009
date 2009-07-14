@@ -53,15 +53,15 @@ namespace ResAnalyzing
 
         #region Public Methods
 
-        public int Add(String name, String value)
+        public int Add(String type, String name, String value)
         {
-            _itemList.Add(new ItemInfo(name, value));
-           return dgvInfo.Rows.Add(name, value);           
+            _itemList.Add(new ItemInfo(type, name, value));
+           return dgvInfo.Rows.Add(name, value, type);           
         }
         public int Add(ItemInfo item)
         {
             _itemList.Add(item);
-            return dgvInfo.Rows.Add(item.Name, item.Value);
+            return dgvInfo.Rows.Add(item.Name, item.Value, item.Type);
         }             
         public void Remove(int index)
         {
@@ -92,7 +92,7 @@ namespace ResAnalyzing
                 throw e;
             }            
         }
-        public Boolean ChangeValue(String name, String value)
+        public Boolean ChangeValue(String name, String value, String type)
         {
             for (int i = 0; i < _itemList.Count; i++)
             {
@@ -100,6 +100,8 @@ namespace ResAnalyzing
                 {
                     _itemList[i].Value = value;
                     dgvInfo.Rows[i].Cells[1].Value = value;
+                    _itemList[i].Type = type;
+                    dgvInfo.Rows[i].Cells[2].Value = type;
                     return true;
                 }
             }
@@ -107,7 +109,7 @@ namespace ResAnalyzing
         }
         public Boolean ChangeValue(ItemInfo item)
         {
-            return ChangeValue(item.Name, item.Value);
+            return ChangeValue(item.Name, item.Value, item.Type);
         }
 
         public void Clear()
@@ -124,8 +126,9 @@ namespace ResAnalyzing
         {
             dgvInfo.Width = this.Width;
             dgvInfo.Height = this.Height;
-            dgvInfo.Columns["colName"].Width = (dgvInfo.Width - dgvInfo.RowHeadersWidth) / 2;
-            dgvInfo.Columns["colValue"].Width = (dgvInfo.Width - dgvInfo.RowHeadersWidth) / 2;
+            dgvInfo.Columns["colName"].Width = (dgvInfo.Width - dgvInfo.RowHeadersWidth) / 3;
+            dgvInfo.Columns["colValue"].Width = (dgvInfo.Width - dgvInfo.RowHeadersWidth) / 3;
+            dgvInfo.Columns["colValue"].Width = (dgvInfo.Width - dgvInfo.RowHeadersWidth) / 3;
             base.OnPaint(e);
         }
         #endregion

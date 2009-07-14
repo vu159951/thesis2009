@@ -38,7 +38,7 @@ namespace ResAnalyzing.Sprite
                 SpriteStatus st = new SpriteStatus();
                 st.Path = ls[i];
                 st.FolderName = System.IO.Path.GetFileName(folderPath);
-                st._Status.Name = System.IO.Path.GetFileName(ls[i]);
+                st.Status.Name = System.IO.Path.GetFileName(ls[i]);
                 _statusList.Add(st);
             }                       
         }
@@ -59,7 +59,7 @@ namespace ResAnalyzing.Sprite
             doc1.GetElementsByTagName("Action")[0].RemoveChild(doc1.GetElementsByTagName("Action")[0].FirstChild);
             doc1.GetElementsByTagName("Action")[0].InnerXml = mainInfo;
 
-            doc1.GetElementsByTagName("Information")[0].InnerXml = "";
+            doc1.GetElementsByTagName("Informations")[0].InnerXml = "";
             doc1.GetElementsByTagName("Requirements")[0].InnerXml = "";
             doc1.GetElementsByTagName("ListUnits")[0].InnerXml = "";
 

@@ -27,8 +27,8 @@ namespace ResAnalyzing.Sprite
         {
             _statusList = new List<SpriteStatus>();
             _informationList = new List<ItemInfo>();
-            _informationList.Add(new ItemInfo("NameResource", "Stone"));
-            _informationList.Add(new ItemInfo("Container", "40000"));        
+            _informationList.Add(new ItemInfo("", "NameResource", "Stone"));
+            _informationList.Add(new ItemInfo("", "Container", "40000"));        
         }
         #endregion
 
@@ -46,7 +46,7 @@ namespace ResAnalyzing.Sprite
                 SpriteStatus st = new SpriteStatus();
                 st.Path = ls[i];
                 st.FolderName = System.IO.Path.GetFileName(folderPath);
-                st._Status.Name = System.IO.Path.GetFileName(ls[i]);
+                st.Status.Name = System.IO.Path.GetFileName(ls[i]);
                 _statusList.Add(st);
             }                              
         }
@@ -68,8 +68,8 @@ namespace ResAnalyzing.Sprite
 
             String mainInfo = StatusList2XMLString();
 
-            doc1.GetElementsByTagName("Information")[0].RemoveChild(doc1.GetElementsByTagName("Information")[0].FirstChild);
-            doc1.GetElementsByTagName("Information")[0].InnerXml = information;
+            doc1.GetElementsByTagName("Informations")[0].RemoveChild(doc1.GetElementsByTagName("Informations")[0].FirstChild);
+            doc1.GetElementsByTagName("Informations")[0].InnerXml = information;
             
             doc1.GetElementsByTagName("Requirements")[0].InnerXml = "";
             doc1.GetElementsByTagName("ListUnits")[0].InnerXml = "";
