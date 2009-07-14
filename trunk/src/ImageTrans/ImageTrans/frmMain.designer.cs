@@ -33,23 +33,24 @@ namespace ImageTrans
             this.txtPath = new System.Windows.Forms.TextBox();
             this.btnBrowse = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.rdScaleYValue = new System.Windows.Forms.NumericUpDown();
+            this.rdScaleXValue = new System.Windows.Forms.NumericUpDown();
             this.rdMask = new System.Windows.Forms.RadioButton();
             this.rdFlipY = new System.Windows.Forms.RadioButton();
+            this.rdScale = new System.Windows.Forms.RadioButton();
             this.rdBorderStand = new System.Windows.Forms.RadioButton();
             this.rdFlipX = new System.Windows.Forms.RadioButton();
-            this.rdScale = new System.Windows.Forms.RadioButton();
-            this.rdScaleXValue = new System.Windows.Forms.NumericUpDown();
-            this.rdScaleYValue = new System.Windows.Forms.NumericUpDown();
-            this.label2 = new System.Windows.Forms.Label();
+            this.rdRemoveBg = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.rdScaleXValue)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rdScaleYValue)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rdScaleXValue)).BeginInit();
             this.SuspendLayout();
             // 
             // btnAction
             // 
             this.btnAction.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAction.Location = new System.Drawing.Point(15, 126);
+            this.btnAction.Location = new System.Drawing.Point(15, 178);
             this.btnAction.Name = "btnAction";
             this.btnAction.Size = new System.Drawing.Size(84, 29);
             this.btnAction.TabIndex = 0;
@@ -93,88 +94,23 @@ namespace ImageTrans
             this.groupBox1.Controls.Add(this.rdFlipY);
             this.groupBox1.Controls.Add(this.rdScale);
             this.groupBox1.Controls.Add(this.rdBorderStand);
+            this.groupBox1.Controls.Add(this.rdRemoveBg);
             this.groupBox1.Controls.Add(this.rdFlipX);
             this.groupBox1.Location = new System.Drawing.Point(15, 32);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(449, 88);
+            this.groupBox1.Size = new System.Drawing.Size(449, 140);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Options";
             // 
-            // rdMask
+            // label2
             // 
-            this.rdMask.AutoSize = true;
-            this.rdMask.Checked = true;
-            this.rdMask.Location = new System.Drawing.Point(6, 65);
-            this.rdMask.Name = "rdMask";
-            this.rdMask.Size = new System.Drawing.Size(129, 17);
-            this.rdMask.TabIndex = 0;
-            this.rdMask.TabStop = true;
-            this.rdMask.Text = "Get Image with MASK";
-            this.rdMask.UseVisualStyleBackColor = true;
-            // 
-            // rdFlipY
-            // 
-            this.rdFlipY.AutoSize = true;
-            this.rdFlipY.Location = new System.Drawing.Point(6, 42);
-            this.rdFlipY.Name = "rdFlipY";
-            this.rdFlipY.Size = new System.Drawing.Size(78, 17);
-            this.rdFlipY.TabIndex = 0;
-            this.rdFlipY.Text = "Flip vertical";
-            this.rdFlipY.UseVisualStyleBackColor = true;
-            // 
-            // rdBorderStand
-            // 
-            this.rdBorderStand.AutoSize = true;
-            this.rdBorderStand.Location = new System.Drawing.Point(183, 19);
-            this.rdBorderStand.Name = "rdBorderStand";
-            this.rdBorderStand.Size = new System.Drawing.Size(116, 17);
-            this.rdBorderStand.TabIndex = 0;
-            this.rdBorderStand.Text = "Standardlize border";
-            this.rdBorderStand.UseVisualStyleBackColor = true;
-            // 
-            // rdFlipX
-            // 
-            this.rdFlipX.AutoSize = true;
-            this.rdFlipX.Location = new System.Drawing.Point(6, 19);
-            this.rdFlipX.Name = "rdFlipX";
-            this.rdFlipX.Size = new System.Drawing.Size(91, 17);
-            this.rdFlipX.TabIndex = 0;
-            this.rdFlipX.Text = "Flip horiziontal";
-            this.rdFlipX.UseVisualStyleBackColor = true;
-            // 
-            // rdScale
-            // 
-            this.rdScale.AutoSize = true;
-            this.rdScale.Location = new System.Drawing.Point(183, 42);
-            this.rdScale.Name = "rdScale";
-            this.rdScale.Size = new System.Drawing.Size(107, 17);
-            this.rdScale.TabIndex = 0;
-            this.rdScale.Text = "Scale with border";
-            this.rdScale.UseVisualStyleBackColor = true;
-            // 
-            // rdScaleXValue
-            // 
-            this.rdScaleXValue.Location = new System.Drawing.Point(296, 42);
-            this.rdScaleXValue.Maximum = new decimal(new int[] {
-            1024,
-            0,
-            0,
-            0});
-            this.rdScaleXValue.Minimum = new decimal(new int[] {
-            32,
-            0,
-            0,
-            0});
-            this.rdScaleXValue.Name = "rdScaleXValue";
-            this.rdScaleXValue.Size = new System.Drawing.Size(60, 20);
-            this.rdScaleXValue.TabIndex = 1;
-            this.rdScaleXValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.rdScaleXValue.Value = new decimal(new int[] {
-            32,
-            0,
-            0,
-            0});
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(362, 44);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(12, 13);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "x";
             // 
             // rdScaleYValue
             // 
@@ -199,20 +135,96 @@ namespace ImageTrans
             0,
             0});
             // 
-            // label2
+            // rdScaleXValue
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(362, 44);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(12, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "x";
+            this.rdScaleXValue.Location = new System.Drawing.Point(296, 42);
+            this.rdScaleXValue.Maximum = new decimal(new int[] {
+            1024,
+            0,
+            0,
+            0});
+            this.rdScaleXValue.Minimum = new decimal(new int[] {
+            32,
+            0,
+            0,
+            0});
+            this.rdScaleXValue.Name = "rdScaleXValue";
+            this.rdScaleXValue.Size = new System.Drawing.Size(60, 20);
+            this.rdScaleXValue.TabIndex = 1;
+            this.rdScaleXValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.rdScaleXValue.Value = new decimal(new int[] {
+            32,
+            0,
+            0,
+            0});
+            // 
+            // rdMask
+            // 
+            this.rdMask.AutoSize = true;
+            this.rdMask.Checked = true;
+            this.rdMask.Location = new System.Drawing.Point(6, 65);
+            this.rdMask.Name = "rdMask";
+            this.rdMask.Size = new System.Drawing.Size(129, 17);
+            this.rdMask.TabIndex = 0;
+            this.rdMask.TabStop = true;
+            this.rdMask.Text = "Get Image with MASK";
+            this.rdMask.UseVisualStyleBackColor = true;
+            // 
+            // rdFlipY
+            // 
+            this.rdFlipY.AutoSize = true;
+            this.rdFlipY.Location = new System.Drawing.Point(6, 42);
+            this.rdFlipY.Name = "rdFlipY";
+            this.rdFlipY.Size = new System.Drawing.Size(78, 17);
+            this.rdFlipY.TabIndex = 0;
+            this.rdFlipY.Text = "Flip vertical";
+            this.rdFlipY.UseVisualStyleBackColor = true;
+            // 
+            // rdScale
+            // 
+            this.rdScale.AutoSize = true;
+            this.rdScale.Location = new System.Drawing.Point(183, 42);
+            this.rdScale.Name = "rdScale";
+            this.rdScale.Size = new System.Drawing.Size(107, 17);
+            this.rdScale.TabIndex = 0;
+            this.rdScale.Text = "Scale with border";
+            this.rdScale.UseVisualStyleBackColor = true;
+            // 
+            // rdBorderStand
+            // 
+            this.rdBorderStand.AutoSize = true;
+            this.rdBorderStand.Location = new System.Drawing.Point(183, 19);
+            this.rdBorderStand.Name = "rdBorderStand";
+            this.rdBorderStand.Size = new System.Drawing.Size(116, 17);
+            this.rdBorderStand.TabIndex = 0;
+            this.rdBorderStand.Text = "Standardlize border";
+            this.rdBorderStand.UseVisualStyleBackColor = true;
+            // 
+            // rdFlipX
+            // 
+            this.rdFlipX.AutoSize = true;
+            this.rdFlipX.Location = new System.Drawing.Point(6, 19);
+            this.rdFlipX.Name = "rdFlipX";
+            this.rdFlipX.Size = new System.Drawing.Size(91, 17);
+            this.rdFlipX.TabIndex = 0;
+            this.rdFlipX.Text = "Flip horiziontal";
+            this.rdFlipX.UseVisualStyleBackColor = true;
+            // 
+            // rdRemoveBg
+            // 
+            this.rdRemoveBg.AutoSize = true;
+            this.rdRemoveBg.Location = new System.Drawing.Point(6, 88);
+            this.rdRemoveBg.Name = "rdRemoveBg";
+            this.rdRemoveBg.Size = new System.Drawing.Size(125, 17);
+            this.rdRemoveBg.TabIndex = 0;
+            this.rdRemoveBg.Text = "Remove background";
+            this.rdRemoveBg.UseVisualStyleBackColor = true;
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(470, 176);
+            this.ClientSize = new System.Drawing.Size(470, 219);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnBrowse);
             this.Controls.Add(this.txtPath);
@@ -223,8 +235,8 @@ namespace ImageTrans
             this.Text = "frmMain";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.rdScaleXValue)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rdScaleYValue)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rdScaleXValue)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -245,5 +257,6 @@ namespace ImageTrans
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.NumericUpDown rdScaleYValue;
         private System.Windows.Forms.NumericUpDown rdScaleXValue;
+        private System.Windows.Forms.RadioButton rdRemoveBg;
     }
 }
