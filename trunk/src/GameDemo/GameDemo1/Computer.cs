@@ -69,7 +69,7 @@ namespace GameDemo1
             {
                 this._lastTickCount = System.Environment.TickCount;
                 Random ran = new Random(DateTime.Now.Millisecond);
-                int idAction = 1;//this._actionIds[ran.Next(0, 59)];
+                int idAction = this._actionIds[ran.Next(0, 59)];
                 string nameAction = this._actionNames[idAction];
                 if (nameAction == "Move")
                 {
