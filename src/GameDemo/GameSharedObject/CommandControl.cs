@@ -66,7 +66,8 @@ namespace GameSharedObject
             if (player.CheckConditionToBuyStructure(structure) == true)
             {
                 Sprite newStructure = structure;                
-                /// xác định các thuộc tính            
+                /// xác định các thuộc tính          
+                structure.Position = point;
                 newStructure.CodeFaction = player.Code;
                 newStructure.Color = player.Color;
                 // xác định vị trí xuất hiện
@@ -88,26 +89,38 @@ namespace GameSharedObject
             }
         }                        
 
-        public static void BuyUnit(Player player, Unit unit)
+        public static void BuyUnit(Player player)
         {
-            for (int i = 0; i < player.StructureListCreated.Count; i++)
+            if (player.StructureListCreated.Count == 0)
             {
-                for (int j = 0; j < ((StructureDTO)player.StructureListCreated[i].Info).UnitList.Count; j++)
-                {
-                    if (((StructureDTO)player.StructureListCreated[i].Info).UnitList[j].Name == unit.Info.Name)
-                    {
-                        ((Structure)player.StructureListCreated[i]).AddToListUnitBuying(unit);
-                        return;
-                    }
-                }
+                return;
             }
+            Random ran = new Random(DateTime.Now.Millisecond);
+            Structure structure = (Structure)player.StructureListCreated[ran.Next(0, player.StructureListCreated.Count)];
+            Unit unit = structure.ModelUnitList[ran.Next(0, structure.ModelUnitList.Count)].Clone() as Unit;
+            structure.AddToListUnitBuying(unit);
         }
 
-        public static void RollBackBuyUnit(Structure structure, Unit unit)
+        public static void RollBackBuyUnit(Player player)
         {
+            Random ran = new Random(DateTime.Now.Millisecond);
+            if (player.StructureListCreated.Count <= 0)
+            {
+                return;
+            }
+            Structure structure = (Structure)CommandControl.SelectStructure(ran.Next(0, player.StructureListCreated.Count), player);
             if (structure.ListUnitsBuying.Count > 0)
             {
-                structure.CancelBuyUnit(unit);
+                int a = ran.Next(0, structure.ListUnitsBuying.Count);
+                if (structure.ListUnitsBuying[a].Count > 0)
+                {
+                    int b = ran.Next(0, structure.ListUnitsBuying[a].Count);
+                    Unit unit = structure.ListUnitsBuying[a][b];
+                    if (structure.ListUnitsBuying.Count > 0)
+                    {
+                        structure.CancelBuyUnit(unit);
+                    }
+                }
             }
         }
 
