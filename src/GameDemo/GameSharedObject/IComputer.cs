@@ -10,6 +10,6 @@ namespace GameSharedObject
     public interface IComputer
     {        
         void Init();
-        void Play();        
+        void Play();
     }
 }
