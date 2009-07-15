@@ -21,6 +21,7 @@ namespace GameDemo1
 {
     public class Computer:Player, IComputer
     {
+        MainGame _game;
         protected AIDTO _ai;
         protected string[] _actionNames;
         protected int[] _actionIds;
@@ -38,6 +39,7 @@ namespace GameDemo1
             : base(game)
         {
             this._ai = new AIDTO();
+            this._game = game;
         }
         
         public void Init()
@@ -69,7 +71,7 @@ namespace GameDemo1
             {
                 this._lastTickCount = System.Environment.TickCount;
                 Random ran = new Random(DateTime.Now.Millisecond);
-                int idAction = this._actionIds[ran.Next(0, 59)];
+                int idAction = this._actionIds[ran.Next(0, 100)];
                 string nameAction = this._actionNames[idAction];
                 if (nameAction == "Move")
                 {
@@ -82,7 +84,7 @@ namespace GameDemo1
                 }
                 else if (nameAction == "Attack")
                 {
-                    if (this.UnitListCreated.Count > 0)
+                    if (this.UnitListCreated.Count > 0 || this.StructureListCreated.Count > 0)
                     {
                         Sprite selectUnit = CommandControl.SelectUnit(ran.Next(0, this.UnitListCreated.Count), this);
                         if (selectUnit is ProducerUnit || selectUnit.CurrentStatus.Name == StatusList.MOVE.Name || ((Unit)selectUnit).WhomIHit != null || selectUnit.CurrentStatus.Name == StatusList.ATTACK.Name)
@@ -133,24 +135,40 @@ namespace GameDemo1
                         return;
                     }                    
                     producerUnit = temp[ran.Next(0, temp.Count)];
-                    ResourceCenter resource = (ResourceCenter)GlobalDTO.MANAGER_GAME.ListResourceCenterOnmap[ran.Next(0, GlobalDTO.MANAGER_GAME.ListResourceCenterOnmap.Count - 1)];
+                    ResourceCenter resource = (ResourceCenter)GlobalDTO.MANAGER_GAME.ListResourceCenterOnmap[ran.Next(0, GlobalDTO.MANAGER_GAME.ListResourceCenterOnmap.Count)];
                     CommandControl.ExploitResource(producerUnit, resource);
                 }
                 else if (nameAction == "BuyUnit")
                 {
-                               
+                    CommandControl.BuyUnit(this);
                 }
                 else if (nameAction == "BuyStructure")
                 {
-                    
+                    string[] namestructure = new string[this._game.StructureMgr.Count];
+                    int i = 0;
+                    foreach (KeyValuePair<String, Sprite> structure in this._game.StructureMgr)
+                    {
+                        namestructure[i] = structure.Key;
+                        i++;
+                    }
+                    Structure newstructure = ((Structure)this._game.StructureMgr[namestructure[ran.Next(0, namestructure.Length)]]).Clone() as Structure;                    
+                    //// lấy list tên các unit mà structure này có khả năng sinh ra
+                    newstructure.ModelUnitList = new List<Unit>();
+                    List<ItemInfo> uList = ((StructureDTO)newstructure.Info).UnitList;
+
+                    for (int k = 0; k < uList.Count; k++)
+                    {
+                        Unit unit = (Unit)_game.UnitMgr[uList[k].Name];
+                        if (newstructure.CurrentUpgradeInfo.Id >= int.Parse(uList[k].Value))
+                        {
+                            newstructure.ModelUnitList.Add(unit);
+                        }
+                    }
+                    CommandControl.BuyBuildStructure(this, newstructure, this.UnitListCreated[ran.Next(0, this.UnitListCreated.Count)].Position);
                 }
                 else if (nameAction == "RollBackBuyUnit")
-                {
-                    Structure structure = (Structure)CommandControl.SelectStructure(ran.Next(0, this.StructureListCreated.Count), this);
-                    int a = ran.Next(0,structure.ListUnitsBuying.Count);
-                    int b = ran.Next(0,structure.ListUnitsBuying[a].Count);
-                    Unit unit = structure.ListUnitsBuying[a][b];
-                    CommandControl.RollBackBuyUnit(structure, unit);
+                {                    
+                    CommandControl.RollBackBuyUnit(this);
                 }
                 else if (nameAction == "UpgradeStructure")
                 { }
@@ -159,7 +177,10 @@ namespace GameDemo1
 
         public override void Update(GameTime gameTime)
         {
-            this.Play();
+            if (GlobalDTO.CURRENT_MODEGAME == "Playing")
+            {
+                this.Play();
+            }
             base.Update(gameTime);
         }
     }
