@@ -19,13 +19,13 @@ using GameSharedObject.Data;
 
 namespace GameDemo1
 {
-    public class Computer:Player,IComputer
+    public class Computer:Player, IComputer
     {
-        private AIDTO _ai;
-        private string[] _actionNames;
-        private int[] _actionIds;
+        protected AIDTO _ai;
+        protected string[] _actionNames;
+        protected int[] _actionIds;
 
-        private int _delayTime = 0;
+        protected int _delayTime = 0;
         private int _lastTickCount = System.Environment.TickCount;
 
         public AIDTO Ai
