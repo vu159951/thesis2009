@@ -22,9 +22,8 @@
   </Requirements>
   <ListUnits>
     <Unit type="" name="Unicorn" upgradeId="1" />
-    <Unit type="" name="Wolf" upgradeId="1" />
-    <Unit type="" name="DarkElf_Incarnate" upgradeId="1" />
-    <Unit type="" name="Phoenix" upgradeId="2" />    
+    <Unit type="" name="Wolf" upgradeId="1" />    
+    <Unit type="" name="Phoenix" upgradeId="1" />    
   </ListUnits>
   <Action>
     <IDLE>
