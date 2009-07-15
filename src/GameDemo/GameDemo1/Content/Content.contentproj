@@ -10024,6 +10024,2148 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\001_Humans_Knight_IDLE.1.02.png">
+      <Name>001_Humans_Knight_IDLE.1.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\002_Humans_Knight_IDLE.1.03.png">
+      <Name>002_Humans_Knight_IDLE.1.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\003_Humans_Knight_IDLE.1.04.png">
+      <Name>003_Humans_Knight_IDLE.1.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\004_Humans_Knight_IDLE.1.05.png">
+      <Name>004_Humans_Knight_IDLE.1.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\005_Humans_Knight_IDLE.1.06.png">
+      <Name>005_Humans_Knight_IDLE.1.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\006_Humans_Knight_IDLE.1.07.png">
+      <Name>006_Humans_Knight_IDLE.1.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\007_Humans_Knight_IDLE.1.08.png">
+      <Name>007_Humans_Knight_IDLE.1.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\008_Humans_Knight_IDLE.1.09.png">
+      <Name>008_Humans_Knight_IDLE.1.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\009_Humans_Knight_IDLE.1.10.png">
+      <Name>009_Humans_Knight_IDLE.1.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\030_Humans_Knight_WALK.1.01.png">
+      <Name>030_Humans_Knight_WALK.1.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\031_Humans_Knight_WALK.1.02.png">
+      <Name>031_Humans_Knight_WALK.1.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\032_Humans_Knight_WALK.1.03.png">
+      <Name>032_Humans_Knight_WALK.1.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\033_Humans_Knight_WALK.1.04.png">
+      <Name>033_Humans_Knight_WALK.1.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\034_Humans_Knight_WALK.1.05.png">
+      <Name>034_Humans_Knight_WALK.1.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\035_Humans_Knight_WALK.1.06.png">
+      <Name>035_Humans_Knight_WALK.1.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\036_Humans_Knight_WALK.1.07.png">
+      <Name>036_Humans_Knight_WALK.1.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\037_Humans_Knight_WALK.1.08.png">
+      <Name>037_Humans_Knight_WALK.1.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\038_Humans_Knight_WALK.1.09.png">
+      <Name>038_Humans_Knight_WALK.1.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\039_Humans_Knight_WALK.1.10.png">
+      <Name>039_Humans_Knight_WALK.1.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\040_Humans_Knight_WALK.1.11.png">
+      <Name>040_Humans_Knight_WALK.1.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\041_Humans_Knight_WALK.1.12.png">
+      <Name>041_Humans_Knight_WALK.1.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\042_Humans_Knight_WALK.1.13.png">
+      <Name>042_Humans_Knight_WALK.1.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\043_Humans_Knight_WALK.1.14.png">
+      <Name>043_Humans_Knight_WALK.1.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\044_Humans_Knight_WALK.1.15.png">
+      <Name>044_Humans_Knight_WALK.1.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\060_Humans_Knight_ATTACK.1.01.png">
+      <Name>060_Humans_Knight_ATTACK.1.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\061_Humans_Knight_ATTACK.1.02.png">
+      <Name>061_Humans_Knight_ATTACK.1.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\062_Humans_Knight_ATTACK.1.03.png">
+      <Name>062_Humans_Knight_ATTACK.1.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\063_Humans_Knight_ATTACK.1.04.png">
+      <Name>063_Humans_Knight_ATTACK.1.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\064_Humans_Knight_ATTACK.1.05.png">
+      <Name>064_Humans_Knight_ATTACK.1.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\065_Humans_Knight_ATTACK.1.06.png">
+      <Name>065_Humans_Knight_ATTACK.1.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\066_Humans_Knight_ATTACK.1.07.png">
+      <Name>066_Humans_Knight_ATTACK.1.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\067_Humans_Knight_ATTACK.1.08.png">
+      <Name>067_Humans_Knight_ATTACK.1.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\070_Humans_Knight_HIT.1.01.png">
+      <Name>070_Humans_Knight_HIT.1.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\071_Humans_Knight_HIT.1.02.png">
+      <Name>071_Humans_Knight_HIT.1.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\072_Humans_Knight_HIT.1.03.png">
+      <Name>072_Humans_Knight_HIT.1.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\073_Humans_Knight_HIT.1.04.png">
+      <Name>073_Humans_Knight_HIT.1.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\074_Humans_Knight_HIT.1.05.png">
+      <Name>074_Humans_Knight_HIT.1.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\075_Humans_Knight_HIT.1.06.png">
+      <Name>075_Humans_Knight_HIT.1.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\076_Humans_Knight_HIT.1.07.png">
+      <Name>076_Humans_Knight_HIT.1.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\077_Humans_Knight_HIT.1.08.png">
+      <Name>077_Humans_Knight_HIT.1.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\080_Humans_Knight_DEAD.1.01.png">
+      <Name>080_Humans_Knight_DEAD.1.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\081_Humans_Knight_DEAD.1.02.png">
+      <Name>081_Humans_Knight_DEAD.1.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\082_Humans_Knight_DEAD.1.03.png">
+      <Name>082_Humans_Knight_DEAD.1.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\083_Humans_Knight_DEAD.1.04.png">
+      <Name>083_Humans_Knight_DEAD.1.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\084_Humans_Knight_DEAD.1.05.png">
+      <Name>084_Humans_Knight_DEAD.1.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\085_Humans_Knight_DEAD.1.06.png">
+      <Name>085_Humans_Knight_DEAD.1.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\086_Humans_Knight_DEAD.1.07.png">
+      <Name>086_Humans_Knight_DEAD.1.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\087_Humans_Knight_DEAD.1.08.png">
+      <Name>087_Humans_Knight_DEAD.1.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\088_Humans_Knight_DEAD.1.09.png">
+      <Name>088_Humans_Knight_DEAD.1.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\089_Humans_Knight_DEAD.1.10.png">
+      <Name>089_Humans_Knight_DEAD.1.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\100_Humans_Knight_IDLE.2.01.png">
+      <Name>100_Humans_Knight_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\101_Humans_Knight_IDLE.2.02.png">
+      <Name>101_Humans_Knight_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\102_Humans_Knight_IDLE.2.03.png">
+      <Name>102_Humans_Knight_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\103_Humans_Knight_IDLE.2.04.png">
+      <Name>103_Humans_Knight_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\104_Humans_Knight_IDLE.2.05.png">
+      <Name>104_Humans_Knight_IDLE.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\105_Humans_Knight_IDLE.2.06.png">
+      <Name>105_Humans_Knight_IDLE.2.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\106_Humans_Knight_IDLE.2.07.png">
+      <Name>106_Humans_Knight_IDLE.2.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\107_Humans_Knight_IDLE.2.08.png">
+      <Name>107_Humans_Knight_IDLE.2.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\108_Humans_Knight_IDLE.2.09.png">
+      <Name>108_Humans_Knight_IDLE.2.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\109_Humans_Knight_IDLE.2.10.png">
+      <Name>109_Humans_Knight_IDLE.2.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\130_Humans_Knight_WALK.2.01.png">
+      <Name>130_Humans_Knight_WALK.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\131_Humans_Knight_WALK.2.02.png">
+      <Name>131_Humans_Knight_WALK.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\132_Humans_Knight_WALK.2.03.png">
+      <Name>132_Humans_Knight_WALK.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\133_Humans_Knight_WALK.2.04.png">
+      <Name>133_Humans_Knight_WALK.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\134_Humans_Knight_WALK.2.05.png">
+      <Name>134_Humans_Knight_WALK.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\135_Humans_Knight_WALK.2.06.png">
+      <Name>135_Humans_Knight_WALK.2.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\136_Humans_Knight_WALK.2.07.png">
+      <Name>136_Humans_Knight_WALK.2.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\137_Humans_Knight_WALK.2.08.png">
+      <Name>137_Humans_Knight_WALK.2.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\138_Humans_Knight_WALK.2.09.png">
+      <Name>138_Humans_Knight_WALK.2.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\139_Humans_Knight_WALK.2.10.png">
+      <Name>139_Humans_Knight_WALK.2.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\140_Humans_Knight_WALK.2.11.png">
+      <Name>140_Humans_Knight_WALK.2.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\141_Humans_Knight_WALK.2.12.png">
+      <Name>141_Humans_Knight_WALK.2.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\142_Humans_Knight_WALK.2.13.png">
+      <Name>142_Humans_Knight_WALK.2.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\143_Humans_Knight_WALK.2.14.png">
+      <Name>143_Humans_Knight_WALK.2.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\144_Humans_Knight_WALK.2.15.png">
+      <Name>144_Humans_Knight_WALK.2.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\160_Humans_Knight_ATTACK.2.01.png">
+      <Name>160_Humans_Knight_ATTACK.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\161_Humans_Knight_ATTACK.2.02.png">
+      <Name>161_Humans_Knight_ATTACK.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\162_Humans_Knight_ATTACK.2.03.png">
+      <Name>162_Humans_Knight_ATTACK.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\163_Humans_Knight_ATTACK.2.04.png">
+      <Name>163_Humans_Knight_ATTACK.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\164_Humans_Knight_ATTACK.2.05.png">
+      <Name>164_Humans_Knight_ATTACK.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\165_Humans_Knight_ATTACK.2.06.png">
+      <Name>165_Humans_Knight_ATTACK.2.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\166_Humans_Knight_ATTACK.2.07.png">
+      <Name>166_Humans_Knight_ATTACK.2.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\167_Humans_Knight_ATTACK.2.08.png">
+      <Name>167_Humans_Knight_ATTACK.2.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\170_Humans_Knight_HIT.2.01.png">
+      <Name>170_Humans_Knight_HIT.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\171_Humans_Knight_HIT.2.02.png">
+      <Name>171_Humans_Knight_HIT.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\172_Humans_Knight_HIT.2.03.png">
+      <Name>172_Humans_Knight_HIT.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\173_Humans_Knight_HIT.2.04.png">
+      <Name>173_Humans_Knight_HIT.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\174_Humans_Knight_HIT.2.05.png">
+      <Name>174_Humans_Knight_HIT.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\175_Humans_Knight_HIT.2.06.png">
+      <Name>175_Humans_Knight_HIT.2.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\176_Humans_Knight_HIT.2.07.png">
+      <Name>176_Humans_Knight_HIT.2.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\177_Humans_Knight_HIT.2.08.png">
+      <Name>177_Humans_Knight_HIT.2.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\180_Humans_Knight_DEAD.2.01.png">
+      <Name>180_Humans_Knight_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\181_Humans_Knight_DEAD.2.02.png">
+      <Name>181_Humans_Knight_DEAD.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\182_Humans_Knight_DEAD.2.03.png">
+      <Name>182_Humans_Knight_DEAD.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\183_Humans_Knight_DEAD.2.04.png">
+      <Name>183_Humans_Knight_DEAD.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\184_Humans_Knight_DEAD.2.05.png">
+      <Name>184_Humans_Knight_DEAD.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\185_Humans_Knight_DEAD.2.06.png">
+      <Name>185_Humans_Knight_DEAD.2.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\186_Humans_Knight_DEAD.2.07.png">
+      <Name>186_Humans_Knight_DEAD.2.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\187_Humans_Knight_DEAD.2.08.png">
+      <Name>187_Humans_Knight_DEAD.2.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\188_Humans_Knight_DEAD.2.09.png">
+      <Name>188_Humans_Knight_DEAD.2.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\189_Humans_Knight_DEAD.2.10.png">
+      <Name>189_Humans_Knight_DEAD.2.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\200_Humans_Knight_IDLE.3.01.png">
+      <Name>200_Humans_Knight_IDLE.3.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\201_Humans_Knight_IDLE.3.02.png">
+      <Name>201_Humans_Knight_IDLE.3.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\202_Humans_Knight_IDLE.3.03.png">
+      <Name>202_Humans_Knight_IDLE.3.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\203_Humans_Knight_IDLE.3.04.png">
+      <Name>203_Humans_Knight_IDLE.3.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\204_Humans_Knight_IDLE.3.05.png">
+      <Name>204_Humans_Knight_IDLE.3.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\205_Humans_Knight_IDLE.3.06.png">
+      <Name>205_Humans_Knight_IDLE.3.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\206_Humans_Knight_IDLE.3.07.png">
+      <Name>206_Humans_Knight_IDLE.3.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\207_Humans_Knight_IDLE.3.08.png">
+      <Name>207_Humans_Knight_IDLE.3.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\208_Humans_Knight_IDLE.3.09.png">
+      <Name>208_Humans_Knight_IDLE.3.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\209_Humans_Knight_IDLE.3.10.png">
+      <Name>209_Humans_Knight_IDLE.3.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\230_Humans_Knight_WALK.3.01.png">
+      <Name>230_Humans_Knight_WALK.3.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\231_Humans_Knight_WALK.3.02.png">
+      <Name>231_Humans_Knight_WALK.3.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\232_Humans_Knight_WALK.3.03.png">
+      <Name>232_Humans_Knight_WALK.3.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\233_Humans_Knight_WALK.3.04.png">
+      <Name>233_Humans_Knight_WALK.3.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\234_Humans_Knight_WALK.3.05.png">
+      <Name>234_Humans_Knight_WALK.3.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\235_Humans_Knight_WALK.3.06.png">
+      <Name>235_Humans_Knight_WALK.3.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\236_Humans_Knight_WALK.3.07.png">
+      <Name>236_Humans_Knight_WALK.3.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\237_Humans_Knight_WALK.3.08.png">
+      <Name>237_Humans_Knight_WALK.3.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\238_Humans_Knight_WALK.3.09.png">
+      <Name>238_Humans_Knight_WALK.3.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\239_Humans_Knight_WALK.3.10.png">
+      <Name>239_Humans_Knight_WALK.3.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\240_Humans_Knight_WALK.3.11.png">
+      <Name>240_Humans_Knight_WALK.3.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\241_Humans_Knight_WALK.3.12.png">
+      <Name>241_Humans_Knight_WALK.3.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\242_Humans_Knight_WALK.3.13.png">
+      <Name>242_Humans_Knight_WALK.3.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\243_Humans_Knight_WALK.3.14.png">
+      <Name>243_Humans_Knight_WALK.3.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\244_Humans_Knight_WALK.3.15.png">
+      <Name>244_Humans_Knight_WALK.3.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\260_Humans_Knight_ATTACK.3.01.png">
+      <Name>260_Humans_Knight_ATTACK.3.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\261_Humans_Knight_ATTACK.3.02.png">
+      <Name>261_Humans_Knight_ATTACK.3.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\262_Humans_Knight_ATTACK.3.03.png">
+      <Name>262_Humans_Knight_ATTACK.3.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\263_Humans_Knight_ATTACK.3.04.png">
+      <Name>263_Humans_Knight_ATTACK.3.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\264_Humans_Knight_ATTACK.3.05.png">
+      <Name>264_Humans_Knight_ATTACK.3.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\265_Humans_Knight_ATTACK.3.06.png">
+      <Name>265_Humans_Knight_ATTACK.3.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\266_Humans_Knight_ATTACK.3.07.png">
+      <Name>266_Humans_Knight_ATTACK.3.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\267_Humans_Knight_ATTACK.3.08.png">
+      <Name>267_Humans_Knight_ATTACK.3.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\270_Humans_Knight_HIT.3.01.png">
+      <Name>270_Humans_Knight_HIT.3.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\271_Humans_Knight_HIT.3.02.png">
+      <Name>271_Humans_Knight_HIT.3.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\272_Humans_Knight_HIT.3.03.png">
+      <Name>272_Humans_Knight_HIT.3.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\273_Humans_Knight_HIT.3.04.png">
+      <Name>273_Humans_Knight_HIT.3.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\274_Humans_Knight_HIT.3.05.png">
+      <Name>274_Humans_Knight_HIT.3.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\275_Humans_Knight_HIT.3.06.png">
+      <Name>275_Humans_Knight_HIT.3.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\276_Humans_Knight_HIT.3.07.png">
+      <Name>276_Humans_Knight_HIT.3.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\277_Humans_Knight_HIT.3.08.png">
+      <Name>277_Humans_Knight_HIT.3.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\280_Humans_Knight_DEAD.3.01.png">
+      <Name>280_Humans_Knight_DEAD.3.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\281_Humans_Knight_DEAD.3.02.png">
+      <Name>281_Humans_Knight_DEAD.3.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\282_Humans_Knight_DEAD.3.03.png">
+      <Name>282_Humans_Knight_DEAD.3.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\283_Humans_Knight_DEAD.3.04.png">
+      <Name>283_Humans_Knight_DEAD.3.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\284_Humans_Knight_DEAD.3.05.png">
+      <Name>284_Humans_Knight_DEAD.3.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\285_Humans_Knight_DEAD.3.06.png">
+      <Name>285_Humans_Knight_DEAD.3.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\286_Humans_Knight_DEAD.3.07.png">
+      <Name>286_Humans_Knight_DEAD.3.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\287_Humans_Knight_DEAD.3.08.png">
+      <Name>287_Humans_Knight_DEAD.3.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\288_Humans_Knight_DEAD.3.09.png">
+      <Name>288_Humans_Knight_DEAD.3.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\289_Humans_Knight_DEAD.3.10.png">
+      <Name>289_Humans_Knight_DEAD.3.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\300_Humans_Knight_IDLE.4.01.png">
+      <Name>300_Humans_Knight_IDLE.4.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\301_Humans_Knight_IDLE.4.02.png">
+      <Name>301_Humans_Knight_IDLE.4.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\302_Humans_Knight_IDLE.4.03.png">
+      <Name>302_Humans_Knight_IDLE.4.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\303_Humans_Knight_IDLE.4.04.png">
+      <Name>303_Humans_Knight_IDLE.4.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\304_Humans_Knight_IDLE.4.05.png">
+      <Name>304_Humans_Knight_IDLE.4.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\305_Humans_Knight_IDLE.4.06.png">
+      <Name>305_Humans_Knight_IDLE.4.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\306_Humans_Knight_IDLE.4.07.png">
+      <Name>306_Humans_Knight_IDLE.4.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\307_Humans_Knight_IDLE.4.08.png">
+      <Name>307_Humans_Knight_IDLE.4.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\308_Humans_Knight_IDLE.4.09.png">
+      <Name>308_Humans_Knight_IDLE.4.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\309_Humans_Knight_IDLE.4.10.png">
+      <Name>309_Humans_Knight_IDLE.4.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\330_Humans_Knight_WALK.4.01.png">
+      <Name>330_Humans_Knight_WALK.4.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\331_Humans_Knight_WALK.4.02.png">
+      <Name>331_Humans_Knight_WALK.4.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\332_Humans_Knight_WALK.4.03.png">
+      <Name>332_Humans_Knight_WALK.4.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\333_Humans_Knight_WALK.4.04.png">
+      <Name>333_Humans_Knight_WALK.4.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\334_Humans_Knight_WALK.4.05.png">
+      <Name>334_Humans_Knight_WALK.4.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\335_Humans_Knight_WALK.4.06.png">
+      <Name>335_Humans_Knight_WALK.4.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\336_Humans_Knight_WALK.4.07.png">
+      <Name>336_Humans_Knight_WALK.4.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\337_Humans_Knight_WALK.4.08.png">
+      <Name>337_Humans_Knight_WALK.4.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\338_Humans_Knight_WALK.4.09.png">
+      <Name>338_Humans_Knight_WALK.4.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\339_Humans_Knight_WALK.4.10.png">
+      <Name>339_Humans_Knight_WALK.4.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\340_Humans_Knight_WALK.4.11.png">
+      <Name>340_Humans_Knight_WALK.4.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\341_Humans_Knight_WALK.4.12.png">
+      <Name>341_Humans_Knight_WALK.4.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\342_Humans_Knight_WALK.4.13.png">
+      <Name>342_Humans_Knight_WALK.4.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\343_Humans_Knight_WALK.4.14.png">
+      <Name>343_Humans_Knight_WALK.4.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\344_Humans_Knight_WALK.4.15.png">
+      <Name>344_Humans_Knight_WALK.4.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\360_Humans_Knight_ATTACK.4.01.png">
+      <Name>360_Humans_Knight_ATTACK.4.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\361_Humans_Knight_ATTACK.4.02.png">
+      <Name>361_Humans_Knight_ATTACK.4.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\362_Humans_Knight_ATTACK.4.03.png">
+      <Name>362_Humans_Knight_ATTACK.4.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\363_Humans_Knight_ATTACK.4.04.png">
+      <Name>363_Humans_Knight_ATTACK.4.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\364_Humans_Knight_ATTACK.4.05.png">
+      <Name>364_Humans_Knight_ATTACK.4.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\365_Humans_Knight_ATTACK.4.06.png">
+      <Name>365_Humans_Knight_ATTACK.4.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\366_Humans_Knight_ATTACK.4.07.png">
+      <Name>366_Humans_Knight_ATTACK.4.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\367_Humans_Knight_ATTACK.4.08.png">
+      <Name>367_Humans_Knight_ATTACK.4.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\370_Humans_Knight_HIT.4.01.png">
+      <Name>370_Humans_Knight_HIT.4.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\371_Humans_Knight_HIT.4.02.png">
+      <Name>371_Humans_Knight_HIT.4.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\372_Humans_Knight_HIT.4.03.png">
+      <Name>372_Humans_Knight_HIT.4.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\373_Humans_Knight_HIT.4.04.png">
+      <Name>373_Humans_Knight_HIT.4.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\374_Humans_Knight_HIT.4.05.png">
+      <Name>374_Humans_Knight_HIT.4.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\375_Humans_Knight_HIT.4.06.png">
+      <Name>375_Humans_Knight_HIT.4.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\376_Humans_Knight_HIT.4.07.png">
+      <Name>376_Humans_Knight_HIT.4.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\377_Humans_Knight_HIT.4.08.png">
+      <Name>377_Humans_Knight_HIT.4.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\380_Humans_Knight_DEAD.4.01.png">
+      <Name>380_Humans_Knight_DEAD.4.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\381_Humans_Knight_DEAD.4.02.png">
+      <Name>381_Humans_Knight_DEAD.4.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\382_Humans_Knight_DEAD.4.03.png">
+      <Name>382_Humans_Knight_DEAD.4.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\383_Humans_Knight_DEAD.4.04.png">
+      <Name>383_Humans_Knight_DEAD.4.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\384_Humans_Knight_DEAD.4.05.png">
+      <Name>384_Humans_Knight_DEAD.4.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\385_Humans_Knight_DEAD.4.06.png">
+      <Name>385_Humans_Knight_DEAD.4.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\386_Humans_Knight_DEAD.4.07.png">
+      <Name>386_Humans_Knight_DEAD.4.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\387_Humans_Knight_DEAD.4.08.png">
+      <Name>387_Humans_Knight_DEAD.4.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\388_Humans_Knight_DEAD.4.09.png">
+      <Name>388_Humans_Knight_DEAD.4.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\389_Humans_Knight_DEAD.4.10.png">
+      <Name>389_Humans_Knight_DEAD.4.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\400_Humans_Knight_IDLE.5.01.png">
+      <Name>400_Humans_Knight_IDLE.5.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\401_Humans_Knight_IDLE.5.02.png">
+      <Name>401_Humans_Knight_IDLE.5.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\402_Humans_Knight_IDLE.5.03.png">
+      <Name>402_Humans_Knight_IDLE.5.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\403_Humans_Knight_IDLE.5.04.png">
+      <Name>403_Humans_Knight_IDLE.5.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\404_Humans_Knight_IDLE.5.05.png">
+      <Name>404_Humans_Knight_IDLE.5.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\405_Humans_Knight_IDLE.5.06.png">
+      <Name>405_Humans_Knight_IDLE.5.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\406_Humans_Knight_IDLE.5.07.png">
+      <Name>406_Humans_Knight_IDLE.5.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\407_Humans_Knight_IDLE.5.08.png">
+      <Name>407_Humans_Knight_IDLE.5.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\408_Humans_Knight_IDLE.5.09.png">
+      <Name>408_Humans_Knight_IDLE.5.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\409_Humans_Knight_IDLE.5.10.png">
+      <Name>409_Humans_Knight_IDLE.5.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\430_Humans_Knight_WALK.5.01.png">
+      <Name>430_Humans_Knight_WALK.5.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\431_Humans_Knight_WALK.5.02.png">
+      <Name>431_Humans_Knight_WALK.5.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\432_Humans_Knight_WALK.5.03.png">
+      <Name>432_Humans_Knight_WALK.5.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\433_Humans_Knight_WALK.5.04.png">
+      <Name>433_Humans_Knight_WALK.5.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\434_Humans_Knight_WALK.5.05.png">
+      <Name>434_Humans_Knight_WALK.5.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\435_Humans_Knight_WALK.5.06.png">
+      <Name>435_Humans_Knight_WALK.5.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\436_Humans_Knight_WALK.5.07.png">
+      <Name>436_Humans_Knight_WALK.5.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\437_Humans_Knight_WALK.5.08.png">
+      <Name>437_Humans_Knight_WALK.5.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\438_Humans_Knight_WALK.5.09.png">
+      <Name>438_Humans_Knight_WALK.5.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\439_Humans_Knight_WALK.5.10.png">
+      <Name>439_Humans_Knight_WALK.5.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\440_Humans_Knight_WALK.5.11.png">
+      <Name>440_Humans_Knight_WALK.5.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\441_Humans_Knight_WALK.5.12.png">
+      <Name>441_Humans_Knight_WALK.5.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\442_Humans_Knight_WALK.5.13.png">
+      <Name>442_Humans_Knight_WALK.5.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\443_Humans_Knight_WALK.5.14.png">
+      <Name>443_Humans_Knight_WALK.5.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\444_Humans_Knight_WALK.5.15.png">
+      <Name>444_Humans_Knight_WALK.5.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\460_Humans_Knight_ATTACK.5.01.png">
+      <Name>460_Humans_Knight_ATTACK.5.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\461_Humans_Knight_ATTACK.5.02.png">
+      <Name>461_Humans_Knight_ATTACK.5.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\462_Humans_Knight_ATTACK.5.03.png">
+      <Name>462_Humans_Knight_ATTACK.5.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\463_Humans_Knight_ATTACK.5.04.png">
+      <Name>463_Humans_Knight_ATTACK.5.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\464_Humans_Knight_ATTACK.5.05.png">
+      <Name>464_Humans_Knight_ATTACK.5.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\465_Humans_Knight_ATTACK.5.06.png">
+      <Name>465_Humans_Knight_ATTACK.5.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\466_Humans_Knight_ATTACK.5.07.png">
+      <Name>466_Humans_Knight_ATTACK.5.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\467_Humans_Knight_ATTACK.5.08.png">
+      <Name>467_Humans_Knight_ATTACK.5.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\470_Humans_Knight_HIT.5.01.png">
+      <Name>470_Humans_Knight_HIT.5.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\471_Humans_Knight_HIT.5.02.png">
+      <Name>471_Humans_Knight_HIT.5.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\472_Humans_Knight_HIT.5.03.png">
+      <Name>472_Humans_Knight_HIT.5.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\473_Humans_Knight_HIT.5.04.png">
+      <Name>473_Humans_Knight_HIT.5.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\474_Humans_Knight_HIT.5.05.png">
+      <Name>474_Humans_Knight_HIT.5.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\475_Humans_Knight_HIT.5.06.png">
+      <Name>475_Humans_Knight_HIT.5.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\476_Humans_Knight_HIT.5.07.png">
+      <Name>476_Humans_Knight_HIT.5.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\477_Humans_Knight_HIT.5.08.png">
+      <Name>477_Humans_Knight_HIT.5.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\480_Humans_Knight_DEAD.5.01.png">
+      <Name>480_Humans_Knight_DEAD.5.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\481_Humans_Knight_DEAD.5.02.png">
+      <Name>481_Humans_Knight_DEAD.5.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\482_Humans_Knight_DEAD.5.03.png">
+      <Name>482_Humans_Knight_DEAD.5.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\483_Humans_Knight_DEAD.5.04.png">
+      <Name>483_Humans_Knight_DEAD.5.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\484_Humans_Knight_DEAD.5.05.png">
+      <Name>484_Humans_Knight_DEAD.5.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\485_Humans_Knight_DEAD.5.06.png">
+      <Name>485_Humans_Knight_DEAD.5.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\486_Humans_Knight_DEAD.5.07.png">
+      <Name>486_Humans_Knight_DEAD.5.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\487_Humans_Knight_DEAD.5.08.png">
+      <Name>487_Humans_Knight_DEAD.5.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\488_Humans_Knight_DEAD.5.09.png">
+      <Name>488_Humans_Knight_DEAD.5.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\489_Humans_Knight_DEAD.5.10.png">
+      <Name>489_Humans_Knight_DEAD.5.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\500_Humans_Knight_IDLE.6.01.png">
+      <Name>500_Humans_Knight_IDLE.6.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\501_Humans_Knight_IDLE.6.02.png">
+      <Name>501_Humans_Knight_IDLE.6.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\502_Humans_Knight_IDLE.6.03.png">
+      <Name>502_Humans_Knight_IDLE.6.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\503_Humans_Knight_IDLE.6.04.png">
+      <Name>503_Humans_Knight_IDLE.6.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\504_Humans_Knight_IDLE.6.05.png">
+      <Name>504_Humans_Knight_IDLE.6.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\505_Humans_Knight_IDLE.6.06.png">
+      <Name>505_Humans_Knight_IDLE.6.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\506_Humans_Knight_IDLE.6.07.png">
+      <Name>506_Humans_Knight_IDLE.6.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\507_Humans_Knight_IDLE.6.08.png">
+      <Name>507_Humans_Knight_IDLE.6.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\508_Humans_Knight_IDLE.6.09.png">
+      <Name>508_Humans_Knight_IDLE.6.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\509_Humans_Knight_IDLE.6.10.png">
+      <Name>509_Humans_Knight_IDLE.6.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\530_Humans_Knight_WALK.6.01.png">
+      <Name>530_Humans_Knight_WALK.6.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\531_Humans_Knight_WALK.6.02.png">
+      <Name>531_Humans_Knight_WALK.6.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\532_Humans_Knight_WALK.6.03.png">
+      <Name>532_Humans_Knight_WALK.6.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\533_Humans_Knight_WALK.6.04.png">
+      <Name>533_Humans_Knight_WALK.6.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\534_Humans_Knight_WALK.6.05.png">
+      <Name>534_Humans_Knight_WALK.6.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\535_Humans_Knight_WALK.6.06.png">
+      <Name>535_Humans_Knight_WALK.6.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\536_Humans_Knight_WALK.6.07.png">
+      <Name>536_Humans_Knight_WALK.6.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\537_Humans_Knight_WALK.6.08.png">
+      <Name>537_Humans_Knight_WALK.6.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\538_Humans_Knight_WALK.6.09.png">
+      <Name>538_Humans_Knight_WALK.6.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\539_Humans_Knight_WALK.6.10.png">
+      <Name>539_Humans_Knight_WALK.6.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\540_Humans_Knight_WALK.6.11.png">
+      <Name>540_Humans_Knight_WALK.6.11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\541_Humans_Knight_WALK.6.12.png">
+      <Name>541_Humans_Knight_WALK.6.12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\542_Humans_Knight_WALK.6.13.png">
+      <Name>542_Humans_Knight_WALK.6.13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\543_Humans_Knight_WALK.6.14.png">
+      <Name>543_Humans_Knight_WALK.6.14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\544_Humans_Knight_WALK.6.15.png">
+      <Name>544_Humans_Knight_WALK.6.15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\560_Humans_Knight_ATTACK.6.01.png">
+      <Name>560_Humans_Knight_ATTACK.6.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\561_Humans_Knight_ATTACK.6.02.png">
+      <Name>561_Humans_Knight_ATTACK.6.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\562_Humans_Knight_ATTACK.6.03.png">
+      <Name>562_Humans_Knight_ATTACK.6.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\563_Humans_Knight_ATTACK.6.04.png">
+      <Name>563_Humans_Knight_ATTACK.6.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\564_Humans_Knight_ATTACK.6.05.png">
+      <Name>564_Humans_Knight_ATTACK.6.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\565_Humans_Knight_ATTACK.6.06.png">
+      <Name>565_Humans_Knight_ATTACK.6.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\566_Humans_Knight_ATTACK.6.07.png">
+      <Name>566_Humans_Knight_ATTACK.6.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\567_Humans_Knight_ATTACK.6.08.png">
+      <Name>567_Humans_Knight_ATTACK.6.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\570_Humans_Knight_HIT.6.01.png">
+      <Name>570_Humans_Knight_HIT.6.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\571_Humans_Knight_HIT.6.02.png">
+      <Name>571_Humans_Knight_HIT.6.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\572_Humans_Knight_HIT.6.03.png">
+      <Name>572_Humans_Knight_HIT.6.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\573_Humans_Knight_HIT.6.04.png">
+      <Name>573_Humans_Knight_HIT.6.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\574_Humans_Knight_HIT.6.05.png">
+      <Name>574_Humans_Knight_HIT.6.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\575_Humans_Knight_HIT.6.06.png">
+      <Name>575_Humans_Knight_HIT.6.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\576_Humans_Knight_HIT.6.07.png">
+      <Name>576_Humans_Knight_HIT.6.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\577_Humans_Knight_HIT.6.08.png">
+      <Name>577_Humans_Knight_HIT.6.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\580_Humans_Knight_DEAD.6.01.png">
+      <Name>580_Humans_Knight_DEAD.6.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\581_Humans_Knight_DEAD.6.02.png">
+      <Name>581_Humans_Knight_DEAD.6.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\582_Humans_Knight_DEAD.6.03.png">
+      <Name>582_Humans_Knight_DEAD.6.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\583_Humans_Knight_DEAD.6.04.png">
+      <Name>583_Humans_Knight_DEAD.6.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\584_Humans_Knight_DEAD.6.05.png">
+      <Name>584_Humans_Knight_DEAD.6.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\585_Humans_Knight_DEAD.6.06.png">
+      <Name>585_Humans_Knight_DEAD.6.06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\586_Humans_Knight_DEAD.6.07.png">
+      <Name>586_Humans_Knight_DEAD.6.07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\587_Humans_Knight_DEAD.6.08.png">
+      <Name>587_Humans_Knight_DEAD.6.08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\588_Humans_Knight_DEAD.6.09.png">
+      <Name>588_Humans_Knight_DEAD.6.09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\589_Humans_Knight_DEAD.6.10.png">
+      <Name>589_Humans_Knight_DEAD.6.10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Unit\Human_Knight\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Sprites\Unit\Phoenix\000_Phoenix_IDLE.1.01.png">
       <Name>000_Phoenix_IDLE.1.01</Name>
       <Importer>TextureImporter</Importer>
@@ -31656,2295 +33798,6 @@
       <Name>bgsound</Name>
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\000_Incarnate_IDLE.1.01.png">
-      <Name>000_Incarnate_IDLE.1.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\001_Incarnate_IDLE.1.02.png">
-      <Name>001_Incarnate_IDLE.1.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\002_Incarnate_IDLE.1.03.png">
-      <Name>002_Incarnate_IDLE.1.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\003_Incarnate_IDLE.1.04.png">
-      <Name>003_Incarnate_IDLE.1.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\004_Incarnate_IDLE.1.05.png">
-      <Name>004_Incarnate_IDLE.1.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\005_Incarnate_IDLE.1.06.png">
-      <Name>005_Incarnate_IDLE.1.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\006_Incarnate_IDLE.1.07.png">
-      <Name>006_Incarnate_IDLE.1.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\007_Incarnate_IDLE.1.08.png">
-      <Name>007_Incarnate_IDLE.1.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\008_Incarnate_IDLE.1.09.png">
-      <Name>008_Incarnate_IDLE.1.09</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\009_Incarnate_IDLE.1.10.png">
-      <Name>009_Incarnate_IDLE.1.10</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\010_Incarnate_IDLE.1.11.png">
-      <Name>010_Incarnate_IDLE.1.11</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\011_Incarnate_IDLE.1.12.png">
-      <Name>011_Incarnate_IDLE.1.12</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\012_Incarnate_IDLE.1.13.png">
-      <Name>012_Incarnate_IDLE.1.13</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\013_Incarnate_IDLE.1.14.png">
-      <Name>013_Incarnate_IDLE.1.14</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\014_Incarnate_IDLE.1.15.png">
-      <Name>014_Incarnate_IDLE.1.15</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\015_Incarnate_MOVE.1.01.png">
-      <Name>015_Incarnate_MOVE.1.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\016_Incarnate_MOVE.1.02.png">
-      <Name>016_Incarnate_MOVE.1.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\017_Incarnate_MOVE.1.03.png">
-      <Name>017_Incarnate_MOVE.1.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\018_Incarnate_MOVE.1.04.png">
-      <Name>018_Incarnate_MOVE.1.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\019_Incarnate_MOVE.1.05.png">
-      <Name>019_Incarnate_MOVE.1.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\020_Incarnate_MOVE.1.06.png">
-      <Name>020_Incarnate_MOVE.1.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\021_Incarnate_MOVE.1.07.png">
-      <Name>021_Incarnate_MOVE.1.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\022_Incarnate_MOVE.1.08.png">
-      <Name>022_Incarnate_MOVE.1.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\023_Incarnate_MOVE.1.09.png">
-      <Name>023_Incarnate_MOVE.1.09</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\024_Incarnate_MOVE.1.10.png">
-      <Name>024_Incarnate_MOVE.1.10</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\025_Incarnate_MOVE.1.11.png">
-      <Name>025_Incarnate_MOVE.1.11</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\026_Incarnate_MOVE.1.12.png">
-      <Name>026_Incarnate_MOVE.1.12</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\027_Incarnate_MOVE.1.13.png">
-      <Name>027_Incarnate_MOVE.1.13</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\028_Incarnate_MOVE.1.14.png">
-      <Name>028_Incarnate_MOVE.1.14</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\029_Incarnate_MOVE.1.15.png">
-      <Name>029_Incarnate_MOVE.1.15</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\040_Incarnate_SPECIAL.1.01.png">
-      <Name>040_Incarnate_SPECIAL.1.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\041_Incarnate_SPECIAL.1.02.png">
-      <Name>041_Incarnate_SPECIAL.1.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\042_Incarnate_SPECIAL.1.03.png">
-      <Name>042_Incarnate_SPECIAL.1.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\043_Incarnate_SPECIAL.1.04.png">
-      <Name>043_Incarnate_SPECIAL.1.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\044_Incarnate_SPECIAL.1.05.png">
-      <Name>044_Incarnate_SPECIAL.1.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\045_Incarnate_SPECIAL.1.06.png">
-      <Name>045_Incarnate_SPECIAL.1.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\046_Incarnate_SPECIAL.1.07.png">
-      <Name>046_Incarnate_SPECIAL.1.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\047_Incarnate_SPECIAL.1.08.png">
-      <Name>047_Incarnate_SPECIAL.1.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\048_Incarnate_SPECIAL.1.09.png">
-      <Name>048_Incarnate_SPECIAL.1.09</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\049_Incarnate_SPECIAL.1.10.png">
-      <Name>049_Incarnate_SPECIAL.1.10</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\050_Incarnate_SPECIAL.1.11.png">
-      <Name>050_Incarnate_SPECIAL.1.11</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\051_Incarnate_SPECIAL.1.12.png">
-      <Name>051_Incarnate_SPECIAL.1.12</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\052_Incarnate_SPECIAL.1.13.png">
-      <Name>052_Incarnate_SPECIAL.1.13</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\053_Incarnate_SPECIAL.1.14.png">
-      <Name>053_Incarnate_SPECIAL.1.14</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\054_Incarnate_SPECIAL.1.15.png">
-      <Name>054_Incarnate_SPECIAL.1.15</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\055_Incarnate_SPECIAL.1.16.png">
-      <Name>055_Incarnate_SPECIAL.1.16</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\056_Incarnate_SPECIAL.1.17.png">
-      <Name>056_Incarnate_SPECIAL.1.17</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\057_Incarnate_SPECIAL.1.18.png">
-      <Name>057_Incarnate_SPECIAL.1.18</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\058_Incarnate_SPECIAL.1.19.png">
-      <Name>058_Incarnate_SPECIAL.1.19</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\059_Incarnate_SPECIAL.1.20.png">
-      <Name>059_Incarnate_SPECIAL.1.20</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\060_Incarnate_ATTACK.1.01.png">
-      <Name>060_Incarnate_ATTACK.1.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\061_Incarnate_ATTACK.1.02.png">
-      <Name>061_Incarnate_ATTACK.1.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\062_Incarnate_ATTACK.1.03.png">
-      <Name>062_Incarnate_ATTACK.1.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\063_Incarnate_ATTACK.1.04.png">
-      <Name>063_Incarnate_ATTACK.1.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\064_Incarnate_ATTACK.1.05.png">
-      <Name>064_Incarnate_ATTACK.1.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\065_Incarnate_ATTACK.1.06.png">
-      <Name>065_Incarnate_ATTACK.1.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\066_Incarnate_ATTACK.1.07.png">
-      <Name>066_Incarnate_ATTACK.1.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\067_Incarnate_ATTACK.1.08.png">
-      <Name>067_Incarnate_ATTACK.1.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\070_Incarnate_HIT.1.01.png">
-      <Name>070_Incarnate_HIT.1.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\071_Incarnate_HIT.1.02.png">
-      <Name>071_Incarnate_HIT.1.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\072_Incarnate_HIT.1.03.png">
-      <Name>072_Incarnate_HIT.1.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\073_Incarnate_HIT.1.04.png">
-      <Name>073_Incarnate_HIT.1.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\074_Incarnate_HIT.1.05.png">
-      <Name>074_Incarnate_HIT.1.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\075_Incarnate_HIT.1.06.png">
-      <Name>075_Incarnate_HIT.1.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\076_Incarnate_HIT.1.07.png">
-      <Name>076_Incarnate_HIT.1.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\077_Incarnate_HIT.1.08.png">
-      <Name>077_Incarnate_HIT.1.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\080_Incarnate_DEAD.1.01.png">
-      <Name>080_Incarnate_DEAD.1.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\081_Incarnate_DEAD.1.02.png">
-      <Name>081_Incarnate_DEAD.1.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\082_Incarnate_DEAD.1.03.png">
-      <Name>082_Incarnate_DEAD.1.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\083_Incarnate_DEAD.1.04.png">
-      <Name>083_Incarnate_DEAD.1.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\084_Incarnate_DEAD.1.05.png">
-      <Name>084_Incarnate_DEAD.1.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\085_Incarnate_DEAD.1.06.png">
-      <Name>085_Incarnate_DEAD.1.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\086_Incarnate_DEAD.1.07.png">
-      <Name>086_Incarnate_DEAD.1.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\087_Incarnate_DEAD.1.08.png">
-      <Name>087_Incarnate_DEAD.1.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\088_Incarnate_DEAD.1.09.png">
-      <Name>088_Incarnate_DEAD.1.09</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\089_Incarnate_DEAD.1.10.png">
-      <Name>089_Incarnate_DEAD.1.10</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\100_Incarnate_IDLE.2.01.png">
-      <Name>100_Incarnate_IDLE.2.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\101_Incarnate_IDLE.2.02.png">
-      <Name>101_Incarnate_IDLE.2.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\102_Incarnate_IDLE.2.03.png">
-      <Name>102_Incarnate_IDLE.2.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\103_Incarnate_IDLE.2.04.png">
-      <Name>103_Incarnate_IDLE.2.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\104_Incarnate_IDLE.2.05.png">
-      <Name>104_Incarnate_IDLE.2.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\105_Incarnate_IDLE.2.06.png">
-      <Name>105_Incarnate_IDLE.2.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\106_Incarnate_IDLE.2.07.png">
-      <Name>106_Incarnate_IDLE.2.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\107_Incarnate_IDLE.2.08.png">
-      <Name>107_Incarnate_IDLE.2.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\108_Incarnate_IDLE.2.09.png">
-      <Name>108_Incarnate_IDLE.2.09</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\109_Incarnate_IDLE.2.10.png">
-      <Name>109_Incarnate_IDLE.2.10</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\110_Incarnate_IDLE.2.11.png">
-      <Name>110_Incarnate_IDLE.2.11</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\111_Incarnate_IDLE.2.12.png">
-      <Name>111_Incarnate_IDLE.2.12</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\112_Incarnate_IDLE.2.13.png">
-      <Name>112_Incarnate_IDLE.2.13</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\113_Incarnate_IDLE.2.14.png">
-      <Name>113_Incarnate_IDLE.2.14</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\114_Incarnate_IDLE.2.15.png">
-      <Name>114_Incarnate_IDLE.2.15</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\115_Incarnate_MOVE.2.01.png">
-      <Name>115_Incarnate_MOVE.2.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\116_Incarnate_MOVE.2.02.png">
-      <Name>116_Incarnate_MOVE.2.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\117_Incarnate_MOVE.2.03.png">
-      <Name>117_Incarnate_MOVE.2.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\118_Incarnate_MOVE.2.04.png">
-      <Name>118_Incarnate_MOVE.2.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\119_Incarnate_MOVE.2.05.png">
-      <Name>119_Incarnate_MOVE.2.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\120_Incarnate_MOVE.2.06.png">
-      <Name>120_Incarnate_MOVE.2.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\121_Incarnate_MOVE.2.07.png">
-      <Name>121_Incarnate_MOVE.2.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\122_Incarnate_MOVE.2.08.png">
-      <Name>122_Incarnate_MOVE.2.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\123_Incarnate_MOVE.2.09.png">
-      <Name>123_Incarnate_MOVE.2.09</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\124_Incarnate_MOVE.2.10.png">
-      <Name>124_Incarnate_MOVE.2.10</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\125_Incarnate_MOVE.2.11.png">
-      <Name>125_Incarnate_MOVE.2.11</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\126_Incarnate_MOVE.2.12.png">
-      <Name>126_Incarnate_MOVE.2.12</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\127_Incarnate_MOVE.2.13.png">
-      <Name>127_Incarnate_MOVE.2.13</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\128_Incarnate_MOVE.2.14.png">
-      <Name>128_Incarnate_MOVE.2.14</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\129_Incarnate_MOVE.2.15.png">
-      <Name>129_Incarnate_MOVE.2.15</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\140_Incarnate_SPECIAL.2.01.png">
-      <Name>140_Incarnate_SPECIAL.2.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\141_Incarnate_SPECIAL.2.02.png">
-      <Name>141_Incarnate_SPECIAL.2.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\142_Incarnate_SPECIAL.2.03.png">
-      <Name>142_Incarnate_SPECIAL.2.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\143_Incarnate_SPECIAL.2.04.png">
-      <Name>143_Incarnate_SPECIAL.2.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\144_Incarnate_SPECIAL.2.05.png">
-      <Name>144_Incarnate_SPECIAL.2.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\145_Incarnate_SPECIAL.2.06.png">
-      <Name>145_Incarnate_SPECIAL.2.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\146_Incarnate_SPECIAL.2.07.png">
-      <Name>146_Incarnate_SPECIAL.2.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\147_Incarnate_SPECIAL.2.08.png">
-      <Name>147_Incarnate_SPECIAL.2.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\148_Incarnate_SPECIAL.2.09.png">
-      <Name>148_Incarnate_SPECIAL.2.09</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\149_Incarnate_SPECIAL.2.10.png">
-      <Name>149_Incarnate_SPECIAL.2.10</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\150_Incarnate_SPECIAL.2.11.png">
-      <Name>150_Incarnate_SPECIAL.2.11</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\151_Incarnate_SPECIAL.2.12.png">
-      <Name>151_Incarnate_SPECIAL.2.12</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\152_Incarnate_SPECIAL.2.13.png">
-      <Name>152_Incarnate_SPECIAL.2.13</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\153_Incarnate_SPECIAL.2.14.png">
-      <Name>153_Incarnate_SPECIAL.2.14</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\154_Incarnate_SPECIAL.2.15.png">
-      <Name>154_Incarnate_SPECIAL.2.15</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\155_Incarnate_SPECIAL.2.16.png">
-      <Name>155_Incarnate_SPECIAL.2.16</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\156_Incarnate_SPECIAL.2.17.png">
-      <Name>156_Incarnate_SPECIAL.2.17</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\157_Incarnate_SPECIAL.2.18.png">
-      <Name>157_Incarnate_SPECIAL.2.18</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\158_Incarnate_SPECIAL.2.19.png">
-      <Name>158_Incarnate_SPECIAL.2.19</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\159_Incarnate_SPECIAL.2.20.png">
-      <Name>159_Incarnate_SPECIAL.2.20</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\160_Incarnate_ATTACK.2.01.png">
-      <Name>160_Incarnate_ATTACK.2.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\161_Incarnate_ATTACK.2.02.png">
-      <Name>161_Incarnate_ATTACK.2.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\162_Incarnate_ATTACK.2.03.png">
-      <Name>162_Incarnate_ATTACK.2.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\163_Incarnate_ATTACK.2.04.png">
-      <Name>163_Incarnate_ATTACK.2.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\164_Incarnate_ATTACK.2.05.png">
-      <Name>164_Incarnate_ATTACK.2.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\165_Incarnate_ATTACK.2.06.png">
-      <Name>165_Incarnate_ATTACK.2.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\166_Incarnate_ATTACK.2.07.png">
-      <Name>166_Incarnate_ATTACK.2.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\167_Incarnate_ATTACK.2.08.png">
-      <Name>167_Incarnate_ATTACK.2.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\170_Incarnate_HIT.2.01.png">
-      <Name>170_Incarnate_HIT.2.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\171_Incarnate_HIT.2.02.png">
-      <Name>171_Incarnate_HIT.2.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\172_Incarnate_HIT.2.03.png">
-      <Name>172_Incarnate_HIT.2.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\173_Incarnate_HIT.2.04.png">
-      <Name>173_Incarnate_HIT.2.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\174_Incarnate_HIT.2.05.png">
-      <Name>174_Incarnate_HIT.2.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\175_Incarnate_HIT.2.06.png">
-      <Name>175_Incarnate_HIT.2.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\176_Incarnate_HIT.2.07.png">
-      <Name>176_Incarnate_HIT.2.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\177_Incarnate_HIT.2.08.png">
-      <Name>177_Incarnate_HIT.2.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\180_Incarnate_DEAD.2.01.png">
-      <Name>180_Incarnate_DEAD.2.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\181_Incarnate_DEAD.2.02.png">
-      <Name>181_Incarnate_DEAD.2.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\182_Incarnate_DEAD.2.03.png">
-      <Name>182_Incarnate_DEAD.2.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\183_Incarnate_DEAD.2.04.png">
-      <Name>183_Incarnate_DEAD.2.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\184_Incarnate_DEAD.2.05.png">
-      <Name>184_Incarnate_DEAD.2.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\185_Incarnate_DEAD.2.06.png">
-      <Name>185_Incarnate_DEAD.2.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\186_Incarnate_DEAD.2.07.png">
-      <Name>186_Incarnate_DEAD.2.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\187_Incarnate_DEAD.2.08.png">
-      <Name>187_Incarnate_DEAD.2.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\188_Incarnate_DEAD.2.09.png">
-      <Name>188_Incarnate_DEAD.2.09</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\189_Incarnate_DEAD.2.10.png">
-      <Name>189_Incarnate_DEAD.2.10</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\200_Incarnate_IDLE.3.01.png">
-      <Name>200_Incarnate_IDLE.3.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\201_Incarnate_IDLE.3.02.png">
-      <Name>201_Incarnate_IDLE.3.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\202_Incarnate_IDLE.3.03.png">
-      <Name>202_Incarnate_IDLE.3.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\203_Incarnate_IDLE.3.04.png">
-      <Name>203_Incarnate_IDLE.3.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\204_Incarnate_IDLE.3.05.png">
-      <Name>204_Incarnate_IDLE.3.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\205_Incarnate_IDLE.3.06.png">
-      <Name>205_Incarnate_IDLE.3.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\206_Incarnate_IDLE.3.07.png">
-      <Name>206_Incarnate_IDLE.3.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\207_Incarnate_IDLE.3.08.png">
-      <Name>207_Incarnate_IDLE.3.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\208_Incarnate_IDLE.3.09.png">
-      <Name>208_Incarnate_IDLE.3.09</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\209_Incarnate_IDLE.3.10.png">
-      <Name>209_Incarnate_IDLE.3.10</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\210_Incarnate_IDLE.3.11.png">
-      <Name>210_Incarnate_IDLE.3.11</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\211_Incarnate_IDLE.3.12.png">
-      <Name>211_Incarnate_IDLE.3.12</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\212_Incarnate_IDLE.3.13.png">
-      <Name>212_Incarnate_IDLE.3.13</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\213_Incarnate_IDLE.3.14.png">
-      <Name>213_Incarnate_IDLE.3.14</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\214_Incarnate_IDLE.3.15.png">
-      <Name>214_Incarnate_IDLE.3.15</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\215_Incarnate_MOVE.3.01.png">
-      <Name>215_Incarnate_MOVE.3.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\216_Incarnate_MOVE.3.02.png">
-      <Name>216_Incarnate_MOVE.3.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\217_Incarnate_MOVE.3.03.png">
-      <Name>217_Incarnate_MOVE.3.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\218_Incarnate_MOVE.3.04.png">
-      <Name>218_Incarnate_MOVE.3.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\219_Incarnate_MOVE.3.05.png">
-      <Name>219_Incarnate_MOVE.3.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\220_Incarnate_MOVE.3.06.png">
-      <Name>220_Incarnate_MOVE.3.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\221_Incarnate_MOVE.3.07.png">
-      <Name>221_Incarnate_MOVE.3.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\222_Incarnate_MOVE.3.08.png">
-      <Name>222_Incarnate_MOVE.3.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\223_Incarnate_MOVE.3.09.png">
-      <Name>223_Incarnate_MOVE.3.09</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\224_Incarnate_MOVE.3.10.png">
-      <Name>224_Incarnate_MOVE.3.10</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\225_Incarnate_MOVE.3.11.png">
-      <Name>225_Incarnate_MOVE.3.11</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\226_Incarnate_MOVE.3.12.png">
-      <Name>226_Incarnate_MOVE.3.12</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\227_Incarnate_MOVE.3.13.png">
-      <Name>227_Incarnate_MOVE.3.13</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\228_Incarnate_MOVE.3.14.png">
-      <Name>228_Incarnate_MOVE.3.14</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\229_Incarnate_MOVE.3.15.png">
-      <Name>229_Incarnate_MOVE.3.15</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\240_Incarnate_SPECIAL.3.01.png">
-      <Name>240_Incarnate_SPECIAL.3.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\241_Incarnate_SPECIAL.3.02.png">
-      <Name>241_Incarnate_SPECIAL.3.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\242_Incarnate_SPECIAL.3.03.png">
-      <Name>242_Incarnate_SPECIAL.3.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\243_Incarnate_SPECIAL.3.04.png">
-      <Name>243_Incarnate_SPECIAL.3.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\244_Incarnate_SPECIAL.3.05.png">
-      <Name>244_Incarnate_SPECIAL.3.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\245_Incarnate_SPECIAL.3.06.png">
-      <Name>245_Incarnate_SPECIAL.3.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\246_Incarnate_SPECIAL.3.07.png">
-      <Name>246_Incarnate_SPECIAL.3.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\247_Incarnate_SPECIAL.3.08.png">
-      <Name>247_Incarnate_SPECIAL.3.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\248_Incarnate_SPECIAL.3.09.png">
-      <Name>248_Incarnate_SPECIAL.3.09</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\249_Incarnate_SPECIAL.3.10.png">
-      <Name>249_Incarnate_SPECIAL.3.10</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\250_Incarnate_SPECIAL.3.11.png">
-      <Name>250_Incarnate_SPECIAL.3.11</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\251_Incarnate_SPECIAL.3.12.png">
-      <Name>251_Incarnate_SPECIAL.3.12</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\252_Incarnate_SPECIAL.3.13.png">
-      <Name>252_Incarnate_SPECIAL.3.13</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\253_Incarnate_SPECIAL.3.14.png">
-      <Name>253_Incarnate_SPECIAL.3.14</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\254_Incarnate_SPECIAL.3.15.png">
-      <Name>254_Incarnate_SPECIAL.3.15</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\255_Incarnate_SPECIAL.3.16.png">
-      <Name>255_Incarnate_SPECIAL.3.16</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\256_Incarnate_SPECIAL.3.17.png">
-      <Name>256_Incarnate_SPECIAL.3.17</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\257_Incarnate_SPECIAL.3.18.png">
-      <Name>257_Incarnate_SPECIAL.3.18</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\258_Incarnate_SPECIAL.3.19.png">
-      <Name>258_Incarnate_SPECIAL.3.19</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\259_Incarnate_SPECIAL.3.20.png">
-      <Name>259_Incarnate_SPECIAL.3.20</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\260_Incarnate_ATTACK.3.01.png">
-      <Name>260_Incarnate_ATTACK.3.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\261_Incarnate_ATTACK.3.02.png">
-      <Name>261_Incarnate_ATTACK.3.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\262_Incarnate_ATTACK.3.03.png">
-      <Name>262_Incarnate_ATTACK.3.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\263_Incarnate_ATTACK.3.04.png">
-      <Name>263_Incarnate_ATTACK.3.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\264_Incarnate_ATTACK.3.05.png">
-      <Name>264_Incarnate_ATTACK.3.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\265_Incarnate_ATTACK.3.06.png">
-      <Name>265_Incarnate_ATTACK.3.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\266_Incarnate_ATTACK.3.07.png">
-      <Name>266_Incarnate_ATTACK.3.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\267_Incarnate_ATTACK.3.08.png">
-      <Name>267_Incarnate_ATTACK.3.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\270_Incarnate_HIT.3.01.png">
-      <Name>270_Incarnate_HIT.3.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\271_Incarnate_HIT.3.02.png">
-      <Name>271_Incarnate_HIT.3.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\272_Incarnate_HIT.3.03.png">
-      <Name>272_Incarnate_HIT.3.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\273_Incarnate_HIT.3.04.png">
-      <Name>273_Incarnate_HIT.3.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\274_Incarnate_HIT.3.05.png">
-      <Name>274_Incarnate_HIT.3.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\275_Incarnate_HIT.3.06.png">
-      <Name>275_Incarnate_HIT.3.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\276_Incarnate_HIT.3.07.png">
-      <Name>276_Incarnate_HIT.3.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\277_Incarnate_HIT.3.08.png">
-      <Name>277_Incarnate_HIT.3.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\280_Incarnate_DEAD.3.01.png">
-      <Name>280_Incarnate_DEAD.3.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\281_Incarnate_DEAD.3.02.png">
-      <Name>281_Incarnate_DEAD.3.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\282_Incarnate_DEAD.3.03.png">
-      <Name>282_Incarnate_DEAD.3.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\283_Incarnate_DEAD.3.04.png">
-      <Name>283_Incarnate_DEAD.3.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\284_Incarnate_DEAD.3.05.png">
-      <Name>284_Incarnate_DEAD.3.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\285_Incarnate_DEAD.3.06.png">
-      <Name>285_Incarnate_DEAD.3.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\286_Incarnate_DEAD.3.07.png">
-      <Name>286_Incarnate_DEAD.3.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\287_Incarnate_DEAD.3.08.png">
-      <Name>287_Incarnate_DEAD.3.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\288_Incarnate_DEAD.3.09.png">
-      <Name>288_Incarnate_DEAD.3.09</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\289_Incarnate_DEAD.3.10.png">
-      <Name>289_Incarnate_DEAD.3.10</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\300_Incarnate_IDLE.4.01.png">
-      <Name>300_Incarnate_IDLE.4.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\301_Incarnate_IDLE.4.02.png">
-      <Name>301_Incarnate_IDLE.4.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\302_Incarnate_IDLE.4.03.png">
-      <Name>302_Incarnate_IDLE.4.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\303_Incarnate_IDLE.4.04.png">
-      <Name>303_Incarnate_IDLE.4.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\304_Incarnate_IDLE.4.05.png">
-      <Name>304_Incarnate_IDLE.4.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\305_Incarnate_IDLE.4.06.png">
-      <Name>305_Incarnate_IDLE.4.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\306_Incarnate_IDLE.4.07.png">
-      <Name>306_Incarnate_IDLE.4.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\307_Incarnate_IDLE.4.08.png">
-      <Name>307_Incarnate_IDLE.4.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\308_Incarnate_IDLE.4.09.png">
-      <Name>308_Incarnate_IDLE.4.09</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\309_Incarnate_IDLE.4.10.png">
-      <Name>309_Incarnate_IDLE.4.10</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\310_Incarnate_IDLE.4.11.png">
-      <Name>310_Incarnate_IDLE.4.11</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\311_Incarnate_IDLE.4.12.png">
-      <Name>311_Incarnate_IDLE.4.12</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\312_Incarnate_IDLE.4.13.png">
-      <Name>312_Incarnate_IDLE.4.13</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\313_Incarnate_IDLE.4.14.png">
-      <Name>313_Incarnate_IDLE.4.14</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\314_Incarnate_IDLE.4.15.png">
-      <Name>314_Incarnate_IDLE.4.15</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\315_Incarnate_MOVE.4.01.png">
-      <Name>315_Incarnate_MOVE.4.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\316_Incarnate_MOVE.4.02.png">
-      <Name>316_Incarnate_MOVE.4.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\317_Incarnate_MOVE.4.03.png">
-      <Name>317_Incarnate_MOVE.4.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\318_Incarnate_MOVE.4.04.png">
-      <Name>318_Incarnate_MOVE.4.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\319_Incarnate_MOVE.4.05.png">
-      <Name>319_Incarnate_MOVE.4.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\320_Incarnate_MOVE.4.06.png">
-      <Name>320_Incarnate_MOVE.4.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\321_Incarnate_MOVE.4.07.png">
-      <Name>321_Incarnate_MOVE.4.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\322_Incarnate_MOVE.4.08.png">
-      <Name>322_Incarnate_MOVE.4.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\323_Incarnate_MOVE.4.09.png">
-      <Name>323_Incarnate_MOVE.4.09</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\324_Incarnate_MOVE.4.10.png">
-      <Name>324_Incarnate_MOVE.4.10</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\325_Incarnate_MOVE.4.11.png">
-      <Name>325_Incarnate_MOVE.4.11</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\326_Incarnate_MOVE.4.12.png">
-      <Name>326_Incarnate_MOVE.4.12</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\327_Incarnate_MOVE.4.13.png">
-      <Name>327_Incarnate_MOVE.4.13</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\328_Incarnate_MOVE.4.14.png">
-      <Name>328_Incarnate_MOVE.4.14</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\329_Incarnate_MOVE.4.15.png">
-      <Name>329_Incarnate_MOVE.4.15</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\340_Incarnate_SPECIAL.4.01.png">
-      <Name>340_Incarnate_SPECIAL.4.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\341_Incarnate_SPECIAL.4.02.png">
-      <Name>341_Incarnate_SPECIAL.4.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\342_Incarnate_SPECIAL.4.03.png">
-      <Name>342_Incarnate_SPECIAL.4.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\343_Incarnate_SPECIAL.4.04.png">
-      <Name>343_Incarnate_SPECIAL.4.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\344_Incarnate_SPECIAL.4.05.png">
-      <Name>344_Incarnate_SPECIAL.4.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\345_Incarnate_SPECIAL.4.06.png">
-      <Name>345_Incarnate_SPECIAL.4.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\346_Incarnate_SPECIAL.4.07.png">
-      <Name>346_Incarnate_SPECIAL.4.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\347_Incarnate_SPECIAL.4.08.png">
-      <Name>347_Incarnate_SPECIAL.4.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\348_Incarnate_SPECIAL.4.09.png">
-      <Name>348_Incarnate_SPECIAL.4.09</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\349_Incarnate_SPECIAL.4.10.png">
-      <Name>349_Incarnate_SPECIAL.4.10</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\350_Incarnate_SPECIAL.4.11.png">
-      <Name>350_Incarnate_SPECIAL.4.11</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\351_Incarnate_SPECIAL.4.12.png">
-      <Name>351_Incarnate_SPECIAL.4.12</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\352_Incarnate_SPECIAL.4.13.png">
-      <Name>352_Incarnate_SPECIAL.4.13</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\353_Incarnate_SPECIAL.4.14.png">
-      <Name>353_Incarnate_SPECIAL.4.14</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\354_Incarnate_SPECIAL.4.15.png">
-      <Name>354_Incarnate_SPECIAL.4.15</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\355_Incarnate_SPECIAL.4.16.png">
-      <Name>355_Incarnate_SPECIAL.4.16</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\356_Incarnate_SPECIAL.4.17.png">
-      <Name>356_Incarnate_SPECIAL.4.17</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\357_Incarnate_SPECIAL.4.18.png">
-      <Name>357_Incarnate_SPECIAL.4.18</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\358_Incarnate_SPECIAL.4.19.png">
-      <Name>358_Incarnate_SPECIAL.4.19</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\359_Incarnate_SPECIAL.4.20.png">
-      <Name>359_Incarnate_SPECIAL.4.20</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\360_Incarnate_ATTACK.4.01.png">
-      <Name>360_Incarnate_ATTACK.4.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\361_Incarnate_ATTACK.4.02.png">
-      <Name>361_Incarnate_ATTACK.4.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\362_Incarnate_ATTACK.4.03.png">
-      <Name>362_Incarnate_ATTACK.4.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\363_Incarnate_ATTACK.4.04.png">
-      <Name>363_Incarnate_ATTACK.4.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\364_Incarnate_ATTACK.4.05.png">
-      <Name>364_Incarnate_ATTACK.4.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\365_Incarnate_ATTACK.4.06.png">
-      <Name>365_Incarnate_ATTACK.4.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\366_Incarnate_ATTACK.4.07.png">
-      <Name>366_Incarnate_ATTACK.4.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\367_Incarnate_ATTACK.4.08.png">
-      <Name>367_Incarnate_ATTACK.4.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\370_Incarnate_HIT.4.01.png">
-      <Name>370_Incarnate_HIT.4.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\371_Incarnate_HIT.4.02.png">
-      <Name>371_Incarnate_HIT.4.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\372_Incarnate_HIT.4.03.png">
-      <Name>372_Incarnate_HIT.4.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\373_Incarnate_HIT.4.04.png">
-      <Name>373_Incarnate_HIT.4.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\374_Incarnate_HIT.4.05.png">
-      <Name>374_Incarnate_HIT.4.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\375_Incarnate_HIT.4.06.png">
-      <Name>375_Incarnate_HIT.4.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\376_Incarnate_HIT.4.07.png">
-      <Name>376_Incarnate_HIT.4.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\377_Incarnate_HIT.4.08.png">
-      <Name>377_Incarnate_HIT.4.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\380_Incarnate_DEAD.4.01.png">
-      <Name>380_Incarnate_DEAD.4.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\381_Incarnate_DEAD.4.02.png">
-      <Name>381_Incarnate_DEAD.4.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\382_Incarnate_DEAD.4.03.png">
-      <Name>382_Incarnate_DEAD.4.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\383_Incarnate_DEAD.4.04.png">
-      <Name>383_Incarnate_DEAD.4.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\384_Incarnate_DEAD.4.05.png">
-      <Name>384_Incarnate_DEAD.4.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\385_Incarnate_DEAD.4.06.png">
-      <Name>385_Incarnate_DEAD.4.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\386_Incarnate_DEAD.4.07.png">
-      <Name>386_Incarnate_DEAD.4.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\387_Incarnate_DEAD.4.08.png">
-      <Name>387_Incarnate_DEAD.4.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\388_Incarnate_DEAD.4.09.png">
-      <Name>388_Incarnate_DEAD.4.09</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\389_Incarnate_DEAD.4.10.png">
-      <Name>389_Incarnate_DEAD.4.10</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\400_Incarnate_IDLE.5.01.png">
-      <Name>400_Incarnate_IDLE.5.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\401_Incarnate_IDLE.5.02.png">
-      <Name>401_Incarnate_IDLE.5.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\402_Incarnate_IDLE.5.03.png">
-      <Name>402_Incarnate_IDLE.5.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\403_Incarnate_IDLE.5.04.png">
-      <Name>403_Incarnate_IDLE.5.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\404_Incarnate_IDLE.5.05.png">
-      <Name>404_Incarnate_IDLE.5.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\405_Incarnate_IDLE.5.06.png">
-      <Name>405_Incarnate_IDLE.5.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\406_Incarnate_IDLE.5.07.png">
-      <Name>406_Incarnate_IDLE.5.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\407_Incarnate_IDLE.5.08.png">
-      <Name>407_Incarnate_IDLE.5.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\408_Incarnate_IDLE.5.09.png">
-      <Name>408_Incarnate_IDLE.5.09</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\409_Incarnate_IDLE.5.10.png">
-      <Name>409_Incarnate_IDLE.5.10</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\410_Incarnate_IDLE.5.11.png">
-      <Name>410_Incarnate_IDLE.5.11</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\411_Incarnate_IDLE.5.12.png">
-      <Name>411_Incarnate_IDLE.5.12</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\412_Incarnate_IDLE.5.13.png">
-      <Name>412_Incarnate_IDLE.5.13</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\413_Incarnate_IDLE.5.14.png">
-      <Name>413_Incarnate_IDLE.5.14</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\414_Incarnate_IDLE.5.15.png">
-      <Name>414_Incarnate_IDLE.5.15</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\415_Incarnate_MOVE.5.01.png">
-      <Name>415_Incarnate_MOVE.5.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\416_Incarnate_MOVE.5.02.png">
-      <Name>416_Incarnate_MOVE.5.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\417_Incarnate_MOVE.5.03.png">
-      <Name>417_Incarnate_MOVE.5.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\418_Incarnate_MOVE.5.04.png">
-      <Name>418_Incarnate_MOVE.5.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\419_Incarnate_MOVE.5.05.png">
-      <Name>419_Incarnate_MOVE.5.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\420_Incarnate_MOVE.5.06.png">
-      <Name>420_Incarnate_MOVE.5.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\421_Incarnate_MOVE.5.07.png">
-      <Name>421_Incarnate_MOVE.5.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\422_Incarnate_MOVE.5.08.png">
-      <Name>422_Incarnate_MOVE.5.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\423_Incarnate_MOVE.5.09.png">
-      <Name>423_Incarnate_MOVE.5.09</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\424_Incarnate_MOVE.5.10.png">
-      <Name>424_Incarnate_MOVE.5.10</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\425_Incarnate_MOVE.5.11.png">
-      <Name>425_Incarnate_MOVE.5.11</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\426_Incarnate_MOVE.5.12.png">
-      <Name>426_Incarnate_MOVE.5.12</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\427_Incarnate_MOVE.5.13.png">
-      <Name>427_Incarnate_MOVE.5.13</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\428_Incarnate_MOVE.5.14.png">
-      <Name>428_Incarnate_MOVE.5.14</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\429_Incarnate_MOVE.5.15.png">
-      <Name>429_Incarnate_MOVE.5.15</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\440_Incarnate_SPECIAL.5.01.png">
-      <Name>440_Incarnate_SPECIAL.5.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\441_Incarnate_SPECIAL.5.02.png">
-      <Name>441_Incarnate_SPECIAL.5.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\442_Incarnate_SPECIAL.5.03.png">
-      <Name>442_Incarnate_SPECIAL.5.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\443_Incarnate_SPECIAL.5.04.png">
-      <Name>443_Incarnate_SPECIAL.5.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\444_Incarnate_SPECIAL.5.05.png">
-      <Name>444_Incarnate_SPECIAL.5.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\445_Incarnate_SPECIAL.5.06.png">
-      <Name>445_Incarnate_SPECIAL.5.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\446_Incarnate_SPECIAL.5.07.png">
-      <Name>446_Incarnate_SPECIAL.5.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\447_Incarnate_SPECIAL.5.08.png">
-      <Name>447_Incarnate_SPECIAL.5.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\448_Incarnate_SPECIAL.5.09.png">
-      <Name>448_Incarnate_SPECIAL.5.09</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\449_Incarnate_SPECIAL.5.10.png">
-      <Name>449_Incarnate_SPECIAL.5.10</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\450_Incarnate_SPECIAL.5.11.png">
-      <Name>450_Incarnate_SPECIAL.5.11</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\451_Incarnate_SPECIAL.5.12.png">
-      <Name>451_Incarnate_SPECIAL.5.12</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\452_Incarnate_SPECIAL.5.13.png">
-      <Name>452_Incarnate_SPECIAL.5.13</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\453_Incarnate_SPECIAL.5.14.png">
-      <Name>453_Incarnate_SPECIAL.5.14</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\454_Incarnate_SPECIAL.5.15.png">
-      <Name>454_Incarnate_SPECIAL.5.15</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\455_Incarnate_SPECIAL.5.16.png">
-      <Name>455_Incarnate_SPECIAL.5.16</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\456_Incarnate_SPECIAL.5.17.png">
-      <Name>456_Incarnate_SPECIAL.5.17</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\457_Incarnate_SPECIAL.5.18.png">
-      <Name>457_Incarnate_SPECIAL.5.18</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\458_Incarnate_SPECIAL.5.19.png">
-      <Name>458_Incarnate_SPECIAL.5.19</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\459_Incarnate_SPECIAL.5.20.png">
-      <Name>459_Incarnate_SPECIAL.5.20</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\460_Incarnate_ATTACK.5.01.png">
-      <Name>460_Incarnate_ATTACK.5.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\461_Incarnate_ATTACK.5.02.png">
-      <Name>461_Incarnate_ATTACK.5.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\462_Incarnate_ATTACK.5.03.png">
-      <Name>462_Incarnate_ATTACK.5.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\463_Incarnate_ATTACK.5.04.png">
-      <Name>463_Incarnate_ATTACK.5.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\464_Incarnate_ATTACK.5.05.png">
-      <Name>464_Incarnate_ATTACK.5.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\465_Incarnate_ATTACK.5.06.png">
-      <Name>465_Incarnate_ATTACK.5.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\466_Incarnate_ATTACK.5.07.png">
-      <Name>466_Incarnate_ATTACK.5.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\467_Incarnate_ATTACK.5.08.png">
-      <Name>467_Incarnate_ATTACK.5.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\470_Incarnate_HIT.5.01.png">
-      <Name>470_Incarnate_HIT.5.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\471_Incarnate_HIT.5.02.png">
-      <Name>471_Incarnate_HIT.5.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\472_Incarnate_HIT.5.03.png">
-      <Name>472_Incarnate_HIT.5.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\473_Incarnate_HIT.5.04.png">
-      <Name>473_Incarnate_HIT.5.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\474_Incarnate_HIT.5.05.png">
-      <Name>474_Incarnate_HIT.5.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\475_Incarnate_HIT.5.06.png">
-      <Name>475_Incarnate_HIT.5.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\476_Incarnate_HIT.5.07.png">
-      <Name>476_Incarnate_HIT.5.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\477_Incarnate_HIT.5.08.png">
-      <Name>477_Incarnate_HIT.5.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\480_Incarnate_DEAD.5.01.png">
-      <Name>480_Incarnate_DEAD.5.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\481_Incarnate_DEAD.5.02.png">
-      <Name>481_Incarnate_DEAD.5.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\482_Incarnate_DEAD.5.03.png">
-      <Name>482_Incarnate_DEAD.5.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\483_Incarnate_DEAD.5.04.png">
-      <Name>483_Incarnate_DEAD.5.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\484_Incarnate_DEAD.5.05.png">
-      <Name>484_Incarnate_DEAD.5.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\485_Incarnate_DEAD.5.06.png">
-      <Name>485_Incarnate_DEAD.5.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\486_Incarnate_DEAD.5.07.png">
-      <Name>486_Incarnate_DEAD.5.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\487_Incarnate_DEAD.5.08.png">
-      <Name>487_Incarnate_DEAD.5.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\488_Incarnate_DEAD.5.09.png">
-      <Name>488_Incarnate_DEAD.5.09</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\489_Incarnate_DEAD.5.10.png">
-      <Name>489_Incarnate_DEAD.5.10</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\500_Incarnate_IDLE.6.01.png">
-      <Name>500_Incarnate_IDLE.6.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\501_Incarnate_IDLE.6.02.png">
-      <Name>501_Incarnate_IDLE.6.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\502_Incarnate_IDLE.6.03.png">
-      <Name>502_Incarnate_IDLE.6.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\503_Incarnate_IDLE.6.04.png">
-      <Name>503_Incarnate_IDLE.6.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\504_Incarnate_IDLE.6.05.png">
-      <Name>504_Incarnate_IDLE.6.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\505_Incarnate_IDLE.6.06.png">
-      <Name>505_Incarnate_IDLE.6.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\506_Incarnate_IDLE.6.07.png">
-      <Name>506_Incarnate_IDLE.6.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\507_Incarnate_IDLE.6.08.png">
-      <Name>507_Incarnate_IDLE.6.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\508_Incarnate_IDLE.6.09.png">
-      <Name>508_Incarnate_IDLE.6.09</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\509_Incarnate_IDLE.6.10.png">
-      <Name>509_Incarnate_IDLE.6.10</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\510_Incarnate_IDLE.6.11.png">
-      <Name>510_Incarnate_IDLE.6.11</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\511_Incarnate_IDLE.6.12.png">
-      <Name>511_Incarnate_IDLE.6.12</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\512_Incarnate_IDLE.6.13.png">
-      <Name>512_Incarnate_IDLE.6.13</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\513_Incarnate_IDLE.6.14.png">
-      <Name>513_Incarnate_IDLE.6.14</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\514_Incarnate_IDLE.6.15.png">
-      <Name>514_Incarnate_IDLE.6.15</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\515_Incarnate_MOVE.6.01.png">
-      <Name>515_Incarnate_MOVE.6.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\516_Incarnate_MOVE.6.02.png">
-      <Name>516_Incarnate_MOVE.6.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\517_Incarnate_MOVE.6.03.png">
-      <Name>517_Incarnate_MOVE.6.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\518_Incarnate_MOVE.6.04.png">
-      <Name>518_Incarnate_MOVE.6.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\519_Incarnate_MOVE.6.05.png">
-      <Name>519_Incarnate_MOVE.6.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\520_Incarnate_MOVE.6.06.png">
-      <Name>520_Incarnate_MOVE.6.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\521_Incarnate_MOVE.6.07.png">
-      <Name>521_Incarnate_MOVE.6.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\522_Incarnate_MOVE.6.08.png">
-      <Name>522_Incarnate_MOVE.6.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\523_Incarnate_MOVE.6.09.png">
-      <Name>523_Incarnate_MOVE.6.09</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\524_Incarnate_MOVE.6.10.png">
-      <Name>524_Incarnate_MOVE.6.10</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\525_Incarnate_MOVE.6.11.png">
-      <Name>525_Incarnate_MOVE.6.11</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\526_Incarnate_MOVE.6.12.png">
-      <Name>526_Incarnate_MOVE.6.12</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\527_Incarnate_MOVE.6.13.png">
-      <Name>527_Incarnate_MOVE.6.13</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\528_Incarnate_MOVE.6.14.png">
-      <Name>528_Incarnate_MOVE.6.14</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\529_Incarnate_MOVE.6.15.png">
-      <Name>529_Incarnate_MOVE.6.15</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\540_Incarnate_SPECIAL.6.01.png">
-      <Name>540_Incarnate_SPECIAL.6.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\541_Incarnate_SPECIAL.6.02.png">
-      <Name>541_Incarnate_SPECIAL.6.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\542_Incarnate_SPECIAL.6.03.png">
-      <Name>542_Incarnate_SPECIAL.6.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\543_Incarnate_SPECIAL.6.04.png">
-      <Name>543_Incarnate_SPECIAL.6.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\544_Incarnate_SPECIAL.6.05.png">
-      <Name>544_Incarnate_SPECIAL.6.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\545_Incarnate_SPECIAL.6.06.png">
-      <Name>545_Incarnate_SPECIAL.6.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\546_Incarnate_SPECIAL.6.07.png">
-      <Name>546_Incarnate_SPECIAL.6.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\547_Incarnate_SPECIAL.6.08.png">
-      <Name>547_Incarnate_SPECIAL.6.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\548_Incarnate_SPECIAL.6.09.png">
-      <Name>548_Incarnate_SPECIAL.6.09</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\549_Incarnate_SPECIAL.6.10.png">
-      <Name>549_Incarnate_SPECIAL.6.10</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\550_Incarnate_SPECIAL.6.11.png">
-      <Name>550_Incarnate_SPECIAL.6.11</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\551_Incarnate_SPECIAL.6.12.png">
-      <Name>551_Incarnate_SPECIAL.6.12</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\552_Incarnate_SPECIAL.6.13.png">
-      <Name>552_Incarnate_SPECIAL.6.13</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\553_Incarnate_SPECIAL.6.14.png">
-      <Name>553_Incarnate_SPECIAL.6.14</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\554_Incarnate_SPECIAL.6.15.png">
-      <Name>554_Incarnate_SPECIAL.6.15</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\555_Incarnate_SPECIAL.6.16.png">
-      <Name>555_Incarnate_SPECIAL.6.16</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\556_Incarnate_SPECIAL.6.17.png">
-      <Name>556_Incarnate_SPECIAL.6.17</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\557_Incarnate_SPECIAL.6.18.png">
-      <Name>557_Incarnate_SPECIAL.6.18</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\558_Incarnate_SPECIAL.6.19.png">
-      <Name>558_Incarnate_SPECIAL.6.19</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\559_Incarnate_SPECIAL.6.20.png">
-      <Name>559_Incarnate_SPECIAL.6.20</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\560_Incarnate_ATTACK.6.01.png">
-      <Name>560_Incarnate_ATTACK.6.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\561_Incarnate_ATTACK.6.02.png">
-      <Name>561_Incarnate_ATTACK.6.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\562_Incarnate_ATTACK.6.03.png">
-      <Name>562_Incarnate_ATTACK.6.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\563_Incarnate_ATTACK.6.04.png">
-      <Name>563_Incarnate_ATTACK.6.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\564_Incarnate_ATTACK.6.05.png">
-      <Name>564_Incarnate_ATTACK.6.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\565_Incarnate_ATTACK.6.06.png">
-      <Name>565_Incarnate_ATTACK.6.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\566_Incarnate_ATTACK.6.07.png">
-      <Name>566_Incarnate_ATTACK.6.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\567_Incarnate_ATTACK.6.08.png">
-      <Name>567_Incarnate_ATTACK.6.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\570_Incarnate_HIT.6.01.png">
-      <Name>570_Incarnate_HIT.6.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\571_Incarnate_HIT.6.02.png">
-      <Name>571_Incarnate_HIT.6.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\572_Incarnate_HIT.6.03.png">
-      <Name>572_Incarnate_HIT.6.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\573_Incarnate_HIT.6.04.png">
-      <Name>573_Incarnate_HIT.6.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\574_Incarnate_HIT.6.05.png">
-      <Name>574_Incarnate_HIT.6.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\575_Incarnate_HIT.6.06.png">
-      <Name>575_Incarnate_HIT.6.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\576_Incarnate_HIT.6.07.png">
-      <Name>576_Incarnate_HIT.6.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\577_Incarnate_HIT.6.08.png">
-      <Name>577_Incarnate_HIT.6.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\580_Incarnate_DEAD.6.01.png">
-      <Name>580_Incarnate_DEAD.6.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\581_Incarnate_DEAD.6.02.png">
-      <Name>581_Incarnate_DEAD.6.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\582_Incarnate_DEAD.6.03.png">
-      <Name>582_Incarnate_DEAD.6.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\583_Incarnate_DEAD.6.04.png">
-      <Name>583_Incarnate_DEAD.6.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\584_Incarnate_DEAD.6.05.png">
-      <Name>584_Incarnate_DEAD.6.05</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\585_Incarnate_DEAD.6.06.png">
-      <Name>585_Incarnate_DEAD.6.06</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\586_Incarnate_DEAD.6.07.png">
-      <Name>586_Incarnate_DEAD.6.07</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\587_Incarnate_DEAD.6.08.png">
-      <Name>587_Incarnate_DEAD.6.08</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\588_Incarnate_DEAD.6.09.png">
-      <Name>588_Incarnate_DEAD.6.09</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\589_Incarnate_DEAD.6.10.png">
-      <Name>589_Incarnate_DEAD.6.10</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Sprites\Unit\DarkElf_Incarnate\Icon.png">
-      <Name>Icon</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\v3.0\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
