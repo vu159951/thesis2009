@@ -82,22 +82,35 @@ namespace GameDemo1
                 }
                 else if (nameAction == "Attack")
                 {
-                    Sprite selectUnit = CommandControl.SelectUnit(ran.Next(0, this.UnitListCreated.Count), this);
-                    if (selectUnit is ProducerUnit || selectUnit.CurrentStatus.Name == StatusList.MOVE.Name || ((Unit)selectUnit).WhomIHit != null || selectUnit.CurrentStatus.Name == StatusList.ATTACK.Name)
+                    if (this.UnitListCreated.Count > 0)
                     {
-                        return;
+                        Sprite selectUnit = CommandControl.SelectUnit(ran.Next(0, this.UnitListCreated.Count), this);
+                        if (selectUnit is ProducerUnit || selectUnit.CurrentStatus.Name == StatusList.MOVE.Name || ((Unit)selectUnit).WhomIHit != null || selectUnit.CurrentStatus.Name == StatusList.ATTACK.Name)
+                        {
+                            return;
+                        }
+                        int i = ran.Next(1, 3);
+                        Sprite sprite = null;
+                        Player player = CommandControl.SelectPlayer();
+                        if (i == 1)
+                        {
+                            if (player.UnitListCreated.Count > 0)
+                            {
+                                sprite = CommandControl.SelectUnit(ran.Next(0, player.UnitListCreated.Count), player);
+                            }
+                        }
+                        else
+                        {
+                            if (player.StructureListCreated.Count > 0)
+                            {
+                                sprite = CommandControl.SelectStructure(ran.Next(0, player.StructureListCreated.Count), player);
+                            }
+                        }
+                        if (sprite != null)
+                        {
+                            CommandControl.Attack((Unit)selectUnit, sprite);
+                        }
                     }
-                    Sprite sprite;
-                    int i = ran.Next(1, 3);
-                    if (i == 1)
-                    {
-                        sprite = CommandControl.SelectUnit(ran.Next(0, GlobalDTO.MANAGER_GAME.Players[ran.Next(0, GlobalDTO.MANAGER_GAME.Players.Count)].UnitListCreated.Count), GlobalDTO.MANAGER_GAME.Players[ran.Next(0, GlobalDTO.MANAGER_GAME.Players.Count)]);
-                    }
-                    else
-                    {
-                        sprite = CommandControl.SelectStructure(ran.Next(0, GlobalDTO.MANAGER_GAME.Players[ran.Next(0, GlobalDTO.MANAGER_GAME.Players.Count)].StructureListCreated.Count), GlobalDTO.MANAGER_GAME.Players[ran.Next(0, GlobalDTO.MANAGER_GAME.Players.Count)]);
-                    }
-                    CommandControl.Attack((Unit)selectUnit, sprite);
                 }
                 else if (nameAction == "Idle")
                 {

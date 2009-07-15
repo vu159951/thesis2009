@@ -30,6 +30,17 @@ namespace GameSharedObject
             return structure;
         }
 
+        public static Player SelectPlayer()
+        {
+            Player player = null;
+            Random ran = new Random(DateTime.Now.Millisecond);
+            while (player == null)
+            {                
+                player = GlobalDTO.MANAGER_GAME.Players[ran.Next(0, GlobalDTO.MANAGER_GAME.Players.Count)];                
+            }
+            return player;
+        }
+
         public static void Move(Unit unit, Point endpoint)
         {
             unit.EndPoint = endpoint;
