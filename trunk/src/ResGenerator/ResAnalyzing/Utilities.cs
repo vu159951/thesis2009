@@ -4,6 +4,7 @@ using System.Text;
 using System.Xml;
 using ResAnalyzing.Sprite;
 using ResAnalyzing.DTO;
+using System.IO;
 
 namespace ResAnalyzing
 {
@@ -114,12 +115,15 @@ namespace ResAnalyzing
 
             XmlDocument doc = new XmlDocument();
             doc.LoadXml(sprite.ToXMLString());
+            System.IO.Directory.CreateDirectory(desPath);
             doc.Save(desPath + "\\" + @"\" + System.IO.Path.GetFileName(sourcePath) + ".xml");
             if (exportImage)
             {
                 sprite.MovenRenameImage(desPath);
-            }
-
+            }           
+            sprite.CreateIcon(desPath);
+            sprite.ClearImageList();
+            sprite.ClearStatusList();
         }
 
         static public XmlElement GetElementByAttributeValue(String attributeValue, String attributeName, String tagNameRange)

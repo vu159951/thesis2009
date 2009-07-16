@@ -4,11 +4,11 @@
   <Action>
     <Info tagName="IDLE"  name="IDLE" id="1" />
     <Info tagName="DEAD"  name="DEAD" id="2" />
-    <Info tagName="WALK"  name="WALK" id="3" />
+    <Info tagName="MOVE"  name="MOVE" id="3" />
     <Info tagName="ATTACK"  name="ATTACK" id="4" />
     <Info tagName="HIT"  name="HIT" id="5" />
     <Info tagName="FLY"  name="FLY" id="6" />
-    <Info tagName="EXPLOIT"  name="EXPLOIT" id="7" />
+    <Info tagName="EXPLOIT"  name="EXPLOIT" id="7" />    
   </Action>
   <Direction>
     <Info tagName="S"  name="South" id="1" />
@@ -25,6 +25,7 @@
     <Type name="Structure" />
     <Type name="Terrain" />
     <Type name="Particle" />
+	  <Type name="Technology" />
     <Type name="Unit" />
-  </SpriteType> 
+  </SpriteType>   
 </Game>

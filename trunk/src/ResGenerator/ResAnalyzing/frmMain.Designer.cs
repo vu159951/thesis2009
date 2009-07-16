@@ -41,6 +41,8 @@ namespace ResAnalyzing
             this.txtInputFolder = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.cboInfoType = new System.Windows.Forms.ComboBox();
             this.cusDataGridViewEchelon1 = new ResAnalyzing.CusDataGridViewEchelon();
             this.customDataGridView1 = new ResAnalyzing.CustomDataGridView();
             this.btnRemove = new System.Windows.Forms.Button();
@@ -56,8 +58,6 @@ namespace ResAnalyzing
             this.label5 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.cboInfoType = new System.Windows.Forms.ComboBox();
-            this.label8 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -185,11 +185,29 @@ namespace ResAnalyzing
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Info";
             // 
-            // cusDataGridViewTri1
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(74, 245);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(37, 13);
+            this.label8.TabIndex = 33;
+            this.label8.Text = "Type: ";
+            // 
+            // cboInfoType
+            // 
+            this.cboInfoType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboInfoType.FormattingEnabled = true;
+            this.cboInfoType.Location = new System.Drawing.Point(123, 242);
+            this.cboInfoType.Name = "cboInfoType";
+            this.cboInfoType.Size = new System.Drawing.Size(140, 21);
+            this.cboInfoType.TabIndex = 32;
+            // 
+            // cusDataGridViewEchelon1
             // 
             this.cusDataGridViewEchelon1.ItemList = null;
             this.cusDataGridViewEchelon1.Location = new System.Drawing.Point(14, 53);
-            this.cusDataGridViewEchelon1.Name = "cusDataGridViewTri1";
+            this.cusDataGridViewEchelon1.Name = "cusDataGridViewEchelon1";
             this.cusDataGridViewEchelon1.Size = new System.Drawing.Size(308, 182);
             this.cusDataGridViewEchelon1.TabIndex = 31;
             this.cusDataGridViewEchelon1.OnSelectedItem += new ResAnalyzing.CusDataGridViewEchelon.Process(this.cusDataGridViewTri1_OnSelectedItem);
@@ -313,30 +331,6 @@ namespace ResAnalyzing
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 22;
             this.pictureBox1.TabStop = false;
-            // 
-            // cboInfoType
-            // 
-            this.cboInfoType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboInfoType.FormattingEnabled = true;
-            this.cboInfoType.Items.AddRange(new object[] {
-            "None",
-            "Unit",
-            "Structure",
-            "Technology",
-            "ResourceCenter "});
-            this.cboInfoType.Location = new System.Drawing.Point(123, 242);
-            this.cboInfoType.Name = "cboInfoType";
-            this.cboInfoType.Size = new System.Drawing.Size(140, 21);
-            this.cboInfoType.TabIndex = 32;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(74, 245);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(37, 13);
-            this.label8.TabIndex = 33;
-            this.label8.Text = "Type: ";
             // 
             // frmMain
             // 
