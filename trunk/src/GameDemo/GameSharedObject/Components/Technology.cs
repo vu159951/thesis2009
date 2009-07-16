@@ -10,7 +10,10 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using Microsoft.Xna.Framework.Net;
 using Microsoft.Xna.Framework.Storage;
+using System.IO;
 using GameSharedObject.Components;
+using GameSharedObject.DTO;
+using GameSharedObject.Data;
 
 
 namespace GameSharedObject
@@ -20,20 +23,25 @@ namespace GameSharedObject
     /// </summary>
     public class Technology : Microsoft.Xna.Framework.GameComponent
     {
-        private string _nameTech;
-                
-        public string NameTech
+        #region Properties        
+        private TechnologyDTO _techInfo;        
+
+        public TechnologyDTO TechInfo
         {
-            get { return _nameTech; }
-            set { _nameTech = value; }
+            get { return _techInfo; }
+            set { _techInfo = value; }
         }
-        // ----------------------------------------------------------------------------------------------------
-        //                      Methods
-        // ----------------------------------------------------------------------------------------------------
-        public Technology(Game game)
+        #endregion
+
+        #region Basic method
+        public Technology(Game game, string name)
             : base(game)
         {
             // TODO: Construct any child components here
+            string path = GlobalDTO.SPEC_TECH_PATH + name + GlobalDTO.SPEC_EXTENSION;
+            if (!File.Exists(path))
+                throw new Exception("Error! File not found.");
+            this._techInfo = (new TechnologyDataReader()).Load(path);
         }
 
         /// <summary>
@@ -57,5 +65,6 @@ namespace GameSharedObject
 
             base.Update(gameTime);
         }
+        #endregion
     }
 }

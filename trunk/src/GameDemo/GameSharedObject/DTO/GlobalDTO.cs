@@ -37,6 +37,7 @@ namespace GameSharedObject.DTO
         public static string SPEC_UNIT_PATH = "Specification\\Sprites\\Unit\\";
         public static string SPEC_MAP_PATH = "Specification\\Map\\";
         public static string SPEC_PARTICLE_PATH = "Specification\\Particle\\";
+        public static string SPEC_TECH_PATH = "Specification\\Technology\\";
         public static string SPEC_AI_PATH = "Specification\\AI\\";
 
         public static string RES_CONTENT_PATH = "Content\\";
