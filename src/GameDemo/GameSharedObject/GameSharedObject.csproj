@@ -92,14 +92,17 @@
     <Compile Include="Components\Map.cs" />
     <Compile Include="Components\Particle.cs" />
     <Compile Include="Components\ProducerUnit.cs" />
+    <Compile Include="Components\ResearchStructure.cs" />
     <Compile Include="Components\ResourceCenter.cs" />
     <Compile Include="Components\RhombusMap.cs" />
     <Compile Include="Components\Sprite.cs" />
     <Compile Include="Components\SquareMap.cs" />
     <Compile Include="Components\Structure.cs" />
+    <Compile Include="Components\Technology.cs" />
     <Compile Include="Components\Terrain.cs" />
     <Compile Include="Components\Unit.cs" />
     <Compile Include="Data\AIDataReader.cs" />
+    <Compile Include="Data\TechnologyDataReader.cs" />
     <Compile Include="Data\SpriteDataReader.cs" />
     <Compile Include="Data\GlobalDataReader.cs" />
     <Compile Include="Data\Logger.cs" />
@@ -110,6 +113,7 @@
     <Compile Include="Data\TerrainDataReader.cs" />
     <Compile Include="Data\UnitDataReader.cs" />
     <Compile Include="DTO\AIDTO.cs" />
+    <Compile Include="DTO\TechnologyDTO.cs" />
     <Compile Include="DTO\DirectionInfo.cs" />
     <Compile Include="DTO\DirectionList.cs" />
     <Compile Include="DTO\GlobalDTO.cs" />
