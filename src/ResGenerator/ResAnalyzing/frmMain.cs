@@ -45,6 +45,15 @@ namespace ResAnalyzing
                     cboType.Items.Add((String)childnode.GetAttribute("name"));
                 }
             }
+
+            cboInfoType.Items.Add("None");
+            foreach (XmlElement node in doc.GetElementsByTagName("SpriteType"))
+            {
+                foreach (XmlElement childnode in node.ChildNodes)
+                {
+                    cboInfoType.Items.Add((String)childnode.GetAttribute("name"));
+                }
+            }
             cboType.SelectedIndex = 0;
             cboInfoType.SelectedIndex = 0;
             this.cusDataGridViewEchelon1.Visible = false;
