@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sprite name="Brass_Metallurgy" type="Technology" path="Technology\\Brass_Metallurgy\\">
+  <!-- Default icon image: Icon.png  -->
+  <Informations>
+    <Info type="" name="" value="" />    
+  </Informations>
+  <Requirements>
+    <Upgrade name="1" id="1">
+      <Info type="" name="Stone" value="3000" />
+      <Info type="" name="Gold" value="5000" />
+      <Info type="" name="Time" value="15" />
+    </Upgrade>   
+  </Requirements>  
+  <Action>
+    <DEAD>
+      <EN>
+      </EN>
+      <ES>        
+      </ES>
+      <N>
+      </N>
+      <S>
+      </S>
+      <WN>
+      </WN>
+      <WS>
+      </WS>
+    </DEAD>
+    <HIT>
+      <EN>
+      </EN>
+      <ES>
+      </ES>
+      <N>
+      </N>
+      <S>
+      </S>
+      <WN>
+      </WN>
+      <WS>
+      </WS>
+    </HIT>
+    <IDLE>
+      <EN>
+      </EN>
+      <ES>        
+      </ES>
+      <N>
+      </N>
+      <S>
+      </S>
+      <WN>
+      </WN>
+      <WS>
+      </WS>
+    </IDLE>
+    <MOVE>
+      <EN>
+      </EN>
+      <ES>
+      </ES>
+      <N>
+      </N>
+      <S>
+      </S>
+      <WN>
+      </WN>
+      <WS>
+      </WS>
+    </MOVE>
+  </Action>
+</Sprite>
