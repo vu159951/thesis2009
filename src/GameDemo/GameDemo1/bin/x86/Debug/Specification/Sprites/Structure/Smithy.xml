@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sprite name="Smithy" type="Structure" path="Sprites\\Structure\\Smithy\\">
+  <!-- Default icon image: Icon.png  -->
+  <Informations>
+    <Info type="" name="MaxHealth" value="400" />
+    <Info type="" name="Power" value="0" />
+    <Info type="" name="RadiusAttack" value="0" />
+    <Info type="" name="RadiusDetect" value="0" />
+    <Info type="" name="Speed" value="0" />
+  </Informations>
+  <Requirements>
+    <Upgrade name="1" id="1">
+      <Info type="" name="Stone" value="5000" />
+      <Info type="" name="Gold" value="4000" />
+      <Info type="" name="Time" value="3" />
+      <Info type="Structure" name="Logic1" value="TownHall" />
+      <Info type="Structure" name="Logic2" value="Military" />
+    </Upgrade>    
+  </Requirements>
+  <ListUnits>
+    
+  </ListUnits>
+  <ListTechnology>
+    <Technology type="" name="Brass_Metallurgy" upgradeId="1"/>
+    <Technology type="" name="Iron_Metallurgy" upgradeId="1"/>
+  </ListTechnology>
+  
+  <Action>
+    <DEAD>
+      <EN>
+      </EN>
+      <ES>
+        <Image name="000_Smithy_DEAD.2.01" />
+      </ES>
+      <N>
+      </N>
+      <S>
+      </S>
+      <WN>
+      </WN>
+      <WS>
+      </WS>
+    </DEAD>
+    <HIT>
+      <EN>
+      </EN>
+      <ES>
+      </ES>
+      <N>
+      </N>
+      <S>
+      </S>
+      <WN>
+      </WN>
+      <WS>
+      </WS>
+    </HIT>
+    <IDLE>
+      <EN>
+      </EN>
+      <ES>
+        <Image name="001_Smithy_IDLE.2.01" />
+        <Image name="002_Smithy_IDLE.2.02" />
+        <Image name="003_Smithy_IDLE.2.03" />
+        <Image name="004_Smithy_IDLE.2.04" />
+        <Image name="005_Smithy_IDLE.2.05" />
+      </ES>
+      <N>
+      </N>
+      <S>
+      </S>
+      <WN>
+      </WN>
+      <WS>
+      </WS>
+    </IDLE>
+    <MOVE>
+      <EN>
+      </EN>
+      <ES>
+      </ES>
+      <N>
+      </N>
+      <S>
+      </S>
+      <WN>
+      </WN>
+      <WS>
+      </WS>
+    </MOVE>
+  </Action>
+</Sprite>
