@@ -21,7 +21,7 @@ namespace GameSharedObject
     /// <summary>
     /// This is a game component that implements IUpdateable.
     /// </summary>
-    public class Technology : Microsoft.Xna.Framework.GameComponent
+    public class Technology : Sprite
     {
         #region Properties        
         private TechnologyDTO _techInfo;        

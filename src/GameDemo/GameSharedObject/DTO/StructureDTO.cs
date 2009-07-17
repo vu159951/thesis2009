@@ -10,7 +10,13 @@ namespace GameSharedObject.DTO
         private Dictionary<String, ItemInfo> _informationList;
         private Dictionary<int, UpgradeInfo> _upgradeList;
         private List<ItemInfo> _unitList;
+        private List<ItemInfo> _techList;
 
+        public List<ItemInfo> TechList
+        {
+            get { return _techList; }
+            set { _techList = value; }
+        }
         public List<ItemInfo> UnitList
         {
             get { return _unitList; }
@@ -33,6 +39,7 @@ namespace GameSharedObject.DTO
             this._upgradeList = new Dictionary<int, UpgradeInfo>();
             this._unitList = new List<ItemInfo>();
             this._action = new Dictionary<string, StatusInfo>();
+            this._techList = new List<ItemInfo>();
         }
     }
 }
