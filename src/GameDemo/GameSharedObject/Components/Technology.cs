@@ -42,7 +42,7 @@ namespace GameSharedObject
             if (!File.Exists(path))
                 throw new Exception("Error! File not found.");
             this._techInfo = (new TechnologyDataReader()).Load(path);
-        }
+        }        
 
         /// <summary>
         /// Allows the game component to perform any initialization it needs to before starting
@@ -64,6 +64,12 @@ namespace GameSharedObject
             // TODO: Add your update code here
 
             base.Update(gameTime);
+        }
+
+        public Technology Clone()
+        {
+            Technology tech = new Technology(this.Game, this._techInfo.Name);
+            return tech;
         }
         #endregion
     }
