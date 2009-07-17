@@ -89,6 +89,7 @@
     <Compile Include="Computer.cs" />
     <Compile Include="Factory\CodeCompiler.cs" />
     <Compile Include="Factory\CodeGenerator.cs" />
+    <Compile Include="Factory\ResearchStructureManager.cs" />
     <Compile Include="Factory\ProducerUnitManager.cs" />
     <Compile Include="Factory\ResourceCenterManager.cs" />
     <Compile Include="Factory\SpriteManager.cs" />
