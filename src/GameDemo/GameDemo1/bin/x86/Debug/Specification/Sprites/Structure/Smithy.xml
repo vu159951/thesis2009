@@ -12,9 +12,7 @@
     <Upgrade name="1" id="1">
       <Info type="" name="Stone" value="5000" />
       <Info type="" name="Gold" value="4000" />
-      <Info type="" name="Time" value="3" />
-      <Info type="Structure" name="Logic1" value="TownHall" />
-      <Info type="Structure" name="Logic2" value="Military" />
+      <Info type="" name="Time" value="16" />      
     </Upgrade>    
   </Requirements>
   <ListUnits>
@@ -62,8 +60,7 @@
         <Image name="001_Smithy_IDLE.2.01" />
         <Image name="002_Smithy_IDLE.2.02" />
         <Image name="003_Smithy_IDLE.2.03" />
-        <Image name="004_Smithy_IDLE.2.04" />
-        <Image name="005_Smithy_IDLE.2.05" />
+        <Image name="004_Smithy_IDLE.2.04" />        
       </ES>
       <N>
       </N>
