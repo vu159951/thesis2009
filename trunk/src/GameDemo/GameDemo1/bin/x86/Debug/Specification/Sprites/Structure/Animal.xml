@@ -7,6 +7,7 @@
     <Info type="" name="RadiusDetect" value="0" />
     <Info type="" name="Speed" value="0" />
   </Informations>
+  
   <Requirements>
     <Upgrade name="1" id="1" >
       <Info type="" name="Stone" value="5000" />
@@ -20,11 +21,17 @@
       <Info type="" name="Time" value="45"/>
     </Upgrade>
   </Requirements>
+  
   <ListUnits>
     <Unit type="" name="Unicorn" upgradeId="1" />
     <Unit type="" name="Wolf" upgradeId="1" />    
     <Unit type="" name="Phoenix" upgradeId="1" />    
   </ListUnits>
+
+  <ListTechnology>
+    
+  </ListTechnology>
+  
   <Action>
     <IDLE>
       <S>
