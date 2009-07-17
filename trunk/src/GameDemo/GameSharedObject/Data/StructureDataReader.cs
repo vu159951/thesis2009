@@ -57,10 +57,17 @@ namespace GameSharedObject.Data
             XmlNode nodeunits = xmlDoc.SelectSingleNode("//ListUnits");
             for (int i = 0; i < nodeunits.ChildNodes.Count; i++)
             {
-                ItemInfo info = new ItemInfo(nodeunits.ChildNodes[i].Attributes["name"].Value, nodeunits.ChildNodes[i].Attributes["upgradeId"].Value, nodeinfo.ChildNodes[i].Attributes["type"].Value);
+                ItemInfo info = new ItemInfo(nodeunits.ChildNodes[i].Attributes["name"].Value, nodeunits.ChildNodes[i].Attributes["upgradeId"].Value, nodeunits.ChildNodes[i].Attributes["type"].Value);
                 structureInfo.UnitList.Add(info);
             }
 
+            // listtech
+            XmlNode nodetechs = xmlDoc.SelectSingleNode("//ListTechnology");
+            for (int i = 0; i < nodetechs.ChildNodes.Count; i++)
+            {
+                ItemInfo info = new ItemInfo(nodetechs.ChildNodes[i].Attributes["name"].Value, nodetechs.ChildNodes[i].Attributes["upgradeId"].Value, nodetechs.ChildNodes[i].Attributes["type"].Value);
+                structureInfo.TechList.Add(info);
+            }
 
             // action
             XmlNode nodeAction = xmlDoc.SelectSingleNode("//Action");            

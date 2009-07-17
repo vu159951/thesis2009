@@ -8,11 +8,10 @@ using Microsoft.Xna.Framework.Graphics;
 namespace GameSharedObject.DTO
 {
     public class TechnologyDTO
-    {
-        private Texture2D _icon;
-        private string _name;
+    {        
         private UpgradeInfo _upgrade;
-
+        private Texture2D _icon;
+        private String _name;
 
         public UpgradeInfo Upgrade
         {

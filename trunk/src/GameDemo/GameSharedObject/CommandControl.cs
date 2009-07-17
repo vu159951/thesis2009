@@ -97,6 +97,10 @@ namespace GameSharedObject
             }
             Random ran = new Random(DateTime.Now.Millisecond);
             Structure structure = (Structure)player.StructureListCreated[ran.Next(0, player.StructureListCreated.Count)];
+            if (structure is ResearchStructure)
+            {
+                return;
+            }
             Unit unit = structure.ModelUnitList[ran.Next(0, structure.ModelUnitList.Count)].Clone() as Unit;
             structure.AddToListUnitBuying(unit);
         }
