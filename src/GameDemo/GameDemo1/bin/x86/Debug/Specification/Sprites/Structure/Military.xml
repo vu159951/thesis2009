@@ -13,7 +13,8 @@
     <Upgrade name="1" id="1" >
       <Info type="" name="Stone" value="5000" />
       <Info type="" name="Gold" value="4000" />
-      <Info type="" name="Time" value="30"/>      
+      <Info type="" name="Time" value="30"/>
+      <Info type="Technology" name="Logic1" value="Brass_Metallurgy"/>
     </Upgrade>
     <Upgrade name="2" id="2" >
       <Info type="" name="Stone" value="10000" />
