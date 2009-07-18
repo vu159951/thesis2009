@@ -8,7 +8,8 @@
     <Upgrade name="1" id="1">
       <Info type="" name="Stone" value="8000" />
       <Info type="" name="Gold" value="6000" />
-      <Info type="" name="Time" value="50" />
+      <Info type="" name="Time" value="200" />      
+      <Info type="Technology" name="Logic1" value="Brass_Metallurgy"/>
     </Upgrade>   
   </Requirements>  
   <Action>
