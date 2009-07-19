@@ -54,7 +54,8 @@
     </Compile>
     <Compile Include="DTO\Direction.cs" />
     <Compile Include="DTO\ItemInfo.cs" />
-    <Compile Include="DTO\UnitInfo.cs" />
+    <Compile Include="DTO\Info.cs" />
+    <Compile Include="Sprite\ResearchStructure.cs" />
     <Compile Include="Sprite\ResourceCenter.cs" />
     <Compile Include="Sprite\SpriteDirection.cs" />
     <Compile Include="Sprite\SpriteImage.cs" />
@@ -109,13 +110,12 @@
     <Compile Include="Sprite\Structure.cs" />
     <Compile Include="Sprite\SimpleSprite.cs" />
     <Compile Include="Sprite\Unit.cs" />
+    <Compile Include="Sprite\Technology.cs" />
     <Compile Include="Utilities.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.Ico" />
     <Content Include="bin\Debug\data.xml" />
-    <Content Include="bin\Debug\ResAnalyzing.exe" />
-    <Content Include="bin\Debug\ResAnalyzing.pdb" />
     <Content Include="bin\Debug\ResAnalyzing.vshost.exe" />
     <Content Include="bin\Debug\specification.xml" />
     <None Include="Resources\img.png" />

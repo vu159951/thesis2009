@@ -2,55 +2,38 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using ResAnalyzing.DTO;
+using ResAnalyzing.Sprite;
 using System.Xml;
 
 namespace ResAnalyzing.Sprite
 {
-    class Structure : Sprite
-    {
+    class ResearchStructure : Structure
+    {       
         #region Private Members
 
-        protected List<ItemInfo> _informationList;
-        protected List<List<ItemInfo>> _requirementList;
-        protected List<Info> _listUnits;
+        //protected List<ItemInfo> _informationList;
+        //protected List<List<ItemInfo>> _requirementList;
+        private List<Info> _listTechnology;
 
         #endregion
 
         #region Properties
 
-        public override List<ItemInfo> InformationList
-        {
-            get { return _informationList; }
-            set { _informationList = value; }
-        }
-
-        public override List<List<ItemInfo>> RequirementList
-        {
-            get { return _requirementList; }
-            set { _requirementList = value; }
-        }
-
-        public override List<Info> UnitList
-        {
-            get { return _listUnits; }
-            set { _listUnits = value; }
-        }
-
         public override List<Info> TechnologyList
         {
-            get { return null; }
-            set { ; }
+            get { return _listTechnology; }
+            set { _listTechnology = value; }
         }
 
         #endregion
 
         #region Contructor
-        public Structure()
+        public ResearchStructure()
         {
             _statusList = new List<SpriteStatus>();
             _informationList = new List<ItemInfo>();
             _requirementList = new List<List<ItemInfo>>();
-            _listUnits = new List<Info>();
+            _listTechnology = new List<Info>();            
 
             _informationList.Add(new ItemInfo("", "MaxHealth", "400"));
             _informationList.Add(new ItemInfo("", "Power", "0"));
@@ -66,41 +49,13 @@ namespace ResAnalyzing.Sprite
             list1.Add(new ItemInfo("Structure", "Logic2", "Military"));
             _requirementList.Add(list1);
 
-            List<ItemInfo> list2 = new List<ItemInfo>();
-            list2.Add(new ItemInfo("", "Stone", "10000"));
-            list2.Add(new ItemInfo("", "Gold", "8000"));
-            list2.Add(new ItemInfo("", "Time", "45"));
-            _requirementList.Add(list2);
-
-            _listUnits.Add(new Info("Unit", "", "Black_Angel", "1"));
-            _listUnits.Add(new Info("Unit", "", "Archon_Archer", "1"));
-            _listUnits.Add(new Info("Unit", "", "Angel", "1"));
-            _listUnits.Add(new Info("Unit", "", "Elf_swordman", "2"));
-            _listUnits.Add(new Info("Unit", "", "Unicorn", "1"));
-            _listUnits.Add(new Info("Unit", "", "Wolf", "1"));
-            _listUnits.Add(new Info("Unit", "", "Phoenix", "2"));
+            _listTechnology.Add(new Info("Technology", "", "Brass_Metallurgy", "1"));
+            _listTechnology.Add(new Info("Technology", "", "Iron_Metallurgy", "1"));
           
         }
         #endregion
 
         #region Override Methods
-
-        public override void Load(string folderPath)
-        {          
-            _path = folderPath;
-            String[] folder = System.IO.Directory.GetDirectories(folderPath);
-            List<String> ls = new List<String>();
-            ls.AddRange(folder);
-
-            for (int i = 0; i < ls.Count; i++)
-            {
-                SpriteStatus st = new SpriteStatus();
-                st.Path = ls[i];
-                st.FolderName = System.IO.Path.GetFileName(folderPath);
-                st.Status.Name = System.IO.Path.GetFileName(ls[i]);
-                _statusList.Add(st);
-            }       
-        }
 
         public override String ToXMLString()
         {
@@ -113,13 +68,13 @@ namespace ResAnalyzing.Sprite
             XmlDocument doc1 = new XmlDocument();
             doc1.Load(Config.SPEC_PATH);
 
-            String information = "", requirement = "", listUnit = "";
+            String information = "", requirement = "", listTechnology = "";
 
             information = Utilities.GenXMLByList(InformationList);
 
             requirement = Utilities.GenXMLByList(RequirementList);
 
-            listUnit = Utilities.GenXMLByList(_listUnits);
+            listTechnology = Utilities.GenXMLByList(_listTechnology);
 
             String mainInfo = StatusList2XMLString();
 
@@ -129,10 +84,10 @@ namespace ResAnalyzing.Sprite
             doc1.GetElementsByTagName("Requirements")[0].RemoveChild(doc1.GetElementsByTagName("Requirements")[0].FirstChild);
             doc1.GetElementsByTagName("Requirements")[0].InnerXml = requirement;
 
-            doc1.GetElementsByTagName("ListUnits")[0].RemoveChild(doc1.GetElementsByTagName("ListUnits")[0].FirstChild);
-            doc1.GetElementsByTagName("ListUnits")[0].InnerXml = listUnit;
+            doc1.GetElementsByTagName("ListTechnology")[0].RemoveChild(doc1.GetElementsByTagName("ListTechnology")[0].FirstChild);
+            doc1.GetElementsByTagName("ListTechnology")[0].InnerXml = listTechnology;
 
-            doc1.GetElementsByTagName("ListTechnology")[0].InnerXml = "";
+            doc1.GetElementsByTagName("ListUnits")[0].InnerXml = "";
 
             doc1.GetElementsByTagName("Action")[0].RemoveChild(doc1.GetElementsByTagName("Action")[0].FirstChild);
             doc1.GetElementsByTagName("Action")[0].InnerXml = mainInfo;
@@ -140,7 +95,7 @@ namespace ResAnalyzing.Sprite
             String xml = doc1.ChildNodes[0].OuterXml + doc1.ChildNodes[1].OuterXml;
 
             xml = xml.Replace("%foldername%", System.IO.Path.GetFileName(_path));
-            xml = xml.Replace("%type%", Config.STRUCTURE);
+            xml = xml.Replace("%type%", Config.RESEARCH_STRUCTURE);
             xml = xml.Replace("%path%", "Sprites" + "\\" + @"\" + Config.STRUCTURE + "\\" + @"\"
                                 + System.IO.Path.GetFileName(_path) + "\\" + @"\");
 

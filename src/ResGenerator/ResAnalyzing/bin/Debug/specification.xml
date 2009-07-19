@@ -12,7 +12,10 @@
   <ListUnits>
     <Unit type="%type%" name="%name%" upgradeId="%id%" />   
   </ListUnits>
-   <Action>
+  <ListTechnology>
+    <Technology type="%type%" name="%name%" upgradeId="%id%"/>   
+  </ListTechnology>
+  <Action>
     <Status>
       <Direction>
         <Image name="%name%"/>       
