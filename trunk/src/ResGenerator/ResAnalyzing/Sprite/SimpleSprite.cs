@@ -6,8 +6,7 @@ using System.Xml;
 namespace ResAnalyzing.Sprite
 {
     class SimpleSprite : Sprite
-    {
-    
+    {    
         #region Private Members
        
         #endregion
@@ -62,6 +61,7 @@ namespace ResAnalyzing.Sprite
             doc1.GetElementsByTagName("Informations")[0].InnerXml = "";
             doc1.GetElementsByTagName("Requirements")[0].InnerXml = "";
             doc1.GetElementsByTagName("ListUnits")[0].InnerXml = "";
+            doc1.GetElementsByTagName("ListTechnology")[0].InnerXml = "";
 
             String xml = doc1.ChildNodes[0].OuterXml + doc1.ChildNodes[1].OuterXml;
 

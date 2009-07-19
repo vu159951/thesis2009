@@ -23,9 +23,10 @@
   <SpriteType>
     <Type name="ResourceCenter" />
     <Type name="Structure" />
-    <Type name="Terrain" />
-    <Type name="Particle" />
-	  <Type name="Technology" />
+    <Type name="ResearchStructure" />
     <Type name="Unit" />
+    <Type name="Technology" />
+    <Type name="Terrain" />
+    <Type name="Particle" />  
   </SpriteType>   
 </Game>

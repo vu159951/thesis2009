@@ -174,11 +174,11 @@ namespace ResAnalyzing
             return xml;
         }
 
-        static public String GenXMLByList(List<UnitInfo> list)
+        static public String GenXMLByList(List<Info> list)
         {
             String xml = "";
 
-            foreach (UnitInfo item in list)
+            foreach (Info item in list)
             {
                 xml += item.ToXMLString();
             }
@@ -186,22 +186,22 @@ namespace ResAnalyzing
             return xml;
         }
 
-        static public List<ItemInfo> ConvetUnitToInfo(List<UnitInfo> unit)
+        static public List<ItemInfo> ConvetUnitToInfo(List<Info> unit)
         {
             List<ItemInfo> itemL = new List<ItemInfo>();
-            foreach (UnitInfo u in unit)
+            foreach (Info u in unit)
             {
                 itemL.Add(new ItemInfo(u.Type, u.Name, u.UpgradeId));
             }
             return itemL;
         }
 
-        static public List<UnitInfo> ConvetInfoToUnit(List<ItemInfo> item)
+        static public List<Info> ConvetInfoToUnit(List<ItemInfo> item)
         {
-            List<UnitInfo> itemL = new List<UnitInfo>();
+            List<Info> itemL = new List<Info>();
             foreach (ItemInfo it in item)
             {
-                itemL.Add(new UnitInfo(it.Type, it.Name, it.Value));
+                itemL.Add(new Info("Unit", it.Type, it.Name, it.Value));
             }
             return itemL;
         }

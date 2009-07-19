@@ -15,17 +15,17 @@ namespace ResAnalyzing
         #region Private Members
         private List<ItemInfo> informationList;
         private List<List<ItemInfo>> requirementList;
-        private List<UnitInfo> unitList;
+        private List<Info> unitList;
+        private List<Info> technoList;
         private ResAnalyzing.Sprite.Sprite sprite;
-        private String spriteType;       
+        private String spriteType;
+
+        private String[] infoType = { "Infomations", "Requirement", "ListUnits", "ListTechnology"};
         #endregion
 
         #region Contructor
         public frmMain()
-        {
-            informationList = new List<ItemInfo>();
-            requirementList = new List<List<ItemInfo>>();
-            unitList = new List<UnitInfo>();            
+        {      
             InitializeComponent();
         }
         #endregion
@@ -107,28 +107,45 @@ namespace ResAnalyzing
             switch (spriteType)
             {
                 case "ResourceCenter":
-                    sprite = new Sprite.ResourceCenter();                 
-                    informationList = sprite.InformationList;
+                    sprite = new ResAnalyzing.Sprite.ResourceCenter();                                  
+                    informationList = sprite.InformationList;                    
 
                     this.cboPropertyType.Items.Clear();
                     this.cboPropertyType.Items.Add("Infomations");
                     cboPropertyType.SelectedIndex = 0;
 
                     ShowInfoBox();
-
+                  
                     LoadItem();
                     break;
                 case "Structure":
-                    sprite = new Sprite.Structure();                 
+                    sprite = new Sprite.Structure();
                     informationList = sprite.InformationList;
                     requirementList = sprite.RequirementList;
-                    unitList = sprite.ListUnits;
+                    unitList = sprite.UnitList;
+                  
+                    this.cboPropertyType.Items.Clear();
+                    this.cboPropertyType.Items.AddRange(new object[] {
+                                                                        infoType[0],
+                                                                        infoType[1],
+                                                                        infoType[2]});
+                    cboPropertyType.SelectedIndex = 0;
+
+                    ShowInfoBox();
+
+                    LoadItem();
+                    break;
+                case "ResearchStructure":
+                    sprite = new Sprite.ResearchStructure();
+                    informationList = sprite.InformationList;
+                    requirementList = sprite.RequirementList;
+                    technoList = sprite.TechnologyList;
 
                     this.cboPropertyType.Items.Clear();
                     this.cboPropertyType.Items.AddRange(new object[] {
-                                                                        "Infomations",
-                                                                        "Requirement",
-                                                                        "ListUnits"});
+                                                                        infoType[0],
+                                                                        infoType[1],
+                                                                        infoType[3]});
                     cboPropertyType.SelectedIndex = 0;
 
                     ShowInfoBox();
@@ -137,7 +154,8 @@ namespace ResAnalyzing
                     break;
                 case "Terrain":
                     Config.SIMPLE_SPRITE = "Terrain";
-                    sprite = new Sprite.SimpleSprite();
+                    sprite = new Sprite.SimpleSprite();              
+
                     this.customDataGridView1.Clear();
 
                     this.cboPropertyType.Items.Clear();
@@ -148,7 +166,9 @@ namespace ResAnalyzing
                     break;
                 case "Particle":
                     Config.SIMPLE_SPRITE = "Particle";
-                    sprite = new Sprite.SimpleSprite();
+
+                    sprite = new Sprite.SimpleSprite();                   
+
                     this.customDataGridView1.Clear();
                     
                     this.cboPropertyType.Items.Clear();
@@ -159,17 +179,32 @@ namespace ResAnalyzing
                     break;
                 case "Unit":
 
-                    sprite = new Sprite.Unit();                  
+                    sprite = new Sprite.Unit();
                     informationList = sprite.InformationList;
                     requirementList = sprite.RequirementList;
 
                     this.cboPropertyType.Items.Clear();
                     this.cboPropertyType.Items.AddRange(new object[] {
-                                                                        "Infomations",
-                                                                        "Requirement"});
+                                                                        infoType[0],
+                                                                        infoType[1]});
                     cboPropertyType.SelectedIndex = 0;
 
                     ShowInfoBox();   
+                    LoadItem();
+                    break;
+                case "Technology":
+
+                    sprite = new Sprite.Technology();
+                    informationList = sprite.InformationList;
+                    requirementList = sprite.RequirementList;
+
+                    this.cboPropertyType.Items.Clear();
+                    this.cboPropertyType.Items.AddRange(new object[] {
+                                                                        infoType[0],
+                                                                        infoType[1]});
+                    cboPropertyType.SelectedIndex = 0;
+
+                    ShowInfoBox();
                     LoadItem();
                     break;
                 default:
@@ -215,11 +250,21 @@ namespace ResAnalyzing
 
             else if (cboPropertyType.SelectedIndex == 2)
             {
-                unitList.Clear();
-                sprite.ListUnits.Clear();
                 this.customDataGridView1.Clear();
-                MessageBox.Show("Unit list is cleared.", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
+                if (cboPropertyType.SelectedItem.ToString() == infoType[2])
+                {
+                    unitList.Clear();
+                    sprite.UnitList.Clear();
+                    MessageBox.Show("Unit list is cleared.", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else if (cboPropertyType.SelectedItem.ToString() == infoType[3])
+                {
+                    technoList.Clear();
+                    sprite.TechnologyList.Clear();                 
+                    MessageBox.Show("Technology list is cleared.", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Information);
+           
+                }
+            }         
             else
             {
                 MessageBox.Show("No data found. Can't delete!", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -269,7 +314,6 @@ namespace ResAnalyzing
                 }
                 else if (cboPropertyType.SelectedIndex == 2)
                 {
-
                     if (this.cboInfoType.SelectedItem.ToString() == "None")
                     {
                         item = new ItemInfo("", txtInfoName.Text, txtInfoValue.Text);
@@ -281,9 +325,18 @@ namespace ResAnalyzing
                     if (!this.customDataGridView1.ChangeValue(item))
                         this.customDataGridView1.Add(item);
                     this.customDataGridView1.Invalidate();
-                    unitList = Utilities.ConvetInfoToUnit(customDataGridView1.ItemList);
-                    sprite.ListUnits = unitList;
-                }
+
+                    if (cboPropertyType.SelectedItem.ToString() == infoType[2])
+                    {
+                        unitList = Utilities.ConvetInfoToUnit(customDataGridView1.ItemList);
+                        sprite.UnitList = unitList;
+                    }
+                    else if (cboPropertyType.SelectedItem.ToString() == infoType[3])
+                    {
+                        technoList = Utilities.ConvetInfoToUnit(customDataGridView1.ItemList);
+                        sprite.TechnologyList = technoList;
+                    }                                      
+                }              
             }
             else
             {
@@ -300,30 +353,37 @@ namespace ResAnalyzing
         {
             try
             {
-                if (customDataGridView1.SelectedItems.Count > 0)
-                {                   
-                    if (cboPropertyType.SelectedIndex == 0)
-                    {
-                        customDataGridView1.RemoveSelectedItem();
-                        customDataGridView1.Invalidate();
-                        informationList = customDataGridView1.ItemList;
-                        sprite.InformationList = informationList;
-                    }                   
-                    else if (cboPropertyType.SelectedIndex == 2)
-                    {
-                        customDataGridView1.RemoveSelectedItem();
-                        customDataGridView1.Invalidate();
-                        unitList = Utilities.ConvetInfoToUnit(customDataGridView1.ItemList);
-                        sprite.ListUnits = unitList;
-                    }
-                }
-                else if (cusDataGridViewEchelon1.SelectedItems.Count > 0 && cboPropertyType.SelectedIndex == 1)
+                if (cusDataGridViewEchelon1.SelectedItems.Count > 0 && cboPropertyType.SelectedIndex == 1)
                 {
                     cusDataGridViewEchelon1.RemoveSelectedItem();
                     cusDataGridViewEchelon1.Invalidate();
                     requirementList = cusDataGridViewEchelon1.ItemList;
                     sprite.RequirementList = requirementList;
                 }
+                else if (customDataGridView1.SelectedItems.Count > 0)
+                {
+                    customDataGridView1.RemoveSelectedItem();
+                    customDataGridView1.Invalidate();
+
+                    if (cboPropertyType.SelectedIndex == 0)
+                    {                       
+                        informationList = customDataGridView1.ItemList;
+                        sprite.InformationList = informationList;
+                    }                   
+                    else if (cboPropertyType.SelectedIndex == 2)
+                    {
+                        if (cboPropertyType.SelectedItem.ToString() == infoType[2])
+                        {
+                            unitList = Utilities.ConvetInfoToUnit(customDataGridView1.ItemList);
+                            sprite.UnitList = unitList;
+                        }
+                        else if (cboPropertyType.SelectedItem.ToString() == infoType[3])
+                        {
+                            technoList = Utilities.ConvetInfoToUnit(customDataGridView1.ItemList);
+                            sprite.TechnologyList = technoList;
+                        }                              
+                    }                  
+                }              
                 else
                 {
                     MessageBox.Show("No rows selected. Can't remove!", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -350,22 +410,8 @@ namespace ResAnalyzing
 
         private void LoadItem()
         {
-            if (cboPropertyType.SelectedIndex == 0)
-            {              
-                try
-                {
-                    this.cusDataGridViewEchelon1.Visible = false;
-                    this.customDataGridView1.Visible = true;
-                    this.customDataGridView1.ItemList = informationList;          
-                    this.customDataGridView1.LoadItem();
-                }
-                catch (Exception e)
-                {
-                    MessageBox.Show(e.Message);
-                }
-                this.customDataGridView1.Invalidate();
-            }
-            else if (cboPropertyType.SelectedIndex == 1)
+            
+            if (cboPropertyType.SelectedIndex == 1)
             {
                 this.cusDataGridViewEchelon1.Visible = true;
                 this.customDataGridView1.Visible = false;
@@ -373,18 +419,49 @@ namespace ResAnalyzing
                 this.cusDataGridViewEchelon1.LoadItem();
                 this.cusDataGridViewEchelon1.Invalidate();
             }
-            else if (cboPropertyType.SelectedIndex == 2)
+            else if (cboPropertyType.SelectedIndex != 1)
             {
-                try
+                this.cusDataGridViewEchelon1.Visible = false;
+                this.customDataGridView1.Visible = true;
+
+                if (cboPropertyType.SelectedIndex == 0)
                 {
-                    this.cusDataGridViewEchelon1.Visible = false;
-                    this.customDataGridView1.Visible = true;
-                    this.customDataGridView1.ItemList = Utilities.ConvetUnitToInfo(unitList);
-                    this.customDataGridView1.LoadItem();
+                    try
+                    {
+                        this.customDataGridView1.ItemList = informationList;
+                        this.customDataGridView1.LoadItem();
+                    }
+                    catch (Exception e)
+                    {
+                        MessageBox.Show(e.Message);
+                    }
                 }
-                catch (Exception e)
+                else if (cboPropertyType.SelectedIndex == 2)
                 {
-                    MessageBox.Show(e.Message);
+                    if (cboPropertyType.SelectedItem.ToString() == infoType[2])
+                    {
+                        try
+                        {
+                            this.customDataGridView1.ItemList = Utilities.ConvetUnitToInfo(unitList);
+                            this.customDataGridView1.LoadItem();
+                        }
+                        catch (Exception e)
+                        {
+                            MessageBox.Show(e.Message);
+                        }
+                    }
+                    else if (cboPropertyType.SelectedItem.ToString() == infoType[3])
+                    {
+                        try
+                        {
+                            this.customDataGridView1.ItemList = Utilities.ConvetUnitToInfo(technoList);
+                            this.customDataGridView1.LoadItem();
+                        }
+                        catch (Exception e)
+                        {
+                            MessageBox.Show(e.Message);
+                        }
+                    }                                                      
                 }
                 this.customDataGridView1.Invalidate();
             }

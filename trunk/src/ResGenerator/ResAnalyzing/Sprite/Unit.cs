@@ -8,8 +8,11 @@ namespace ResAnalyzing.Sprite
 {
     class Unit : Sprite
     {
-        #region Private Members      
+        #region Private Members
        
+        protected List<ItemInfo> _informationList;
+        protected List<List<ItemInfo>> _requirementList;
+
         #endregion
 
         #region Properties
@@ -94,6 +97,7 @@ namespace ResAnalyzing.Sprite
             doc1.GetElementsByTagName("Requirements")[0].InnerXml = requirement;
           
             doc1.GetElementsByTagName("ListUnits")[0].InnerXml = "";
+            doc1.GetElementsByTagName("ListTechnology")[0].InnerXml = "";
 
             doc1.GetElementsByTagName("Action")[0].RemoveChild(doc1.GetElementsByTagName("Action")[0].FirstChild);
             doc1.GetElementsByTagName("Action")[0].InnerXml = mainInfo;
