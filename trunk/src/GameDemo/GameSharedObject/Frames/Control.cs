@@ -102,6 +102,7 @@ namespace GameSharedObject.Frames
             MouseState mState = Mouse.GetState();
             KeyboardState kState = Keyboard.GetState();
 
+            // Action for mouse event
             if (IsMouseOnControl(mState)){
                 int value1 = IsAnyMouseButtonPressed(mState);
                 int value2 = IsAnyMouseButtonReleased(mState);
@@ -128,17 +129,26 @@ namespace GameSharedObject.Frames
                 this.isMouseEnter = false;
                 this.OnMouseLeave(new MouseEventArgs());
             }
+
+            // Action for keyboard event
             if (this._isFocus){
+                // Add keys to event queue
                 Keys[] keys = kState.GetPressedKeys();
-                if (keys.Length > 0 && kState.IsKeyDown(keys[0])){                    
-                        lastKeyState = keys[0];
-                        this.OnKeyDown(new KeyEventArgs(keys[0]));
+                
+                // Get a key from the queue => TODO
+                if (keys.Length > 0){
+                    Keys key = keys[0];
+                    if (kState.IsKeyDown(key)){
+                        lastKeyState = key;
+                        this.OnKeyDown(new KeyEventArgs(key));
+                    }
                 }
                 if (lastKeyState != Keys.None && kState.IsKeyUp(lastKeyState)){
                     this.OnKeyUp(new KeyEventArgs(lastKeyState));
                     lastKeyState = Keys.None;
                 }
             }
+            
             base.Update(gameTime);
         }
 

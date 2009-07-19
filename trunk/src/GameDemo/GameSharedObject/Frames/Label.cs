@@ -10,6 +10,26 @@ namespace GameSharedObject.Frames
 {
     public class Label : Control
     {
+        private String _text;
+        private SpriteFont _font;
+        private Color _foreColor;
+
+        public String Text
+        {
+            get { return _text; }
+            set { _text = value; }
+        }
+        public SpriteFont Font
+        {
+            get { return _font; }
+            set { _font = value; }
+        }
+        public Color ForeColor
+        {
+            get { return _foreColor; }
+            set { _foreColor = value; }
+        }
+
         public Label(Game game)
             : base(game) { }
 
@@ -33,13 +53,20 @@ namespace GameSharedObject.Frames
             base.Draw(gameTime);
 
             // TODO: Add your draw code here
-            spriteBatch.Draw(_background,
-                new Rectangle(this.Location.X, this.Location.Y, this.Size.Width, this.Size.Height),
-                new Color(Color.White, (float)this._opacity * 0.01f));
+            Vector2 pos = new Vector2(
+                this.Parent.Location.X + this.Location.X + 3,
+                this.Parent.Location.Y + this.Location.Y);
+            spriteBatch.DrawString(_font, _text, pos, _foreColor);
         }
         protected override bool IsMouseOnControl(MouseState state)
         {
-            throw new NotImplementedException();
+            if (state.X >= this.Location.X + this.Parent.Location.X &&
+                state.X <= this.Location.X + this.Parent.Location.X + this.Size.Width &&
+                state.Y >= this.Location.Y + this.Parent.Location.Y &&
+                state.Y <= this.Location.Y + this.Parent.Location.Y + this.Size.Height)
+                return true;
+            return false;
+
         }
     }
 }
