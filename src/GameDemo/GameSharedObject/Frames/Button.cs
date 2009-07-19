@@ -13,7 +13,7 @@ namespace GameSharedObject.Frames
         private bool isDown;
         public delegate void ClickHandler(object sender, EventArgs e);
         public event ClickHandler Click;
-        protected void OnClick(EventArgs e)
+        protected virtual void OnClick(EventArgs e)
         {
             if (Click != null)
                 this.Click(this, e);
