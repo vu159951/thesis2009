@@ -130,6 +130,12 @@
     <Compile Include="DTO\TerrainDTO.cs" />
     <Compile Include="DTO\UnitDTO.cs" />
     <Compile Include="DTO\UpgradeInfo.cs" />
+    <Compile Include="Frames\Button.cs" />
+    <Compile Include="Frames\Checkbox.cs" />
+    <Compile Include="Frames\Control.cs" />
+    <Compile Include="Frames\Form.cs" />
+    <Compile Include="Frames\Label.cs" />
+    <Compile Include="Frames\Textbox.cs" />
     <Compile Include="GlobalFunction.cs" />
     <Compile Include="IComputer.cs" />
     <Compile Include="ManagerGame.cs" />

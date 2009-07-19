@@ -87,6 +87,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Computer.cs" />
+    <Compile Include="Controls\GameButton.cs" />
     <Compile Include="Factory\CodeCompiler.cs" />
     <Compile Include="Factory\CodeGenerator.cs" />
     <Compile Include="Factory\ResearchStructureManager.cs" />

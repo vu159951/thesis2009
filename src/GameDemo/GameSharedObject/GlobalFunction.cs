@@ -11,10 +11,11 @@ using Microsoft.Xna.Framework.Media;
 using Microsoft.Xna.Framework.Net;
 using Microsoft.Xna.Framework.Storage;
 using GameSharedObject.Components;
+using System.Runtime.InteropServices;
 
 namespace GameSharedObject
 {
-    class GlobalFunction
+    public class GlobalFunction
     {
         /// <summary>
         /// Tạo ra vecto di chuyển dựa vào tọa độ điểm đầu và cuối
@@ -51,5 +52,14 @@ namespace GameSharedObject
             }
             return result;
         }
+
+        #region Alert for testing
+        [DllImport("user32.dll", CharSet = CharSet.Auto)]
+        public static extern uint MessageBox(IntPtr hWnd, String text, String caption, uint type);
+        public static void MessageBox(String message)
+        {
+            MessageBox(new IntPtr(0), message, "Function test", 0);
+        }
+        #endregion
     }
 }
