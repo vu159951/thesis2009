@@ -41,11 +41,12 @@ namespace GameSharedObject.Controls
             bgNormal = Game.Content.Load<Texture2D>("Images\\Button\\JXOnlineI\\MouseLeave");
             bgMouseEnter = Game.Content.Load<Texture2D>("Images\\Button\\JXOnlineI\\MouseEnter");
             bgMouseDown = Game.Content.Load<Texture2D>("Images\\Button\\JXOnlineI\\MouseDown");
+            this.Font = game.Content.Load<SpriteFont>("Images\\Button\\JXOnlineI\\Font");
             this.Background = bgNormal;
 
             this.ForeColor = Color.White;
             this.Size = new System.Drawing.Size(269, 38);
-            _text = "new button";
+            _text = "New button";
         }
         protected override void OnMouseDown(GameSharedObject.Frames.MouseEventArgs e)
         {
