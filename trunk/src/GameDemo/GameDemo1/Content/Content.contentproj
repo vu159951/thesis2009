@@ -31757,13 +31757,27 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Images\MenuPanel\menuPanel3.png">
-      <Name>menuPanel3</Name>
+    <Compile Include="Images\Button\JXOnlineI\Glass.wav">
+      <Name>Glass</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Images\Button\JXOnlineI\Stick.wav">
+      <Name>Stick</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Images\Button\Checkbox1\Checked.png">
+      <Name>Checked</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="Images\MenuPanel\menuPanel4.png">
-      <Name>menuPanel4</Name>
+    <Compile Include="Images\Button\Checkbox1\UnChecked.png">
+      <Name>UnChecked</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
