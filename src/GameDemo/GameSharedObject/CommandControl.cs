@@ -141,6 +141,36 @@ namespace GameSharedObject
             }
         }
 
+        public static void ResearchTechnology(Player player)
+        {
+            if (player.StructureListCreated.Count == 0)
+            {
+                return;
+            }
+            List<int> temp = new List<int>();
+            for (int i = 0; i < player.StructureListCreated.Count; i++)
+            {
+                if (player.StructureListCreated[i] is ResearchStructure)
+                {
+                    temp.Add(i);
+                }
+            }
+            if (temp.Count == 0)
+            {
+                return;
+            }
+            Random ran = new Random(DateTime.Now.Millisecond);
+            ResearchStructure rstructure = (ResearchStructure)player.StructureListCreated[temp[ran.Next(0, temp.Count)]];
+            for (int i = 0; i < rstructure.ListTechnology.Count; i++)
+            {
+                if (rstructure.CheckConditionToReSearch(rstructure.ListTechnology[i]) == true)
+                {
+                    rstructure.DecreaseResourceToRearchTech(rstructure.ListTechnology[i]);
+                    rstructure.CurrentTechResearch = rstructure.ListTechnology[i].Clone();
+                }
+            }
+        }
+
         public static void IncreaseResource(Player player, int value, string resourceName)
         {
             player.Resources[resourceName].Quantity += value;
