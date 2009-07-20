@@ -47,7 +47,7 @@ namespace GameSharedObject.Data
             GlobalDTO.PATH_TO_MENU_IMAGE = xmlDoc.SelectSingleNode("PATH_TO_MENU_IMAGE").InnerText;
 
             GlobalDTO.MINIMAP = xmlDoc.SelectSingleNode("MINIMAP").InnerText;
-            GlobalDTO.CURSOR = xmlDoc.SelectSingleNode("CURSOR").InnerText;
+            GlobalDTO.CURSOR_NOMAL = xmlDoc.SelectSingleNode("CURSOR").InnerText;
             GlobalDTO.MENU_PANEL_BOTTOM = xmlDoc.SelectSingleNode("MENU_PANEL_BOTTOM").InnerText;
             GlobalDTO.MENU_PANEL_TOP = xmlDoc.SelectSingleNode("MENU_PANEL_TOP").InnerText;
             GlobalDTO.MAP = xmlDoc.SelectSingleNode("MAP").InnerText;
