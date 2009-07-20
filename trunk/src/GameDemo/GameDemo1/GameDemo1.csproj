@@ -101,7 +101,9 @@
     <Compile Include="Factory\UnitManager.cs" />
     <Compile Include="GameInit.cs" />
     <Compile Include="LoadingScene.cs" />
-    <Compile Include="MainGame.cs" />
+    <Compile Include="MainGame.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ManagerPlayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
