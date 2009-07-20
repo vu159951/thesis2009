@@ -26,7 +26,7 @@ namespace GameSharedObject.DTO
         public static Size CURRENT_CELL_SIZE = new Size(97, 49);   // get in map initialization
         public static Vector2 SPEED_SCROLL = new Vector2(15, 15);
         public static Size MAP_SIZE_IN_CELL = new Size(80, 80);
-        public static Size CURSOR_SIZE = new Size(13, 16);
+        public static Size CURSOR_SIZE = new Size(18, 21);
         public static Vector2 START_COORDINATE = new Vector2(2000, 2000);
         public static Vector2 CURRENT_COORDINATE = START_COORDINATE;
 
@@ -53,7 +53,8 @@ namespace GameSharedObject.DTO
         public static string PATH_TO_MENU_IMAGE = "Images\\MenuPanel\\";
         
         public static string MINIMAP = "MiniMap1";
-        public static string CURSOR = "cursor2";
+        public static string CURSOR_NOMAL = "cursor2";
+        public static string CURSOR_SPECIAL = "cursor3";
         public static string MENU_PANEL_BOTTOM = "menuPanel2";
         public static string MENU_PANEL_TOP = "menuPanel2";
         public static string MAP = "Map_01";
