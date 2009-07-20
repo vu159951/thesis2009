@@ -77,104 +77,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Sprites\Structure\Animal\Animal1.png">
-      <Name>Animal1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Sprites\Structure\Animal\Animal2.png">
-      <Name>Animal2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Sprites\Structure\Animal\Animal3.png">
-      <Name>Animal3</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Sprites\Structure\Animal\construction.png">
-      <Name>construction</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Sprites\Structure\Animal\Icon.png">
-      <Name>Icon</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Sprites\Structure\Military\construction.png">
-      <Name>construction</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Sprites\Structure\Military\Icon.png">
-      <Name>Icon</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Sprites\Structure\Military\Military1.png">
-      <Name>Military1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Sprites\Structure\Military\Military2.png">
-      <Name>Military2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Sprites\Structure\Military\Military3.png">
-      <Name>Military3</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Sprites\Structure\TownHall\construction.png">
-      <Name>construction</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Sprites\Structure\TownHall\Icon.png">
-      <Name>Icon</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Sprites\Structure\TownHall\TownHall1.png">
-      <Name>TownHall1</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Sprites\Structure\TownHall\TownHall2.png">
-      <Name>TownHall2</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Sprites\Terrain\Cactatus_1.png">
       <Name>Cactatus_1</Name>
       <Importer>TextureImporter</Importer>
@@ -31673,38 +31575,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Sprites\Structure\Smithy\000_Smithy_DEAD.2.01.png">
-      <Name>000_Smithy_DEAD.2.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Structure\Smithy\001_Smithy_IDLE.2.01.png">
-      <Name>001_Smithy_IDLE.2.01</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Structure\Smithy\002_Smithy_IDLE.2.02.png">
-      <Name>002_Smithy_IDLE.2.02</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Structure\Smithy\003_Smithy_IDLE.2.03.png">
-      <Name>003_Smithy_IDLE.2.03</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Structure\Smithy\004_Smithy_IDLE.2.04.png">
-      <Name>004_Smithy_IDLE.2.04</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Sprites\Structure\Smithy\Icon.png">
-      <Name>Icon</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Images\Icon\Health.png">
       <Name>Health</Name>
       <Importer>TextureImporter</Importer>
@@ -31781,6 +31651,1232 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Castle_01\000_Castle_01_DEAD.2.01.png">
+      <Name>000_Castle_01_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Castle_01\001_Castle_01_IDLE.2.01.png">
+      <Name>001_Castle_01_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Castle_01\002_Castle_01_IDLE.2.02.png">
+      <Name>002_Castle_01_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Castle_01\003_Castle_01_IDLE.2.03.png">
+      <Name>003_Castle_01_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Dwarf_Domicile_01\000_Dwarf_Domicile_01_DEAD.2.01.png">
+      <Name>000_Dwarf_Domicile_01_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Dwarf_Domicile_01\001_Dwarf_Domicile_01_IDLE.2.01.png">
+      <Name>001_Dwarf_Domicile_01_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Dwarf_Domicile_01\002_Dwarf_Domicile_01_IDLE.2.02.png">
+      <Name>002_Dwarf_Domicile_01_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Dwarf_Domicile_01\003_Dwarf_Domicile_01_IDLE.2.03.png">
+      <Name>003_Dwarf_Domicile_01_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Elf_Domicile_01\000_Elf_Domicile_01_DEAD.2.01.png">
+      <Name>000_Elf_Domicile_01_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Elf_Domicile_01\001_Elf_Domicile_01_IDLE.2.01.png">
+      <Name>001_Elf_Domicile_01_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Elf_Domicile_01\002_Elf_Domicile_01_IDLE.2.02.png">
+      <Name>002_Elf_Domicile_01_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Elf_Domicile_01\003_Elf_Domicile_01_IDLE.2.03.png">
+      <Name>003_Elf_Domicile_01_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Elf_Domicile_01\004_Elf_Domicile_01_IDLE.2.04.png">
+      <Name>004_Elf_Domicile_01_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Elf_Domicile_01\005_Elf_Domicile_01_IDLE.2.05.png">
+      <Name>005_Elf_Domicile_01_IDLE.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Frostling_House_01\000_Frostling_House_01_DEAD.2.01.png">
+      <Name>000_Frostling_House_01_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Frostling_House_01\001_Frostling_House_01_IDLE.2.01.png">
+      <Name>001_Frostling_House_01_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Frostling_House_01\002_Frostling_House_01_IDLE.2.02.png">
+      <Name>002_Frostling_House_01_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Frostling_House_01\003_Frostling_House_01_IDLE.2.03.png">
+      <Name>003_Frostling_House_01_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Frostling_House_01\004_Frostling_House_01_IDLE.2.04.png">
+      <Name>004_Frostling_House_01_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Frostling_House_01\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Human_House_01\000_Human_House_01_DEAD.2.01.png">
+      <Name>000_Human_House_01_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Human_House_01\001_Human_House_01_IDLE.2.01.png">
+      <Name>001_Human_House_01_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Human_House_01\002_Human_House_01_IDLE.2.02.png">
+      <Name>002_Human_House_01_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Human_House_01\003_Human_House_01_IDLE.2.03.png">
+      <Name>003_Human_House_01_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Human_House_01\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Medical_Station_01\000_Medical_Station_01_DEAD.2.01.png">
+      <Name>000_Medical_Station_01_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Medical_Station_01\001_Medical_Station_01_IDLE.2.01.png">
+      <Name>001_Medical_Station_01_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Medical_Station_01\002_Medical_Station_01_IDLE.2.02.png">
+      <Name>002_Medical_Station_01_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Medical_Station_01\003_Medical_Station_01_IDLE.2.03.png">
+      <Name>003_Medical_Station_01_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Medical_Station_01\004_Medical_Station_01_IDLE.2.04.png">
+      <Name>004_Medical_Station_01_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Medical_Station_01\005_Medical_Station_01_IDLE.2.05.png">
+      <Name>005_Medical_Station_01_IDLE.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Resource_Building_01\000_Resource_Building_01_DEAD.2.01.png">
+      <Name>000_Resource_Building_01_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Resource_Building_01\001_Resource_Building_01_IDLE.2.01.png">
+      <Name>001_Resource_Building_01_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Resource_Building_01\002_Resource_Building_01_IDLE.2.02.png">
+      <Name>002_Resource_Building_01_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Resource_Building_01\003_Resource_Building_01_IDLE.2.03.png">
+      <Name>003_Resource_Building_01_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Resource_Building_01\004_Resource_Building_01_IDLE.2.04.png">
+      <Name>004_Resource_Building_01_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Resource_Building_01\005_Resource_Building_01_IDLE.2.05.png">
+      <Name>005_Resource_Building_01_IDLE.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Smithy_01\000_Smithy_01_DEAD.2.01.png">
+      <Name>000_Smithy_01_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Smithy_01\001_Smithy_01_IDLE.2.01.png">
+      <Name>001_Smithy_01_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Smithy_01\002_Smithy_01_IDLE.2.02.png">
+      <Name>002_Smithy_01_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Smithy_01\003_Smithy_01_IDLE.2.03.png">
+      <Name>003_Smithy_01_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Smithy_01\004_Smithy_01_IDLE.2.04.png">
+      <Name>004_Smithy_01_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Smithy_01\005_Smithy_01_IDLE.2.05.png">
+      <Name>005_Smithy_01_IDLE.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Tigran_Building_01\000_Tigran_Building_01_DEAD.2.01.png">
+      <Name>000_Tigran_Building_01_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Tigran_Building_01\001_Tigran_Building_01_IDLE.2.01.png">
+      <Name>001_Tigran_Building_01_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Tigran_Building_01\002_Tigran_Building_01_IDLE.2.02.png">
+      <Name>002_Tigran_Building_01_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Tigran_Building_01\003_Tigran_Building_01_IDLE.2.03.png">
+      <Name>003_Tigran_Building_01_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Tigran_Building_01\004_Tigran_Building_01_IDLE.2.04.png">
+      <Name>004_Tigran_Building_01_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Castle_01\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Dwarf_Domicile_01\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Elf_Domicile_01\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Medical_Station_01\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Resource_Building_01\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Smithy_01\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Tigran_Building_01\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Human_House_01\004_Human_House_01_IDLE.2.04.png">
+      <Name>004_Human_House_01_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Frostling_House_01\005_Frostling_House_01_IDLE.2.05.png">
+      <Name>005_Frostling_House_01_IDLE.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Castle_02\000_Castle_02_DEAD.2.01.png">
+      <Name>000_Castle_02_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Castle_02\001_Castle_02_IDLE.2.01.png">
+      <Name>001_Castle_02_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Castle_02\002_Castle_02_IDLE.2.02.png">
+      <Name>002_Castle_02_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Castle_02\003_Castle_02_IDLE.2.03.png">
+      <Name>003_Castle_02_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Dwarf_Domicile_02\000_Dwarf_Domicile_02_DEAD.2.01.png">
+      <Name>000_Dwarf_Domicile_02_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Dwarf_Domicile_02\001_Dwarf_Domicile_02_IDLE.2.01.png">
+      <Name>001_Dwarf_Domicile_02_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Dwarf_Domicile_02\002_Dwarf_Domicile_02_IDLE.2.02.png">
+      <Name>002_Dwarf_Domicile_02_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Dwarf_Domicile_02\003_Dwarf_Domicile_02_IDLE.2.03.png">
+      <Name>003_Dwarf_Domicile_02_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Elf_Domicile_02\000_Elf_Domicile_02_DEAD.2.01.png">
+      <Name>000_Elf_Domicile_02_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Elf_Domicile_02\001_Elf_Domicile_02_IDLE.2.01.png">
+      <Name>001_Elf_Domicile_02_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Elf_Domicile_02\002_Elf_Domicile_02_IDLE.2.02.png">
+      <Name>002_Elf_Domicile_02_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Elf_Domicile_02\003_Elf_Domicile_02_IDLE.2.03.png">
+      <Name>003_Elf_Domicile_02_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Elf_Domicile_02\004_Elf_Domicile_02_IDLE.2.04.png">
+      <Name>004_Elf_Domicile_02_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Elf_Domicile_02\005_Elf_Domicile_02_IDLE.2.05.png">
+      <Name>005_Elf_Domicile_02_IDLE.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Frostling_House_02\000_Frostling_House_02_DEAD.2.01.png">
+      <Name>000_Frostling_House_02_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Frostling_House_02\001_Frostling_House_02_IDLE.2.01.png">
+      <Name>001_Frostling_House_02_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Frostling_House_02\002_Frostling_House_02_IDLE.2.02.png">
+      <Name>002_Frostling_House_02_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Frostling_House_02\003_Frostling_House_02_IDLE.2.03.png">
+      <Name>003_Frostling_House_02_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Frostling_House_02\004_Frostling_House_02_IDLE.2.04.png">
+      <Name>004_Frostling_House_02_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Frostling_House_02\005_Frostling_House_02_IDLE.2.05.png">
+      <Name>005_Frostling_House_02_IDLE.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Human_House_02\000_Human_House_02_DEAD.2.01.png">
+      <Name>000_Human_House_02_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Human_House_02\001_Human_House_02_IDLE.2.01.png">
+      <Name>001_Human_House_02_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Human_House_02\002_Human_House_02_IDLE.2.02.png">
+      <Name>002_Human_House_02_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Human_House_02\003_Human_House_02_IDLE.2.03.png">
+      <Name>003_Human_House_02_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Human_House_02\004_Human_House_02_IDLE.2.04.png">
+      <Name>004_Human_House_02_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Medical_Station_02\000_Medical_Station_02_DEAD.2.01.png">
+      <Name>000_Medical_Station_02_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Medical_Station_02\001_Medical_Station_02_IDLE.2.01.png">
+      <Name>001_Medical_Station_02_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Medical_Station_02\002_Medical_Station_02_IDLE.2.02.png">
+      <Name>002_Medical_Station_02_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Medical_Station_02\003_Medical_Station_02_IDLE.2.03.png">
+      <Name>003_Medical_Station_02_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Medical_Station_02\004_Medical_Station_02_IDLE.2.04.png">
+      <Name>004_Medical_Station_02_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Medical_Station_02\005_Medical_Station_02_IDLE.2.05.png">
+      <Name>005_Medical_Station_02_IDLE.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Resource_Building_02\000_Resource_Building_02_DEAD.2.01.png">
+      <Name>000_Resource_Building_02_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Resource_Building_02\001_Resource_Building_02_IDLE.2.01.png">
+      <Name>001_Resource_Building_02_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Resource_Building_02\002_Resource_Building_02_IDLE.2.02.png">
+      <Name>002_Resource_Building_02_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Resource_Building_02\003_Resource_Building_02_IDLE.2.03.png">
+      <Name>003_Resource_Building_02_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Resource_Building_02\004_Resource_Building_02_IDLE.2.04.png">
+      <Name>004_Resource_Building_02_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Resource_Building_02\005_Resource_Building_02_IDLE.2.05.png">
+      <Name>005_Resource_Building_02_IDLE.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Smithy_02\000_Smithy_02_DEAD.2.01.png">
+      <Name>000_Smithy_02_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Smithy_02\001_Smithy_02_IDLE.2.01.png">
+      <Name>001_Smithy_02_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Smithy_02\002_Smithy_02_IDLE.2.02.png">
+      <Name>002_Smithy_02_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Smithy_02\003_Smithy_02_IDLE.2.03.png">
+      <Name>003_Smithy_02_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Smithy_02\004_Smithy_02_IDLE.2.04.png">
+      <Name>004_Smithy_02_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Smithy_02\005_Smithy_02_IDLE.2.05.png">
+      <Name>005_Smithy_02_IDLE.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Tigran_Building_02\000_Tigran_Building_02_DEAD.2.01.png">
+      <Name>000_Tigran_Building_02_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Tigran_Building_02\001_Tigran_Building_02_IDLE.2.01.png">
+      <Name>001_Tigran_Building_02_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Tigran_Building_02\002_Tigran_Building_02_IDLE.2.02.png">
+      <Name>002_Tigran_Building_02_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Tigran_Building_02\003_Tigran_Building_02_IDLE.2.03.png">
+      <Name>003_Tigran_Building_02_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Tigran_Building_02\004_Tigran_Building_02_IDLE.2.04.png">
+      <Name>004_Tigran_Building_02_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Castle_02\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Dwarf_Domicile_02\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Elf_Domicile_02\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Frostling_House_02\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Human_House_02\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Medical_Station_02\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Resource_Building_02\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Smithy_02\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Tigran_Building_02\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Castle_03\000_Castle_03_DEAD.2.01.png">
+      <Name>000_Castle_03_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Castle_03\001_Castle_03_IDLE.2.01.png">
+      <Name>001_Castle_03_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Castle_03\002_Castle_03_IDLE.2.02.png">
+      <Name>002_Castle_03_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Castle_03\003_Castle_03_IDLE.2.03.png">
+      <Name>003_Castle_03_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Dwarf_Domicile_03\000_Dwarf_Domicile_03_DEAD.2.01.png">
+      <Name>000_Dwarf_Domicile_03_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Dwarf_Domicile_03\001_Dwarf_Domicile_03_IDLE.2.01.png">
+      <Name>001_Dwarf_Domicile_03_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Dwarf_Domicile_03\002_Dwarf_Domicile_03_IDLE.2.02.png">
+      <Name>002_Dwarf_Domicile_03_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Dwarf_Domicile_03\003_Dwarf_Domicile_03_IDLE.2.03.png">
+      <Name>003_Dwarf_Domicile_03_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Elf_Domicile_03\000_Elf_Domicile_03_DEAD.2.01.png">
+      <Name>000_Elf_Domicile_03_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Elf_Domicile_03\001_Elf_Domicile_03_IDLE.2.01.png">
+      <Name>001_Elf_Domicile_03_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Elf_Domicile_03\002_Elf_Domicile_03_IDLE.2.02.png">
+      <Name>002_Elf_Domicile_03_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Elf_Domicile_03\003_Elf_Domicile_03_IDLE.2.03.png">
+      <Name>003_Elf_Domicile_03_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Elf_Domicile_03\004_Elf_Domicile_03_IDLE.2.04.png">
+      <Name>004_Elf_Domicile_03_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Elf_Domicile_03\005_Elf_Domicile_03_IDLE.2.05.png">
+      <Name>005_Elf_Domicile_03_IDLE.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Frostling_House_03\000_Frostling_House_03_DEAD.2.01.png">
+      <Name>000_Frostling_House_03_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Frostling_House_03\001_Frostling_House_03_IDLE.2.01.png">
+      <Name>001_Frostling_House_03_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Frostling_House_03\002_Frostling_House_03_IDLE.2.02.png">
+      <Name>002_Frostling_House_03_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Frostling_House_03\003_Frostling_House_03_IDLE.2.03.png">
+      <Name>003_Frostling_House_03_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Frostling_House_03\004_Frostling_House_03_IDLE.2.04.png">
+      <Name>004_Frostling_House_03_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Frostling_House_03\005_Frostling_House_03_IDLE.2.05.png">
+      <Name>005_Frostling_House_03_IDLE.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Human_House_03\000_Human_House_03_DEAD.2.01.png">
+      <Name>000_Human_House_03_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Human_House_03\001_Human_House_03_IDLE.2.01.png">
+      <Name>001_Human_House_03_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Human_House_03\002_Human_House_03_IDLE.2.02.png">
+      <Name>002_Human_House_03_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Human_House_03\003_Human_House_03_IDLE.2.03.png">
+      <Name>003_Human_House_03_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Human_House_03\004_Human_House_03_IDLE.2.04.png">
+      <Name>004_Human_House_03_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Medical_Station_03\000_Medical_Station_03_DEAD.2.01.png">
+      <Name>000_Medical_Station_03_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Medical_Station_03\001_Medical_Station_03_IDLE.2.01.png">
+      <Name>001_Medical_Station_03_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Medical_Station_03\002_Medical_Station_03_IDLE.2.02.png">
+      <Name>002_Medical_Station_03_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Medical_Station_03\003_Medical_Station_03_IDLE.2.03.png">
+      <Name>003_Medical_Station_03_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Medical_Station_03\004_Medical_Station_03_IDLE.2.04.png">
+      <Name>004_Medical_Station_03_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Medical_Station_03\005_Medical_Station_03_IDLE.2.05.png">
+      <Name>005_Medical_Station_03_IDLE.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Resource_Building_03\000_Resource_Building_03_DEAD.2.01.png">
+      <Name>000_Resource_Building_03_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Resource_Building_03\001_Resource_Building_03_IDLE.2.01.png">
+      <Name>001_Resource_Building_03_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Resource_Building_03\002_Resource_Building_03_IDLE.2.02.png">
+      <Name>002_Resource_Building_03_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Resource_Building_03\003_Resource_Building_03_IDLE.2.03.png">
+      <Name>003_Resource_Building_03_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Resource_Building_03\004_Resource_Building_03_IDLE.2.04.png">
+      <Name>004_Resource_Building_03_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Resource_Building_03\005_Resource_Building_03_IDLE.2.05.png">
+      <Name>005_Resource_Building_03_IDLE.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Smithy_03\000_Smithy_03_DEAD.2.01.png">
+      <Name>000_Smithy_03_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Smithy_03\001_Smithy_03_IDLE.2.01.png">
+      <Name>001_Smithy_03_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Smithy_03\002_Smithy_03_IDLE.2.02.png">
+      <Name>002_Smithy_03_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Smithy_03\003_Smithy_03_IDLE.2.03.png">
+      <Name>003_Smithy_03_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Smithy_03\004_Smithy_03_IDLE.2.04.png">
+      <Name>004_Smithy_03_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Smithy_03\005_Smithy_03_IDLE.2.05.png">
+      <Name>005_Smithy_03_IDLE.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Tigran_Building_03\000_Tigran_Building_03_DEAD.2.01.png">
+      <Name>000_Tigran_Building_03_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Tigran_Building_03\001_Tigran_Building_03_IDLE.2.01.png">
+      <Name>001_Tigran_Building_03_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Tigran_Building_03\002_Tigran_Building_03_IDLE.2.02.png">
+      <Name>002_Tigran_Building_03_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Tigran_Building_03\003_Tigran_Building_03_IDLE.2.03.png">
+      <Name>003_Tigran_Building_03_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Tigran_Building_03\004_Tigran_Building_03_IDLE.2.04.png">
+      <Name>004_Tigran_Building_03_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Castle_03\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Dwarf_Domicile_03\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Elf_Domicile_03\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Frostling_House_03\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Human_House_03\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Medical_Station_03\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Resource_Building_03\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Smithy_03\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Tigran_Building_03\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Castle_04\000_Castle_04_DEAD.2.01.png">
+      <Name>000_Castle_04_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Castle_04\001_Castle_04_IDLE.2.01.png">
+      <Name>001_Castle_04_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Castle_04\002_Castle_04_IDLE.2.02.png">
+      <Name>002_Castle_04_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Castle_04\003_Castle_04_IDLE.2.03.png">
+      <Name>003_Castle_04_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Dwarf_Domicile_04\000_Dwarf_Domicile_04_DEAD.2.01.png">
+      <Name>000_Dwarf_Domicile_04_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Dwarf_Domicile_04\001_Dwarf_Domicile_04_IDLE.2.01.png">
+      <Name>001_Dwarf_Domicile_04_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Dwarf_Domicile_04\002_Dwarf_Domicile_04_IDLE.2.02.png">
+      <Name>002_Dwarf_Domicile_04_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Dwarf_Domicile_04\003_Dwarf_Domicile_04_IDLE.2.03.png">
+      <Name>003_Dwarf_Domicile_04_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Elf_Domicile_04\000_Elf_Domicile_04_DEAD.2.01.png">
+      <Name>000_Elf_Domicile_04_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Elf_Domicile_04\001_Elf_Domicile_04_IDLE.2.01.png">
+      <Name>001_Elf_Domicile_04_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Elf_Domicile_04\002_Elf_Domicile_04_IDLE.2.02.png">
+      <Name>002_Elf_Domicile_04_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Elf_Domicile_04\003_Elf_Domicile_04_IDLE.2.03.png">
+      <Name>003_Elf_Domicile_04_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Elf_Domicile_04\004_Elf_Domicile_04_IDLE.2.04.png">
+      <Name>004_Elf_Domicile_04_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Elf_Domicile_04\005_Elf_Domicile_04_IDLE.2.05.png">
+      <Name>005_Elf_Domicile_04_IDLE.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Frostling_House_04\000_Frostling_House_04_DEAD.2.01.png">
+      <Name>000_Frostling_House_04_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Frostling_House_04\001_Frostling_House_04_IDLE.2.01.png">
+      <Name>001_Frostling_House_04_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Frostling_House_04\002_Frostling_House_04_IDLE.2.02.png">
+      <Name>002_Frostling_House_04_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Frostling_House_04\003_Frostling_House_04_IDLE.2.03.png">
+      <Name>003_Frostling_House_04_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Frostling_House_04\004_Frostling_House_04_IDLE.2.04.png">
+      <Name>004_Frostling_House_04_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Frostling_House_04\005_Frostling_House_04_IDLE.2.05.png">
+      <Name>005_Frostling_House_04_IDLE.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Human_House_04\000_Human_House_04_DEAD.2.01.png">
+      <Name>000_Human_House_04_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Human_House_04\001_Human_House_04_IDLE.2.01.png">
+      <Name>001_Human_House_04_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Human_House_04\002_Human_House_04_IDLE.2.02.png">
+      <Name>002_Human_House_04_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Human_House_04\003_Human_House_04_IDLE.2.03.png">
+      <Name>003_Human_House_04_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Human_House_04\004_Human_House_04_IDLE.2.04.png">
+      <Name>004_Human_House_04_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Medical_Station_04\000_Medical_Station_04_DEAD.2.01.png">
+      <Name>000_Medical_Station_04_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Medical_Station_04\001_Medical_Station_04_IDLE.2.01.png">
+      <Name>001_Medical_Station_04_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Medical_Station_04\002_Medical_Station_04_IDLE.2.02.png">
+      <Name>002_Medical_Station_04_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Medical_Station_04\003_Medical_Station_04_IDLE.2.03.png">
+      <Name>003_Medical_Station_04_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Medical_Station_04\004_Medical_Station_04_IDLE.2.04.png">
+      <Name>004_Medical_Station_04_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Medical_Station_04\005_Medical_Station_04_IDLE.2.05.png">
+      <Name>005_Medical_Station_04_IDLE.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Resource_Building_04\000_Resource_Building_04_DEAD.2.01.png">
+      <Name>000_Resource_Building_04_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Resource_Building_04\001_Resource_Building_04_IDLE.2.01.png">
+      <Name>001_Resource_Building_04_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Resource_Building_04\002_Resource_Building_04_IDLE.2.02.png">
+      <Name>002_Resource_Building_04_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Resource_Building_04\003_Resource_Building_04_IDLE.2.03.png">
+      <Name>003_Resource_Building_04_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Resource_Building_04\004_Resource_Building_04_IDLE.2.04.png">
+      <Name>004_Resource_Building_04_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Resource_Building_04\005_Resource_Building_04_IDLE.2.05.png">
+      <Name>005_Resource_Building_04_IDLE.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Smithy_04\000_Smithy_04_DEAD.2.01.png">
+      <Name>000_Smithy_04_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Smithy_04\001_Smithy_04_IDLE.2.01.png">
+      <Name>001_Smithy_04_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Smithy_04\002_Smithy_04_IDLE.2.02.png">
+      <Name>002_Smithy_04_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Smithy_04\003_Smithy_04_IDLE.2.03.png">
+      <Name>003_Smithy_04_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Smithy_04\004_Smithy_04_IDLE.2.04.png">
+      <Name>004_Smithy_04_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Smithy_04\005_Smithy_04_IDLE.2.05.png">
+      <Name>005_Smithy_04_IDLE.2.05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Tigran_Building_04\000_Tigran_Building_04_DEAD.2.01.png">
+      <Name>000_Tigran_Building_04_DEAD.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Tigran_Building_04\001_Tigran_Building_04_IDLE.2.01.png">
+      <Name>001_Tigran_Building_04_IDLE.2.01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Tigran_Building_04\002_Tigran_Building_04_IDLE.2.02.png">
+      <Name>002_Tigran_Building_04_IDLE.2.02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Tigran_Building_04\003_Tigran_Building_04_IDLE.2.03.png">
+      <Name>003_Tigran_Building_04_IDLE.2.03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprites\Structure\Tigran_Building_04\004_Tigran_Building_04_IDLE.2.04.png">
+      <Name>004_Tigran_Building_04_IDLE.2.04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Castle_04\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Dwarf_Domicile_04\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Elf_Domicile_04\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Frostling_House_04\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Human_House_04\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Medical_Station_04\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Resource_Building_04\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Smithy_04\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprites\Structure\Tigran_Building_04\Icon.png">
+      <Name>Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Sprites\Structure\Draconian_Domicile_01\" />
+    <Folder Include="Sprites\Structure\Draconian_Domicile_02\" />
+    <Folder Include="Sprites\Structure\Draconian_Domicile_03\" />
+    <Folder Include="Sprites\Structure\Draconian_Domicile_04\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\v3.0\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
