@@ -151,7 +151,7 @@ namespace GameDemo1
                         namestructure[i] = s.Value.Info.Name;
                         i++;
                     }
-                    Structure newstructure = ((Structure)this._game.StructureMgr[namestructure[ran.Next(0, namestructure.Length)]]).Clone() as Structure;                    
+                    Structure newstructure = ((Structure)this.ModelStructureList[namestructure[ran.Next(0, namestructure.Length)]]).Clone() as Structure;                    
                     //// lấy list tên các unit mà structure này có khả năng sinh ra
                     newstructure.ModelUnitList = new List<Unit>();
                     List<ItemInfo> uList = ((StructureDTO)newstructure.Info).UnitList;
