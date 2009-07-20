@@ -1,18 +1,18 @@
 ﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
   <PropertyGroup>
-    <ProjectGuid>{E7A14BCC-F2FE-47FB-AE47-CE3B3554EE31}</ProjectGuid>
+    <ProjectGuid>{10793DBF-D5D9-4AAE-8135-DBC68492B4A3}</ProjectGuid>
     <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GameAI</RootNamespace>
-    <AssemblyName>GameAI</AssemblyName>
+    <RootNamespace>GameComputer</RootNamespace>
+    <AssemblyName>Easy</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <XnaFrameworkVersion>v3.0</XnaFrameworkVersion>
     <XnaPlatform>Windows</XnaPlatform>
-    <XnaCrossPlatformGroupID>b77997dc-224d-4ad0-8086-965b40cfae8d</XnaCrossPlatformGroupID>
-    <PublishUrl>http://localhost/GameAI/</PublishUrl>
+    <XnaCrossPlatformGroupID>a7a72bd8-2d96-4e83-9d0d-1c34433b055b</XnaCrossPlatformGroupID>
+    <PublishUrl>http://localhost/Easy/</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -90,7 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <NestedContentProject Include="Content\Content.contentproj">
-      <Project>057580ae-5601-476f-8251-7e852340d513</Project>
+      <Project>57111803-6006-4ba0-b56e-5223344c03fe</Project>
       <Visible>False</Visible>
     </NestedContentProject>
   </ItemGroup>
