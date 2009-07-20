@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sprite name="Dwarf_Domicile_02" type="Structure" path="Sprites\\Structure\\Dwarf_Domicile_02\\">
+  <!-- Default icon image: Icon.png  -->
+  <Informations>
+    <Info type="" name="MaxHealth" value="400" />
+    <Info type="" name="Power" value="0" />
+    <Info type="" name="RadiusAttack" value="0" />
+    <Info type="" name="RadiusDetect" value="0" />
+    <Info type="" name="Speed" value="0" />
+  </Informations>
+  <Requirements>
+    <Upgrade name="1" id="1" >
+      <Info type="" name="Stone" value="5000" />
+      <Info type="" name="Gold" value="4000" />
+      <Info type="" name="Time" value="30"/>
+      <Info type="Structure" name="Logic2" value="Military"/>
+    </Upgrade>
+    <Upgrade name="2" id="2" >
+      <Info type="" name="Stone" value="10000" />
+      <Info type="" name="Gold" value="8000" />
+      <Info type="" name="Time" value="45"/>
+    </Upgrade>
+  </Requirements>
+  <ListUnits>
+    <Unit type="" name="Unicorn" upgradeId="1" />
+    <Unit type="" name="Wolf" upgradeId="1" />
+    <Unit type="" name="Phoenix" upgradeId="1" />
+  </ListUnits>
+  <ListTechnology>
+  </ListTechnology>
+  <Action>
+    <DEAD>
+      <E>
+      </E>
+      <EN>
+      </EN>
+      <ES>
+        <Image name="000_Dwarf_Domicile_02_DEAD.2.01" />
+      </ES>
+      <N>
+      </N>
+      <S>
+      </S>
+      <W>
+      </W>
+      <WN>
+      </WN>
+      <WS>
+      </WS>
+    </DEAD>
+    <HIT>
+      <E>
+      </E>
+      <EN>
+      </EN>
+      <ES>
+      </ES>
+      <N>
+      </N>
+      <S>
+      </S>
+      <W>
+      </W>
+      <WN>
+      </WN>
+      <WS>
+      </WS>
+    </HIT>
+    <IDLE>
+      <E>
+      </E>
+      <EN>
+      </EN>
+      <ES>
+        <Image name="001_Dwarf_Domicile_02_IDLE.2.01" />
+        <Image name="002_Dwarf_Domicile_02_IDLE.2.02" />
+        <Image name="003_Dwarf_Domicile_02_IDLE.2.03" />
+      </ES>
+      <N>
+      </N>
+      <S>
+      </S>
+      <W>
+      </W>
+      <WN>
+      </WN>
+      <WS>
+      </WS>
+    </IDLE>
+    <MOVE>
+      <E>
+      </E>
+      <EN>
+      </EN>
+      <ES>
+      </ES>
+      <N>
+      </N>
+      <S>
+      </S>
+      <W>
+      </W>
+      <WN>
+      </WN>
+      <WS>
+      </WS>
+    </MOVE>
+  </Action>
+</Sprite>
