@@ -144,11 +144,11 @@ namespace GameDemo1
                 }
                 else if (nameAction == "BuyStructure")
                 {
-                    string[] namestructure = new string[this._game.StructureMgr.Count];
+                    string[] namestructure = new string[this.ModelStructureList.Count];
                     int i = 0;
-                    foreach (KeyValuePair<String, Sprite> structure in this._game.StructureMgr)
+                    foreach (KeyValuePair<String,Sprite> s in this.ModelStructureList)
                     {
-                        namestructure[i] = structure.Key;
+                        namestructure[i] = s.Value.Info.Name;
                         i++;
                     }
                     Structure newstructure = ((Structure)this._game.StructureMgr[namestructure[ran.Next(0, namestructure.Length)]]).Clone() as Structure;                    
@@ -170,8 +170,10 @@ namespace GameDemo1
                 {                    
                     CommandControl.RollBackBuyUnit(this);
                 }
-                else if (nameAction == "UpgradeStructure")
-                { }
+                else if (nameAction == "Researchtechnnology")
+                {
+                    CommandControl.ResearchTechnology(this);
+                }
             }
         }
 
