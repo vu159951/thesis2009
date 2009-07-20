@@ -5,8 +5,8 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("GameAI")]
-[assembly: AssemblyProduct("GameAI")]
+[assembly: AssemblyTitle("Easy")]
+[assembly: AssemblyProduct("Easy")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyCompany("XMask")]
 [assembly: AssemblyCopyright("Copyright © XMask 2009")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("bab81625-18aa-430c-8a06-02dc45d8ad4f")]
+[assembly: Guid("10f66008-e372-4fca-a7bd-a67df73d4d7c")]
 
 // Version information for an assembly consists of the following four values:
 //
