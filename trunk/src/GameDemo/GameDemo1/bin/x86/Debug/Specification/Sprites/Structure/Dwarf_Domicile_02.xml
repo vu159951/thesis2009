@@ -13,7 +13,7 @@
       <Info type="" name="Stone" value="5000" />
       <Info type="" name="Gold" value="4000" />
       <Info type="" name="Time" value="30"/>
-      <Info type="Structure" name="Logic2" value="Military"/>
+            <Info type="Structure" name="Logic2" value="Human_House_02"/>
     </Upgrade>
     <Upgrade name="2" id="2" >
       <Info type="" name="Stone" value="10000" />
