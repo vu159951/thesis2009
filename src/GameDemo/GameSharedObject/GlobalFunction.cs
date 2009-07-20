@@ -52,6 +52,13 @@ namespace GameSharedObject
             }
             return result;
         }
+        public static bool PointInRectangle(Rectangle rec, Point p)
+        {
+            if (p.X >= rec.X && p.X <= rec.X + rec.Width &&
+                p.Y >= rec.Y && p.Y <= rec.Y + rec.Height)
+                return true;
+            return false;
+        }
 
         #region Alert for testing
         [DllImport("user32.dll", CharSet = CharSet.Auto)]
