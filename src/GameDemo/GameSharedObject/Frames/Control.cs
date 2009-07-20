@@ -98,6 +98,9 @@ namespace GameSharedObject.Frames
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         public override void Update(GameTime gameTime)
         {
+            if (!this.Game.IsActive)
+                return;
+
             // TODO: Add your update code here
             MouseState mState = Mouse.GetState();
             KeyboardState kState = Keyboard.GetState();
