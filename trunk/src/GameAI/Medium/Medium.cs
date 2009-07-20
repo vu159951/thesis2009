@@ -44,7 +44,7 @@ namespace GameComputer
         {
             AIDataReader reader = new AIDataReader();
             this._ai.Id = 3;
-            this._ai = reader.Load(GlobalDTO.SPEC_AI_PATH + GlobalDTO.ACTION_AI + GlobalDTO.SPEC_EXTENSION, this._ai.Id);
+            this._ai = reader.Load(GlobalDTO.SPEC_AI_PATH + GlobalDTO.AI_ACTION_FILE_NAME + GlobalDTO.SPEC_EXTENSION, this._ai.Id);
             this._delayTime = this._ai.Time;
             this._actionNames = new string[this._ai.Actions.Count];
             this._actionIds = new int[100];
