@@ -57,7 +57,8 @@ namespace GameSharedObject.DTO
         public static string MENU_PANEL_BOTTOM = "menuPanel2";
         public static string MENU_PANEL_TOP = "menuPanel2";
         public static string MAP = "Map_01";
-        public static string ACTION_AI = "Action";
+        public static string AI_ACTION_FILE_NAME = "Action";
+        public static string AI_ACTION_PATH = "AIPlugins\\";
 
         public static string OBJ_UNIT_PATH = "Objects\\Unit\\";
         public static string OBJ_TERRAIN_PATH = "Objects\\Terrain\\";
