@@ -9,11 +9,11 @@ namespace GameSharedObject.Frames
 {
     public class Progressbar: Control
     {
-        private String text;
         private Color _foreColor;
         private int _value;
         private bool _autoIncrease;
-
+        private String text;
+        private int lastTickCount;
         
         public delegate void ValueChangedHandler(object sender, int value);
         public event ValueChangedHandler ValueChanged;
@@ -51,8 +51,10 @@ namespace GameSharedObject.Frames
         public Progressbar(Game game)
             : base(game)
         {
-            _value = 0;
-            _autoIncrease = false;
+            this._value = 0;
+            this._autoIncrease = false;
+            this.text = "0%";
+            lastTickCount = Environment.TickCount;
         }
 
         public override void Update(GameTime gameTime)
@@ -61,9 +63,10 @@ namespace GameSharedObject.Frames
             if (_value == 100)
                 return;
 
-            if (_autoIncrease)
+            if (_autoIncrease && Environment.TickCount - lastTickCount >= 1000){
                 _value++;
-            text = String.Format("{0}%", _value);
+            }
+            this.text = String.Format("{0}%", _value);
             this.OnValueChanged(_value);
         }
         public override void Draw(GameTime gameTime)
@@ -91,6 +94,12 @@ namespace GameSharedObject.Frames
         public virtual void Start()
         {
             _autoIncrease = true;
+        }
+        public void Increase()
+        {
+            if (_value == 100)
+                return;
+            else _value++;
         }
         protected override void OnMouseDown(MouseEventArgs e)
         {
