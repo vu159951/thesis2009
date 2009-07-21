@@ -21,6 +21,7 @@ namespace GameDemo1.Factory
             attrList.Clear();
             codeGen.Load(GlobalDTO.OBJ_TEMPLATE_PATH + "ResourceCenter.cs");
             reader = new ResourceCenterDataReader();
+            attrList.Add("this.PercentSize", "1.5f");
             return base.Add(unitXmlPath, ObjSpritePath, SpecSpritePath);
         }
         /// <summary>
