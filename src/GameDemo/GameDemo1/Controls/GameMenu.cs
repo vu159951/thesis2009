@@ -29,13 +29,13 @@ namespace GameSharedObject.Controls
             btn1.ForeColor = Color.Yellow;
             btn1.Text = "New campaign";
             btn1.Location = new Point(80, 65);
-            // btn1.Click += new Button.ClickHandler(btn1_Click);
+            //btn1.Click += new Button.ClickHandler(btn1_Click);
             this.Controls.Add(btn1);
 
             GameButton btn1a = new GameButton(this.Game);
             btn1a.ForeColor = Color.Yellow;
-            btn1a.Text = "Save";
-            btn1a.Location = new Point(80, 125);
+            btn1a.Text = "Load";
+            btn1a.Location = new Point(80, 125);            
             this.Controls.Add(btn1a);
 
             GameButton btn2 = new GameButton(this.Game);
@@ -55,6 +55,6 @@ namespace GameSharedObject.Controls
             btn4.Text = "Exit";
             btn4.Location = new Point(80, 305);
             this.Controls.Add(btn4);
-        }
+        }        
     }
 }
