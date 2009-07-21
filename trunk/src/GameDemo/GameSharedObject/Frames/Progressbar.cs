@@ -9,19 +9,38 @@ namespace GameSharedObject.Frames
 {
     public class Progressbar: Control
     {
-        private String _text;
-        private SpriteFont _font;
+        private String text;
         private Color _foreColor;
+        private int _value;
+        private bool _autoIncrease;
 
-        public String Text
+        
+        public delegate void ValueChangedHandler(object sender, int value);
+        public event ValueChangedHandler ValueChanged;
+        protected void OnValueChanged(int value)
         {
-            get { return _text; }
-            set { _text = value; }
+            if (this.ValueChanged != null)
+                this.ValueChanged(this, value);
         }
-        public SpriteFont Font
+        protected SpriteFont font;
+        protected Texture2D barTexture;
+
+        public int Value
         {
-            get { return _font; }
-            set { _font = value; }
+            get { return _value; }
+            set 
+            {
+                if (value < 0)
+                    _value = 0;
+                else if (value > 100)
+                    _value = 100;
+                else _value = value; 
+            }
+        }
+        public bool AutoIncrease
+        {
+            get { return _autoIncrease; }
+            set { _autoIncrease = value; }
         }
         public Color ForeColor
         {
@@ -32,11 +51,20 @@ namespace GameSharedObject.Frames
         public Progressbar(Game game)
             : base(game)
         {
+            _value = 0;
+            _autoIncrease = false;
         }
 
         public override void Update(GameTime gameTime)
         {
             // TODO: nothing
+            if (_value == 100)
+                return;
+
+            if (_autoIncrease)
+                _value++;
+            text = String.Format("{0}%", _value);
+            this.OnValueChanged(_value);
         }
         public override void Draw(GameTime gameTime)
         {
@@ -44,14 +72,25 @@ namespace GameSharedObject.Frames
 
             // TODO: Add your draw code here
             spriteBatch.Draw(_background,
-                new Rectangle(this.Location.X + this.Parent.Location.X, this.Location.Y + this.Parent.Location.X, this.Size.Width, this.Size.Height),
+                new Rectangle(this.Location.X, this.Location.Y, this.Size.Width, this.Size.Height),
                 new Color(Color.White, (float)this._opacity * 0.01f));
+            int gama = (int)(this.Size.Width * 0.065f);
+            spriteBatch.Draw(barTexture,
+                            new Rectangle(this.Location.X + gama,
+                                this.Location.Y + (int)(this.Size.Height * 0.25f),
+                                (int)((this.Size.Width - 2 * gama) * _value * 0.01f),
+                                (int)(this.Size.Height * 0.5f)),
+                            new Color(Color.White, (float)this._opacity * 0.01f));
 
-            Vector2 size = _font.MeasureString(_text);
+            Vector2 size = font.MeasureString(text);
             Vector2 pos = new Vector2(
-                this.Parent.Location.X + this.Location.X + 5,
-                this.Parent.Location.Y + this.Location.Y);
-            spriteBatch.DrawString(_font, _text, pos, _foreColor);
+                this.Location.X + (int)((this.Size.Width - (int)size.X)>>1),
+                this.Location.Y + (int)((this.Size.Height - (int)size.Y)>>1));
+            spriteBatch.DrawString(font, text, pos, _foreColor);
+        }
+        public virtual void Start()
+        {
+            _autoIncrease = true;
         }
         protected override void OnMouseDown(MouseEventArgs e)
         {

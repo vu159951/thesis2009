@@ -10,6 +10,14 @@ namespace GameSharedObject.Frames
 {
     public class Label : Control
     {
+        public delegate void TextChangedHandler(object sender, EventArgs e);
+        public event TextChangedHandler TextChanged;
+        protected void OnTextChanged(EventArgs e)
+        {
+            if (this.TextChanged != null)
+                this.TextChanged(this, e);
+        }
+
         private String _text;
         private SpriteFont _font;
         private Color _foreColor;
@@ -17,7 +25,11 @@ namespace GameSharedObject.Frames
         public String Text
         {
             get { return _text; }
-            set { _text = value; }
+            set 
+            { 
+                _text = value;
+                this.OnTextChanged(new EventArgs());
+            }
         }
         public SpriteFont Font
         {
@@ -30,8 +42,14 @@ namespace GameSharedObject.Frames
             set { _foreColor = value; }
         }
 
+        #region Local variable
+        private Point parent;
+        #endregion
+
         public Label(Game game)
-            : base(game) { }
+            : base(game) {
+                parent = new Point(0, 0);
+        }
 
         /// <summary>
         /// Allows the game component to update itself.
@@ -42,6 +60,13 @@ namespace GameSharedObject.Frames
             // TODO: Add your update code here
 
             base.Update(gameTime);
+            if (this.Parent == null){
+                parent.X = 0;
+                parent.Y = 0;
+            }else{
+                parent.X = this.Location.X;
+                parent.Y = this.Location.Y;
+            }
         }
 
         /// <summary>
@@ -53,17 +78,19 @@ namespace GameSharedObject.Frames
             base.Draw(gameTime);
 
             // TODO: Add your draw code here
+            
+
             Vector2 pos = new Vector2(
-                this.Parent.Location.X + this.Location.X + 3,
-                this.Parent.Location.Y + this.Location.Y);
+               parent.X + this.Location.X + 3,
+                parent.Y + this.Location.Y);
             spriteBatch.DrawString(_font, _text, pos, _foreColor);
         }
         protected override bool IsMouseOnControl(MouseState state)
         {
-            if (state.X >= this.Location.X + this.Parent.Location.X &&
-                state.X <= this.Location.X + this.Parent.Location.X + this.Size.Width &&
-                state.Y >= this.Location.Y + this.Parent.Location.Y &&
-                state.Y <= this.Location.Y + this.Parent.Location.Y + this.Size.Height)
+            if (state.X >= this.Location.X + this.parent.X &&
+                state.X <= this.Location.X + parent.X + this.Size.Width &&
+                state.Y >= this.Location.Y + parent.Y &&
+                state.Y <= this.Location.Y + parent.Y + this.Size.Height)
                 return true;
             return false;
 
