@@ -70,7 +70,7 @@ namespace GameDemo1
                 this.Game.Components.Add(label);
             }
         }
-        public void Dispose()
+        public void Unload()
         {
             // clear screeb
             this.Game.Components.RemoveAt(0);
