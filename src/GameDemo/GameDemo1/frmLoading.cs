@@ -70,6 +70,14 @@ namespace GameDemo1
                 this.Game.Components.Add(label);
             }
         }
+        public void Dispose()
+        {
+            // clear screeb
+            this.Game.Components.RemoveAt(0);
+            this.Game.Components.RemoveAt(1);
+            this.Game.Components.RemoveAt(2);
+        }
+
         public void Increase()
         {
             pBar.Increase();

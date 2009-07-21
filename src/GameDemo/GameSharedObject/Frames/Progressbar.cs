@@ -65,6 +65,7 @@ namespace GameSharedObject.Frames
 
             if (_autoIncrease && Environment.TickCount - lastTickCount >= 1000){
                 _value++;
+                lastTickCount = Environment.TickCount;
             }
             this.text = String.Format("{0}%", _value);
             this.OnValueChanged(_value);
