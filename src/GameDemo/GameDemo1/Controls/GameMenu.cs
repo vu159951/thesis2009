@@ -57,7 +57,7 @@ namespace GameSharedObject.Controls
             this.Controls.Add(btn4);
         }
 
-        private void btn1_Click(object sender, MouseEventArgs e) 
+        private void btn1_Click(object sender, EventArgs e) 
         {
             GlobalFunction.MessageBox("Test function");
         }
