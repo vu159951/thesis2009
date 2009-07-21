@@ -16,7 +16,7 @@ namespace GameSharedObject.Controls
             this.barTexture = game.Content.Load<Texture2D>("Images\\Button\\Progressbar\\bar");
             this.Background = game.Content.Load<Texture2D>("Images\\Button\\Progressbar\\bgProgressbar");
             this.font = game.Content.Load<SpriteFont>("Images\\Button\\JXOnlineI\\Font");
-            this.ForeColor = Color.BurlyWood;
+            this.ForeColor = Color.Brown;
         }
     }
 }
