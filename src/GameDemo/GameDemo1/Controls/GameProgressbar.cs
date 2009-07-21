@@ -10,20 +10,13 @@ namespace GameSharedObject.Controls
 {
     public class GameProgressbar: Progressbar
     {
-
         public GameProgressbar(Game game)
             : base(game)
         {
-        }
-
-        public override void Update(GameTime gameTime)
-        {
-            base.Update(gameTime);
-        }
-        public override void Draw(GameTime gameTime)
-        {
-            base.Draw(gameTime);
-            // spriteBatch.Draw();
+            this.barTexture = game.Content.Load<Texture2D>("Images\\Button\\Progressbar\\bar");
+            this.Background = game.Content.Load<Texture2D>("Images\\Button\\Progressbar\\bgProgressbar");
+            this.font = game.Content.Load<SpriteFont>("Images\\Button\\JXOnlineI\\Font");
+            this.ForeColor = Color.BurlyWood;
         }
     }
 }

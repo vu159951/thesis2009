@@ -10,6 +10,14 @@ namespace GameSharedObject.Controls
 {
     public class GameButton: GameSharedObject.Frames.Button
     {
+        public delegate void TextChangedHandler(object sender, EventArgs e);
+        public event TextChangedHandler TextChanged;
+        protected void OnTextChanged(EventArgs e)
+        {
+            if (this.TextChanged != null)
+                this.TextChanged(this, e);
+        }
+
         private String _text;
         private SpriteFont _font;
         private Color _foreColor;
@@ -20,7 +28,11 @@ namespace GameSharedObject.Controls
         public String Text
         {
             get { return _text; }
-            set { _text = value; }
+            set
+            {
+                _text = value;
+                this.OnTextChanged(new EventArgs());
+            }
         }
         public SpriteFont Font
         {
