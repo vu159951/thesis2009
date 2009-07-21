@@ -90,6 +90,7 @@
     <Compile Include="Controls\GameCheckbox.cs" />
     <Compile Include="Controls\GameLabel.cs" />
     <Compile Include="Controls\GameProgressbar.cs" />
+    <Compile Include="Controls\GameScene.cs" />
     <Compile Include="Controls\GameTextbox.cs" />
     <Compile Include="Factory\CodeCompiler.cs" />
     <Compile Include="Factory\CodeGenerator.cs" />
@@ -101,7 +102,7 @@
     <Compile Include="Factory\StructureManager.cs" />
     <Compile Include="Factory\UnitManager.cs" />
     <Compile Include="GameInit.cs" />
-    <Compile Include="LoadingScene.cs" />
+    <Compile Include="frmLoading.cs" />
     <Compile Include="MainGame.cs">
       <SubType>Code</SubType>
     </Compile>
