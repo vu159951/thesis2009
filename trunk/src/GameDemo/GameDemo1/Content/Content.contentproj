@@ -32921,8 +32921,20 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Images\Pixel\Pixel.png">
-      <Name>Pixel</Name>
+    <Compile Include="Images\Button\Progressbar\bar.png">
+      <Name>bar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Images\Button\Progressbar\bgProgressbar.png">
+      <Name>bgProgressbar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Images\Background\style001.png">
+      <Name>style001</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
