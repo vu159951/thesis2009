@@ -32921,6 +32921,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Images\Pixel\Pixel.png">
+      <Name>Pixel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Folder Include="Sprites\Structure\Draconian_Domicile_01\" />
     <Folder Include="Sprites\Structure\Draconian_Domicile_02\" />
     <Folder Include="Sprites\Structure\Draconian_Domicile_03\" />
