@@ -89,6 +89,7 @@
     <Compile Include="Controls\GameButton.cs" />
     <Compile Include="Controls\GameCheckbox.cs" />
     <Compile Include="Controls\GameLabel.cs" />
+    <Compile Include="Controls\GameProgressbar.cs" />
     <Compile Include="Controls\GameTextbox.cs" />
     <Compile Include="Factory\CodeCompiler.cs" />
     <Compile Include="Factory\CodeGenerator.cs" />

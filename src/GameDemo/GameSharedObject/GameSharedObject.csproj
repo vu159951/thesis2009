@@ -135,6 +135,7 @@
     <Compile Include="Frames\Control.cs" />
     <Compile Include="Frames\Form.cs" />
     <Compile Include="Frames\Label.cs" />
+    <Compile Include="Frames\Progressbar.cs" />
     <Compile Include="Frames\Textbox.cs" />
     <Compile Include="GlobalFunction.cs" />
     <Compile Include="IComputer.cs" />

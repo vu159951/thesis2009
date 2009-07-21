@@ -26,6 +26,7 @@ namespace GameComputer
 
         protected int _delayTime = 0;
         private int _lastTickCount = System.Environment.TickCount;
+        private Random rnd = new Random(DateTime.Now.Millisecond);
 
         public AIDTO Ai
         {
@@ -68,42 +69,41 @@ namespace GameComputer
             if ((System.Environment.TickCount - this._lastTickCount) > this._delayTime * 1000)
             {
                 this._lastTickCount = System.Environment.TickCount;
-                Random ran = new Random(DateTime.Now.Millisecond);
-                int idAction = this._actionIds[ran.Next(0, 100)];
+                int idAction = this._actionIds[rnd.Next(0, 100)];
                 string nameAction = this._actionNames[idAction];
                 if (nameAction == "Move")
                 {
-                    Sprite selectUnit = CommandControl.SelectUnit(ran.Next(0, this.UnitListCreated.Count), this);
+                    Sprite selectUnit = CommandControl.SelectUnit(rnd.Next(0, this.UnitListCreated.Count), this);
                     if (selectUnit.CurrentStatus.Name == StatusList.MOVE.Name || selectUnit.CurrentStatus.Name == StatusList.ATTACK.Name)
                     {
                         return;
                     }
-                    CommandControl.Move((Unit)selectUnit, new Point(ran.Next((int)selectUnit.Position.X - 100, (int)selectUnit.Position.X + 100), ran.Next((int)selectUnit.Position.Y - 100, (int)selectUnit.Position.Y + 100)));
+                    CommandControl.Move((Unit)selectUnit, new Point(rnd.Next((int)selectUnit.Position.X - 100, (int)selectUnit.Position.X + 100), rnd.Next((int)selectUnit.Position.Y - 100, (int)selectUnit.Position.Y + 100)));
                 }
                 else if (nameAction == "Attack")
                 {
                     if (this.UnitListCreated.Count > 0 || this.StructureListCreated.Count > 0)
                     {
-                        Sprite selectUnit = CommandControl.SelectUnit(ran.Next(0, this.UnitListCreated.Count), this);
+                        Sprite selectUnit = CommandControl.SelectUnit(rnd.Next(0, this.UnitListCreated.Count), this);
                         if (selectUnit is ProducerUnit || selectUnit.CurrentStatus.Name == StatusList.MOVE.Name || ((Unit)selectUnit).WhomIHit != null || selectUnit.CurrentStatus.Name == StatusList.ATTACK.Name)
                         {
                             return;
                         }
-                        int i = ran.Next(1, 3);
+                        int i = rnd.Next(1, 3);
                         Sprite sprite = null;
                         Player player = CommandControl.SelectPlayer();
                         if (i == 1)
                         {
                             if (player.UnitListCreated.Count > 0)
                             {
-                                sprite = CommandControl.SelectUnit(ran.Next(0, player.UnitListCreated.Count), player);
+                                sprite = CommandControl.SelectUnit(rnd.Next(0, player.UnitListCreated.Count), player);
                             }
                         }
                         else
                         {
                             if (player.StructureListCreated.Count > 0)
                             {
-                                sprite = CommandControl.SelectStructure(ran.Next(0, player.StructureListCreated.Count), player);
+                                sprite = CommandControl.SelectStructure(rnd.Next(0, player.StructureListCreated.Count), player);
                             }
                         }
                         if (sprite != null)
@@ -114,7 +114,7 @@ namespace GameComputer
                 }
                 else if (nameAction == "Idle")
                 {
-                    Sprite selectUnit = CommandControl.SelectUnit(ran.Next(0, this.UnitListCreated.Count), this);
+                    Sprite selectUnit = CommandControl.SelectUnit(rnd.Next(0, this.UnitListCreated.Count), this);
                     CommandControl.Idle((Unit)selectUnit);
                 }
                 else if (nameAction == "ExploitResource")
@@ -132,8 +132,8 @@ namespace GameComputer
                     {
                         return;
                     }
-                    producerUnit = temp[ran.Next(0, temp.Count)];
-                    ResourceCenter resource = (ResourceCenter)GlobalDTO.MANAGER_GAME.ListResourceCenterOnmap[ran.Next(0, GlobalDTO.MANAGER_GAME.ListResourceCenterOnmap.Count)];
+                    producerUnit = temp[rnd.Next(0, temp.Count)];
+                    ResourceCenter resource = (ResourceCenter)GlobalDTO.MANAGER_GAME.ListResourceCenterOnmap[rnd.Next(0, GlobalDTO.MANAGER_GAME.ListResourceCenterOnmap.Count)];
                     CommandControl.ExploitResource(producerUnit, resource);
                 }
                 else if (nameAction == "BuyUnit")
@@ -149,7 +149,7 @@ namespace GameComputer
                         namestructure[i] = s.Value.Info.Name;
                         i++;
                     }
-                    Structure newstructure = ((Structure)this.ModelStructureList[namestructure[ran.Next(0, namestructure.Length)]]).Clone() as Structure;
+                    Structure newstructure = ((Structure)this.ModelStructureList[namestructure[rnd.Next(0, namestructure.Length)]]).Clone() as Structure;
                     //// l?y list tên các unit mà structure này có kh? nang sinh ra
                     newstructure.ModelUnitList = new List<Unit>();
                     List<ItemInfo> uList = ((StructureDTO)newstructure.Info).UnitList;
@@ -162,7 +162,7 @@ namespace GameComputer
                             newstructure.ModelUnitList.Add(unit);
                         }
                     }
-                    CommandControl.BuyBuildStructure(this, newstructure, this.UnitListCreated[ran.Next(0, this.UnitListCreated.Count)].Position);
+                    CommandControl.BuyBuildStructure(this, newstructure, this.UnitListCreated[rnd.Next(0, this.UnitListCreated.Count)].Position);
                 }
                 else if (nameAction == "RollBackBuyUnit")
                 {
