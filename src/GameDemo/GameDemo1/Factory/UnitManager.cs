@@ -21,7 +21,7 @@ namespace GameDemo1.Factory
             attrList.Clear();
             codeGen.Load(GlobalDTO.OBJ_TEMPLATE_PATH + "Unit.cs");
             reader = new UnitDataReader();
-            attrList.Add("this.PercentSize", "0.5f");
+            attrList.Add("this.PercentSize", "0.65f");
             return base.Add(unitXmlPath, ObjSpritePath, SpecSpritePath);
         }
         /// <summary>
