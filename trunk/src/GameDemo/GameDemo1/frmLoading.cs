@@ -70,7 +70,10 @@ namespace GameDemo1
                 this.Game.Components.Add(label);
             }
         }
-
+        public void Increase()
+        {
+            pBar.Increase();
+        }
         private void pBar_ValueChanged(object sender, int value)
         {
             this.OnValueChanged(value);
