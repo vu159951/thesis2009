@@ -4,8 +4,8 @@
   <Informations>
     <Info type="" name="MaxHealth" value="50"/>
     <Info type="" name="Power" value="3" />
-    <Info type="" name="RadiusAttack" value="30" />
-    <Info type="" name="RadiusDetect" value="50" />
+    <Info type="" name="RadiusAttack" value="60" />
+    <Info type="" name="RadiusDetect" value="70" />
     <Info type="" name="Speed" value="5" />  
   </Informations>
   <Requirements>
