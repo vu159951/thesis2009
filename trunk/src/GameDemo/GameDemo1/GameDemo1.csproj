@@ -89,6 +89,7 @@
     <Compile Include="Controls\GameButton.cs" />
     <Compile Include="Controls\GameCheckbox.cs" />
     <Compile Include="Controls\GameLabel.cs" />
+    <Compile Include="Controls\GameMenu.cs" />
     <Compile Include="Controls\GameProgressbar.cs" />
     <Compile Include="Controls\GameScene.cs" />
     <Compile Include="Controls\GameTextbox.cs" />
@@ -101,6 +102,7 @@
     <Compile Include="Factory\SpriteManager.cs" />
     <Compile Include="Factory\StructureManager.cs" />
     <Compile Include="Factory\UnitManager.cs" />
+    <Compile Include="frmMain.cs" />
     <Compile Include="GameInit.cs" />
     <Compile Include="frmLoading.cs" />
     <Compile Include="MainGame.cs">
