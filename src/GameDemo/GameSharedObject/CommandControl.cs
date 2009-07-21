@@ -67,7 +67,7 @@ namespace GameSharedObject
             {
                 Sprite newStructure = structure;                
                 /// xác định các thuộc tính          
-                structure.Position = point;
+                structure.Position = point + (new Vector2(100, 100));
                 newStructure.CodeFaction = player.Code;
                 newStructure.Color = player.Color;
                 // xác định vị trí xuất hiện
