@@ -38,5 +38,11 @@ namespace GameSharedObject.DTO
             _height = matrixHeight;
             _data = new int[_width, _height];
         }
+        public MatrixDTO(int[,] value)
+        {
+            _data = value;
+            _width = _data.GetLength(0);
+            _height = _data.GetLength(1);
+        }
     }
 }
