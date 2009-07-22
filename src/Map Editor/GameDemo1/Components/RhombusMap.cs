@@ -22,7 +22,7 @@ namespace GameDemo1.Components
             this._pathSpecificationFile = pathSpecificationFile;
             ROOT_Vector2 = new Point((Config.CURRENT_CELL_SIZE.Width >> 1) * (Config.MAP_SIZE_IN_CELL.Width - 1), 0);
             Transform = new RomhbusTransform(ROOT_Vector2, Config.CURRENT_CELL_SIZE.Width, Config.CURRENT_CELL_SIZE.Height);
-
+            
             font = game.Content.Load<SpriteFont>(Config.PATH_TO_FONT);
             // get matrix from file and load map
             this._bgMatrix = MatrixMgr.Read(this._pathSpecificationFile).Data;
