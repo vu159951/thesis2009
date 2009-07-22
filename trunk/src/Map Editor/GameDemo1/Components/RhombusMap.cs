@@ -169,13 +169,13 @@ namespace GameDemo1.Components
                             (int)(this.cells[i, j].Y - this._currentRootCoordinate.Y),
                             CELL_SIZE.Width, CELL_SIZE.Height);// calculating new postion of cell with current root coodinate
                         spriteBatch.Draw(this.cells[i, j].Background, recToDraw, Color.White);
-                        spriteBatch.DrawString(
-                            font,
-                            this._bgMatrix[i, j].ToString(),
-                            new Vector2(
-                            this.cells[i, j].X - this._currentRootCoordinate.X + this.CELL_SIZE.Width / 2 - 7,
-                            this.cells[i, j].Y - this._currentRootCoordinate.Y + this.CELL_SIZE.Height / 2 - 5),
-                            Color.Red);
+                        //spriteBatch.DrawString(
+                        //    font,
+                        //    this._bgMatrix[i, j].ToString(),
+                        //    new Vector2(
+                        //    this.cells[i, j].X - this._currentRootCoordinate.X + this.CELL_SIZE.Width / 2 - 7,
+                        //    this.cells[i, j].Y - this._currentRootCoordinate.Y + this.CELL_SIZE.Height / 2 - 5),
+                        //    Color.Red);
                     }
                     catch
                     { }

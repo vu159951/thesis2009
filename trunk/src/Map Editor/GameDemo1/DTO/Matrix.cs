@@ -37,5 +37,11 @@ namespace GameDemo1.DTO
             _height = matrixHeight; 
             _data = new int[_width, _height];    
         }
+        public MatrixDTO(int[,] matrix)
+        {
+            _width = matrix.GetLength(0);
+            _height = matrix.GetLength(1);
+            _data = matrix;
+        }
     }
 }
