@@ -10,6 +10,12 @@ namespace GameSharedObject.Controls
 {
     public class GameMenu: Form
     {
+        private GameButton btn1;
+        private GameButton btn1a;
+        private GameButton btn2;
+        private GameButton btn3;
+        private GameButton btn4;
+
         public GameMenu(Game game)
             : base(game)
         {
@@ -25,38 +31,46 @@ namespace GameSharedObject.Controls
 
         public void ShowControls()
         {
-            GameButton btn1 = new GameButton(this.Game);
+            btn1 = new GameButton(this.Game);
             btn1.ForeColor = Color.Yellow;
             btn1.Text = "New campaign";
             btn1.Location = new Point(80, 65);
             btn1.Click += new Button.ClickHandler(btn1_Click);
             this.Controls.Add(btn1);
 
-            GameButton btn1a = new GameButton(this.Game);
+            btn1a = new GameButton(this.Game);
             btn1a.ForeColor = Color.Yellow;
             btn1a.Text = "Load";
             btn1a.Location = new Point(80, 125);            
             this.Controls.Add(btn1a);
 
-            GameButton btn2 = new GameButton(this.Game);
+            btn2 = new GameButton(this.Game);
             btn2.ForeColor = Color.Yellow;
             btn2.Text = "Settings";
             btn2.Location = new Point(80, 185);
             this.Controls.Add(btn2);
 
-            GameButton btn3 = new GameButton(this.Game);
+            btn3 = new GameButton(this.Game);
             btn3.ForeColor = Color.Yellow;
             btn3.Text = "About";
             btn3.Location = new Point(80, 245);
             this.Controls.Add(btn3);
 
-            GameButton btn4 = new GameButton(this.Game);
+            btn4 = new GameButton(this.Game);
             btn4.ForeColor = Color.Yellow;
             btn4.Text = "Exit";
             btn4.Location = new Point(80, 305);
             this.Controls.Add(btn4);
         }
-
+        public void UnLoad()
+        {
+            this.Game.Components.Remove(btn1);
+            this.Game.Components.Remove(btn1a);
+            this.Game.Components.Remove(btn2);
+            this.Game.Components.Remove(btn3);
+            this.Game.Components.Remove(btn4);
+            this.Game.Components.Remove(this);
+        }
         private void btn1_Click(object sender, EventArgs e) 
         {
             GlobalFunction.MessageBox("Test function");

@@ -27,5 +27,10 @@ namespace GameSharedObject
             this.Game.Components.Add(this.menu);
             this.menu.ShowControls();
         }
+        public void UnLoad()
+        {
+            this.menu.UnLoad();
+            this.Game.Components.Remove(this);
+        }
     }
 }
