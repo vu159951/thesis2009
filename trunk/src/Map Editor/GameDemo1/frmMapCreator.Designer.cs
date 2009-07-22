@@ -124,7 +124,7 @@
             // 
             // btnCreate
             // 
-            this.btnCreate.Location = new System.Drawing.Point(12, 283);
+            this.btnCreate.Location = new System.Drawing.Point(66, 161);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(147, 32);
             this.btnCreate.TabIndex = 8;
@@ -141,10 +141,11 @@
             this.label3.Size = new System.Drawing.Size(81, 16);
             this.label3.TabIndex = 0;
             this.label3.Text = "Ngưỡng trên";
+            this.label3.Visible = false;
             // 
             // txtFileName
             // 
-            this.txtFileName.Location = new System.Drawing.Point(84, 213);
+            this.txtFileName.Location = new System.Drawing.Point(84, 45);
             this.txtFileName.Name = "txtFileName";
             this.txtFileName.Size = new System.Drawing.Size(168, 22);
             this.txtFileName.TabIndex = 7;
@@ -153,7 +154,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(13, 216);
+            this.label4.Location = new System.Drawing.Point(13, 48);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(46, 16);
@@ -169,6 +170,7 @@
             this.label5.Size = new System.Drawing.Size(85, 16);
             this.label5.TabIndex = 6;
             this.label5.Text = "Ngưỡng dưới";
+            this.label5.Visible = false;
             // 
             // txtFloor
             // 
@@ -182,6 +184,7 @@
             0,
             0,
             0});
+            this.txtFloor.Visible = false;
             // 
             // txtCeiling
             // 
@@ -195,6 +198,7 @@
             0,
             0,
             0});
+            this.txtCeiling.Visible = false;
             // 
             // txtEpsilon
             // 
@@ -218,6 +222,7 @@
             0,
             0,
             0});
+            this.txtEpsilon.Visible = false;
             // 
             // label6
             // 
@@ -228,6 +233,7 @@
             this.label6.Size = new System.Drawing.Size(53, 16);
             this.label6.TabIndex = 6;
             this.label6.Text = "Epsilon";
+            this.label6.Visible = false;
             // 
             // label7
             // 
@@ -238,6 +244,7 @@
             this.label7.Size = new System.Drawing.Size(274, 16);
             this.label7.TabIndex = 7;
             this.label7.Text = "Lưu ý: Ngưỡng dưới phải nhỏ hơn ngưỡng trên";
+            this.label7.Visible = false;
             // 
             // label8
             // 
@@ -248,6 +255,7 @@
             this.label8.Size = new System.Drawing.Size(90, 16);
             this.label8.TabIndex = 0;
             this.label8.Text = "Giá trị tối thiểu";
+            this.label8.Visible = false;
             // 
             // txtMinValue
             // 
@@ -261,6 +269,7 @@
             0,
             0,
             0});
+            this.txtMinValue.Visible = false;
             // 
             // txtDistance
             // 
@@ -270,10 +279,11 @@
             this.txtDistance.TabIndex = 6;
             this.txtDistance.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtDistance.Value = new decimal(new int[] {
-            50,
+            20,
             0,
             0,
             0});
+            this.txtDistance.Visible = false;
             // 
             // label9
             // 
@@ -284,6 +294,7 @@
             this.label9.Size = new System.Drawing.Size(122, 16);
             this.label9.TabIndex = 8;
             this.label9.Text = "Khoảng cách->max";
+            this.label9.Visible = false;
             // 
             // label10
             // 

@@ -16,7 +16,7 @@ namespace GameDemo1
         /// 
         public static Size SCREEN_SIZE = new Size(1024, 700);
         public static Size MENU_PANEL_SIZE = new Size(1024, 150);
-        public static Size CURRENT_CELL_SIZE;   // get in map initialization
+        public static Size CURRENT_CELL_SIZE = new Size(97, 49);   // get in map initialization
         public static Vector2 SPEED_SCROLL = new Vector2(20, 20);
         public static Size MAP_SIZE_IN_CELL = new Size(80, 80);
         public static int DELAY_TIME = 70;   // delay time for move sprite
