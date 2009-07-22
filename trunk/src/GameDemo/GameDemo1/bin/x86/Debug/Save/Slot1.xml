@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Game>
+  <Map name="Specification\Map\Map_01.xml" />
+  <Players>
+    <Player code="1" type="Player" color="Blue">
+      <Structures>
+        <Structure name="Castle_01" type="Structure">
+          <Position X="2100" Y="2300" />
+        </Structure>
+      </Structures>
+      <Units>
+        <Unit name="Black_Angel" type="Unit">
+          <Position X="2352" Y="2092" />
+        </Unit>
+        <Unit name="Black_Angel" type="Unit">
+          <Position X="2144" Y="2144" />
+        </Unit>
+        <Unit name="Black_Angel" type="Unit">
+          <Position X="2499" Y="2173.514" />
+        </Unit>
+        <Unit name="Black_Angel" type="Unit">
+          <Position X="2625" Y="2189.035" />
+        </Unit>
+        <Unit name="Black_Angel" type="Unit">
+          <Position X="2389" Y="2371" />
+        </Unit>
+        <Unit name="Producer" type="ProducerUnit">
+          <Position X="2213" Y="2120" />
+        </Unit>
+        <Unit name="Producer" type="ProducerUnit">
+          <Position X="2136" Y="2116" />
+        </Unit>
+        <Unit name="Producer" type="ProducerUnit">
+          <Position X="2385" Y="2287" />
+        </Unit>
+      </Units>
+      <Technologies />
+    </Player>
+    <Player code="2" type="Computer" color="Red">
+      <Structures>
+        <Structure name="Castle_02" type="Structure">
+          <Position X="4700" Y="1000" />
+        </Structure>
+      </Structures>
+      <Units>
+        <Unit name="Angel" type="Unit">
+          <Position X="4606" Y="1461" />
+        </Unit>
+        <Unit name="Angel" type="Unit">
+          <Position X="4665" Y="1223" />
+        </Unit>
+        <Unit name="Angel" type="Unit">
+          <Position X="4753" Y="1214" />
+        </Unit>
+        <Unit name="Angel" type="Unit">
+          <Position X="4635" Y="1063" />
+        </Unit>
+        <Unit name="Angel" type="Unit">
+          <Position X="4682" Y="1102" />
+        </Unit>
+        <Unit name="Producer" type="ProducerUnit">
+          <Position X="4688" Y="1008" />
+        </Unit>
+        <Unit name="Producer" type="ProducerUnit">
+          <Position X="4663" Y="1494" />
+        </Unit>
+        <Unit name="Producer" type="ProducerUnit">
+          <Position X="4799" Y="1160" />
+        </Unit>
+      </Units>
+      <Technologies />
+    </Player>
+    <Player code="3" type="Computer" color="Green">
+      <Structures>
+        <Structure name="Castle_03" type="Structure">
+          <Position X="2900" Y="700" />
+        </Structure>
+        <Structure name="Smithy_03" type="ResearchStructure">
+          <Position X="2726" Y="652" />
+        </Structure>
+      </Structures>
+      <Units>
+        <Unit name="Elf_swordman" type="Unit">
+          <Position X="2829" Y="759" />
+        </Unit>
+        <Unit name="Elf_swordman" type="Unit">
+          <Position X="2543" Y="690" />
+        </Unit>
+        <Unit name="Elf_swordman" type="Unit">
+          <Position X="2707" Y="779" />
+        </Unit>
+        <Unit name="Elf_swordman" type="Unit">
+          <Position X="2573" Y="788" />
+        </Unit>
+        <Unit name="Elf_swordman" type="Unit">
+          <Position X="2690" Y="616" />
+        </Unit>
+        <Unit name="Producer" type="ProducerUnit">
+          <Position X="2587" Y="734" />
+        </Unit>
+        <Unit name="Producer" type="ProducerUnit">
+          <Position X="2547" Y="704" />
+        </Unit>
+        <Unit name="Producer" type="ProducerUnit">
+          <Position X="2710" Y="725" />
+        </Unit>
+      </Units>
+      <Technologies />
+    </Player>
+    <Player code="4" type="Computer" color="Yellow">
+      <Structures>
+        <Structure name="Castle_04" type="Structure">
+          <Position X="4900" Y="2500" />
+        </Structure>
+        <Structure name="Smithy_04" type="ResearchStructure">
+          <Position X="5182" Y="2416" />
+        </Structure>
+      </Structures>
+      <Units>
+        <Unit name="Archon_Archer" type="Unit">
+          <Position X="4791" Y="2128" />
+        </Unit>
+        <Unit name="Archon_Archer" type="Unit">
+          <Position X="4640" Y="2430" />
+        </Unit>
+        <Unit name="Archon_Archer" type="Unit">
+          <Position X="4958" Y="2315" />
+        </Unit>
+        <Unit name="Archon_Archer" type="Unit">
+          <Position X="5071" Y="2093" />
+        </Unit>
+        <Unit name="Archon_Archer" type="Unit">
+          <Position X="5146" Y="2380" />
+        </Unit>
+        <Unit name="Producer" type="ProducerUnit">
+          <Position X="4467" Y="2219" />
+        </Unit>
+        <Unit name="Producer" type="ProducerUnit">
+          <Position X="4594" Y="2475" />
+        </Unit>
+        <Unit name="Producer" type="ProducerUnit">
+          <Position X="5060" Y="2366" />
+        </Unit>
+      </Units>
+      <Technologies />
+    </Player>
+  </Players>
+  <ResourceCenters>
+    <ResourceCenter name="StoneResourceCenter">
+      <Position X="3000" Y="3000" />
+    </ResourceCenter>
+    <ResourceCenter name="GoldResourceCenter">
+      <Position X="1000" Y="2000" />
+    </ResourceCenter>
+  </ResourceCenters>
+</Game>
