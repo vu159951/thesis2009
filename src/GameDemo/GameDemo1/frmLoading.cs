@@ -73,9 +73,9 @@ namespace GameDemo1
         public void Unload()
         {
             // clear screeb
-            this.Game.Components.RemoveAt(0);
-            this.Game.Components.RemoveAt(1);
-            this.Game.Components.RemoveAt(2);
+            this.Game.Components.Remove(label);
+            this.Game.Components.Remove(pBar);
+            this.Game.Components.Remove(this);
         }
 
         public void Increase()

@@ -32856,6 +32856,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Images\Button\Menu\menu02.png">
+      <Name>menu02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Folder Include="Sprites\Structure\Draconian_Domicile_01\" />
     <Folder Include="Sprites\Structure\Draconian_Domicile_02\" />
     <Folder Include="Sprites\Structure\Draconian_Domicile_03\" />

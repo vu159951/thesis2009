@@ -103,6 +103,7 @@
     <Compile Include="Factory\StructureManager.cs" />
     <Compile Include="Factory\UnitManager.cs" />
     <Compile Include="frmMain.cs" />
+    <Compile Include="frmSetting.cs" />
     <Compile Include="GameInit.cs" />
     <Compile Include="frmLoading.cs" />
     <Compile Include="MainGame.cs">
