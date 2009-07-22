@@ -63,7 +63,7 @@ namespace GameSharedObject.Frames
             if (_value == 100)
                 return;
 
-            if (_autoIncrease && Environment.TickCount - lastTickCount >= 500){
+            if (_autoIncrease && Environment.TickCount - lastTickCount >= 300){
                 _value++;
                 lastTickCount = Environment.TickCount;
             }
