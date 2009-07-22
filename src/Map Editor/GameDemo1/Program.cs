@@ -12,7 +12,11 @@ namespace GameDemo1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            using (CreateTerrains game = new CreateTerrains()) { game.Run(); }
+            try
+            {
+                using (CreateTerrains game = new CreateTerrains()) { game.Run(); }
+            }
+            catch { }
         }
     }
 }

@@ -6,6 +6,7 @@ using System.Xml;
 using Microsoft.Xna.Framework;
 using GameDemo1.Components;
 using System.Windows.Forms;
+using GameDemo1.Data;
 
 namespace GameDemo1.ButtonEvent
 {
@@ -33,6 +34,7 @@ namespace GameDemo1.ButtonEvent
                 }
                 if (MessageBox.Show("Save it ? ", "Save dialog", MessageBoxButtons.OKCancel) == DialogResult.OK){
                     doc.Save(Config.PATH_SAVE_FILE + filename + ".xml");
+                    MatrixMgr.Save(Config.PATH_SAVE_FILE + filename + ".oms", new GameDemo1.DTO.MatrixDTO(Config.OccupiedMatrix));
                     return true;
                 }
                 return false;
@@ -46,8 +48,7 @@ namespace GameDemo1.ButtonEvent
 
         public static void CloseButton()
         {
-            if (MessageBox.Show("Exit ?", "Message", MessageBoxButtons.OKCancel) == DialogResult.OK)
-            {
+            if (MessageBox.Show("Exit ?", "Message", MessageBoxButtons.OKCancel) == DialogResult.OK){
                 Application.Exit();
             }
         }

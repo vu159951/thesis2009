@@ -57,16 +57,23 @@ namespace GameDemo1
         }
         public static MatrixDTO Generate(int width, int height)
         {
+            return Generate(width, height, 100); ;
+        }
+        public static MatrixDTO Generate(int width, int height, int firstCellId)
+        {
             MatrixDTO matrix = new MatrixDTO(width, height);
-            for (int j = 0; j < height; j++){
-                for (int i = 0; i < width; i++){
+            for (int j = 0; j < height; j++)
+            {
+                for (int i = 0; i < width; i++)
+                {
                     int[] neighbourCell = GetNeighbourCell(matrix, new Point(i, j));
                     neighbourCell[2] = -1;  // chỉ xét ô láng giềng ở hướng 1 và 2
                     neighbourCell[3] = -1;  // chỉ xét ô láng giềng ở hướng 1 và 2
-                    if (GetNeighbourCellQuantity(neighbourCell) == 0)
+                    if (GetNeighbourCellQuantity(neighbourCell) == 0){
+                        matrix.Data[i, j] = firstCellId;
+                    }
+                    else
                     {
-                        matrix.Data[i, j] = 100;
-                    }else{
                         matrix.Data[i, j] = FindMapCell(neighbourCell);
                         a = i; b = j;
                     }

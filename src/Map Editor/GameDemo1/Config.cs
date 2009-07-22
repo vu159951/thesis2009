@@ -31,6 +31,7 @@ namespace GameDemo1
         public static string PATH_TO_CURSOR_IMAGE = "Cursor\\";
         public static string PATH_TO_FONT = "Font\\Courier New";
         public static string PATH_TO_MAP = "Map\\";
+        public static string PATH_SAVE_FILE = "Save//";
 
         public static string CURSOR = "cursor1";
         public static string MENU_PANEL = "menuPanel2";
@@ -38,5 +39,8 @@ namespace GameDemo1
         public static Vector2 CURRENT_COORDINATE = START_COORDINATE;
 
         public static string SPEC_MAP_CELL_GROUP_PATH = "Specification\\MapCellGroup.xml";
+        public static String IMAGE_SPECIFICATION = @"Specification\MapCellData\\Details.xml";
+        public static String IMAGE_PATH = "Preview\\";
+        public static int[,] OccupiedMatrix;
     }
 }

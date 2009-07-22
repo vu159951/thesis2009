@@ -67,6 +67,14 @@ namespace GameDemo1
             this._manager.Filename = frm.Filename;
             this._manager.Mapstr = frm.map;
             this._manager.Map = new RhombusMap(this, Config.PATH_TO_MAP + this._manager.Mapstr.Replace(" ","_") + ".txt", Config.START_COORDINATE);
+            Config.OccupiedMatrix = new int[Config.MAP_SIZE_IN_CELL.Width, Config.MAP_SIZE_IN_CELL.Height];
+
+            // Initialize occupied matrix
+            for (int j = 0; j < Config.MAP_SIZE_IN_CELL.Height; j++){
+                for (int i = 0; i < Config.MAP_SIZE_IN_CELL.Width; i++){
+                    Config.OccupiedMatrix[i, j] = 0;
+                }
+            }
             this.Components.Add(this._manager.Map);
 
             // add cursor finally

@@ -46,6 +46,8 @@
             this.txtMinValue = new System.Windows.Forms.NumericUpDown();
             this.txtDistance = new System.Windows.Forms.NumericUpDown();
             this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.imageListView1 = new MapImage.ImageListView();
             ((System.ComponentModel.ISupportInitialize)(this.txtWidth)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtHeight)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtFloor)).BeginInit();
@@ -255,7 +257,7 @@
             this.txtMinValue.TabIndex = 5;
             this.txtMinValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtMinValue.Value = new decimal(new int[] {
-            20,
+            14,
             0,
             0,
             0});
@@ -268,7 +270,7 @@
             this.txtDistance.TabIndex = 6;
             this.txtDistance.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtDistance.Value = new decimal(new int[] {
-            14,
+            50,
             0,
             0,
             0});
@@ -283,12 +285,32 @@
             this.label9.TabIndex = 8;
             this.label9.Text = "Khoảng cách->max";
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(301, 13);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(123, 16);
+            this.label10.TabIndex = 10;
+            this.label10.Text = "Choose the first cell";
+            // 
+            // imageListView1
+            // 
+            this.imageListView1.Location = new System.Drawing.Point(295, 33);
+            this.imageListView1.Margin = new System.Windows.Forms.Padding(4);
+            this.imageListView1.Name = "imageListView1";
+            this.imageListView1.Path = null;
+            this.imageListView1.Size = new System.Drawing.Size(166, 283);
+            this.imageListView1.TabIndex = 9;
+            // 
             // frmMapCreator
             // 
             this.AcceptButton = this.btnCreate;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(304, 329);
+            this.ClientSize = new System.Drawing.Size(473, 329);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.imageListView1);
             this.Controls.Add(this.txtDistance);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label7);
@@ -315,6 +337,7 @@
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Background Creator";
+            this.Load += new System.EventHandler(this.frmMapCreator_Load);
             ((System.ComponentModel.ISupportInitialize)(this.txtWidth)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtHeight)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtFloor)).EndInit();
@@ -347,5 +370,7 @@
         private System.Windows.Forms.NumericUpDown txtMinValue;
         private System.Windows.Forms.NumericUpDown txtDistance;
         private System.Windows.Forms.Label label9;
+        private MapImage.ImageListView imageListView1;
+        private System.Windows.Forms.Label label10;
     }
 }
