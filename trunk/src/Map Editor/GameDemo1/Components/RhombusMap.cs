@@ -12,7 +12,6 @@ namespace GameDemo1.Components
 {
     public class RhombusMap : Map
     {
-        public readonly System.Drawing.Size CELL_SIZE = new System.Drawing.Size(97, 49);
         public readonly Point ROOT_Vector2;
         public SpriteFont font;
 
@@ -21,9 +20,8 @@ namespace GameDemo1.Components
         {
             this._currentRootCoordinate = currentrootcoordiante;
             this._pathSpecificationFile = pathSpecificationFile;
-            Config.CURRENT_CELL_SIZE = CELL_SIZE;
-            ROOT_Vector2 = new Point((CELL_SIZE.Width >> 1) * (Config.MAP_SIZE_IN_CELL.Width - 1), 0);
-            Transform = new RomhbusTransform(ROOT_Vector2, CELL_SIZE.Width, CELL_SIZE.Height);
+            ROOT_Vector2 = new Point((Config.CURRENT_CELL_SIZE.Width >> 1) * (Config.MAP_SIZE_IN_CELL.Width - 1), 0);
+            Transform = new RomhbusTransform(ROOT_Vector2, Config.CURRENT_CELL_SIZE.Width, Config.CURRENT_CELL_SIZE.Height);
 
             font = game.Content.Load<SpriteFont>(Config.PATH_TO_FONT);
             // get matrix from file and load map
@@ -45,9 +43,9 @@ namespace GameDemo1.Components
             if (keyState.IsKeyDown(Keys.Down))
             {
                 this._currentRootCoordinate.Y += Config.SPEED_SCROLL.Y;// scrool down
-                if (this._currentRootCoordinate.Y > (Config.MAP_SIZE_IN_CELL.Height * CELL_SIZE.Height - Game.Window.ClientBounds.Height))
+                if (this._currentRootCoordinate.Y > (Config.MAP_SIZE_IN_CELL.Height * Config.CURRENT_CELL_SIZE.Height - Game.Window.ClientBounds.Height))
                 {
-                    this._currentRootCoordinate.Y = Config.MAP_SIZE_IN_CELL.Height * CELL_SIZE.Height - Game.Window.ClientBounds.Height;
+                    this._currentRootCoordinate.Y = Config.MAP_SIZE_IN_CELL.Height * Config.CURRENT_CELL_SIZE.Height - Game.Window.ClientBounds.Height;
                 }
             }
             if (keyState.IsKeyDown(Keys.Left))
@@ -61,9 +59,9 @@ namespace GameDemo1.Components
             if (keyState.IsKeyDown(Keys.Right))
             {
                 this._currentRootCoordinate.X += Config.SPEED_SCROLL.X; // scroll right
-                if (this._currentRootCoordinate.X > (Config.MAP_SIZE_IN_CELL.Width * CELL_SIZE.Width - Game.Window.ClientBounds.Width))
+                if (this._currentRootCoordinate.X > (Config.MAP_SIZE_IN_CELL.Width * Config.CURRENT_CELL_SIZE.Width - Game.Window.ClientBounds.Width))
                 {
-                    this._currentRootCoordinate.X = Config.MAP_SIZE_IN_CELL.Width * CELL_SIZE.Width - Game.Window.ClientBounds.Width;
+                    this._currentRootCoordinate.X = Config.MAP_SIZE_IN_CELL.Width * Config.CURRENT_CELL_SIZE.Width - Game.Window.ClientBounds.Width;
                 }
             }
             Config.CURRENT_COORDINATE = this._currentRootCoordinate;
@@ -92,17 +90,17 @@ namespace GameDemo1.Components
             if (mouseState.X >= Game.Window.ClientBounds.Width - Config.CURSOR_SIZE.Width)
             {
                 this._currentRootCoordinate.X += Config.SPEED_SCROLL.X; // scroll right
-                if (this._currentRootCoordinate.X > (Config.MAP_SIZE_IN_CELL.Width * CELL_SIZE.Width - Game.Window.ClientBounds.Width))
+                if (this._currentRootCoordinate.X > (Config.MAP_SIZE_IN_CELL.Width * Config.CURRENT_CELL_SIZE.Width - Game.Window.ClientBounds.Width))
                 {
-                    this._currentRootCoordinate.X = Config.MAP_SIZE_IN_CELL.Width * CELL_SIZE.Width - Game.Window.ClientBounds.Width;
+                    this._currentRootCoordinate.X = Config.MAP_SIZE_IN_CELL.Width * Config.CURRENT_CELL_SIZE.Width - Game.Window.ClientBounds.Width;
                 }
             }
             if (mouseState.Y >= Game.Window.ClientBounds.Height - Config.CURSOR_SIZE.Height)
             {
                 this._currentRootCoordinate.Y += Config.SPEED_SCROLL.Y;// scrool down
-                if (this._currentRootCoordinate.Y > (Config.MAP_SIZE_IN_CELL.Height * CELL_SIZE.Height - Game.Window.ClientBounds.Height))
+                if (this._currentRootCoordinate.Y > (Config.MAP_SIZE_IN_CELL.Height * Config.CURRENT_CELL_SIZE.Height - Game.Window.ClientBounds.Height))
                 {
-                    this._currentRootCoordinate.Y = Config.MAP_SIZE_IN_CELL.Height * CELL_SIZE.Height - Game.Window.ClientBounds.Height;
+                    this._currentRootCoordinate.Y = Config.MAP_SIZE_IN_CELL.Height * Config.CURRENT_CELL_SIZE.Height - Game.Window.ClientBounds.Height;
                 }
             }
             Config.CURRENT_COORDINATE = this._currentRootCoordinate;
@@ -167,14 +165,14 @@ namespace GameDemo1.Components
                         Rectangle recToDraw = new Rectangle(
                             (int)(this.cells[i, j].X - this._currentRootCoordinate.X),
                             (int)(this.cells[i, j].Y - this._currentRootCoordinate.Y),
-                            CELL_SIZE.Width, CELL_SIZE.Height);// calculating new postion of cell with current root coodinate
+                            Config.CURRENT_CELL_SIZE.Width, Config.CURRENT_CELL_SIZE.Height);// calculating new postion of cell with current root coodinate
                         spriteBatch.Draw(this.cells[i, j].Background, recToDraw, Color.White);
                         //spriteBatch.DrawString(
                         //    font,
                         //    this._bgMatrix[i, j].ToString(),
                         //    new Vector2(
-                        //    this.cells[i, j].X - this._currentRootCoordinate.X + this.CELL_SIZE.Width / 2 - 7,
-                        //    this.cells[i, j].Y - this._currentRootCoordinate.Y + this.CELL_SIZE.Height / 2 - 5),
+                        //    this.cells[i, j].X - this._currentRootCoordinate.X + this.Config.CURRENT_CELL_SIZE.Width / 2 - 7,
+                        //    this.cells[i, j].Y - this._currentRootCoordinate.Y + this.Config.CURRENT_CELL_SIZE.Height / 2 - 5),
                         //    Color.Red);
                     }
                     catch
@@ -187,9 +185,9 @@ namespace GameDemo1.Components
         {
             this.cells = new MapCell[Config.MAP_SIZE_IN_CELL.Width, Config.MAP_SIZE_IN_CELL.Height];
 
-            // Vector2 I = new Vector2(((Config.MAP_SIZE_IN_CELL.Width * CELL_SIZE.Width) >> 1) - CELL_SIZE.Width >> 1, 0);
-            int HalfOfCellSizeX = CELL_SIZE.Width >> 1;
-            int HalfOfCellSizeY = CELL_SIZE.Height>> 1;
+            // Vector2 I = new Vector2(((Config.MAP_SIZE_IN_CELL.Width * Config.CURRENT_CELL_SIZE.Width) >> 1) - Config.CURRENT_CELL_SIZE.Width >> 1, 0);
+            int HalfOfCellSizeX = Config.CURRENT_CELL_SIZE.Width >> 1;
+            int HalfOfCellSizeY = Config.CURRENT_CELL_SIZE.Height>> 1;
 
             for (int j = 0; j < Config.MAP_SIZE_IN_CELL.Height; j++){
                 for (int i = 0; i < Config.MAP_SIZE_IN_CELL.Width; i++)
