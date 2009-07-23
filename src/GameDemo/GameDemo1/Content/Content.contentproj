@@ -32863,6 +32863,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Images\Background\style002.png">
+      <Name>style002</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Folder Include="Sprites\Structure\Draconian_Domicile_01\" />
     <Folder Include="Sprites\Structure\Draconian_Domicile_02\" />
     <Folder Include="Sprites\Structure\Draconian_Domicile_03\" />
