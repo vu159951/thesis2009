@@ -62,13 +62,20 @@ namespace GameSharedObject
         }
         public static void SetOccupiedCellsToMatrix(Sprite terrain)
         {
-            Point from = GlobalDTO.MANAGER_GAME.Map.Transform.PointToCell(new Point((int)terrain.Position.X, (int)terrain.Position.Y + (terrain.Size.Width / 3)));
-            Point to = GlobalDTO.MANAGER_GAME.Map.Transform.PointToCell(new Point((int)terrain.Position.X + terrain.Size.Width, (int)terrain.Position.Y + terrain.Size.Height));
-            for (int i = from.X; i < to.X; i++)            {
-                for (int j = from.Y; j < to.Y; j++){
-                    GlobalDTO.MANAGER_GAME.Map.OccupiedMatrix[i, j] = 1;
+            Point from = GlobalDTO.MANAGER_GAME.Map.Transform.PointToCell(new Point((int)terrain.Position.X, (int)terrain.Position.Y + (terrain.Size.Height / 4)));
+            Point to = GlobalDTO.MANAGER_GAME.Map.Transform.PointToCell(new Point((int)(terrain.Position.X + terrain.Size.Width), (int)(terrain.Position.Y + terrain.Size.Height)));
+            for (int i = from.X + 2; i < to.X + 2; i++)
+            {
+                for (int j = from.Y + 1; j < to.Y + 1; j++)
+                {
+                    try
+                    {
+                        GlobalDTO.MANAGER_GAME.Map.OccupiedMatrix[i, j] = 1;
+                    }
+                    catch
+                    { }
                 }
-            }
+            }            
         }
 
         #region Alert for testing

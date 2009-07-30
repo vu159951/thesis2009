@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Sprite name="Bomb" type="Particle" path="Particle\\Bomb\\">
+  <!-- Default icon image: Icon.png  -->
+  <Informations>    
+  </Informations>
+  <Requirements>    
+  </Requirements>
+  <ListUnits>    
+  </ListUnits>
+  <Action>
+    <IDLE>
+      <S>
+        <Image name="image180"/>
+        <Image name="image181"/>
+        <Image name="image182"/>
+        <Image name="image183"/>
+        <Image name="image184"/>
+        <Image name="image185"/>
+        <Image name="image186"/>
+        <Image name="image187"/>
+        <Image name="image188"/>
+        <Image name="image189"/>
+		<Image name="image190"/>
+		<Image name="image191"/>   
+		<Image name="image192"/>   
+		<Image name="image193"/>   
+		<Image name="image194"/>   
+		<Image name="image195"/>   
+      </S>
+      <ES>
+      </ES>
+      <E>
+      </E>
+      <EN>
+      </EN>
+      <N>
+      </N>
+      <WN>
+      </WN>
+      <W></W>
+      <WS>
+      </WS>
+    </IDLE>
+    <WALK>
+      <S>
+      </S>
+      <ES>
+      </ES>
+      <E>
+      </E>
+      <EN>
+      </EN>
+      <N>
+      </N>
+      <WN>
+      </WN>
+      <W>
+      </W>
+      <WS>
+      </WS>
+    </WALK>
+    <ATTACK>
+      <S>
+      </S>
+      <ES>
+      </ES>
+      <E></E>
+      <EN>
+      </EN>
+      <N>
+      </N>
+      <WN>
+      </WN>
+      <W></W>
+      <WS>
+      </WS>
+    </ATTACK>
+    <HIT>
+      <S>
+      </S>
+      <ES>
+      </ES>
+      <E>
+      </E>
+      <EN>
+      </EN>
+      <N>
+      </N>
+      <WN>
+      </WN>
+      <W></W>
+      <WS>
+      </WS>
+    </HIT>
+    <DEAD>
+      <S>        
+      </S>
+      <ES>
+      </ES>
+      <E>
+      </E>
+      <EN>
+      </EN>
+      <N>
+      </N>
+      <WN>
+      </WN>
+      <W>
+      </W>
+      <WS>
+      </WS>
+    </DEAD>
+  </Action>
+</Sprite>

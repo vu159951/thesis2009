@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Sprite name="Lightning" type="Particle" path="Particle\\Lightning\\">
+  <!-- Default icon image: Icon.png  -->
+  <Informations>    
+  </Informations>
+  <Requirements>    
+  </Requirements>
+  <ListUnits>    
+  </ListUnits>
+  <Action>
+    <IDLE>
+      <S>
+        <Image name="image326"/>
+        <Image name="image327"/>
+        <Image name="image328"/>
+        <Image name="image329"/>
+        <Image name="image330"/>
+        <Image name="image331"/>
+        <Image name="image332"/>
+        <Image name="image333"/>
+        <Image name="image334"/>
+        <Image name="image335"/>
+        <Image name="image336"/>
+        <Image name="image337"/>
+        <Image name="image338"/>
+        <Image name="image339"/>
+      </S>
+      <ES>
+      </ES>
+      <E>
+      </E>
+      <EN>
+      </EN>
+      <N>
+      </N>
+      <WN>
+      </WN>
+      <W></W>
+      <WS>
+      </WS>
+    </IDLE>
+    <WALK>
+      <S>
+      </S>
+      <ES>
+      </ES>
+      <E>
+      </E>
+      <EN>
+      </EN>
+      <N>
+      </N>
+      <WN>
+      </WN>
+      <W>
+      </W>
+      <WS>
+      </WS>
+    </WALK>
+    <ATTACK>
+      <S>
+      </S>
+      <ES>
+      </ES>
+      <E></E>
+      <EN>
+      </EN>
+      <N>
+      </N>
+      <WN>
+      </WN>
+      <W></W>
+      <WS>
+      </WS>
+    </ATTACK>
+    <HIT>
+      <S>
+      </S>
+      <ES>
+      </ES>
+      <E>
+      </E>
+      <EN>
+      </EN>
+      <N>
+      </N>
+      <WN>
+      </WN>
+      <W></W>
+      <WS>
+      </WS>
+    </HIT>
+    <DEAD>
+      <S>        
+      </S>
+      <ES>
+      </ES>
+      <E>
+      </E>
+      <EN>
+      </EN>
+      <N>
+      </N>
+      <WN>
+      </WN>
+      <W>
+      </W>
+      <WS>
+      </WS>
+    </DEAD>
+  </Action>
+</Sprite>

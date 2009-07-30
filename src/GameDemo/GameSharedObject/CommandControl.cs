@@ -86,6 +86,7 @@ namespace GameSharedObject
                 AudioGame au = new AudioGame(GlobalDTO.GAME);
                 au.PlaySoundEffectGame("startbuild", 0.15f, 0.0f);
                 au.Dispose();
+                GlobalFunction.SetOccupiedCellsToMatrix(newStructure);
             }
         }                        
 

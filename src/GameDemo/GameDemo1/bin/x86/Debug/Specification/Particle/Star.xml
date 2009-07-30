@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Sprite name="Star" type="Particle" path="Particle\\Star\\">
+  <!-- Default icon image: Icon.png  -->
+  <Informations>    
+  </Informations>
+  <Requirements>    
+  </Requirements>
+  <ListUnits>    
+  </ListUnits>
+  <Action>
+    <IDLE>
+      <S>
+        <Image name="00010"/>
+        <Image name="00011"/>
+        <Image name="00012"/>
+        <Image name="00013"/>
+        <Image name="00014"/>
+        <Image name="00015"/>
+        <Image name="00016"/>
+        <Image name="00017"/>
+        <Image name="00018"/>
+        <Image name="00019"/>
+		    <Image name="00020"/>
+		    <Image name="00021"/>
+		    <Image name="00022"/>
+		    <Image name="00023"/>
+		    <Image name="00024"/>
+		    <Image name="00025"/>
+		    <Image name="00026"/>
+		    <Image name="00027"/>
+		    <Image name="00028"/>
+		    <Image name="00029"/>
+		    <Image name="00030"/>
+		    <Image name="00031"/>
+		    <Image name="00032"/>
+		    <Image name="00033"/>
+		    <Image name="00034"/>
+		    <Image name="00035"/>
+		    <Image name="00036"/>
+		    <Image name="00037"/>
+		    <Image name="00038"/>
+		    <Image name="00039"/>
+		    <Image name="00040"/>		   
+      </S>
+      <ES>
+      </ES>
+      <E>
+      </E>
+      <EN>
+      </EN>
+      <N>
+      </N>
+      <WN>
+      </WN>
+      <W></W>
+      <WS>
+      </WS>
+    </IDLE>
+    <WALK>
+      <S>
+      </S>
+      <ES>
+      </ES>
+      <E>
+      </E>
+      <EN>
+      </EN>
+      <N>
+      </N>
+      <WN>
+      </WN>
+      <W>
+      </W>
+      <WS>
+      </WS>
+    </WALK>
+    <ATTACK>
+      <S>
+      </S>
+      <ES>
+      </ES>
+      <E></E>
+      <EN>
+      </EN>
+      <N>
+      </N>
+      <WN>
+      </WN>
+      <W></W>
+      <WS>
+      </WS>
+    </ATTACK>
+    <HIT>
+      <S>
+      </S>
+      <ES>
+      </ES>
+      <E>
+      </E>
+      <EN>
+      </EN>
+      <N>
+      </N>
+      <WN>
+      </WN>
+      <W></W>
+      <WS>
+      </WS>
+    </HIT>
+    <DEAD>
+      <S>        
+      </S>
+      <ES>
+      </ES>
+      <E>
+      </E>
+      <EN>
+      </EN>
+      <N>
+      </N>
+      <WN>
+      </WN>
+      <W>
+      </W>
+      <WS>
+      </WS>
+    </DEAD>
+  </Action>
+</Sprite>

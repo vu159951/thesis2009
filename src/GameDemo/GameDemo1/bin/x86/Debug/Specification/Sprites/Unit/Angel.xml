@@ -7,7 +7,7 @@
     <Info type="" name="RadiusAttack" value="60" />
     <Info type="" name="RadiusDetect" value="150" />
     <Info type="" name="Speed" value="5" />
-    <Info type="" name="AttackParticle" value="Boiling Fury Fire" />
+    <Info type="" name="AttackParticle" value="Lightning" />
   </Informations>
   <Requirements>
     <Upgrade name="1" id="1">
