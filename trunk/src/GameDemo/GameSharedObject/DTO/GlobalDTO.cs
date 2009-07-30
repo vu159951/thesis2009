@@ -57,7 +57,7 @@ namespace GameSharedObject.DTO
         public static string CURSOR_SPECIAL = "cursor3";
         public static string MENU_PANEL_BOTTOM = "menuPanel2";
         public static string MENU_PANEL_TOP = "menuPanel2";
-        public static string MAP = "Map_01";
+        public static string MAP = "Map_04";
         public static string AI_ACTION_FILE_NAME = "Action";
         public static string AI_ACTION_PATH = "AIPlugins\\";
 
