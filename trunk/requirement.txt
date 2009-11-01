@@ -1,0 +1,7 @@
+- Microsoft XNA Framework Redistributable 3.0
++ URL: http://www.microsoft.com/downloads/details.aspx?FamilyId=6521D889-5414-49B8-AB32-E3FFF05A4C50&displaylang=en
++ Direct: http://download.microsoft.com/download/0/f/f/0ff8780d-f50a-41ef-a31a-09db7c0589a2/xnafx30_redist.msi
+
+- .NET Framework Version 2.0
+ + URL: http://www.microsoft.com/downloads/details.aspx?familyid=0856eacb-4362-4b0d-8edd-aab15c5e04f5&displaylang=en
+ + Direct Link: http://www.microsoft.com/downloads/info.aspx?na=90&p=&SrcDisplayLang=en&SrcCategoryId=&SrcFamilyId=0856eacb-4362-4b0d-8edd-aab15c5e04f5&u=http%3a%2f%2fdownload.microsoft.com%2fdownload%2f5%2f6%2f7%2f567758a3-759e-473e-bf8f-52154438565a%2fdotnetfx.exe
